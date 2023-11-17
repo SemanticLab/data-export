@@ -1,0 +1,1162 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "semlab": "https://base.semlab.io/entity/",
+    "lj": "http://linkedjazz.org/ontology/",
+    "mo": "http://purl.org/ontology/mo/",
+    "rel": "http://purl.org/vocab/relationship/",
+    "schema": "https://schema.org/",
+    "RelEvent": "https://base.semlab.io/entity/Q27035",
+    "mainSubject": {
+      "@id": "http://base.semlab.io/entity/P77",
+      "@type": "rdf:Property"
+    },
+    "sender": {
+      "@id": "http://base.semlab.io/entity/P78",
+      "@type": "rdf:Property"
+    },
+    "addressee": {
+      "@id": "http://base.semlab.io/entity/P79",
+      "@type": "rdf:Property"
+    },
+    "copyrightHolder": {
+      "@id": "http://base.semlab.io/entity/P81",
+      "@type": "rdf:Property"
+    },
+    "title": {
+      "@id": "http://base.semlab.io/entity/P82",
+      "@type": "rdf:Property"
+    },
+    "documentType": {
+      "@id": "http://base.semlab.io/entity/P83",
+      "@type": "rdf:Property"
+    },
+    "publisher": {
+      "@id": "http://base.semlab.io/entity/P84",
+      "@type": "rdf:Property"
+    },
+    "designer": {
+      "@id": "http://base.semlab.io/entity/P85",
+      "@type": "rdf:Property"
+    },
+    "editor": {
+      "@id": "http://base.semlab.io/entity/P86",
+      "@type": "rdf:Property"
+    },
+    "pageNumber": {
+      "@id": "http://base.semlab.io/entity/P87",
+      "@type": "rdf:Property"
+    },
+    "volume": {
+      "@id": "http://base.semlab.io/entity/P88",
+      "@type": "rdf:Property"
+    },
+    "issueNumber": {
+      "@id": "http://base.semlab.io/entity/P89",
+      "@type": "rdf:Property"
+    },
+    "sectionHeader": {
+      "@id": "http://base.semlab.io/entity/P90",
+      "@type": "rdf:Property"
+    },
+    "author": {
+      "@id": "http://base.semlab.io/entity/P91",
+      "@type": "rdf:Property"
+    },
+    "participantGroup": {
+      "@id": "http://base.semlab.io/entity/P92",
+      "@type": "rdf:Property"
+    },
+    "participatedIn": {
+      "@id": "http://base.semlab.io/entity/P93",
+      "@type": "rdf:Property"
+    },
+    "mentions": {
+      "@id": "http://base.semlab.io/entity/P94",
+      "@type": "rdf:Property"
+    },
+    "discusses": {
+      "@id": "http://base.semlab.io/entity/P95",
+      "@type": "rdf:Property"
+    },
+    "partOf": {
+      "@id": "http://base.semlab.io/entity/P96",
+      "@type": "rdf:Property"
+    },
+    "documentTypeGettyAatId": {
+      "@id": "http://base.semlab.io/entity/P97",
+      "@type": "rdf:Property"
+    },
+    "date": {
+      "@id": "http://base.semlab.io/entity/P98",
+      "@type": "rdf:Property"
+    },
+    "subtitle": {
+      "@id": "http://base.semlab.io/entity/P100",
+      "@type": "rdf:Property"
+    },
+    "numberOfPages": {
+      "@id": "http://base.semlab.io/entity/P101",
+      "@type": "rdf:Property"
+    },
+    "collectionCreator": {
+      "@id": "http://base.semlab.io/entity/P102",
+      "@type": "rdf:Property"
+    },
+    "publishedIn": {
+      "@id": "http://base.semlab.io/entity/P103",
+      "@type": "rdf:Property"
+    },
+    "placeOfPublication": {
+      "@id": "http://base.semlab.io/entity/P104",
+      "@type": "rdf:Property"
+    },
+    "statedIn": {
+      "@id": "http://base.semlab.io/entity/P105",
+      "@type": "rdf:Property"
+    },
+    "languageOfWork": {
+      "@id": "http://base.semlab.io/entity/P106",
+      "@type": "rdf:Property"
+    },
+    "dateType": {
+      "@id": "http://base.semlab.io/entity/P107",
+      "@type": "rdf:Property"
+    },
+    "employer": {
+      "@id": "http://base.semlab.io/entity/P110",
+      "@type": "rdf:Property"
+    },
+    "wasInvitedTo": {
+      "@id": "http://base.semlab.io/entity/P111",
+      "@type": "rdf:Property"
+    },
+    "relativeOf": {
+      "@id": "http://base.semlab.io/entity/P113",
+      "@type": "rdf:Property"
+    },
+    "referenceUrl": {
+      "@id": "http://base.semlab.io/entity/P114",
+      "@type": "rdf:Property"
+    },
+    "educatedAt": {
+      "@id": "http://base.semlab.io/entity/P116",
+      "@type": "rdf:Property"
+    },
+    "role": {
+      "@id": "http://base.semlab.io/entity/P117",
+      "@type": "rdf:Property"
+    },
+    "member": {
+      "@id": "http://base.semlab.io/entity/P118",
+      "@type": "rdf:Property"
+    },
+    "instanceOf": {
+      "@id": "http://base.semlab.io/entity/P1",
+      "@type": "rdf:Property"
+    },
+    "legacyUri": {
+      "@id": "http://base.semlab.io/entity/P2",
+      "@type": "rdf:Property"
+    },
+    "thumbnail": {
+      "@id": "http://base.semlab.io/entity/P3",
+      "@type": "rdf:Property"
+    },
+    "linkedJazzCoinUrl": {
+      "@id": "http://base.semlab.io/entity/P4",
+      "@type": "rdf:Property"
+    },
+    "linkedJazzCoinInfo": {
+      "@id": "http://base.semlab.io/entity/P5",
+      "@type": "rdf:Property"
+    },
+    "linkedJazzAuthor": {
+      "@id": "http://base.semlab.io/entity/P6",
+      "@type": "rdf:Property"
+    },
+    "linkedJazzSlug": {
+      "@id": "http://base.semlab.io/entity/P7",
+      "@type": "rdf:Property"
+    },
+    "wikidataQid": {
+      "@id": "http://base.semlab.io/entity/P8",
+      "@type": "rdf:Property"
+    },
+    "wikidataUri": {
+      "@id": "http://base.semlab.io/entity/P9",
+      "@type": "rdf:Property"
+    },
+    "partOfProject": {
+      "@id": "http://base.semlab.io/entity/P11",
+      "@type": "rdf:Property"
+    },
+    "documentSourceUrl": {
+      "@id": "http://base.semlab.io/entity/P12",
+      "@type": "rdf:Property"
+    },
+    "transcriptInterviewee": {
+      "@id": "http://base.semlab.io/entity/P13",
+      "@type": "rdf:Property"
+    },
+    "transcriptInterviewer": {
+      "@id": "http://base.semlab.io/entity/P14",
+      "@type": "rdf:Property"
+    },
+    "documentSource": {
+      "@id": "http://base.semlab.io/entity/P15",
+      "@type": "rdf:Property"
+    },
+    "legacyMd5Hash": {
+      "@id": "http://base.semlab.io/entity/P16",
+      "@type": "rdf:Property"
+    },
+    "localId": {
+      "@id": "http://base.semlab.io/entity/P17",
+      "@type": "rdf:Property"
+    },
+    "legacyLinkedJazzBlockType": {
+      "@id": "http://base.semlab.io/entity/P18",
+      "@type": "rdf:Property"
+    },
+    "blockText": {
+      "@id": "http://base.semlab.io/entity/P19",
+      "@type": "rdf:Property"
+    },
+    "blockTextUrl": {
+      "@id": "http://base.semlab.io/entity/P20",
+      "@type": "rdf:Property"
+    },
+    "associatedEntities": {
+      "@id": "http://base.semlab.io/entity/P21",
+      "@type": "rdf:Property"
+    },
+    "source": {
+      "@id": "http://base.semlab.io/entity/P22",
+      "@type": "rdf:Property"
+    },
+    "speakerInBlock": {
+      "@id": "http://base.semlab.io/entity/P23",
+      "@type": "rdf:Property"
+    },
+    "parentDocument": {
+      "@id": "http://base.semlab.io/entity/P24",
+      "@type": "rdf:Property"
+    },
+    "relationshipGenerationMethod": {
+      "@id": "http://base.semlab.io/entity/P25",
+      "@type": "rdf:Property"
+    },
+    "referenceBlock": {
+      "@id": "http://base.semlab.io/entity/P26",
+      "@type": "rdf:Property"
+    },
+    "confidenceLevel": {
+      "@id": "http://base.semlab.io/entity/P27",
+      "@type": "rdf:Property"
+    },
+    "52ndStUser": {
+      "@id": "http://base.semlab.io/entity/P28",
+      "@type": "rdf:Property"
+    },
+    "knowsOf": {
+      "@id": "http://base.semlab.io/entity/P29",
+      "@type": "rdf:Property"
+    },
+    "mentorOf": {
+      "@id": "http://base.semlab.io/entity/P30",
+      "@type": "rdf:Property"
+    },
+    "collaboratedWith": {
+      "@id": "http://base.semlab.io/entity/P31",
+      "@type": "rdf:Property"
+    },
+    "acquaintanceOf": {
+      "@id": "http://base.semlab.io/entity/P32",
+      "@type": "rdf:Property"
+    },
+    "hasMet": {
+      "@id": "http://base.semlab.io/entity/P33",
+      "@type": "rdf:Property"
+    },
+    "friendOf": {
+      "@id": "http://base.semlab.io/entity/P34",
+      "@type": "rdf:Property"
+    },
+    "inMusicGroupWith": {
+      "@id": "http://base.semlab.io/entity/P35",
+      "@type": "rdf:Property"
+    },
+    "playedWith": {
+      "@id": "http://base.semlab.io/entity/P36",
+      "@type": "rdf:Property"
+    },
+    "playedUnder": {
+      "@id": "http://base.semlab.io/entity/P37",
+      "@type": "rdf:Property"
+    },
+    "touredWith": {
+      "@id": "http://base.semlab.io/entity/P38",
+      "@type": "rdf:Property"
+    },
+    "influencedBy": {
+      "@id": "http://base.semlab.io/entity/P39",
+      "@type": "rdf:Property"
+    },
+    "52ndStUserConsensus": {
+      "@id": "http://base.semlab.io/entity/P40",
+      "@type": "rdf:Property"
+    },
+    "equivalentProperty": {
+      "@id": "http://base.semlab.io/entity/P41",
+      "@type": "rdf:Property"
+    },
+    "demographica": {
+      "@id": "http://base.semlab.io/entity/P42",
+      "@type": "rdf:Property"
+    },
+    "countryOfCitizenship": {
+      "@id": "http://base.semlab.io/entity/P43",
+      "@type": "rdf:Property"
+    },
+    "occupation": {
+      "@id": "http://base.semlab.io/entity/P44",
+      "@type": "rdf:Property"
+    },
+    "dateOfBirth": {
+      "@id": "http://base.semlab.io/entity/P46",
+      "@type": "rdf:Property"
+    },
+    "genre": {
+      "@id": "http://base.semlab.io/entity/P47",
+      "@type": "rdf:Property"
+    },
+    "subpropertyOf": {
+      "@id": "http://base.semlab.io/entity/P48",
+      "@type": "rdf:Property"
+    },
+    "domain": {
+      "@id": "http://base.semlab.io/entity/P50",
+      "@type": "rdf:Property"
+    },
+    "range": {
+      "@id": "http://base.semlab.io/entity/P51",
+      "@type": "rdf:Property"
+    },
+    "equivalentClass": {
+      "@id": "http://base.semlab.io/entity/P54",
+      "@type": "rdf:Property"
+    },
+    "subclassOf": {
+      "@id": "http://base.semlab.io/entity/P55",
+      "@type": "rdf:Property"
+    },
+    "instrument": {
+      "@id": "http://base.semlab.io/entity/P57",
+      "@type": "rdf:Property"
+    },
+    "sexOrGender": {
+      "@id": "http://base.semlab.io/entity/P59",
+      "@type": "rdf:Property"
+    },
+    "attendedPerformanceOf": {
+      "@id": "http://base.semlab.io/entity/P63",
+      "@type": "rdf:Property"
+    },
+    "memberOf": {
+      "@id": "http://base.semlab.io/entity/P65",
+      "@type": "rdf:Property"
+    },
+    "knowsOfPlace": {
+      "@id": "http://base.semlab.io/entity/P66",
+      "@type": "rdf:Property"
+    },
+    "visitedPlace": {
+      "@id": "http://base.semlab.io/entity/P67",
+      "@type": "rdf:Property"
+    },
+    "performedAt": {
+      "@id": "http://base.semlab.io/entity/P68",
+      "@type": "rdf:Property"
+    },
+    "residentOf": {
+      "@id": "http://base.semlab.io/entity/P69",
+      "@type": "rdf:Property"
+    },
+    "grewUpWith": {
+      "@id": "http://base.semlab.io/entity/P70",
+      "@type": "rdf:Property"
+    },
+    "recordedWith": {
+      "@id": "http://base.semlab.io/entity/P71",
+      "@type": "rdf:Property"
+    },
+    "bandleaderOf": {
+      "@id": "http://base.semlab.io/entity/P72",
+      "@type": "rdf:Property"
+    },
+    "rrfaIdentifier": {
+      "@id": "http://base.semlab.io/entity/P73",
+      "@type": "rdf:Property"
+    },
+    "creator": {
+      "@id": "http://base.semlab.io/entity/P74",
+      "@type": "rdf:Property"
+    },
+    "contributor": {
+      "@id": "http://base.semlab.io/entity/P75",
+      "@type": "rdf:Property"
+    },
+    "attendedPerformanceAt": {
+      "@id": "http://base.semlab.io/entity/P168",
+      "@type": "rdf:Property"
+    },
+    "interviewedBy": {
+      "@id": "http://base.semlab.io/entity/P170",
+      "@type": "rdf:Property"
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "@type": "rdf:Property"
+    },
+    "photographedBy": {
+      "@id": "http://base.semlab.io/entity/P172",
+      "@type": "rdf:Property"
+    },
+    "photographed": {
+      "@id": "http://base.semlab.io/entity/P173",
+      "@type": "rdf:Property"
+    },
+    "precededBy": {
+      "@id": "http://base.semlab.io/entity/P175",
+      "@type": "rdf:Property"
+    },
+    "succeededBy": {
+      "@id": "http://base.semlab.io/entity/P176",
+      "@type": "rdf:Property"
+    },
+    "differentFrom": {
+      "@id": "http://base.semlab.io/entity/P177",
+      "@type": "rdf:Property"
+    },
+    "shownAt": {
+      "@id": "http://base.semlab.io/entity/P178",
+      "@type": "rdf:Property"
+    },
+    "employee": {
+      "@id": "http://base.semlab.io/entity/P179",
+      "@type": "rdf:Property"
+    },
+    "inverseProperty": {
+      "@id": "http://base.semlab.io/entity/P180",
+      "@type": "rdf:Property"
+    },
+    "operatingArea": {
+      "@id": "http://base.semlab.io/entity/P181",
+      "@type": "rdf:Property"
+    },
+    "similarProperty": {
+      "@id": "http://base.semlab.io/entity/P183",
+      "@type": "rdf:Property"
+    },
+    "closeMatch": {
+      "@id": "http://base.semlab.io/entity/P184",
+      "@type": "rdf:Property"
+    },
+    "uses": {
+      "@id": "http://base.semlab.io/entity/P185",
+      "@type": "rdf:Property"
+    },
+    "duration": {
+      "@id": "http://base.semlab.io/entity/P186",
+      "@type": "rdf:Property"
+    },
+    "budget": {
+      "@id": "http://base.semlab.io/entity/P188",
+      "@type": "rdf:Property"
+    },
+    "format": {
+      "@id": "http://base.semlab.io/entity/P191",
+      "@type": "rdf:Property"
+    },
+    "color": {
+      "@id": "http://base.semlab.io/entity/P192",
+      "@type": "rdf:Property"
+    },
+    "usedIn": {
+      "@id": "http://base.semlab.io/entity/P194",
+      "@type": "rdf:Property"
+    },
+    "hasParts": {
+      "@id": "http://base.semlab.io/entity/P195",
+      "@type": "rdf:Property"
+    },
+    "contributedTo": {
+      "@id": "http://base.semlab.io/entity/P196",
+      "@type": "rdf:Property"
+    },
+    "curator": {
+      "@id": "http://base.semlab.io/entity/P197",
+      "@type": "rdf:Property"
+    },
+    "organizer": {
+      "@id": "http://base.semlab.io/entity/P198",
+      "@type": "rdf:Property"
+    },
+    "superclassOf": {
+      "@id": "http://base.semlab.io/entity/P199",
+      "@type": "rdf:Property"
+    },
+    "fileUrl": {
+      "@id": "http://base.semlab.io/entity/P200",
+      "@type": "rdf:Property"
+    },
+    "similarClass": {
+      "@id": "http://base.semlab.io/entity/P201",
+      "@type": "rdf:Property"
+    },
+    "fieldOfWork": {
+      "@id": "http://base.semlab.io/entity/P202",
+      "@type": "rdf:Property"
+    },
+    "verificationBatch": {
+      "@id": "http://base.semlab.io/entity/P203",
+      "@type": "rdf:Property"
+    },
+    "exportAliasName": {
+      "@id": "http://base.semlab.io/entity/P204",
+      "@type": "rdf:Property"
+    },
+    "isRelation": {
+      "@id": "http://base.semlab.io/entity/P119",
+      "@type": "rdf:Property"
+    },
+    "startTime": {
+      "@id": "http://base.semlab.io/entity/P120",
+      "@type": "rdf:Property"
+    },
+    "endTime": {
+      "@id": "http://base.semlab.io/entity/P121",
+      "@type": "rdf:Property"
+    },
+    "natureOfRelation": {
+      "@id": "http://base.semlab.io/entity/P122",
+      "@type": "rdf:Property"
+    },
+    "lifePartner": {
+      "@id": "http://base.semlab.io/entity/P123",
+      "@type": "rdf:Property"
+    },
+    "location": {
+      "@id": "http://base.semlab.io/entity/P125",
+      "@type": "rdf:Property"
+    },
+    "performer": {
+      "@id": "http://base.semlab.io/entity/P126",
+      "@type": "rdf:Property"
+    },
+    "workPerformed": {
+      "@id": "http://base.semlab.io/entity/P127",
+      "@type": "rdf:Property"
+    },
+    "performanceInstance": {
+      "@id": "http://base.semlab.io/entity/P128",
+      "@type": "rdf:Property"
+    },
+    "equivalentSemlabDemographicTerm": {
+      "@id": "http://base.semlab.io/entity/P129",
+      "@type": "rdf:Property"
+    },
+    "description": {
+      "@id": "http://base.semlab.io/entity/P130",
+      "@type": "rdf:Property"
+    },
+    "subEvent": {
+      "@id": "http://base.semlab.io/entity/P131",
+      "@type": "rdf:Property"
+    },
+    "superEvent": {
+      "@id": "http://base.semlab.io/entity/P132",
+      "@type": "rdf:Property"
+    },
+    "libraryOfCongressAuthorityId": {
+      "@id": "http://base.semlab.io/entity/P133",
+      "@type": "rdf:Property"
+    },
+    "reportedDate": {
+      "@id": "http://base.semlab.io/entity/P134",
+      "@type": "rdf:Property"
+    },
+    "depicts": {
+      "@id": "http://base.semlab.io/entity/P135",
+      "@type": "rdf:Property"
+    },
+    "creditLine": {
+      "@id": "http://base.semlab.io/entity/P136",
+      "@type": "rdf:Property"
+    },
+    "certainty": {
+      "@id": "http://base.semlab.io/entity/P137",
+      "@type": "rdf:Property"
+    },
+    "archivesCollection": {
+      "@id": "http://base.semlab.io/entity/P138",
+      "@type": "rdf:Property"
+    },
+    "sourcingCircumstances": {
+      "@id": "http://base.semlab.io/entity/P139",
+      "@type": "rdf:Property"
+    },
+    "locationType": {
+      "@id": "http://base.semlab.io/entity/P140",
+      "@type": "rdf:Property"
+    },
+    "edtf": {
+      "@id": "http://base.semlab.io/entity/P141",
+      "@type": "rdf:Property"
+    },
+    "copyrightStatement": {
+      "@id": "http://base.semlab.io/entity/P142",
+      "@type": "rdf:Property"
+    },
+    "frequentedPlace": {
+      "@id": "http://base.semlab.io/entity/P143",
+      "@type": "rdf:Property"
+    },
+    "booked": {
+      "@id": "http://base.semlab.io/entity/P144",
+      "@type": "rdf:Property"
+    },
+    "price": {
+      "@id": "http://base.semlab.io/entity/P145",
+      "@type": "rdf:Property"
+    },
+    "coordinateLocation": {
+      "@id": "http://base.semlab.io/entity/P146",
+      "@type": "rdf:Property"
+    },
+    "citation": {
+      "@id": "http://base.semlab.io/entity/P147",
+      "@type": "rdf:Property"
+    },
+    "priceType": {
+      "@id": "http://base.semlab.io/entity/P149",
+      "@type": "rdf:Property"
+    },
+    "monetaryAmount": {
+      "@id": "http://base.semlab.io/entity/P150",
+      "@type": "rdf:Property"
+    },
+    "streetAddress": {
+      "@id": "http://base.semlab.io/entity/P152",
+      "@type": "rdf:Property"
+    },
+    "audienceCount": {
+      "@id": "http://base.semlab.io/entity/P153",
+      "@type": "rdf:Property"
+    },
+    "supervisedBy": {
+      "@id": "http://base.semlab.io/entity/P154",
+      "@type": "rdf:Property"
+    },
+    "sponsoredBy": {
+      "@id": "http://base.semlab.io/entity/P155",
+      "@type": "rdf:Property"
+    },
+    "sponsorOf": {
+      "@id": "http://base.semlab.io/entity/P157",
+      "@type": "rdf:Property"
+    },
+    "supervisorOf": {
+      "@id": "http://base.semlab.io/entity/P158",
+      "@type": "rdf:Property"
+    },
+    "recordedAtPlace": {
+      "@id": "http://base.semlab.io/entity/P159",
+      "@type": "rdf:Property"
+    },
+    "musicianLeaderOf": {
+      "@id": "http://base.semlab.io/entity/P160",
+      "@type": "rdf:Property"
+    },
+    "teacherOf": {
+      "@id": "http://base.semlab.io/entity/P161",
+      "@type": "rdf:Property"
+    },
+    "studentOf": {
+      "@id": "http://base.semlab.io/entity/P162",
+      "@type": "rdf:Property"
+    },
+    "blankPropertyDatatypeProperty": {
+      "@id": "http://base.semlab.io/entity/P166",
+      "@type": "rdf:Property"
+    },
+    "signedWith": {
+      "@id": "http://base.semlab.io/entity/P169",
+      "@type": "rdf:Property"
+    },
+    "Activity": {
+      "@id": "http://base.semlab.io/entity/Q19077",
+      "@type": "rdfs:Class"
+    },
+    "Annotation": {
+      "@id": "http://base.semlab.io/entity/Q22413",
+      "@type": "rdfs:Class"
+    },
+    "ArchivalObject": {
+      "@id": "http://base.semlab.io/entity/Q19075",
+      "@type": "rdfs:Class"
+    },
+    "ArtExhibition": {
+      "@id": "http://base.semlab.io/entity/Q22395",
+      "@type": "rdfs:Class"
+    },
+    "ArtGallery": {
+      "@id": "http://base.semlab.io/entity/Q24537",
+      "@type": "rdfs:Class"
+    },
+    "ArtMaterial": {
+      "@id": "http://base.semlab.io/entity/Q23229",
+      "@type": "rdfs:Class"
+    },
+    "Article": {
+      "@id": "http://base.semlab.io/entity/Q20638",
+      "@type": "rdfs:Class"
+    },
+    "ArtistBook": {
+      "@id": "http://base.semlab.io/entity/Q21588",
+      "@type": "rdfs:Class"
+    },
+    "ArtistCollective": {
+      "@id": "http://base.semlab.io/entity/Q25669",
+      "@type": "rdfs:Class"
+    },
+    "Artist'SStatement": {
+      "@id": "http://base.semlab.io/entity/Q22365",
+      "@type": "rdfs:Class"
+    },
+    "Artist'SStudio": {
+      "@id": "http://base.semlab.io/entity/Q23505",
+      "@type": "rdfs:Class"
+    },
+    "Artwork": {
+      "@id": "http://base.semlab.io/entity/Q19073",
+      "@type": "rdfs:Class"
+    },
+    "Auction": {
+      "@id": "http://base.semlab.io/entity/Q25660",
+      "@type": "rdfs:Class"
+    },
+    "BandBattle": {
+      "@id": "http://base.semlab.io/entity/Q23058",
+      "@type": "rdfs:Class"
+    },
+    "Benefit": {
+      "@id": "http://base.semlab.io/entity/Q23886",
+      "@type": "rdfs:Class"
+    },
+    "Block": {
+      "@id": "http://base.semlab.io/entity/Q2013",
+      "@type": "rdfs:Class"
+    },
+    "Book": {
+      "@id": "http://base.semlab.io/entity/Q20639",
+      "@type": "rdfs:Class"
+    },
+    "Booklet": {
+      "@id": "http://base.semlab.io/entity/Q19096",
+      "@type": "rdfs:Class"
+    },
+    "Borough": {
+      "@id": "http://base.semlab.io/entity/Q18809",
+      "@type": "rdfs:Class"
+    },
+    "Brand": {
+      "@id": "http://base.semlab.io/entity/Q24345",
+      "@type": "rdfs:Class"
+    },
+    "Business": {
+      "@id": "http://base.semlab.io/entity/Q19085",
+      "@type": "rdfs:Class"
+    },
+    "Catalogue": {
+      "@id": "http://base.semlab.io/entity/Q21589",
+      "@type": "rdfs:Class"
+    },
+    "Celebration": {
+      "@id": "http://base.semlab.io/entity/Q25657",
+      "@type": "rdfs:Class"
+    },
+    "Chart": {
+      "@id": "http://base.semlab.io/entity/Q22646",
+      "@type": "rdfs:Class"
+    },
+    "City": {
+      "@id": "http://base.semlab.io/entity/Q19058",
+      "@type": "rdfs:Class"
+    },
+    "CivicCenter": {
+      "@id": "http://base.semlab.io/entity/Q23235",
+      "@type": "rdfs:Class"
+    },
+    "Class": {
+      "@id": "http://base.semlab.io/entity/Q19063",
+      "@type": "rdfs:Class"
+    },
+    "Collection": {
+      "@id": "http://base.semlab.io/entity/Q22373",
+      "@type": "rdfs:Class"
+    },
+    "Color": {
+      "@id": "http://base.semlab.io/entity/Q24451",
+      "@type": "rdfs:Class"
+    },
+    "CommunicationsSatellite": {
+      "@id": "http://base.semlab.io/entity/Q24457",
+      "@type": "rdfs:Class"
+    },
+    "Concert": {
+      "@id": "http://base.semlab.io/entity/Q22977",
+      "@type": "rdfs:Class"
+    },
+    "Continent": {
+      "@id": "http://base.semlab.io/entity/Q23535",
+      "@type": "rdfs:Class"
+    },
+    "Country": {
+      "@id": "http://base.semlab.io/entity/Q19056",
+      "@type": "rdfs:Class"
+    },
+    "DanceGroup": {
+      "@id": "http://base.semlab.io/entity/Q23261",
+      "@type": "rdfs:Class"
+    },
+    "Demographica": {
+      "@id": "http://base.semlab.io/entity/Q21151",
+      "@type": "rdfs:Class"
+    },
+    "Document": {
+      "@id": "http://base.semlab.io/entity/Q19069",
+      "@type": "rdfs:Class"
+    },
+    "DraftDocument": {
+      "@id": "http://base.semlab.io/entity/Q22290",
+      "@type": "rdfs:Class"
+    },
+    "EthnicGroup": {
+      "@id": "http://base.semlab.io/entity/Q24626",
+      "@type": "rdfs:Class"
+    },
+    "Event": {
+      "@id": "http://base.semlab.io/entity/Q19071",
+      "@type": "rdfs:Class"
+    },
+    "Family": {
+      "@id": "http://base.semlab.io/entity/Q19097",
+      "@type": "rdfs:Class"
+    },
+    "Film": {
+      "@id": "http://base.semlab.io/entity/Q19098",
+      "@type": "rdfs:Class"
+    },
+    "FilmScreening": {
+      "@id": "http://base.semlab.io/entity/Q25658",
+      "@type": "rdfs:Class"
+    },
+    "FloorPlan": {
+      "@id": "http://base.semlab.io/entity/Q22647",
+      "@type": "rdfs:Class"
+    },
+    "Form": {
+      "@id": "http://base.semlab.io/entity/Q22648",
+      "@type": "rdfs:Class"
+    },
+    "Genre": {
+      "@id": "http://base.semlab.io/entity/Q23179",
+      "@type": "rdfs:Class"
+    },
+    "Group": {
+      "@id": "http://base.semlab.io/entity/Q19047",
+      "@type": "rdfs:Class"
+    },
+    "HistoricDemographica": {
+      "@id": "http://base.semlab.io/entity/Q21162",
+      "@type": "rdfs:Class"
+    },
+    "Hotel": {
+      "@id": "http://base.semlab.io/entity/Q23497",
+      "@type": "rdfs:Class"
+    },
+    "Institution": {
+      "@id": "http://base.semlab.io/entity/Q1804",
+      "@type": "rdfs:Class"
+    },
+    "InterviewTranscript": {
+      "@id": "http://base.semlab.io/entity/Q1960",
+      "@type": "rdfs:Class"
+    },
+    "InverseProperty": {
+      "@id": "http://base.semlab.io/entity/Q23571",
+      "@type": "rdfs:Class"
+    },
+    "Kinship": {
+      "@id": "http://base.semlab.io/entity/Q20648",
+      "@type": "rdfs:Class"
+    },
+    "KinshipNature": {
+      "@id": "http://base.semlab.io/entity/Q20656",
+      "@type": "rdfs:Class"
+    },
+    "Lecture": {
+      "@id": "http://base.semlab.io/entity/Q24396",
+      "@type": "rdfs:Class"
+    },
+    "Letter": {
+      "@id": "http://base.semlab.io/entity/Q19091",
+      "@type": "rdfs:Class"
+    },
+    "List": {
+      "@id": "http://base.semlab.io/entity/Q22649",
+      "@type": "rdfs:Class"
+    },
+    "Manuscript": {
+      "@id": "http://base.semlab.io/entity/Q22650",
+      "@type": "rdfs:Class"
+    },
+    "Memorandum": {
+      "@id": "http://base.semlab.io/entity/Q19090",
+      "@type": "rdfs:Class"
+    },
+    "Microphone": {
+      "@id": "http://base.semlab.io/entity/Q24400",
+      "@type": "rdfs:Class"
+    },
+    "Monastery": {
+      "@id": "http://base.semlab.io/entity/Q25667",
+      "@type": "rdfs:Class"
+    },
+    "MovingImage": {
+      "@id": "http://base.semlab.io/entity/Q22656",
+      "@type": "rdfs:Class"
+    },
+    "Museum": {
+      "@id": "http://base.semlab.io/entity/Q19103",
+      "@type": "rdfs:Class"
+    },
+    "MusicGroup": {
+      "@id": "http://base.semlab.io/entity/Q18805",
+      "@type": "rdfs:Class"
+    },
+    "MusicVenue": {
+      "@id": "http://base.semlab.io/entity/Q18806",
+      "@type": "rdfs:Class"
+    },
+    "MusicalInstrument": {
+      "@id": "http://base.semlab.io/entity/Q20619",
+      "@type": "rdfs:Class"
+    },
+    "Neighborhood": {
+      "@id": "http://base.semlab.io/entity/Q19059",
+      "@type": "rdfs:Class"
+    },
+    "Newsletter": {
+      "@id": "http://base.semlab.io/entity/Q19095",
+      "@type": "rdfs:Class"
+    },
+    "NewspaperClipping": {
+      "@id": "http://base.semlab.io/entity/Q19094",
+      "@type": "rdfs:Class"
+    },
+    "NonprofitOrganization": {
+      "@id": "http://base.semlab.io/entity/Q23195",
+      "@type": "rdfs:Class"
+    },
+    "Occupation": {
+      "@id": "http://base.semlab.io/entity/Q19070",
+      "@type": "rdfs:Class"
+    },
+    "Organization": {
+      "@id": "http://base.semlab.io/entity/Q19049",
+      "@type": "rdfs:Class"
+    },
+    "Painting": {
+      "@id": "http://base.semlab.io/entity/Q26289",
+      "@type": "rdfs:Class"
+    },
+    "Pamphlet": {
+      "@id": "http://base.semlab.io/entity/Q22651",
+      "@type": "rdfs:Class"
+    },
+    "PanelDiscussion": {
+      "@id": "http://base.semlab.io/entity/Q25659",
+      "@type": "rdfs:Class"
+    },
+    "Park": {
+      "@id": "http://base.semlab.io/entity/Q23077",
+      "@type": "rdfs:Class"
+    },
+    "Performance": {
+      "@id": "http://base.semlab.io/entity/Q19074",
+      "@type": "rdfs:Class"
+    },
+    "Person": {
+      "@id": "http://base.semlab.io/entity/Q1",
+      "@type": "rdfs:Class"
+    },
+    "Photograph": {
+      "@id": "http://base.semlab.io/entity/Q22310",
+      "@type": "rdfs:Class"
+    },
+    "Place": {
+      "@id": "http://base.semlab.io/entity/Q19053",
+      "@type": "rdfs:Class"
+    },
+    "Postcard": {
+      "@id": "http://base.semlab.io/entity/Q22301",
+      "@type": "rdfs:Class"
+    },
+    "Presentation": {
+      "@id": "http://base.semlab.io/entity/Q25661",
+      "@type": "rdfs:Class"
+    },
+    "PressRelease": {
+      "@id": "http://base.semlab.io/entity/Q19089",
+      "@type": "rdfs:Class"
+    },
+    "PriceDescriptor": {
+      "@id": "http://base.semlab.io/entity/Q22989",
+      "@type": "rdfs:Class"
+    },
+    "Programme": {
+      "@id": "http://base.semlab.io/entity/Q22652",
+      "@type": "rdfs:Class"
+    },
+    "Project": {
+      "@id": "http://base.semlab.io/entity/Q25838",
+      "@type": "rdfs:Class"
+    },
+    "Property": {
+      "@id": "http://base.semlab.io/entity/Q20664",
+      "@type": "rdfs:Class"
+    },
+    "Publication": {
+      "@id": "http://base.semlab.io/entity/Q19079",
+      "@type": "rdfs:Class"
+    },
+    "Publisher": {
+      "@id": "http://base.semlab.io/entity/Q21676",
+      "@type": "rdfs:Class"
+    },
+    "Qualifier": {
+      "@id": "http://base.semlab.io/entity/Q22531",
+      "@type": "rdfs:Class"
+    },
+    "Questionnaire": {
+      "@id": "http://base.semlab.io/entity/Q22653",
+      "@type": "rdfs:Class"
+    },
+    "RadioStation": {
+      "@id": "http://base.semlab.io/entity/Q23422",
+      "@type": "rdfs:Class"
+    },
+    "ReasonForUncertainty": {
+      "@id": "http://base.semlab.io/entity/Q22287",
+      "@type": "rdfs:Class"
+    },
+    "Receipt": {
+      "@id": "http://base.semlab.io/entity/Q22654",
+      "@type": "rdfs:Class"
+    },
+    "RecordLabel": {
+      "@id": "http://base.semlab.io/entity/Q19051",
+      "@type": "rdfs:Class"
+    },
+    "RelationshipGenerationType": {
+      "@id": "http://base.semlab.io/entity/Q27036",
+      "@type": "rdfs:Class"
+    },
+    "Restaurant": {
+      "@id": "http://base.semlab.io/entity/Q26025",
+      "@type": "rdfs:Class"
+    },
+    "Schedule": {
+      "@id": "http://base.semlab.io/entity/Q22335",
+      "@type": "rdfs:Class"
+    },
+    "ScholarlyArticle": {
+      "@id": "http://base.semlab.io/entity/Q20635",
+      "@type": "rdfs:Class"
+    },
+    "School": {
+      "@id": "http://base.semlab.io/entity/Q20618",
+      "@type": "rdfs:Class"
+    },
+    "Sculpture": {
+      "@id": "http://base.semlab.io/entity/Q24556",
+      "@type": "rdfs:Class"
+    },
+    "SemanticLabProject": {
+      "@id": "http://base.semlab.io/entity/Q19064",
+      "@type": "rdfs:Class"
+    },
+    "Sound": {
+      "@id": "http://base.semlab.io/entity/Q24548",
+      "@type": "rdfs:Class"
+    },
+    "SoundInstallation": {
+      "@id": "http://base.semlab.io/entity/Q22436",
+      "@type": "rdfs:Class"
+    },
+    "SportsStadium": {
+      "@id": "http://base.semlab.io/entity/Q23292",
+      "@type": "rdfs:Class"
+    },
+    "State": {
+      "@id": "http://base.semlab.io/entity/Q19057",
+      "@type": "rdfs:Class"
+    },
+    "StreetPerformance": {
+      "@id": "http://base.semlab.io/entity/Q25662",
+      "@type": "rdfs:Class"
+    },
+    "SymmetricProperty": {
+      "@id": "http://base.semlab.io/entity/Q23572",
+      "@type": "rdfs:Class"
+    },
+    "Technology": {
+      "@id": "http://base.semlab.io/entity/Q19076",
+      "@type": "rdfs:Class"
+    },
+    "Telegram": {
+      "@id": "http://base.semlab.io/entity/Q22655",
+      "@type": "rdfs:Class"
+    },
+    "UnrealizedProject": {
+      "@id": "http://base.semlab.io/entity/Q23736",
+      "@type": "rdfs:Class"
+    },
+    "UsoCenter": {
+      "@id": "http://base.semlab.io/entity/Q23257",
+      "@type": "rdfs:Class"
+    },
+    "Venue": {
+      "@id": "http://base.semlab.io/entity/Q19072",
+      "@type": "rdfs:Class"
+    },
+    "WalkingTour": {
+      "@id": "http://base.semlab.io/entity/Q25663",
+      "@type": "rdfs:Class"
+    },
+    "Warehouse": {
+      "@id": "http://base.semlab.io/entity/Q23078",
+      "@type": "rdfs:Class"
+    },
+    "Workshop": {
+      "@id": "http://base.semlab.io/entity/Q25656",
+      "@type": "rdfs:Class"
+    }
+  }
+}
