@@ -25,6 +25,7 @@ Generated: 2023-12-01
 | Institution    | [linked_jazz_oral_history_network__institution.jsonld](../data/linked_jazz_oral_history_network__institution.jsonld) | 5  |
 | Music Group    | [linked_jazz_oral_history_network__music_group.jsonld](../data/linked_jazz_oral_history_network__music_group.jsonld) | 2  |
 | Interview Transcript    | [linked_jazz_oral_history_network__interview_transcript.jsonld](../data/linked_jazz_oral_history_network__interview_transcript.jsonld) | 54  |
+
 ## Linking Lost Jazz Shrines
 
 | Entity | Link                       | Count |
@@ -41,6 +42,7 @@ Generated: 2023-12-01
 | Interview Transcript    | [linking_lost_jazz_shrines__interview_transcript.jsonld](../data/linking_lost_jazz_shrines__interview_transcript.jsonld) | 29  |
 | School    | [linking_lost_jazz_shrines__school.jsonld](../data/linking_lost_jazz_shrines__school.jsonld) | 15  |
 | Local Union    | [linking_lost_jazz_shrines__local_union.jsonld](../data/linking_lost_jazz_shrines__local_union.jsonld) | 1  |
+
 ## The International Sweethearts of Rhythm Project
 
 | Entity | Link                       | Count |
@@ -67,6 +69,7 @@ Generated: 2023-12-01
 | Sports Stadium    | [the_international_sweethearts_of_rhythm_project__sports_stadium.jsonld](../data/the_international_sweethearts_of_rhythm_project__sports_stadium.jsonld) | 2  |
 | Radio Station    | [the_international_sweethearts_of_rhythm_project__radio_station.jsonld](../data/the_international_sweethearts_of_rhythm_project__radio_station.jsonld) | 1  |
 | Hotel    | [the_international_sweethearts_of_rhythm_project__hotel.jsonld](../data/the_international_sweethearts_of_rhythm_project__hotel.jsonld) | 1  |
+
 ## Women of Jazz
 
 | Entity | Link                       | Count |
@@ -90,6 +93,7 @@ Generated: 2023-12-01
 | Sports Stadium    | [women_of_jazz__sports_stadium.jsonld](../data/women_of_jazz__sports_stadium.jsonld) | 2  |
 | Radio Station    | [women_of_jazz__radio_station.jsonld](../data/women_of_jazz__radio_station.jsonld) | 1  |
 | Hotel    | [women_of_jazz__hotel.jsonld](../data/women_of_jazz__hotel.jsonld) | 1  |
+
 ## Local 496
 
 | Entity | Link                       | Count |
@@ -100,6 +104,7 @@ Generated: 2023-12-01
 | Document    | [local_496__document.jsonld](../data/local_496__document.jsonld) | 1  |
 | School    | [local_496__school.jsonld](../data/local_496__school.jsonld) | 1  |
 | Local Union    | [local_496__local_union.jsonld](../data/local_496__local_union.jsonld) | 1  |
+
 ## E.A.T. + LOD Project
 
 | Entity | Link                       | Count |
@@ -182,6 +187,7 @@ Generated: 2023-12-01
 | Ethnic Group    | [e.a.t._+_lod_project__ethnic_group.jsonld](../data/e.a.t._+_lod_project__ethnic_group.jsonld) | 4  |
 | Project    | [e.a.t._+_lod_project__project.jsonld](../data/e.a.t._+_lod_project__project.jsonld) | 9  |
 | Painting    | [e.a.t._+_lod_project__painting.jsonld](../data/e.a.t._+_lod_project__painting.jsonld) | 4  |
+
 ## E.A.T. + LOD Bibliography Project
 
 | Entity | Link                       | Count |
@@ -199,6 +205,7 @@ Generated: 2023-12-01
 | Artist Book    | [e.a.t._+_lod_bibliography_project__artist_book.jsonld](../data/e.a.t._+_lod_bibliography_project__artist_book.jsonld) | 1  |
 | Catalogue    | [e.a.t._+_lod_bibliography_project__catalogue.jsonld](../data/e.a.t._+_lod_bibliography_project__catalogue.jsonld) | 6  |
 | Publisher    | [e.a.t._+_lod_bibliography_project__publisher.jsonld](../data/e.a.t._+_lod_bibliography_project__publisher.jsonld) | 20  |
+
 ## Asian American Arts Centre Exhibition History
 
 | Entity | Link                       | Count |
