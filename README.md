@@ -25,6 +25,7 @@ Generated: 2023-12-01
 | Institution    | [linked_jazz_oral_history_network__institution.jsonld](../data/linked_jazz_oral_history_network__institution.jsonld) | 5  |
 | Music Group    | [linked_jazz_oral_history_network__music_group.jsonld](../data/linked_jazz_oral_history_network__music_group.jsonld) | 2  |
 | Interview Transcript    | [linked_jazz_oral_history_network__interview_transcript.jsonld](../data/linked_jazz_oral_history_network__interview_transcript.jsonld) | 54  |
+
 ## Linking Lost Jazz Shrines
 
 | Entity | Link                       | Count |
