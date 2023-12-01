@@ -1,0 +1,75 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q23496",
+    "rdfs:label": "Desert Inn",
+    "@type": [
+      "Hotel",
+      "Venue"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn49312",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23497",
+          "rdfs:label": "hotel",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn49313",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19072",
+          "rdfs:label": "venue",
+          "@type": "Class"
+        },
+        "referenceUrl": [
+          "https://cdnc.ucr.edu/cgi-bin/cdnc?a=d&d=DS19660823.2.2&e=-------en--20--1--txt-txIN--------1"
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn49314",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20613",
+          "rdfs:label": "Women of Jazz",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn49315",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20655",
+          "rdfs:label": "The International Sweethearts of Rhythm Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q109644783"
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn49316",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23495",
+          "rdfs:label": "Palm Springs (Calif.)",
+          "@type": "City"
+        }
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q109644783"
+      }
+    ]
+  }
+]

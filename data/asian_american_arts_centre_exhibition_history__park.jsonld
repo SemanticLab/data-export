@@ -1,0 +1,63 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25487",
+    "rdfs:label": "Bryant Park",
+    "partOfProject": [
+      {
+        "@id": "_:bn100340",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q995174"
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q995174"
+      }
+    ],
+    "@type": [
+      "Park",
+      "Venue"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn100341",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23077",
+          "rdfs:label": "park",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn100342",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19072",
+          "rdfs:label": "venue",
+          "@type": "Class"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn100343",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        }
+      }
+    ]
+  }
+]

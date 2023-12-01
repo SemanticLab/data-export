@@ -1,0 +1,91 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25712",
+    "rdfs:label": "Performance by Mikiya Matsuda",
+    "@type": [
+      "Event",
+      "StreetPerformance"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn100655",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19071",
+          "rdfs:label": "event",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn100656",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25662",
+          "rdfs:label": "street performance",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn100657",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn100658",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25483",
+          "rdfs:label": "Asian American Arts Centre",
+          "@type": "Venue"
+        }
+      }
+    ],
+    "organizer": [
+      {
+        "@id": "_:bn100659",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25483",
+          "rdfs:label": "Asian American Arts Centre",
+          "@type": "Venue"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q111730676"
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q111730676"
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn100660",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25375",
+          "rdfs:label": "Mikiya Matsuda",
+          "@type": "Person"
+        },
+        "role": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21520",
+    "rdfs:label": "Brooklyn (New York, N.Y.)",
+    "@type": [
+      "Borough"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn85372",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18809",
+          "rdfs:label": "borough",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn85373",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. + LOD Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q18419"
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q18419"
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn85374",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        }
+      }
+    ],
+    "knowsOfPlace": [
+      {
+        "@id": "_:bn85375",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18894",
+          "rdfs:label": "The Muse",
+          "@type": "MusicVenue"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q26121",
+            "rdfs:label": "Block 23 of Reginald (Reggie) Workman Weeksville Oral History",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q23382/23.txt"
+          }
+        ]
+      }
+    ]
+  }
+]
