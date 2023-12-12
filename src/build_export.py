@@ -328,7 +328,7 @@ for project_qid in projects:
 	#exclude_instance_ofs
 
 	project_label = projects_labels[project_qid]
-	project_filename_base = project_label.lower().replace(" ","_") + "__"
+	project_filename_base = project_label.lower().replace(" ","_").replace('.','').replace('+','').replace(' ','-') + "__"
 
 
 	markdown = markdown + f"""
@@ -711,8 +711,7 @@ for project_qid in projects:
 
 		json.dump(all_agents,open(f'../data/{use_filename}','w'),indent=2)
 
-		markdown = markdown + f"""
-| {table_name}    | [{use_filename}](../data/{use_filename}) | {total_agents}  |"""
+		markdown = markdown + f"""\n| {table_name}    | [{use_filename}](https://github.com/SemanticLab/data-export/blob/main/data/{use_filename}) | {total_agents}  |"""
 
 
 

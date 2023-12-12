@@ -1,0 +1,77 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24042",
+    "rdfs:label": "E.A.T. Operations and Information",
+    "@type": [
+      "Publication",
+      "Newsletter"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn74474",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24726",
+            "rdfs:label": "Block 1 of Story of E.A.T. Part II",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn74475",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19095",
+          "rdfs:label": "newsletter",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24726",
+            "rdfs:label": "Block 1 of Story of E.A.T. Part II",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn74476",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. + LOD Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn74477",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        },
+        "date": [
+          "+1967-00-00T00:00:00Z"
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24726",
+            "rdfs:label": "Block 1 of Story of E.A.T. Part II",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          }
+        ]
+      }
+    ]
+  }
+]

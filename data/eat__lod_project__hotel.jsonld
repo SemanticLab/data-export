@@ -1,0 +1,60 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24395",
+    "rdfs:label": "Central Plaza Hotel",
+    "@type": [
+      "Hotel"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn78580",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23497",
+          "rdfs:label": "hotel",
+          "@type": "Class"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1066676"
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn78581",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. + LOD Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn78582",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24725",
+            "rdfs:label": "Block 0 of Story of E.A.T. Part II",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/0.txt"
+          }
+        ]
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q1066676"
+      }
+    ]
+  }
+]
