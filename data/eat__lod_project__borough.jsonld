@@ -1,14 +1,14 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24715",
-    "rdfs:label": "Farmingdale",
+    "@id": "semlab:Q24528",
+    "rdfs:label": "Manhattan (New York, N.Y.)",
     "@type": [
       "Borough"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn67281",
+        "@id": "_:bn68126",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18809",
@@ -19,7 +19,58 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn67282",
+        "@id": "_:bn68127",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. + LOD Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q11299"
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q11299"
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn68128",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24715",
+    "rdfs:label": "Farmingdale (N.J.)",
+    "@type": [
+      "Borough"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn68129",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18809",
+          "rdfs:label": "borough",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn68130",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",

@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72937",
+        "@id": "_:bn73735",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -31,12 +31,987 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72938",
+        "@id": "_:bn73736",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
           "rdfs:label": "E.A.T. + LOD Project",
           "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q19118",
+    "rdfs:label": "9 Evenings: Theatre and Engineering",
+    "@type": [
+      "Artwork",
+      "Event"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn73737",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19073",
+          "rdfs:label": "artwork",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn73738",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19071",
+          "rdfs:label": "event",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn73739",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. + LOD Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q4646407"
+      }
+    ],
+    "subEvent": [
+      {
+        "@id": "_:bn73740",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21364",
+          "rdfs:label": "Open Score (9 Evenings performances)",
+          "@type": "Performance"
+        }
+      },
+      {
+        "@id": "_:bn73741",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24631",
+          "rdfs:label": "Physical Things (9 Evenings performances)",
+          "@type": "Performance"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24652",
+            "rdfs:label": "Block 18 of Story of E.A.T. Part I",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/18.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73742",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24632",
+          "rdfs:label": "Vehicle (9 Evenings performances)",
+          "@type": "Performance"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24654",
+            "rdfs:label": "Block 20 of Story of E.A.T. Part I",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/20.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73743",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24235",
+          "rdfs:label": "Bandoneon ! (9 Evenings performances)",
+          "@type": "Performance"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of Story of E.A.T. Part I",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73744",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24338",
+          "rdfs:label": "Variations VII (9 Evenings performances)",
+          "@type": "Performance"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24657",
+            "rdfs:label": "Block 23 of Story of E.A.T. Part I",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/23.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73745",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24236",
+          "rdfs:label": "Carriage Discreteness (9 Evenings performances)",
+          "@type": "Performance"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24658",
+            "rdfs:label": "Block 24 of Story of E.A.T. Part I",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/24.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73746",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24239",
+          "rdfs:label": "Untitled Alex Hay Performance (9 Evenings performances)",
+          "@type": "Performance"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24659",
+            "rdfs:label": "Block 25 of Story of E.A.T. Part I",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/25.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73747",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24238",
+          "rdfs:label": "Solo (9 Evenings performances)",
+          "@type": "Performance"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24660",
+            "rdfs:label": "Block 26 of Story of E.A.T. Part I",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/26.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73748",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24240",
+          "rdfs:label": "Two Holes of Water (9 Evenings performances)",
+          "@type": "Performance"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24661",
+            "rdfs:label": "Block 27 of Story of E.A.T. Part I",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/27.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73749",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24241",
+          "rdfs:label": "Kisses Sweeter than Wine (9 Evenings performances)",
+          "@type": "Performance"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24662",
+            "rdfs:label": "Block 28 of Story of E.A.T. Part I",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/28.txt"
+          }
+        ]
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn73750",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19117",
+          "rdfs:label": "69th Regiment Armory",
+          "@type": "Venue"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23623",
+            "rdfs:label": "Block 3 of A76 E.A.T. booklet",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22778/3.txt"
+          },
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24015",
+            "rdfs:label": "Block 0 of A218 9 Evenings advance announcement",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22881/0.txt"
+          },
+          {
+            "@id": "semlab:Q24027",
+            "rdfs:label": "Block 0 of A211 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22953/0.txt"
+          },
+          {
+            "@id": "semlab:Q24029",
+            "rdfs:label": "Block 2 of A211 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22953/2.txt"
+          },
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          },
+          {
+            "@id": "semlab:Q24057",
+            "rdfs:label": "Block 1 of A193 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19850/1.txt"
+          },
+          {
+            "@id": "semlab:Q24651",
+            "rdfs:label": "Block 17 of Story of E.A.T. Part I",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/17.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73751",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23623",
+            "rdfs:label": "Block 3 of A76 E.A.T. booklet",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22778/3.txt"
+          }
+        ]
+      }
+    ],
+    "audienceCount": [
+      {
+        "@value": {
+          "amount": "+10000",
+          "unit": "1"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1966-10-01T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 10,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      },
+      {
+        "@value": {
+          "time": "+1966-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      },
+      {
+        "@value": {
+          "time": "+1966-10-13T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "performanceInstance": [
+      {
+        "@id": "_:bn73752",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23903",
+            "rdfs:label": "Block 0 of A215 9 Evenings remarks by \u00d6yvind Fahlstr\u00f6m",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22957/0.txt"
+          },
+          {
+            "@id": "semlab:Q23904",
+            "rdfs:label": "Block 0 of A216 9 Evenings remarks by Deborah Hay",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22958/0.txt"
+          },
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24014",
+            "rdfs:label": "Block 0 of A213 9 Evenings Rauschenberg note",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22955/0.txt"
+          },
+          {
+            "@id": "semlab:Q24015",
+            "rdfs:label": "Block 0 of A218 9 Evenings advance announcement",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22881/0.txt"
+          }
+        ]
+      }
+    ],
+    "sponsoredBy": [
+      {
+        "@id": "_:bn73753",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22661",
+          "rdfs:label": "Albert A. List",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24004",
+            "rdfs:label": "Block 0 of A190 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22935/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73754",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19275",
+          "rdfs:label": "Foundation for Contemporary Performance Arts, Inc.",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24005",
+            "rdfs:label": "Block 1 of A190 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22935/1.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73755",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24047",
+          "rdfs:label": "Virginia Kondratief",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73756",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19552",
+          "rdfs:label": "Robert Cooper Scull",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73757",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19588",
+          "rdfs:label": "Seymour Schweber",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73758",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19399",
+          "rdfs:label": "Leo Castelli",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73759",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19662",
+          "rdfs:label": "Walter Gutman",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          }
+        ]
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn73760",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19180",
+          "rdfs:label": "Billy Kl\u00fcver",
+          "@type": "Person"
+        },
+        "role": [
+          {
+            "@id": "semlab:Q23522",
+            "rdfs:label": "coordinator"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24015",
+            "rdfs:label": "Block 0 of A218 9 Evenings advance announcement",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22881/0.txt"
+          },
+          {
+            "@id": "semlab:Q24028",
+            "rdfs:label": "Block 1 of A211 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22953/1.txt"
+          },
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          },
+          {
+            "@id": "semlab:Q24056",
+            "rdfs:label": "Block 0 of A193 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19850/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73761",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q724",
+          "rdfs:label": "John Cage",
+          "@type": "Person"
+        },
+        "role": [
+          {
+            "@id": "semlab:Q23105",
+            "rdfs:label": "composer"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24015",
+            "rdfs:label": "Block 0 of A218 9 Evenings advance announcement",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22881/0.txt"
+          },
+          {
+            "@id": "semlab:Q24027",
+            "rdfs:label": "Block 0 of A211 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22953/0.txt"
+          },
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          },
+          {
+            "@id": "semlab:Q24056",
+            "rdfs:label": "Block 0 of A193 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19850/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73762",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19418",
+          "rdfs:label": "Lucinda Childs",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24015",
+            "rdfs:label": "Block 0 of A218 9 Evenings advance announcement",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22881/0.txt"
+          },
+          {
+            "@id": "semlab:Q24027",
+            "rdfs:label": "Block 0 of A211 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22953/0.txt"
+          },
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          },
+          {
+            "@id": "semlab:Q24056",
+            "rdfs:label": "Block 0 of A193 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19850/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73763",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19497",
+          "rdfs:label": "\u00d6yvind Fahlstr\u00f6m",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24015",
+            "rdfs:label": "Block 0 of A218 9 Evenings advance announcement",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22881/0.txt"
+          },
+          {
+            "@id": "semlab:Q24027",
+            "rdfs:label": "Block 0 of A211 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22953/0.txt"
+          },
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          },
+          {
+            "@id": "semlab:Q24056",
+            "rdfs:label": "Block 0 of A193 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19850/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73764",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19124",
+          "rdfs:label": "Alex Hay",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24015",
+            "rdfs:label": "Block 0 of A218 9 Evenings advance announcement",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22881/0.txt"
+          },
+          {
+            "@id": "semlab:Q24027",
+            "rdfs:label": "Block 0 of A211 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22953/0.txt"
+          },
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          },
+          {
+            "@id": "semlab:Q24056",
+            "rdfs:label": "Block 0 of A193 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19850/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73765",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19235",
+          "rdfs:label": "Deborah Hay",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24015",
+            "rdfs:label": "Block 0 of A218 9 Evenings advance announcement",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22881/0.txt"
+          },
+          {
+            "@id": "semlab:Q24027",
+            "rdfs:label": "Block 0 of A211 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22953/0.txt"
+          },
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          },
+          {
+            "@id": "semlab:Q24056",
+            "rdfs:label": "Block 0 of A193 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19850/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73766",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19606",
+          "rdfs:label": "Steve Paxton",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24015",
+            "rdfs:label": "Block 0 of A218 9 Evenings advance announcement",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22881/0.txt"
+          },
+          {
+            "@id": "semlab:Q24027",
+            "rdfs:label": "Block 0 of A211 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22953/0.txt"
+          },
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          },
+          {
+            "@id": "semlab:Q24056",
+            "rdfs:label": "Block 0 of A193 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19850/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73767",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19677",
+          "rdfs:label": "Yvonne Rainer",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24027",
+            "rdfs:label": "Block 0 of A211 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22953/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73768",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24015",
+            "rdfs:label": "Block 0 of A218 9 Evenings advance announcement",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22881/0.txt"
+          },
+          {
+            "@id": "semlab:Q24027",
+            "rdfs:label": "Block 0 of A211 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22953/0.txt"
+          },
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          },
+          {
+            "@id": "semlab:Q24056",
+            "rdfs:label": "Block 0 of A193 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19850/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73769",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19233",
+          "rdfs:label": "David Tudor",
+          "@type": "Person"
+        },
+        "role": [
+          {
+            "@id": "semlab:Q23105",
+            "rdfs:label": "composer"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24015",
+            "rdfs:label": "Block 0 of A218 9 Evenings advance announcement",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22881/0.txt"
+          },
+          {
+            "@id": "semlab:Q24027",
+            "rdfs:label": "Block 0 of A211 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22953/0.txt"
+          },
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          },
+          {
+            "@id": "semlab:Q24056",
+            "rdfs:label": "Block 0 of A193 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19850/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73770",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19558",
+          "rdfs:label": "Robert Whitman",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24015",
+            "rdfs:label": "Block 0 of A218 9 Evenings advance announcement",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22881/0.txt"
+          },
+          {
+            "@id": "semlab:Q24027",
+            "rdfs:label": "Block 0 of A211 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22953/0.txt"
+          },
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          },
+          {
+            "@id": "semlab:Q24056",
+            "rdfs:label": "Block 0 of A193 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19850/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73771",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19215",
+          "rdfs:label": "Claes Oldenburg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24051",
+            "rdfs:label": "Block 0 of A192 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22937/0.txt"
+          },
+          {
+            "@id": "semlab:Q24056",
+            "rdfs:label": "Block 0 of A193 9 Evenings correspondence",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19850/0.txt"
+          }
+        ]
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn73772",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24014",
+            "rdfs:label": "Block 0 of A213 9 Evenings Rauschenberg note",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22955/0.txt"
+          }
+        ]
+      }
+    ],
+    "price": [
+      {
+        "@value": "$3"
+      }
+    ],
+    "uses": [
+      {
+        "@id": "_:bn73773",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19614",
+          "rdfs:label": "TEEM",
+          "@type": "Technology"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn73774",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22679",
+          "rdfs:label": "sound-wired tennis rackets",
+          "@type": "Technology"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24014",
+            "rdfs:label": "Block 0 of A213 9 Evenings Rauschenberg note",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22955/0.txt"
+          }
+        ]
+      }
+    ],
+    "hasParts": [
+      {
+        "@id": "_:bn73775",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24704",
+          "rdfs:label": "E.A.T. film restoration and presentation project",
+          "@type": "Project"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24757",
+            "rdfs:label": "Block 32 of Story of E.A.T. Part II",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/32.txt"
+          }
+        ]
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q4646407"
+      }
+    ],
+    "startTime": [
+      {
+        "@value": {
+          "time": "+1966-10-13T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
         }
       }
     ]
@@ -50,7 +1025,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72939",
+        "@id": "_:bn73776",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -61,7 +1036,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72940",
+        "@id": "_:bn73777",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -80,7 +1055,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72941",
+        "@id": "_:bn73778",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -91,7 +1066,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72942",
+        "@id": "_:bn73779",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -102,7 +1077,7 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn72943",
+        "@id": "_:bn73780",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19540",
@@ -155,7 +1130,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn72944",
+        "@id": "_:bn73781",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -178,7 +1153,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn72945",
+        "@id": "_:bn73782",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21210",
@@ -204,7 +1179,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72946",
+        "@id": "_:bn73783",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -215,7 +1190,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72947",
+        "@id": "_:bn73784",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -226,7 +1201,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn72948",
+        "@id": "_:bn73785",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -235,7 +1210,7 @@
         }
       },
       {
-        "@id": "_:bn72949",
+        "@id": "_:bn73786",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19508",
@@ -257,7 +1232,7 @@
         ]
       },
       {
-        "@id": "_:bn72950",
+        "@id": "_:bn73787",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -275,7 +1250,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn72951",
+        "@id": "_:bn73788",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19643",
@@ -305,12 +1280,12 @@
     ],
     "uses": [
       {
-        "@id": "_:bn72952",
+        "@id": "_:bn73789",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24349",
           "rdfs:label": "electric light",
-          "@type": "ArtMaterial"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -321,7 +1296,7 @@
         ]
       },
       {
-        "@id": "_:bn72953",
+        "@id": "_:bn73790",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26765",
@@ -337,12 +1312,12 @@
         ]
       },
       {
-        "@id": "_:bn72954",
+        "@id": "_:bn73791",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24548",
           "rdfs:label": "sound",
-          "@type": "Class"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -363,7 +1338,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72955",
+        "@id": "_:bn73792",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -374,7 +1349,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72956",
+        "@id": "_:bn73793",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -385,7 +1360,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn72957",
+        "@id": "_:bn73794",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19305",
@@ -407,7 +1382,7 @@
         ]
       },
       {
-        "@id": "_:bn72958",
+        "@id": "_:bn73795",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -429,12 +1404,12 @@
         ]
       },
       {
-        "@id": "_:bn72959",
+        "@id": "_:bn73796",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19173",
           "rdfs:label": "Bell Labs",
-          "@type": "Organization"
+          "@type": "Publisher"
         },
         "referenceBlock": [
           {
@@ -447,7 +1422,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn72960",
+        "@id": "_:bn73797",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24375",
@@ -463,7 +1438,7 @@
         ]
       },
       {
-        "@id": "_:bn72961",
+        "@id": "_:bn73798",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24363",
@@ -479,7 +1454,7 @@
         ]
       },
       {
-        "@id": "_:bn72962",
+        "@id": "_:bn73799",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24362",
@@ -497,7 +1472,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn72963",
+        "@id": "_:bn73800",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19677",
@@ -523,7 +1498,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72964",
+        "@id": "_:bn73801",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -534,7 +1509,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72965",
+        "@id": "_:bn73802",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -563,7 +1538,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72966",
+        "@id": "_:bn73803",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -574,7 +1549,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72967",
+        "@id": "_:bn73804",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -585,7 +1560,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn72968",
+        "@id": "_:bn73805",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24206",
@@ -603,7 +1578,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn72969",
+        "@id": "_:bn73806",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -635,7 +1610,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72970",
+        "@id": "_:bn73807",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -646,7 +1621,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72971",
+        "@id": "_:bn73808",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -657,7 +1632,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn72972",
+        "@id": "_:bn73809",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19346",
@@ -688,7 +1663,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72973",
+        "@id": "_:bn73810",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -699,7 +1674,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72974",
+        "@id": "_:bn73811",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -718,7 +1693,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72975",
+        "@id": "_:bn73812",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -729,7 +1704,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72976",
+        "@id": "_:bn73813",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -740,7 +1715,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn72977",
+        "@id": "_:bn73814",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -751,7 +1726,7 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn72978",
+        "@id": "_:bn73815",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19461",
@@ -782,7 +1757,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72979",
+        "@id": "_:bn73816",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -793,7 +1768,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72980",
+        "@id": "_:bn73817",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -804,7 +1779,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn72981",
+        "@id": "_:bn73818",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -815,7 +1790,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn72982",
+        "@id": "_:bn73819",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19643",
@@ -852,7 +1827,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72983",
+        "@id": "_:bn73820",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -870,7 +1845,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72984",
+        "@id": "_:bn73821",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -881,7 +1856,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn72985",
+        "@id": "_:bn73822",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19339",
@@ -912,7 +1887,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn72986",
+        "@id": "_:bn73823",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19471",
@@ -930,7 +1905,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn72987",
+        "@id": "_:bn73824",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24357",
@@ -946,7 +1921,7 @@
         ]
       },
       {
-        "@id": "_:bn72988",
+        "@id": "_:bn73825",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24337",
@@ -962,10 +1937,10 @@
         ]
       },
       {
-        "@id": "_:bn72989",
+        "@id": "_:bn73826",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24384",
+          "@id": "semlab:Q20630",
           "rdfs:label": "piano",
           "@type": "ArtMaterial"
         },
@@ -980,7 +1955,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn72990",
+        "@id": "_:bn73827",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -1006,7 +1981,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72991",
+        "@id": "_:bn73828",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -1017,7 +1992,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72992",
+        "@id": "_:bn73829",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1036,7 +2011,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn72993",
+        "@id": "_:bn73830",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -1047,7 +2022,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn72994",
+        "@id": "_:bn73831",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1058,7 +2033,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn72995",
+        "@id": "_:bn73832",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19497",
@@ -1086,12 +2061,12 @@
     ],
     "uses": [
       {
-        "@id": "_:bn72996",
+        "@id": "_:bn73833",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24548",
           "rdfs:label": "sound",
-          "@type": "Class"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -1102,12 +2077,12 @@
         ]
       },
       {
-        "@id": "_:bn72997",
+        "@id": "_:bn73834",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26763",
           "rdfs:label": "film (material)",
-          "@type": "Class"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -1118,12 +2093,12 @@
         ]
       },
       {
-        "@id": "_:bn72998",
+        "@id": "_:bn73835",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24367",
           "rdfs:label": "television",
-          "@type": "Technology"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -1139,7 +2114,7 @@
         ]
       },
       {
-        "@id": "_:bn72999",
+        "@id": "_:bn73836",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24413",
@@ -1155,7 +2130,7 @@
         ]
       },
       {
-        "@id": "_:bn73000",
+        "@id": "_:bn73837",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24378",
@@ -1171,7 +2146,7 @@
         ]
       },
       {
-        "@id": "_:bn73001",
+        "@id": "_:bn73838",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24346",
@@ -1187,7 +2162,7 @@
         ]
       },
       {
-        "@id": "_:bn73002",
+        "@id": "_:bn73839",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24342",
@@ -1208,7 +2183,7 @@
         ]
       },
       {
-        "@id": "_:bn73003",
+        "@id": "_:bn73840",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24343",
@@ -1226,7 +2201,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73004",
+        "@id": "_:bn73841",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24241",
@@ -1244,7 +2219,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn73005",
+        "@id": "_:bn73842",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24704",
@@ -1262,12 +2237,12 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73006",
+        "@id": "_:bn73843",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
           "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
+          "@type": "Artwork"
         },
         "location": [
           {
@@ -1290,7 +2265,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73007",
+        "@id": "_:bn73844",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -1301,7 +2276,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73008",
+        "@id": "_:bn73845",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1312,7 +2287,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73009",
+        "@id": "_:bn73846",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -1337,7 +2312,7 @@
     ],
     "performer": [
       {
-        "@id": "_:bn73010",
+        "@id": "_:bn73847",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19606",
@@ -1353,7 +2328,7 @@
         ]
       },
       {
-        "@id": "_:bn73011",
+        "@id": "_:bn73848",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -1369,7 +2344,7 @@
         ]
       },
       {
-        "@id": "_:bn73012",
+        "@id": "_:bn73849",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19643",
@@ -1385,7 +2360,7 @@
         ]
       },
       {
-        "@id": "_:bn73013",
+        "@id": "_:bn73850",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19594",
@@ -1408,7 +2383,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73014",
+        "@id": "_:bn73851",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19550",
@@ -1424,7 +2399,7 @@
         ]
       },
       {
-        "@id": "_:bn73015",
+        "@id": "_:bn73852",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19204",
@@ -1448,7 +2423,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73016",
+        "@id": "_:bn73853",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21365",
@@ -1466,7 +2441,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73017",
+        "@id": "_:bn73854",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22667",
@@ -1492,7 +2467,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73018",
+        "@id": "_:bn73855",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -1503,7 +2478,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73019",
+        "@id": "_:bn73856",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1514,7 +2489,7 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73020",
+        "@id": "_:bn73857",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21212",
@@ -1580,7 +2555,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73021",
+        "@id": "_:bn73858",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -1598,7 +2573,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73022",
+        "@id": "_:bn73859",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21213",
@@ -1638,7 +2613,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73023",
+        "@id": "_:bn73860",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25730",
@@ -1664,7 +2639,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73024",
+        "@id": "_:bn73861",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -1675,7 +2650,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73025",
+        "@id": "_:bn73862",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1694,7 +2669,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73026",
+        "@id": "_:bn73863",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -1705,7 +2680,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73027",
+        "@id": "_:bn73864",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1724,7 +2699,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73028",
+        "@id": "_:bn73865",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -1735,7 +2710,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73029",
+        "@id": "_:bn73866",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1754,7 +2729,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73030",
+        "@id": "_:bn73867",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -1765,7 +2740,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73031",
+        "@id": "_:bn73868",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1776,7 +2751,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73032",
+        "@id": "_:bn73869",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -1787,7 +2762,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73033",
+        "@id": "_:bn73870",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19643",
@@ -1824,7 +2799,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73034",
+        "@id": "_:bn73871",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -1842,7 +2817,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73035",
+        "@id": "_:bn73872",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1853,7 +2828,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73036",
+        "@id": "_:bn73873",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19616",
@@ -1871,7 +2846,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73037",
+        "@id": "_:bn73874",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -1889,7 +2864,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn73038",
+        "@id": "_:bn73875",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23761",
@@ -1915,7 +2890,7 @@
         ]
       },
       {
-        "@id": "_:bn73039",
+        "@id": "_:bn73876",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19414",
@@ -1941,7 +2916,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73040",
+        "@id": "_:bn73877",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -1952,7 +2927,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73041",
+        "@id": "_:bn73878",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1963,7 +2938,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73042",
+        "@id": "_:bn73879",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -1974,63 +2949,13 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73043",
+        "@id": "_:bn73880",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19270",
           "rdfs:label": "First New York Theater Rally",
           "@type": "Event"
         }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q19492",
-    "rdfs:label": "Nine Evenings: Theater and Engineering",
-    "@type": [
-      "Artwork",
-      "Event"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn73044",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19073",
-          "rdfs:label": "artwork",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn73045",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19071",
-          "rdfs:label": "event",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn73046",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. + LOD Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q4646407"
-      }
-    ],
-    "wikidataUri": [
-      {
-        "@value": "http://www.wikidata.org/entity/Q4646407"
       }
     ]
   },
@@ -2043,7 +2968,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73047",
+        "@id": "_:bn73881",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -2054,7 +2979,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73048",
+        "@id": "_:bn73882",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2065,7 +2990,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73049",
+        "@id": "_:bn73883",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -2088,12 +3013,12 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73050",
+        "@id": "_:bn73884",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
           "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
+          "@type": "Artwork"
         },
         "location": [
           {
@@ -2160,7 +3085,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73051",
+        "@id": "_:bn73885",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21364",
@@ -2183,7 +3108,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73052",
+        "@id": "_:bn73886",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24362",
@@ -2199,7 +3124,7 @@
         ]
       },
       {
-        "@id": "_:bn73053",
+        "@id": "_:bn73887",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24375",
@@ -2215,7 +3140,7 @@
         ]
       },
       {
-        "@id": "_:bn73054",
+        "@id": "_:bn73888",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24559",
@@ -2231,7 +3156,7 @@
         ]
       },
       {
-        "@id": "_:bn73055",
+        "@id": "_:bn73889",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23517",
@@ -2247,7 +3172,7 @@
         ]
       },
       {
-        "@id": "_:bn73056",
+        "@id": "_:bn73890",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24373",
@@ -2263,7 +3188,7 @@
         ]
       },
       {
-        "@id": "_:bn73057",
+        "@id": "_:bn73891",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22679",
@@ -2301,7 +3226,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73058",
+        "@id": "_:bn73892",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -2310,7 +3235,7 @@
         }
       },
       {
-        "@id": "_:bn73059",
+        "@id": "_:bn73893",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22436",
@@ -2328,7 +3253,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73060",
+        "@id": "_:bn73894",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2339,7 +3264,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73061",
+        "@id": "_:bn73895",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -2372,7 +3297,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn73062",
+        "@id": "_:bn73896",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22683",
@@ -2388,7 +3313,7 @@
         ]
       },
       {
-        "@id": "_:bn73063",
+        "@id": "_:bn73897",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19400",
@@ -2406,7 +3331,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73064",
+        "@id": "_:bn73898",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -2438,7 +3363,7 @@
         ]
       },
       {
-        "@id": "_:bn73065",
+        "@id": "_:bn73899",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19305",
@@ -2465,7 +3390,7 @@
         ]
       },
       {
-        "@id": "_:bn73066",
+        "@id": "_:bn73900",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -2489,7 +3414,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73067",
+        "@id": "_:bn73901",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24364",
@@ -2510,7 +3435,7 @@
         ]
       },
       {
-        "@id": "_:bn73068",
+        "@id": "_:bn73902",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26764",
@@ -2536,7 +3461,7 @@
         ]
       },
       {
-        "@id": "_:bn73069",
+        "@id": "_:bn73903",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23779",
@@ -2552,7 +3477,7 @@
         ]
       },
       {
-        "@id": "_:bn73070",
+        "@id": "_:bn73904",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24366",
@@ -2568,7 +3493,7 @@
         ]
       },
       {
-        "@id": "_:bn73071",
+        "@id": "_:bn73905",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24363",
@@ -2589,7 +3514,7 @@
         ]
       },
       {
-        "@id": "_:bn73072",
+        "@id": "_:bn73906",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24358",
@@ -2610,7 +3535,7 @@
         ]
       },
       {
-        "@id": "_:bn73073",
+        "@id": "_:bn73907",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24558",
@@ -2626,7 +3551,7 @@
         ]
       },
       {
-        "@id": "_:bn73074",
+        "@id": "_:bn73908",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24382",
@@ -2642,7 +3567,7 @@
         ]
       },
       {
-        "@id": "_:bn73075",
+        "@id": "_:bn73909",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24376",
@@ -2658,7 +3583,7 @@
         ]
       },
       {
-        "@id": "_:bn73076",
+        "@id": "_:bn73910",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24233",
@@ -2674,7 +3599,7 @@
         ]
       },
       {
-        "@id": "_:bn73077",
+        "@id": "_:bn73911",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24557",
@@ -2690,7 +3615,7 @@
         ]
       },
       {
-        "@id": "_:bn73078",
+        "@id": "_:bn73912",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24362",
@@ -2706,7 +3631,7 @@
         ]
       },
       {
-        "@id": "_:bn73079",
+        "@id": "_:bn73913",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24372",
@@ -2722,7 +3647,7 @@
         ]
       },
       {
-        "@id": "_:bn73080",
+        "@id": "_:bn73914",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24361",
@@ -2745,7 +3670,7 @@
     "rdfs:label": "Parade",
     "partOfProject": [
       {
-        "@id": "_:bn73081",
+        "@id": "_:bn73915",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2764,7 +3689,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73082",
+        "@id": "_:bn73916",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -2788,7 +3713,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73083",
+        "@id": "_:bn73917",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -2799,7 +3724,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73084",
+        "@id": "_:bn73918",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2818,7 +3743,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73085",
+        "@id": "_:bn73919",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -2829,7 +3754,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73086",
+        "@id": "_:bn73920",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2840,7 +3765,7 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73087",
+        "@id": "_:bn73921",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19270",
@@ -2884,7 +3809,7 @@
         ]
       },
       {
-        "@id": "_:bn73088",
+        "@id": "_:bn73922",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20659",
@@ -2915,7 +3840,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73089",
+        "@id": "_:bn73923",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -2926,7 +3851,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73090",
+        "@id": "_:bn73924",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20661",
@@ -2935,7 +3860,7 @@
         }
       },
       {
-        "@id": "_:bn73091",
+        "@id": "_:bn73925",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20663",
@@ -2954,7 +3879,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73092",
+        "@id": "_:bn73926",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -2965,7 +3890,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73093",
+        "@id": "_:bn73927",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2976,7 +3901,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73094",
+        "@id": "_:bn73928",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19606",
@@ -2994,12 +3919,12 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73095",
+        "@id": "_:bn73929",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24548",
           "rdfs:label": "sound",
-          "@type": "Class"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -3010,7 +3935,7 @@
         ]
       },
       {
-        "@id": "_:bn73096",
+        "@id": "_:bn73930",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24366",
@@ -3026,7 +3951,7 @@
         ]
       },
       {
-        "@id": "_:bn73097",
+        "@id": "_:bn73931",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26764",
@@ -3044,12 +3969,12 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73098",
+        "@id": "_:bn73932",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
           "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
+          "@type": "Artwork"
         },
         "location": [
           {
@@ -3071,7 +3996,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73099",
+        "@id": "_:bn73933",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24631",
@@ -3090,7 +4015,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73100",
+        "@id": "_:bn73934",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -3101,7 +4026,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73101",
+        "@id": "_:bn73935",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3112,7 +4037,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73102",
+        "@id": "_:bn73936",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -3135,7 +4060,7 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73103",
+        "@id": "_:bn73937",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21212",
@@ -3184,7 +4109,7 @@
         ]
       },
       {
-        "@id": "_:bn73104",
+        "@id": "_:bn73938",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21223",
@@ -3209,7 +4134,7 @@
         ]
       },
       {
-        "@id": "_:bn73105",
+        "@id": "_:bn73939",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19212",
@@ -3247,7 +4172,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73106",
+        "@id": "_:bn73940",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21224",
@@ -3273,7 +4198,7 @@
         ]
       },
       {
-        "@id": "_:bn73107",
+        "@id": "_:bn73941",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21225",
@@ -3289,7 +4214,7 @@
         ]
       },
       {
-        "@id": "_:bn73108",
+        "@id": "_:bn73942",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21226",
@@ -3320,7 +4245,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73109",
+        "@id": "_:bn73943",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -3331,7 +4256,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73110",
+        "@id": "_:bn73944",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3361,7 +4286,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73111",
+        "@id": "_:bn73945",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -3370,7 +4295,7 @@
         }
       },
       {
-        "@id": "_:bn73112",
+        "@id": "_:bn73946",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -3388,7 +4313,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73113",
+        "@id": "_:bn73947",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3399,7 +4324,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73114",
+        "@id": "_:bn73948",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19143",
@@ -3422,7 +4347,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73115",
+        "@id": "_:bn73949",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -3449,7 +4374,7 @@
         ]
       },
       {
-        "@id": "_:bn73116",
+        "@id": "_:bn73950",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19305",
@@ -3473,7 +4398,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73117",
+        "@id": "_:bn73951",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24361",
@@ -3489,7 +4414,7 @@
         ]
       },
       {
-        "@id": "_:bn73118",
+        "@id": "_:bn73952",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24561",
@@ -3505,7 +4430,7 @@
         ]
       },
       {
-        "@id": "_:bn73119",
+        "@id": "_:bn73953",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23417",
@@ -3523,7 +4448,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn73120",
+        "@id": "_:bn73954",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19400",
@@ -3552,7 +4477,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73121",
+        "@id": "_:bn73955",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -3563,7 +4488,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73122",
+        "@id": "_:bn73956",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3582,7 +4507,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73123",
+        "@id": "_:bn73957",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -3605,7 +4530,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73124",
+        "@id": "_:bn73958",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3616,7 +4541,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73125",
+        "@id": "_:bn73959",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -3637,7 +4562,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73126",
+        "@id": "_:bn73960",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19282",
@@ -3653,7 +4578,7 @@
         ]
       },
       {
-        "@id": "_:bn73127",
+        "@id": "_:bn73961",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19548",
@@ -3671,7 +4596,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn73128",
+        "@id": "_:bn73962",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19604",
@@ -3695,7 +4620,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73129",
+        "@id": "_:bn73963",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24356",
@@ -3711,7 +4636,7 @@
         ]
       },
       {
-        "@id": "_:bn73130",
+        "@id": "_:bn73964",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23415",
@@ -3727,7 +4652,7 @@
         ]
       },
       {
-        "@id": "_:bn73131",
+        "@id": "_:bn73965",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24350",
@@ -3743,7 +4668,7 @@
         ]
       },
       {
-        "@id": "_:bn73132",
+        "@id": "_:bn73966",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24467",
@@ -3759,12 +4684,12 @@
         ]
       },
       {
-        "@id": "_:bn73133",
+        "@id": "_:bn73967",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24349",
           "rdfs:label": "electric light",
-          "@type": "ArtMaterial"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -3775,12 +4700,12 @@
         ]
       },
       {
-        "@id": "_:bn73134",
+        "@id": "_:bn73968",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24548",
           "rdfs:label": "sound",
-          "@type": "Class"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -3791,7 +4716,7 @@
         ]
       },
       {
-        "@id": "_:bn73135",
+        "@id": "_:bn73969",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24400",
@@ -3817,7 +4742,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73136",
+        "@id": "_:bn73970",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -3828,7 +4753,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73137",
+        "@id": "_:bn73971",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3839,7 +4764,7 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73138",
+        "@id": "_:bn73972",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19270",
@@ -3891,7 +4816,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73139",
+        "@id": "_:bn73973",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -3914,7 +4839,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73140",
+        "@id": "_:bn73974",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21211",
@@ -3942,7 +4867,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73141",
+        "@id": "_:bn73975",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19643",
@@ -3958,7 +4883,7 @@
         ]
       },
       {
-        "@id": "_:bn73142",
+        "@id": "_:bn73976",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19235",
@@ -3974,7 +4899,7 @@
         ]
       },
       {
-        "@id": "_:bn73143",
+        "@id": "_:bn73977",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -3992,7 +4917,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73144",
+        "@id": "_:bn73978",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25732",
@@ -4031,7 +4956,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73145",
+        "@id": "_:bn73979",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -4040,7 +4965,7 @@
         }
       },
       {
-        "@id": "_:bn73146",
+        "@id": "_:bn73980",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19098",
@@ -4051,7 +4976,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73147",
+        "@id": "_:bn73981",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4081,7 +5006,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73148",
+        "@id": "_:bn73982",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -4090,7 +5015,7 @@
         }
       },
       {
-        "@id": "_:bn73149",
+        "@id": "_:bn73983",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19098",
@@ -4101,7 +5026,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73150",
+        "@id": "_:bn73984",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4130,7 +5055,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73151",
+        "@id": "_:bn73985",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -4141,7 +5066,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73152",
+        "@id": "_:bn73986",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4170,7 +5095,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73153",
+        "@id": "_:bn73987",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -4181,7 +5106,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73154",
+        "@id": "_:bn73988",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4210,7 +5135,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73155",
+        "@id": "_:bn73989",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -4221,7 +5146,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73156",
+        "@id": "_:bn73990",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4240,7 +5165,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73157",
+        "@id": "_:bn73991",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -4251,7 +5176,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73158",
+        "@id": "_:bn73992",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4262,7 +5187,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73159",
+        "@id": "_:bn73993",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -4280,7 +5205,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73160",
+        "@id": "_:bn73994",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24339",
@@ -4296,7 +5221,7 @@
         ]
       },
       {
-        "@id": "_:bn73161",
+        "@id": "_:bn73995",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24374",
@@ -4312,7 +5237,7 @@
         ]
       },
       {
-        "@id": "_:bn73162",
+        "@id": "_:bn73996",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24356",
@@ -4328,7 +5253,7 @@
         ]
       },
       {
-        "@id": "_:bn73163",
+        "@id": "_:bn73997",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24373",
@@ -4344,12 +5269,12 @@
         ]
       },
       {
-        "@id": "_:bn73164",
+        "@id": "_:bn73998",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26763",
           "rdfs:label": "film (material)",
-          "@type": "Class"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -4360,7 +5285,7 @@
         ]
       },
       {
-        "@id": "_:bn73165",
+        "@id": "_:bn73999",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24375",
@@ -4376,7 +5301,7 @@
         ]
       },
       {
-        "@id": "_:bn73166",
+        "@id": "_:bn74000",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24376",
@@ -4392,12 +5317,12 @@
         ]
       },
       {
-        "@id": "_:bn73167",
+        "@id": "_:bn74001",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24548",
           "rdfs:label": "sound",
-          "@type": "Class"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -4410,7 +5335,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73168",
+        "@id": "_:bn74002",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24240",
@@ -4421,12 +5346,12 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73169",
+        "@id": "_:bn74003",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
           "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
+          "@type": "Artwork"
         },
         "location": [
           {
@@ -4482,7 +5407,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73170",
+        "@id": "_:bn74004",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -4493,7 +5418,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73171",
+        "@id": "_:bn74005",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4504,7 +5429,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73172",
+        "@id": "_:bn74006",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -4515,7 +5440,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73173",
+        "@id": "_:bn74007",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19371",
@@ -4552,7 +5477,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73174",
+        "@id": "_:bn74008",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -4563,7 +5488,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73175",
+        "@id": "_:bn74009",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4574,7 +5499,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73176",
+        "@id": "_:bn74010",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q724",
@@ -4598,7 +5523,7 @@
     ],
     "sponsoredBy": [
       {
-        "@id": "_:bn73177",
+        "@id": "_:bn74011",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19449",
@@ -4616,7 +5541,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73178",
+        "@id": "_:bn74012",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19233",
@@ -4638,7 +5563,7 @@
         ]
       },
       {
-        "@id": "_:bn73179",
+        "@id": "_:bn74013",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -4660,7 +5585,7 @@
         ]
       },
       {
-        "@id": "_:bn73180",
+        "@id": "_:bn74014",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19204",
@@ -4682,7 +5607,7 @@
         ]
       },
       {
-        "@id": "_:bn73181",
+        "@id": "_:bn74015",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19673",
@@ -4704,7 +5629,7 @@
         ]
       },
       {
-        "@id": "_:bn73182",
+        "@id": "_:bn74016",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24187",
@@ -4728,7 +5653,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73183",
+        "@id": "_:bn74017",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23779",
@@ -4744,12 +5669,12 @@
         ]
       },
       {
-        "@id": "_:bn73184",
+        "@id": "_:bn74018",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24349",
           "rdfs:label": "electric light",
-          "@type": "ArtMaterial"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -4760,7 +5685,7 @@
         ]
       },
       {
-        "@id": "_:bn73185",
+        "@id": "_:bn74019",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24559",
@@ -4776,7 +5701,7 @@
         ]
       },
       {
-        "@id": "_:bn73186",
+        "@id": "_:bn74020",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24365",
@@ -4792,7 +5717,7 @@
         ]
       },
       {
-        "@id": "_:bn73187",
+        "@id": "_:bn74021",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24364",
@@ -4808,7 +5733,7 @@
         ]
       },
       {
-        "@id": "_:bn73188",
+        "@id": "_:bn74022",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24558",
@@ -4824,12 +5749,12 @@
         ]
       },
       {
-        "@id": "_:bn73189",
+        "@id": "_:bn74023",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24367",
           "rdfs:label": "television",
-          "@type": "Technology"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -4842,7 +5767,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn73190",
+        "@id": "_:bn74024",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21531",
@@ -4868,7 +5793,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73191",
+        "@id": "_:bn74025",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -4879,7 +5804,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73192",
+        "@id": "_:bn74026",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4890,7 +5815,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73193",
+        "@id": "_:bn74027",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19215",
@@ -4901,7 +5826,7 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73194",
+        "@id": "_:bn74028",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19270",
@@ -4920,7 +5845,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73195",
+        "@id": "_:bn74029",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -4931,7 +5856,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73196",
+        "@id": "_:bn74030",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4950,7 +5875,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73197",
+        "@id": "_:bn74031",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -4961,7 +5886,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73198",
+        "@id": "_:bn74032",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19235",
@@ -4984,7 +5909,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73199",
+        "@id": "_:bn74033",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19641",
@@ -5000,7 +5925,7 @@
         ]
       },
       {
-        "@id": "_:bn73200",
+        "@id": "_:bn74034",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19392",
@@ -5024,7 +5949,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73201",
+        "@id": "_:bn74035",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5035,7 +5960,7 @@
     ],
     "workPerformed": [
       {
-        "@id": "_:bn73202",
+        "@id": "_:bn74036",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24222",
@@ -5053,7 +5978,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73203",
+        "@id": "_:bn74037",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24571",
@@ -5069,7 +5994,7 @@
         ]
       },
       {
-        "@id": "_:bn73204",
+        "@id": "_:bn74038",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24364",
@@ -5085,7 +6010,7 @@
         ]
       },
       {
-        "@id": "_:bn73205",
+        "@id": "_:bn74039",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24230",
@@ -5101,7 +6026,7 @@
         ]
       },
       {
-        "@id": "_:bn73206",
+        "@id": "_:bn74040",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24559",
@@ -5117,7 +6042,7 @@
         ]
       },
       {
-        "@id": "_:bn73207",
+        "@id": "_:bn74041",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24558",
@@ -5133,12 +6058,12 @@
         ]
       },
       {
-        "@id": "_:bn73208",
+        "@id": "_:bn74042",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24349",
           "rdfs:label": "electric light",
-          "@type": "ArtMaterial"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -5151,7 +6076,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73209",
+        "@id": "_:bn74043",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24238",
@@ -5169,12 +6094,12 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73210",
+        "@id": "_:bn74044",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
           "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
+          "@type": "Artwork"
         },
         "location": [
           {
@@ -5207,7 +6132,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73211",
+        "@id": "_:bn74045",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -5218,7 +6143,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73212",
+        "@id": "_:bn74046",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19235",
@@ -5236,7 +6161,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73213",
+        "@id": "_:bn74047",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5247,7 +6172,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73214",
+        "@id": "_:bn74048",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19204",
@@ -5269,7 +6194,7 @@
         ]
       },
       {
-        "@id": "_:bn73215",
+        "@id": "_:bn74049",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19606",
@@ -5291,7 +6216,7 @@
         ]
       },
       {
-        "@id": "_:bn73216",
+        "@id": "_:bn74050",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23354",
@@ -5307,7 +6232,7 @@
         ]
       },
       {
-        "@id": "_:bn73217",
+        "@id": "_:bn74051",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23355",
@@ -5325,7 +6250,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73218",
+        "@id": "_:bn74052",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23353",
@@ -5351,7 +6276,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73219",
+        "@id": "_:bn74053",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -5362,7 +6287,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73220",
+        "@id": "_:bn74054",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19434",
@@ -5380,7 +6305,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73221",
+        "@id": "_:bn74055",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5399,7 +6324,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73222",
+        "@id": "_:bn74056",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -5417,7 +6342,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73223",
+        "@id": "_:bn74057",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19403",
@@ -5439,7 +6364,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73224",
+        "@id": "_:bn74058",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5450,7 +6375,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73225",
+        "@id": "_:bn74059",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25790",
@@ -5470,7 +6395,7 @@
         ]
       },
       {
-        "@id": "_:bn73226",
+        "@id": "_:bn74060",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23409",
@@ -5496,7 +6421,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73227",
+        "@id": "_:bn74061",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -5507,7 +6432,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73228",
+        "@id": "_:bn74062",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19550",
@@ -5525,7 +6450,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73229",
+        "@id": "_:bn74063",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5536,7 +6461,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73230",
+        "@id": "_:bn74064",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23409",
@@ -5552,7 +6477,7 @@
         ]
       },
       {
-        "@id": "_:bn73231",
+        "@id": "_:bn74065",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25790",
@@ -5568,7 +6493,7 @@
         ]
       },
       {
-        "@id": "_:bn73232",
+        "@id": "_:bn74066",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24365",
@@ -5582,7 +6507,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn73233",
+        "@id": "_:bn74067",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -5613,7 +6538,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73234",
+        "@id": "_:bn74068",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -5624,7 +6549,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73235",
+        "@id": "_:bn74069",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5643,7 +6568,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73236",
+        "@id": "_:bn74070",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -5654,7 +6579,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73237",
+        "@id": "_:bn74071",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -5665,7 +6590,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73238",
+        "@id": "_:bn74072",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5684,7 +6609,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73239",
+        "@id": "_:bn74073",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -5695,7 +6620,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73240",
+        "@id": "_:bn74074",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19418",
@@ -5706,7 +6631,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73241",
+        "@id": "_:bn74075",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5717,7 +6642,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn73242",
+        "@id": "_:bn74076",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22693",
@@ -5748,7 +6673,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73243",
+        "@id": "_:bn74077",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -5759,7 +6684,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73244",
+        "@id": "_:bn74078",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -5777,7 +6702,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73245",
+        "@id": "_:bn74079",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5788,7 +6713,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73246",
+        "@id": "_:bn74080",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22657",
@@ -5804,7 +6729,7 @@
         ]
       },
       {
-        "@id": "_:bn73247",
+        "@id": "_:bn74081",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19392",
@@ -5822,7 +6747,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73248",
+        "@id": "_:bn74082",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23410",
@@ -5848,7 +6773,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73249",
+        "@id": "_:bn74083",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -5859,7 +6784,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73250",
+        "@id": "_:bn74084",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22369",
@@ -5877,7 +6802,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73251",
+        "@id": "_:bn74085",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5888,7 +6813,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73252",
+        "@id": "_:bn74086",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22378",
@@ -5910,7 +6835,7 @@
         ]
       },
       {
-        "@id": "_:bn73253",
+        "@id": "_:bn74087",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22374",
@@ -5932,7 +6857,7 @@
         ]
       },
       {
-        "@id": "_:bn73254",
+        "@id": "_:bn74088",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22379",
@@ -5956,7 +6881,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73255",
+        "@id": "_:bn74089",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23415",
@@ -5982,7 +6907,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73256",
+        "@id": "_:bn74090",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -5993,7 +6918,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73257",
+        "@id": "_:bn74091",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19444",
@@ -6004,7 +6929,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73258",
+        "@id": "_:bn74092",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6023,7 +6948,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73259",
+        "@id": "_:bn74093",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -6034,7 +6959,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73260",
+        "@id": "_:bn74094",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19215",
@@ -6045,7 +6970,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73261",
+        "@id": "_:bn74095",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6064,7 +6989,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73262",
+        "@id": "_:bn74096",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -6082,7 +7007,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73263",
+        "@id": "_:bn74097",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19403",
@@ -6104,7 +7029,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73264",
+        "@id": "_:bn74098",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6115,7 +7040,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73265",
+        "@id": "_:bn74099",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25965",
@@ -6131,7 +7056,7 @@
         ]
       },
       {
-        "@id": "_:bn73266",
+        "@id": "_:bn74100",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25966",
@@ -6157,7 +7082,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73267",
+        "@id": "_:bn74101",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -6168,7 +7093,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73268",
+        "@id": "_:bn74102",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19418",
@@ -6191,7 +7116,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73269",
+        "@id": "_:bn74103",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6202,7 +7127,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73270",
+        "@id": "_:bn74104",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19513",
@@ -6231,7 +7156,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73271",
+        "@id": "_:bn74105",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22680",
@@ -6252,12 +7177,12 @@
         ]
       },
       {
-        "@id": "_:bn73272",
+        "@id": "_:bn74106",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24548",
           "rdfs:label": "sound",
-          "@type": "Class"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -6268,7 +7193,7 @@
         ]
       },
       {
-        "@id": "_:bn73273",
+        "@id": "_:bn74107",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24362",
@@ -6284,7 +7209,7 @@
         ]
       },
       {
-        "@id": "_:bn73274",
+        "@id": "_:bn74108",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24363",
@@ -6302,7 +7227,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73275",
+        "@id": "_:bn74109",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24632",
@@ -6320,12 +7245,12 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73276",
+        "@id": "_:bn74110",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
           "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
+          "@type": "Artwork"
         },
         "location": [
           {
@@ -6354,7 +7279,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73277",
+        "@id": "_:bn74111",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -6365,7 +7290,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73278",
+        "@id": "_:bn74112",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6376,7 +7301,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73279",
+        "@id": "_:bn74113",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19215",
@@ -6402,7 +7327,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73280",
+        "@id": "_:bn74114",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -6413,7 +7338,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73281",
+        "@id": "_:bn74115",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6424,7 +7349,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn73282",
+        "@id": "_:bn74116",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22934",
@@ -6448,7 +7373,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73283",
+        "@id": "_:bn74117",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -6464,7 +7389,7 @@
         ]
       },
       {
-        "@id": "_:bn73284",
+        "@id": "_:bn74118",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19206",
@@ -6480,7 +7405,7 @@
         ]
       },
       {
-        "@id": "_:bn73285",
+        "@id": "_:bn74119",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24682",
@@ -6496,7 +7421,7 @@
         ]
       },
       {
-        "@id": "_:bn73286",
+        "@id": "_:bn74120",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19570",
@@ -6512,7 +7437,7 @@
         ]
       },
       {
-        "@id": "_:bn73287",
+        "@id": "_:bn74121",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19241",
@@ -6528,7 +7453,7 @@
         ]
       },
       {
-        "@id": "_:bn73288",
+        "@id": "_:bn74122",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19280",
@@ -6544,7 +7469,7 @@
         ]
       },
       {
-        "@id": "_:bn73289",
+        "@id": "_:bn74123",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24683",
@@ -6560,7 +7485,7 @@
         ]
       },
       {
-        "@id": "_:bn73290",
+        "@id": "_:bn74124",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19292",
@@ -6576,7 +7501,7 @@
         ]
       },
       {
-        "@id": "_:bn73291",
+        "@id": "_:bn74125",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19346",
@@ -6592,7 +7517,7 @@
         ]
       },
       {
-        "@id": "_:bn73292",
+        "@id": "_:bn74126",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24681",
@@ -6610,7 +7535,7 @@
     ],
     "sponsoredBy": [
       {
-        "@id": "_:bn73293",
+        "@id": "_:bn74127",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24681",
@@ -6628,7 +7553,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn73294",
+        "@id": "_:bn74128",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19461",
@@ -6647,7 +7572,7 @@
         ]
       },
       {
-        "@id": "_:bn73295",
+        "@id": "_:bn74129",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24680",
@@ -6676,7 +7601,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73296",
+        "@id": "_:bn74130",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -6687,7 +7612,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73297",
+        "@id": "_:bn74131",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6698,7 +7623,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73298",
+        "@id": "_:bn74132",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19489",
@@ -6714,7 +7639,7 @@
         ]
       },
       {
-        "@id": "_:bn73299",
+        "@id": "_:bn74133",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19339",
@@ -6730,7 +7655,7 @@
         ]
       },
       {
-        "@id": "_:bn73300",
+        "@id": "_:bn74134",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19509",
@@ -6748,7 +7673,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn73301",
+        "@id": "_:bn74135",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19461",
@@ -6774,7 +7699,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73302",
+        "@id": "_:bn74136",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -6785,7 +7710,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73303",
+        "@id": "_:bn74137",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6796,7 +7721,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73304",
+        "@id": "_:bn74138",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q724",
@@ -6819,7 +7744,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73305",
+        "@id": "_:bn74139",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19233",
@@ -6837,12 +7762,12 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73306",
+        "@id": "_:bn74140",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24548",
           "rdfs:label": "sound",
-          "@type": "Class"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -6853,7 +7778,7 @@
         ]
       },
       {
-        "@id": "_:bn73307",
+        "@id": "_:bn74141",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24482",
@@ -6869,7 +7794,7 @@
         ]
       },
       {
-        "@id": "_:bn73308",
+        "@id": "_:bn74142",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24485",
@@ -6885,7 +7810,7 @@
         ]
       },
       {
-        "@id": "_:bn73309",
+        "@id": "_:bn74143",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24366",
@@ -6901,7 +7826,7 @@
         ]
       },
       {
-        "@id": "_:bn73310",
+        "@id": "_:bn74144",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23779",
@@ -6922,7 +7847,7 @@
         ]
       },
       {
-        "@id": "_:bn73311",
+        "@id": "_:bn74145",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24375",
@@ -6938,7 +7863,7 @@
         ]
       },
       {
-        "@id": "_:bn73312",
+        "@id": "_:bn74146",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24355",
@@ -6954,7 +7879,7 @@
         ]
       },
       {
-        "@id": "_:bn73313",
+        "@id": "_:bn74147",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24364",
@@ -6970,12 +7895,12 @@
         ]
       },
       {
-        "@id": "_:bn73314",
+        "@id": "_:bn74148",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24367",
           "rdfs:label": "television",
-          "@type": "Technology"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -6986,7 +7911,7 @@
         ]
       },
       {
-        "@id": "_:bn73315",
+        "@id": "_:bn74149",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24370",
@@ -7002,7 +7927,7 @@
         ]
       },
       {
-        "@id": "_:bn73316",
+        "@id": "_:bn74150",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24369",
@@ -7018,7 +7943,7 @@
         ]
       },
       {
-        "@id": "_:bn73317",
+        "@id": "_:bn74151",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24371",
@@ -7034,12 +7959,12 @@
         ]
       },
       {
-        "@id": "_:bn73318",
+        "@id": "_:bn74152",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24349",
           "rdfs:label": "electric light",
-          "@type": "ArtMaterial"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -7052,7 +7977,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73319",
+        "@id": "_:bn74153",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24338",
@@ -7070,12 +7995,12 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73320",
+        "@id": "_:bn74154",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
           "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
+          "@type": "Artwork"
         },
         "location": [
           {
@@ -7095,7 +8020,7 @@
     "rdfs:label": "model airplanes for Giant Model Airplanes",
     "partOfProject": [
       {
-        "@id": "_:bn73321",
+        "@id": "_:bn74155",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7109,7 +8034,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73322",
+        "@id": "_:bn74156",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -7120,7 +8045,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73323",
+        "@id": "_:bn74157",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23887",
@@ -7136,7 +8061,7 @@
         ]
       },
       {
-        "@id": "_:bn73324",
+        "@id": "_:bn74158",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23888",
@@ -7154,7 +8079,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73325",
+        "@id": "_:bn74159",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23891",
@@ -7172,7 +8097,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn73326",
+        "@id": "_:bn74160",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23884",
@@ -7190,7 +8115,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73327",
+        "@id": "_:bn74161",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23890",
@@ -7216,7 +8141,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73328",
+        "@id": "_:bn74162",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -7227,7 +8152,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73329",
+        "@id": "_:bn74163",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7238,7 +8163,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn73330",
+        "@id": "_:bn74164",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23885",
@@ -7264,7 +8189,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73331",
+        "@id": "_:bn74165",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -7275,7 +8200,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73332",
+        "@id": "_:bn74166",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7286,7 +8211,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn73333",
+        "@id": "_:bn74167",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23885",
@@ -7312,7 +8237,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73334",
+        "@id": "_:bn74168",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -7323,7 +8248,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73335",
+        "@id": "_:bn74169",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7334,7 +8259,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73336",
+        "@id": "_:bn74170",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19126",
@@ -7352,7 +8277,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn73337",
+        "@id": "_:bn74171",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19604",
@@ -7378,7 +8303,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73338",
+        "@id": "_:bn74172",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -7389,7 +8314,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73339",
+        "@id": "_:bn74173",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7400,7 +8325,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73340",
+        "@id": "_:bn74174",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19339",
@@ -7418,7 +8343,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73341",
+        "@id": "_:bn74175",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24358",
@@ -7444,7 +8369,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73342",
+        "@id": "_:bn74176",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -7455,7 +8380,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73343",
+        "@id": "_:bn74177",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7466,7 +8391,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73344",
+        "@id": "_:bn74178",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19395",
@@ -7484,7 +8409,7 @@
     ],
     "source": [
       {
-        "@id": "_:bn73345",
+        "@id": "_:bn74179",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19192",
@@ -7516,7 +8441,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73346",
+        "@id": "_:bn74180",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -7527,7 +8452,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73347",
+        "@id": "_:bn74181",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7538,7 +8463,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn73348",
+        "@id": "_:bn74182",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24206",
@@ -7556,7 +8481,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73349",
+        "@id": "_:bn74183",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19547",
@@ -7574,7 +8499,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73350",
+        "@id": "_:bn74184",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24337",
@@ -7590,7 +8515,7 @@
         ]
       },
       {
-        "@id": "_:bn73351",
+        "@id": "_:bn74185",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24359",
@@ -7616,7 +8541,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73352",
+        "@id": "_:bn74186",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -7627,7 +8552,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73353",
+        "@id": "_:bn74187",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7638,7 +8563,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73354",
+        "@id": "_:bn74188",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -7656,7 +8581,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn73355",
+        "@id": "_:bn74189",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19461",
@@ -7682,7 +8607,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73356",
+        "@id": "_:bn74190",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -7693,7 +8618,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73357",
+        "@id": "_:bn74191",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7704,7 +8629,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn73358",
+        "@id": "_:bn74192",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22223",
@@ -7736,7 +8661,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73359",
+        "@id": "_:bn74193",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -7747,7 +8672,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73360",
+        "@id": "_:bn74194",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7758,7 +8683,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73361",
+        "@id": "_:bn74195",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19143",
@@ -7776,7 +8701,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73362",
+        "@id": "_:bn74196",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -7802,7 +8727,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73363",
+        "@id": "_:bn74197",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -7813,7 +8738,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73364",
+        "@id": "_:bn74198",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7824,12 +8749,12 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73365",
+        "@id": "_:bn74199",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24548",
           "rdfs:label": "sound",
-          "@type": "Class"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -7840,12 +8765,12 @@
         ]
       },
       {
-        "@id": "_:bn73366",
+        "@id": "_:bn74200",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24360",
-          "rdfs:label": "circuit",
-          "@type": "Technology"
+          "rdfs:label": "circuits",
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -7856,7 +8781,7 @@
         ]
       },
       {
-        "@id": "_:bn73367",
+        "@id": "_:bn74201",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24363",
@@ -7872,7 +8797,7 @@
         ]
       },
       {
-        "@id": "_:bn73368",
+        "@id": "_:bn74202",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24359",
@@ -7888,12 +8813,12 @@
         ]
       },
       {
-        "@id": "_:bn73369",
+        "@id": "_:bn74203",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24349",
           "rdfs:label": "electric light",
-          "@type": "ArtMaterial"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -7904,12 +8829,12 @@
         ]
       },
       {
-        "@id": "_:bn73370",
+        "@id": "_:bn74204",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24564",
-          "rdfs:label": "transducer",
-          "@type": "Technology"
+          "rdfs:label": "transducers",
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -7920,7 +8845,7 @@
         ]
       },
       {
-        "@id": "_:bn73371",
+        "@id": "_:bn74205",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24230",
@@ -7936,7 +8861,7 @@
         ]
       },
       {
-        "@id": "_:bn73372",
+        "@id": "_:bn74206",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24231",
@@ -7952,7 +8877,7 @@
         ]
       },
       {
-        "@id": "_:bn73373",
+        "@id": "_:bn74207",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24558",
@@ -7979,12 +8904,12 @@
         ]
       },
       {
-        "@id": "_:bn73374",
+        "@id": "_:bn74208",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24367",
           "rdfs:label": "television",
-          "@type": "Technology"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -8000,7 +8925,7 @@
         ]
       },
       {
-        "@id": "_:bn73375",
+        "@id": "_:bn74209",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24373",
@@ -8016,7 +8941,7 @@
         ]
       },
       {
-        "@id": "_:bn73376",
+        "@id": "_:bn74210",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24368",
@@ -8032,7 +8957,7 @@
         ]
       },
       {
-        "@id": "_:bn73377",
+        "@id": "_:bn74211",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24565",
@@ -8054,7 +8979,7 @@
         ]
       },
       {
-        "@id": "_:bn73378",
+        "@id": "_:bn74212",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24364",
@@ -8070,7 +8995,7 @@
         ]
       },
       {
-        "@id": "_:bn73379",
+        "@id": "_:bn74213",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24571",
@@ -8088,7 +9013,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73380",
+        "@id": "_:bn74214",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24235",
@@ -8106,7 +9031,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73381",
+        "@id": "_:bn74215",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19233",
@@ -8117,12 +9042,12 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73382",
+        "@id": "_:bn74216",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
           "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
+          "@type": "Artwork"
         },
         "location": [
           {
@@ -8145,7 +9070,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73383",
+        "@id": "_:bn74217",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -8156,7 +9081,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73384",
+        "@id": "_:bn74218",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8167,7 +9092,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73385",
+        "@id": "_:bn74219",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19677",
@@ -8185,7 +9110,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73386",
+        "@id": "_:bn74220",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24232",
@@ -8201,7 +9126,7 @@
         ]
       },
       {
-        "@id": "_:bn73387",
+        "@id": "_:bn74221",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24230",
@@ -8217,7 +9142,7 @@
         ]
       },
       {
-        "@id": "_:bn73388",
+        "@id": "_:bn74222",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24344",
@@ -8233,7 +9158,7 @@
         ]
       },
       {
-        "@id": "_:bn73389",
+        "@id": "_:bn74223",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24366",
@@ -8249,7 +9174,7 @@
         ]
       },
       {
-        "@id": "_:bn73390",
+        "@id": "_:bn74224",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24474",
@@ -8265,7 +9190,7 @@
         ]
       },
       {
-        "@id": "_:bn73391",
+        "@id": "_:bn74225",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24373",
@@ -8281,7 +9206,7 @@
         ]
       },
       {
-        "@id": "_:bn73392",
+        "@id": "_:bn74226",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24557",
@@ -8297,7 +9222,7 @@
         ]
       },
       {
-        "@id": "_:bn73393",
+        "@id": "_:bn74227",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24568",
@@ -8315,7 +9240,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73394",
+        "@id": "_:bn74228",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19199",
@@ -8339,7 +9264,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73395",
+        "@id": "_:bn74229",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24236",
@@ -8357,12 +9282,12 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73396",
+        "@id": "_:bn74230",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
           "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
+          "@type": "Artwork"
         },
         "location": [
           {
@@ -8391,7 +9316,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73397",
+        "@id": "_:bn74231",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -8402,7 +9327,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73398",
+        "@id": "_:bn74232",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8413,7 +9338,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73399",
+        "@id": "_:bn74233",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19641",
@@ -8433,7 +9358,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73400",
+        "@id": "_:bn74234",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -8454,7 +9379,7 @@
         ]
       },
       {
-        "@id": "_:bn73401",
+        "@id": "_:bn74235",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -8482,7 +9407,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73402",
+        "@id": "_:bn74236",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8493,7 +9418,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73403",
+        "@id": "_:bn74237",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24409",
@@ -8524,12 +9449,12 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73404",
+        "@id": "_:bn74238",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24349",
           "rdfs:label": "electric light",
-          "@type": "ArtMaterial"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -8540,7 +9465,7 @@
         ]
       },
       {
-        "@id": "_:bn73405",
+        "@id": "_:bn74239",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24676",
@@ -8558,7 +9483,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn73406",
+        "@id": "_:bn74240",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -8589,7 +9514,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73407",
+        "@id": "_:bn74241",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -8607,7 +9532,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73408",
+        "@id": "_:bn74242",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8618,7 +9543,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73409",
+        "@id": "_:bn74243",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -8636,12 +9561,12 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73410",
+        "@id": "_:bn74244",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24398",
           "rdfs:label": "lasers",
-          "@type": "Technology"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -8652,7 +9577,7 @@
         ]
       },
       {
-        "@id": "_:bn73411",
+        "@id": "_:bn74245",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24356",
@@ -8673,7 +9598,7 @@
         ]
       },
       {
-        "@id": "_:bn73412",
+        "@id": "_:bn74246",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23779",
@@ -8689,7 +9614,7 @@
         ]
       },
       {
-        "@id": "_:bn73413",
+        "@id": "_:bn74247",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24363",
@@ -8705,12 +9630,12 @@
         ]
       },
       {
-        "@id": "_:bn73414",
+        "@id": "_:bn74248",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24349",
           "rdfs:label": "electric light",
-          "@type": "ArtMaterial"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -8723,7 +9648,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73415",
+        "@id": "_:bn74249",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19233",
@@ -8739,7 +9664,7 @@
         ]
       },
       {
-        "@id": "_:bn73416",
+        "@id": "_:bn74250",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24410",
@@ -8757,7 +9682,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn73417",
+        "@id": "_:bn74251",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -8788,7 +9713,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73418",
+        "@id": "_:bn74252",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -8806,7 +9731,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73419",
+        "@id": "_:bn74253",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8817,7 +9742,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73420",
+        "@id": "_:bn74254",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24188",
@@ -8839,7 +9764,7 @@
         ]
       },
       {
-        "@id": "_:bn73421",
+        "@id": "_:bn74255",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -8855,7 +9780,7 @@
         ]
       },
       {
-        "@id": "_:bn73422",
+        "@id": "_:bn74256",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19233",
@@ -8869,7 +9794,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73423",
+        "@id": "_:bn74257",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24415",
@@ -8885,12 +9810,12 @@
         ]
       },
       {
-        "@id": "_:bn73424",
+        "@id": "_:bn74258",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24398",
           "rdfs:label": "lasers",
-          "@type": "Technology"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -8901,7 +9826,7 @@
         ]
       },
       {
-        "@id": "_:bn73425",
+        "@id": "_:bn74259",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24479",
@@ -8917,7 +9842,7 @@
         ]
       },
       {
-        "@id": "_:bn73426",
+        "@id": "_:bn74260",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24356",
@@ -8935,7 +9860,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn73427",
+        "@id": "_:bn74261",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -8962,7 +9887,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73428",
+        "@id": "_:bn74262",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -8971,7 +9896,7 @@
         }
       },
       {
-        "@id": "_:bn73429",
+        "@id": "_:bn74263",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24457",
@@ -8989,7 +9914,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73430",
+        "@id": "_:bn74264",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9000,12 +9925,12 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73431",
+        "@id": "_:bn74265",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19173",
           "rdfs:label": "Bell Labs",
-          "@type": "Organization"
+          "@type": "Publisher"
         },
         "referenceBlock": [
           {
@@ -9018,7 +9943,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73432",
+        "@id": "_:bn74266",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24413",
@@ -9034,7 +9959,7 @@
         ]
       },
       {
-        "@id": "_:bn73433",
+        "@id": "_:bn74267",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24356",
@@ -9052,7 +9977,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73434",
+        "@id": "_:bn74268",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24447",
@@ -9068,7 +9993,7 @@
         ]
       },
       {
-        "@id": "_:bn73435",
+        "@id": "_:bn74269",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24666",
@@ -9084,7 +10009,7 @@
         ]
       },
       {
-        "@id": "_:bn73436",
+        "@id": "_:bn74270",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -9110,7 +10035,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73437",
+        "@id": "_:bn74271",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -9121,7 +10046,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73438",
+        "@id": "_:bn74272",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9137,7 +10062,7 @@
     "rdfs:label": "Untitled Alex Hay Performance",
     "performanceInstance": [
       {
-        "@id": "_:bn73439",
+        "@id": "_:bn74273",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24239",
@@ -9151,7 +10076,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73440",
+        "@id": "_:bn74274",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -9162,7 +10087,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73441",
+        "@id": "_:bn74275",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9173,7 +10098,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73442",
+        "@id": "_:bn74276",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19124",
@@ -9191,12 +10116,12 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73443",
+        "@id": "_:bn74277",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24548",
           "rdfs:label": "sound",
-          "@type": "Class"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -9207,7 +10132,7 @@
         ]
       },
       {
-        "@id": "_:bn73444",
+        "@id": "_:bn74278",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24372",
@@ -9223,7 +10148,7 @@
         ]
       },
       {
-        "@id": "_:bn73445",
+        "@id": "_:bn74279",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24361",
@@ -9239,7 +10164,7 @@
         ]
       },
       {
-        "@id": "_:bn73446",
+        "@id": "_:bn74280",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24370",
@@ -9255,7 +10180,7 @@
         ]
       },
       {
-        "@id": "_:bn73447",
+        "@id": "_:bn74281",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24362",
@@ -9271,7 +10196,7 @@
         ]
       },
       {
-        "@id": "_:bn73448",
+        "@id": "_:bn74282",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24363",
@@ -9287,7 +10212,7 @@
         ]
       },
       {
-        "@id": "_:bn73449",
+        "@id": "_:bn74283",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24569",
@@ -9303,12 +10228,12 @@
         ]
       },
       {
-        "@id": "_:bn73450",
+        "@id": "_:bn74284",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24367",
           "rdfs:label": "television",
-          "@type": "Technology"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -9319,7 +10244,7 @@
         ]
       },
       {
-        "@id": "_:bn73451",
+        "@id": "_:bn74285",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24374",
@@ -9337,7 +10262,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73452",
+        "@id": "_:bn74286",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24189",
@@ -9359,7 +10284,7 @@
         ]
       },
       {
-        "@id": "_:bn73453",
+        "@id": "_:bn74287",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19282",
@@ -9381,7 +10306,7 @@
         ]
       },
       {
-        "@id": "_:bn73454",
+        "@id": "_:bn74288",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19204",
@@ -9405,12 +10330,12 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73455",
+        "@id": "_:bn74289",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
           "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
+          "@type": "Artwork"
         },
         "location": [
           {
@@ -9444,7 +10369,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73456",
+        "@id": "_:bn74290",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -9460,7 +10385,7 @@
         ]
       },
       {
-        "@id": "_:bn73457",
+        "@id": "_:bn74291",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -9478,7 +10403,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73458",
+        "@id": "_:bn74292",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19283",
@@ -9509,7 +10434,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73459",
+        "@id": "_:bn74293",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24480",
@@ -9536,7 +10461,7 @@
         ]
       },
       {
-        "@id": "_:bn73460",
+        "@id": "_:bn74294",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24233",
@@ -9552,7 +10477,7 @@
         ]
       },
       {
-        "@id": "_:bn73461",
+        "@id": "_:bn74295",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24490",
@@ -9570,7 +10495,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73462",
+        "@id": "_:bn74296",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19636",
@@ -9595,7 +10520,7 @@
         ]
       },
       {
-        "@id": "_:bn73463",
+        "@id": "_:bn74297",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19550",
@@ -9607,7 +10532,7 @@
         ]
       },
       {
-        "@id": "_:bn73464",
+        "@id": "_:bn74298",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -9619,7 +10544,7 @@
         ]
       },
       {
-        "@id": "_:bn73465",
+        "@id": "_:bn74299",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24409",
@@ -9631,7 +10556,7 @@
         ]
       },
       {
-        "@id": "_:bn73466",
+        "@id": "_:bn74300",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19233",
@@ -9645,7 +10570,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn73467",
+        "@id": "_:bn74301",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -9678,7 +10603,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73468",
+        "@id": "_:bn74302",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9697,7 +10622,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73469",
+        "@id": "_:bn74303",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -9708,7 +10633,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73470",
+        "@id": "_:bn74304",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9719,7 +10644,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73471",
+        "@id": "_:bn74305",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24356",
@@ -9737,7 +10662,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73472",
+        "@id": "_:bn74306",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24459",
@@ -9759,7 +10684,7 @@
         ]
       },
       {
-        "@id": "_:bn73473",
+        "@id": "_:bn74307",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24476",
@@ -9775,7 +10700,7 @@
         ]
       },
       {
-        "@id": "_:bn73474",
+        "@id": "_:bn74308",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24416",
@@ -9793,12 +10718,12 @@
     ],
     "location": [
       {
-        "@id": "_:bn73475",
+        "@id": "_:bn74309",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24458",
           "rdfs:label": "Marine Air Corps Station at Santa Ana",
-          "@type": "Place"
+          "@type": "AirBase"
         }
       }
     ]
@@ -9812,7 +10737,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73476",
+        "@id": "_:bn74310",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -9823,7 +10748,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73477",
+        "@id": "_:bn74311",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9834,7 +10759,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73478",
+        "@id": "_:bn74312",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19643",
@@ -9852,7 +10777,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73479",
+        "@id": "_:bn74313",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19283",
@@ -9861,8 +10786,8 @@
         },
         "role": [
           {
-            "@id": "semlab:Q19081",
-            "rdfs:label": "engineer"
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
           }
         ],
         "referenceBlock": [
@@ -9876,7 +10801,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73480",
+        "@id": "_:bn74314",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24490",
@@ -9892,7 +10817,7 @@
         ]
       },
       {
-        "@id": "_:bn73481",
+        "@id": "_:bn74315",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24480",
@@ -9908,7 +10833,7 @@
         ]
       },
       {
-        "@id": "_:bn73482",
+        "@id": "_:bn74316",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24491",
@@ -9924,7 +10849,7 @@
         ]
       },
       {
-        "@id": "_:bn73483",
+        "@id": "_:bn74317",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24492",
@@ -9942,7 +10867,7 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73484",
+        "@id": "_:bn74318",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24493",
@@ -9952,7 +10877,7 @@
         "location": [
           {
             "@id": "semlab:Q24528",
-            "rdfs:label": "Manhattan"
+            "rdfs:label": "Manhattan (New York, N.Y.)"
           }
         ],
         "contributor": [
@@ -9976,7 +10901,7 @@
         ]
       },
       {
-        "@id": "_:bn73485",
+        "@id": "_:bn74319",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18837",
@@ -10012,7 +10937,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73486",
+        "@id": "_:bn74320",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25804",
@@ -10028,7 +10953,7 @@
         ]
       },
       {
-        "@id": "_:bn73487",
+        "@id": "_:bn74321",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25805",
@@ -10055,7 +10980,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73488",
+        "@id": "_:bn74322",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -10071,7 +10996,7 @@
         ]
       },
       {
-        "@id": "_:bn73489",
+        "@id": "_:bn74323",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -10089,7 +11014,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73490",
+        "@id": "_:bn74324",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -10100,7 +11025,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73491",
+        "@id": "_:bn74325",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24438",
@@ -10116,7 +11041,7 @@
         ]
       },
       {
-        "@id": "_:bn73492",
+        "@id": "_:bn74326",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19371",
@@ -10132,7 +11057,7 @@
         ]
       },
       {
-        "@id": "_:bn73493",
+        "@id": "_:bn74327",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -10148,7 +11073,7 @@
         ]
       },
       {
-        "@id": "_:bn73494",
+        "@id": "_:bn74328",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24437",
@@ -10170,7 +11095,7 @@
         ]
       },
       {
-        "@id": "_:bn73495",
+        "@id": "_:bn74329",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24439",
@@ -10200,7 +11125,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73496",
+        "@id": "_:bn74330",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19283",
@@ -10218,7 +11143,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73497",
+        "@id": "_:bn74331",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24490",
@@ -10245,7 +11170,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73498",
+        "@id": "_:bn74332",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -10261,7 +11186,7 @@
         ]
       },
       {
-        "@id": "_:bn73499",
+        "@id": "_:bn74333",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -10279,7 +11204,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73500",
+        "@id": "_:bn74334",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -10290,7 +11215,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73501",
+        "@id": "_:bn74335",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24699",
@@ -10308,12 +11233,12 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73502",
+        "@id": "_:bn74336",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24360",
-          "rdfs:label": "circuit",
-          "@type": "Technology"
+          "rdfs:label": "circuits",
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -10324,12 +11249,12 @@
         ]
       },
       {
-        "@id": "_:bn73503",
+        "@id": "_:bn74337",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24548",
           "rdfs:label": "sound",
-          "@type": "Class"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -10340,7 +11265,7 @@
         ]
       },
       {
-        "@id": "_:bn73504",
+        "@id": "_:bn74338",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24702",
@@ -10356,7 +11281,7 @@
         ]
       },
       {
-        "@id": "_:bn73505",
+        "@id": "_:bn74339",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24703",
@@ -10374,7 +11299,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn73506",
+        "@id": "_:bn74340",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24701",
@@ -10390,7 +11315,7 @@
         ]
       },
       {
-        "@id": "_:bn73507",
+        "@id": "_:bn74341",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24533",
@@ -10409,7 +11334,7 @@
         ]
       },
       {
-        "@id": "_:bn73508",
+        "@id": "_:bn74342",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24534",
@@ -10427,7 +11352,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn73509",
+        "@id": "_:bn74343",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19508",
@@ -10449,7 +11374,7 @@
         ]
       },
       {
-        "@id": "_:bn73510",
+        "@id": "_:bn74344",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -10475,7 +11400,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73511",
+        "@id": "_:bn74345",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -10486,7 +11411,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73512",
+        "@id": "_:bn74346",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -10497,7 +11422,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73513",
+        "@id": "_:bn74347",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24712",
@@ -10513,7 +11438,7 @@
         ]
       },
       {
-        "@id": "_:bn73514",
+        "@id": "_:bn74348",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24713",
@@ -10531,7 +11456,7 @@
     ],
     "performedAt": [
       {
-        "@id": "_:bn73515",
+        "@id": "_:bn74349",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24707",
@@ -10555,7 +11480,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73516",
+        "@id": "_:bn74350",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24709",
@@ -10573,7 +11498,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn73517",
+        "@id": "_:bn74351",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24710",
@@ -10589,7 +11514,7 @@
         ]
       },
       {
-        "@id": "_:bn73518",
+        "@id": "_:bn74352",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24711",
@@ -10615,7 +11540,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73519",
+        "@id": "_:bn74353",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -10626,7 +11551,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73520",
+        "@id": "_:bn74354",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -10659,7 +11584,7 @@
     ],
     "performanceInstance": [
       {
-        "@id": "_:bn73521",
+        "@id": "_:bn74355",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25735",
@@ -10677,7 +11602,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn73522",
+        "@id": "_:bn74356",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25733",
@@ -10693,7 +11618,7 @@
         ]
       },
       {
-        "@id": "_:bn73523",
+        "@id": "_:bn74357",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19643",

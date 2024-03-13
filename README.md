@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2023-12-11
+Generated: 2024-03-12
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -18,38 +18,35 @@ Generated: 2023-12-11
 
 ## Linked Jazz Oral History Network
 
-
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [linked_jazz_oral_history_network__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__all.jsonld) | 2040  |
+| All    | [linked_jazz_oral_history_network__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__all.jsonld) | 2039  |
 | Person    | [linked_jazz_oral_history_network__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__person.jsonld) | 1979  |
 | Institution    | [linked_jazz_oral_history_network__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__institution.jsonld) | 5  |
 | Music Group    | [linked_jazz_oral_history_network__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__music_group.jsonld) | 2  |
-| Interview Transcript    | [linked_jazz_oral_history_network__interview_transcript.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__interview_transcript.jsonld) | 54  |
-
+| Interview Transcript    | [linked_jazz_oral_history_network__interview_transcript.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__interview_transcript.jsonld) | 53  |
 ## Linking Lost Jazz Shrines
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [linking_lost_jazz_shrines__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__all.jsonld) | 994  |
+| All    | [linking_lost_jazz_shrines__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__all.jsonld) | 993  |
 | Person    | [linking_lost_jazz_shrines__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__person.jsonld) | 615  |
+| Institution    | [linking_lost_jazz_shrines__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__institution.jsonld) | 1  |
 | Music Group    | [linking_lost_jazz_shrines__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__music_group.jsonld) | 53  |
 | Music Venue    | [linking_lost_jazz_shrines__music_venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__music_venue.jsonld) | 174  |
-| Organization    | [linking_lost_jazz_shrines__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__organization.jsonld) | 94  |
+| Organization    | [linking_lost_jazz_shrines__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__organization.jsonld) | 93  |
 | Record Label    | [linking_lost_jazz_shrines__record_label.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__record_label.jsonld) | 10  |
-| Place    | [linking_lost_jazz_shrines__place.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__place.jsonld) | 1  |
 | Country    | [linking_lost_jazz_shrines__country.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__country.jsonld) | 1  |
 | Museum    | [linking_lost_jazz_shrines__museum.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__museum.jsonld) | 1  |
 | Interview Transcript    | [linking_lost_jazz_shrines__interview_transcript.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__interview_transcript.jsonld) | 29  |
 | School    | [linking_lost_jazz_shrines__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__school.jsonld) | 15  |
 | Local Union    | [linking_lost_jazz_shrines__local_union.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__local_union.jsonld) | 1  |
-
 ## The International Sweethearts of Rhythm Project
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [the_international_sweethearts_of_rhythm_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__all.jsonld) | 341  |
-| Person    | [the_international_sweethearts_of_rhythm_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__person.jsonld) | 103  |
+| All    | [the_international_sweethearts_of_rhythm_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__all.jsonld) | 343  |
+| Person    | [the_international_sweethearts_of_rhythm_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__person.jsonld) | 104  |
 | Music Group    | [the_international_sweethearts_of_rhythm_project__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__music_group.jsonld) | 16  |
 | Group    | [the_international_sweethearts_of_rhythm_project__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__group.jsonld) | 1  |
 | Organization    | [the_international_sweethearts_of_rhythm_project__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__organization.jsonld) | 1  |
@@ -64,18 +61,18 @@ Generated: 2023-12-11
 | Band Battle    | [the_international_sweethearts_of_rhythm_project__band_battle.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__band_battle.jsonld) | 3  |
 | Park    | [the_international_sweethearts_of_rhythm_project__park.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__park.jsonld) | 2  |
 | Warehouse    | [the_international_sweethearts_of_rhythm_project__warehouse.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__warehouse.jsonld) | 3  |
+| Art Material    | [the_international_sweethearts_of_rhythm_project__art_material.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__art_material.jsonld) | 1  |
 | Civic Center    | [the_international_sweethearts_of_rhythm_project__civic_center.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__civic_center.jsonld) | 1  |
 | Uso Center    | [the_international_sweethearts_of_rhythm_project__uso_center.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__uso_center.jsonld) | 1  |
 | Dance Group    | [the_international_sweethearts_of_rhythm_project__dance_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__dance_group.jsonld) | 1  |
 | Sports Stadium    | [the_international_sweethearts_of_rhythm_project__sports_stadium.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__sports_stadium.jsonld) | 2  |
 | Radio Station    | [the_international_sweethearts_of_rhythm_project__radio_station.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__radio_station.jsonld) | 1  |
 | Hotel    | [the_international_sweethearts_of_rhythm_project__hotel.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__hotel.jsonld) | 1  |
-
 ## Women of Jazz
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [women_of_jazz__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__all.jsonld) | 426  |
+| All    | [women_of_jazz__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__all.jsonld) | 427  |
 | Person    | [women_of_jazz__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__person.jsonld) | 192  |
 | Music Group    | [women_of_jazz__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__music_group.jsonld) | 18  |
 | Music Venue    | [women_of_jazz__music_venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__music_venue.jsonld) | 1  |
@@ -89,42 +86,41 @@ Generated: 2023-12-11
 | Band Battle    | [women_of_jazz__band_battle.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__band_battle.jsonld) | 3  |
 | Park    | [women_of_jazz__park.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__park.jsonld) | 2  |
 | Warehouse    | [women_of_jazz__warehouse.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__warehouse.jsonld) | 3  |
+| Art Material    | [women_of_jazz__art_material.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__art_material.jsonld) | 1  |
 | Civic Center    | [women_of_jazz__civic_center.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__civic_center.jsonld) | 1  |
 | Uso Center    | [women_of_jazz__uso_center.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__uso_center.jsonld) | 1  |
 | Sports Stadium    | [women_of_jazz__sports_stadium.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__sports_stadium.jsonld) | 2  |
 | Radio Station    | [women_of_jazz__radio_station.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__radio_station.jsonld) | 1  |
 | Hotel    | [women_of_jazz__hotel.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__hotel.jsonld) | 1  |
-
 ## Local 496
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [local_496__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__all.jsonld) | 432  |
+| All    | [local_496__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__all.jsonld) | 433  |
 | Person    | [local_496__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__person.jsonld) | 418  |
 | Institution    | [local_496__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__institution.jsonld) | 1  |
 | Document    | [local_496__document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__document.jsonld) | 1  |
 | School    | [local_496__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__school.jsonld) | 1  |
 | Musical Instrument    | [local_496__musical_instrument.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__musical_instrument.jsonld) | 10  |
+| Art Material    | [local_496__art_material.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__art_material.jsonld) | 1  |
 | Local Union    | [local_496__local_union.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__local_union.jsonld) | 1  |
-
 ## E.A.T. + LOD Project
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat__lod_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__all.jsonld) | 2214  |
-| Person    | [eat__lod_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__person.jsonld) | 486  |
+| All    | [eat__lod_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__all.jsonld) | 2206  |
+| Person    | [eat__lod_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__person.jsonld) | 482  |
 | Institution    | [eat__lod_project__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__institution.jsonld) | 12  |
 | Music Venue    | [eat__lod_project__music_venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__music_venue.jsonld) | 2  |
-| Borough    | [eat__lod_project__borough.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__borough.jsonld) | 1  |
+| Borough    | [eat__lod_project__borough.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__borough.jsonld) | 2  |
 | Group    | [eat__lod_project__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__group.jsonld) | 9  |
 | Organization    | [eat__lod_project__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__organization.jsonld) | 89  |
-| Place    | [eat__lod_project__place.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__place.jsonld) | 11  |
+| Place    | [eat__lod_project__place.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__place.jsonld) | 2  |
 | Country    | [eat__lod_project__country.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__country.jsonld) | 5  |
 | State    | [eat__lod_project__state.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__state.jsonld) | 4  |
-| City    | [eat__lod_project__city.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__city.jsonld) | 10  |
 | Document    | [eat__lod_project__document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__document.jsonld) | 661  |
 | Occupation    | [eat__lod_project__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__occupation.jsonld) | 29  |
-| Event    | [eat__lod_project__event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__event.jsonld) | 19  |
+| Event    | [eat__lod_project__event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__event.jsonld) | 18  |
 | Venue    | [eat__lod_project__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__venue.jsonld) | 11  |
 | Artwork    | [eat__lod_project__artwork.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__artwork.jsonld) | 89  |
 | Performance    | [eat__lod_project__performance.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__performance.jsonld) | 28  |
@@ -141,14 +137,14 @@ Generated: 2023-12-11
 | Booklet    | [eat__lod_project__booklet.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__booklet.jsonld) | 2  |
 | Family    | [eat__lod_project__family.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__family.jsonld) | 1  |
 | Film    | [eat__lod_project__film.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__film.jsonld) | 5  |
-| Museum    | [eat__lod_project__museum.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__museum.jsonld) | 18  |
+| Museum    | [eat__lod_project__museum.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__museum.jsonld) | 16  |
 | School    | [eat__lod_project__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__school.jsonld) | 2  |
 | Musical Instrument    | [eat__lod_project__musical_instrument.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__musical_instrument.jsonld) | 1  |
 | Article    | [eat__lod_project__article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__article.jsonld) | 286  |
 | Book    | [eat__lod_project__book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__book.jsonld) | 7  |
 | Artist Book    | [eat__lod_project__artist_book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__artist_book.jsonld) | 1  |
 | Catalogue    | [eat__lod_project__catalogue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__catalogue.jsonld) | 6  |
-| Publisher    | [eat__lod_project__publisher.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__publisher.jsonld) | 1  |
+| Publisher    | [eat__lod_project__publisher.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__publisher.jsonld) | 3  |
 | Draft Document    | [eat__lod_project__draft_document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__draft_document.jsonld) | 10  |
 | Postcard    | [eat__lod_project__postcard.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__postcard.jsonld) | 2  |
 | Photograph    | [eat__lod_project__photograph.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__photograph.jsonld) | 63  |
@@ -174,7 +170,7 @@ Generated: 2023-12-11
 | Nonprofit Organization    | [eat__lod_project__nonprofit_organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__nonprofit_organization.jsonld) | 1  |
 | Art Material    | [eat__lod_project__art_material.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__art_material.jsonld) | 50  |
 | Hotel    | [eat__lod_project__hotel.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__hotel.jsonld) | 1  |
-| Artist'S Studio    | [eat__lod_project__artist's_studio.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__artist's_studio.jsonld) | 4  |
+| Artist'S Studio    | [eat__lod_project__artist's_studio.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__artist's_studio.jsonld) | 2  |
 | Continent    | [eat__lod_project__continent.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__continent.jsonld) | 1  |
 | Unrealized Project    | [eat__lod_project__unrealized_project.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__unrealized_project.jsonld) | 4  |
 | Benefit    | [eat__lod_project__benefit.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__benefit.jsonld) | 1  |
@@ -189,15 +185,20 @@ Generated: 2023-12-11
 | Ethnic Group    | [eat__lod_project__ethnic_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__ethnic_group.jsonld) | 4  |
 | Project    | [eat__lod_project__project.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__project.jsonld) | 9  |
 | Painting    | [eat__lod_project__painting.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__painting.jsonld) | 4  |
-
+| Instructions    | [eat__lod_project__instructions.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__instructions.jsonld) | 1  |
+| Notes    | [eat__lod_project__notes.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__notes.jsonld) | 1  |
+| Canal    | [eat__lod_project__canal.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__canal.jsonld) | 2  |
+| Island    | [eat__lod_project__island.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__island.jsonld) | 1  |
+| Air Base    | [eat__lod_project__air_base.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__air_base.jsonld) | 2  |
+| Field Of Work (Class)    | [eat__lod_project__field_of_work_(class).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__field_of_work_(class).jsonld) | 10  |
 ## E.A.T. + LOD Bibliography Project
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat__lod_bibliography_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__all.jsonld) | 1030  |
+| All    | [eat__lod_bibliography_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__all.jsonld) | 1033  |
 | Person    | [eat__lod_bibliography_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__person.jsonld) | 114  |
 | Borough    | [eat__lod_bibliography_project__borough.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__borough.jsonld) | 1  |
-| Organization    | [eat__lod_bibliography_project__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__organization.jsonld) | 2  |
+| Organization    | [eat__lod_bibliography_project__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__organization.jsonld) | 4  |
 | Document    | [eat__lod_bibliography_project__document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__document.jsonld) | 446  |
 | Publication    | [eat__lod_bibliography_project__publication.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__publication.jsonld) | 149  |
 | Business    | [eat__lod_bibliography_project__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__business.jsonld) | 2  |
@@ -207,7 +208,7 @@ Generated: 2023-12-11
 | Artist Book    | [eat__lod_bibliography_project__artist_book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__artist_book.jsonld) | 1  |
 | Catalogue    | [eat__lod_bibliography_project__catalogue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__catalogue.jsonld) | 6  |
 | Publisher    | [eat__lod_bibliography_project__publisher.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__publisher.jsonld) | 20  |
-
+| Nonprofit Organization    | [eat__lod_bibliography_project__nonprofit_organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__nonprofit_organization.jsonld) | 1  |
 ## Asian American Arts Centre Exhibition History
 
 | Entity | Link                       | Count |

@@ -44,14 +44,12 @@ response = requests.get(
 data = response.json()
 for result in data['results']['bindings']:
 
-	print(result)
-
-
 	try:
 		alias = result['exportAlias']['value']
 	except:
-		print(" No exprot alias set for:",result['property']['value'])
-		alias = to_camel_case(result['propertyLabel']['propertyLabel'])
+		print(" No exprot alias set for:",result)
+
+		alias = to_camel_case(result['propertyLabel']['value'])
 
 	uri = result['property']['value']
 	toadd = {

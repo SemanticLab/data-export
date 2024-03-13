@@ -4,22 +4,32 @@
     "@id": "semlab:Q20630",
     "rdfs:label": "piano",
     "@type": [
-      "MusicalInstrument"
+      "MusicalInstrument",
+      "ArtMaterial"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74577",
+        "@id": "_:bn75415",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
           "rdfs:label": "musical instrument",
           "@type": "Class"
         }
+      },
+      {
+        "@id": "_:bn75416",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23229",
+          "rdfs:label": "art material",
+          "@type": "Class"
+        }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74578",
+        "@id": "_:bn75417",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -28,7 +38,7 @@
         }
       },
       {
-        "@id": "_:bn74579",
+        "@id": "_:bn75418",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -37,7 +47,7 @@
         }
       },
       {
-        "@id": "_:bn74580",
+        "@id": "_:bn75419",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -46,13 +56,50 @@
         }
       },
       {
-        "@id": "_:bn74581",
+        "@id": "_:bn75420",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
           "rdfs:label": "Local 496",
           "@type": "SemanticLabProject"
         }
+      },
+      {
+        "@id": "_:bn75421",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. + LOD Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn75422",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19315",
+          "rdfs:label": "Homage to New York",
+          "@type": "Artwork"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24636",
+            "rdfs:label": "Block 2 of Story of E.A.T. Part I",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/2.txt"
+          }
+        ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q5994"
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q5994"
       }
     ]
   }
