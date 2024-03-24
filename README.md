@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2024-03-23
+Generated: 2024-03-24
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -29,32 +29,37 @@ Generated: 2024-03-23
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [linking_lost_jazz_shrines__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__all.jsonld) | 993  |
-| Person    | [linking_lost_jazz_shrines__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__person.jsonld) | 615  |
+| All    | [linking_lost_jazz_shrines__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__all.jsonld) | 1029  |
+| Person    | [linking_lost_jazz_shrines__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__person.jsonld) | 616  |
 | Institution    | [linking_lost_jazz_shrines__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__institution.jsonld) | 1  |
 | Music Group    | [linking_lost_jazz_shrines__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__music_group.jsonld) | 53  |
 | Music Venue    | [linking_lost_jazz_shrines__music_venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__music_venue.jsonld) | 174  |
 | Organization    | [linking_lost_jazz_shrines__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__organization.jsonld) | 93  |
 | Record Label    | [linking_lost_jazz_shrines__record_label.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__record_label.jsonld) | 10  |
 | Country    | [linking_lost_jazz_shrines__country.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__country.jsonld) | 1  |
+| Occupation    | [linking_lost_jazz_shrines__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__occupation.jsonld) | 25  |
 | Museum    | [linking_lost_jazz_shrines__museum.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__museum.jsonld) | 1  |
 | Interview Transcript    | [linking_lost_jazz_shrines__interview_transcript.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__interview_transcript.jsonld) | 29  |
 | School    | [linking_lost_jazz_shrines__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__school.jsonld) | 15  |
+| Kinship    | [linking_lost_jazz_shrines__kinship.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__kinship.jsonld) | 9  |
+| Kinship Nature    | [linking_lost_jazz_shrines__kinship_nature.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__kinship_nature.jsonld) | 1  |
 | Local Union    | [linking_lost_jazz_shrines__local_union.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__local_union.jsonld) | 1  |
 ## The International Sweethearts of Rhythm Project
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [the_international_sweethearts_of_rhythm_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__all.jsonld) | 343  |
-| Person    | [the_international_sweethearts_of_rhythm_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__person.jsonld) | 104  |
+| All    | [the_international_sweethearts_of_rhythm_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__all.jsonld) | 348  |
+| Person    | [the_international_sweethearts_of_rhythm_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__person.jsonld) | 105  |
 | Music Group    | [the_international_sweethearts_of_rhythm_project__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__music_group.jsonld) | 16  |
 | Group    | [the_international_sweethearts_of_rhythm_project__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__group.jsonld) | 1  |
 | Organization    | [the_international_sweethearts_of_rhythm_project__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__organization.jsonld) | 1  |
+| Occupation    | [the_international_sweethearts_of_rhythm_project__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__occupation.jsonld) | 3  |
 | Venue    | [the_international_sweethearts_of_rhythm_project__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__venue.jsonld) | 58  |
 | School    | [the_international_sweethearts_of_rhythm_project__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__school.jsonld) | 1  |
 | Musical Instrument    | [the_international_sweethearts_of_rhythm_project__musical_instrument.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__musical_instrument.jsonld) | 1  |
 | Scholarly Article    | [the_international_sweethearts_of_rhythm_project__scholarly_article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__scholarly_article.jsonld) | 1  |
 | Book    | [the_international_sweethearts_of_rhythm_project__book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__book.jsonld) | 2  |
+| Kinship    | [the_international_sweethearts_of_rhythm_project__kinship.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__kinship.jsonld) | 1  |
 | Historic Demographica    | [the_international_sweethearts_of_rhythm_project__historic_demographica.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__historic_demographica.jsonld) | 2  |
 | Concert    | [the_international_sweethearts_of_rhythm_project__concert.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__concert.jsonld) | 135  |
 | Price Descriptor    | [the_international_sweethearts_of_rhythm_project__price_descriptor.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__price_descriptor.jsonld) | 5  |
@@ -72,8 +77,8 @@ Generated: 2024-03-23
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [women_of_jazz__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__all.jsonld) | 427  |
-| Person    | [women_of_jazz__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__person.jsonld) | 192  |
+| All    | [women_of_jazz__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__all.jsonld) | 428  |
+| Person    | [women_of_jazz__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__person.jsonld) | 193  |
 | Music Group    | [women_of_jazz__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__music_group.jsonld) | 18  |
 | Music Venue    | [women_of_jazz__music_venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__music_venue.jsonld) | 1  |
 | Organization    | [women_of_jazz__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__organization.jsonld) | 1  |
@@ -99,16 +104,16 @@ Generated: 2024-03-23
 | All    | [local_496__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__all.jsonld) | 433  |
 | Person    | [local_496__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__person.jsonld) | 418  |
 | Institution    | [local_496__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__institution.jsonld) | 1  |
-| Document    | [local_496__document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__document.jsonld) | 1  |
 | School    | [local_496__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__school.jsonld) | 1  |
 | Musical Instrument    | [local_496__musical_instrument.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__musical_instrument.jsonld) | 10  |
+| List    | [local_496__list.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__list.jsonld) | 1  |
 | Art Material    | [local_496__art_material.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__art_material.jsonld) | 1  |
 | Local Union    | [local_496__local_union.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/local_496__local_union.jsonld) | 1  |
 ## E.A.T. + LOD Project
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat__lod_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__all.jsonld) | 2206  |
+| All    | [eat__lod_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__all.jsonld) | 2212  |
 | Person    | [eat__lod_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__person.jsonld) | 482  |
 | Institution    | [eat__lod_project__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__institution.jsonld) | 12  |
 | Music Venue    | [eat__lod_project__music_venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__music_venue.jsonld) | 2  |
@@ -119,7 +124,7 @@ Generated: 2024-03-23
 | Country    | [eat__lod_project__country.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__country.jsonld) | 5  |
 | State    | [eat__lod_project__state.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__state.jsonld) | 4  |
 | Document    | [eat__lod_project__document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__document.jsonld) | 661  |
-| Occupation    | [eat__lod_project__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__occupation.jsonld) | 29  |
+| Occupation    | [eat__lod_project__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__occupation.jsonld) | 35  |
 | Event    | [eat__lod_project__event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__event.jsonld) | 18  |
 | Venue    | [eat__lod_project__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__venue.jsonld) | 11  |
 | Artwork    | [eat__lod_project__artwork.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__artwork.jsonld) | 89  |
@@ -213,13 +218,13 @@ Generated: 2024-03-23
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [asian_american_arts_centre_exhibition_history__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__all.jsonld) | 936  |
+| All    | [asian_american_arts_centre_exhibition_history__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__all.jsonld) | 937  |
 | Person    | [asian_american_arts_centre_exhibition_history__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__person.jsonld) | 652  |
 | Institution    | [asian_american_arts_centre_exhibition_history__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__institution.jsonld) | 2  |
 | Music Group    | [asian_american_arts_centre_exhibition_history__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__music_group.jsonld) | 1  |
 | Organization    | [asian_american_arts_centre_exhibition_history__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__organization.jsonld) | 31  |
 | Neighborhood    | [asian_american_arts_centre_exhibition_history__neighborhood.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__neighborhood.jsonld) | 2  |
-| Occupation    | [asian_american_arts_centre_exhibition_history__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__occupation.jsonld) | 4  |
+| Occupation    | [asian_american_arts_centre_exhibition_history__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__occupation.jsonld) | 5  |
 | Event    | [asian_american_arts_centre_exhibition_history__event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__event.jsonld) | 50  |
 | Venue    | [asian_american_arts_centre_exhibition_history__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__venue.jsonld) | 14  |
 | Artwork    | [asian_american_arts_centre_exhibition_history__artwork.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__artwork.jsonld) | 1  |
