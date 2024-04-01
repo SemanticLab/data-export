@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2024-03-31
+Generated: 2024-04-01
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -48,7 +48,7 @@ Generated: 2024-03-31
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [the_international_sweethearts_of_rhythm_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__all.jsonld) | 348  |
+| All    | [the_international_sweethearts_of_rhythm_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__all.jsonld) | 349  |
 | Person    | [the_international_sweethearts_of_rhythm_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__person.jsonld) | 105  |
 | Music Group    | [the_international_sweethearts_of_rhythm_project__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__music_group.jsonld) | 16  |
 | Group    | [the_international_sweethearts_of_rhythm_project__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__group.jsonld) | 1  |
@@ -60,6 +60,7 @@ Generated: 2024-03-31
 | Scholarly Article    | [the_international_sweethearts_of_rhythm_project__scholarly_article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__scholarly_article.jsonld) | 1  |
 | Book    | [the_international_sweethearts_of_rhythm_project__book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__book.jsonld) | 2  |
 | Kinship    | [the_international_sweethearts_of_rhythm_project__kinship.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__kinship.jsonld) | 1  |
+| Kinship Nature    | [the_international_sweethearts_of_rhythm_project__kinship_nature.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__kinship_nature.jsonld) | 1  |
 | Historic Demographica    | [the_international_sweethearts_of_rhythm_project__historic_demographica.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__historic_demographica.jsonld) | 2  |
 | Concert    | [the_international_sweethearts_of_rhythm_project__concert.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__concert.jsonld) | 135  |
 | Price Descriptor    | [the_international_sweethearts_of_rhythm_project__price_descriptor.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__price_descriptor.jsonld) | 5  |
