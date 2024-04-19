@@ -1098,6 +1098,56 @@
       "skos:prefLabel": "performer of",
       "skos:note": "an artwork a person or group performs; inverse of performer (P126)"
     },
+    "dinedAt": {
+      "@id": "http://base.semlab.io/entity/P211",
+      "skos:prefLabel": "dined at",
+      "skos:note": "place where subject dined"
+    },
+    "dinedWith": {
+      "@id": "http://base.semlab.io/entity/P212",
+      "skos:prefLabel": "dined with",
+      "skos:note": "person or group subject dined with"
+    },
+    "prepared": {
+      "@id": "http://base.semlab.io/entity/P213",
+      "skos:prefLabel": "prepared",
+      "skos:note": "work the subject prepared"
+    },
+    "presenterOf": {
+      "@id": "http://base.semlab.io/entity/P214",
+      "skos:prefLabel": "presenter of",
+      "skos:note": "work the subject presented"
+    },
+    "presentedAt": {
+      "@id": "http://base.semlab.io/entity/P215",
+      "skos:prefLabel": "presented at",
+      "skos:note": "place subject presented a work"
+    },
+    "hostedBy": {
+      "@id": "http://base.semlab.io/entity/P216",
+      "skos:prefLabel": "hosted by",
+      "skos:note": "person who hosted the subject"
+    },
+    "listenedTo": {
+      "@id": "http://base.semlab.io/entity/P217",
+      "skos:prefLabel": "listened to",
+      "skos:note": "work the subject listened to"
+    },
+    "read": {
+      "@id": "http://base.semlab.io/entity/P218",
+      "skos:prefLabel": "read",
+      "skos:note": "work the subject read"
+    },
+    "viewed": {
+      "@id": "http://base.semlab.io/entity/P219",
+      "skos:prefLabel": "viewed",
+      "skos:note": "visual work or collection the subject viewed"
+    },
+    "attendedPerformanceOfWork": {
+      "@id": "http://base.semlab.io/entity/P220",
+      "skos:prefLabel": "attended performance of work",
+      "skos:note": "performance work the subject attended or watched"
+    },
     "interviewed": {
       "@id": "http://base.semlab.io/entity/P171",
       "skos:prefLabel": "interviewed"
@@ -1423,11 +1473,11 @@
         "artistic material",
         "artistic media",
         "artistic medium",
-        "arts materials",
         "crafting material",
         "material",
         "media",
-        "medium"
+        "medium",
+        "arts materials"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -1663,6 +1713,11 @@
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q21151",
       "skos:prefLabel": "demographica"
+    },
+    "Diary": {
+      "@type": "rdfs:Class",
+      "@id": "http://base.semlab.io/entity/Q27447",
+      "skos:prefLabel": "diary"
     },
     "DiaryEntry": {
       "@type": "rdfs:Class",
@@ -1970,12 +2025,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
+        "profession",
+        "work",
         "career",
         "craft",
         "employment",
-        "job",
-        "profession",
-        "work"
+        "job"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
