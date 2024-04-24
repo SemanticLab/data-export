@@ -1,8 +1,8 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23400",
-    "rdfs:label": "Judy Perkins",
+    "@id": "semlab:Q20600",
+    "rdfs:label": "Helen Saine",
     "@type": [
       "Person"
     ],
@@ -39,7 +39,7 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q108574354"
+        "@value": "Q86460095"
       }
     ],
     "memberOf": [
@@ -53,8 +53,8 @@
         },
         "instrument": [
           {
-            "@id": "semlab:Q20622",
-            "rdfs:label": "vocals"
+            "@id": "semlab:Q20623",
+            "rdfs:label": "saxophone"
           }
         ],
         "role": [
@@ -63,30 +63,34 @@
             "rdfs:label": "musician"
           }
         ],
-        "referenceUrl": [
-          "https://media.mnhs.org/things/cms/10279/502/AV1989_212_1_M.pdf",
-          "https://chroniclingamerica.loc.gov/lccn/sn83025247/1946-06-14/ed-1/seq-6/"
+        "statedIn": [
+          {
+            "@id": "semlab:Q20615",
+            "rdfs:label": "The International Sweethearts of Rhythm: The Ladies' Jazz Band from Piney Woods Country Life School, 2nd Edition"
+          }
+        ],
+        "pageNumber": [
+          "162"
         ]
       }
     ],
-    "relativeOf": [
+    "educatedAt": [
       {
         "@id": "_:bn42724",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q20610",
-          "rdfs:label": "Anna Mae Winburn",
-          "@type": "Person"
+          "@id": "semlab:Q20617",
+          "rdfs:label": "Piney Woods Country Life School",
+          "@type": "School"
         },
-        "isRelation": [
+        "statedIn": [
           {
-            "@id": "semlab:Q20649",
-            "rdfs:label": "sibling"
+            "@id": "semlab:Q20615",
+            "rdfs:label": "The International Sweethearts of Rhythm: The Ladies' Jazz Band from Piney Woods Country Life School, 2nd Edition"
           }
         ],
-        "referenceUrl": [
-          "https://media.mnhs.org/things/cms/10279/502/AV1989_212_1_M.pdf",
-          "https://chroniclingamerica.loc.gov/lccn/sn83025247/1946-06-14/ed-1/seq-6/"
+        "pageNumber": [
+          "8"
         ]
       }
     ],
@@ -114,14 +118,14 @@
     ],
     "wikidataUri": [
       {
-        "@value": "http://www.wikidata.org/entity/Q108574354"
+        "@value": "http://www.wikidata.org/entity/Q86460095"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23500",
-    "rdfs:label": "Amos Milburn",
+    "@id": "semlab:Q20601",
+    "rdfs:label": "Betty Sheppard",
     "@type": [
       "Person"
     ],
@@ -141,6 +145,15 @@
         "@id": "_:bn42728",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q20613",
+          "rdfs:label": "Women of Jazz",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn42729",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q20655",
           "rdfs:label": "The International Sweethearts of Rhythm Project",
           "@type": "SemanticLabProject"
@@ -149,76 +162,73 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q474283"
+        "@value": "Q95985292"
       }
     ],
     "memberOf": [
       {
-        "@id": "_:bn42729",
+        "@id": "_:bn42730",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q23499",
-          "rdfs:label": "Amos Milburn and His \"Little\" Band",
+          "@id": "semlab:Q20614",
+          "rdfs:label": "International Sweethearts of Rhythm",
           "@type": "MusicGroup"
+        },
+        "instrument": [
+          {
+            "@id": "semlab:Q20622",
+            "rdfs:label": "vocals"
+          }
+        ],
+        "role": [
+          {
+            "@id": "semlab:Q19082",
+            "rdfs:label": "musician"
+          }
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q20615",
+            "rdfs:label": "The International Sweethearts of Rhythm: The Ladies' Jazz Band from Piney Woods Country Life School, 2nd Edition"
+          }
+        ],
+        "pageNumber": [
+          "169"
+        ]
+      }
+    ],
+    "occupation": [
+      {
+        "@id": "_:bn42731",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19082",
+          "rdfs:label": "musician",
+          "@type": "Occupation"
         }
       }
     ],
     "demographica": [
       {
-        "@id": "_:bn42730",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19065",
-          "rdfs:label": "men",
-          "@type": "Demographica"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27037",
-    "rdfs:label": "Phil Harris",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn42731",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
         "@id": "_:bn42732",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q20655",
-          "rdfs:label": "The International Sweethearts of Rhythm Project",
-          "@type": "SemanticLabProject"
+          "@id": "semlab:Q18803",
+          "rdfs:label": "women",
+          "@type": "Demographica"
         }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q123167101"
       }
     ],
     "wikidataUri": [
       {
-        "@value": "http://www.wikidata.org/entity/Q123167101"
+        "@value": "http://www.wikidata.org/entity/Q95985292"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20600",
-    "rdfs:label": "Helen Saine",
+    "@id": "semlab:Q20602",
+    "rdfs:label": "Edna Smith",
     "@type": [
       "Person"
     ],
@@ -255,238 +265,12 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q86460095"
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn42736",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20614",
-          "rdfs:label": "International Sweethearts of Rhythm",
-          "@type": "MusicGroup"
-        },
-        "instrument": [
-          {
-            "@id": "semlab:Q20623",
-            "rdfs:label": "saxophone"
-          }
-        ],
-        "role": [
-          {
-            "@id": "semlab:Q19082",
-            "rdfs:label": "musician"
-          }
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q20615",
-            "rdfs:label": "The International Sweethearts of Rhythm: The Ladies' Jazz Band from Piney Woods Country Life School, 2nd Edition"
-          }
-        ],
-        "pageNumber": [
-          "162"
-        ]
-      }
-    ],
-    "educatedAt": [
-      {
-        "@id": "_:bn42737",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20617",
-          "rdfs:label": "Piney Woods Country Life School",
-          "@type": "School"
-        },
-        "statedIn": [
-          {
-            "@id": "semlab:Q20615",
-            "rdfs:label": "The International Sweethearts of Rhythm: The Ladies' Jazz Band from Piney Woods Country Life School, 2nd Edition"
-          }
-        ],
-        "pageNumber": [
-          "8"
-        ]
-      }
-    ],
-    "occupation": [
-      {
-        "@id": "_:bn42738",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19082",
-          "rdfs:label": "musician",
-          "@type": "Occupation"
-        }
-      }
-    ],
-    "demographica": [
-      {
-        "@id": "_:bn42739",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q18803",
-          "rdfs:label": "women",
-          "@type": "Demographica"
-        }
-      }
-    ],
-    "wikidataUri": [
-      {
-        "@value": "http://www.wikidata.org/entity/Q86460095"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20601",
-    "rdfs:label": "Betty Sheppard",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn42740",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn42741",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20613",
-          "rdfs:label": "Women of Jazz",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn42742",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20655",
-          "rdfs:label": "The International Sweethearts of Rhythm Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q95985292"
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn42743",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20614",
-          "rdfs:label": "International Sweethearts of Rhythm",
-          "@type": "MusicGroup"
-        },
-        "instrument": [
-          {
-            "@id": "semlab:Q20622",
-            "rdfs:label": "vocals"
-          }
-        ],
-        "role": [
-          {
-            "@id": "semlab:Q19082",
-            "rdfs:label": "musician"
-          }
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q20615",
-            "rdfs:label": "The International Sweethearts of Rhythm: The Ladies' Jazz Band from Piney Woods Country Life School, 2nd Edition"
-          }
-        ],
-        "pageNumber": [
-          "169"
-        ]
-      }
-    ],
-    "occupation": [
-      {
-        "@id": "_:bn42744",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19082",
-          "rdfs:label": "musician",
-          "@type": "Occupation"
-        }
-      }
-    ],
-    "demographica": [
-      {
-        "@id": "_:bn42745",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q18803",
-          "rdfs:label": "women",
-          "@type": "Demographica"
-        }
-      }
-    ],
-    "wikidataUri": [
-      {
-        "@value": "http://www.wikidata.org/entity/Q95985292"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20602",
-    "rdfs:label": "Edna Smith",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn42746",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn42747",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20613",
-          "rdfs:label": "Women of Jazz",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn42748",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20655",
-          "rdfs:label": "The International Sweethearts of Rhythm Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
         "@value": "Q95985257"
       }
     ],
     "memberOf": [
       {
-        "@id": "_:bn42749",
+        "@id": "_:bn42736",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -516,7 +300,7 @@
         ]
       },
       {
-        "@id": "_:bn42750",
+        "@id": "_:bn42737",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20669",
@@ -546,7 +330,7 @@
         ]
       },
       {
-        "@id": "_:bn42751",
+        "@id": "_:bn42738",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20671",
@@ -578,7 +362,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42752",
+        "@id": "_:bn42739",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -589,7 +373,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42753",
+        "@id": "_:bn42740",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -613,7 +397,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42754",
+        "@id": "_:bn42741",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -624,7 +408,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42755",
+        "@id": "_:bn42742",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -633,7 +417,7 @@
         }
       },
       {
-        "@id": "_:bn42756",
+        "@id": "_:bn42743",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -649,7 +433,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42757",
+        "@id": "_:bn42744",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -681,7 +465,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42758",
+        "@id": "_:bn42745",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -692,7 +476,7 @@
     ],
     "relativeOf": [
       {
-        "@id": "_:bn42759",
+        "@id": "_:bn42746",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20604",
@@ -712,7 +496,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42760",
+        "@id": "_:bn42747",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -731,6 +515,238 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q20604",
     "rdfs:label": "Lucy Snyder",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn42748",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn42749",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20613",
+          "rdfs:label": "Women of Jazz",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn42750",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20655",
+          "rdfs:label": "The International Sweethearts of Rhythm Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q86460106"
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn42751",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20614",
+          "rdfs:label": "International Sweethearts of Rhythm",
+          "@type": "MusicGroup"
+        },
+        "instrument": [
+          {
+            "@id": "semlab:Q20623",
+            "rdfs:label": "saxophone"
+          }
+        ],
+        "role": [
+          {
+            "@id": "semlab:Q19082",
+            "rdfs:label": "musician"
+          }
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q20615",
+            "rdfs:label": "The International Sweethearts of Rhythm: The Ladies' Jazz Band from Piney Woods Country Life School, 2nd Edition"
+          }
+        ],
+        "pageNumber": [
+          "112"
+        ]
+      }
+    ],
+    "occupation": [
+      {
+        "@id": "_:bn42752",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19082",
+          "rdfs:label": "musician",
+          "@type": "Occupation"
+        }
+      }
+    ],
+    "relativeOf": [
+      {
+        "@id": "_:bn42753",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20603",
+          "rdfs:label": "Ernestine Snyder",
+          "@type": "Person"
+        },
+        "isRelation": [
+          {
+            "@id": "semlab:Q20649",
+            "rdfs:label": "sibling"
+          }
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q20615",
+            "rdfs:label": "The International Sweethearts of Rhythm: The Ladies' Jazz Band from Piney Woods Country Life School, 2nd Edition"
+          }
+        ],
+        "pageNumber": [
+          "112"
+        ]
+      }
+    ],
+    "demographica": [
+      {
+        "@id": "_:bn42754",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18803",
+          "rdfs:label": "women",
+          "@type": "Demographica"
+        }
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q86460106"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q20605",
+    "rdfs:label": "Johnnie Mae Stansbury",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn42755",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn42756",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20613",
+          "rdfs:label": "Women of Jazz",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn42757",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20655",
+          "rdfs:label": "The International Sweethearts of Rhythm Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q95985266"
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn42758",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20614",
+          "rdfs:label": "International Sweethearts of Rhythm",
+          "@type": "MusicGroup"
+        },
+        "instrument": [
+          {
+            "@id": "semlab:Q20620",
+            "rdfs:label": "trumpet"
+          }
+        ],
+        "role": [
+          {
+            "@id": "semlab:Q19082",
+            "rdfs:label": "musician"
+          }
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q20615",
+            "rdfs:label": "The International Sweethearts of Rhythm: The Ladies' Jazz Band from Piney Woods Country Life School, 2nd Edition"
+          }
+        ],
+        "pageNumber": [
+          "155"
+        ]
+      }
+    ],
+    "occupation": [
+      {
+        "@id": "_:bn42759",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19082",
+          "rdfs:label": "musician",
+          "@type": "Occupation"
+        }
+      }
+    ],
+    "demographica": [
+      {
+        "@id": "_:bn42760",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18803",
+          "rdfs:label": "women",
+          "@type": "Demographica"
+        }
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q95985266"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q20606",
+    "rdfs:label": "Jean Starr",
     "@type": [
       "Person"
     ],
@@ -767,7 +783,7 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q86460106"
+        "@value": "Q65066132"
       }
     ],
     "memberOf": [
@@ -781,8 +797,8 @@
         },
         "instrument": [
           {
-            "@id": "semlab:Q20623",
-            "rdfs:label": "saxophone"
+            "@id": "semlab:Q20620",
+            "rdfs:label": "trumpet"
           }
         ],
         "role": [
@@ -798,45 +814,49 @@
           }
         ],
         "pageNumber": [
-          "112"
+          "121"
+        ]
+      },
+      {
+        "@id": "_:bn42765",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20668",
+          "rdfs:label": "Eddie Durham's All-Star Girls Orchestra",
+          "@type": "MusicGroup"
+        },
+        "instrument": [
+          {
+            "@id": "semlab:Q20620",
+            "rdfs:label": "trumpet"
+          }
+        ],
+        "role": [
+          {
+            "@id": "semlab:Q19082",
+            "rdfs:label": "musician"
+          }
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q20616",
+            "rdfs:label": "American Women in Jazz: 1900 to the Present, Their Words, Lives, and Music, 1st Edition"
+          }
+        ],
+        "pageNumber": [
+          "149"
         ]
       }
     ],
     "occupation": [
       {
-        "@id": "_:bn42765",
+        "@id": "_:bn42766",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
           "rdfs:label": "musician",
           "@type": "Occupation"
         }
-      }
-    ],
-    "relativeOf": [
-      {
-        "@id": "_:bn42766",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20603",
-          "rdfs:label": "Ernestine Snyder",
-          "@type": "Person"
-        },
-        "isRelation": [
-          {
-            "@id": "semlab:Q20649",
-            "rdfs:label": "sibling"
-          }
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q20615",
-            "rdfs:label": "The International Sweethearts of Rhythm: The Ladies' Jazz Band from Piney Woods Country Life School, 2nd Edition"
-          }
-        ],
-        "pageNumber": [
-          "112"
-        ]
       }
     ],
     "demographica": [
@@ -852,14 +872,14 @@
     ],
     "wikidataUri": [
       {
-        "@value": "http://www.wikidata.org/entity/Q86460106"
+        "@value": "http://www.wikidata.org/entity/Q65066132"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20605",
-    "rdfs:label": "Johnnie Mae Stansbury",
+    "@id": "semlab:Q20607",
+    "rdfs:label": "Pat Stulken",
     "@type": [
       "Person"
     ],
@@ -896,7 +916,7 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q95985266"
+        "@value": "Q95985284"
       }
     ],
     "memberOf": [
@@ -910,8 +930,8 @@
         },
         "instrument": [
           {
-            "@id": "semlab:Q20620",
-            "rdfs:label": "trumpet"
+            "@id": "semlab:Q20623",
+            "rdfs:label": "saxophone"
           }
         ],
         "role": [
@@ -927,7 +947,7 @@
           }
         ],
         "pageNumber": [
-          "155"
+          "167"
         ]
       }
     ],
@@ -955,14 +975,14 @@
     ],
     "wikidataUri": [
       {
-        "@value": "http://www.wikidata.org/entity/Q95985266"
+        "@value": "http://www.wikidata.org/entity/Q95985284"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20606",
-    "rdfs:label": "Jean Starr",
+    "@id": "semlab:Q20608",
+    "rdfs:label": "Jean Travis",
     "@type": [
       "Person"
     ],
@@ -999,248 +1019,12 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q65066132"
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn42777",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20614",
-          "rdfs:label": "International Sweethearts of Rhythm",
-          "@type": "MusicGroup"
-        },
-        "instrument": [
-          {
-            "@id": "semlab:Q20620",
-            "rdfs:label": "trumpet"
-          }
-        ],
-        "role": [
-          {
-            "@id": "semlab:Q19082",
-            "rdfs:label": "musician"
-          }
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q20615",
-            "rdfs:label": "The International Sweethearts of Rhythm: The Ladies' Jazz Band from Piney Woods Country Life School, 2nd Edition"
-          }
-        ],
-        "pageNumber": [
-          "121"
-        ]
-      },
-      {
-        "@id": "_:bn42778",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20668",
-          "rdfs:label": "Eddie Durham's All-Star Girls Orchestra",
-          "@type": "MusicGroup"
-        },
-        "instrument": [
-          {
-            "@id": "semlab:Q20620",
-            "rdfs:label": "trumpet"
-          }
-        ],
-        "role": [
-          {
-            "@id": "semlab:Q19082",
-            "rdfs:label": "musician"
-          }
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q20616",
-            "rdfs:label": "American Women in Jazz: 1900 to the Present, Their Words, Lives, and Music, 1st Edition"
-          }
-        ],
-        "pageNumber": [
-          "149"
-        ]
-      }
-    ],
-    "occupation": [
-      {
-        "@id": "_:bn42779",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19082",
-          "rdfs:label": "musician",
-          "@type": "Occupation"
-        }
-      }
-    ],
-    "demographica": [
-      {
-        "@id": "_:bn42780",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q18803",
-          "rdfs:label": "women",
-          "@type": "Demographica"
-        }
-      }
-    ],
-    "wikidataUri": [
-      {
-        "@value": "http://www.wikidata.org/entity/Q65066132"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20607",
-    "rdfs:label": "Pat Stulken",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn42781",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn42782",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20613",
-          "rdfs:label": "Women of Jazz",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn42783",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20655",
-          "rdfs:label": "The International Sweethearts of Rhythm Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q95985284"
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn42784",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20614",
-          "rdfs:label": "International Sweethearts of Rhythm",
-          "@type": "MusicGroup"
-        },
-        "instrument": [
-          {
-            "@id": "semlab:Q20623",
-            "rdfs:label": "saxophone"
-          }
-        ],
-        "role": [
-          {
-            "@id": "semlab:Q19082",
-            "rdfs:label": "musician"
-          }
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q20615",
-            "rdfs:label": "The International Sweethearts of Rhythm: The Ladies' Jazz Band from Piney Woods Country Life School, 2nd Edition"
-          }
-        ],
-        "pageNumber": [
-          "167"
-        ]
-      }
-    ],
-    "occupation": [
-      {
-        "@id": "_:bn42785",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19082",
-          "rdfs:label": "musician",
-          "@type": "Occupation"
-        }
-      }
-    ],
-    "demographica": [
-      {
-        "@id": "_:bn42786",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q18803",
-          "rdfs:label": "women",
-          "@type": "Demographica"
-        }
-      }
-    ],
-    "wikidataUri": [
-      {
-        "@value": "http://www.wikidata.org/entity/Q95985284"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20608",
-    "rdfs:label": "Jean Travis",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn42787",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn42788",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20613",
-          "rdfs:label": "Women of Jazz",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn42789",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20655",
-          "rdfs:label": "The International Sweethearts of Rhythm Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
         "@value": "Q95985271"
       }
     ],
     "memberOf": [
       {
-        "@id": "_:bn42790",
+        "@id": "_:bn42777",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -1272,7 +1056,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42791",
+        "@id": "_:bn42778",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -1283,7 +1067,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42792",
+        "@id": "_:bn42779",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -1307,7 +1091,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42793",
+        "@id": "_:bn42780",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1318,7 +1102,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42794",
+        "@id": "_:bn42781",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -1327,7 +1111,7 @@
         }
       },
       {
-        "@id": "_:bn42795",
+        "@id": "_:bn42782",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -1343,7 +1127,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42796",
+        "@id": "_:bn42783",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -1369,7 +1153,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42797",
+        "@id": "_:bn42784",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -1380,7 +1164,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42798",
+        "@id": "_:bn42785",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -1404,7 +1188,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42799",
+        "@id": "_:bn42786",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1415,7 +1199,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42800",
+        "@id": "_:bn42787",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -1424,7 +1208,7 @@
         }
       },
       {
-        "@id": "_:bn42801",
+        "@id": "_:bn42788",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -1440,7 +1224,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42802",
+        "@id": "_:bn42789",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -1485,7 +1269,7 @@
         ]
       },
       {
-        "@id": "_:bn42803",
+        "@id": "_:bn42790",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20672",
@@ -1532,7 +1316,7 @@
     ],
     "bandleaderOf": [
       {
-        "@id": "_:bn42804",
+        "@id": "_:bn42791",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -1550,7 +1334,7 @@
         ]
       },
       {
-        "@id": "_:bn42805",
+        "@id": "_:bn42792",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20672",
@@ -1570,7 +1354,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42806",
+        "@id": "_:bn42793",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -1581,7 +1365,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42807",
+        "@id": "_:bn42794",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -1592,7 +1376,7 @@
     ],
     "relativeOf": [
       {
-        "@id": "_:bn42808",
+        "@id": "_:bn42795",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23400",
@@ -1631,7 +1415,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42809",
+        "@id": "_:bn42796",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1642,7 +1426,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42810",
+        "@id": "_:bn42797",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -1651,7 +1435,7 @@
         }
       },
       {
-        "@id": "_:bn42811",
+        "@id": "_:bn42798",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -1667,7 +1451,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42812",
+        "@id": "_:bn42799",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -1697,7 +1481,7 @@
         ]
       },
       {
-        "@id": "_:bn42813",
+        "@id": "_:bn42800",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20674",
@@ -1727,7 +1511,7 @@
         ]
       },
       {
-        "@id": "_:bn42814",
+        "@id": "_:bn42801",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20675",
@@ -1757,7 +1541,7 @@
         ]
       },
       {
-        "@id": "_:bn42815",
+        "@id": "_:bn42802",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20670",
@@ -1783,7 +1567,7 @@
     ],
     "educatedAt": [
       {
-        "@id": "_:bn42816",
+        "@id": "_:bn42803",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20617",
@@ -1809,7 +1593,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42817",
+        "@id": "_:bn42804",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -1820,7 +1604,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42818",
+        "@id": "_:bn42805",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -1844,7 +1628,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42819",
+        "@id": "_:bn42806",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1855,7 +1639,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42820",
+        "@id": "_:bn42807",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -1864,7 +1648,7 @@
         }
       },
       {
-        "@id": "_:bn42821",
+        "@id": "_:bn42808",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -1875,7 +1659,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42822",
+        "@id": "_:bn42809",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20644",
@@ -1893,7 +1677,7 @@
         ]
       },
       {
-        "@id": "_:bn42823",
+        "@id": "_:bn42810",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20645",
@@ -1913,7 +1697,7 @@
     ],
     "relativeOf": [
       {
-        "@id": "_:bn42824",
+        "@id": "_:bn42811",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20646",
@@ -1939,7 +1723,7 @@
     ],
     "educatedAt": [
       {
-        "@id": "_:bn42825",
+        "@id": "_:bn42812",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20617",
@@ -1959,7 +1743,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42826",
+        "@id": "_:bn42813",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -1989,7 +1773,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42827",
+        "@id": "_:bn42814",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -2008,7 +1792,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42828",
+        "@id": "_:bn42815",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2024,7 +1808,7 @@
     ],
     "relativeOf": [
       {
-        "@id": "_:bn42829",
+        "@id": "_:bn42816",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20578",
@@ -2054,7 +1838,7 @@
         ]
       },
       {
-        "@id": "_:bn42830",
+        "@id": "_:bn42817",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20643",
@@ -2085,7 +1869,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42831",
+        "@id": "_:bn42818",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -2094,7 +1878,7 @@
         }
       },
       {
-        "@id": "_:bn42832",
+        "@id": "_:bn42819",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -2118,7 +1902,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42833",
+        "@id": "_:bn42820",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2129,7 +1913,7 @@
     ],
     "educatedAt": [
       {
-        "@id": "_:bn42834",
+        "@id": "_:bn42821",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20617",
@@ -2152,7 +1936,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42835",
+        "@id": "_:bn42822",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20641",
@@ -2170,7 +1954,7 @@
         ]
       },
       {
-        "@id": "_:bn42836",
+        "@id": "_:bn42823",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20640",
@@ -2190,7 +1974,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42837",
+        "@id": "_:bn42824",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -2220,7 +2004,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42838",
+        "@id": "_:bn42825",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -2229,7 +2013,7 @@
         }
       },
       {
-        "@id": "_:bn42839",
+        "@id": "_:bn42826",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -2240,7 +2024,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42840",
+        "@id": "_:bn42827",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -2259,7 +2043,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42841",
+        "@id": "_:bn42828",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2270,7 +2054,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42842",
+        "@id": "_:bn42829",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -2304,7 +2088,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42843",
+        "@id": "_:bn42830",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20645",
@@ -2315,7 +2099,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42844",
+        "@id": "_:bn42831",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -2334,7 +2118,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42845",
+        "@id": "_:bn42832",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2345,7 +2129,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42846",
+        "@id": "_:bn42833",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -2356,7 +2140,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42847",
+        "@id": "_:bn42834",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -2382,7 +2166,7 @@
     ],
     "lifePartner": [
       {
-        "@id": "_:bn42848",
+        "@id": "_:bn42835",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20546",
@@ -2410,7 +2194,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42849",
+        "@id": "_:bn42836",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2421,7 +2205,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42850",
+        "@id": "_:bn42837",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -2430,7 +2214,7 @@
         }
       },
       {
-        "@id": "_:bn42851",
+        "@id": "_:bn42838",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -2451,7 +2235,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42852",
+        "@id": "_:bn42839",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20665",
@@ -2475,7 +2259,7 @@
         ]
       },
       {
-        "@id": "_:bn42853",
+        "@id": "_:bn42840",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20670",
@@ -2505,7 +2289,7 @@
         ]
       },
       {
-        "@id": "_:bn42854",
+        "@id": "_:bn42841",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -2529,7 +2313,7 @@
         ]
       },
       {
-        "@id": "_:bn42855",
+        "@id": "_:bn42842",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21180",
@@ -2561,7 +2345,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42856",
+        "@id": "_:bn42843",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -2572,7 +2356,7 @@
     ],
     "relativeOf": [
       {
-        "@id": "_:bn42857",
+        "@id": "_:bn42844",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21168",
@@ -2598,7 +2382,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42858",
+        "@id": "_:bn42845",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -2617,7 +2401,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42859",
+        "@id": "_:bn42846",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2628,7 +2412,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42860",
+        "@id": "_:bn42847",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -2637,7 +2421,7 @@
         }
       },
       {
-        "@id": "_:bn42861",
+        "@id": "_:bn42848",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -2658,7 +2442,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42862",
+        "@id": "_:bn42849",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20668",
@@ -2688,7 +2472,7 @@
         ]
       },
       {
-        "@id": "_:bn42863",
+        "@id": "_:bn42850",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20670",
@@ -2718,7 +2502,7 @@
         ]
       },
       {
-        "@id": "_:bn42864",
+        "@id": "_:bn42851",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -2744,7 +2528,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42865",
+        "@id": "_:bn42852",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -2755,7 +2539,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42866",
+        "@id": "_:bn42853",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -2774,7 +2558,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42867",
+        "@id": "_:bn42854",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2785,7 +2569,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42868",
+        "@id": "_:bn42855",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -2794,7 +2578,7 @@
         }
       },
       {
-        "@id": "_:bn42869",
+        "@id": "_:bn42856",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -2815,7 +2599,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42870",
+        "@id": "_:bn42857",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20675",
@@ -2853,7 +2637,7 @@
         ]
       },
       {
-        "@id": "_:bn42871",
+        "@id": "_:bn42858",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -2873,7 +2657,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42872",
+        "@id": "_:bn42859",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -2884,7 +2668,7 @@
     ],
     "educatedAt": [
       {
-        "@id": "_:bn42873",
+        "@id": "_:bn42860",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20617",
@@ -2910,7 +2694,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42874",
+        "@id": "_:bn42861",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -2921,7 +2705,7 @@
     ],
     "teacherOf": [
       {
-        "@id": "_:bn42875",
+        "@id": "_:bn42862",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21019",
@@ -2934,7 +2718,7 @@
         ]
       },
       {
-        "@id": "_:bn42876",
+        "@id": "_:bn42863",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20768",
@@ -2946,7 +2730,7 @@
         ]
       },
       {
-        "@id": "_:bn42877",
+        "@id": "_:bn42864",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21074",
@@ -2959,7 +2743,7 @@
         ]
       },
       {
-        "@id": "_:bn42878",
+        "@id": "_:bn42865",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1443",
@@ -2972,7 +2756,7 @@
         ]
       },
       {
-        "@id": "_:bn42879",
+        "@id": "_:bn42866",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1493",
@@ -2985,7 +2769,7 @@
         ]
       },
       {
-        "@id": "_:bn42880",
+        "@id": "_:bn42867",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21071",
@@ -2997,7 +2781,7 @@
         ]
       },
       {
-        "@id": "_:bn42881",
+        "@id": "_:bn42868",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21082",
@@ -3009,7 +2793,7 @@
         ]
       },
       {
-        "@id": "_:bn42882",
+        "@id": "_:bn42869",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21023",
@@ -3036,7 +2820,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42883",
+        "@id": "_:bn42870",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3047,7 +2831,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42884",
+        "@id": "_:bn42871",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -3056,7 +2840,7 @@
         }
       },
       {
-        "@id": "_:bn42885",
+        "@id": "_:bn42872",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -3067,7 +2851,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42886",
+        "@id": "_:bn42873",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20668",
@@ -3097,7 +2881,7 @@
         ]
       },
       {
-        "@id": "_:bn42887",
+        "@id": "_:bn42874",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -3127,7 +2911,7 @@
         ]
       },
       {
-        "@id": "_:bn42888",
+        "@id": "_:bn42875",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20670",
@@ -3159,7 +2943,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42889",
+        "@id": "_:bn42876",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -3180,7 +2964,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42890",
+        "@id": "_:bn42877",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -3199,7 +2983,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42891",
+        "@id": "_:bn42878",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3220,7 +3004,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42892",
+        "@id": "_:bn42879",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -3231,7 +3015,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42893",
+        "@id": "_:bn42880",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20675",
@@ -3276,7 +3060,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42894",
+        "@id": "_:bn42881",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -3287,7 +3071,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42895",
+        "@id": "_:bn42882",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -3296,7 +3080,7 @@
         }
       },
       {
-        "@id": "_:bn42896",
+        "@id": "_:bn42883",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -3315,7 +3099,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42897",
+        "@id": "_:bn42884",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3326,7 +3110,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42898",
+        "@id": "_:bn42885",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -3335,7 +3119,7 @@
         }
       },
       {
-        "@id": "_:bn42899",
+        "@id": "_:bn42886",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -3346,7 +3130,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42900",
+        "@id": "_:bn42887",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -3357,7 +3141,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42901",
+        "@id": "_:bn42888",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -3386,7 +3170,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42902",
+        "@id": "_:bn42889",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3397,7 +3181,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42903",
+        "@id": "_:bn42890",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -3413,7 +3197,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42904",
+        "@id": "_:bn42891",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -3437,7 +3221,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42905",
+        "@id": "_:bn42892",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3448,7 +3232,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42906",
+        "@id": "_:bn42893",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -3457,7 +3241,7 @@
         }
       },
       {
-        "@id": "_:bn42907",
+        "@id": "_:bn42894",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -3468,7 +3252,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42908",
+        "@id": "_:bn42895",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -3497,7 +3281,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42909",
+        "@id": "_:bn42896",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3508,7 +3292,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42910",
+        "@id": "_:bn42897",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -3524,7 +3308,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42911",
+        "@id": "_:bn42898",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -3543,7 +3327,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42912",
+        "@id": "_:bn42899",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3554,7 +3338,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42913",
+        "@id": "_:bn42900",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -3570,7 +3354,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42914",
+        "@id": "_:bn42901",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -3579,7 +3363,7 @@
         }
       },
       {
-        "@id": "_:bn42915",
+        "@id": "_:bn42902",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21153",
@@ -3603,7 +3387,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42916",
+        "@id": "_:bn42903",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3614,7 +3398,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42917",
+        "@id": "_:bn42904",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -3630,7 +3414,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42918",
+        "@id": "_:bn42905",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -3639,7 +3423,7 @@
         }
       },
       {
-        "@id": "_:bn42919",
+        "@id": "_:bn42906",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21153",
@@ -3668,7 +3452,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42920",
+        "@id": "_:bn42907",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3679,7 +3463,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42921",
+        "@id": "_:bn42908",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -3695,7 +3479,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42922",
+        "@id": "_:bn42909",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -3704,7 +3488,7 @@
         }
       },
       {
-        "@id": "_:bn42923",
+        "@id": "_:bn42910",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21153",
@@ -3728,7 +3512,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42924",
+        "@id": "_:bn42911",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3739,7 +3523,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42925",
+        "@id": "_:bn42912",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -3755,7 +3539,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42926",
+        "@id": "_:bn42913",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -3779,7 +3563,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42927",
+        "@id": "_:bn42914",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3790,7 +3574,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42928",
+        "@id": "_:bn42915",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -3801,7 +3585,7 @@
     ],
     "lifePartner": [
       {
-        "@id": "_:bn42929",
+        "@id": "_:bn42916",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20586",
@@ -3821,7 +3605,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42930",
+        "@id": "_:bn42917",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -3853,7 +3637,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42931",
+        "@id": "_:bn42918",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -3877,7 +3661,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42932",
+        "@id": "_:bn42919",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3888,7 +3672,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42933",
+        "@id": "_:bn42920",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -3899,7 +3683,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn42934",
+        "@id": "_:bn42921",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -3910,7 +3694,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42935",
+        "@id": "_:bn42922",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -3921,7 +3705,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn42936",
+        "@id": "_:bn42923",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23118",
@@ -3950,7 +3734,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42937",
+        "@id": "_:bn42924",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3961,7 +3745,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42938",
+        "@id": "_:bn42925",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -3977,7 +3761,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42939",
+        "@id": "_:bn42926",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -4006,7 +3790,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42940",
+        "@id": "_:bn42927",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4017,7 +3801,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42941",
+        "@id": "_:bn42928",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -4046,7 +3830,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn42942",
+        "@id": "_:bn42929",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4057,7 +3841,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn42943",
+        "@id": "_:bn42930",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -4066,7 +3850,7 @@
         }
       },
       {
-        "@id": "_:bn42944",
+        "@id": "_:bn42931",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -4082,7 +3866,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn42945",
+        "@id": "_:bn42932",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -4094,6 +3878,222 @@
     "wikidataUri": [
       {
         "@value": "http://www.wikidata.org/entity/Q108119575"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q23400",
+    "rdfs:label": "Judy Perkins",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn42933",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn42934",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20613",
+          "rdfs:label": "Women of Jazz",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn42935",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20655",
+          "rdfs:label": "The International Sweethearts of Rhythm Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q108574354"
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn42936",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20614",
+          "rdfs:label": "International Sweethearts of Rhythm",
+          "@type": "MusicGroup"
+        },
+        "instrument": [
+          {
+            "@id": "semlab:Q20622",
+            "rdfs:label": "vocals"
+          }
+        ],
+        "role": [
+          {
+            "@id": "semlab:Q19082",
+            "rdfs:label": "musician"
+          }
+        ],
+        "referenceUrl": [
+          "https://media.mnhs.org/things/cms/10279/502/AV1989_212_1_M.pdf",
+          "https://chroniclingamerica.loc.gov/lccn/sn83025247/1946-06-14/ed-1/seq-6/"
+        ]
+      }
+    ],
+    "relativeOf": [
+      {
+        "@id": "_:bn42937",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20610",
+          "rdfs:label": "Anna Mae Winburn",
+          "@type": "Person"
+        },
+        "isRelation": [
+          {
+            "@id": "semlab:Q20649",
+            "rdfs:label": "sibling"
+          }
+        ],
+        "referenceUrl": [
+          "https://media.mnhs.org/things/cms/10279/502/AV1989_212_1_M.pdf",
+          "https://chroniclingamerica.loc.gov/lccn/sn83025247/1946-06-14/ed-1/seq-6/"
+        ]
+      }
+    ],
+    "occupation": [
+      {
+        "@id": "_:bn42938",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19082",
+          "rdfs:label": "musician",
+          "@type": "Occupation"
+        }
+      }
+    ],
+    "demographica": [
+      {
+        "@id": "_:bn42939",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18803",
+          "rdfs:label": "women",
+          "@type": "Demographica"
+        }
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q108574354"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q23500",
+    "rdfs:label": "Amos Milburn",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn42940",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn42941",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20655",
+          "rdfs:label": "The International Sweethearts of Rhythm Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q474283"
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn42942",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23499",
+          "rdfs:label": "Amos Milburn and His \"Little\" Band",
+          "@type": "MusicGroup"
+        }
+      }
+    ],
+    "demographica": [
+      {
+        "@id": "_:bn42943",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19065",
+          "rdfs:label": "men",
+          "@type": "Demographica"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27037",
+    "rdfs:label": "Phil Harris",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn42944",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn42945",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20655",
+          "rdfs:label": "The International Sweethearts of Rhythm Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q123167101"
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q123167101"
       }
     ]
   },
