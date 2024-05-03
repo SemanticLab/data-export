@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2024-05-02
+Generated: 2024-05-03
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -48,13 +48,13 @@ Generated: 2024-05-02
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [the_international_sweethearts_of_rhythm_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__all.jsonld) | 349  |
+| All    | [the_international_sweethearts_of_rhythm_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__all.jsonld) | 350  |
 | Person    | [the_international_sweethearts_of_rhythm_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__person.jsonld) | 105  |
 | Music Group    | [the_international_sweethearts_of_rhythm_project__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__music_group.jsonld) | 16  |
 | Group    | [the_international_sweethearts_of_rhythm_project__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__group.jsonld) | 1  |
 | Organization    | [the_international_sweethearts_of_rhythm_project__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__organization.jsonld) | 1  |
 | Occupation    | [the_international_sweethearts_of_rhythm_project__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__occupation.jsonld) | 3  |
-| Venue    | [the_international_sweethearts_of_rhythm_project__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__venue.jsonld) | 58  |
+| Venue    | [the_international_sweethearts_of_rhythm_project__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__venue.jsonld) | 59  |
 | School    | [the_international_sweethearts_of_rhythm_project__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__school.jsonld) | 1  |
 | Musical Instrument    | [the_international_sweethearts_of_rhythm_project__musical_instrument.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__musical_instrument.jsonld) | 1  |
 | Scholarly Article    | [the_international_sweethearts_of_rhythm_project__scholarly_article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__scholarly_article.jsonld) | 1  |
@@ -78,12 +78,12 @@ Generated: 2024-05-02
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [women_of_jazz__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__all.jsonld) | 428  |
+| All    | [women_of_jazz__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__all.jsonld) | 429  |
 | Person    | [women_of_jazz__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__person.jsonld) | 193  |
 | Music Group    | [women_of_jazz__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__music_group.jsonld) | 18  |
 | Music Venue    | [women_of_jazz__music_venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__music_venue.jsonld) | 1  |
 | Organization    | [women_of_jazz__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__organization.jsonld) | 1  |
-| Venue    | [women_of_jazz__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__venue.jsonld) | 57  |
+| Venue    | [women_of_jazz__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__venue.jsonld) | 58  |
 | Musical Instrument    | [women_of_jazz__musical_instrument.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__musical_instrument.jsonld) | 1  |
 | Scholarly Article    | [women_of_jazz__scholarly_article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__scholarly_article.jsonld) | 2  |
 | Article    | [women_of_jazz__article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__article.jsonld) | 1  |
