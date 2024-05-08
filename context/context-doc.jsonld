@@ -1295,6 +1295,13 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
+        "activity domain",
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1314,14 +1321,7 @@
         "conduct research about",
         "be researcher in",
         "area of work",
-        "area",
-        "activity domain",
-        "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity"
+        "area"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
@@ -1719,7 +1719,11 @@
     "Chemistry": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q27387",
-      "skos:prefLabel": "chemistry"
+      "skos:prefLabel": "chemistry",
+      "owl:equivalentClass": [
+        "http://vocab.getty.edu/page/aat/300054537",
+        "http://id.loc.gov/authorities/subjects/sh85022986"
+      ]
     },
     "City": {
       "@type": "rdfs:Class",
@@ -2123,12 +2127,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
-        "job",
-        "profession",
         "work",
         "career",
         "craft",
-        "employment"
+        "employment",
+        "job",
+        "profession"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
