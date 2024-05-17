@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2024-05-16
+Generated: 2024-05-17
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -33,11 +33,12 @@ Generated: 2024-05-16
 | Person    | [linking_lost_jazz_shrines__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__person.jsonld) | 616  |
 | Institution    | [linking_lost_jazz_shrines__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__institution.jsonld) | 1  |
 | Music Group    | [linking_lost_jazz_shrines__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__music_group.jsonld) | 53  |
-| Music Venue    | [linking_lost_jazz_shrines__music_venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__music_venue.jsonld) | 174  |
+| Music Venue    | [linking_lost_jazz_shrines__music_venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__music_venue.jsonld) | 173  |
 | Organization    | [linking_lost_jazz_shrines__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__organization.jsonld) | 93  |
 | Record Label    | [linking_lost_jazz_shrines__record_label.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__record_label.jsonld) | 10  |
 | Country    | [linking_lost_jazz_shrines__country.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__country.jsonld) | 1  |
 | Occupation    | [linking_lost_jazz_shrines__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__occupation.jsonld) | 25  |
+| Venue    | [linking_lost_jazz_shrines__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__venue.jsonld) | 1  |
 | Museum    | [linking_lost_jazz_shrines__museum.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__museum.jsonld) | 1  |
 | Interview Transcript    | [linking_lost_jazz_shrines__interview_transcript.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__interview_transcript.jsonld) | 29  |
 | School    | [linking_lost_jazz_shrines__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__school.jsonld) | 15  |
@@ -81,9 +82,8 @@ Generated: 2024-05-16
 | All    | [women_of_jazz__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__all.jsonld) | 429  |
 | Person    | [women_of_jazz__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__person.jsonld) | 193  |
 | Music Group    | [women_of_jazz__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__music_group.jsonld) | 18  |
-| Music Venue    | [women_of_jazz__music_venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__music_venue.jsonld) | 1  |
 | Organization    | [women_of_jazz__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__organization.jsonld) | 1  |
-| Venue    | [women_of_jazz__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__venue.jsonld) | 58  |
+| Venue    | [women_of_jazz__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__venue.jsonld) | 59  |
 | Musical Instrument    | [women_of_jazz__musical_instrument.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__musical_instrument.jsonld) | 1  |
 | Scholarly Article    | [women_of_jazz__scholarly_article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__scholarly_article.jsonld) | 2  |
 | Article    | [women_of_jazz__article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__article.jsonld) | 1  |

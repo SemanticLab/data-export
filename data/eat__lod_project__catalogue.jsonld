@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78207",
+        "@id": "_:bn78201",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19069",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "@id": "_:bn78208",
+        "@id": "_:bn78202",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21589",
@@ -29,7 +29,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn78209",
+        "@id": "_:bn78203",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -74,7 +74,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn78210",
+        "@id": "_:bn78204",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20512",
@@ -85,7 +85,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78211",
+        "@id": "_:bn78205",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -94,7 +94,7 @@
         }
       },
       {
-        "@id": "_:bn78212",
+        "@id": "_:bn78206",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -129,7 +129,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78213",
+        "@id": "_:bn78207",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19069",
@@ -138,7 +138,7 @@
         }
       },
       {
-        "@id": "_:bn78214",
+        "@id": "_:bn78208",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21589",
@@ -149,7 +149,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn78215",
+        "@id": "_:bn78209",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20514",
@@ -180,7 +180,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn78216",
+        "@id": "_:bn78210",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19471",
@@ -191,11 +191,112 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn78217",
+        "@id": "_:bn78211",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
           "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        }
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn78212",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20512",
+          "rdfs:label": "E.A.T. Bibliography",
+          "@type": "Document"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn78213",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. + LOD Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn78214",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. + LOD Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "localId": [
+      {
+        "@value": "EB163"
+      }
+    ],
+    "reportedDate": [
+      {
+        "@value": "1968"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21942",
+    "rdfs:label": "Literarische Messe Katalog 1968",
+    "@type": [
+      "Document",
+      "Catalogue"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn78215",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19069",
+          "rdfs:label": "document",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn78216",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21589",
+          "rdfs:label": "catalogue",
+          "@type": "Class"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Literarische Messe Katalog 1968",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1968-05-10T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "placeOfPublication": [
+      {
+        "@id": "_:bn78217",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21528",
+          "rdfs:label": "Frankfurt am Main (Germany)",
           "@type": "City"
         }
       }
@@ -233,107 +334,6 @@
     ],
     "localId": [
       {
-        "@value": "EB163"
-      }
-    ],
-    "reportedDate": [
-      {
-        "@value": "1968"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21942",
-    "rdfs:label": "Literarische Messe Katalog 1968",
-    "@type": [
-      "Document",
-      "Catalogue"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn78221",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19069",
-          "rdfs:label": "document",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn78222",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21589",
-          "rdfs:label": "catalogue",
-          "@type": "Class"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "Literarische Messe Katalog 1968",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1968-05-10T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 11,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn78223",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21528",
-          "rdfs:label": "Frankfurt am Main (Germany)",
-          "@type": "City"
-        }
-      }
-    ],
-    "partOf": [
-      {
-        "@id": "_:bn78224",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20512",
-          "rdfs:label": "E.A.T. Bibliography",
-          "@type": "Document"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn78225",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. + LOD Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn78226",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. + LOD Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "localId": [
-      {
         "@value": "EB164"
       }
     ],
@@ -353,7 +353,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78227",
+        "@id": "_:bn78221",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19069",
@@ -362,7 +362,7 @@
         }
       },
       {
-        "@id": "_:bn78228",
+        "@id": "_:bn78222",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21589",
@@ -393,7 +393,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn78229",
+        "@id": "_:bn78223",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21502",
@@ -404,7 +404,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn78230",
+        "@id": "_:bn78224",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21572",
@@ -415,7 +415,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn78231",
+        "@id": "_:bn78225",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20512",
@@ -426,7 +426,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78232",
+        "@id": "_:bn78226",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -435,7 +435,7 @@
         }
       },
       {
-        "@id": "_:bn78233",
+        "@id": "_:bn78227",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -465,7 +465,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78234",
+        "@id": "_:bn78228",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19069",
@@ -474,7 +474,7 @@
         }
       },
       {
-        "@id": "_:bn78235",
+        "@id": "_:bn78229",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21589",
@@ -505,7 +505,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn78236",
+        "@id": "_:bn78230",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21384",
@@ -516,7 +516,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn78237",
+        "@id": "_:bn78231",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21569",
@@ -527,7 +527,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn78238",
+        "@id": "_:bn78232",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20512",
@@ -538,7 +538,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78239",
+        "@id": "_:bn78233",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -547,7 +547,7 @@
         }
       },
       {
-        "@id": "_:bn78240",
+        "@id": "_:bn78234",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -577,7 +577,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78241",
+        "@id": "_:bn78235",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19069",
@@ -586,7 +586,7 @@
         }
       },
       {
-        "@id": "_:bn78242",
+        "@id": "_:bn78236",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21589",
@@ -617,7 +617,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn78243",
+        "@id": "_:bn78237",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21509",
@@ -628,7 +628,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn78244",
+        "@id": "_:bn78238",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21555",
@@ -639,7 +639,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn78245",
+        "@id": "_:bn78239",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20512",
@@ -650,7 +650,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78246",
+        "@id": "_:bn78240",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -659,7 +659,7 @@
         }
       },
       {
-        "@id": "_:bn78247",
+        "@id": "_:bn78241",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
