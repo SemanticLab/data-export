@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2024-05-19
+Generated: 2024-05-20
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -115,7 +115,7 @@ Generated: 2024-05-19
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat__lod_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__all.jsonld) | 2214  |
+| All    | [eat__lod_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__all.jsonld) | 2215  |
 | Person    | [eat__lod_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__person.jsonld) | 482  |
 | Institution    | [eat__lod_project__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__institution.jsonld) | 12  |
 | Linking Lost Jazz "Shrine"    | [eat__lod_project__linking_lost_jazz_"shrine".jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__linking_lost_jazz_"shrine".jsonld) | 2  |
@@ -125,7 +125,7 @@ Generated: 2024-05-19
 | Place    | [eat__lod_project__place.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__place.jsonld) | 2  |
 | Country    | [eat__lod_project__country.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__country.jsonld) | 5  |
 | State    | [eat__lod_project__state.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__state.jsonld) | 4  |
-| Document    | [eat__lod_project__document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__document.jsonld) | 661  |
+| Document    | [eat__lod_project__document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__document.jsonld) | 662  |
 | Occupation    | [eat__lod_project__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__occupation.jsonld) | 35  |
 | Event    | [eat__lod_project__event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__event.jsonld) | 18  |
 | Venue    | [eat__lod_project__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__venue.jsonld) | 11  |
@@ -202,11 +202,11 @@ Generated: 2024-05-19
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat__lod_bibliography_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__all.jsonld) | 1033  |
+| All    | [eat__lod_bibliography_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__all.jsonld) | 1034  |
 | Person    | [eat__lod_bibliography_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__person.jsonld) | 114  |
 | Borough    | [eat__lod_bibliography_project__borough.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__borough.jsonld) | 1  |
 | Organization    | [eat__lod_bibliography_project__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__organization.jsonld) | 4  |
-| Document    | [eat__lod_bibliography_project__document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__document.jsonld) | 446  |
+| Document    | [eat__lod_bibliography_project__document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__document.jsonld) | 447  |
 | Publication    | [eat__lod_bibliography_project__publication.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__publication.jsonld) | 149  |
 | Business    | [eat__lod_bibliography_project__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__business.jsonld) | 2  |
 | Museum    | [eat__lod_bibliography_project__museum.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_bibliography_project__museum.jsonld) | 1  |
