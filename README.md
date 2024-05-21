@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2024-05-20
+Generated: 2024-05-21
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -129,10 +129,10 @@ Generated: 2024-05-20
 | Occupation    | [eat__lod_project__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__occupation.jsonld) | 35  |
 | Event    | [eat__lod_project__event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__event.jsonld) | 18  |
 | Venue    | [eat__lod_project__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__venue.jsonld) | 11  |
-| Artwork    | [eat__lod_project__artwork.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__artwork.jsonld) | 89  |
+| Artwork    | [eat__lod_project__artwork.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__artwork.jsonld) | 88  |
 | Performance    | [eat__lod_project__performance.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__performance.jsonld) | 29  |
 | Archival Object    | [eat__lod_project__archival_object.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__archival_object.jsonld) | 1  |
-| Technology    | [eat__lod_project__technology.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__technology.jsonld) | 78  |
+| Technology    | [eat__lod_project__technology.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__technology.jsonld) | 79  |
 | Activity    | [eat__lod_project__activity.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__activity.jsonld) | 1  |
 | Publication    | [eat__lod_project__publication.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__publication.jsonld) | 36  |
 | Business    | [eat__lod_project__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__business.jsonld) | 34  |
