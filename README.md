@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2024-05-24
+Generated: 2024-05-25
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -115,7 +115,7 @@ Generated: 2024-05-24
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat__lod_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__all.jsonld) | 2215  |
+| All    | [eat__lod_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__all.jsonld) | 2216  |
 | Person    | [eat__lod_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__person.jsonld) | 482  |
 | Institution    | [eat__lod_project__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__institution.jsonld) | 12  |
 | Linking Lost Jazz "Shrine"    | [eat__lod_project__linking_lost_jazz_"shrine".jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__linking_lost_jazz_"shrine".jsonld) | 2  |
@@ -125,6 +125,7 @@ Generated: 2024-05-24
 | Place    | [eat__lod_project__place.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__place.jsonld) | 2  |
 | Country    | [eat__lod_project__country.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__country.jsonld) | 5  |
 | State    | [eat__lod_project__state.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__state.jsonld) | 4  |
+| Semantic Lab Project    | [eat__lod_project__semantic_lab_project.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__semantic_lab_project.jsonld) | 1  |
 | Document    | [eat__lod_project__document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__document.jsonld) | 662  |
 | Occupation    | [eat__lod_project__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__occupation.jsonld) | 35  |
 | Event    | [eat__lod_project__event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__event.jsonld) | 18  |
