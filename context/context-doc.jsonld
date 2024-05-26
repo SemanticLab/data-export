@@ -1102,10 +1102,6 @@
       "@id": "http://base.semlab.io/entity/P169",
       "skos:prefLabel": "signed with"
     },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
-    },
     "separator": {
       "@id": "http://base.semlab.io/entity/P239",
       "skos:prefLabel": "separator",
@@ -1115,6 +1111,10 @@
       "@id": "http://base.semlab.io/entity/P240",
       "skos:prefLabel": "property scope",
       "skos:note": "specifies the scope parameter of a 'scope' constraint"
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
     },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
@@ -1289,13 +1289,6 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
-        "activity domain",
-        "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1315,7 +1308,14 @@
         "conduct research about",
         "be researcher in",
         "area of work",
-        "area"
+        "area",
+        "activity domain",
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
@@ -2127,12 +2127,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
-        "work",
         "career",
         "craft",
         "employment",
         "job",
-        "profession"
+        "profession",
+        "work"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
