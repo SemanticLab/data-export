@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2024-05-29
+Generated: 2024-05-30
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -131,7 +131,7 @@ Generated: 2024-05-29
 | Event    | [eat__lod_project__event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__event.jsonld) | 18  |
 | Venue    | [eat__lod_project__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__venue.jsonld) | 11  |
 | Artwork    | [eat__lod_project__artwork.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__artwork.jsonld) | 88  |
-| Performance    | [eat__lod_project__performance.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__performance.jsonld) | 29  |
+| Performance    | [eat__lod_project__performance.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__performance.jsonld) | 28  |
 | Archival Object    | [eat__lod_project__archival_object.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__archival_object.jsonld) | 1  |
 | Technology    | [eat__lod_project__technology.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__technology.jsonld) | 79  |
 | Activity    | [eat__lod_project__activity.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__activity.jsonld) | 1  |
@@ -189,7 +189,7 @@ Generated: 2024-05-29
 | Communications Satellite    | [eat__lod_project__communications_satellite.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__communications_satellite.jsonld) | 3  |
 | Art Gallery    | [eat__lod_project__art_gallery.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__art_gallery.jsonld) | 3  |
 | Sound    | [eat__lod_project__sound.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__sound.jsonld) | 1  |
-| Sculpture    | [eat__lod_project__sculpture.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__sculpture.jsonld) | 6  |
+| Sculpture    | [eat__lod_project__sculpture.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__sculpture.jsonld) | 7  |
 | Ethnic Group    | [eat__lod_project__ethnic_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__ethnic_group.jsonld) | 4  |
 | Project    | [eat__lod_project__project.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__project.jsonld) | 9  |
 | Painting    | [eat__lod_project__painting.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat__lod_project__painting.jsonld) | 4  |
