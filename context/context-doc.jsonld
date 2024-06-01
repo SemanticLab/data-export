@@ -363,6 +363,9 @@
     "date": {
       "@id": "http://base.semlab.io/entity/P98",
       "skos:prefLabel": "date",
+      "skos:altLabel": [
+        "point in time"
+      ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P585"
       ],
@@ -484,6 +487,9 @@
     "startTime": {
       "@id": "http://base.semlab.io/entity/P120",
       "skos:prefLabel": "start time",
+      "skos:altLabel": [
+        "start date"
+      ],
       "owl:equivalentClass": [
         "http://www.wikidata.org/entity/P580"
       ],
@@ -848,7 +854,10 @@
     },
     "endTime": {
       "@id": "http://base.semlab.io/entity/P121",
-      "skos:prefLabel": "end time"
+      "skos:prefLabel": "end time",
+      "skos:altLabel": [
+        "end date"
+      ]
     },
     "natureOfRelation": {
       "@id": "http://base.semlab.io/entity/P122",
@@ -1289,6 +1298,12 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1309,13 +1324,7 @@
         "be researcher in",
         "area of work",
         "area",
-        "activity domain",
-        "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity"
+        "activity domain"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
@@ -1724,12 +1733,12 @@
       "@id": "http://base.semlab.io/entity/Q19058",
       "skos:prefLabel": "city",
       "skos:altLabel": [
+        "town",
+        "village",
         "army installation",
         "hamlet",
         "military camp",
-        "settlement",
-        "town",
-        "village"
+        "settlement"
       ],
       "owl:equivalentClass": [
         "https://schema.org/City"
@@ -2127,12 +2136,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
+        "work",
         "career",
         "craft",
         "employment",
         "job",
-        "profession",
-        "work"
+        "profession"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
