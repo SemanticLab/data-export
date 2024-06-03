@@ -1111,6 +1111,10 @@
       "@id": "http://base.semlab.io/entity/P169",
       "skos:prefLabel": "signed with"
     },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
+    },
     "separator": {
       "@id": "http://base.semlab.io/entity/P239",
       "skos:prefLabel": "separator",
@@ -1120,10 +1124,6 @@
       "@id": "http://base.semlab.io/entity/P240",
       "skos:prefLabel": "property scope",
       "skos:note": "specifies the scope parameter of a 'scope' constraint"
-    },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
     },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
@@ -1298,12 +1298,6 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
-        "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1324,7 +1318,13 @@
         "be researcher in",
         "area of work",
         "area",
-        "activity domain"
+        "activity domain",
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
@@ -1880,11 +1880,11 @@
       "@id": "http://base.semlab.io/entity/Q19098",
       "skos:prefLabel": "film",
       "skos:altLabel": [
-        "cinematic work",
-        "films",
         "flick",
         "motion picture",
-        "movie"
+        "movie",
+        "cinematic work",
+        "films"
       ],
       "skos:note": "sequence of images that give the impression of movement; an artistic work created using the medium of film"
     },
