@@ -1,0 +1,50 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24565",
+    "rdfs:label": "horn",
+    "@type": [
+      "Sound"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn80450",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24548",
+          "rdfs:label": "sound",
+          "@type": "FieldOfWork(Class)"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn80451",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn80452",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24368",
+          "rdfs:label": "Vocoder",
+          "@type": "Technology"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24656",
+            "rdfs:label": "Block 22 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/22.txt"
+          }
+        ]
+      }
+    ]
+  }
+]

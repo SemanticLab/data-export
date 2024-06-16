@@ -1,0 +1,80 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q23502",
+    "rdfs:label": "Robert Rauschenberg's Studio",
+    "@type": [
+      "Venue",
+      "Artist'SStudio"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn80301",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19072",
+          "rdfs:label": "venue",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn80302",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23505",
+          "rdfs:label": "artist's studio",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn80303",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "streetAddress": [
+      {
+        "@value": {
+          "text": "381 Lafayette Street",
+          "language": "en"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24227",
+    "rdfs:label": "47th St. Factory",
+    "@type": [
+      "Artist'SStudio"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn80304",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23505",
+          "rdfs:label": "artist's studio",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn80305",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  }
+]
