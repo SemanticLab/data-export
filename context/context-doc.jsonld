@@ -1114,10 +1114,6 @@
       "@id": "http://base.semlab.io/entity/P169",
       "skos:prefLabel": "signed with"
     },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
-    },
     "hasBibliographicReference": {
       "@id": "http://base.semlab.io/entity/P242",
       "skos:prefLabel": "has bibliographic reference",
@@ -1129,6 +1125,10 @@
       "@id": "http://base.semlab.io/entity/P244",
       "skos:prefLabel": "formatter URL",
       "skos:note": "web page URL; URI template from which \"$1\" can be automatically replaced with the effective property value on items. If the site goes offline, set it to deprecated rank. If the formatter URL changes, add a new statement with preferred rank."
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
     },
     "separator": {
       "@id": "http://base.semlab.io/entity/P239",
@@ -1325,12 +1325,6 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
-        "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1351,7 +1345,13 @@
         "be researcher in",
         "area of work",
         "area",
-        "activity domain"
+        "activity domain",
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
@@ -1575,9 +1575,9 @@
       "@id": "http://base.semlab.io/entity/Q22395",
       "skos:prefLabel": "art exhibition",
       "skos:altLabel": [
+        "art exhibit",
         "art show",
-        "exhibition",
-        "art exhibit"
+        "exhibition"
       ],
       "skos:note": "organized presentation and display of works of art"
     },
@@ -1595,6 +1595,9 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
+        "material",
+        "media",
+        "medium",
         "art materials",
         "art media",
         "art medium",
@@ -1602,10 +1605,7 @@
         "artistic media",
         "artistic medium",
         "arts materials",
-        "crafting material",
-        "material",
-        "media",
-        "medium"
+        "crafting material"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -1760,12 +1760,12 @@
       "@id": "http://base.semlab.io/entity/Q19058",
       "skos:prefLabel": "city",
       "skos:altLabel": [
-        "army installation",
-        "hamlet",
         "military camp",
         "settlement",
         "town",
-        "village"
+        "village",
+        "army installation",
+        "hamlet"
       ],
       "owl:equivalentClass": [
         "https://schema.org/City"
@@ -1882,8 +1882,8 @@
       "@id": "http://base.semlab.io/entity/Q19071",
       "skos:prefLabel": "event",
       "skos:altLabel": [
-        "events",
-        "competition"
+        "competition",
+        "events"
       ],
       "owl:equivalentClass": [
         "https://schema.org/Event"
