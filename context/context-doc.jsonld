@@ -1126,6 +1126,10 @@
       "skos:prefLabel": "formatter URL",
       "skos:note": "web page URL; URI template from which \"$1\" can be automatically replaced with the effective property value on items. If the site goes offline, set it to deprecated rank. If the formatter URL changes, add a new statement with preferred rank."
     },
+    "EATDatascapePageIdentifier": {
+      "@id": "http://base.semlab.io/entity/P245",
+      "skos:prefLabel": "EAT Datascape Page Identifier"
+    },
     "interviewed": {
       "@id": "http://base.semlab.io/entity/P171",
       "skos:prefLabel": "interviewed"
@@ -1575,9 +1579,9 @@
       "@id": "http://base.semlab.io/entity/Q22395",
       "skos:prefLabel": "art exhibition",
       "skos:altLabel": [
-        "art exhibit",
         "art show",
-        "exhibition"
+        "exhibition",
+        "art exhibit"
       ],
       "skos:note": "organized presentation and display of works of art"
     },
