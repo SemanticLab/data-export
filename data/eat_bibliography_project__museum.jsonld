@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn95466",
+        "@id": "_:bn95428",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "@id": "_:bn95467",
+        "@id": "_:bn95429",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21676",
@@ -29,7 +29,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn95468",
+        "@id": "_:bn95430",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -38,7 +38,7 @@
         }
       },
       {
-        "@id": "_:bn95469",
+        "@id": "_:bn95431",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -54,7 +54,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn95470",
+        "@id": "_:bn95432",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19128",
@@ -84,6 +84,61 @@
     "wikidataUri": [
       {
         "@value": "http://www.wikidata.org/entity/Q188740"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21509",
+    "rdfs:label": "Musee d'Art Moderne de la Ville de Paris",
+    "@type": [
+      "Publisher",
+      "Museum"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn95433",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21676",
+          "rdfs:label": "publisher",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn95434",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19103",
+          "rdfs:label": "museum",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn95435",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q857276"
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q857276"
+      }
+    ],
+    "E.A.T.DatascapePageIdentifier": [
+      {
+        "@value": "actor/578"
       }
     ]
   }
