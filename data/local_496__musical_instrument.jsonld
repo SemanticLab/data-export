@@ -8,36 +8,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53650",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20619",
-          "rdfs:label": "musical instrument",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn53651",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20719",
-          "rdfs:label": "Local 496",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20623",
-    "rdfs:label": "saxophone",
-    "@type": [
-      "MusicalInstrument"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn53652",
         "@type": "RelEvent",
         "agentObj": {
@@ -61,8 +31,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20624",
-    "rdfs:label": "trombone",
+    "@id": "semlab:Q20623",
+    "rdfs:label": "saxophone",
     "@type": [
       "MusicalInstrument"
     ],
@@ -91,8 +61,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20626",
-    "rdfs:label": "bass",
+    "@id": "semlab:Q20624",
+    "rdfs:label": "trombone",
     "@type": [
       "MusicalInstrument"
     ],
@@ -121,8 +91,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20627",
-    "rdfs:label": "drums",
+    "@id": "semlab:Q20626",
+    "rdfs:label": "bass",
     "@type": [
       "MusicalInstrument"
     ],
@@ -151,8 +121,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20628",
-    "rdfs:label": "guitar",
+    "@id": "semlab:Q20627",
+    "rdfs:label": "drums",
     "@type": [
       "MusicalInstrument"
     ],
@@ -181,11 +151,10 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20630",
-    "rdfs:label": "piano",
+    "@id": "semlab:Q20628",
+    "rdfs:label": "guitar",
     "@type": [
-      "MusicalInstrument",
-      "ArtMaterial"
+      "MusicalInstrument"
     ],
     "instanceOf": [
       {
@@ -196,9 +165,40 @@
           "rdfs:label": "musical instrument",
           "@type": "Class"
         }
-      },
+      }
+    ],
+    "partOfProject": [
       {
         "@id": "_:bn53663",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20719",
+          "rdfs:label": "Local 496",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q20630",
+    "rdfs:label": "piano",
+    "@type": [
+      "MusicalInstrument",
+      "ArtMaterial"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn53664",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20619",
+          "rdfs:label": "musical instrument",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn53665",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23229",
@@ -209,7 +209,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53664",
+        "@id": "_:bn53666",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -218,29 +218,11 @@
         }
       },
       {
-        "@id": "_:bn53665",
+        "@id": "_:bn53667",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
           "rdfs:label": "The International Sweethearts of Rhythm Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn53666",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn53667",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20719",
-          "rdfs:label": "Local 496",
           "@type": "SemanticLabProject"
         }
       },
@@ -252,11 +234,29 @@
           "rdfs:label": "E.A.T. Knowledge Graph Project",
           "@type": "SemanticLabProject"
         }
+      },
+      {
+        "@id": "_:bn53669",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20719",
+          "rdfs:label": "Local 496",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn53670",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
       }
     ],
     "usedIn": [
       {
-        "@id": "_:bn53669",
+        "@id": "_:bn53671",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19315",
@@ -292,36 +292,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53670",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20619",
-          "rdfs:label": "musical instrument",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn53671",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20719",
-          "rdfs:label": "Local 496",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27057",
-    "rdfs:label": "cornet",
-    "@type": [
-      "MusicalInstrument"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn53672",
         "@type": "RelEvent",
         "agentObj": {
@@ -345,8 +315,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27058",
-    "rdfs:label": "banjo",
+    "@id": "semlab:Q27057",
+    "rdfs:label": "cornet",
     "@type": [
       "MusicalInstrument"
     ],
@@ -364,6 +334,36 @@
     "partOfProject": [
       {
         "@id": "_:bn53675",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20719",
+          "rdfs:label": "Local 496",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27058",
+    "rdfs:label": "banjo",
+    "@type": [
+      "MusicalInstrument"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn53676",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20619",
+          "rdfs:label": "musical instrument",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn53677",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
