@@ -1134,10 +1134,6 @@
       "@id": "http://base.semlab.io/entity/P246",
       "skos:prefLabel": "part of series"
     },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
-    },
     "separator": {
       "@id": "http://base.semlab.io/entity/P239",
       "skos:prefLabel": "separator",
@@ -1159,6 +1155,10 @@
       "owl:equivalentClass": [
         "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#references"
       ]
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
     },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
@@ -1333,12 +1333,6 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
-        "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1359,7 +1353,13 @@
         "be researcher in",
         "area of work",
         "area",
-        "activity domain"
+        "activity domain",
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
@@ -1646,9 +1646,9 @@
       "@id": "http://base.semlab.io/entity/Q23505",
       "skos:prefLabel": "artist's studio",
       "skos:altLabel": [
+        "workshop",
         "ateliers (workspace)",
-        "studio",
-        "workshop"
+        "studio"
       ],
       "skos:note": "working places set aside for artists to work, the term is generally applied to workspaces used by artists creating fine art, particularly art dating from the 16th century to the present"
     },
@@ -1956,12 +1956,12 @@
       "@id": "http://base.semlab.io/entity/Q23179",
       "skos:prefLabel": "genre",
       "skos:altLabel": [
-        "artistic genre",
-        "form/genre",
         "genre/form",
         "stylistic genre",
         "technical genre",
-        "thematic genre"
+        "thematic genre",
+        "artistic genre",
+        "form/genre"
       ],
       "skos:note": "category of creative works based on stylistic, thematic or technical criteria"
     },
