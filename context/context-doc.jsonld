@@ -1134,6 +1134,10 @@
       "@id": "http://base.semlab.io/entity/P246",
       "skos:prefLabel": "part of series"
     },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
+    },
     "separator": {
       "@id": "http://base.semlab.io/entity/P239",
       "skos:prefLabel": "separator",
@@ -1155,10 +1159,6 @@
       "owl:equivalentClass": [
         "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#references"
       ]
-    },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
     },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
@@ -1603,6 +1603,9 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
+        "material",
+        "media",
+        "medium",
         "art materials",
         "art media",
         "art medium",
@@ -1610,10 +1613,7 @@
         "artistic media",
         "artistic medium",
         "arts materials",
-        "crafting material",
-        "material",
-        "media",
-        "medium"
+        "crafting material"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -1646,9 +1646,9 @@
       "@id": "http://base.semlab.io/entity/Q23505",
       "skos:prefLabel": "artist's studio",
       "skos:altLabel": [
-        "workshop",
         "ateliers (workspace)",
-        "studio"
+        "studio",
+        "workshop"
       ],
       "skos:note": "working places set aside for artists to work, the term is generally applied to workspaces used by artists creating fine art, particularly art dating from the 16th century to the present"
     },
@@ -1956,12 +1956,12 @@
       "@id": "http://base.semlab.io/entity/Q23179",
       "skos:prefLabel": "genre",
       "skos:altLabel": [
+        "artistic genre",
+        "form/genre",
         "genre/form",
         "stylistic genre",
         "technical genre",
-        "thematic genre",
-        "artistic genre",
-        "form/genre"
+        "thematic genre"
       ],
       "skos:note": "category of creative works based on stylistic, thematic or technical criteria"
     },
