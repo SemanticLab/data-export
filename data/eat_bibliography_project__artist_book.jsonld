@@ -5,11 +5,12 @@
     "rdfs:label": "Journal: Subtitles to \"Today\" Series",
     "@type": [
       "Document",
-      "ArtistBook"
+      "ArtistBook",
+      "BibliographicReference"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn97743",
+        "@id": "_:bn110924",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19069",
@@ -18,11 +19,20 @@
         }
       },
       {
-        "@id": "_:bn97744",
+        "@id": "_:bn110925",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21588",
           "rdfs:label": "artist book",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn110926",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27513",
+          "rdfs:label": "bibliographic reference",
           "@type": "Class"
         }
       }
@@ -49,7 +59,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn97745",
+        "@id": "_:bn110927",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -60,7 +70,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn97746",
+        "@id": "_:bn110928",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -69,7 +79,7 @@
         }
       },
       {
-        "@id": "_:bn97747",
+        "@id": "_:bn110929",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -90,18 +100,18 @@
     ],
     "parentDocument": [
       {
-        "@id": "_:bn97748",
+        "@id": "_:bn110930",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20512",
           "rdfs:label": "E.A.T. Bibliography, August 12, 1965-January 18, 1980",
-          "@type": "Document"
+          "@type": "BibliographicReference"
         }
       }
     ],
     "author": [
       {
-        "@id": "_:bn97749",
+        "@id": "_:bn110931",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21258",

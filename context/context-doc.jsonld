@@ -1134,10 +1134,6 @@
       "@id": "http://base.semlab.io/entity/P246",
       "skos:prefLabel": "part of series"
     },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
-    },
     "separator": {
       "@id": "http://base.semlab.io/entity/P239",
       "skos:prefLabel": "separator",
@@ -1159,6 +1155,10 @@
       "owl:equivalentClass": [
         "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#references"
       ]
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
     },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
@@ -1603,17 +1603,17 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
+        "crafting material",
+        "material",
+        "media",
+        "medium",
         "art materials",
         "art media",
         "art medium",
         "artistic material",
         "artistic media",
         "artistic medium",
-        "arts materials",
-        "crafting material",
-        "material",
-        "media",
-        "medium"
+        "arts materials"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -1663,8 +1663,8 @@
       "@id": "http://base.semlab.io/entity/Q19073",
       "skos:prefLabel": "artwork",
       "skos:altLabel": [
-        "art piece",
-        "work of art"
+        "work of art",
+        "art piece"
       ],
       "skos:note": "an artistic creation"
     },
@@ -1691,6 +1691,12 @@
       "@id": "http://base.semlab.io/entity/Q23886",
       "skos:prefLabel": "benefit",
       "skos:note": "an entertainment or social event to raise funds for a person or cause"
+    },
+    "BibliographicReference": {
+      "@type": "rdfs:Class",
+      "@id": "http://base.semlab.io/entity/Q27513",
+      "skos:prefLabel": "bibliographic reference",
+      "skos:note": "A reference, usually contained in a footnote or a bibliographic reference list, that refers to a publication (e.g., journal article, a book, a book chapter or a website) or unpublished material."
     },
     "BiomedicalElectronics": {
       "@type": "rdfs:Class",

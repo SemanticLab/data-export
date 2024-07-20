@@ -5,11 +5,12 @@
     "rdfs:label": "Journal: Subtitles to \"Today\" Series",
     "@type": [
       "Document",
-      "ArtistBook"
+      "ArtistBook",
+      "BibliographicReference"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn83925",
+        "@id": "_:bn88806",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19069",
@@ -18,11 +19,20 @@
         }
       },
       {
-        "@id": "_:bn83926",
+        "@id": "_:bn88807",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21588",
           "rdfs:label": "artist book",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn88808",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27513",
+          "rdfs:label": "bibliographic reference",
           "@type": "Class"
         }
       }
@@ -49,7 +59,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn83927",
+        "@id": "_:bn88809",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -60,7 +70,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn83928",
+        "@id": "_:bn88810",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -69,7 +79,7 @@
         }
       },
       {
-        "@id": "_:bn83929",
+        "@id": "_:bn88811",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -90,18 +100,18 @@
     ],
     "parentDocument": [
       {
-        "@id": "_:bn83930",
+        "@id": "_:bn88812",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20512",
           "rdfs:label": "E.A.T. Bibliography, August 12, 1965-January 18, 1980",
-          "@type": "Document"
+          "@type": "BibliographicReference"
         }
       }
     ],
     "author": [
       {
-        "@id": "_:bn83931",
+        "@id": "_:bn88813",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21258",
