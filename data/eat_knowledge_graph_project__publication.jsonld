@@ -1,14 +1,14 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q19148",
-    "rdfs:label": "Architectural Record",
+    "@id": "semlab:Q23901",
+    "rdfs:label": "Washington (D.C.) Journal",
     "@type": [
       "Publication"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75422",
+        "@id": "_:bn75546",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -19,7 +19,288 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75423",
+        "@id": "_:bn75547",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "employee": [
+      {
+        "@id": "_:bn75548",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19383",
+          "rdfs:label": "Klaus Wust",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24035",
+            "rdfs:label": "Block 0 of A217 9 Evenings press briefing guest list",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22880/0.txt"
+          },
+          {
+            "@id": "semlab:Q23905",
+            "rdfs:label": "Block 0 of A120 Guest list for Nine Evenings: Theater and Engineering press briefing",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19841/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24042",
+    "rdfs:label": "E.A.T. Operations and Information",
+    "@type": [
+      "Publication",
+      "Newsletter"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn75549",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24726",
+            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn75550",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19095",
+          "rdfs:label": "newsletter",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24726",
+            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn75551",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn75552",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        },
+        "date": [
+          "+1967-00-00T00:00:00Z"
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24726",
+            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24043",
+    "rdfs:label": "TECHNE",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn75553",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24726",
+            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn75554",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn75555",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        },
+        "date": [
+          "+1967-00-00T00:00:00Z"
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24726",
+            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24048",
+    "rdfs:label": "Broadside",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn75556",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn75557",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "equivalentProperty": [
+      {
+        "@value": "https://www.wikidata.org/wiki/Q4972295"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25642",
+    "rdfs:label": "Houston Chronicle",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn75558",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn75559",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25644",
+    "rdfs:label": "Houston Post",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn75560",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn75561",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q19148",
+    "rdfs:label": "Architectural Record",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn75562",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn75563",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -35,7 +316,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75424",
+        "@id": "_:bn75564",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19454",
@@ -51,7 +332,7 @@
         ]
       },
       {
-        "@id": "_:bn75425",
+        "@id": "_:bn75565",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19409",
@@ -67,7 +348,7 @@
         ]
       },
       {
-        "@id": "_:bn75426",
+        "@id": "_:bn75566",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19557",
@@ -98,7 +379,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75427",
+        "@id": "_:bn75567",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -109,7 +390,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75428",
+        "@id": "_:bn75568",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -125,7 +406,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75429",
+        "@id": "_:bn75569",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23902",
@@ -156,7 +437,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75430",
+        "@id": "_:bn75570",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -167,7 +448,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75431",
+        "@id": "_:bn75571",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -176,7 +457,7 @@
         }
       },
       {
-        "@id": "_:bn75432",
+        "@id": "_:bn75572",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -192,7 +473,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75433",
+        "@id": "_:bn75573",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19576",
@@ -228,7 +509,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75434",
+        "@id": "_:bn75574",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -239,7 +520,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75435",
+        "@id": "_:bn75575",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -255,7 +536,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75436",
+        "@id": "_:bn75576",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19420",
@@ -291,7 +572,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75437",
+        "@id": "_:bn75577",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -302,7 +583,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75438",
+        "@id": "_:bn75578",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -311,7 +592,7 @@
         }
       },
       {
-        "@id": "_:bn75439",
+        "@id": "_:bn75579",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -340,7 +621,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75440",
+        "@id": "_:bn75580",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -351,7 +632,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75441",
+        "@id": "_:bn75581",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -367,7 +648,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75442",
+        "@id": "_:bn75582",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19458",
@@ -403,7 +684,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75443",
+        "@id": "_:bn75583",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -414,7 +695,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75444",
+        "@id": "_:bn75584",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -433,7 +714,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75445",
+        "@id": "_:bn75585",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -444,7 +725,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75446",
+        "@id": "_:bn75586",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -453,7 +734,7 @@
         }
       },
       {
-        "@id": "_:bn75447",
+        "@id": "_:bn75587",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -469,7 +750,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75448",
+        "@id": "_:bn75588",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19214",
@@ -485,7 +766,7 @@
         ]
       },
       {
-        "@id": "_:bn75449",
+        "@id": "_:bn75589",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24017",
@@ -503,7 +784,7 @@
     ],
     "sponsorOf": [
       {
-        "@id": "_:bn75450",
+        "@id": "_:bn75590",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23737",
@@ -534,7 +815,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75451",
+        "@id": "_:bn75591",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -545,7 +826,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75452",
+        "@id": "_:bn75592",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -561,7 +842,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75453",
+        "@id": "_:bn75593",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19123",
@@ -582,7 +863,7 @@
         ]
       },
       {
-        "@id": "_:bn75454",
+        "@id": "_:bn75594",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19289",
@@ -618,7 +899,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75455",
+        "@id": "_:bn75595",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -629,7 +910,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75456",
+        "@id": "_:bn75596",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -658,7 +939,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75457",
+        "@id": "_:bn75597",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -669,7 +950,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75458",
+        "@id": "_:bn75598",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -678,7 +959,7 @@
         }
       },
       {
-        "@id": "_:bn75459",
+        "@id": "_:bn75599",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -694,7 +975,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75460",
+        "@id": "_:bn75600",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19661",
@@ -721,7 +1002,7 @@
         ]
       },
       {
-        "@id": "_:bn75461",
+        "@id": "_:bn75601",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19257",
@@ -757,7 +1038,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75462",
+        "@id": "_:bn75602",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -768,7 +1049,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75463",
+        "@id": "_:bn75603",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -784,7 +1065,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75464",
+        "@id": "_:bn75604",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19574",
@@ -820,7 +1101,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75465",
+        "@id": "_:bn75605",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -831,7 +1112,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75466",
+        "@id": "_:bn75606",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -847,7 +1128,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75467",
+        "@id": "_:bn75607",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19459",
@@ -868,7 +1149,7 @@
         ]
       },
       {
-        "@id": "_:bn75468",
+        "@id": "_:bn75608",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19174",
@@ -904,7 +1185,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75469",
+        "@id": "_:bn75609",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -915,7 +1196,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75470",
+        "@id": "_:bn75610",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -944,7 +1225,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75471",
+        "@id": "_:bn75611",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -955,7 +1236,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75472",
+        "@id": "_:bn75612",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -964,7 +1245,7 @@
         }
       },
       {
-        "@id": "_:bn75473",
+        "@id": "_:bn75613",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -980,7 +1261,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75474",
+        "@id": "_:bn75614",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19229",
@@ -1001,7 +1282,7 @@
         ]
       },
       {
-        "@id": "_:bn75475",
+        "@id": "_:bn75615",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19676",
@@ -1022,7 +1303,7 @@
         ]
       },
       {
-        "@id": "_:bn75476",
+        "@id": "_:bn75616",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19560",
@@ -1043,7 +1324,7 @@
         ]
       },
       {
-        "@id": "_:bn75477",
+        "@id": "_:bn75617",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19396",
@@ -1079,7 +1360,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75478",
+        "@id": "_:bn75618",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1090,7 +1371,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75479",
+        "@id": "_:bn75619",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1106,7 +1387,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75480",
+        "@id": "_:bn75620",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19529",
@@ -1142,7 +1423,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75481",
+        "@id": "_:bn75621",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1153,7 +1434,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75482",
+        "@id": "_:bn75622",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1172,7 +1453,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75483",
+        "@id": "_:bn75623",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1183,7 +1464,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75484",
+        "@id": "_:bn75624",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1199,7 +1480,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75485",
+        "@id": "_:bn75625",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19564",
@@ -1235,7 +1516,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75486",
+        "@id": "_:bn75626",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1246,7 +1527,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75487",
+        "@id": "_:bn75627",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1255,7 +1536,7 @@
         }
       },
       {
-        "@id": "_:bn75488",
+        "@id": "_:bn75628",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1271,7 +1552,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75489",
+        "@id": "_:bn75629",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19311",
@@ -1289,7 +1570,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn75490",
+        "@id": "_:bn75630",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22683",
@@ -1325,7 +1606,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75491",
+        "@id": "_:bn75631",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1336,7 +1617,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75492",
+        "@id": "_:bn75632",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1352,7 +1633,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75493",
+        "@id": "_:bn75633",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19566",
@@ -1383,7 +1664,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75494",
+        "@id": "_:bn75634",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1394,7 +1675,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75495",
+        "@id": "_:bn75635",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1403,7 +1684,7 @@
         }
       },
       {
-        "@id": "_:bn75496",
+        "@id": "_:bn75636",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1419,7 +1700,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75497",
+        "@id": "_:bn75637",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19194",
@@ -1435,7 +1716,7 @@
         ]
       },
       {
-        "@id": "_:bn75498",
+        "@id": "_:bn75638",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19246",
@@ -1451,7 +1732,7 @@
         ]
       },
       {
-        "@id": "_:bn75499",
+        "@id": "_:bn75639",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19191",
@@ -1467,7 +1748,7 @@
         ]
       },
       {
-        "@id": "_:bn75500",
+        "@id": "_:bn75640",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20534",
@@ -1498,7 +1779,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75501",
+        "@id": "_:bn75641",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1509,7 +1790,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75502",
+        "@id": "_:bn75642",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1528,7 +1809,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75503",
+        "@id": "_:bn75643",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1539,7 +1820,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75504",
+        "@id": "_:bn75644",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1555,7 +1836,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75505",
+        "@id": "_:bn75645",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19468",
@@ -1586,7 +1867,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75506",
+        "@id": "_:bn75646",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1597,7 +1878,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75507",
+        "@id": "_:bn75647",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1606,7 +1887,7 @@
         }
       },
       {
-        "@id": "_:bn75508",
+        "@id": "_:bn75648",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1622,7 +1903,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75509",
+        "@id": "_:bn75649",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23900",
@@ -1653,7 +1934,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75510",
+        "@id": "_:bn75650",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1664,7 +1945,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75511",
+        "@id": "_:bn75651",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1683,7 +1964,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75512",
+        "@id": "_:bn75652",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1694,7 +1975,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75513",
+        "@id": "_:bn75653",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1703,7 +1984,7 @@
         }
       },
       {
-        "@id": "_:bn75514",
+        "@id": "_:bn75654",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1732,7 +2013,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75515",
+        "@id": "_:bn75655",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1743,7 +2024,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75516",
+        "@id": "_:bn75656",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1752,7 +2033,7 @@
         }
       },
       {
-        "@id": "_:bn75517",
+        "@id": "_:bn75657",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1768,7 +2049,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75518",
+        "@id": "_:bn75658",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19567",
@@ -1804,7 +2085,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75519",
+        "@id": "_:bn75659",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1815,7 +2096,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75520",
+        "@id": "_:bn75660",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1824,7 +2105,7 @@
         }
       },
       {
-        "@id": "_:bn75521",
+        "@id": "_:bn75661",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1840,7 +2121,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75522",
+        "@id": "_:bn75662",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19525",
@@ -1876,7 +2157,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75523",
+        "@id": "_:bn75663",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1887,7 +2168,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75524",
+        "@id": "_:bn75664",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1896,7 +2177,7 @@
         }
       },
       {
-        "@id": "_:bn75525",
+        "@id": "_:bn75665",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1912,7 +2193,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn75526",
+        "@id": "_:bn75666",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19361",
@@ -1943,7 +2224,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75527",
+        "@id": "_:bn75667",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -1954,7 +2235,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75528",
+        "@id": "_:bn75668",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1970,7 +2251,7 @@
     ],
     "wasInvitedTo": [
       {
-        "@id": "_:bn75529",
+        "@id": "_:bn75669",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20541",
@@ -1989,287 +2270,6 @@
     "wikidataUri": [
       {
         "@value": "http://www.wikidata.org/entity/Q3569766"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23901",
-    "rdfs:label": "Washington (D.C.) Journal",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn75530",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn75531",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "employee": [
-      {
-        "@id": "_:bn75532",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19383",
-          "rdfs:label": "Klaus Wust",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24035",
-            "rdfs:label": "Block 0 of A217 9 Evenings press briefing guest list",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22880/0.txt"
-          },
-          {
-            "@id": "semlab:Q23905",
-            "rdfs:label": "Block 0 of A120 Guest list for Nine Evenings: Theater and Engineering press briefing",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19841/0.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24042",
-    "rdfs:label": "E.A.T. Operations and Information",
-    "@type": [
-      "Publication",
-      "Newsletter"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn75533",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24726",
-            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn75534",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19095",
-          "rdfs:label": "newsletter",
-          "@type": "Class"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24726",
-            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn75535",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn75536",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19263",
-          "rdfs:label": "Experiments in Art and Technology",
-          "@type": "NonprofitOrganization"
-        },
-        "date": [
-          "+1967-00-00T00:00:00Z"
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24726",
-            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24043",
-    "rdfs:label": "TECHNE",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn75537",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24726",
-            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn75538",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn75539",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19263",
-          "rdfs:label": "Experiments in Art and Technology",
-          "@type": "NonprofitOrganization"
-        },
-        "date": [
-          "+1967-00-00T00:00:00Z"
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24726",
-            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24048",
-    "rdfs:label": "Broadside",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn75540",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn75541",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "equivalentProperty": [
-      {
-        "@value": "https://www.wikidata.org/wiki/Q4972295"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25642",
-    "rdfs:label": "Houston Chronicle",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn75542",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn75543",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25644",
-    "rdfs:label": "Houston Post",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn75544",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn75545",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
       }
     ]
   }
