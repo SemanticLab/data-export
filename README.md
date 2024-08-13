@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2024-08-12
+Generated: 2024-08-13
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -151,7 +151,7 @@ Generated: 2024-08-12
 | Article    | [eat_knowledge_graph_project__article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__article.jsonld) | 7  |
 | Book    | [eat_knowledge_graph_project__book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__book.jsonld) | 7  |
 | Artist Book    | [eat_knowledge_graph_project__artist_book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artist_book.jsonld) | 1  |
-| Catalogue    | [eat_knowledge_graph_project__catalogue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__catalogue.jsonld) | 6  |
+| Catalogue    | [eat_knowledge_graph_project__catalogue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__catalogue.jsonld) | 7  |
 | Publisher    | [eat_knowledge_graph_project__publisher.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__publisher.jsonld) | 6  |
 | Draft Document    | [eat_knowledge_graph_project__draft_document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__draft_document.jsonld) | 10  |
 | Postcard    | [eat_knowledge_graph_project__postcard.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__postcard.jsonld) | 2  |
@@ -199,7 +199,7 @@ Generated: 2024-08-12
 | Island    | [eat_knowledge_graph_project__island.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__island.jsonld) | 1  |
 | Air Base    | [eat_knowledge_graph_project__air_base.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__air_base.jsonld) | 2  |
 | Field Of Work (Class)    | [eat_knowledge_graph_project__field_of_work_(class).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__field_of_work_(class).jsonld) | 10  |
-| Bibliographic Reference    | [eat_knowledge_graph_project__bibliographic_reference.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__bibliographic_reference.jsonld) | 442  |
+| Bibliographic Reference    | [eat_knowledge_graph_project__bibliographic_reference.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__bibliographic_reference.jsonld) | 441  |
 ## E.A.T. Bibliography Project
 
 | Entity | Link                       | Count |
@@ -214,10 +214,10 @@ Generated: 2024-08-12
 | Article    | [eat_bibliography_project__article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_bibliography_project__article.jsonld) | 2  |
 | Book    | [eat_bibliography_project__book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_bibliography_project__book.jsonld) | 7  |
 | Artist Book    | [eat_bibliography_project__artist_book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_bibliography_project__artist_book.jsonld) | 1  |
-| Catalogue    | [eat_bibliography_project__catalogue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_bibliography_project__catalogue.jsonld) | 6  |
+| Catalogue    | [eat_bibliography_project__catalogue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_bibliography_project__catalogue.jsonld) | 7  |
 | Publisher    | [eat_bibliography_project__publisher.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_bibliography_project__publisher.jsonld) | 20  |
 | Nonprofit Organization    | [eat_bibliography_project__nonprofit_organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_bibliography_project__nonprofit_organization.jsonld) | 1  |
-| Bibliographic Reference    | [eat_bibliography_project__bibliographic_reference.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_bibliography_project__bibliographic_reference.jsonld) | 442  |
+| Bibliographic Reference    | [eat_bibliography_project__bibliographic_reference.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_bibliography_project__bibliographic_reference.jsonld) | 441  |
 ## Asian American Arts Centre Exhibition History
 
 | Entity | Link                       | Count |

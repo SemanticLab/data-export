@@ -1,6 +1,137 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q20513",
+    "rdfs:label": "The Machine as Seen at the End of the Mechanical Age",
+    "@type": [
+      "Catalogue"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn85695",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21589",
+          "rdfs:label": "catalogue",
+          "@type": "Class"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1968-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn85696",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19471",
+          "rdfs:label": "Museum of Modern Art",
+          "@type": "Publisher"
+        },
+        "statedIn": [
+          {
+            "@id": "semlab:Q20512",
+            "rdfs:label": "E.A.T. Bibliography, August 12, 1965-January 18, 1980"
+          }
+        ]
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "The Machine as Seen at the End of the Mechanical Age",
+          "language": "en"
+        }
+      }
+    ],
+    "placeOfPublication": [
+      {
+        "@id": "_:bn85697",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        },
+        "statedIn": [
+          {
+            "@id": "semlab:Q20512",
+            "rdfs:label": "E.A.T. Bibliography, August 12, 1965-January 18, 1980"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn85698",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn85699",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "parentDocument": [
+      {
+        "@id": "_:bn85700",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20512",
+          "rdfs:label": "E.A.T. Bibliography, August 12, 1965-January 18, 1980",
+          "@type": "BibliographicReference"
+        }
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn85701",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20514",
+          "rdfs:label": "K. G. Pontus Hulten",
+          "@type": "Person"
+        }
+      }
+    ],
+    "hasBibliographicReference": [
+      {
+        "@id": "_:bn85702",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21941",
+          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age catalogue",
+          "@type": "BibliographicReference"
+        }
+      }
+    ],
+    "fullWorkAvailableAtUrl": [
+      {
+        "@value": "https://assets.moma.org/documents/moma_catalogue_2776_300292931.pdf"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q20529",
     "rdfs:label": "9 Evenings: Theatre and Engineering (catalogue)",
     "@type": [
@@ -8,7 +139,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn85686",
+        "@id": "_:bn85703",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21589",
@@ -47,7 +178,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn85687",
+        "@id": "_:bn85704",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -56,7 +187,7 @@
         }
       },
       {
-        "@id": "_:bn85688",
+        "@id": "_:bn85705",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -77,7 +208,7 @@
     ],
     "hasBibliographicReference": [
       {
-        "@id": "_:bn85689",
+        "@id": "_:bn85706",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21651",
@@ -102,7 +233,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn85690",
+        "@id": "_:bn85707",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21589",
@@ -111,7 +242,7 @@
         }
       },
       {
-        "@id": "_:bn85691",
+        "@id": "_:bn85708",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27513",
@@ -142,7 +273,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn85692",
+        "@id": "_:bn85709",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19471",
@@ -153,7 +284,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn85693",
+        "@id": "_:bn85710",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -164,7 +295,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn85694",
+        "@id": "_:bn85711",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -173,7 +304,7 @@
         }
       },
       {
-        "@id": "_:bn85695",
+        "@id": "_:bn85712",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -194,7 +325,7 @@
     ],
     "parentDocument": [
       {
-        "@id": "_:bn85696",
+        "@id": "_:bn85713",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20512",
@@ -205,12 +336,23 @@
     ],
     "author": [
       {
-        "@id": "_:bn85697",
+        "@id": "_:bn85714",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20514",
           "rdfs:label": "K. G. Pontus Hulten",
           "@type": "Person"
+        }
+      }
+    ],
+    "bibliographicReferenceOf": [
+      {
+        "@id": "_:bn85715",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20513",
+          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age",
+          "@type": "Catalogue"
         }
       }
     ]
@@ -225,7 +367,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn85698",
+        "@id": "_:bn85716",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21589",
@@ -234,7 +376,7 @@
         }
       },
       {
-        "@id": "_:bn85699",
+        "@id": "_:bn85717",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27513",
@@ -265,7 +407,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn85700",
+        "@id": "_:bn85718",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21528",
@@ -276,7 +418,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn85701",
+        "@id": "_:bn85719",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -285,7 +427,7 @@
         }
       },
       {
-        "@id": "_:bn85702",
+        "@id": "_:bn85720",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -306,7 +448,7 @@
     ],
     "parentDocument": [
       {
-        "@id": "_:bn85703",
+        "@id": "_:bn85721",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20512",
@@ -326,7 +468,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn85704",
+        "@id": "_:bn85722",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21589",
@@ -335,7 +477,7 @@
         }
       },
       {
-        "@id": "_:bn85705",
+        "@id": "_:bn85723",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27513",
@@ -366,7 +508,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn85706",
+        "@id": "_:bn85724",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21502",
@@ -377,7 +519,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn85707",
+        "@id": "_:bn85725",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21572",
@@ -388,7 +530,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn85708",
+        "@id": "_:bn85726",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -397,7 +539,7 @@
         }
       },
       {
-        "@id": "_:bn85709",
+        "@id": "_:bn85727",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -418,7 +560,7 @@
     ],
     "parentDocument": [
       {
-        "@id": "_:bn85710",
+        "@id": "_:bn85728",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20512",
@@ -438,7 +580,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn85711",
+        "@id": "_:bn85729",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21589",
@@ -447,7 +589,7 @@
         }
       },
       {
-        "@id": "_:bn85712",
+        "@id": "_:bn85730",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27513",
@@ -478,7 +620,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn85713",
+        "@id": "_:bn85731",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21384",
@@ -489,7 +631,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn85714",
+        "@id": "_:bn85732",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21569",
@@ -500,7 +642,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn85715",
+        "@id": "_:bn85733",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -509,7 +651,7 @@
         }
       },
       {
-        "@id": "_:bn85716",
+        "@id": "_:bn85734",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -530,7 +672,7 @@
     ],
     "parentDocument": [
       {
-        "@id": "_:bn85717",
+        "@id": "_:bn85735",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20512",
@@ -550,7 +692,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn85718",
+        "@id": "_:bn85736",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21589",
@@ -559,7 +701,7 @@
         }
       },
       {
-        "@id": "_:bn85719",
+        "@id": "_:bn85737",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27513",
@@ -590,7 +732,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn85720",
+        "@id": "_:bn85738",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21509",
@@ -601,7 +743,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn85721",
+        "@id": "_:bn85739",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21555",
@@ -612,7 +754,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn85722",
+        "@id": "_:bn85740",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -621,7 +763,7 @@
         }
       },
       {
-        "@id": "_:bn85723",
+        "@id": "_:bn85741",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -642,7 +784,7 @@
     ],
     "parentDocument": [
       {
-        "@id": "_:bn85724",
+        "@id": "_:bn85742",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20512",
