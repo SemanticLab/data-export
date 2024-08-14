@@ -9,151 +9,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn45047",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q22977",
-          "rdfs:label": "concert",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn45048",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q23058",
-          "rdfs:label": "band battle",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn45049",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20613",
-          "rdfs:label": "Women of Jazz",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn45050",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20655",
-          "rdfs:label": "The International Sweethearts of Rhythm Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1942-05-04T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 11,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn45051",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q23053",
-          "rdfs:label": "Uniontown (Fayette County, Pa.)",
-          "@type": "City"
-        },
-        "referenceUrl": [
-          "https://www.newspapers.com/article/77021487/the-evening-standard/"
-        ],
-        "citation": [
-          "Concert Announcement Clipping|The Evening Standard|01 May 1942|Page 2|Uniontown, Pennsylvania"
-        ]
-      },
-      {
-        "@id": "_:bn45052",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q23054",
-          "rdfs:label": "Shady Grove Park",
-          "@type": "Park"
-        },
-        "referenceUrl": [
-          "https://www.newspapers.com/article/77021487/the-evening-standard/"
-        ],
-        "citation": [
-          "Concert Announcement Clipping|The Evening Standard|01 May 1942|Page 2|Uniontown, Pennsylvania"
-        ]
-      }
-    ],
-    "contributor": [
-      {
-        "@id": "_:bn45053",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20614",
-          "rdfs:label": "International Sweethearts of Rhythm",
-          "@type": "MusicGroup"
-        },
-        "role": [
-          {
-            "@id": "semlab:Q20662",
-            "rdfs:label": "performing artist"
-          }
-        ],
-        "referenceUrl": [
-          "https://www.newspapers.com/clip/77021487/the-evening-standard/"
-        ],
-        "citation": [
-          "Concert Announcement Clipping|The Evening Standard|01 May 1942|Page 2|Uniontown, Pennsylvania"
-        ]
-      },
-      {
-        "@id": "_:bn45054",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q54",
-          "rdfs:label": "Fletcher Henderson",
-          "@type": "Person"
-        },
-        "role": [
-          {
-            "@id": "semlab:Q20662",
-            "rdfs:label": "performing artist"
-          }
-        ],
-        "referenceUrl": [
-          "https://www.newspapers.com/clip/77021487/the-evening-standard//"
-        ],
-        "citation": [
-          "Concert Announcement Clipping|The Evening Standard|01 May 1942|Page 2|Uniontown, Pennsylvania"
-        ]
-      }
-    ],
-    "price": [
-      {
-        "@value": ".90"
-      },
-      {
-        "@value": "1.10"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23062",
-    "rdfs:label": "Battle of Music, Fletcher Henderson's Orchestra versus the International Sweethearts of Rhythm at the Auditorium, April 16, 1942",
-    "@type": [
-      "Concert",
-      "BandBattle"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn45055",
         "@type": "RelEvent",
         "agentObj": {
@@ -195,7 +50,7 @@
     "date": [
       {
         "@value": {
-          "time": "+1942-04-16T00:00:00Z",
+          "time": "+1942-05-04T00:00:00Z",
           "timezone": 0,
           "before": 0,
           "after": 0,
@@ -207,6 +62,151 @@
     "location": [
       {
         "@id": "_:bn45059",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23053",
+          "rdfs:label": "Uniontown (Fayette County, Pa.)",
+          "@type": "City"
+        },
+        "referenceUrl": [
+          "https://www.newspapers.com/article/77021487/the-evening-standard/"
+        ],
+        "citation": [
+          "Concert Announcement Clipping|The Evening Standard|01 May 1942|Page 2|Uniontown, Pennsylvania"
+        ]
+      },
+      {
+        "@id": "_:bn45060",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23054",
+          "rdfs:label": "Shady Grove Park",
+          "@type": "Park"
+        },
+        "referenceUrl": [
+          "https://www.newspapers.com/article/77021487/the-evening-standard/"
+        ],
+        "citation": [
+          "Concert Announcement Clipping|The Evening Standard|01 May 1942|Page 2|Uniontown, Pennsylvania"
+        ]
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn45061",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20614",
+          "rdfs:label": "International Sweethearts of Rhythm",
+          "@type": "MusicGroup"
+        },
+        "role": [
+          {
+            "@id": "semlab:Q20662",
+            "rdfs:label": "performing artist"
+          }
+        ],
+        "referenceUrl": [
+          "https://www.newspapers.com/clip/77021487/the-evening-standard/"
+        ],
+        "citation": [
+          "Concert Announcement Clipping|The Evening Standard|01 May 1942|Page 2|Uniontown, Pennsylvania"
+        ]
+      },
+      {
+        "@id": "_:bn45062",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q54",
+          "rdfs:label": "Fletcher Henderson",
+          "@type": "Person"
+        },
+        "role": [
+          {
+            "@id": "semlab:Q20662",
+            "rdfs:label": "performing artist"
+          }
+        ],
+        "referenceUrl": [
+          "https://www.newspapers.com/clip/77021487/the-evening-standard//"
+        ],
+        "citation": [
+          "Concert Announcement Clipping|The Evening Standard|01 May 1942|Page 2|Uniontown, Pennsylvania"
+        ]
+      }
+    ],
+    "price": [
+      {
+        "@value": ".90"
+      },
+      {
+        "@value": "1.10"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q23062",
+    "rdfs:label": "Battle of Music, Fletcher Henderson's Orchestra versus the International Sweethearts of Rhythm at the Auditorium, April 16, 1942",
+    "@type": [
+      "Concert",
+      "BandBattle"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn45063",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22977",
+          "rdfs:label": "concert",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn45064",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23058",
+          "rdfs:label": "band battle",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn45065",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20613",
+          "rdfs:label": "Women of Jazz",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn45066",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20655",
+          "rdfs:label": "The International Sweethearts of Rhythm Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1942-04-16T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn45067",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23056",
@@ -221,7 +221,7 @@
         ]
       },
       {
-        "@id": "_:bn45060",
+        "@id": "_:bn45068",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23057",
@@ -238,7 +238,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn45061",
+        "@id": "_:bn45069",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -259,7 +259,7 @@
         ]
       },
       {
-        "@id": "_:bn45062",
+        "@id": "_:bn45070",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23059",
@@ -280,7 +280,7 @@
         ]
       },
       {
-        "@id": "_:bn45063",
+        "@id": "_:bn45071",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q54",
@@ -330,7 +330,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn45064",
+        "@id": "_:bn45072",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22977",
@@ -339,7 +339,7 @@
         }
       },
       {
-        "@id": "_:bn45065",
+        "@id": "_:bn45073",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23058",
@@ -350,7 +350,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn45066",
+        "@id": "_:bn45074",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -359,7 +359,7 @@
         }
       },
       {
-        "@id": "_:bn45067",
+        "@id": "_:bn45075",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -382,7 +382,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn45068",
+        "@id": "_:bn45076",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21516",
@@ -397,7 +397,7 @@
         ]
       },
       {
-        "@id": "_:bn45069",
+        "@id": "_:bn45077",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23298",
@@ -414,7 +414,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn45070",
+        "@id": "_:bn45078",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -435,7 +435,7 @@
         ]
       },
       {
-        "@id": "_:bn45071",
+        "@id": "_:bn45079",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23059",
@@ -456,7 +456,7 @@
         ]
       },
       {
-        "@id": "_:bn45072",
+        "@id": "_:bn45080",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q54",
