@@ -860,6 +860,322 @@
       ],
       "skos:note": "time an entity begins to exist or a statement starts being valid"
     },
+    "endTime": {
+      "@id": "http://base.semlab.io/entity/P121",
+      "skos:prefLabel": "end time",
+      "skos:altLabel": [
+        "end date"
+      ]
+    },
+    "natureOfRelation": {
+      "@id": "http://base.semlab.io/entity/P122",
+      "skos:prefLabel": "nature of relation",
+      "skos:note": "used to further indicate the nature of a kinship relationship between people, for example \"stepfamily\" or \"adoption\""
+    },
+    "location": {
+      "@id": "http://base.semlab.io/entity/P125",
+      "skos:prefLabel": "location",
+      "skos:altLabel": [
+        "venue",
+        "region",
+        "place held",
+        "neighborhood",
+        "moveable object location",
+        "location of item",
+        "located in",
+        "located",
+        "locality",
+        "locale",
+        "is in",
+        "in",
+        "event location",
+        "based in"
+      ],
+      "owl:equivalentClass": [
+        "https://www.wikidata.org/entity/P276"
+      ],
+      "skos:note": "location of the object, structure or event"
+    },
+    "performer": {
+      "@id": "http://base.semlab.io/entity/P126",
+      "skos:prefLabel": "performer",
+      "skos:altLabel": [
+        "sung by",
+        "recording by",
+        "recorded by",
+        "portrayed by",
+        "played by",
+        "performed by",
+        "musician",
+        "musical artist",
+        "dancer",
+        "artist",
+        "actress",
+        "actor"
+      ],
+      "owl:equivalentClass": [
+        "https://www.wikidata.org/entity/P175"
+      ],
+      "skos:note": "actor, musician, band or other performer associated with this role or musical work"
+    },
+    "workPerformed": {
+      "@id": "http://base.semlab.io/entity/P127",
+      "skos:prefLabel": "work performed",
+      "skos:note": "used to connect an event or performance to an artwork"
+    },
+    "performanceInstance": {
+      "@id": "http://base.semlab.io/entity/P128",
+      "skos:prefLabel": "performance instance",
+      "skos:note": "used to connect an artwork to a performance"
+    },
+    "equivalentSemlabDemographicTerm": {
+      "@id": "http://base.semlab.io/entity/P129",
+      "skos:prefLabel": "equivalent semlab demographic term"
+    },
+    "description": {
+      "@id": "http://base.semlab.io/entity/P130",
+      "skos:prefLabel": "description",
+      "skos:note": "description of the document as stated in the original source (e.g., E.A.T. Bibliography)"
+    },
+    "subEvent": {
+      "@id": "http://base.semlab.io/entity/P131",
+      "skos:prefLabel": "sub-event",
+      "skos:note": "An event that is part of this event. For example, a conference event includes many presentations, each of which is a sub-event of the conference."
+    },
+    "superEvent": {
+      "@id": "http://base.semlab.io/entity/P132",
+      "skos:prefLabel": "super-event",
+      "skos:note": "An event that this event is a part of. For example, a collection of individual music performances might each have a music festival as their super-event."
+    },
+    "libraryOfCongressAuthorityId": {
+      "@id": "http://base.semlab.io/entity/P133",
+      "skos:prefLabel": "Library of Congress authority ID",
+      "skos:altLabel": [
+        "Library of Congress Name Authority File"
+      ],
+      "owl:equivalentClass": [
+        "https://www.wikidata.org/entity/P244"
+      ],
+      "skos:note": "Library of Congress identifier for persons, organizations, events, places, titles, and subject headings"
+    },
+    "reportedDate": {
+      "@id": "http://base.semlab.io/entity/P134",
+      "skos:prefLabel": "reported date",
+      "skos:altLabel": [
+        "written date",
+        "stated date",
+        "found date",
+        "cataloged date"
+      ],
+      "skos:note": "date as reported in the original source"
+    },
+    "depicts": {
+      "@id": "http://base.semlab.io/entity/P135",
+      "skos:prefLabel": "depicts",
+      "skos:altLabel": [
+        "subject",
+        "represents",
+        "portrays",
+        "portrait of",
+        "painting of",
+        "landscape of",
+        "depiction of"
+      ],
+      "owl:equivalentClass": [
+        "https://www.wikidata.org/entity/P180"
+      ],
+      "skos:note": "depicted entity"
+    },
+    "creditLine": {
+      "@id": "http://base.semlab.io/entity/P136",
+      "skos:prefLabel": "credit line",
+      "skos:note": "credit for creation of document as stated in the original source"
+    },
+    "certainty": {
+      "@id": "http://base.semlab.io/entity/P137",
+      "skos:prefLabel": "certainty",
+      "skos:note": "qualifier expressing the level of confidence for the information given in a value"
+    },
+    "archivesCollection": {
+      "@id": "http://base.semlab.io/entity/P138",
+      "skos:prefLabel": "archives collection",
+      "skos:note": "institution holding the archives"
+    },
+    "sourcingCircumstances": {
+      "@id": "http://base.semlab.io/entity/P139",
+      "skos:prefLabel": "sourcing circumstances",
+      "skos:altLabel": [
+        "circ.",
+        "ca.",
+        "c.",
+        "c",
+        "~"
+      ],
+      "owl:equivalentClass": [
+        "https://www.wikidata.org/entity/P1480"
+      ],
+      "skos:note": "qualification of the truth or accuracy of a date: circa, near, presumably, etc."
+    },
+    "locationType": {
+      "@id": "http://base.semlab.io/entity/P140",
+      "skos:prefLabel": "location type",
+      "skos:note": "qualifier for use with the location property to add additional detail about the relationship between the item and the location property"
+    },
+    "objectNamedAs": {
+      "@id": "http://base.semlab.io/entity/P141",
+      "skos:prefLabel": "object named as",
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P1932"
+      ],
+      "skos:note": "used as qualifier to record the value of a statement\u2019s object as it appears in the original source"
+    },
+    "copyrightStatement": {
+      "@id": "http://base.semlab.io/entity/P142",
+      "skos:prefLabel": "copyright statement",
+      "skos:note": "a property to record copyright information about an item"
+    },
+    "price": {
+      "@id": "http://base.semlab.io/entity/P145",
+      "skos:prefLabel": "price",
+      "skos:altLabel": [
+        "cost"
+      ],
+      "skos:note": "price to purchase or do something"
+    },
+    "coordinateLocation": {
+      "@id": "http://base.semlab.io/entity/P146",
+      "skos:prefLabel": "coordinate location",
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P625",
+        "https://schema.org/geo"
+      ]
+    },
+    "citation": {
+      "@id": "http://base.semlab.io/entity/P147",
+      "skos:prefLabel": "citation",
+      "skos:note": "citation string used primarily for references"
+    },
+    "priceType": {
+      "@id": "http://base.semlab.io/entity/P149",
+      "skos:prefLabel": "price type",
+      "skos:note": "property used primarily as a qualifier to further describe the nature of a price"
+    },
+    "monetaryAmount": {
+      "@id": "http://base.semlab.io/entity/P150",
+      "skos:prefLabel": "monetary amount",
+      "skos:altLabel": [
+        "monetary value"
+      ],
+      "owl:equivalentClass": [
+        "https://schema.org/amount"
+      ],
+      "skos:note": "monetary value"
+    },
+    "audienceCount": {
+      "@id": "http://base.semlab.io/entity/P153",
+      "skos:prefLabel": "audience count",
+      "skos:altLabel": [
+        "attendance"
+      ],
+      "skos:note": "number of people who are at an event at a particular time"
+    },
+    "sponsoredBy": {
+      "@id": "http://base.semlab.io/entity/P155",
+      "skos:prefLabel": "sponsored by",
+      "skos:altLabel": [
+        "sponsored by",
+        "sponsor",
+        "has funder",
+        "has donor",
+        "funder",
+        "funded by",
+        "donor"
+      ],
+      "owl:equivalentClass": [
+        "https://www.wikidata.org/entity/P8324"
+      ],
+      "skos:note": "entity that gives money to a person, organization, or project for a specific purpose"
+    },
+    "sponsorOf": {
+      "@id": "http://base.semlab.io/entity/P157",
+      "skos:prefLabel": "sponsor of",
+      "skos:altLabel": [
+        "sponsorship recipient",
+        "sponsor of",
+        "funding recipient",
+        "donation recipient"
+      ],
+      "skos:note": "entity (person, organization, or project) that recieves money for a specific purpose"
+    },
+    "musicianLeaderOf": {
+      "@id": "http://base.semlab.io/entity/P160",
+      "skos:prefLabel": "musician leader of"
+    },
+    "teacherOf": {
+      "@id": "http://base.semlab.io/entity/P161",
+      "skos:prefLabel": "teacher of",
+      "skos:altLabel": [
+        "instructor of"
+      ]
+    },
+    "signedWith": {
+      "@id": "http://base.semlab.io/entity/P169",
+      "skos:prefLabel": "signed with"
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
+    },
+    "formatterUrl": {
+      "@id": "http://base.semlab.io/entity/P244",
+      "skos:prefLabel": "formatter URL",
+      "skos:note": "web page URL; URI template from which \"$1\" can be automatically replaced with the effective property value on items. If the site goes offline, set it to deprecated rank. If the formatter URL changes, add a new statement with preferred rank."
+    },
+    "partOfSeries": {
+      "@id": "http://base.semlab.io/entity/P246",
+      "skos:prefLabel": "part of series"
+    },
+    "bibliographicReferenceOf": {
+      "@id": "http://base.semlab.io/entity/P247",
+      "skos:prefLabel": "bibliographic reference of",
+      "owl:equivalentClass": [
+        "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#references"
+      ]
+    },
+    "hasBibliographicReference": {
+      "@id": "http://base.semlab.io/entity/P248",
+      "skos:prefLabel": "has bibliographic reference",
+      "owl:equivalentClass": [
+        "http://purl.org/dc/terms/isReferencedBy"
+      ]
+    },
+    "fullWorkAvailableAtUrl": {
+      "@id": "http://base.semlab.io/entity/P249",
+      "skos:prefLabel": "full work available at URL",
+      "owl:equivalentClass": [
+        "https://www.wikidata.org/wiki/Property:P953"
+      ],
+      "skos:note": "URL of a web page containing the full body of this item"
+    },
+    "separator": {
+      "@id": "http://base.semlab.io/entity/P239",
+      "skos:prefLabel": "separator",
+      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
+    },
+    "propertyScope": {
+      "@id": "http://base.semlab.io/entity/P240",
+      "skos:prefLabel": "property scope",
+      "skos:note": "specifies the scope parameter of a 'scope' constraint"
+    },
+    "mentionsViaAttribution": {
+      "@id": "http://base.semlab.io/entity/P241",
+      "skos:prefLabel": "mentions via attribution",
+      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
+    },
+    "E.A.T.DatascapePageIdentifier": {
+      "@id": "http://base.semlab.io/entity/P245",
+      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
+    },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
       "skos:prefLabel": "interviewed by"
@@ -1244,322 +1560,6 @@
       "skos:prefLabel": "constraint entity types",
       "skos:note": "entity types on which a constraint is checked. By default, is the same as the 'constraint scope' property, may alsobeset to a different one. recognized values (items representing entity types) are the same as for the 'allowed entity types' constraint"
     },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
-    },
-    "formatterUrl": {
-      "@id": "http://base.semlab.io/entity/P244",
-      "skos:prefLabel": "formatter URL",
-      "skos:note": "web page URL; URI template from which \"$1\" can be automatically replaced with the effective property value on items. If the site goes offline, set it to deprecated rank. If the formatter URL changes, add a new statement with preferred rank."
-    },
-    "partOfSeries": {
-      "@id": "http://base.semlab.io/entity/P246",
-      "skos:prefLabel": "part of series"
-    },
-    "bibliographicReferenceOf": {
-      "@id": "http://base.semlab.io/entity/P247",
-      "skos:prefLabel": "bibliographic reference of",
-      "owl:equivalentClass": [
-        "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#references"
-      ]
-    },
-    "hasBibliographicReference": {
-      "@id": "http://base.semlab.io/entity/P248",
-      "skos:prefLabel": "has bibliographic reference",
-      "owl:equivalentClass": [
-        "http://purl.org/dc/terms/isReferencedBy"
-      ]
-    },
-    "fullWorkAvailableAtUrl": {
-      "@id": "http://base.semlab.io/entity/P249",
-      "skos:prefLabel": "full work available at URL",
-      "owl:equivalentClass": [
-        "https://www.wikidata.org/wiki/Property:P953"
-      ],
-      "skos:note": "URL of a web page containing the full body of this item"
-    },
-    "separator": {
-      "@id": "http://base.semlab.io/entity/P239",
-      "skos:prefLabel": "separator",
-      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
-    },
-    "propertyScope": {
-      "@id": "http://base.semlab.io/entity/P240",
-      "skos:prefLabel": "property scope",
-      "skos:note": "specifies the scope parameter of a 'scope' constraint"
-    },
-    "mentionsViaAttribution": {
-      "@id": "http://base.semlab.io/entity/P241",
-      "skos:prefLabel": "mentions via attribution",
-      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
-    },
-    "E.A.T.DatascapePageIdentifier": {
-      "@id": "http://base.semlab.io/entity/P245",
-      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
-    },
-    "endTime": {
-      "@id": "http://base.semlab.io/entity/P121",
-      "skos:prefLabel": "end time",
-      "skos:altLabel": [
-        "end date"
-      ]
-    },
-    "natureOfRelation": {
-      "@id": "http://base.semlab.io/entity/P122",
-      "skos:prefLabel": "nature of relation",
-      "skos:note": "used to further indicate the nature of a kinship relationship between people, for example \"stepfamily\" or \"adoption\""
-    },
-    "location": {
-      "@id": "http://base.semlab.io/entity/P125",
-      "skos:prefLabel": "location",
-      "skos:altLabel": [
-        "venue",
-        "region",
-        "place held",
-        "neighborhood",
-        "moveable object location",
-        "location of item",
-        "located in",
-        "located",
-        "locality",
-        "locale",
-        "is in",
-        "in",
-        "event location",
-        "based in"
-      ],
-      "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P276"
-      ],
-      "skos:note": "location of the object, structure or event"
-    },
-    "performer": {
-      "@id": "http://base.semlab.io/entity/P126",
-      "skos:prefLabel": "performer",
-      "skos:altLabel": [
-        "sung by",
-        "recording by",
-        "recorded by",
-        "portrayed by",
-        "played by",
-        "performed by",
-        "musician",
-        "musical artist",
-        "dancer",
-        "artist",
-        "actress",
-        "actor"
-      ],
-      "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P175"
-      ],
-      "skos:note": "actor, musician, band or other performer associated with this role or musical work"
-    },
-    "workPerformed": {
-      "@id": "http://base.semlab.io/entity/P127",
-      "skos:prefLabel": "work performed",
-      "skos:note": "used to connect an event or performance to an artwork"
-    },
-    "performanceInstance": {
-      "@id": "http://base.semlab.io/entity/P128",
-      "skos:prefLabel": "performance instance",
-      "skos:note": "used to connect an artwork to a performance"
-    },
-    "equivalentSemlabDemographicTerm": {
-      "@id": "http://base.semlab.io/entity/P129",
-      "skos:prefLabel": "equivalent semlab demographic term"
-    },
-    "description": {
-      "@id": "http://base.semlab.io/entity/P130",
-      "skos:prefLabel": "description",
-      "skos:note": "description of the document as stated in the original source (e.g., E.A.T. Bibliography)"
-    },
-    "subEvent": {
-      "@id": "http://base.semlab.io/entity/P131",
-      "skos:prefLabel": "sub-event",
-      "skos:note": "An event that is part of this event. For example, a conference event includes many presentations, each of which is a sub-event of the conference."
-    },
-    "superEvent": {
-      "@id": "http://base.semlab.io/entity/P132",
-      "skos:prefLabel": "super-event",
-      "skos:note": "An event that this event is a part of. For example, a collection of individual music performances might each have a music festival as their super-event."
-    },
-    "libraryOfCongressAuthorityId": {
-      "@id": "http://base.semlab.io/entity/P133",
-      "skos:prefLabel": "Library of Congress authority ID",
-      "skos:altLabel": [
-        "Library of Congress Name Authority File"
-      ],
-      "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P244"
-      ],
-      "skos:note": "Library of Congress identifier for persons, organizations, events, places, titles, and subject headings"
-    },
-    "reportedDate": {
-      "@id": "http://base.semlab.io/entity/P134",
-      "skos:prefLabel": "reported date",
-      "skos:altLabel": [
-        "written date",
-        "stated date",
-        "found date",
-        "cataloged date"
-      ],
-      "skos:note": "date as reported in the original source"
-    },
-    "depicts": {
-      "@id": "http://base.semlab.io/entity/P135",
-      "skos:prefLabel": "depicts",
-      "skos:altLabel": [
-        "subject",
-        "represents",
-        "portrays",
-        "portrait of",
-        "painting of",
-        "landscape of",
-        "depiction of"
-      ],
-      "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P180"
-      ],
-      "skos:note": "depicted entity"
-    },
-    "creditLine": {
-      "@id": "http://base.semlab.io/entity/P136",
-      "skos:prefLabel": "credit line",
-      "skos:note": "credit for creation of document as stated in the original source"
-    },
-    "certainty": {
-      "@id": "http://base.semlab.io/entity/P137",
-      "skos:prefLabel": "certainty",
-      "skos:note": "qualifier expressing the level of confidence for the information given in a value"
-    },
-    "archivesCollection": {
-      "@id": "http://base.semlab.io/entity/P138",
-      "skos:prefLabel": "archives collection",
-      "skos:note": "institution holding the archives"
-    },
-    "sourcingCircumstances": {
-      "@id": "http://base.semlab.io/entity/P139",
-      "skos:prefLabel": "sourcing circumstances",
-      "skos:altLabel": [
-        "circ.",
-        "ca.",
-        "c.",
-        "c",
-        "~"
-      ],
-      "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P1480"
-      ],
-      "skos:note": "qualification of the truth or accuracy of a date: circa, near, presumably, etc."
-    },
-    "locationType": {
-      "@id": "http://base.semlab.io/entity/P140",
-      "skos:prefLabel": "location type",
-      "skos:note": "qualifier for use with the location property to add additional detail about the relationship between the item and the location property"
-    },
-    "objectNamedAs": {
-      "@id": "http://base.semlab.io/entity/P141",
-      "skos:prefLabel": "object named as",
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P1932"
-      ],
-      "skos:note": "used as qualifier to record the value of a statement\u2019s object as it appears in the original source"
-    },
-    "copyrightStatement": {
-      "@id": "http://base.semlab.io/entity/P142",
-      "skos:prefLabel": "copyright statement",
-      "skos:note": "a property to record copyright information about an item"
-    },
-    "price": {
-      "@id": "http://base.semlab.io/entity/P145",
-      "skos:prefLabel": "price",
-      "skos:altLabel": [
-        "cost"
-      ],
-      "skos:note": "price to purchase or do something"
-    },
-    "coordinateLocation": {
-      "@id": "http://base.semlab.io/entity/P146",
-      "skos:prefLabel": "coordinate location",
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P625",
-        "https://schema.org/geo"
-      ]
-    },
-    "citation": {
-      "@id": "http://base.semlab.io/entity/P147",
-      "skos:prefLabel": "citation",
-      "skos:note": "citation string used primarily for references"
-    },
-    "priceType": {
-      "@id": "http://base.semlab.io/entity/P149",
-      "skos:prefLabel": "price type",
-      "skos:note": "property used primarily as a qualifier to further describe the nature of a price"
-    },
-    "monetaryAmount": {
-      "@id": "http://base.semlab.io/entity/P150",
-      "skos:prefLabel": "monetary amount",
-      "skos:altLabel": [
-        "monetary value"
-      ],
-      "owl:equivalentClass": [
-        "https://schema.org/amount"
-      ],
-      "skos:note": "monetary value"
-    },
-    "audienceCount": {
-      "@id": "http://base.semlab.io/entity/P153",
-      "skos:prefLabel": "audience count",
-      "skos:altLabel": [
-        "attendance"
-      ],
-      "skos:note": "number of people who are at an event at a particular time"
-    },
-    "sponsoredBy": {
-      "@id": "http://base.semlab.io/entity/P155",
-      "skos:prefLabel": "sponsored by",
-      "skos:altLabel": [
-        "sponsored by",
-        "sponsor",
-        "has funder",
-        "has donor",
-        "funder",
-        "funded by",
-        "donor"
-      ],
-      "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P8324"
-      ],
-      "skos:note": "entity that gives money to a person, organization, or project for a specific purpose"
-    },
-    "sponsorOf": {
-      "@id": "http://base.semlab.io/entity/P157",
-      "skos:prefLabel": "sponsor of",
-      "skos:altLabel": [
-        "sponsorship recipient",
-        "sponsor of",
-        "funding recipient",
-        "donation recipient"
-      ],
-      "skos:note": "entity (person, organization, or project) that recieves money for a specific purpose"
-    },
-    "musicianLeaderOf": {
-      "@id": "http://base.semlab.io/entity/P160",
-      "skos:prefLabel": "musician leader of"
-    },
-    "teacherOf": {
-      "@id": "http://base.semlab.io/entity/P161",
-      "skos:prefLabel": "teacher of",
-      "skos:altLabel": [
-        "instructor of"
-      ]
-    },
-    "signedWith": {
-      "@id": "http://base.semlab.io/entity/P169",
-      "skos:prefLabel": "signed with"
-    },
     "Activity": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q19077",
@@ -1619,6 +1619,9 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
+        "material",
+        "media",
+        "medium",
         "art materials",
         "art media",
         "art medium",
@@ -1626,10 +1629,7 @@
         "artistic media",
         "artistic medium",
         "arts materials",
-        "crafting material",
-        "material",
-        "media",
-        "medium"
+        "crafting material"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
