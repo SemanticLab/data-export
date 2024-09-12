@@ -1126,25 +1126,6 @@
       ],
       "skos:note": "time an entity begins to exist or a statement starts being valid"
     },
-    "separator": {
-      "@id": "http://base.semlab.io/entity/P239",
-      "skos:prefLabel": "separator",
-      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
-    },
-    "propertyScope": {
-      "@id": "http://base.semlab.io/entity/P240",
-      "skos:prefLabel": "property scope",
-      "skos:note": "specifies the scope parameter of a 'scope' constraint"
-    },
-    "mentionsViaAttribution": {
-      "@id": "http://base.semlab.io/entity/P241",
-      "skos:prefLabel": "mentions via attribution",
-      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
-    },
-    "E.A.T.DatascapePageIdentifier": {
-      "@id": "http://base.semlab.io/entity/P245",
-      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
-    },
     "formatterUrl": {
       "@id": "http://base.semlab.io/entity/P244",
       "skos:prefLabel": "formatter URL",
@@ -1187,6 +1168,25 @@
     "interviewed": {
       "@id": "http://base.semlab.io/entity/P171",
       "skos:prefLabel": "interviewed"
+    },
+    "separator": {
+      "@id": "http://base.semlab.io/entity/P239",
+      "skos:prefLabel": "separator",
+      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
+    },
+    "propertyScope": {
+      "@id": "http://base.semlab.io/entity/P240",
+      "skos:prefLabel": "property scope",
+      "skos:note": "specifies the scope parameter of a 'scope' constraint"
+    },
+    "mentionsViaAttribution": {
+      "@id": "http://base.semlab.io/entity/P241",
+      "skos:prefLabel": "mentions via attribution",
+      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
+    },
+    "E.A.T.DatascapePageIdentifier": {
+      "@id": "http://base.semlab.io/entity/P245",
+      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
     },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
@@ -1364,11 +1364,6 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1390,7 +1385,12 @@
         "area of work",
         "area",
         "activity domain",
-        "academic subject"
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
