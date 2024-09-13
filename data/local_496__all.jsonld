@@ -470,8 +470,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q838",
-    "rdfs:label": "Lloyd Price",
+    "@id": "semlab:Q1312",
+    "rdfs:label": "Paul Barbarin",
     "@type": [
       "Person"
     ],
@@ -508,27 +508,27 @@
     ],
     "legacyUri": [
       {
-        "@value": "http://dbpedia.org/resource/Lloyd_Price"
+        "@value": "http://dbpedia.org/resource/Paul_Barbarin"
       }
     ],
     "thumbnail": [
       {
-        "@value": "https://linkedjazz.org/image/square/Lloyd_Price.png"
+        "@value": "https://linkedjazz.org/image/square/Paul_Barbarin.png"
       }
     ],
     "linkedJazzSlug": [
       {
-        "@value": "Lloyd_Price"
+        "@value": "Paul_Barbarin"
       }
     ],
     "wikidataQid": [
       {
-        "@value": "Q958578"
+        "@value": "Q80634"
       }
     ],
     "wikidataUri": [
       {
-        "@value": "http://www.wikidata.org/entity/Q958578"
+        "@value": "http://www.wikidata.org/entity/Q80634"
       }
     ],
     "demographica": [
@@ -10446,8 +10446,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q1312",
-    "rdfs:label": "Paul Barbarin",
+    "@id": "semlab:Q838",
+    "rdfs:label": "Lloyd Price",
     "@type": [
       "Person"
     ],
@@ -10484,27 +10484,27 @@
     ],
     "legacyUri": [
       {
-        "@value": "http://dbpedia.org/resource/Paul_Barbarin"
+        "@value": "http://dbpedia.org/resource/Lloyd_Price"
       }
     ],
     "thumbnail": [
       {
-        "@value": "https://linkedjazz.org/image/square/Paul_Barbarin.png"
+        "@value": "https://linkedjazz.org/image/square/Lloyd_Price.png"
       }
     ],
     "linkedJazzSlug": [
       {
-        "@value": "Paul_Barbarin"
+        "@value": "Lloyd_Price"
       }
     ],
     "wikidataQid": [
       {
-        "@value": "Q80634"
+        "@value": "Q958578"
       }
     ],
     "wikidataUri": [
       {
-        "@value": "http://www.wikidata.org/entity/Q80634"
+        "@value": "http://www.wikidata.org/entity/Q958578"
       }
     ],
     "demographica": [
@@ -34440,56 +34440,6 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27055",
-    "rdfs:label": "Tulane University",
-    "@type": [
-      "Institution",
-      "School"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn52008",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1804",
-          "rdfs:label": "institution",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn52009",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20618",
-          "rdfs:label": "school",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn52010",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20719",
-          "rdfs:label": "Local 496",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q1193547"
-      }
-    ],
-    "wikidataUri": [
-      {
-        "@value": "http://www.wikidata.org/entity/Q1193547"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q27047",
     "rdfs:label": "George Lewis",
     "@type": [
@@ -34497,7 +34447,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn52011",
+        "@id": "_:bn52008",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -34508,7 +34458,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn52012",
+        "@id": "_:bn52009",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -34519,13 +34469,70 @@
     ],
     "differentFrom": [
       {
-        "@id": "_:bn52013",
+        "@id": "_:bn52010",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q863",
           "rdfs:label": "George Lewis",
           "@type": "Person"
         }
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn52011",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27053",
+          "rdfs:label": "American Federation of Musicians. Local 496",
+          "@type": "LocalUnion"
+        },
+        "statedIn": [
+          {
+            "@id": "semlab:Q27054",
+            "rdfs:label": "Local 496 Membership Directory"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27048",
+    "rdfs:label": "Joe \"Cornbread\" Thomas",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn52012",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn52013",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20719",
+          "rdfs:label": "Local 496",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q15440666"
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q15440666"
       }
     ],
     "memberOf": [
@@ -34548,8 +34555,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27048",
-    "rdfs:label": "Joe \"Cornbread\" Thomas",
+    "@id": "semlab:Q27049",
+    "rdfs:label": "Willie \"Bill\" Jones",
     "@type": [
       "Person"
     ],
@@ -34575,16 +34582,6 @@
         }
       }
     ],
-    "wikidataQid": [
-      {
-        "@value": "Q15440666"
-      }
-    ],
-    "wikidataUri": [
-      {
-        "@value": "http://www.wikidata.org/entity/Q15440666"
-      }
-    ],
     "memberOf": [
       {
         "@id": "_:bn52017",
@@ -34605,8 +34602,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27049",
-    "rdfs:label": "Willie \"Bill\" Jones",
+    "@id": "semlab:Q27050",
+    "rdfs:label": "Joe Harris",
     "@type": [
       "Person"
     ],
@@ -34632,56 +34629,9 @@
         }
       }
     ],
-    "memberOf": [
-      {
-        "@id": "_:bn52020",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27053",
-          "rdfs:label": "American Federation of Musicians. Local 496",
-          "@type": "LocalUnion"
-        },
-        "statedIn": [
-          {
-            "@id": "semlab:Q27054",
-            "rdfs:label": "Local 496 Membership Directory"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27050",
-    "rdfs:label": "Joe Harris",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn52021",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn52022",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20719",
-          "rdfs:label": "Local 496",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
     "differentFrom": [
       {
-        "@id": "_:bn52023",
+        "@id": "_:bn52020",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q388",
@@ -34692,7 +34642,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn52024",
+        "@id": "_:bn52021",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27053",
@@ -34717,7 +34667,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn52025",
+        "@id": "_:bn52022",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -34728,7 +34678,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn52026",
+        "@id": "_:bn52023",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -34739,7 +34689,7 @@
     ],
     "differentFrom": [
       {
-        "@id": "_:bn52027",
+        "@id": "_:bn52024",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1538",
@@ -34750,7 +34700,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn52028",
+        "@id": "_:bn52025",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27053",
@@ -34775,7 +34725,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn52029",
+        "@id": "_:bn52026",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -34786,7 +34736,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn52030",
+        "@id": "_:bn52027",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -34797,7 +34747,7 @@
     ],
     "differentFrom": [
       {
-        "@id": "_:bn52031",
+        "@id": "_:bn52028",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1586",
@@ -34808,7 +34758,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn52032",
+        "@id": "_:bn52029",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27053",
@@ -34821,6 +34771,56 @@
             "rdfs:label": "Local 496 Membership Directory"
           }
         ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27055",
+    "rdfs:label": "Tulane University",
+    "@type": [
+      "Institution",
+      "School"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn52030",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1804",
+          "rdfs:label": "institution",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn52031",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20618",
+          "rdfs:label": "school",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn52032",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20719",
+          "rdfs:label": "Local 496",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1193547"
+      }
+    ],
+    "wikidataUri": [
+      {
+        "@value": "http://www.wikidata.org/entity/Q1193547"
       }
     ]
   },
