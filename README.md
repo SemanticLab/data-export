@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2024-09-14
+Generated: 2024-09-15
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -50,7 +50,7 @@ Generated: 2024-09-14
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [the_international_sweethearts_of_rhythm_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__all.jsonld) | 350  |
+| All    | [the_international_sweethearts_of_rhythm_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__all.jsonld) | 351  |
 | Person    | [the_international_sweethearts_of_rhythm_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__person.jsonld) | 105  |
 | Music Group    | [the_international_sweethearts_of_rhythm_project__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__music_group.jsonld) | 16  |
 | Group    | [the_international_sweethearts_of_rhythm_project__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__group.jsonld) | 1  |
@@ -76,11 +76,12 @@ Generated: 2024-09-14
 | Sports Stadium    | [the_international_sweethearts_of_rhythm_project__sports_stadium.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__sports_stadium.jsonld) | 2  |
 | Radio Station    | [the_international_sweethearts_of_rhythm_project__radio_station.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__radio_station.jsonld) | 1  |
 | Hotel    | [the_international_sweethearts_of_rhythm_project__hotel.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__hotel.jsonld) | 1  |
+| Reference Property    | [the_international_sweethearts_of_rhythm_project__reference_property.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/the_international_sweethearts_of_rhythm_project__reference_property.jsonld) | 1  |
 ## Women of Jazz
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [women_of_jazz__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__all.jsonld) | 430  |
+| All    | [women_of_jazz__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__all.jsonld) | 431  |
 | Person    | [women_of_jazz__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__person.jsonld) | 193  |
 | Music Group    | [women_of_jazz__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__music_group.jsonld) | 18  |
 | Linking Lost Jazz "Shrine"    | [women_of_jazz__linking_lost_jazz_"shrine".jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__linking_lost_jazz_"shrine".jsonld) | 1  |
@@ -100,6 +101,7 @@ Generated: 2024-09-14
 | Sports Stadium    | [women_of_jazz__sports_stadium.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__sports_stadium.jsonld) | 2  |
 | Radio Station    | [women_of_jazz__radio_station.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__radio_station.jsonld) | 1  |
 | Hotel    | [women_of_jazz__hotel.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__hotel.jsonld) | 1  |
+| Reference Property    | [women_of_jazz__reference_property.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/women_of_jazz__reference_property.jsonld) | 1  |
 ## Local 496
 
 | Entity | Link                       | Count |

@@ -507,7 +507,7 @@
       ],
       "skos:note": "self-description or participation in gender identity groups men, women, and/or gender non-conforming (includes non-binary identities and gender performance and presentation of historical subjects that diverged from their contextual gender norms)."
     },
-    "residentOf": {
+    "livedIn": {
       "@id": "http://base.semlab.io/entity/P69",
       "skos:prefLabel": "lived in",
       "skos:altLabel": [
@@ -1126,10 +1126,6 @@
       ],
       "skos:note": "time an entity begins to exist or a statement starts being valid"
     },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
-    },
     "formatterUrl": {
       "@id": "http://base.semlab.io/entity/P244",
       "skos:prefLabel": "formatter URL",
@@ -1192,6 +1188,10 @@
     "E.A.T.DatascapePageIdentifier": {
       "@id": "http://base.semlab.io/entity/P245",
       "skos:prefLabel": "E.A.T. Datascape Page Identifier"
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
     },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
@@ -1369,11 +1369,6 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1395,7 +1390,12 @@
         "area of work",
         "area",
         "activity domain",
-        "academic subject"
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
@@ -1639,8 +1639,6 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
-        "arts materials",
-        "crafting material",
         "material",
         "media",
         "medium",
@@ -1649,7 +1647,9 @@
         "art medium",
         "artistic material",
         "artistic media",
-        "artistic medium"
+        "artistic medium",
+        "arts materials",
+        "crafting material"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -1699,8 +1699,8 @@
       "@id": "http://base.semlab.io/entity/Q19073",
       "skos:prefLabel": "artwork",
       "skos:altLabel": [
-        "art piece",
-        "work of art"
+        "work of art",
+        "art piece"
       ],
       "skos:note": "an artistic creation"
     },
@@ -1966,12 +1966,12 @@
       "@id": "http://base.semlab.io/entity/Q19098",
       "skos:prefLabel": "film",
       "skos:altLabel": [
-        "cinematic work",
-        "films",
         "flick",
         "motion picture",
         "movie",
-        "film (work)"
+        "film (work)",
+        "cinematic work",
+        "films"
       ],
       "skos:note": "sequence of images that give the impression of movement; an artistic work created using the medium of film"
     },
@@ -2223,12 +2223,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
-        "career",
-        "craft",
         "employment",
         "job",
         "profession",
-        "work"
+        "work",
+        "career",
+        "craft"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
@@ -2364,10 +2364,10 @@
       "skos:prefLabel": "publisher",
       "skos:note": "organization or person responsible for publishing a document"
     },
-    "Qualifier": {
+    "QualifierProperty": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q22531",
-      "skos:prefLabel": "qualifier",
+      "skos:prefLabel": "qualifier property",
       "skos:note": "property intended for use as a qualifier; can be used as a part of a statement that says something about the specific statement, often in a descriptive way"
     },
     "Questionnaire": {
@@ -2401,6 +2401,11 @@
       "owl:equivalentClass": [
         "http://purl.org/ontology/mo/Label"
       ]
+    },
+    "ReferenceProperty": {
+      "@type": "rdfs:Class",
+      "@id": "http://base.semlab.io/entity/Q28612",
+      "skos:prefLabel": "reference property"
     },
     "RelationshipGenerationType": {
       "@type": "rdfs:Class",

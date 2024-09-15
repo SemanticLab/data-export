@@ -384,7 +384,7 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "residentOf": {
+    "livedIn": {
       "@id": "semlab:P69",
       "@type": "@id",
       "@container": "@set"
@@ -729,11 +729,6 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "interviewed": {
-      "@id": "semlab:P171",
-      "@type": "@id",
-      "@container": "@set"
-    },
     "formatterUrl": {
       "@id": "semlab:P244",
       "@type": "@id",
@@ -786,6 +781,11 @@
     },
     "E.A.T.DatascapePageIdentifier": {
       "@id": "semlab:P245",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "interviewed": {
+      "@id": "semlab:P171",
       "@type": "@id",
       "@container": "@set"
     },
@@ -1479,7 +1479,7 @@
       "@id": "semlab:Q21676",
       "@type": "@id"
     },
-    "Qualifier": {
+    "QualifierProperty": {
       "@id": "semlab:Q22531",
       "@type": "@id"
     },
@@ -1501,6 +1501,10 @@
     },
     "RecordLabel": {
       "@id": "semlab:Q19051",
+      "@type": "@id"
+    },
+    "ReferenceProperty": {
+      "@id": "semlab:Q28612",
       "@type": "@id"
     },
     "RelationshipGenerationType": {
