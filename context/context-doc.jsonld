@@ -1126,29 +1126,6 @@
       ],
       "skos:note": "time an entity begins to exist or a statement starts being valid"
     },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
-    },
-    "separator": {
-      "@id": "http://base.semlab.io/entity/P239",
-      "skos:prefLabel": "separator",
-      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
-    },
-    "propertyScope": {
-      "@id": "http://base.semlab.io/entity/P240",
-      "skos:prefLabel": "property scope",
-      "skos:note": "specifies the scope parameter of a 'scope' constraint"
-    },
-    "mentionsViaAttribution": {
-      "@id": "http://base.semlab.io/entity/P241",
-      "skos:prefLabel": "mentions via attribution",
-      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
-    },
-    "E.A.T.DatascapePageIdentifier": {
-      "@id": "http://base.semlab.io/entity/P245",
-      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
-    },
     "formatterUrl": {
       "@id": "http://base.semlab.io/entity/P244",
       "skos:prefLabel": "formatter URL",
@@ -1192,6 +1169,29 @@
       "@id": "http://base.semlab.io/entity/P251",
       "skos:prefLabel": "property example",
       "skos:note": "example of property usage; statement value is item that uses property, qualifier property is property, qualifier value is value of item statement using property (see https://base.semlab.io/entity/P70#P251 for example usage)"
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
+    },
+    "separator": {
+      "@id": "http://base.semlab.io/entity/P239",
+      "skos:prefLabel": "separator",
+      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
+    },
+    "propertyScope": {
+      "@id": "http://base.semlab.io/entity/P240",
+      "skos:prefLabel": "property scope",
+      "skos:note": "specifies the scope parameter of a 'scope' constraint"
+    },
+    "mentionsViaAttribution": {
+      "@id": "http://base.semlab.io/entity/P241",
+      "skos:prefLabel": "mentions via attribution",
+      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
+    },
+    "E.A.T.DatascapePageIdentifier": {
+      "@id": "http://base.semlab.io/entity/P245",
+      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
     },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
@@ -1369,11 +1369,6 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1395,7 +1390,12 @@
         "area of work",
         "area",
         "activity domain",
-        "academic subject"
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
@@ -1639,17 +1639,17 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
-        "crafting material",
-        "material",
-        "media",
-        "medium",
         "art materials",
         "art media",
         "art medium",
         "artistic material",
         "artistic media",
         "artistic medium",
-        "arts materials"
+        "arts materials",
+        "crafting material",
+        "material",
+        "media",
+        "medium"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -1811,12 +1811,12 @@
       "@id": "http://base.semlab.io/entity/Q19058",
       "skos:prefLabel": "city",
       "skos:altLabel": [
-        "army installation",
         "hamlet",
         "military camp",
         "settlement",
         "town",
-        "village"
+        "village",
+        "army installation"
       ],
       "owl:equivalentClass": [
         "https://schema.org/City"
@@ -2223,12 +2223,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
-        "job",
-        "profession",
-        "work",
         "career",
         "craft",
-        "employment"
+        "employment",
+        "job",
+        "profession",
+        "work"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
