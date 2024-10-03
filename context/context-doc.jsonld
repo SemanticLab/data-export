@@ -1126,10 +1126,6 @@
       ],
       "skos:note": "time an entity begins to exist or a statement starts being valid"
     },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
-    },
     "formatterUrl": {
       "@id": "http://base.semlab.io/entity/P244",
       "skos:prefLabel": "formatter URL",
@@ -1173,6 +1169,10 @@
       "@id": "http://base.semlab.io/entity/P251",
       "skos:prefLabel": "property example",
       "skos:note": "example of property usage; statement value is item that uses property, qualifier property is property, qualifier value is value of item statement using property (see https://base.semlab.io/entity/P70#P251 for example usage)"
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
     },
     "separator": {
       "@id": "http://base.semlab.io/entity/P239",
@@ -1811,12 +1811,12 @@
       "@id": "http://base.semlab.io/entity/Q19058",
       "skos:prefLabel": "city",
       "skos:altLabel": [
-        "army installation",
         "hamlet",
         "military camp",
         "settlement",
         "town",
-        "village"
+        "village",
+        "army installation"
       ],
       "owl:equivalentClass": [
         "https://schema.org/City"
