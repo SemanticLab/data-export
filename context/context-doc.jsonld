@@ -853,6 +853,393 @@
       "skos:prefLabel": "is relation",
       "skos:note": "definition of object's relationship to subject"
     },
+    "interviewedBy": {
+      "@id": "http://base.semlab.io/entity/P170",
+      "skos:prefLabel": "interviewed by"
+    },
+    "photographed": {
+      "@id": "http://base.semlab.io/entity/P173",
+      "skos:prefLabel": "photographed"
+    },
+    "precededBy": {
+      "@id": "http://base.semlab.io/entity/P175",
+      "skos:prefLabel": "preceded by",
+      "owl:equivalentClass": [
+        "https://www.wikidata.org/entity/P155"
+      ]
+    },
+    "succeededBy": {
+      "@id": "http://base.semlab.io/entity/P176",
+      "skos:prefLabel": "succeeded by",
+      "owl:equivalentClass": [
+        "https://www.wikidata.org/entity/P156"
+      ]
+    },
+    "differentFrom": {
+      "@id": "http://base.semlab.io/entity/P177",
+      "skos:prefLabel": "different from",
+      "owl:equivalentClass": [
+        "http://www.w3.org/2002/07/owl#differentFrom"
+      ]
+    },
+    "shownAt": {
+      "@id": "http://base.semlab.io/entity/P178",
+      "skos:prefLabel": "shown at",
+      "skos:altLabel": [
+        "shown",
+        "salon",
+        "exhibition history",
+        "exhibited at",
+        "displayed at",
+        "displayed"
+      ],
+      "skos:note": "exhibitions, events, or places where an item is or was displayed"
+    },
+    "employee": {
+      "@id": "http://base.semlab.io/entity/P179",
+      "skos:prefLabel": "employee",
+      "owl:equivalentClass": [
+        "https://schema.org/employee"
+      ],
+      "skos:note": "a person who works or worked for another  person or organization"
+    },
+    "inverseProperty": {
+      "@id": "http://base.semlab.io/entity/P180",
+      "skos:prefLabel": "inverse property",
+      "owl:equivalentClass": [
+        "http://www.w3.org/2002/07/owl#inverseOf"
+      ]
+    },
+    "operatingArea": {
+      "@id": "http://base.semlab.io/entity/P181",
+      "skos:prefLabel": "operating area",
+      "skos:altLabel": [
+        "based in"
+      ],
+      "owl:equivalentClass": [
+        "https://www.wikidata.org/entity/P2541"
+      ],
+      "skos:note": "geographic area or jurisdiction an organisation or industry operates in, serves, or has responsibility for"
+    },
+    "similarProperty": {
+      "@id": "http://base.semlab.io/entity/P183",
+      "skos:prefLabel": "similar property"
+    },
+    "uses": {
+      "@id": "http://base.semlab.io/entity/P185",
+      "skos:prefLabel": "uses",
+      "skos:altLabel": [
+        "uses technology",
+        "made from material"
+      ],
+      "skos:note": "item or concept used by the subject or in the operation"
+    },
+    "duration": {
+      "@id": "http://base.semlab.io/entity/P186",
+      "skos:prefLabel": "duration",
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P2047"
+      ],
+      "skos:note": "length of time of an event, performance, or process"
+    },
+    "budget": {
+      "@id": "http://base.semlab.io/entity/P188",
+      "skos:prefLabel": "budget",
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P2769"
+      ],
+      "skos:note": "assigned or proposed monetary amount for a project"
+    },
+    "format": {
+      "@id": "http://base.semlab.io/entity/P191",
+      "skos:prefLabel": "format",
+      "skos:note": "description of the physical form of media item or subject"
+    },
+    "color": {
+      "@id": "http://base.semlab.io/entity/P192",
+      "skos:prefLabel": "color",
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P462"
+      ],
+      "skos:note": "color of resource"
+    },
+    "usedIn": {
+      "@id": "http://base.semlab.io/entity/P194",
+      "skos:prefLabel": "used in",
+      "skos:altLabel": [
+        "technology used in",
+        "has use"
+      ],
+      "skos:note": "main use of the subject (includes current and former usage)"
+    },
+    "hasParts": {
+      "@id": "http://base.semlab.io/entity/P195",
+      "skos:prefLabel": "has part(s)",
+      "skos:altLabel": [
+        "includes",
+        "has parts"
+      ],
+      "owl:equivalentClass": [
+        "https://schema.org/hasPart",
+        "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#hasPart",
+        "https://www.wikidata.org/entity/P527"
+      ],
+      "skos:note": "part of this subject"
+    },
+    "curator": {
+      "@id": "http://base.semlab.io/entity/P197",
+      "skos:prefLabel": "curator",
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P1640"
+      ],
+      "skos:note": "content specialist responsible for this collection or exhibition"
+    },
+    "organizer": {
+      "@id": "http://base.semlab.io/entity/P198",
+      "skos:prefLabel": "organizer",
+      "skos:note": "person, organization, or venue that organizes or coordinates an event or work"
+    },
+    "superclassOf": {
+      "@id": "http://base.semlab.io/entity/P199",
+      "skos:prefLabel": "superclass of",
+      "skos:altLabel": [
+        "has subclass"
+      ],
+      "skos:note": "inverse property for P55: subclass of"
+    },
+    "fileUrl": {
+      "@id": "http://base.semlab.io/entity/P200",
+      "skos:prefLabel": "file URL",
+      "skos:altLabel": [
+        "asset URL"
+      ],
+      "skos:note": "source URL for the visual representation of an asset"
+    },
+    "skos:closeMatch": {
+      "@id": "http://base.semlab.io/entity/P201",
+      "skos:prefLabel": "skos:closeMatch",
+      "skos:altLabel": [
+        "close match"
+      ],
+      "owl:equivalentClass": [
+        "https://www.w3.org/2009/08/skos-reference/skos.html#closeMatch"
+      ]
+    },
+    "fieldOfWork": {
+      "@id": "http://base.semlab.io/entity/P202",
+      "skos:prefLabel": "field of work",
+      "skos:altLabel": [
+        "trade",
+        "studies",
+        "specialty",
+        "specialism",
+        "scientific discipline",
+        "scientific area",
+        "responsible for",
+        "research on",
+        "research fields",
+        "research field",
+        "FOW",
+        "fields",
+        "field of study",
+        "field of research",
+        "domain of activity",
+        "discipline",
+        "conduct research about",
+        "be researcher in",
+        "area of work",
+        "area",
+        "activity domain",
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
+      ],
+      "owl:equivalentClass": [
+        "https://www.wikidata.org/entity/P101"
+      ],
+      "skos:note": "specialization of a person or organization"
+    },
+    "verificationBatch": {
+      "@id": "http://base.semlab.io/entity/P203",
+      "skos:prefLabel": "verification batch",
+      "skos:note": "property used to indicate statements to be verified by a living source"
+    },
+    "exportAliasName": {
+      "@id": "http://base.semlab.io/entity/P204",
+      "skos:prefLabel": "export alias name",
+      "skos:note": "The name used in the context.jsonld file for this property"
+    },
+    "createdFor": {
+      "@id": "http://base.semlab.io/entity/P205",
+      "skos:prefLabel": "created for",
+      "skos:altLabel": [
+        "first created for"
+      ]
+    },
+    "ieeeTerm": {
+      "@id": "http://base.semlab.io/entity/P206",
+      "skos:prefLabel": "IEEE Term"
+    },
+    "vocabulary": {
+      "@id": "http://base.semlab.io/entity/P207",
+      "skos:prefLabel": "vocabulary",
+      "skos:altLabel": [
+        "thesauri",
+        "subject heading list",
+        "controlled vocabulary"
+      ],
+      "skos:note": "standardized and organized arrangements of words and phrases and provide a consistent way to describe data"
+    },
+    "superpropertyOf": {
+      "@id": "http://base.semlab.io/entity/P208",
+      "skos:prefLabel": "superproperty of"
+    },
+    "performerOf": {
+      "@id": "http://base.semlab.io/entity/P210",
+      "skos:prefLabel": "performer of",
+      "skos:note": "an artwork a person or group performs; inverse of performer (P126)"
+    },
+    "dinedAt": {
+      "@id": "http://base.semlab.io/entity/P211",
+      "skos:prefLabel": "dined at",
+      "skos:note": "place where subject dined"
+    },
+    "dinedWith": {
+      "@id": "http://base.semlab.io/entity/P212",
+      "skos:prefLabel": "dined with",
+      "skos:note": "person or group subject dined with"
+    },
+    "prepared": {
+      "@id": "http://base.semlab.io/entity/P213",
+      "skos:prefLabel": "prepared",
+      "skos:note": "work the subject prepared"
+    },
+    "presenterOf": {
+      "@id": "http://base.semlab.io/entity/P214",
+      "skos:prefLabel": "presenter of",
+      "skos:note": "work the subject presented"
+    },
+    "presentedAt": {
+      "@id": "http://base.semlab.io/entity/P215",
+      "skos:prefLabel": "presented at",
+      "skos:note": "place subject presented a work"
+    },
+    "hostedBy": {
+      "@id": "http://base.semlab.io/entity/P216",
+      "skos:prefLabel": "hosted by",
+      "skos:note": "person who hosted the subject"
+    },
+    "listenedTo": {
+      "@id": "http://base.semlab.io/entity/P217",
+      "skos:prefLabel": "listened to",
+      "skos:note": "work the subject listened to"
+    },
+    "read": {
+      "@id": "http://base.semlab.io/entity/P218",
+      "skos:prefLabel": "read",
+      "skos:note": "work the subject read"
+    },
+    "viewed": {
+      "@id": "http://base.semlab.io/entity/P219",
+      "skos:prefLabel": "viewed",
+      "skos:note": "visual work or collection the subject viewed"
+    },
+    "attendedPerformanceOfWork": {
+      "@id": "http://base.semlab.io/entity/P220",
+      "skos:prefLabel": "attended performance of work",
+      "skos:note": "performance work the subject attended or watched"
+    },
+    "propertyConstraint": {
+      "@id": "http://base.semlab.io/entity/P221",
+      "skos:prefLabel": "property constraint",
+      "skos:note": "constraint system - property"
+    },
+    "exceptionToConstraint": {
+      "@id": "http://base.semlab.io/entity/P222",
+      "skos:prefLabel": "exception to constraint"
+    },
+    "constraintStatus": {
+      "@id": "http://base.semlab.io/entity/P223",
+      "skos:prefLabel": "constraint status"
+    },
+    "WikimediaLanguageCode": {
+      "@id": "http://base.semlab.io/entity/P224",
+      "skos:prefLabel": "Wikimedia language code",
+      "skos:note": "specifies the language code of a 'label in language' constraint"
+    },
+    "class": {
+      "@id": "http://base.semlab.io/entity/P225",
+      "skos:prefLabel": "class",
+      "skos:note": "specifies the class/type of a 'type' or 'value type' constraint"
+    },
+    "relation": {
+      "@id": "http://base.semlab.io/entity/P226",
+      "skos:prefLabel": "relation",
+      "skos:note": "specifies the relation ('instance of' or 'subclass of') of a 'type' or 'value type' constraint"
+    },
+    "property": {
+      "@id": "http://base.semlab.io/entity/P227",
+      "skos:prefLabel": "property",
+      "skos:note": "specifies the property parameter of an 'inverse', 'item requires claim', 'value requires claim', 'difference within range', 'mandatory qualifiers', or 'qualifiers' constraint"
+    },
+    "qualifierOfPropertyConstraint": {
+      "@id": "http://base.semlab.io/entity/P228",
+      "skos:prefLabel": "qualifier of property constraint",
+      "skos:note": "specifies the item parameter of an 'item requires claim', 'value requires claim', or 'one of' constraint"
+    },
+    "minimumQuantity": {
+      "@id": "http://base.semlab.io/entity/P229",
+      "skos:prefLabel": "minimum quantity",
+      "skos:note": "specifies the minimum quantity parameter of a 'range' or 'diff within range' constraint"
+    },
+    "maximumQuantity": {
+      "@id": "http://base.semlab.io/entity/P230",
+      "skos:prefLabel": "maximum quantity",
+      "skos:note": "specifies the maximum quantity parameter of a 'range' or 'diff within range' constraint"
+    },
+    "minimumDate": {
+      "@id": "http://base.semlab.io/entity/P231",
+      "skos:prefLabel": "minimum date",
+      "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
+    },
+    "maximumDate": {
+      "@id": "http://base.semlab.io/entity/P232",
+      "skos:prefLabel": "maximum date",
+      "skos:note": "specifies the maximum date parameter of a 'range' or 'diff within range' constraint"
+    },
+    "namespace": {
+      "@id": "http://base.semlab.io/entity/P233",
+      "skos:prefLabel": "namespace",
+      "skos:note": "specifies the namespace parameter of a 'commons link' constraint"
+    },
+    "formatAsARegularExpression": {
+      "@id": "http://base.semlab.io/entity/P234",
+      "skos:prefLabel": "format as a regular expression",
+      "skos:note": "specifies the format parameter of a 'format' constraint"
+    },
+    "syntaxClarification": {
+      "@id": "http://base.semlab.io/entity/P235",
+      "skos:prefLabel": "syntax clarification",
+      "skos:note": "specifies human-readable explanations of a 'format' constraint. The syntax clarification is shown as part of the 'format' constraint violation message, clarifying the regular expression"
+    },
+    "constraintClarification": {
+      "@id": "http://base.semlab.io/entity/P236",
+      "skos:prefLabel": "constraint clarification",
+      "skos:note": "specifies human-readable explanations of a constraint (of any constraint type). The constraint clarification is shown below the main constraint violation message"
+    },
+    "constraintScope": {
+      "@id": "http://base.semlab.io/entity/P237",
+      "skos:prefLabel": "constraint scope",
+      "skos:note": "specifies the context(s) in which a constraint is checked"
+    },
+    "constraintEntityTypes": {
+      "@id": "http://base.semlab.io/entity/P238",
+      "skos:prefLabel": "constraint entity types",
+      "skos:note": "entity types on which a constraint is checked. By default, is the same as the 'constraint scope' property, may alsobeset to a different one. recognized values (items representing entity types) are the same as for the 'allowed entity types' constraint"
+    },
     "endTime": {
       "@id": "http://base.semlab.io/entity/P121",
       "skos:prefLabel": "end time",
@@ -1126,29 +1513,6 @@
       ],
       "skos:note": "time an entity begins to exist or a statement starts being valid"
     },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
-    },
-    "separator": {
-      "@id": "http://base.semlab.io/entity/P239",
-      "skos:prefLabel": "separator",
-      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
-    },
-    "propertyScope": {
-      "@id": "http://base.semlab.io/entity/P240",
-      "skos:prefLabel": "property scope",
-      "skos:note": "specifies the scope parameter of a 'scope' constraint"
-    },
-    "mentionsViaAttribution": {
-      "@id": "http://base.semlab.io/entity/P241",
-      "skos:prefLabel": "mentions via attribution",
-      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
-    },
-    "E.A.T.DatascapePageIdentifier": {
-      "@id": "http://base.semlab.io/entity/P245",
-      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
-    },
     "formatterUrl": {
       "@id": "http://base.semlab.io/entity/P244",
       "skos:prefLabel": "formatter URL",
@@ -1163,7 +1527,8 @@
       "skos:prefLabel": "bibliographic reference of",
       "owl:equivalentClass": [
         "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#references"
-      ]
+      ],
+      "skos:note": "entry which represents and describes a specific resource (e.g. E.A.T. Bibliography)"
     },
     "hasBibliographicReference": {
       "@id": "http://base.semlab.io/entity/P248",
@@ -1193,392 +1558,28 @@
       "skos:prefLabel": "property example",
       "skos:note": "example of property usage; statement value is item that uses property, qualifier property is property, qualifier value is value of item statement using property (see https://base.semlab.io/entity/P70#P251 for example usage)"
     },
-    "interviewedBy": {
-      "@id": "http://base.semlab.io/entity/P170",
-      "skos:prefLabel": "interviewed by"
+    "separator": {
+      "@id": "http://base.semlab.io/entity/P239",
+      "skos:prefLabel": "separator",
+      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
     },
-    "photographed": {
-      "@id": "http://base.semlab.io/entity/P173",
-      "skos:prefLabel": "photographed"
+    "propertyScope": {
+      "@id": "http://base.semlab.io/entity/P240",
+      "skos:prefLabel": "property scope",
+      "skos:note": "specifies the scope parameter of a 'scope' constraint"
     },
-    "precededBy": {
-      "@id": "http://base.semlab.io/entity/P175",
-      "skos:prefLabel": "preceded by",
-      "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P155"
-      ]
+    "mentionsViaAttribution": {
+      "@id": "http://base.semlab.io/entity/P241",
+      "skos:prefLabel": "mentions via attribution",
+      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
     },
-    "succeededBy": {
-      "@id": "http://base.semlab.io/entity/P176",
-      "skos:prefLabel": "succeeded by",
-      "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P156"
-      ]
+    "E.A.T.DatascapePageIdentifier": {
+      "@id": "http://base.semlab.io/entity/P245",
+      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
     },
-    "differentFrom": {
-      "@id": "http://base.semlab.io/entity/P177",
-      "skos:prefLabel": "different from",
-      "owl:equivalentClass": [
-        "http://www.w3.org/2002/07/owl#differentFrom"
-      ]
-    },
-    "shownAt": {
-      "@id": "http://base.semlab.io/entity/P178",
-      "skos:prefLabel": "shown at",
-      "skos:altLabel": [
-        "shown",
-        "salon",
-        "exhibition history",
-        "exhibited at",
-        "displayed at",
-        "displayed"
-      ],
-      "skos:note": "exhibitions, events, or places where an item is or was displayed"
-    },
-    "employee": {
-      "@id": "http://base.semlab.io/entity/P179",
-      "skos:prefLabel": "employee",
-      "owl:equivalentClass": [
-        "https://schema.org/employee"
-      ],
-      "skos:note": "a person who works or worked for another  person or organization"
-    },
-    "inverseProperty": {
-      "@id": "http://base.semlab.io/entity/P180",
-      "skos:prefLabel": "inverse property",
-      "owl:equivalentClass": [
-        "http://www.w3.org/2002/07/owl#inverseOf"
-      ]
-    },
-    "operatingArea": {
-      "@id": "http://base.semlab.io/entity/P181",
-      "skos:prefLabel": "operating area",
-      "skos:altLabel": [
-        "based in"
-      ],
-      "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P2541"
-      ],
-      "skos:note": "geographic area or jurisdiction an organisation or industry operates in, serves, or has responsibility for"
-    },
-    "similarProperty": {
-      "@id": "http://base.semlab.io/entity/P183",
-      "skos:prefLabel": "similar property"
-    },
-    "uses": {
-      "@id": "http://base.semlab.io/entity/P185",
-      "skos:prefLabel": "uses",
-      "skos:altLabel": [
-        "uses technology",
-        "made from material"
-      ],
-      "skos:note": "item or concept used by the subject or in the operation"
-    },
-    "duration": {
-      "@id": "http://base.semlab.io/entity/P186",
-      "skos:prefLabel": "duration",
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P2047"
-      ],
-      "skos:note": "length of time of an event, performance, or process"
-    },
-    "budget": {
-      "@id": "http://base.semlab.io/entity/P188",
-      "skos:prefLabel": "budget",
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P2769"
-      ],
-      "skos:note": "assigned or proposed monetary amount for a project"
-    },
-    "format": {
-      "@id": "http://base.semlab.io/entity/P191",
-      "skos:prefLabel": "format",
-      "skos:note": "description of the physical form of media item or subject"
-    },
-    "color": {
-      "@id": "http://base.semlab.io/entity/P192",
-      "skos:prefLabel": "color",
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P462"
-      ],
-      "skos:note": "color of resource"
-    },
-    "usedIn": {
-      "@id": "http://base.semlab.io/entity/P194",
-      "skos:prefLabel": "used in",
-      "skos:altLabel": [
-        "technology used in",
-        "has use"
-      ],
-      "skos:note": "main use of the subject (includes current and former usage)"
-    },
-    "hasParts": {
-      "@id": "http://base.semlab.io/entity/P195",
-      "skos:prefLabel": "has part(s)",
-      "skos:altLabel": [
-        "includes",
-        "has parts"
-      ],
-      "owl:equivalentClass": [
-        "https://schema.org/hasPart",
-        "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#hasPart",
-        "https://www.wikidata.org/entity/P527"
-      ],
-      "skos:note": "part of this subject"
-    },
-    "curator": {
-      "@id": "http://base.semlab.io/entity/P197",
-      "skos:prefLabel": "curator",
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P1640"
-      ],
-      "skos:note": "content specialist responsible for this collection or exhibition"
-    },
-    "organizer": {
-      "@id": "http://base.semlab.io/entity/P198",
-      "skos:prefLabel": "organizer",
-      "skos:note": "person, organization, or venue that organizes or coordinates an event or work"
-    },
-    "superclassOf": {
-      "@id": "http://base.semlab.io/entity/P199",
-      "skos:prefLabel": "superclass of",
-      "skos:altLabel": [
-        "has subclass"
-      ],
-      "skos:note": "inverse property for P55: subclass of"
-    },
-    "fileUrl": {
-      "@id": "http://base.semlab.io/entity/P200",
-      "skos:prefLabel": "file URL",
-      "skos:altLabel": [
-        "asset URL"
-      ],
-      "skos:note": "source URL for the visual representation of an asset"
-    },
-    "skos:closeMatch": {
-      "@id": "http://base.semlab.io/entity/P201",
-      "skos:prefLabel": "skos:closeMatch",
-      "skos:altLabel": [
-        "close match"
-      ],
-      "owl:equivalentClass": [
-        "https://www.w3.org/2009/08/skos-reference/skos.html#closeMatch"
-      ]
-    },
-    "fieldOfWork": {
-      "@id": "http://base.semlab.io/entity/P202",
-      "skos:prefLabel": "field of work",
-      "skos:altLabel": [
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
-        "trade",
-        "studies",
-        "specialty",
-        "specialism",
-        "scientific discipline",
-        "scientific area",
-        "responsible for",
-        "research on",
-        "research fields",
-        "research field",
-        "FOW",
-        "fields",
-        "field of study",
-        "field of research",
-        "domain of activity",
-        "discipline",
-        "conduct research about",
-        "be researcher in",
-        "area of work",
-        "area",
-        "activity domain",
-        "academic subject"
-      ],
-      "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P101"
-      ],
-      "skos:note": "specialization of a person or organization"
-    },
-    "verificationBatch": {
-      "@id": "http://base.semlab.io/entity/P203",
-      "skos:prefLabel": "verification batch",
-      "skos:note": "property used to indicate statements to be verified by a living source"
-    },
-    "exportAliasName": {
-      "@id": "http://base.semlab.io/entity/P204",
-      "skos:prefLabel": "export alias name",
-      "skos:note": "The name used in the context.jsonld file for this property"
-    },
-    "createdFor": {
-      "@id": "http://base.semlab.io/entity/P205",
-      "skos:prefLabel": "created for",
-      "skos:altLabel": [
-        "first created for"
-      ]
-    },
-    "ieeeTerm": {
-      "@id": "http://base.semlab.io/entity/P206",
-      "skos:prefLabel": "IEEE Term"
-    },
-    "vocabulary": {
-      "@id": "http://base.semlab.io/entity/P207",
-      "skos:prefLabel": "vocabulary",
-      "skos:altLabel": [
-        "thesauri",
-        "subject heading list",
-        "controlled vocabulary"
-      ],
-      "skos:note": "standardized and organized arrangements of words and phrases and provide a consistent way to describe data"
-    },
-    "superpropertyOf": {
-      "@id": "http://base.semlab.io/entity/P208",
-      "skos:prefLabel": "superproperty of"
-    },
-    "performerOf": {
-      "@id": "http://base.semlab.io/entity/P210",
-      "skos:prefLabel": "performer of",
-      "skos:note": "an artwork a person or group performs; inverse of performer (P126)"
-    },
-    "dinedAt": {
-      "@id": "http://base.semlab.io/entity/P211",
-      "skos:prefLabel": "dined at",
-      "skos:note": "place where subject dined"
-    },
-    "dinedWith": {
-      "@id": "http://base.semlab.io/entity/P212",
-      "skos:prefLabel": "dined with",
-      "skos:note": "person or group subject dined with"
-    },
-    "prepared": {
-      "@id": "http://base.semlab.io/entity/P213",
-      "skos:prefLabel": "prepared",
-      "skos:note": "work the subject prepared"
-    },
-    "presenterOf": {
-      "@id": "http://base.semlab.io/entity/P214",
-      "skos:prefLabel": "presenter of",
-      "skos:note": "work the subject presented"
-    },
-    "presentedAt": {
-      "@id": "http://base.semlab.io/entity/P215",
-      "skos:prefLabel": "presented at",
-      "skos:note": "place subject presented a work"
-    },
-    "hostedBy": {
-      "@id": "http://base.semlab.io/entity/P216",
-      "skos:prefLabel": "hosted by",
-      "skos:note": "person who hosted the subject"
-    },
-    "listenedTo": {
-      "@id": "http://base.semlab.io/entity/P217",
-      "skos:prefLabel": "listened to",
-      "skos:note": "work the subject listened to"
-    },
-    "read": {
-      "@id": "http://base.semlab.io/entity/P218",
-      "skos:prefLabel": "read",
-      "skos:note": "work the subject read"
-    },
-    "viewed": {
-      "@id": "http://base.semlab.io/entity/P219",
-      "skos:prefLabel": "viewed",
-      "skos:note": "visual work or collection the subject viewed"
-    },
-    "attendedPerformanceOfWork": {
-      "@id": "http://base.semlab.io/entity/P220",
-      "skos:prefLabel": "attended performance of work",
-      "skos:note": "performance work the subject attended or watched"
-    },
-    "propertyConstraint": {
-      "@id": "http://base.semlab.io/entity/P221",
-      "skos:prefLabel": "property constraint",
-      "skos:note": "constraint system - property"
-    },
-    "exceptionToConstraint": {
-      "@id": "http://base.semlab.io/entity/P222",
-      "skos:prefLabel": "exception to constraint"
-    },
-    "constraintStatus": {
-      "@id": "http://base.semlab.io/entity/P223",
-      "skos:prefLabel": "constraint status"
-    },
-    "WikimediaLanguageCode": {
-      "@id": "http://base.semlab.io/entity/P224",
-      "skos:prefLabel": "Wikimedia language code",
-      "skos:note": "specifies the language code of a 'label in language' constraint"
-    },
-    "class": {
-      "@id": "http://base.semlab.io/entity/P225",
-      "skos:prefLabel": "class",
-      "skos:note": "specifies the class/type of a 'type' or 'value type' constraint"
-    },
-    "relation": {
-      "@id": "http://base.semlab.io/entity/P226",
-      "skos:prefLabel": "relation",
-      "skos:note": "specifies the relation ('instance of' or 'subclass of') of a 'type' or 'value type' constraint"
-    },
-    "property": {
-      "@id": "http://base.semlab.io/entity/P227",
-      "skos:prefLabel": "property",
-      "skos:note": "specifies the property parameter of an 'inverse', 'item requires claim', 'value requires claim', 'difference within range', 'mandatory qualifiers', or 'qualifiers' constraint"
-    },
-    "qualifierOfPropertyConstraint": {
-      "@id": "http://base.semlab.io/entity/P228",
-      "skos:prefLabel": "qualifier of property constraint",
-      "skos:note": "specifies the item parameter of an 'item requires claim', 'value requires claim', or 'one of' constraint"
-    },
-    "minimumQuantity": {
-      "@id": "http://base.semlab.io/entity/P229",
-      "skos:prefLabel": "minimum quantity",
-      "skos:note": "specifies the minimum quantity parameter of a 'range' or 'diff within range' constraint"
-    },
-    "maximumQuantity": {
-      "@id": "http://base.semlab.io/entity/P230",
-      "skos:prefLabel": "maximum quantity",
-      "skos:note": "specifies the maximum quantity parameter of a 'range' or 'diff within range' constraint"
-    },
-    "minimumDate": {
-      "@id": "http://base.semlab.io/entity/P231",
-      "skos:prefLabel": "minimum date",
-      "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
-    },
-    "maximumDate": {
-      "@id": "http://base.semlab.io/entity/P232",
-      "skos:prefLabel": "maximum date",
-      "skos:note": "specifies the maximum date parameter of a 'range' or 'diff within range' constraint"
-    },
-    "namespace": {
-      "@id": "http://base.semlab.io/entity/P233",
-      "skos:prefLabel": "namespace",
-      "skos:note": "specifies the namespace parameter of a 'commons link' constraint"
-    },
-    "formatAsARegularExpression": {
-      "@id": "http://base.semlab.io/entity/P234",
-      "skos:prefLabel": "format as a regular expression",
-      "skos:note": "specifies the format parameter of a 'format' constraint"
-    },
-    "syntaxClarification": {
-      "@id": "http://base.semlab.io/entity/P235",
-      "skos:prefLabel": "syntax clarification",
-      "skos:note": "specifies human-readable explanations of a 'format' constraint. The syntax clarification is shown as part of the 'format' constraint violation message, clarifying the regular expression"
-    },
-    "constraintClarification": {
-      "@id": "http://base.semlab.io/entity/P236",
-      "skos:prefLabel": "constraint clarification",
-      "skos:note": "specifies human-readable explanations of a constraint (of any constraint type). The constraint clarification is shown below the main constraint violation message"
-    },
-    "constraintScope": {
-      "@id": "http://base.semlab.io/entity/P237",
-      "skos:prefLabel": "constraint scope",
-      "skos:note": "specifies the context(s) in which a constraint is checked"
-    },
-    "constraintEntityTypes": {
-      "@id": "http://base.semlab.io/entity/P238",
-      "skos:prefLabel": "constraint entity types",
-      "skos:note": "entity types on which a constraint is checked. By default, is the same as the 'constraint scope' property, may alsobeset to a different one. recognized values (items representing entity types) are the same as for the 'allowed entity types' constraint"
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
     },
     "Activity": {
       "@type": "rdfs:Class",
@@ -1933,8 +1934,8 @@
       "@id": "http://base.semlab.io/entity/Q19071",
       "skos:prefLabel": "event",
       "skos:altLabel": [
-        "competition",
-        "events"
+        "events",
+        "competition"
       ],
       "owl:equivalentClass": [
         "https://schema.org/Event"
@@ -2223,12 +2224,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
-        "job",
-        "profession",
-        "work",
         "career",
         "craft",
-        "employment"
+        "employment",
+        "job",
+        "profession",
+        "work"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
