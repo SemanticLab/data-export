@@ -2,13 +2,13 @@
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q20513",
-    "rdfs:label": "The Machine as Seen at the End of the Mechanical Age",
+    "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (catalogue)",
     "@type": [
       "Catalogue"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn77564",
+        "@id": "_:bn77384",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21589",
@@ -31,12 +31,12 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn77565",
+        "@id": "_:bn77385",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19471",
           "rdfs:label": "Museum of Modern Art",
-          "@type": "Museum"
+          "@type": "Publisher"
         },
         "statedIn": [
           {
@@ -56,7 +56,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn77566",
+        "@id": "_:bn77386",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -73,7 +73,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn77567",
+        "@id": "_:bn77387",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -82,7 +82,7 @@
         }
       },
       {
-        "@id": "_:bn77568",
+        "@id": "_:bn77388",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -93,18 +93,18 @@
     ],
     "parentDocument": [
       {
-        "@id": "_:bn77569",
+        "@id": "_:bn77389",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20512",
           "rdfs:label": "E.A.T. Bibliography, August 12, 1965-January 18, 1980",
-          "@type": "BibliographicReference"
+          "@type": "Bibliography"
         }
       }
     ],
     "author": [
       {
-        "@id": "_:bn77570",
+        "@id": "_:bn77390",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20514",
@@ -115,11 +115,11 @@
     ],
     "hasBibliographicReference": [
       {
-        "@id": "_:bn77571",
+        "@id": "_:bn77391",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21941",
-          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age catalogue",
+          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age",
           "@type": "BibliographicReference"
         }
       }
@@ -139,7 +139,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn77572",
+        "@id": "_:bn77392",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21589",
@@ -178,7 +178,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn77573",
+        "@id": "_:bn77393",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -187,7 +187,7 @@
         }
       },
       {
-        "@id": "_:bn77574",
+        "@id": "_:bn77394",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -208,11 +208,11 @@
     ],
     "hasBibliographicReference": [
       {
-        "@id": "_:bn77575",
+        "@id": "_:bn77395",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21651",
-          "rdfs:label": "9 Evenings: Theatre and Engineering catalogue",
+          "rdfs:label": "9 Evenings: Theatre and Engineering (catalogue citation)",
           "@type": "BibliographicReference"
         }
       }
@@ -220,552 +220,6 @@
     "fullWorkAvailableAtUrl": [
       {
         "@value": "https://archive.org/details/ETC2885/"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21941",
-    "rdfs:label": "The Machine as Seen at the End of the Mechanical Age catalogue",
-    "@type": [
-      "Catalogue",
-      "BibliographicReference"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn77576",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21589",
-          "rdfs:label": "catalogue",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn77577",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27513",
-          "rdfs:label": "bibliographic reference",
-          "@type": "Class"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "The Machine as Seen at the End of the Mechanical Age",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1968-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn77578",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19471",
-          "rdfs:label": "Museum of Modern Art",
-          "@type": "Museum"
-        }
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn77579",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19486",
-          "rdfs:label": "New York (N.Y.)",
-          "@type": "City"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn77580",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn77581",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "localId": [
-      {
-        "@value": "EB163"
-      }
-    ],
-    "parentDocument": [
-      {
-        "@id": "_:bn77582",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20512",
-          "rdfs:label": "E.A.T. Bibliography, August 12, 1965-January 18, 1980",
-          "@type": "BibliographicReference"
-        }
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn77583",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20514",
-          "rdfs:label": "K. G. Pontus Hulten",
-          "@type": "Person"
-        }
-      }
-    ],
-    "bibliographicReferenceOf": [
-      {
-        "@id": "_:bn77584",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20513",
-          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age",
-          "@type": "Catalogue"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21942",
-    "rdfs:label": "Literarische Messe Katalog 1968",
-    "@type": [
-      "Catalogue",
-      "BibliographicReference"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn77585",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21589",
-          "rdfs:label": "catalogue",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn77586",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27513",
-          "rdfs:label": "bibliographic reference",
-          "@type": "Class"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "Literarische Messe Katalog 1968",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1968-05-10T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 11,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn77587",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21528",
-          "rdfs:label": "Frankfurt am Main (Germany)",
-          "@type": "City"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn77588",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn77589",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "localId": [
-      {
-        "@value": "EB164"
-      }
-    ],
-    "parentDocument": [
-      {
-        "@id": "_:bn77590",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20512",
-          "rdfs:label": "E.A.T. Bibliography, August 12, 1965-January 18, 1980",
-          "@type": "BibliographicReference"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21943",
-    "rdfs:label": "Program 135th Meeting",
-    "@type": [
-      "Catalogue",
-      "BibliographicReference"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn77591",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21589",
-          "rdfs:label": "catalogue",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn77592",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27513",
-          "rdfs:label": "bibliographic reference",
-          "@type": "Class"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "Program 135th Meeting",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1968-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn77593",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21502",
-          "rdfs:label": "American Association for the Advancement of Science",
-          "@type": "Publisher"
-        }
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn77594",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21572",
-          "rdfs:label": "Washington (D.C.)",
-          "@type": "City"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn77595",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn77596",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "localId": [
-      {
-        "@value": "EB166"
-      }
-    ],
-    "parentDocument": [
-      {
-        "@id": "_:bn77597",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20512",
-          "rdfs:label": "E.A.T. Bibliography, August 12, 1965-January 18, 1980",
-          "@type": "BibliographicReference"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21944",
-    "rdfs:label": "Electromagica",
-    "@type": [
-      "Catalogue",
-      "BibliographicReference"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn77598",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21589",
-          "rdfs:label": "catalogue",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn77599",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27513",
-          "rdfs:label": "bibliographic reference",
-          "@type": "Class"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "Electromagica",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1969-05-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 10,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn77600",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21384",
-          "rdfs:label": "semlab:Q21384",
-          "@type": "semlab:semlab:NoType"
-        }
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn77601",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21569",
-          "rdfs:label": "Tokyo (Japan)",
-          "@type": "City"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn77602",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn77603",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "localId": [
-      {
-        "@value": "EB167"
-      }
-    ],
-    "parentDocument": [
-      {
-        "@id": "_:bn77604",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20512",
-          "rdfs:label": "E.A.T. Bibliography, August 12, 1965-January 18, 1980",
-          "@type": "BibliographicReference"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21945",
-    "rdfs:label": "Sixieme Biennale de Paris",
-    "@type": [
-      "Catalogue",
-      "BibliographicReference"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn77605",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21589",
-          "rdfs:label": "catalogue",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn77606",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27513",
-          "rdfs:label": "bibliographic reference",
-          "@type": "Class"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "Sixieme Biennale de Paris",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1969-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn77607",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21509",
-          "rdfs:label": "Musee d'Art Moderne de la Ville de Paris",
-          "@type": "Museum"
-        }
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn77608",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21555",
-          "rdfs:label": "Paris (France)",
-          "@type": "City"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn77609",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn77610",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "localId": [
-      {
-        "@value": "EB168"
-      }
-    ],
-    "parentDocument": [
-      {
-        "@id": "_:bn77611",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20512",
-          "rdfs:label": "E.A.T. Bibliography, August 12, 1965-January 18, 1980",
-          "@type": "BibliographicReference"
-        }
       }
     ]
   }
