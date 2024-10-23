@@ -1126,6 +1126,10 @@
       ],
       "skos:note": "time an entity begins to exist or a statement starts being valid"
     },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
+    },
     "formatterUrl": {
       "@id": "http://base.semlab.io/entity/P244",
       "skos:prefLabel": "formatter URL",
@@ -1206,10 +1210,6 @@
     "E.A.T.DatascapePageIdentifier": {
       "@id": "http://base.semlab.io/entity/P245",
       "skos:prefLabel": "E.A.T. Datascape Page Identifier"
-    },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
     },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
@@ -1657,6 +1657,7 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
+        "art materials",
         "art media",
         "art medium",
         "artistic material",
@@ -1666,8 +1667,7 @@
         "crafting material",
         "material",
         "media",
-        "medium",
-        "art materials"
+        "medium"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -1708,8 +1708,8 @@
       "@id": "http://base.semlab.io/entity/Q19073",
       "skos:prefLabel": "artwork",
       "skos:altLabel": [
-        "work of art",
-        "art piece"
+        "art piece",
+        "work of art"
       ],
       "skos:note": "an artistic creation"
     },
@@ -1825,12 +1825,12 @@
       "@id": "http://base.semlab.io/entity/Q19058",
       "skos:prefLabel": "city",
       "skos:altLabel": [
+        "army installation",
         "hamlet",
         "military camp",
         "settlement",
         "town",
-        "village",
-        "army installation"
+        "village"
       ],
       "owl:equivalentClass": [
         "https://schema.org/City"
@@ -2246,12 +2246,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
-        "career",
-        "craft",
-        "employment",
         "job",
         "profession",
-        "work"
+        "work",
+        "career",
+        "craft",
+        "employment"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
@@ -2543,15 +2543,15 @@
       "@id": "http://base.semlab.io/entity/Q23736",
       "skos:prefLabel": "unrealized project",
       "skos:altLabel": [
-        "abandoned project",
-        "canceled",
-        "canceled project",
-        "cancelled",
         "cancelled project",
         "project canceled",
         "project cancelled",
         "unfinished",
-        "unfinished project"
+        "unfinished project",
+        "abandoned project",
+        "canceled",
+        "canceled project",
+        "cancelled"
       ],
       "skos:note": "project that eventually was not realized"
     },
