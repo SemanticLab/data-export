@@ -1130,6 +1130,25 @@
       "@id": "http://base.semlab.io/entity/P171",
       "skos:prefLabel": "interviewed"
     },
+    "separator": {
+      "@id": "http://base.semlab.io/entity/P239",
+      "skos:prefLabel": "separator",
+      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
+    },
+    "propertyScope": {
+      "@id": "http://base.semlab.io/entity/P240",
+      "skos:prefLabel": "property scope",
+      "skos:note": "specifies the scope parameter of a 'scope' constraint"
+    },
+    "mentionsViaAttribution": {
+      "@id": "http://base.semlab.io/entity/P241",
+      "skos:prefLabel": "mentions via attribution",
+      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
+    },
+    "E.A.T.DatascapePageIdentifier": {
+      "@id": "http://base.semlab.io/entity/P245",
+      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
+    },
     "formatterUrl": {
       "@id": "http://base.semlab.io/entity/P244",
       "skos:prefLabel": "formatter URL",
@@ -1191,25 +1210,6 @@
       "@id": "http://base.semlab.io/entity/P253",
       "skos:prefLabel": "described or depicted at URL",
       "skos:note": "external source where subject is described or depicted"
-    },
-    "separator": {
-      "@id": "http://base.semlab.io/entity/P239",
-      "skos:prefLabel": "separator",
-      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
-    },
-    "propertyScope": {
-      "@id": "http://base.semlab.io/entity/P240",
-      "skos:prefLabel": "property scope",
-      "skos:note": "specifies the scope parameter of a 'scope' constraint"
-    },
-    "mentionsViaAttribution": {
-      "@id": "http://base.semlab.io/entity/P241",
-      "skos:prefLabel": "mentions via attribution",
-      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
-    },
-    "E.A.T.DatascapePageIdentifier": {
-      "@id": "http://base.semlab.io/entity/P245",
-      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
     },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
@@ -1387,11 +1387,6 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1413,7 +1408,12 @@
         "area of work",
         "area",
         "activity domain",
-        "academic subject"
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
@@ -2021,12 +2021,12 @@
       "@id": "http://base.semlab.io/entity/Q23179",
       "skos:prefLabel": "genre",
       "skos:altLabel": [
-        "artistic genre",
-        "form/genre",
         "genre/form",
         "stylistic genre",
         "technical genre",
-        "thematic genre"
+        "thematic genre",
+        "artistic genre",
+        "form/genre"
       ],
       "skos:note": "category of creative works based on stylistic, thematic or technical criteria"
     },
@@ -2246,12 +2246,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
-        "job",
-        "profession",
-        "work",
         "career",
         "craft",
-        "employment"
+        "employment",
+        "job",
+        "profession",
+        "work"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
@@ -2543,7 +2543,6 @@
       "@id": "http://base.semlab.io/entity/Q23736",
       "skos:prefLabel": "unrealized project",
       "skos:altLabel": [
-        "cancelled project",
         "project canceled",
         "project cancelled",
         "unfinished",
@@ -2551,7 +2550,8 @@
         "abandoned project",
         "canceled",
         "canceled project",
-        "cancelled"
+        "cancelled",
+        "cancelled project"
       ],
       "skos:note": "project that eventually was not realized"
     },
