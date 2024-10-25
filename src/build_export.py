@@ -14,7 +14,7 @@ lookup = lookup_abbr
 
 exclude_instance_ofs = ['Q20664','Q22531','Q23571','Q23572','Q2013','Q19063', 'Q21151','Q26025']
 
-projects = ['Q21217','Q18807','Q20655','Q20613','Q20719','Q19104','Q20517','Q24831']
+projects = ['Q21217','Q18807','Q20655','Q20613','Q20719','Q19104','Q20517','Q24831', 'Q28603']
 
 
 	# 'Q21217': 'Linked Jazz Project',
@@ -25,6 +25,7 @@ projects = ['Q21217','Q18807','Q20655','Q20613','Q20719','Q19104','Q20517','Q248
 	# 'Q18807' : 'Linking Lost Jazz Shrines',
 	# 'Q20719': 'Local 496'
 	# 'Q24831': 'Asian American Arts Centre Exhibition History'
+ 	# 'Q28603' : 'E.A.T. Technical Services Program Edge-Notched Cards'
 
 
 
