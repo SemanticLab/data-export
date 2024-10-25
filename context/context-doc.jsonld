@@ -522,6 +522,9 @@
     "rrfaIdentifier": {
       "@id": "http://base.semlab.io/entity/P73",
       "skos:prefLabel": "RRFA identifier",
+      "skos:altLabel": [
+        "Robert Rauschenberg Foundation Archives identifier"
+      ],
       "skos:note": "Unique identifier for a digitized archival document or photograph from the Robert Rauschenberg Foundation Archives"
     },
     "creator": {
@@ -1126,29 +1129,6 @@
       ],
       "skos:note": "time an entity begins to exist or a statement starts being valid"
     },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
-    },
-    "separator": {
-      "@id": "http://base.semlab.io/entity/P239",
-      "skos:prefLabel": "separator",
-      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
-    },
-    "propertyScope": {
-      "@id": "http://base.semlab.io/entity/P240",
-      "skos:prefLabel": "property scope",
-      "skos:note": "specifies the scope parameter of a 'scope' constraint"
-    },
-    "mentionsViaAttribution": {
-      "@id": "http://base.semlab.io/entity/P241",
-      "skos:prefLabel": "mentions via attribution",
-      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
-    },
-    "E.A.T.DatascapePageIdentifier": {
-      "@id": "http://base.semlab.io/entity/P245",
-      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
-    },
     "formatterUrl": {
       "@id": "http://base.semlab.io/entity/P244",
       "skos:prefLabel": "formatter URL",
@@ -1180,7 +1160,7 @@
       ],
       "skos:note": "a related resource that references, cites, or otherwise points to the described resource"
     },
-    "fullWorkAvailableAtUrl": {
+    "fullWorkAvailableAtURL": {
       "@id": "http://base.semlab.io/entity/P249",
       "skos:prefLabel": "full work available at URL",
       "owl:equivalentClass": [
@@ -1210,6 +1190,29 @@
       "@id": "http://base.semlab.io/entity/P253",
       "skos:prefLabel": "described or depicted at URL",
       "skos:note": "external source where subject is described or depicted"
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
+    },
+    "separator": {
+      "@id": "http://base.semlab.io/entity/P239",
+      "skos:prefLabel": "separator",
+      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
+    },
+    "propertyScope": {
+      "@id": "http://base.semlab.io/entity/P240",
+      "skos:prefLabel": "property scope",
+      "skos:note": "specifies the scope parameter of a 'scope' constraint"
+    },
+    "mentionsViaAttribution": {
+      "@id": "http://base.semlab.io/entity/P241",
+      "skos:prefLabel": "mentions via attribution",
+      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
+    },
+    "E.A.T.DatascapePageIdentifier": {
+      "@id": "http://base.semlab.io/entity/P245",
+      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
     },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
@@ -1387,6 +1390,11 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1408,12 +1416,7 @@
         "area of work",
         "area",
         "activity domain",
-        "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity"
+        "academic subject"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
@@ -1657,8 +1660,6 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
-        "art materials",
-        "art media",
         "art medium",
         "artistic material",
         "artistic media",
@@ -1667,7 +1668,9 @@
         "crafting material",
         "material",
         "media",
-        "medium"
+        "medium",
+        "art materials",
+        "art media"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -1825,12 +1828,12 @@
       "@id": "http://base.semlab.io/entity/Q19058",
       "skos:prefLabel": "city",
       "skos:altLabel": [
-        "army installation",
         "hamlet",
         "military camp",
         "settlement",
         "town",
-        "village"
+        "village",
+        "army installation"
       ],
       "owl:equivalentClass": [
         "https://schema.org/City"
@@ -1956,8 +1959,8 @@
       "@id": "http://base.semlab.io/entity/Q19071",
       "skos:prefLabel": "event",
       "skos:altLabel": [
-        "competition",
-        "events"
+        "events",
+        "competition"
       ],
       "owl:equivalentClass": [
         "https://schema.org/Event"
@@ -2021,12 +2024,12 @@
       "@id": "http://base.semlab.io/entity/Q23179",
       "skos:prefLabel": "genre",
       "skos:altLabel": [
+        "artistic genre",
+        "form/genre",
         "genre/form",
         "stylistic genre",
         "technical genre",
-        "thematic genre",
-        "artistic genre",
-        "form/genre"
+        "thematic genre"
       ],
       "skos:note": "category of creative works based on stylistic, thematic or technical criteria"
     },

@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78565",
+        "@id": "_:bn78546",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19069",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "@id": "_:bn78566",
+        "@id": "_:bn78547",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22649",
@@ -59,7 +59,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn78567",
+        "@id": "_:bn78548",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
@@ -68,7 +68,7 @@
         }
       },
       {
-        "@id": "_:bn78568",
+        "@id": "_:bn78549",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -79,7 +79,7 @@
     ],
     "archivesCollection": [
       {
-        "@id": "_:bn78569",
+        "@id": "_:bn78550",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22371",
@@ -95,7 +95,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78570",
+        "@id": "_:bn78551",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -114,7 +114,7 @@
     ],
     "hasBibliographicReference": [
       {
-        "@id": "_:bn78571",
+        "@id": "_:bn78552",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21644",
@@ -126,6 +126,14 @@
     "rrfaIdentifier": [
       {
         "@value": "A185"
+      }
+    ],
+    "citation": [
+      {
+        "@value": "Address List for Festival for Theater and Engineering. August 1, 1966, 1 p."
+      },
+      {
+        "@value": "Address list for 1966 Festival for Theater and Engineering, 1966."
       }
     ]
   },
@@ -139,7 +147,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78572",
+        "@id": "_:bn78553",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19069",
@@ -148,7 +156,7 @@
         }
       },
       {
-        "@id": "_:bn78573",
+        "@id": "_:bn78554",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22649",
@@ -189,7 +197,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn78574",
+        "@id": "_:bn78555",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
@@ -198,7 +206,7 @@
         }
       },
       {
-        "@id": "_:bn78575",
+        "@id": "_:bn78556",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -209,7 +217,7 @@
     ],
     "archivesCollection": [
       {
-        "@id": "_:bn78576",
+        "@id": "_:bn78557",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22371",
@@ -225,7 +233,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78577",
+        "@id": "_:bn78558",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -246,12 +254,50 @@
     ],
     "hasBibliographicReference": [
       {
-        "@id": "_:bn78578",
+        "@id": "_:bn78559",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21638",
           "rdfs:label": "Address List for Stockholm Festival",
           "@type": "BibliographicReference"
+        }
+      }
+    ],
+    "citation": [
+      {
+        "@value": "Address List for Stockholm Festival. May 25, 1966, 1 p."
+      },
+      {
+        "@value": "Address list for 1966 Festival for Theater and Engineering, 1966."
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q28614",
+    "rdfs:label": "RRFA Documentation List",
+    "@type": [
+      "List"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn78560",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22649",
+          "rdfs:label": "list",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn78561",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
         }
       }
     ]
