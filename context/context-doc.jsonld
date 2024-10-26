@@ -521,11 +521,12 @@
     },
     "rrfaIdentifier": {
       "@id": "http://base.semlab.io/entity/P73",
-      "skos:prefLabel": "RRFA identifier",
+      "skos:prefLabel": "R.R.F.A. identifier",
       "skos:altLabel": [
-        "Robert Rauschenberg Foundation Archives identifier"
+        "Robert Rauschenberg Foundation Archives identifier",
+        "RRFA identifier"
       ],
-      "skos:note": "Unique identifier for a digitized archival document or photograph from the Robert Rauschenberg Foundation Archives"
+      "skos:note": "Unique identifier for a digitized archival document, photograph or video from the Robert Rauschenberg Foundation Archives"
     },
     "creator": {
       "@id": "http://base.semlab.io/entity/P74",
@@ -557,13 +558,13 @@
         "subject heading",
         "subject",
         "primary topic",
-        "primary subject",
+        "main topic",
         "main thing",
         "main issue",
         "is about",
         "about topic",
-        "mainly about",
-        "main topic"
+        "primary subject",
+        "mainly about"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P921"
@@ -851,11 +852,6 @@
       ],
       "skos:note": "used as a property to indicate object was a member of the subject entity"
     },
-    "isRelation": {
-      "@id": "http://base.semlab.io/entity/P119",
-      "skos:prefLabel": "is relation",
-      "skos:note": "definition of object's relationship to subject"
-    },
     "endTime": {
       "@id": "http://base.semlab.io/entity/P121",
       "skos:prefLabel": "end time",
@@ -1118,6 +1114,11 @@
       "@id": "http://base.semlab.io/entity/P169",
       "skos:prefLabel": "signed with"
     },
+    "isRelation": {
+      "@id": "http://base.semlab.io/entity/P119",
+      "skos:prefLabel": "is relation",
+      "skos:note": "definition of object's relationship to subject"
+    },
     "startTime": {
       "@id": "http://base.semlab.io/entity/P120",
       "skos:prefLabel": "start time",
@@ -1128,10 +1129,6 @@
         "http://www.wikidata.org/entity/P580"
       ],
       "skos:note": "time an entity begins to exist or a statement starts being valid"
-    },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
     },
     "formatterUrl": {
       "@id": "http://base.semlab.io/entity/P244",
@@ -1213,6 +1210,10 @@
     "E.A.T.DatascapePageIdentifier": {
       "@id": "http://base.semlab.io/entity/P245",
       "skos:prefLabel": "E.A.T. Datascape Page Identifier"
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
     },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
@@ -1390,11 +1391,6 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1416,7 +1412,12 @@
         "area of work",
         "area",
         "activity domain",
-        "academic subject"
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
@@ -2249,12 +2250,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
+        "career",
         "craft",
         "employment",
         "job",
         "profession",
-        "work",
-        "career"
+        "work"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
