@@ -1114,6 +1114,107 @@
       "@id": "http://base.semlab.io/entity/P169",
       "skos:prefLabel": "signed with"
     },
+    "isRelation": {
+      "@id": "http://base.semlab.io/entity/P119",
+      "skos:prefLabel": "is relation",
+      "skos:note": "definition of object's relationship to subject"
+    },
+    "startTime": {
+      "@id": "http://base.semlab.io/entity/P120",
+      "skos:prefLabel": "start time",
+      "skos:altLabel": [
+        "start date"
+      ],
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P580"
+      ],
+      "skos:note": "time an entity begins to exist or a statement starts being valid"
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
+    },
+    "formatterUrl": {
+      "@id": "http://base.semlab.io/entity/P244",
+      "skos:prefLabel": "formatter URL",
+      "skos:note": "web page URL; URI template from which \"$1\" can be automatically replaced with the effective property value on items. If the site goes offline, set it to deprecated rank. If the formatter URL changes, add a new statement with preferred rank."
+    },
+    "partOfSeries": {
+      "@id": "http://base.semlab.io/entity/P246",
+      "skos:prefLabel": "part of series"
+    },
+    "bibliographicReferenceOf": {
+      "@id": "http://base.semlab.io/entity/P247",
+      "skos:prefLabel": "bibliographic reference of",
+      "skos:altLabel": [
+        "references"
+      ],
+      "owl:equivalentClass": [
+        "http://purl.org/dc/terms/references"
+      ],
+      "skos:note": "a related resource that is referenced, cited, or otherwise pointed to by the described resource"
+    },
+    "hasBibliographicReference": {
+      "@id": "http://base.semlab.io/entity/P248",
+      "skos:prefLabel": "has bibliographic reference",
+      "skos:altLabel": [
+        "is referenced by"
+      ],
+      "owl:equivalentClass": [
+        "http://purl.org/dc/terms/isReferencedBy"
+      ],
+      "skos:note": "a related resource that references, cites, or otherwise points to the described resource"
+    },
+    "fullWorkAvailableAtURL": {
+      "@id": "http://base.semlab.io/entity/P249",
+      "skos:prefLabel": "full work available at URL",
+      "owl:equivalentClass": [
+        "https://www.wikidata.org/wiki/Property:P953"
+      ],
+      "skos:note": "URL of a web page containing the full body of this item"
+    },
+    "partOfCollection": {
+      "@id": "http://base.semlab.io/entity/P250",
+      "skos:prefLabel": "part of collection",
+      "skos:altLabel": [
+        "part of named collection"
+      ],
+      "skos:note": "the named institutional collection to which a resource belongs"
+    },
+    "propertyExample": {
+      "@id": "http://base.semlab.io/entity/P251",
+      "skos:prefLabel": "property example",
+      "skos:note": "example of property usage; statement value is item that uses property, qualifier property is property, qualifier value is value of item statement using property (see https://base.semlab.io/entity/P70#P251 for example usage)"
+    },
+    "performanceLocation": {
+      "@id": "http://base.semlab.io/entity/P252",
+      "skos:prefLabel": "work performed at",
+      "skos:note": "used to indicate the venue, location, or event a creative work was performed"
+    },
+    "describedOrDepictedAtUrl": {
+      "@id": "http://base.semlab.io/entity/P253",
+      "skos:prefLabel": "described or depicted at URL",
+      "skos:note": "external source where subject is described or depicted"
+    },
+    "separator": {
+      "@id": "http://base.semlab.io/entity/P239",
+      "skos:prefLabel": "separator",
+      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
+    },
+    "propertyScope": {
+      "@id": "http://base.semlab.io/entity/P240",
+      "skos:prefLabel": "property scope",
+      "skos:note": "specifies the scope parameter of a 'scope' constraint"
+    },
+    "mentionsViaAttribution": {
+      "@id": "http://base.semlab.io/entity/P241",
+      "skos:prefLabel": "mentions via attribution",
+      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
+    },
+    "E.A.T.DatascapePageIdentifier": {
+      "@id": "http://base.semlab.io/entity/P245",
+      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
+    },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
       "skos:prefLabel": "interviewed by"
@@ -1501,107 +1602,6 @@
       "skos:prefLabel": "constraint entity types",
       "skos:note": "entity types on which a constraint is checked. By default, is the same as the 'constraint scope' property, may alsobeset to a different one. recognized values (items representing entity types) are the same as for the 'allowed entity types' constraint"
     },
-    "isRelation": {
-      "@id": "http://base.semlab.io/entity/P119",
-      "skos:prefLabel": "is relation",
-      "skos:note": "definition of object's relationship to subject"
-    },
-    "startTime": {
-      "@id": "http://base.semlab.io/entity/P120",
-      "skos:prefLabel": "start time",
-      "skos:altLabel": [
-        "start date"
-      ],
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P580"
-      ],
-      "skos:note": "time an entity begins to exist or a statement starts being valid"
-    },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
-    },
-    "formatterUrl": {
-      "@id": "http://base.semlab.io/entity/P244",
-      "skos:prefLabel": "formatter URL",
-      "skos:note": "web page URL; URI template from which \"$1\" can be automatically replaced with the effective property value on items. If the site goes offline, set it to deprecated rank. If the formatter URL changes, add a new statement with preferred rank."
-    },
-    "partOfSeries": {
-      "@id": "http://base.semlab.io/entity/P246",
-      "skos:prefLabel": "part of series"
-    },
-    "bibliographicReferenceOf": {
-      "@id": "http://base.semlab.io/entity/P247",
-      "skos:prefLabel": "bibliographic reference of",
-      "skos:altLabel": [
-        "references"
-      ],
-      "owl:equivalentClass": [
-        "http://purl.org/dc/terms/references"
-      ],
-      "skos:note": "a related resource that is referenced, cited, or otherwise pointed to by the described resource"
-    },
-    "hasBibliographicReference": {
-      "@id": "http://base.semlab.io/entity/P248",
-      "skos:prefLabel": "has bibliographic reference",
-      "skos:altLabel": [
-        "is referenced by"
-      ],
-      "owl:equivalentClass": [
-        "http://purl.org/dc/terms/isReferencedBy"
-      ],
-      "skos:note": "a related resource that references, cites, or otherwise points to the described resource"
-    },
-    "fullWorkAvailableAtURL": {
-      "@id": "http://base.semlab.io/entity/P249",
-      "skos:prefLabel": "full work available at URL",
-      "owl:equivalentClass": [
-        "https://www.wikidata.org/wiki/Property:P953"
-      ],
-      "skos:note": "URL of a web page containing the full body of this item"
-    },
-    "partOfCollection": {
-      "@id": "http://base.semlab.io/entity/P250",
-      "skos:prefLabel": "part of collection",
-      "skos:altLabel": [
-        "part of named collection"
-      ],
-      "skos:note": "the named institutional collection to which a resource belongs"
-    },
-    "propertyExample": {
-      "@id": "http://base.semlab.io/entity/P251",
-      "skos:prefLabel": "property example",
-      "skos:note": "example of property usage; statement value is item that uses property, qualifier property is property, qualifier value is value of item statement using property (see https://base.semlab.io/entity/P70#P251 for example usage)"
-    },
-    "performanceLocation": {
-      "@id": "http://base.semlab.io/entity/P252",
-      "skos:prefLabel": "work performed at",
-      "skos:note": "used to indicate the venue, location, or event a creative work was performed"
-    },
-    "describedOrDepictedAtUrl": {
-      "@id": "http://base.semlab.io/entity/P253",
-      "skos:prefLabel": "described or depicted at URL",
-      "skos:note": "external source where subject is described or depicted"
-    },
-    "separator": {
-      "@id": "http://base.semlab.io/entity/P239",
-      "skos:prefLabel": "separator",
-      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
-    },
-    "propertyScope": {
-      "@id": "http://base.semlab.io/entity/P240",
-      "skos:prefLabel": "property scope",
-      "skos:note": "specifies the scope parameter of a 'scope' constraint"
-    },
-    "mentionsViaAttribution": {
-      "@id": "http://base.semlab.io/entity/P241",
-      "skos:prefLabel": "mentions via attribution",
-      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
-    },
-    "E.A.T.DatascapePageIdentifier": {
-      "@id": "http://base.semlab.io/entity/P245",
-      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
-    },
     "Activity": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q19077",
@@ -1963,8 +1963,8 @@
       "@id": "http://base.semlab.io/entity/Q19071",
       "skos:prefLabel": "event",
       "skos:altLabel": [
-        "competition",
-        "events"
+        "events",
+        "competition"
       ],
       "owl:equivalentClass": [
         "https://schema.org/Event"
