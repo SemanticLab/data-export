@@ -1192,10 +1192,6 @@
       "skos:prefLabel": "described or depicted at URL",
       "skos:note": "external source where subject is described or depicted"
     },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
-    },
     "separator": {
       "@id": "http://base.semlab.io/entity/P239",
       "skos:prefLabel": "separator",
@@ -1214,6 +1210,10 @@
     "E.A.T.DatascapePageIdentifier": {
       "@id": "http://base.semlab.io/entity/P245",
       "skos:prefLabel": "E.A.T. Datascape Page Identifier"
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
     },
     "interviewedBy": {
       "@id": "http://base.semlab.io/entity/P170",
@@ -1661,6 +1661,9 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
+        "material",
+        "media",
+        "medium",
         "art materials",
         "art media",
         "art medium",
@@ -1668,10 +1671,7 @@
         "artistic media",
         "artistic medium",
         "arts materials",
-        "crafting material",
-        "material",
-        "media",
-        "medium"
+        "crafting material"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
