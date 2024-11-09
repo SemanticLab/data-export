@@ -1529,6 +1529,14 @@
       ],
       "skos:note": "time an entity begins to exist or a statement starts being valid"
     },
+    "togetherWith": {
+      "@id": "http://base.semlab.io/entity/P257",
+      "skos:prefLabel": "together with",
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P1706"
+      ],
+      "skos:note": "qualifier property to indicate value engaged in activity of statement with subject; if property of statement is visited place (P67), ensure both subject traveled with (P256) object and object traveled with (P256) subject statements also exist"
+    },
     "partOfSeries": {
       "@id": "http://base.semlab.io/entity/P246",
       "skos:prefLabel": "part of series"
@@ -1613,14 +1621,6 @@
         "http://purl.org/dc/terms/references"
       ],
       "skos:note": "a related resource that is referenced, cited, or otherwise pointed to by the described resource"
-    },
-    "togetherWith": {
-      "@id": "http://base.semlab.io/entity/P257",
-      "skos:prefLabel": "together with",
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P1706"
-      ],
-      "skos:note": "qualifier property to indicate value engaged in activity of statement with subject; if property of statement is visited place (P67), ensure both subject traveled with (P256) object and object traveled with (P256) subject statements also exist"
     },
     "Activity": {
       "@type": "rdfs:Class",
