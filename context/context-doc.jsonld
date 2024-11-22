@@ -541,7 +541,7 @@
       ],
       "owl:equivalentClass": [
         "https://schema.org/creator",
-        "https://www.wikidata.org/entity/P170"
+        "http://www.wikidata.org/entity/P170"
       ],
       "skos:note": "entity (person, organization, etc.) that caused a record or collection to be produced, or, the maker of this creative work or other object"
     },
@@ -687,6 +687,10 @@
     "author": {
       "@id": "http://base.semlab.io/entity/P91",
       "skos:prefLabel": "author",
+      "owl:equivalentClass": [
+        "https://schema.org/author",
+        "http://www.wikidata.org/entity/P50"
+      ],
       "skos:note": "main creator(s) of a written document"
     },
     "participantGroup": {
@@ -708,19 +712,15 @@
       "@id": "http://base.semlab.io/entity/P94",
       "skos:prefLabel": "mentions",
       "skos:altLabel": [
-        "writes about",
         "speaks of",
         "references"
       ],
       "skos:note": "subject has mentioned by name or label, the object of this statement; use a more specific property if applicable"
     },
-    "discusses": {
+    "writesAbout": {
       "@id": "http://base.semlab.io/entity/P95",
-      "skos:prefLabel": "discusses",
-      "skos:altLabel": [
-        "converses on"
-      ],
-      "skos:note": "the subject discusses the concept represented by the object"
+      "skos:prefLabel": "writes about",
+      "skos:note": "topic a person writes about"
     },
     "partOf": {
       "@id": "http://base.semlab.io/entity/P96",
@@ -855,6 +855,22 @@
         "has member(s)"
       ],
       "skos:note": "used as a property to indicate object was a member of the subject entity"
+    },
+    "signedWith": {
+      "@id": "http://base.semlab.io/entity/P169",
+      "skos:prefLabel": "signed with"
+    },
+    "interviewedBy": {
+      "@id": "http://base.semlab.io/entity/P170",
+      "skos:prefLabel": "interviewed by"
+    },
+    "interviewed": {
+      "@id": "http://base.semlab.io/entity/P171",
+      "skos:prefLabel": "interviewed"
+    },
+    "photographed": {
+      "@id": "http://base.semlab.io/entity/P173",
+      "skos:prefLabel": "photographed"
     },
     "precededBy": {
       "@id": "http://base.semlab.io/entity/P175",
@@ -1024,6 +1040,14 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
+        "area",
+        "activity domain",
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1042,15 +1066,7 @@
         "discipline",
         "conduct research about",
         "be researcher in",
-        "area of work",
-        "area",
-        "activity domain",
-        "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity"
+        "area of work"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
@@ -1215,36 +1231,6 @@
       "skos:prefLabel": "format as a regular expression",
       "skos:note": "specifies the format parameter of a 'format' constraint"
     },
-    "syntaxClarification": {
-      "@id": "http://base.semlab.io/entity/P235",
-      "skos:prefLabel": "syntax clarification",
-      "skos:note": "specifies human-readable explanations of a 'format' constraint. The syntax clarification is shown as part of the 'format' constraint violation message, clarifying the regular expression"
-    },
-    "constraintClarification": {
-      "@id": "http://base.semlab.io/entity/P236",
-      "skos:prefLabel": "constraint clarification",
-      "skos:note": "specifies human-readable explanations of a constraint (of any constraint type). The constraint clarification is shown below the main constraint violation message"
-    },
-    "constraintScope": {
-      "@id": "http://base.semlab.io/entity/P237",
-      "skos:prefLabel": "constraint scope",
-      "skos:note": "specifies the context(s) in which a constraint is checked"
-    },
-    "constraintEntityTypes": {
-      "@id": "http://base.semlab.io/entity/P238",
-      "skos:prefLabel": "constraint entity types",
-      "skos:note": "entity types on which a constraint is checked. By default, is the same as the 'constraint scope' property, may alsobeset to a different one. recognized values (items representing entity types) are the same as for the 'allowed entity types' constraint"
-    },
-    "separator": {
-      "@id": "http://base.semlab.io/entity/P239",
-      "skos:prefLabel": "separator",
-      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
-    },
-    "propertyScope": {
-      "@id": "http://base.semlab.io/entity/P240",
-      "skos:prefLabel": "property scope",
-      "skos:note": "specifies the scope parameter of a 'scope' constraint"
-    },
     "endTime": {
       "@id": "http://base.semlab.io/entity/P121",
       "skos:prefLabel": "end time",
@@ -1363,6 +1349,9 @@
     "creditLine": {
       "@id": "http://base.semlab.io/entity/P136",
       "skos:prefLabel": "credit line",
+      "skos:altLabel": [
+        "creator string"
+      ],
       "skos:note": "credit for creation of document as stated in the original source"
     },
     "certainty": {
@@ -1492,26 +1481,41 @@
         "instructor of"
       ]
     },
-    "signedWith": {
-      "@id": "http://base.semlab.io/entity/P169",
-      "skos:prefLabel": "signed with"
-    },
-    "interviewedBy": {
-      "@id": "http://base.semlab.io/entity/P170",
-      "skos:prefLabel": "interviewed by"
-    },
-    "interviewed": {
-      "@id": "http://base.semlab.io/entity/P171",
-      "skos:prefLabel": "interviewed"
-    },
-    "photographed": {
-      "@id": "http://base.semlab.io/entity/P173",
-      "skos:prefLabel": "photographed"
-    },
     "traveledWith": {
       "@id": "http://base.semlab.io/entity/P256",
       "skos:prefLabel": "traveled with",
       "skos:note": "to indicate that the subject and object traveled together; qualify with location (P125); ensure subject visited place (P67) and object visited place (P67) statements also exist, each qualified with together with (P257)"
+    },
+    "togetherWith": {
+      "@id": "http://base.semlab.io/entity/P257",
+      "skos:prefLabel": "together with",
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P1706"
+      ],
+      "skos:note": "qualifier property to indicate value engaged in activity of statement with subject; if property of statement is visited place (P67), ensure both subject traveled with (P256) object and object traveled with (P256) subject statements also exist"
+    },
+    "honoredBy": {
+      "@id": "http://base.semlab.io/entity/P258",
+      "skos:prefLabel": "honored by",
+      "skos:altLabel": [
+        "received recognition from",
+        "recognized by"
+      ],
+      "skos:note": "used to indicate a person was honored by an organization; if relationship is financial in nature, use sponsored by (P157) instead"
+    },
+    "honored": {
+      "@id": "http://base.semlab.io/entity/P259",
+      "skos:prefLabel": "honored",
+      "skos:altLabel": [
+        "recognized",
+        "bestowed recognition upon"
+      ],
+      "skos:note": "used to indicate an organization honored a person or group; if the relationship is financial in nature, use sponsor of (P157) instead"
+    },
+    "collectedWorksBy": {
+      "@id": "http://base.semlab.io/entity/P260",
+      "skos:prefLabel": "collected works by",
+      "skos:note": "to indicate a person or organization collected works by a person or artist collective"
     },
     "isRelation": {
       "@id": "http://base.semlab.io/entity/P119",
@@ -1529,9 +1533,72 @@
       ],
       "skos:note": "time an entity begins to exist or a statement starts being valid"
     },
+    "hasWorksCollectedBy": {
+      "@id": "http://base.semlab.io/entity/P261",
+      "skos:prefLabel": "has works collected by",
+      "skos:altLabel": [
+        "has works in the collection of"
+      ],
+      "skos:note": "to indicate a person or artist collective has works collected by a person or organization"
+    },
+    "syntaxClarification": {
+      "@id": "http://base.semlab.io/entity/P235",
+      "skos:prefLabel": "syntax clarification",
+      "skos:note": "specifies human-readable explanations of a 'format' constraint. The syntax clarification is shown as part of the 'format' constraint violation message, clarifying the regular expression"
+    },
+    "constraintClarification": {
+      "@id": "http://base.semlab.io/entity/P236",
+      "skos:prefLabel": "constraint clarification",
+      "skos:note": "specifies human-readable explanations of a constraint (of any constraint type). The constraint clarification is shown below the main constraint violation message"
+    },
+    "constraintScope": {
+      "@id": "http://base.semlab.io/entity/P237",
+      "skos:prefLabel": "constraint scope",
+      "skos:note": "specifies the context(s) in which a constraint is checked"
+    },
+    "separator": {
+      "@id": "http://base.semlab.io/entity/P239",
+      "skos:prefLabel": "separator",
+      "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
+    },
+    "constraintEntityTypes": {
+      "@id": "http://base.semlab.io/entity/P238",
+      "skos:prefLabel": "constraint entity types",
+      "skos:note": "entity types on which a constraint is checked. By default, is the same as the 'constraint scope' property, may alsobeset to a different one. recognized values (items representing entity types) are the same as for the 'allowed entity types' constraint"
+    },
+    "propertyScope": {
+      "@id": "http://base.semlab.io/entity/P240",
+      "skos:prefLabel": "property scope",
+      "skos:note": "specifies the scope parameter of a 'scope' constraint"
+    },
+    "mentionsViaAttribution": {
+      "@id": "http://base.semlab.io/entity/P241",
+      "skos:prefLabel": "mentions via attribution",
+      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
+    },
+    "formatterUrl": {
+      "@id": "http://base.semlab.io/entity/P244",
+      "skos:prefLabel": "formatter URL",
+      "skos:note": "web page URL; URI template from which \"$1\" can be automatically replaced with the effective property value on items. If the site goes offline, set it to deprecated rank. If the formatter URL changes, add a new statement with preferred rank."
+    },
+    "E.A.T.DatascapePageIdentifier": {
+      "@id": "http://base.semlab.io/entity/P245",
+      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
+    },
     "partOfSeries": {
       "@id": "http://base.semlab.io/entity/P246",
       "skos:prefLabel": "part of series"
+    },
+    "bibliographicReferenceOf": {
+      "@id": "http://base.semlab.io/entity/P247",
+      "skos:prefLabel": "bibliographic reference of",
+      "skos:altLabel": [
+        "references"
+      ],
+      "owl:equivalentClass": [
+        "http://purl.org/dc/terms/references"
+      ],
+      "skos:note": "a related resource that is referenced, cited, or otherwise pointed to by the described resource"
     },
     "hasBibliographicReference": {
       "@id": "http://base.semlab.io/entity/P248",
@@ -1593,39 +1660,6 @@
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
     },
-    "mentionsViaAttribution": {
-      "@id": "http://base.semlab.io/entity/P241",
-      "skos:prefLabel": "mentions via attribution",
-      "skos:note": "work the subject mentioned and attributed to an artist or otherwise classified"
-    },
-    "formatterUrl": {
-      "@id": "http://base.semlab.io/entity/P244",
-      "skos:prefLabel": "formatter URL",
-      "skos:note": "web page URL; URI template from which \"$1\" can be automatically replaced with the effective property value on items. If the site goes offline, set it to deprecated rank. If the formatter URL changes, add a new statement with preferred rank."
-    },
-    "E.A.T.DatascapePageIdentifier": {
-      "@id": "http://base.semlab.io/entity/P245",
-      "skos:prefLabel": "E.A.T. Datascape Page Identifier"
-    },
-    "bibliographicReferenceOf": {
-      "@id": "http://base.semlab.io/entity/P247",
-      "skos:prefLabel": "bibliographic reference of",
-      "skos:altLabel": [
-        "references"
-      ],
-      "owl:equivalentClass": [
-        "http://purl.org/dc/terms/references"
-      ],
-      "skos:note": "a related resource that is referenced, cited, or otherwise pointed to by the described resource"
-    },
-    "togetherWith": {
-      "@id": "http://base.semlab.io/entity/P257",
-      "skos:prefLabel": "together with",
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P1706"
-      ],
-      "skos:note": "qualifier property to indicate value engaged in activity of statement with subject; if property of statement is visited place (P67), ensure both subject traveled with (P256) object and object traveled with (P256) subject statements also exist"
-    },
     "Activity": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q19077",
@@ -1685,17 +1719,17 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
+        "media",
+        "medium",
+        "art materials",
+        "art media",
         "art medium",
         "artistic material",
         "artistic media",
         "artistic medium",
         "arts materials",
         "crafting material",
-        "material",
-        "media",
-        "medium",
-        "art materials",
-        "art media"
+        "material"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -2282,12 +2316,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
+        "career",
+        "craft",
         "employment",
         "job",
         "profession",
-        "work",
-        "career",
-        "craft"
+        "work"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
