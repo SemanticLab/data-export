@@ -1158,6 +1158,14 @@
       ],
       "skos:note": "time an entity begins to exist or a statement starts being valid"
     },
+    "hasWorksCollectedBy": {
+      "@id": "http://base.semlab.io/entity/P261",
+      "skos:prefLabel": "has works collected by",
+      "skos:altLabel": [
+        "has works in the collection of"
+      ],
+      "skos:note": "to indicate a person or artist collective has works collected by a person or organization"
+    },
     "constraintEntityTypes": {
       "@id": "http://base.semlab.io/entity/P238",
       "skos:prefLabel": "constraint entity types",
@@ -1256,14 +1264,6 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
-    },
-    "hasWorksCollectedBy": {
-      "@id": "http://base.semlab.io/entity/P261",
-      "skos:prefLabel": "has works collected by",
-      "skos:altLabel": [
-        "has works in the collection of"
-      ],
-      "skos:note": "to indicate a person or artist collective has works collected by a person or organization"
     },
     "syntaxClarification": {
       "@id": "http://base.semlab.io/entity/P235",
@@ -1469,6 +1469,14 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
+        "area",
+        "activity domain",
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1487,15 +1495,7 @@
         "discipline",
         "conduct research about",
         "be researcher in",
-        "area of work",
-        "area",
-        "activity domain",
-        "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity"
+        "area of work"
       ],
       "owl:equivalentClass": [
         "https://www.wikidata.org/entity/P101"
@@ -1699,9 +1699,9 @@
       "@id": "http://base.semlab.io/entity/Q22395",
       "skos:prefLabel": "art exhibition",
       "skos:altLabel": [
-        "exhibition",
         "art exhibit",
-        "art show"
+        "art show",
+        "exhibition"
       ],
       "skos:note": "organized presentation and display of works of art"
     },
@@ -1890,12 +1890,12 @@
       "@id": "http://base.semlab.io/entity/Q19058",
       "skos:prefLabel": "city",
       "skos:altLabel": [
-        "village",
-        "army installation",
         "hamlet",
         "military camp",
         "settlement",
-        "town"
+        "town",
+        "village",
+        "army installation"
       ],
       "owl:equivalentClass": [
         "https://schema.org/City"
