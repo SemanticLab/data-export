@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2024-12-02
+Generated: 2024-12-03
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -31,7 +31,7 @@ Generated: 2024-12-02
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [linking_lost_jazz_shrines__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__all.jsonld) | 1030  |
+| All    | [linking_lost_jazz_shrines__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__all.jsonld) | 1031  |
 | Person    | [linking_lost_jazz_shrines__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__person.jsonld) | 616  |
 | Institution    | [linking_lost_jazz_shrines__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__institution.jsonld) | 1  |
 | Music Group    | [linking_lost_jazz_shrines__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__music_group.jsonld) | 53  |
@@ -42,7 +42,7 @@ Generated: 2024-12-02
 | Occupation    | [linking_lost_jazz_shrines__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__occupation.jsonld) | 25  |
 | Venue    | [linking_lost_jazz_shrines__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__venue.jsonld) | 1  |
 | Museum    | [linking_lost_jazz_shrines__museum.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__museum.jsonld) | 1  |
-| Interview Transcript    | [linking_lost_jazz_shrines__interview_transcript.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__interview_transcript.jsonld) | 29  |
+| Interview Transcript    | [linking_lost_jazz_shrines__interview_transcript.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__interview_transcript.jsonld) | 30  |
 | School    | [linking_lost_jazz_shrines__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__school.jsonld) | 15  |
 | Kinship    | [linking_lost_jazz_shrines__kinship.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__kinship.jsonld) | 9  |
 | Kinship Nature    | [linking_lost_jazz_shrines__kinship_nature.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__kinship_nature.jsonld) | 1  |
