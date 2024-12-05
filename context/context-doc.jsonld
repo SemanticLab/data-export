@@ -129,7 +129,7 @@
       "@id": "http://base.semlab.io/entity/P43",
       "skos:prefLabel": "country of citizenship",
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P27"
+        "http://www.wikidata.org/entity/P27"
       ],
       "skos:note": "the object is a country that recognizes the subject as its citizen"
     },
@@ -149,7 +149,7 @@
         "address"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P6375"
+        "http://www.wikidata.org/entity/P6375"
       ],
       "skos:note": "full street address where subject is located"
     },
@@ -169,7 +169,7 @@
         "has supervisor"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P7604"
+        "http://www.wikidata.org/entity/P7604"
       ],
       "skos:note": "Is the natural person who has the authority of giving instructions and/or orders to subordinates and is held responsible for the work and actions of subordinates"
     },
@@ -188,6 +188,8 @@
       "@id": "http://base.semlab.io/entity/P77",
       "skos:prefLabel": "main subject",
       "skos:altLabel": [
+        "primary subject",
+        "mainly about",
         "main topic",
         "main thing",
         "main issue",
@@ -197,12 +199,10 @@
         "theme",
         "subject heading",
         "subject",
-        "primary topic",
-        "primary subject",
-        "mainly about"
+        "primary topic"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P921"
+        "http://www.wikidata.org/entity/P921"
       ],
       "skos:note": "primary topic of a work"
     },
@@ -222,7 +222,7 @@
         "receiver"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P1817"
+        "http://www.wikidata.org/entity/P1817"
       ],
       "skos:note": "person or organization to whom a information, letter or note is addressed"
     },
@@ -235,7 +235,7 @@
         "copyright \u2018owner\u2019"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P3931"
+        "http://www.wikidata.org/entity/P3931"
       ],
       "skos:note": "person or organization who holds the copyright of a work"
     },
@@ -251,7 +251,7 @@
       ],
       "owl:equivalentClass": [
         "https://schema.org/name",
-        "https://www.wikidata.org/entity/P1476",
+        "http://www.wikidata.org/entity/P1476",
         "http://purl.org/dc/terms/title"
       ],
       "skos:note": "title of a work, such as a newspaper article, a literary work, a website, or a performance work. This could also be a label ascribed to an archival document by an archives."
@@ -266,7 +266,7 @@
       "skos:prefLabel": "publisher",
       "owl:equivalentClass": [
         "https://schema.org/publisher",
-        "https://www.wikidata.org/entity/P123",
+        "http://www.wikidata.org/entity/P123",
         "http://purl.org/dc/terms/publisher"
       ],
       "skos:note": "organization or person responsible for publishing a document"
@@ -293,7 +293,7 @@
       ],
       "owl:equivalentClass": [
         "https://schema.org/pagination",
-        "https://www.wikidata.org/entity/P304"
+        "http://www.wikidata.org/entity/P304"
       ],
       "skos:note": "the page of a document which a block or text or entity appears on; or the page of an article within a publication"
     },
@@ -302,7 +302,7 @@
       "skos:prefLabel": "volume",
       "owl:equivalentClass": [
         "https://schema.org/volumeNumber",
-        "https://www.wikidata.org/entity/P478"
+        "http://www.wikidata.org/entity/P478"
       ],
       "skos:note": "Bibliographical unit; Volume number of a particular publication"
     },
@@ -311,7 +311,7 @@
       "skos:prefLabel": "issue number",
       "owl:equivalentClass": [
         "https://schema.org/issueNumber",
-        "https://www.wikidata.org/entity/P433"
+        "http://www.wikidata.org/entity/P433"
       ],
       "skos:note": "bibliographical unit; issue number of a particular publication"
     },
@@ -361,7 +361,7 @@
       ],
       "owl:equivalentClass": [
         "https://schema.org/isPartOf",
-        "https://www.wikidata.org/entity/P361"
+        "http://www.wikidata.org/entity/P361"
       ],
       "skos:note": "object of which the subject is a part; indicates an item that this item is part of"
     },
@@ -372,7 +372,7 @@
         "point in time"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P585"
+        "http://www.wikidata.org/entity/P585"
       ],
       "skos:note": "The date or point in time associated with the work. The specific type of date, if known (e.g. publication date, creation date, etc.) should be listed as a qualifier. If different from the standardized form of date that appears here, the date as written should be included as a reference."
     },
@@ -380,7 +380,7 @@
       "@id": "http://base.semlab.io/entity/P100",
       "skos:prefLabel": "subtitle",
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P1680"
+        "http://www.wikidata.org/entity/P1680"
       ],
       "skos:note": "For works, when the title is followed by a subtitle"
     },
@@ -389,7 +389,7 @@
       "skos:prefLabel": "number of pages",
       "owl:equivalentClass": [
         "https://schema.org/numberOfPages",
-        "https://www.wikidata.org/entity/P1104"
+        "http://www.wikidata.org/entity/P1104"
       ],
       "skos:note": "number of pages in an edition of a written work"
     },
@@ -402,7 +402,7 @@
       "@id": "http://base.semlab.io/entity/P103",
       "skos:prefLabel": "published in",
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P1433"
+        "http://www.wikidata.org/entity/P1433"
       ],
       "skos:note": "Larger work that a given work was published in, like a book, journal or music album. Includes news outlet/periodical that published the article"
     },
@@ -410,7 +410,7 @@
       "@id": "http://base.semlab.io/entity/P104",
       "skos:prefLabel": "place of publication",
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P291"
+        "http://www.wikidata.org/entity/P291"
       ],
       "skos:note": "geographical place of publication"
     },
@@ -465,7 +465,7 @@
       ],
       "owl:equivalentClass": [
         "https://schema.org/worksFor",
-        "https://www.wikidata.org/entity/P108"
+        "http://www.wikidata.org/entity/P108"
       ],
       "skos:note": "person or organization for which the subject works or worked"
     },
@@ -474,23 +474,12 @@
       "skos:prefLabel": "reference URL",
       "skos:note": "web address location on the Internet from which the statement was derived"
     },
-    "role": {
-      "@id": "http://base.semlab.io/entity/P117",
-      "skos:prefLabel": "role",
-      "skos:note": "part assumed by an entity with relation to a group, event, production, or institution"
-    },
-    "member": {
-      "@id": "http://base.semlab.io/entity/P118",
-      "skos:prefLabel": "member",
-      "skos:altLabel": [
-        "has member(s)"
-      ],
-      "skos:note": "used as a property to indicate object was a member of the subject entity"
-    },
     "instanceOf": {
       "@id": "http://base.semlab.io/entity/P1",
       "skos:prefLabel": "instance of",
       "skos:altLabel": [
+        "type",
+        "rdf:type",
         "type of"
       ],
       "owl:equivalentClass": [
@@ -700,7 +689,7 @@
       "@id": "http://base.semlab.io/entity/P39",
       "skos:prefLabel": "influenced by",
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P737"
+        "http://www.wikidata.org/entity/P737"
       ]
     },
     "52ndStUserConsensus": {
@@ -763,6 +752,7 @@
       "@id": "http://base.semlab.io/entity/P48",
       "skos:prefLabel": "subproperty of",
       "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P1647",
         "http://www.w3.org/2000/01/rdf-schema#subPropertyOf"
       ]
     },
@@ -784,7 +774,7 @@
         "exact match"
       ],
       "owl:equivalentClass": [
-        "https://www.w3.org/2009/08/skos-reference/skos.html#exactMatch"
+        "http://www.w3.org/2004/02/skos/core#exactMatch"
       ]
     },
     "subclassOf": {
@@ -806,7 +796,7 @@
       "@id": "http://base.semlab.io/entity/P59",
       "skos:prefLabel": "sex or gender",
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P21"
+        "http://www.wikidata.org/entity/P21"
       ],
       "skos:note": "self-description or participation in gender identity groups men, women, and/or gender non-conforming (includes non-binary identities and gender performance and presentation of historical subjects that diverged from their contextual gender norms)."
     },
@@ -852,7 +842,7 @@
       "@id": "http://base.semlab.io/entity/P75",
       "skos:prefLabel": "contributor",
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P767"
+        "http://www.wikidata.org/entity/P767"
       ],
       "skos:note": "Contributor describes those who work with others on a specific work or project. This relationship is between person and project, differing from collaborator which is a relationship between two or more people."
     },
@@ -888,7 +878,7 @@
         "based in"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P276"
+        "http://www.wikidata.org/entity/P276"
       ],
       "skos:note": "location of the object, structure or event"
     },
@@ -910,7 +900,7 @@
         "actor"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P175"
+        "http://www.wikidata.org/entity/P175"
       ],
       "skos:note": "actor, musician, band or other performer associated with this role or musical work"
     },
@@ -950,7 +940,7 @@
         "Library of Congress Name Authority File"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P244"
+        "http://www.wikidata.org/entity/P244"
       ],
       "skos:note": "Library of Congress identifier for persons, organizations, events, places, titles, and subject headings"
     },
@@ -967,7 +957,7 @@
         "depiction of"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P180"
+        "http://www.wikidata.org/entity/P180"
       ],
       "skos:note": "depicted entity"
     },
@@ -1000,7 +990,7 @@
         "~"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P1480"
+        "http://www.wikidata.org/entity/P1480"
       ],
       "skos:note": "qualification of the truth or accuracy of a date: circa, near, presumably, etc."
     },
@@ -1080,7 +1070,7 @@
         "donor"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P8324"
+        "http://www.wikidata.org/entity/P8324"
       ],
       "skos:note": "entity that gives money to a person, organization, or project for a specific purpose"
     },
@@ -1141,6 +1131,19 @@
       "@id": "http://base.semlab.io/entity/P260",
       "skos:prefLabel": "collected works by",
       "skos:note": "to indicate a person or organization collected works by a person or artist collective"
+    },
+    "role": {
+      "@id": "http://base.semlab.io/entity/P117",
+      "skos:prefLabel": "role",
+      "skos:note": "part assumed by an entity with relation to a group, event, production, or institution"
+    },
+    "member": {
+      "@id": "http://base.semlab.io/entity/P118",
+      "skos:prefLabel": "member",
+      "skos:altLabel": [
+        "has member(s)"
+      ],
+      "skos:note": "used as a property to indicate object was a member of the subject entity"
     },
     "isRelation": {
       "@id": "http://base.semlab.io/entity/P119",
@@ -1212,7 +1215,7 @@
       "@id": "http://base.semlab.io/entity/P249",
       "skos:prefLabel": "full work available at URL",
       "owl:equivalentClass": [
-        "https://www.wikidata.org/wiki/Property:P953"
+        "http://www.wikidata.org/entity/P953"
       ],
       "skos:note": "URL of a web page containing the full body of this item"
     },
@@ -1305,14 +1308,14 @@
       "@id": "http://base.semlab.io/entity/P175",
       "skos:prefLabel": "preceded by",
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P155"
+        "http://www.wikidata.org/entity/P155"
       ]
     },
     "succeededBy": {
       "@id": "http://base.semlab.io/entity/P176",
       "skos:prefLabel": "succeeded by",
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P156"
+        "http://www.wikidata.org/entity/P156"
       ]
     },
     "differentFrom": {
@@ -1357,7 +1360,7 @@
         "based in"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P2541"
+        "http://www.wikidata.org/entity/P2541"
       ],
       "skos:note": "geographic area or jurisdiction an organisation or industry operates in, serves, or has responsibility for"
     },
@@ -1421,8 +1424,8 @@
       ],
       "owl:equivalentClass": [
         "https://schema.org/hasPart",
-        "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#hasPart",
-        "https://www.wikidata.org/entity/P527"
+        "http://purl.org/dc/terms/hasPart",
+        "http://www.wikidata.org/entity/P527"
       ],
       "skos:note": "part of this subject"
     },
@@ -1462,7 +1465,7 @@
         "close match"
       ],
       "owl:equivalentClass": [
-        "https://www.w3.org/2009/08/skos-reference/skos.html#closeMatch"
+        "http://www.w3.org/2004/02/skos/core#closeMatch"
       ]
     },
     "fieldOfWork": {
@@ -1498,7 +1501,7 @@
         "activity"
       ],
       "owl:equivalentClass": [
-        "https://www.wikidata.org/entity/P101"
+        "http://www.wikidata.org/entity/P101"
       ],
       "skos:note": "specialization of a person or organization"
     },
@@ -1911,6 +1914,9 @@
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q19063",
       "skos:prefLabel": "class",
+      "owl:equivalentClass": [
+        "http://www.w3.org/2000/01/rdf-schema#Class"
+      ],
       "skos:note": "taxonomic rank"
     },
     "Collection": {
@@ -2202,6 +2208,9 @@
         "local",
         "union branch"
       ],
+      "owl:equivalentClass": [
+        "https://schema.org/WorkersUnion"
+      ],
       "skos:note": "branch, chapter, or subgroup of a national trade union"
     },
     "Manuscript": {
@@ -2247,6 +2256,9 @@
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q19103",
       "skos:prefLabel": "museum",
+      "owl:equivalentClass": [
+        "https://schema.org/Museum"
+      ],
       "skos:note": "institution that holds artifacts and other objects of scientific, artistic, cultural, historical, or other importance"
     },
     "MusicGroup": {
@@ -2508,7 +2520,10 @@
     "Restaurant": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q26025",
-      "skos:prefLabel": "restaurant"
+      "skos:prefLabel": "restaurant",
+      "owl:equivalentClass": [
+        "https://schema.org/Restaurant"
+      ]
     },
     "Schedule": {
       "@type": "rdfs:Class",
@@ -2532,6 +2547,9 @@
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q20618",
       "skos:prefLabel": "school",
+      "owl:equivalentClass": [
+        "https://schema.org/School"
+      ],
       "skos:note": "formal place designed to teach students under the direction of teachers"
     },
     "Sculpture": {
