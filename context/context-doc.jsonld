@@ -1250,6 +1250,14 @@
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
     },
+    "hasWorksCollectedBy": {
+      "@id": "http://base.semlab.io/entity/P261",
+      "skos:prefLabel": "has works collected by",
+      "skos:altLabel": [
+        "has works in the collection of"
+      ],
+      "skos:note": "to indicate a person or artist collective has works collected by a person or organization"
+    },
     "constraintClarification": {
       "@id": "http://base.semlab.io/entity/P236",
       "skos:prefLabel": "constraint clarification",
@@ -1269,14 +1277,6 @@
       "@id": "http://base.semlab.io/entity/P239",
       "skos:prefLabel": "separator",
       "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
-    },
-    "hasWorksCollectedBy": {
-      "@id": "http://base.semlab.io/entity/P261",
-      "skos:prefLabel": "has works collected by",
-      "skos:altLabel": [
-        "has works in the collection of"
-      ],
-      "skos:note": "to indicate a person or artist collective has works collected by a person or organization"
     },
     "signedWith": {
       "@id": "http://base.semlab.io/entity/P169",
@@ -1772,8 +1772,8 @@
       "@id": "http://base.semlab.io/entity/Q19073",
       "skos:prefLabel": "artwork",
       "skos:altLabel": [
-        "work of art",
-        "art piece"
+        "art piece",
+        "work of art"
       ],
       "skos:note": "an artistic creation"
     },
@@ -2324,12 +2324,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
-        "work",
         "career",
         "craft",
         "employment",
         "job",
-        "profession"
+        "profession",
+        "work"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
