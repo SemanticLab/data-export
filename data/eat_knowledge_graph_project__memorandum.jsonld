@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn77327",
+        "@id": "_:bn77321",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19069",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "@id": "_:bn77328",
+        "@id": "_:bn77322",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19090",
@@ -29,7 +29,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn77329",
+        "@id": "_:bn77323",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -70,18 +70,18 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn77330",
+        "@id": "_:bn77324",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
           "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
+          "@type": "Artwork"
         }
       }
     ],
     "archivesCollection": [
       {
-        "@id": "_:bn77331",
+        "@id": "_:bn77325",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22371",
@@ -104,7 +104,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn77332",
+        "@id": "_:bn77326",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -139,7 +139,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn77333",
+        "@id": "_:bn77327",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19069",
@@ -148,7 +148,7 @@
         }
       },
       {
-        "@id": "_:bn77334",
+        "@id": "_:bn77328",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19090",
@@ -167,7 +167,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn77335",
+        "@id": "_:bn77329",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -200,18 +200,18 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn77336",
+        "@id": "_:bn77330",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
           "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
+          "@type": "Artwork"
         }
       }
     ],
     "archivesCollection": [
       {
-        "@id": "_:bn77337",
+        "@id": "_:bn77331",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22371",
@@ -229,7 +229,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn77338",
+        "@id": "_:bn77332",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -258,6 +258,139 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q22950",
     "rdfs:label": "A207 9 Evenings memo",
+    "@type": [
+      "Document",
+      "Memorandum"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn77333",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19069",
+          "rdfs:label": "document",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn77334",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19090",
+          "rdfs:label": "memorandum",
+          "@type": "Class"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn77335",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "9 Evenings memo",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1966-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "creditLine": [
+      {
+        "@value": "Creator: Experiments in Art and Technology (E.A.T.)"
+      }
+    ],
+    "description": [
+      {
+        "@value": "9 Evenings: Theatre & Engineering memo about sound systems printed paper on E.A.T., Inc. stationary"
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn77336",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19118",
+          "rdfs:label": "9 Evenings: Theatre and Engineering",
+          "@type": "Artwork"
+        }
+      }
+    ],
+    "archivesCollection": [
+      {
+        "@id": "_:bn77337",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22371",
+          "rdfs:label": "Robert Rauschenberg papers at the Robert Rauschenberg Foundation Archives, New York",
+          "@type": "Collection"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28796",
+            "rdfs:label": "Block 41 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/41.txt"
+          }
+        ]
+      }
+    ],
+    "copyrightStatement": [
+      {
+        "@value": "Copyright restrictions apply. Permission to reproduce this item must be obtained from the rights holder(s)."
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn77338",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "fileUrl": [
+      {
+        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2023-02/A207_00.jpg"
+      },
+      {
+        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2023-02/A207_1.jpg"
+      }
+    ],
+    "rrfaIdentifier": [
+      {
+        "@value": "A207"
+      }
+    ],
+    "citation": [
+      {
+        "@value": "9 Evenings: Theatre & Engineering memo about sound systems printed paper on E.A.T., Inc. stationary, 1966. Creator: Experiments in Art and Technology (E.A.T.)."
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q22951",
+    "rdfs:label": "A208 9 Evenings memo",
     "@type": [
       "Document",
       "Memorandum"
@@ -320,7 +453,7 @@
     ],
     "description": [
       {
-        "@value": "9 Evenings: Theatre & Engineering memo about sound systems printed paper on E.A.T., Inc. stationary"
+        "@value": "9 Evenings: Theatre & Engineering memo to artists, and special note regarding flameproofing"
       }
     ],
     "mainSubject": [
@@ -330,146 +463,13 @@
         "agentObj": {
           "@id": "semlab:Q19118",
           "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
+          "@type": "Artwork"
         }
       }
     ],
     "archivesCollection": [
       {
         "@id": "_:bn77343",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q22371",
-          "rdfs:label": "Robert Rauschenberg papers at the Robert Rauschenberg Foundation Archives, New York",
-          "@type": "Collection"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q28796",
-            "rdfs:label": "Block 41 of R.R.F.A. Documentation List",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/41.txt"
-          }
-        ]
-      }
-    ],
-    "copyrightStatement": [
-      {
-        "@value": "Copyright restrictions apply. Permission to reproduce this item must be obtained from the rights holder(s)."
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn77344",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "fileUrl": [
-      {
-        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2023-02/A207_00.jpg"
-      },
-      {
-        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2023-02/A207_1.jpg"
-      }
-    ],
-    "rrfaIdentifier": [
-      {
-        "@value": "A207"
-      }
-    ],
-    "citation": [
-      {
-        "@value": "9 Evenings: Theatre & Engineering memo about sound systems printed paper on E.A.T., Inc. stationary, 1966. Creator: Experiments in Art and Technology (E.A.T.)."
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q22951",
-    "rdfs:label": "A208 9 Evenings memo",
-    "@type": [
-      "Document",
-      "Memorandum"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn77345",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19069",
-          "rdfs:label": "document",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn77346",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19090",
-          "rdfs:label": "memorandum",
-          "@type": "Class"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn77347",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19263",
-          "rdfs:label": "Experiments in Art and Technology",
-          "@type": "NonprofitOrganization"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "9 Evenings memo",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1966-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "creditLine": [
-      {
-        "@value": "Creator: Experiments in Art and Technology (E.A.T.)"
-      }
-    ],
-    "description": [
-      {
-        "@value": "9 Evenings: Theatre & Engineering memo to artists, and special note regarding flameproofing"
-      }
-    ],
-    "mainSubject": [
-      {
-        "@id": "_:bn77348",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19118",
-          "rdfs:label": "9 Evenings: Theatre and Engineering",
-          "@type": "Event"
-        }
-      }
-    ],
-    "archivesCollection": [
-      {
-        "@id": "_:bn77349",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22371",
@@ -492,7 +492,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn77350",
+        "@id": "_:bn77344",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
