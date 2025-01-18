@@ -1,8 +1,8 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26554",
-    "rdfs:label": "Danial Cronin",
+    "@id": "semlab:Q26553",
+    "rdfs:label": "Paul Bucharest",
     "@type": [
       "Person"
     ],
@@ -26,7 +26,114 @@
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19081",
+            "rdfs:label": "engineer"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27088",
+            "rdfs:label": "Block 0 of B14 Paul Bucharest Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26718/0.txt"
+          }
+        ]
+      }
+    ],
+    "employer": [
+      {
+        "@id": "_:bn100283",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25509",
+          "rdfs:label": "New York University",
+          "@type": "School"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27088",
+            "rdfs:label": "Block 0 of B14 Paul Bucharest Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26718/0.txt"
+          }
+        ]
+      }
+    ],
+    "streetAddress": [
+      {
+        "@value": {
+          "text": "505 Grand st NYC, N.Y. 10002",
+          "language": "en"
+        }
+      }
+    ],
+    "fieldOfWork": [
+      {
+        "@id": "_:bn100284",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27418",
+          "rdfs:label": "psychology",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27088",
+            "rdfs:label": "Block 0 of B14 Paul Bucharest Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26718/0.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn100285",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn100286",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26554",
+    "rdfs:label": "Danial Cronin",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn100287",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn100288",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -43,7 +150,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100283",
+        "@id": "_:bn100289",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26766",
@@ -69,7 +176,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100284",
+        "@id": "_:bn100290",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27400",
@@ -85,7 +192,7 @@
         ]
       },
       {
-        "@id": "_:bn100285",
+        "@id": "_:bn100291",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27420",
@@ -97,113 +204,6 @@
             "@id": "semlab:Q27090",
             "rdfs:label": "Block 0 of B14 Danial Cronin Edge-Notched Card",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26719/0.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn100286",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn100287",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26555",
-    "rdfs:label": "Jerry Goodman",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn100288",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn100289",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "role": [
-          {
-            "@id": "semlab:Q19081",
-            "rdfs:label": "engineer"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27092",
-            "rdfs:label": "Block 0 of B14 Jerry Goodman Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/0.txt"
-          }
-        ]
-      }
-    ],
-    "employer": [
-      {
-        "@id": "_:bn100290",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26767",
-          "rdfs:label": "Nuclear Research Associates",
-          "@type": "Organization"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27092",
-            "rdfs:label": "Block 0 of B14 Jerry Goodman Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/0.txt"
-          }
-        ]
-      }
-    ],
-    "streetAddress": [
-      {
-        "@value": {
-          "text": "215 Ave A, N.Y.C.",
-          "language": "en"
-        }
-      }
-    ],
-    "fieldOfWork": [
-      {
-        "@id": "_:bn100291",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27387",
-          "rdfs:label": "chemistry",
-          "@type": "Chemistry"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27092",
-            "rdfs:label": "Block 0 of B14 Jerry Goodman Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/0.txt"
           }
         ]
       }
@@ -231,8 +231,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26556",
-    "rdfs:label": "Judith Prager",
+    "@id": "semlab:Q26555",
+    "rdfs:label": "Jerry Goodman",
     "@type": [
       "Person"
     ],
@@ -256,7 +256,114 @@
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19081",
+            "rdfs:label": "engineer"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27092",
+            "rdfs:label": "Block 0 of B14 Jerry Goodman Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/0.txt"
+          }
+        ]
+      }
+    ],
+    "employer": [
+      {
+        "@id": "_:bn100296",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26767",
+          "rdfs:label": "Nuclear Research Associates",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27092",
+            "rdfs:label": "Block 0 of B14 Jerry Goodman Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/0.txt"
+          }
+        ]
+      }
+    ],
+    "streetAddress": [
+      {
+        "@value": {
+          "text": "215 Ave A, N.Y.C.",
+          "language": "en"
+        }
+      }
+    ],
+    "fieldOfWork": [
+      {
+        "@id": "_:bn100297",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27387",
+          "rdfs:label": "chemistry",
+          "@type": "Chemistry"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27092",
+            "rdfs:label": "Block 0 of B14 Jerry Goodman Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/0.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn100298",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn100299",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26556",
+    "rdfs:label": "Judith Prager",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn100300",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn100301",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -273,7 +380,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100296",
+        "@id": "_:bn100302",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19322",
@@ -299,7 +406,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100297",
+        "@id": "_:bn100303",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27387",
@@ -315,7 +422,7 @@
         ]
       },
       {
-        "@id": "_:bn100298",
+        "@id": "_:bn100304",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27394",
@@ -331,7 +438,7 @@
         ]
       },
       {
-        "@id": "_:bn100299",
+        "@id": "_:bn100305",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27416",
@@ -343,113 +450,6 @@
             "@id": "semlab:Q27094",
             "rdfs:label": "Block 0 of B14 Judith Prager Edge-Notched Card",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26721/0.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn100300",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn100301",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26557",
-    "rdfs:label": "Abraham Goldbaum",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn100302",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn100303",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "role": [
-          {
-            "@id": "semlab:Q19081",
-            "rdfs:label": "engineer"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27096",
-            "rdfs:label": "Block 0 of B14 Abraham Goldbaum Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26722/0.txt"
-          }
-        ]
-      }
-    ],
-    "employer": [
-      {
-        "@id": "_:bn100304",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26768",
-          "rdfs:label": "City College of New York",
-          "@type": "Institution"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27096",
-            "rdfs:label": "Block 0 of B14 Abraham Goldbaum Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26722/0.txt"
-          }
-        ]
-      }
-    ],
-    "streetAddress": [
-      {
-        "@value": {
-          "text": "98 Van Cortland Pk, S. Bronx, N.Y. 10463",
-          "language": "en"
-        }
-      }
-    ],
-    "fieldOfWork": [
-      {
-        "@id": "_:bn100305",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27415",
-          "rdfs:label": "physics",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27096",
-            "rdfs:label": "Block 0 of B14 Abraham Goldbaum Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26722/0.txt"
           }
         ]
       }
@@ -477,8 +477,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26558",
-    "rdfs:label": "Robert J Stahl",
+    "@id": "semlab:Q26557",
+    "rdfs:label": "Abraham Goldbaum",
     "@type": [
       "Person"
     ],
@@ -502,7 +502,114 @@
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19081",
+            "rdfs:label": "engineer"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27096",
+            "rdfs:label": "Block 0 of B14 Abraham Goldbaum Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26722/0.txt"
+          }
+        ]
+      }
+    ],
+    "employer": [
+      {
+        "@id": "_:bn100310",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26768",
+          "rdfs:label": "City College of New York",
+          "@type": "Institution"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27096",
+            "rdfs:label": "Block 0 of B14 Abraham Goldbaum Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26722/0.txt"
+          }
+        ]
+      }
+    ],
+    "streetAddress": [
+      {
+        "@value": {
+          "text": "98 Van Cortland Pk, S. Bronx, N.Y. 10463",
+          "language": "en"
+        }
+      }
+    ],
+    "fieldOfWork": [
+      {
+        "@id": "_:bn100311",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27415",
+          "rdfs:label": "physics",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27096",
+            "rdfs:label": "Block 0 of B14 Abraham Goldbaum Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26722/0.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn100312",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn100313",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26558",
+    "rdfs:label": "Robert J Stahl",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn100314",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn100315",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -519,7 +626,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100310",
+        "@id": "_:bn100316",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26769",
@@ -545,7 +652,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100311",
+        "@id": "_:bn100317",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27401",
@@ -561,7 +668,7 @@
         ]
       },
       {
-        "@id": "_:bn100312",
+        "@id": "_:bn100318",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24367",
@@ -573,113 +680,6 @@
             "@id": "semlab:Q27097",
             "rdfs:label": "Block 0 of B14 Robert J Stahl Edge-Notched Card",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26723/0.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn100313",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn100314",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26559",
-    "rdfs:label": "Dr. Kroft",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn100315",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn100316",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "role": [
-          {
-            "@id": "semlab:Q19081",
-            "rdfs:label": "engineer"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27099",
-            "rdfs:label": "Block 0 of B14 Dr. Kroft Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26724/0.txt"
-          }
-        ]
-      }
-    ],
-    "employer": [
-      {
-        "@id": "_:bn100317",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24351",
-          "rdfs:label": "Columbia University",
-          "@type": "Institution"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27099",
-            "rdfs:label": "Block 0 of B14 Dr. Kroft Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26724/0.txt"
-          }
-        ]
-      }
-    ],
-    "streetAddress": [
-      {
-        "@value": {
-          "text": "170 Claumont Ave. N.Y. 10027",
-          "language": "en"
-        }
-      }
-    ],
-    "fieldOfWork": [
-      {
-        "@id": "_:bn100318",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27393",
-          "rdfs:label": "computer science",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27099",
-            "rdfs:label": "Block 0 of B14 Dr. Kroft Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26724/0.txt"
           }
         ]
       }
@@ -707,8 +707,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26560",
-    "rdfs:label": "Vincent F Lisanti",
+    "@id": "semlab:Q26559",
+    "rdfs:label": "Dr. Kroft",
     "@type": [
       "Person"
     ],
@@ -732,7 +732,114 @@
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19081",
+            "rdfs:label": "engineer"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27099",
+            "rdfs:label": "Block 0 of B14 Dr. Kroft Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26724/0.txt"
+          }
+        ]
+      }
+    ],
+    "employer": [
+      {
+        "@id": "_:bn100323",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24351",
+          "rdfs:label": "Columbia University",
+          "@type": "Institution"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27099",
+            "rdfs:label": "Block 0 of B14 Dr. Kroft Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26724/0.txt"
+          }
+        ]
+      }
+    ],
+    "streetAddress": [
+      {
+        "@value": {
+          "text": "170 Claumont Ave. N.Y. 10027",
+          "language": "en"
+        }
+      }
+    ],
+    "fieldOfWork": [
+      {
+        "@id": "_:bn100324",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27393",
+          "rdfs:label": "computer science",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27099",
+            "rdfs:label": "Block 0 of B14 Dr. Kroft Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26724/0.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn100325",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn100326",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26560",
+    "rdfs:label": "Vincent F Lisanti",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn100327",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn100328",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -749,7 +856,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100323",
+        "@id": "_:bn100329",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26770",
@@ -767,7 +874,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100324",
+        "@id": "_:bn100330",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27404",
@@ -783,7 +890,7 @@
         ]
       },
       {
-        "@id": "_:bn100325",
+        "@id": "_:bn100331",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27381",
@@ -801,7 +908,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100326",
+        "@id": "_:bn100332",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -810,7 +917,7 @@
         }
       },
       {
-        "@id": "_:bn100327",
+        "@id": "_:bn100333",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -829,7 +936,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100328",
+        "@id": "_:bn100334",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -840,14 +947,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100329",
+        "@id": "_:bn100335",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -864,7 +971,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100330",
+        "@id": "_:bn100336",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26771",
@@ -890,7 +997,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100331",
+        "@id": "_:bn100337",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27418",
@@ -906,7 +1013,7 @@
         ]
       },
       {
-        "@id": "_:bn100332",
+        "@id": "_:bn100338",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27381",
@@ -922,7 +1029,7 @@
         ]
       },
       {
-        "@id": "_:bn100333",
+        "@id": "_:bn100339",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27385",
@@ -940,7 +1047,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100334",
+        "@id": "_:bn100340",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -949,7 +1056,7 @@
         }
       },
       {
-        "@id": "_:bn100335",
+        "@id": "_:bn100341",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -968,7 +1075,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100336",
+        "@id": "_:bn100342",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -979,14 +1086,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100337",
+        "@id": "_:bn100343",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -1003,7 +1110,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100338",
+        "@id": "_:bn100344",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26772",
@@ -1029,7 +1136,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100339",
+        "@id": "_:bn100345",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27401",
@@ -1045,7 +1152,7 @@
         ]
       },
       {
-        "@id": "_:bn100340",
+        "@id": "_:bn100346",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27394",
@@ -1061,7 +1168,7 @@
         ]
       },
       {
-        "@id": "_:bn100341",
+        "@id": "_:bn100347",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24402",
@@ -1079,7 +1186,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100342",
+        "@id": "_:bn100348",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1088,7 +1195,7 @@
         }
       },
       {
-        "@id": "_:bn100343",
+        "@id": "_:bn100349",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -1107,7 +1214,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100344",
+        "@id": "_:bn100350",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1118,14 +1225,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100345",
+        "@id": "_:bn100351",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -1142,7 +1249,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100346",
+        "@id": "_:bn100352",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26773",
@@ -1160,7 +1267,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100347",
+        "@id": "_:bn100353",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27397",
@@ -1176,7 +1283,7 @@
         ]
       },
       {
-        "@id": "_:bn100348",
+        "@id": "_:bn100354",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27410",
@@ -1192,7 +1299,7 @@
         ]
       },
       {
-        "@id": "_:bn100349",
+        "@id": "_:bn100355",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27415",
@@ -1208,7 +1315,7 @@
         ]
       },
       {
-        "@id": "_:bn100350",
+        "@id": "_:bn100356",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27414",
@@ -1224,7 +1331,7 @@
         ]
       },
       {
-        "@id": "_:bn100351",
+        "@id": "_:bn100357",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24398",
@@ -1240,7 +1347,7 @@
         ]
       },
       {
-        "@id": "_:bn100352",
+        "@id": "_:bn100358",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24399",
@@ -1256,7 +1363,7 @@
         ]
       },
       {
-        "@id": "_:bn100353",
+        "@id": "_:bn100359",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27419",
@@ -1272,7 +1379,7 @@
         ]
       },
       {
-        "@id": "_:bn100354",
+        "@id": "_:bn100360",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27426",
@@ -1288,7 +1395,7 @@
         ]
       },
       {
-        "@id": "_:bn100355",
+        "@id": "_:bn100361",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27391",
@@ -1314,7 +1421,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100356",
+        "@id": "_:bn100362",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1323,7 +1430,7 @@
         }
       },
       {
-        "@id": "_:bn100357",
+        "@id": "_:bn100363",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -1342,7 +1449,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100358",
+        "@id": "_:bn100364",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1353,14 +1460,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100359",
+        "@id": "_:bn100365",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -1377,7 +1484,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100360",
+        "@id": "_:bn100366",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26774",
@@ -1395,7 +1502,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100361",
+        "@id": "_:bn100367",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27379",
@@ -1411,7 +1518,7 @@
         ]
       },
       {
-        "@id": "_:bn100362",
+        "@id": "_:bn100368",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27402",
@@ -1427,7 +1534,7 @@
         ]
       },
       {
-        "@id": "_:bn100363",
+        "@id": "_:bn100369",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27414",
@@ -1453,7 +1560,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100364",
+        "@id": "_:bn100370",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1462,7 +1569,7 @@
         }
       },
       {
-        "@id": "_:bn100365",
+        "@id": "_:bn100371",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -1481,7 +1588,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100366",
+        "@id": "_:bn100372",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1492,14 +1599,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100367",
+        "@id": "_:bn100373",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -1516,7 +1623,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100368",
+        "@id": "_:bn100374",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26775",
@@ -1532,7 +1639,7 @@
         ]
       },
       {
-        "@id": "_:bn100369",
+        "@id": "_:bn100375",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26776",
@@ -1550,7 +1657,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100370",
+        "@id": "_:bn100376",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27397",
@@ -1566,7 +1673,7 @@
         ]
       },
       {
-        "@id": "_:bn100371",
+        "@id": "_:bn100377",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27418",
@@ -1582,7 +1689,7 @@
         ]
       },
       {
-        "@id": "_:bn100372",
+        "@id": "_:bn100378",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27410",
@@ -1598,7 +1705,7 @@
         ]
       },
       {
-        "@id": "_:bn100373",
+        "@id": "_:bn100379",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27387",
@@ -1614,7 +1721,7 @@
         ]
       },
       {
-        "@id": "_:bn100374",
+        "@id": "_:bn100380",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27415",
@@ -1630,7 +1737,7 @@
         ]
       },
       {
-        "@id": "_:bn100375",
+        "@id": "_:bn100381",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27394",
@@ -1646,7 +1753,7 @@
         ]
       },
       {
-        "@id": "_:bn100376",
+        "@id": "_:bn100382",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27430",
@@ -1662,7 +1769,7 @@
         ]
       },
       {
-        "@id": "_:bn100377",
+        "@id": "_:bn100383",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26763",
@@ -1678,7 +1785,7 @@
         ]
       },
       {
-        "@id": "_:bn100378",
+        "@id": "_:bn100384",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24548",
@@ -1694,7 +1801,7 @@
         ]
       },
       {
-        "@id": "_:bn100379",
+        "@id": "_:bn100385",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27431",
@@ -1710,7 +1817,7 @@
         ]
       },
       {
-        "@id": "_:bn100380",
+        "@id": "_:bn100386",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27396",
@@ -1726,7 +1833,7 @@
         ]
       },
       {
-        "@id": "_:bn100381",
+        "@id": "_:bn100387",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27406",
@@ -1742,7 +1849,7 @@
         ]
       },
       {
-        "@id": "_:bn100382",
+        "@id": "_:bn100388",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27414",
@@ -1758,7 +1865,7 @@
         ]
       },
       {
-        "@id": "_:bn100383",
+        "@id": "_:bn100389",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27432",
@@ -1774,7 +1881,7 @@
         ]
       },
       {
-        "@id": "_:bn100384",
+        "@id": "_:bn100390",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27409",
@@ -1790,7 +1897,7 @@
         ]
       },
       {
-        "@id": "_:bn100385",
+        "@id": "_:bn100391",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27433",
@@ -1806,7 +1913,7 @@
         ]
       },
       {
-        "@id": "_:bn100386",
+        "@id": "_:bn100392",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24398",
@@ -1822,7 +1929,7 @@
         ]
       },
       {
-        "@id": "_:bn100387",
+        "@id": "_:bn100393",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27425",
@@ -1838,7 +1945,7 @@
         ]
       },
       {
-        "@id": "_:bn100388",
+        "@id": "_:bn100394",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24399",
@@ -1854,7 +1961,7 @@
         ]
       },
       {
-        "@id": "_:bn100389",
+        "@id": "_:bn100395",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27428",
@@ -1870,7 +1977,7 @@
         ]
       },
       {
-        "@id": "_:bn100390",
+        "@id": "_:bn100396",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27398",
@@ -1886,7 +1993,7 @@
         ]
       },
       {
-        "@id": "_:bn100391",
+        "@id": "_:bn100397",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24229",
@@ -1902,7 +2009,7 @@
         ]
       },
       {
-        "@id": "_:bn100392",
+        "@id": "_:bn100398",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27427",
@@ -1918,7 +2025,7 @@
         ]
       },
       {
-        "@id": "_:bn100393",
+        "@id": "_:bn100399",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27378",
@@ -1934,7 +2041,7 @@
         ]
       },
       {
-        "@id": "_:bn100394",
+        "@id": "_:bn100400",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27426",
@@ -1950,7 +2057,7 @@
         ]
       },
       {
-        "@id": "_:bn100395",
+        "@id": "_:bn100401",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27382",
@@ -1966,7 +2073,7 @@
         ]
       },
       {
-        "@id": "_:bn100396",
+        "@id": "_:bn100402",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27383",
@@ -1982,7 +2089,7 @@
         ]
       },
       {
-        "@id": "_:bn100397",
+        "@id": "_:bn100403",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27392",
@@ -1998,7 +2105,7 @@
         ]
       },
       {
-        "@id": "_:bn100398",
+        "@id": "_:bn100404",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27386",
@@ -2014,7 +2121,7 @@
         ]
       },
       {
-        "@id": "_:bn100399",
+        "@id": "_:bn100405",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27024",
@@ -2030,7 +2137,7 @@
         ]
       },
       {
-        "@id": "_:bn100400",
+        "@id": "_:bn100406",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27413",
@@ -2046,7 +2153,7 @@
         ]
       },
       {
-        "@id": "_:bn100401",
+        "@id": "_:bn100407",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27405",
@@ -2072,7 +2179,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100402",
+        "@id": "_:bn100408",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2081,7 +2188,7 @@
         }
       },
       {
-        "@id": "_:bn100403",
+        "@id": "_:bn100409",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -2097,7 +2204,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn100404",
+        "@id": "_:bn100410",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24692",
@@ -2111,104 +2218,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q26566",
     "rdfs:label": "Philip C. Feffer",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn100405",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn100406",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "role": [
-          {
-            "@id": "semlab:Q19081",
-            "rdfs:label": "engineer"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27026",
-            "rdfs:label": "Block 0 of B14 Philip C. Feffer Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26388/0.txt"
-          }
-        ]
-      }
-    ],
-    "employer": [
-      {
-        "@id": "_:bn100407",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26777",
-          "rdfs:label": "Philadelphia College of Textiles & Science",
-          "@type": "Institution"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27026",
-            "rdfs:label": "Block 0 of B14 Philip C. Feffer Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26388/0.txt"
-          }
-        ]
-      }
-    ],
-    "fieldOfWork": [
-      {
-        "@id": "_:bn100408",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27384",
-          "rdfs:label": "automation engineering",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27026",
-            "rdfs:label": "Block 0 of B14 Philip C. Feffer Edge-Notched Card"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn100409",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn100410",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26567",
-    "rdfs:label": "Nat Ostroff",
     "@type": [
       "Person"
     ],
@@ -2232,7 +2241,7 @@
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -2240,9 +2249,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27069",
-            "rdfs:label": "Block 0 of B14 Nat Ostroff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26389/0.txt"
+            "@id": "semlab:Q27026",
+            "rdfs:label": "Block 0 of B14 Philip C. Feffer Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26388/0.txt"
           }
         ]
       }
@@ -2252,15 +2261,15 @@
         "@id": "_:bn100413",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q26778",
-          "rdfs:label": "AEL, Inc.",
-          "@type": "Organization"
+          "@id": "semlab:Q26777",
+          "rdfs:label": "Philadelphia College of Textiles & Science",
+          "@type": "Institution"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q27069",
-            "rdfs:label": "Block 0 of B14 Nat Ostroff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26389/0.txt"
+            "@id": "semlab:Q27026",
+            "rdfs:label": "Block 0 of B14 Philip C. Feffer Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26388/0.txt"
           }
         ]
       }
@@ -2270,14 +2279,14 @@
         "@id": "_:bn100414",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q27403",
-          "rdfs:label": "solid state electronics",
+          "@id": "semlab:Q27384",
+          "rdfs:label": "automation engineering",
           "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q27069",
-            "rdfs:label": "Block 0 of B14 Nat Ostroff Edge-Notched Card"
+            "@id": "semlab:Q27026",
+            "rdfs:label": "Block 0 of B14 Philip C. Feffer Edge-Notched Card"
           }
         ]
       }
@@ -2305,8 +2314,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26568",
-    "rdfs:label": "Eugene B. Seeley",
+    "@id": "semlab:Q26567",
+    "rdfs:label": "Nat Ostroff",
     "@type": [
       "Person"
     ],
@@ -2330,7 +2339,105 @@
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19081",
+            "rdfs:label": "engineer"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27069",
+            "rdfs:label": "Block 0 of B14 Nat Ostroff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26389/0.txt"
+          }
+        ]
+      }
+    ],
+    "employer": [
+      {
+        "@id": "_:bn100419",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26778",
+          "rdfs:label": "AEL, Inc.",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27069",
+            "rdfs:label": "Block 0 of B14 Nat Ostroff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26389/0.txt"
+          }
+        ]
+      }
+    ],
+    "fieldOfWork": [
+      {
+        "@id": "_:bn100420",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27403",
+          "rdfs:label": "solid state electronics",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27069",
+            "rdfs:label": "Block 0 of B14 Nat Ostroff Edge-Notched Card"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn100421",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn100422",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26568",
+    "rdfs:label": "Eugene B. Seeley",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn100423",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn100424",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -2347,7 +2454,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100419",
+        "@id": "_:bn100425",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27429",
@@ -2363,7 +2470,7 @@
         ]
       },
       {
-        "@id": "_:bn100420",
+        "@id": "_:bn100426",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27399",
@@ -2379,7 +2486,7 @@
         ]
       },
       {
-        "@id": "_:bn100421",
+        "@id": "_:bn100427",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24564",
@@ -2399,113 +2506,6 @@
       {
         "@value": {
           "text": "10648 S.E. 22nd. St. Bellevue, 98004",
-          "language": "en"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn100422",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn100423",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26569",
-    "rdfs:label": "Everett M. Barber",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn100424",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn100425",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "role": [
-          {
-            "@id": "semlab:Q19081",
-            "rdfs:label": "engineer"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27073",
-            "rdfs:label": "Block 0 of B14 Everett M. Barber Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26702/0.txt"
-          }
-        ]
-      }
-    ],
-    "employer": [
-      {
-        "@id": "_:bn100426",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24352",
-          "rdfs:label": "National Institute of Standards and Technology",
-          "@type": "Institution"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27073",
-            "rdfs:label": "Block 0 of B14 Everett M. Barber Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26702/0.txt"
-          }
-        ]
-      }
-    ],
-    "fieldOfWork": [
-      {
-        "@id": "_:bn100427",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27411",
-          "rdfs:label": "mechanical engineering",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27073",
-            "rdfs:label": "Block 0 of B14 Everett M. Barber Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26702/0.txt"
-          }
-        ]
-      }
-    ],
-    "streetAddress": [
-      {
-        "@value": {
-          "text": "314 9th. st. SE Washington DC 20003",
           "language": "en"
         }
       }
@@ -2533,8 +2533,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26570",
-    "rdfs:label": "Dr. T.P. Abeles",
+    "@id": "semlab:Q26569",
+    "rdfs:label": "Everett M. Barber",
     "@type": [
       "Person"
     ],
@@ -2558,7 +2558,114 @@
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19081",
+            "rdfs:label": "engineer"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27073",
+            "rdfs:label": "Block 0 of B14 Everett M. Barber Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26702/0.txt"
+          }
+        ]
+      }
+    ],
+    "employer": [
+      {
+        "@id": "_:bn100432",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24352",
+          "rdfs:label": "National Institute of Standards and Technology",
+          "@type": "Institution"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27073",
+            "rdfs:label": "Block 0 of B14 Everett M. Barber Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26702/0.txt"
+          }
+        ]
+      }
+    ],
+    "fieldOfWork": [
+      {
+        "@id": "_:bn100433",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27411",
+          "rdfs:label": "mechanical engineering",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27073",
+            "rdfs:label": "Block 0 of B14 Everett M. Barber Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26702/0.txt"
+          }
+        ]
+      }
+    ],
+    "streetAddress": [
+      {
+        "@value": {
+          "text": "314 9th. st. SE Washington DC 20003",
+          "language": "en"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn100434",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn100435",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26570",
+    "rdfs:label": "Dr. T.P. Abeles",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn100436",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn100437",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -2575,7 +2682,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100432",
+        "@id": "_:bn100438",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26779",
@@ -2593,7 +2700,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100433",
+        "@id": "_:bn100439",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27424",
@@ -2609,7 +2716,7 @@
         ]
       },
       {
-        "@id": "_:bn100434",
+        "@id": "_:bn100440",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27410",
@@ -2625,7 +2732,7 @@
         ]
       },
       {
-        "@id": "_:bn100435",
+        "@id": "_:bn100441",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27387",
@@ -2641,7 +2748,7 @@
         ]
       },
       {
-        "@id": "_:bn100436",
+        "@id": "_:bn100442",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27415",
@@ -2657,7 +2764,7 @@
         ]
       },
       {
-        "@id": "_:bn100437",
+        "@id": "_:bn100443",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27394",
@@ -2673,7 +2780,7 @@
         ]
       },
       {
-        "@id": "_:bn100438",
+        "@id": "_:bn100444",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27407",
@@ -2689,7 +2796,7 @@
         ]
       },
       {
-        "@id": "_:bn100439",
+        "@id": "_:bn100445",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27416",
@@ -2705,7 +2812,7 @@
         ]
       },
       {
-        "@id": "_:bn100440",
+        "@id": "_:bn100446",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27395",
@@ -2721,7 +2828,7 @@
         ]
       },
       {
-        "@id": "_:bn100441",
+        "@id": "_:bn100447",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27423",
@@ -2739,7 +2846,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100442",
+        "@id": "_:bn100448",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2748,7 +2855,7 @@
         }
       },
       {
-        "@id": "_:bn100443",
+        "@id": "_:bn100449",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -2767,7 +2874,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100444",
+        "@id": "_:bn100450",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2778,14 +2885,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100445",
+        "@id": "_:bn100451",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -2802,7 +2909,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100446",
+        "@id": "_:bn100452",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26780",
@@ -2828,7 +2935,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100447",
+        "@id": "_:bn100453",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2837,7 +2944,7 @@
         }
       },
       {
-        "@id": "_:bn100448",
+        "@id": "_:bn100454",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -2856,7 +2963,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100449",
+        "@id": "_:bn100455",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2867,14 +2974,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100450",
+        "@id": "_:bn100456",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -2899,7 +3006,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100451",
+        "@id": "_:bn100457",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2908,7 +3015,7 @@
         }
       },
       {
-        "@id": "_:bn100452",
+        "@id": "_:bn100458",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -2927,7 +3034,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100453",
+        "@id": "_:bn100459",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2938,14 +3045,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100454",
+        "@id": "_:bn100460",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -2962,7 +3069,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100455",
+        "@id": "_:bn100461",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26781",
@@ -2980,7 +3087,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100456",
+        "@id": "_:bn100462",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24367",
@@ -2996,7 +3103,7 @@
         ]
       },
       {
-        "@id": "_:bn100457",
+        "@id": "_:bn100463",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24453",
@@ -3012,7 +3119,7 @@
         ]
       },
       {
-        "@id": "_:bn100458",
+        "@id": "_:bn100464",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24360",
@@ -3032,112 +3139,6 @@
       {
         "@value": {
           "text": "217 E 9th Hazelton, PA.",
-          "language": "en"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn100459",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn100460",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26574",
-    "rdfs:label": "Frederick A. Cooper",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn100461",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn100462",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "role": [
-          {
-            "@id": "semlab:Q19081",
-            "rdfs:label": "engineer"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27082",
-            "rdfs:label": "Block 0 of B14 Frederick A. Cooper Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26709/0.txt"
-          }
-        ]
-      }
-    ],
-    "employer": [
-      {
-        "@id": "_:bn100463",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26782",
-          "rdfs:label": "Edeburn, Cooper & Co.",
-          "@type": "Business"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27082",
-            "rdfs:label": "Block 0 of B14 Frederick A. Cooper Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26709/0.txt"
-          }
-        ]
-      }
-    ],
-    "fieldOfWork": [
-      {
-        "@id": "_:bn100464",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27388",
-          "rdfs:label": "civil engineering",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27082",
-            "rdfs:label": "Block 0 of B14 Frederick A. Cooper Edge-Notched Card"
-          }
-        ]
-      }
-    ],
-    "streetAddress": [
-      {
-        "@value": {
-          "text": "6315 N. Camac, Phila, Pa 19141",
           "language": "en"
         }
       }
@@ -3165,8 +3166,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26575",
-    "rdfs:label": "Daniel A. Bartman",
+    "@id": "semlab:Q26574",
+    "rdfs:label": "Frederick A. Cooper",
     "@type": [
       "Person"
     ],
@@ -3190,7 +3191,7 @@
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -3198,9 +3199,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27083",
-            "rdfs:label": "Block 0 of B14 Daniel A. Bartman Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26710/0.txt"
+            "@id": "semlab:Q27082",
+            "rdfs:label": "Block 0 of B14 Frederick A. Cooper Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26709/0.txt"
           }
         ]
       }
@@ -3210,15 +3211,15 @@
         "@id": "_:bn100469",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q26783",
-          "rdfs:label": "America forge and manufacturing Co.",
+          "@id": "semlab:Q26782",
+          "rdfs:label": "Edeburn, Cooper & Co.",
           "@type": "Business"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q27083",
-            "rdfs:label": "Block 0 of B14 Daniel A. Bartman Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26710/0.txt"
+            "@id": "semlab:Q27082",
+            "rdfs:label": "Block 0 of B14 Frederick A. Cooper Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26709/0.txt"
           }
         ]
       }
@@ -3228,15 +3229,14 @@
         "@id": "_:bn100470",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q27075",
-          "rdfs:label": "Block 0 of B14 Dr. T.P. Abeles Edge-Notched Card",
-          "@type": "Block"
+          "@id": "semlab:Q27388",
+          "rdfs:label": "civil engineering",
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q27075",
-            "rdfs:label": "Block 0 of B14 Dr. T.P. Abeles Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26704/0.txt"
+            "@id": "semlab:Q27082",
+            "rdfs:label": "Block 0 of B14 Frederick A. Cooper Edge-Notched Card"
           }
         ]
       }
@@ -3244,7 +3244,7 @@
     "streetAddress": [
       {
         "@value": {
-          "text": "2200 McNary Blvd, PGH 21 PA",
+          "text": "6315 N. Camac, Phila, Pa 19141",
           "language": "en"
         }
       }
@@ -3272,8 +3272,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26576",
-    "rdfs:label": "Louis E. Corey",
+    "@id": "semlab:Q26575",
+    "rdfs:label": "Daniel A. Bartman",
     "@type": [
       "Person"
     ],
@@ -3297,7 +3297,114 @@
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19081",
+            "rdfs:label": "engineer"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27083",
+            "rdfs:label": "Block 0 of B14 Daniel A. Bartman Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26710/0.txt"
+          }
+        ]
+      }
+    ],
+    "employer": [
+      {
+        "@id": "_:bn100475",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26783",
+          "rdfs:label": "America forge and manufacturing Co.",
+          "@type": "Business"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27083",
+            "rdfs:label": "Block 0 of B14 Daniel A. Bartman Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26710/0.txt"
+          }
+        ]
+      }
+    ],
+    "fieldOfWork": [
+      {
+        "@id": "_:bn100476",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27075",
+          "rdfs:label": "Block 0 of B14 Dr. T.P. Abeles Edge-Notched Card",
+          "@type": "Block"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27075",
+            "rdfs:label": "Block 0 of B14 Dr. T.P. Abeles Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26704/0.txt"
+          }
+        ]
+      }
+    ],
+    "streetAddress": [
+      {
+        "@value": {
+          "text": "2200 McNary Blvd, PGH 21 PA",
+          "language": "en"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn100477",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn100478",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26576",
+    "rdfs:label": "Louis E. Corey",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn100479",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn100480",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -3314,7 +3421,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100475",
+        "@id": "_:bn100481",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26784",
@@ -3340,7 +3447,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100476",
+        "@id": "_:bn100482",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3349,7 +3456,7 @@
         }
       },
       {
-        "@id": "_:bn100477",
+        "@id": "_:bn100483",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -3368,7 +3475,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100478",
+        "@id": "_:bn100484",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3379,14 +3486,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100479",
+        "@id": "_:bn100485",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -3403,7 +3510,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100480",
+        "@id": "_:bn100486",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26785",
@@ -3429,7 +3536,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100481",
+        "@id": "_:bn100487",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3438,7 +3545,7 @@
         }
       },
       {
-        "@id": "_:bn100482",
+        "@id": "_:bn100488",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -3457,7 +3564,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100483",
+        "@id": "_:bn100489",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3468,14 +3575,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100484",
+        "@id": "_:bn100490",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -3492,7 +3599,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100485",
+        "@id": "_:bn100491",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27038",
@@ -3518,7 +3625,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100486",
+        "@id": "_:bn100492",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27393",
@@ -3534,7 +3641,7 @@
         ]
       },
       {
-        "@id": "_:bn100487",
+        "@id": "_:bn100493",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27381",
@@ -3552,7 +3659,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100488",
+        "@id": "_:bn100494",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3561,7 +3668,7 @@
         }
       },
       {
-        "@id": "_:bn100489",
+        "@id": "_:bn100495",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -3580,7 +3687,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100490",
+        "@id": "_:bn100496",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3591,14 +3698,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100491",
+        "@id": "_:bn100497",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -3615,7 +3722,7 @@
     ],
     "employer": [
       {
-        "@id": "_:bn100492",
+        "@id": "_:bn100498",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27064",
@@ -3633,7 +3740,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100493",
+        "@id": "_:bn100499",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27397",
@@ -3649,7 +3756,7 @@
         ]
       },
       {
-        "@id": "_:bn100494",
+        "@id": "_:bn100500",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27418",
@@ -3665,7 +3772,7 @@
         ]
       },
       {
-        "@id": "_:bn100495",
+        "@id": "_:bn100501",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27424",
@@ -3681,7 +3788,7 @@
         ]
       },
       {
-        "@id": "_:bn100496",
+        "@id": "_:bn100502",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27409",
@@ -3697,7 +3804,7 @@
         ]
       },
       {
-        "@id": "_:bn100497",
+        "@id": "_:bn100503",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27433",
@@ -3713,7 +3820,7 @@
         ]
       },
       {
-        "@id": "_:bn100498",
+        "@id": "_:bn100504",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27382",
@@ -3729,7 +3836,7 @@
         ]
       },
       {
-        "@id": "_:bn100499",
+        "@id": "_:bn100505",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27383",
@@ -3745,7 +3852,7 @@
         ]
       },
       {
-        "@id": "_:bn100500",
+        "@id": "_:bn100506",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27391",
@@ -3761,7 +3868,7 @@
         ]
       },
       {
-        "@id": "_:bn100501",
+        "@id": "_:bn100507",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24367",
@@ -3777,7 +3884,7 @@
         ]
       },
       {
-        "@id": "_:bn100502",
+        "@id": "_:bn100508",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27386",
@@ -3793,7 +3900,7 @@
         ]
       },
       {
-        "@id": "_:bn100503",
+        "@id": "_:bn100509",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27024",
@@ -3809,7 +3916,7 @@
         ]
       },
       {
-        "@id": "_:bn100504",
+        "@id": "_:bn100510",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27420",
@@ -3825,7 +3932,7 @@
         ]
       },
       {
-        "@id": "_:bn100505",
+        "@id": "_:bn100511",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27421",
@@ -3841,7 +3948,7 @@
         ]
       },
       {
-        "@id": "_:bn100506",
+        "@id": "_:bn100512",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24360",
@@ -3857,7 +3964,7 @@
         ]
       },
       {
-        "@id": "_:bn100507",
+        "@id": "_:bn100513",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27380",
@@ -3873,7 +3980,7 @@
         ]
       },
       {
-        "@id": "_:bn100508",
+        "@id": "_:bn100514",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27437",
@@ -3889,7 +3996,7 @@
         ]
       },
       {
-        "@id": "_:bn100509",
+        "@id": "_:bn100515",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27408",
@@ -3905,7 +4012,7 @@
         ]
       },
       {
-        "@id": "_:bn100510",
+        "@id": "_:bn100516",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27417",
@@ -3917,113 +4024,6 @@
             "@id": "semlab:Q27067",
             "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn100511",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn100512",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26788",
-    "rdfs:label": "David J. Lamb",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn100513",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn100514",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "role": [
-          {
-            "@id": "semlab:Q19081",
-            "rdfs:label": "engineer"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27109",
-            "rdfs:label": "Block 0 of B14 David J. Lamb Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26730/0.txt"
-          }
-        ]
-      }
-    ],
-    "employer": [
-      {
-        "@id": "_:bn100515",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27108",
-          "rdfs:label": "Micro-Swiss Inc.",
-          "@type": "Business"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27109",
-            "rdfs:label": "Block 0 of B14 David J. Lamb Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26730/0.txt"
-          }
-        ]
-      }
-    ],
-    "streetAddress": [
-      {
-        "@value": {
-          "text": "Allison Apts 109 F, Marlton N.J.",
-          "language": "en"
-        }
-      }
-    ],
-    "fieldOfWork": [
-      {
-        "@id": "_:bn100516",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27422",
-          "rdfs:label": "sales",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27109",
-            "rdfs:label": "Block 0 of B14 David J. Lamb Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26730/0.txt"
           }
         ]
       }
@@ -4051,6 +4051,113 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26788",
+    "rdfs:label": "David J. Lamb",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn100519",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn100520",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19081",
+            "rdfs:label": "engineer"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27109",
+            "rdfs:label": "Block 0 of B14 David J. Lamb Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26730/0.txt"
+          }
+        ]
+      }
+    ],
+    "employer": [
+      {
+        "@id": "_:bn100521",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27108",
+          "rdfs:label": "Micro-Swiss Inc.",
+          "@type": "Business"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27109",
+            "rdfs:label": "Block 0 of B14 David J. Lamb Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26730/0.txt"
+          }
+        ]
+      }
+    ],
+    "streetAddress": [
+      {
+        "@value": {
+          "text": "Allison Apts 109 F, Marlton N.J.",
+          "language": "en"
+        }
+      }
+    ],
+    "fieldOfWork": [
+      {
+        "@id": "_:bn100522",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27422",
+          "rdfs:label": "sales",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27109",
+            "rdfs:label": "Block 0 of B14 David J. Lamb Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26730/0.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn100523",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn100524",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q27023",
     "rdfs:label": "Lee Jaffe",
     "@type": [
@@ -4058,7 +4165,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100519",
+        "@id": "_:bn100525",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4072,14 +4179,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100520",
+        "@id": "_:bn100526",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -4101,7 +4208,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100521",
+        "@id": "_:bn100527",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4110,7 +4217,7 @@
         }
       },
       {
-        "@id": "_:bn100522",
+        "@id": "_:bn100528",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4126,14 +4233,14 @@
     "rdfs:label": "Frank Goad",
     "memberOf": [
       {
-        "@id": "_:bn100523",
+        "@id": "_:bn100529",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -4153,7 +4260,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100524",
+        "@id": "_:bn100530",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4164,7 +4271,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100525",
+        "@id": "_:bn100531",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4173,7 +4280,7 @@
         }
       },
       {
-        "@id": "_:bn100526",
+        "@id": "_:bn100532",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4192,7 +4299,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100527",
+        "@id": "_:bn100533",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4206,7 +4313,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100528",
+        "@id": "_:bn100534",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4215,7 +4322,7 @@
         }
       },
       {
-        "@id": "_:bn100529",
+        "@id": "_:bn100535",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4236,14 +4343,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100530",
+        "@id": "_:bn100536",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -4265,7 +4372,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn100531",
+        "@id": "_:bn100537",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19157",
@@ -4287,7 +4394,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100532",
+        "@id": "_:bn100538",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4301,7 +4408,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100533",
+        "@id": "_:bn100539",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4310,7 +4417,7 @@
         }
       },
       {
-        "@id": "_:bn100534",
+        "@id": "_:bn100540",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -4319,7 +4426,7 @@
         }
       },
       {
-        "@id": "_:bn100535",
+        "@id": "_:bn100541",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4340,14 +4447,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100536",
+        "@id": "_:bn100542",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -4377,7 +4484,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100537",
+        "@id": "_:bn100543",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4391,7 +4498,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100538",
+        "@id": "_:bn100544",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -4400,7 +4507,7 @@
         }
       },
       {
-        "@id": "_:bn100539",
+        "@id": "_:bn100545",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4416,7 +4523,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn100540",
+        "@id": "_:bn100546",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -4427,14 +4534,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100541",
+        "@id": "_:bn100547",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -4474,7 +4581,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100542",
+        "@id": "_:bn100548",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4488,14 +4595,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100543",
+        "@id": "_:bn100549",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -4512,7 +4619,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100544",
+        "@id": "_:bn100550",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4521,7 +4628,7 @@
         }
       },
       {
-        "@id": "_:bn100545",
+        "@id": "_:bn100551",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4540,7 +4647,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100546",
+        "@id": "_:bn100552",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4554,14 +4661,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100547",
+        "@id": "_:bn100553",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -4578,7 +4685,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100548",
+        "@id": "_:bn100554",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4587,7 +4694,7 @@
         }
       },
       {
-        "@id": "_:bn100549",
+        "@id": "_:bn100555",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4606,7 +4713,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100550",
+        "@id": "_:bn100556",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4620,14 +4727,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100551",
+        "@id": "_:bn100557",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -4644,7 +4751,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100552",
+        "@id": "_:bn100558",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4653,7 +4760,7 @@
         }
       },
       {
-        "@id": "_:bn100553",
+        "@id": "_:bn100559",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4672,7 +4779,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100554",
+        "@id": "_:bn100560",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4686,14 +4793,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100555",
+        "@id": "_:bn100561",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -4710,7 +4817,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100556",
+        "@id": "_:bn100562",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4719,7 +4826,7 @@
         }
       },
       {
-        "@id": "_:bn100557",
+        "@id": "_:bn100563",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4738,7 +4845,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100558",
+        "@id": "_:bn100564",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4752,14 +4859,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100559",
+        "@id": "_:bn100565",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -4776,7 +4883,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100560",
+        "@id": "_:bn100566",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4785,7 +4892,7 @@
         }
       },
       {
-        "@id": "_:bn100561",
+        "@id": "_:bn100567",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4804,7 +4911,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100562",
+        "@id": "_:bn100568",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4818,14 +4925,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100563",
+        "@id": "_:bn100569",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -4842,7 +4949,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100564",
+        "@id": "_:bn100570",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4851,7 +4958,7 @@
         }
       },
       {
-        "@id": "_:bn100565",
+        "@id": "_:bn100571",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4870,7 +4977,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100566",
+        "@id": "_:bn100572",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4884,14 +4991,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100567",
+        "@id": "_:bn100573",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -4908,7 +5015,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100568",
+        "@id": "_:bn100574",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4917,7 +5024,7 @@
         }
       },
       {
-        "@id": "_:bn100569",
+        "@id": "_:bn100575",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4936,7 +5043,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100570",
+        "@id": "_:bn100576",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4950,14 +5057,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100571",
+        "@id": "_:bn100577",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -4974,7 +5081,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100572",
+        "@id": "_:bn100578",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4983,7 +5090,7 @@
         }
       },
       {
-        "@id": "_:bn100573",
+        "@id": "_:bn100579",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5002,7 +5109,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100574",
+        "@id": "_:bn100580",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5016,14 +5123,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100575",
+        "@id": "_:bn100581",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5040,7 +5147,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100576",
+        "@id": "_:bn100582",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5049,7 +5156,7 @@
         }
       },
       {
-        "@id": "_:bn100577",
+        "@id": "_:bn100583",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5068,7 +5175,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100578",
+        "@id": "_:bn100584",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5082,14 +5189,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100579",
+        "@id": "_:bn100585",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5106,7 +5213,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100580",
+        "@id": "_:bn100586",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5115,7 +5222,7 @@
         }
       },
       {
-        "@id": "_:bn100581",
+        "@id": "_:bn100587",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5134,7 +5241,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100582",
+        "@id": "_:bn100588",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5148,14 +5255,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100583",
+        "@id": "_:bn100589",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5172,7 +5279,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100584",
+        "@id": "_:bn100590",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5181,7 +5288,7 @@
         }
       },
       {
-        "@id": "_:bn100585",
+        "@id": "_:bn100591",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5200,7 +5307,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100586",
+        "@id": "_:bn100592",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5214,14 +5321,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100587",
+        "@id": "_:bn100593",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5238,7 +5345,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100588",
+        "@id": "_:bn100594",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5247,7 +5354,7 @@
         }
       },
       {
-        "@id": "_:bn100589",
+        "@id": "_:bn100595",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5266,7 +5373,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100590",
+        "@id": "_:bn100596",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5280,14 +5387,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100591",
+        "@id": "_:bn100597",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5304,7 +5411,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100592",
+        "@id": "_:bn100598",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5313,7 +5420,7 @@
         }
       },
       {
-        "@id": "_:bn100593",
+        "@id": "_:bn100599",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5332,7 +5439,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100594",
+        "@id": "_:bn100600",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5346,14 +5453,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100595",
+        "@id": "_:bn100601",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5370,7 +5477,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100596",
+        "@id": "_:bn100602",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5379,7 +5486,7 @@
         }
       },
       {
-        "@id": "_:bn100597",
+        "@id": "_:bn100603",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5398,7 +5505,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100598",
+        "@id": "_:bn100604",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5412,14 +5519,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100599",
+        "@id": "_:bn100605",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5436,7 +5543,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100600",
+        "@id": "_:bn100606",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5445,7 +5552,7 @@
         }
       },
       {
-        "@id": "_:bn100601",
+        "@id": "_:bn100607",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5464,7 +5571,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100602",
+        "@id": "_:bn100608",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5478,14 +5585,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100603",
+        "@id": "_:bn100609",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5502,7 +5609,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100604",
+        "@id": "_:bn100610",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5511,7 +5618,7 @@
         }
       },
       {
-        "@id": "_:bn100605",
+        "@id": "_:bn100611",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5530,7 +5637,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100606",
+        "@id": "_:bn100612",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5544,14 +5651,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100607",
+        "@id": "_:bn100613",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5568,7 +5675,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100608",
+        "@id": "_:bn100614",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5577,7 +5684,7 @@
         }
       },
       {
-        "@id": "_:bn100609",
+        "@id": "_:bn100615",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5596,7 +5703,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100610",
+        "@id": "_:bn100616",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5610,14 +5717,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100611",
+        "@id": "_:bn100617",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5634,7 +5741,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100612",
+        "@id": "_:bn100618",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5643,7 +5750,7 @@
         }
       },
       {
-        "@id": "_:bn100613",
+        "@id": "_:bn100619",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5662,7 +5769,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100614",
+        "@id": "_:bn100620",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5676,14 +5783,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100615",
+        "@id": "_:bn100621",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5700,7 +5807,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100616",
+        "@id": "_:bn100622",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5709,7 +5816,7 @@
         }
       },
       {
-        "@id": "_:bn100617",
+        "@id": "_:bn100623",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5728,7 +5835,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100618",
+        "@id": "_:bn100624",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5742,14 +5849,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100619",
+        "@id": "_:bn100625",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5766,7 +5873,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100620",
+        "@id": "_:bn100626",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5775,7 +5882,7 @@
         }
       },
       {
-        "@id": "_:bn100621",
+        "@id": "_:bn100627",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5794,7 +5901,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100622",
+        "@id": "_:bn100628",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5808,14 +5915,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100623",
+        "@id": "_:bn100629",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5832,7 +5939,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100624",
+        "@id": "_:bn100630",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5841,7 +5948,7 @@
         }
       },
       {
-        "@id": "_:bn100625",
+        "@id": "_:bn100631",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5860,7 +5967,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100626",
+        "@id": "_:bn100632",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5874,14 +5981,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100627",
+        "@id": "_:bn100633",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5898,7 +6005,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100628",
+        "@id": "_:bn100634",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5907,7 +6014,7 @@
         }
       },
       {
-        "@id": "_:bn100629",
+        "@id": "_:bn100635",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5926,7 +6033,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100630",
+        "@id": "_:bn100636",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5940,14 +6047,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100631",
+        "@id": "_:bn100637",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -5964,7 +6071,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100632",
+        "@id": "_:bn100638",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5973,7 +6080,7 @@
         }
       },
       {
-        "@id": "_:bn100633",
+        "@id": "_:bn100639",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5992,7 +6099,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100634",
+        "@id": "_:bn100640",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6006,14 +6113,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100635",
+        "@id": "_:bn100641",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6030,7 +6137,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100636",
+        "@id": "_:bn100642",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6039,7 +6146,7 @@
         }
       },
       {
-        "@id": "_:bn100637",
+        "@id": "_:bn100643",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6058,7 +6165,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100638",
+        "@id": "_:bn100644",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6072,14 +6179,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100639",
+        "@id": "_:bn100645",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6096,7 +6203,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100640",
+        "@id": "_:bn100646",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6105,7 +6212,7 @@
         }
       },
       {
-        "@id": "_:bn100641",
+        "@id": "_:bn100647",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6124,7 +6231,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100642",
+        "@id": "_:bn100648",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6138,14 +6245,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100643",
+        "@id": "_:bn100649",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6162,7 +6269,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100644",
+        "@id": "_:bn100650",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6171,7 +6278,7 @@
         }
       },
       {
-        "@id": "_:bn100645",
+        "@id": "_:bn100651",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6190,7 +6297,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100646",
+        "@id": "_:bn100652",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6204,14 +6311,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100647",
+        "@id": "_:bn100653",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6228,7 +6335,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100648",
+        "@id": "_:bn100654",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6237,7 +6344,7 @@
         }
       },
       {
-        "@id": "_:bn100649",
+        "@id": "_:bn100655",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6256,7 +6363,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100650",
+        "@id": "_:bn100656",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6270,14 +6377,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100651",
+        "@id": "_:bn100657",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6294,7 +6401,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100652",
+        "@id": "_:bn100658",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6303,7 +6410,7 @@
         }
       },
       {
-        "@id": "_:bn100653",
+        "@id": "_:bn100659",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6322,7 +6429,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100654",
+        "@id": "_:bn100660",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6336,14 +6443,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100655",
+        "@id": "_:bn100661",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6360,7 +6467,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100656",
+        "@id": "_:bn100662",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6369,7 +6476,7 @@
         }
       },
       {
-        "@id": "_:bn100657",
+        "@id": "_:bn100663",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6388,7 +6495,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100658",
+        "@id": "_:bn100664",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6402,14 +6509,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100659",
+        "@id": "_:bn100665",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6426,7 +6533,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100660",
+        "@id": "_:bn100666",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6435,7 +6542,7 @@
         }
       },
       {
-        "@id": "_:bn100661",
+        "@id": "_:bn100667",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6454,7 +6561,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100662",
+        "@id": "_:bn100668",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6468,14 +6575,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100663",
+        "@id": "_:bn100669",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6492,7 +6599,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100664",
+        "@id": "_:bn100670",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6501,7 +6608,7 @@
         }
       },
       {
-        "@id": "_:bn100665",
+        "@id": "_:bn100671",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6525,7 +6632,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100666",
+        "@id": "_:bn100672",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6539,14 +6646,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100667",
+        "@id": "_:bn100673",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6563,7 +6670,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100668",
+        "@id": "_:bn100674",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6572,7 +6679,7 @@
         }
       },
       {
-        "@id": "_:bn100669",
+        "@id": "_:bn100675",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6591,7 +6698,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100670",
+        "@id": "_:bn100676",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6605,14 +6712,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100671",
+        "@id": "_:bn100677",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6629,7 +6736,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100672",
+        "@id": "_:bn100678",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6638,7 +6745,7 @@
         }
       },
       {
-        "@id": "_:bn100673",
+        "@id": "_:bn100679",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6662,7 +6769,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100674",
+        "@id": "_:bn100680",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6676,14 +6783,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100675",
+        "@id": "_:bn100681",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6700,7 +6807,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100676",
+        "@id": "_:bn100682",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6709,7 +6816,7 @@
         }
       },
       {
-        "@id": "_:bn100677",
+        "@id": "_:bn100683",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6728,7 +6835,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100678",
+        "@id": "_:bn100684",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6742,14 +6849,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100679",
+        "@id": "_:bn100685",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6766,7 +6873,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100680",
+        "@id": "_:bn100686",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6775,7 +6882,7 @@
         }
       },
       {
-        "@id": "_:bn100681",
+        "@id": "_:bn100687",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6794,7 +6901,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100682",
+        "@id": "_:bn100688",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6808,14 +6915,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100683",
+        "@id": "_:bn100689",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6832,7 +6939,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100684",
+        "@id": "_:bn100690",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6841,7 +6948,7 @@
         }
       },
       {
-        "@id": "_:bn100685",
+        "@id": "_:bn100691",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6860,7 +6967,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100686",
+        "@id": "_:bn100692",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6874,14 +6981,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100687",
+        "@id": "_:bn100693",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6898,7 +7005,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100688",
+        "@id": "_:bn100694",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6907,7 +7014,7 @@
         }
       },
       {
-        "@id": "_:bn100689",
+        "@id": "_:bn100695",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6926,7 +7033,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100690",
+        "@id": "_:bn100696",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6940,14 +7047,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100691",
+        "@id": "_:bn100697",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -6964,7 +7071,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100692",
+        "@id": "_:bn100698",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -6973,7 +7080,7 @@
         }
       },
       {
-        "@id": "_:bn100693",
+        "@id": "_:bn100699",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6989,7 +7096,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn100694",
+        "@id": "_:bn100700",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19157",
@@ -7011,7 +7118,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100695",
+        "@id": "_:bn100701",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7025,14 +7132,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100696",
+        "@id": "_:bn100702",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7054,7 +7161,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100697",
+        "@id": "_:bn100703",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7063,7 +7170,7 @@
         }
       },
       {
-        "@id": "_:bn100698",
+        "@id": "_:bn100704",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7082,7 +7189,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100699",
+        "@id": "_:bn100705",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7096,14 +7203,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100700",
+        "@id": "_:bn100706",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7120,7 +7227,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100701",
+        "@id": "_:bn100707",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7129,7 +7236,7 @@
         }
       },
       {
-        "@id": "_:bn100702",
+        "@id": "_:bn100708",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7148,7 +7255,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100703",
+        "@id": "_:bn100709",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7162,14 +7269,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100704",
+        "@id": "_:bn100710",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7191,7 +7298,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100705",
+        "@id": "_:bn100711",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7200,7 +7307,7 @@
         }
       },
       {
-        "@id": "_:bn100706",
+        "@id": "_:bn100712",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7219,7 +7326,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100707",
+        "@id": "_:bn100713",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7233,14 +7340,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100708",
+        "@id": "_:bn100714",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7262,7 +7369,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100709",
+        "@id": "_:bn100715",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7271,7 +7378,7 @@
         }
       },
       {
-        "@id": "_:bn100710",
+        "@id": "_:bn100716",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7287,7 +7394,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn100711",
+        "@id": "_:bn100717",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19157",
@@ -7309,7 +7416,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100712",
+        "@id": "_:bn100718",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7323,14 +7430,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100713",
+        "@id": "_:bn100719",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7347,7 +7454,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100714",
+        "@id": "_:bn100720",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7356,7 +7463,7 @@
         }
       },
       {
-        "@id": "_:bn100715",
+        "@id": "_:bn100721",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7375,7 +7482,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100716",
+        "@id": "_:bn100722",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7389,14 +7496,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100717",
+        "@id": "_:bn100723",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7418,7 +7525,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100718",
+        "@id": "_:bn100724",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7427,7 +7534,7 @@
         }
       },
       {
-        "@id": "_:bn100719",
+        "@id": "_:bn100725",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7446,7 +7553,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100720",
+        "@id": "_:bn100726",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7460,14 +7567,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100721",
+        "@id": "_:bn100727",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7484,7 +7591,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100722",
+        "@id": "_:bn100728",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7493,7 +7600,7 @@
         }
       },
       {
-        "@id": "_:bn100723",
+        "@id": "_:bn100729",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7512,7 +7619,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100724",
+        "@id": "_:bn100730",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7526,14 +7633,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100725",
+        "@id": "_:bn100731",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7550,7 +7657,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100726",
+        "@id": "_:bn100732",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7559,7 +7666,7 @@
         }
       },
       {
-        "@id": "_:bn100727",
+        "@id": "_:bn100733",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7578,7 +7685,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100728",
+        "@id": "_:bn100734",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7592,14 +7699,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100729",
+        "@id": "_:bn100735",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7616,7 +7723,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100730",
+        "@id": "_:bn100736",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7625,7 +7732,7 @@
         }
       },
       {
-        "@id": "_:bn100731",
+        "@id": "_:bn100737",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7644,7 +7751,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100732",
+        "@id": "_:bn100738",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7658,14 +7765,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100733",
+        "@id": "_:bn100739",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7682,7 +7789,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100734",
+        "@id": "_:bn100740",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7691,7 +7798,7 @@
         }
       },
       {
-        "@id": "_:bn100735",
+        "@id": "_:bn100741",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7710,7 +7817,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100736",
+        "@id": "_:bn100742",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7724,14 +7831,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100737",
+        "@id": "_:bn100743",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7758,7 +7865,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100738",
+        "@id": "_:bn100744",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7767,7 +7874,7 @@
         }
       },
       {
-        "@id": "_:bn100739",
+        "@id": "_:bn100745",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7791,7 +7898,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100740",
+        "@id": "_:bn100746",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7805,14 +7912,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100741",
+        "@id": "_:bn100747",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7834,7 +7941,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100742",
+        "@id": "_:bn100748",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7843,7 +7950,7 @@
         }
       },
       {
-        "@id": "_:bn100743",
+        "@id": "_:bn100749",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7862,7 +7969,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100744",
+        "@id": "_:bn100750",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7876,14 +7983,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100745",
+        "@id": "_:bn100751",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7900,7 +8007,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100746",
+        "@id": "_:bn100752",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7909,7 +8016,7 @@
         }
       },
       {
-        "@id": "_:bn100747",
+        "@id": "_:bn100753",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7928,7 +8035,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100748",
+        "@id": "_:bn100754",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7942,14 +8049,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100749",
+        "@id": "_:bn100755",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -7966,7 +8073,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100750",
+        "@id": "_:bn100756",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7975,7 +8082,7 @@
         }
       },
       {
-        "@id": "_:bn100751",
+        "@id": "_:bn100757",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7994,7 +8101,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100752",
+        "@id": "_:bn100758",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8005,14 +8112,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100753",
+        "@id": "_:bn100759",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8029,7 +8136,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100754",
+        "@id": "_:bn100760",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8038,7 +8145,7 @@
         }
       },
       {
-        "@id": "_:bn100755",
+        "@id": "_:bn100761",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8057,7 +8164,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100756",
+        "@id": "_:bn100762",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8071,14 +8178,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100757",
+        "@id": "_:bn100763",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8095,7 +8202,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100758",
+        "@id": "_:bn100764",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8104,7 +8211,7 @@
         }
       },
       {
-        "@id": "_:bn100759",
+        "@id": "_:bn100765",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8123,7 +8230,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100760",
+        "@id": "_:bn100766",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8137,14 +8244,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100761",
+        "@id": "_:bn100767",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8161,7 +8268,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100762",
+        "@id": "_:bn100768",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8170,7 +8277,7 @@
         }
       },
       {
-        "@id": "_:bn100763",
+        "@id": "_:bn100769",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8189,7 +8296,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100764",
+        "@id": "_:bn100770",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8203,14 +8310,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100765",
+        "@id": "_:bn100771",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8227,7 +8334,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100766",
+        "@id": "_:bn100772",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8236,7 +8343,7 @@
         }
       },
       {
-        "@id": "_:bn100767",
+        "@id": "_:bn100773",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8255,7 +8362,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100768",
+        "@id": "_:bn100774",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8269,14 +8376,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100769",
+        "@id": "_:bn100775",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8293,7 +8400,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100770",
+        "@id": "_:bn100776",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8302,7 +8409,7 @@
         }
       },
       {
-        "@id": "_:bn100771",
+        "@id": "_:bn100777",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8321,7 +8428,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100772",
+        "@id": "_:bn100778",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8335,14 +8442,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100773",
+        "@id": "_:bn100779",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8359,7 +8466,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100774",
+        "@id": "_:bn100780",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8368,7 +8475,7 @@
         }
       },
       {
-        "@id": "_:bn100775",
+        "@id": "_:bn100781",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8387,7 +8494,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100776",
+        "@id": "_:bn100782",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8401,14 +8508,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100777",
+        "@id": "_:bn100783",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8425,7 +8532,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100778",
+        "@id": "_:bn100784",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8434,7 +8541,7 @@
         }
       },
       {
-        "@id": "_:bn100779",
+        "@id": "_:bn100785",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8453,7 +8560,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100780",
+        "@id": "_:bn100786",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8467,14 +8574,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100781",
+        "@id": "_:bn100787",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8491,7 +8598,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100782",
+        "@id": "_:bn100788",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8500,7 +8607,7 @@
         }
       },
       {
-        "@id": "_:bn100783",
+        "@id": "_:bn100789",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8519,7 +8626,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100784",
+        "@id": "_:bn100790",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8533,14 +8640,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100785",
+        "@id": "_:bn100791",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8557,7 +8664,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100786",
+        "@id": "_:bn100792",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8566,7 +8673,7 @@
         }
       },
       {
-        "@id": "_:bn100787",
+        "@id": "_:bn100793",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8585,7 +8692,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100788",
+        "@id": "_:bn100794",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8599,14 +8706,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100789",
+        "@id": "_:bn100795",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8623,7 +8730,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100790",
+        "@id": "_:bn100796",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8632,7 +8739,7 @@
         }
       },
       {
-        "@id": "_:bn100791",
+        "@id": "_:bn100797",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8651,7 +8758,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100792",
+        "@id": "_:bn100798",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8665,14 +8772,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100793",
+        "@id": "_:bn100799",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8689,7 +8796,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100794",
+        "@id": "_:bn100800",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8698,7 +8805,7 @@
         }
       },
       {
-        "@id": "_:bn100795",
+        "@id": "_:bn100801",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8717,7 +8824,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100796",
+        "@id": "_:bn100802",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8731,14 +8838,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100797",
+        "@id": "_:bn100803",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8755,7 +8862,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100798",
+        "@id": "_:bn100804",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8764,7 +8871,7 @@
         }
       },
       {
-        "@id": "_:bn100799",
+        "@id": "_:bn100805",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8783,7 +8890,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100800",
+        "@id": "_:bn100806",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8797,14 +8904,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100801",
+        "@id": "_:bn100807",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8821,7 +8928,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100802",
+        "@id": "_:bn100808",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8830,7 +8937,7 @@
         }
       },
       {
-        "@id": "_:bn100803",
+        "@id": "_:bn100809",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8849,7 +8956,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100804",
+        "@id": "_:bn100810",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8863,14 +8970,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100805",
+        "@id": "_:bn100811",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8887,7 +8994,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100806",
+        "@id": "_:bn100812",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8896,7 +9003,7 @@
         }
       },
       {
-        "@id": "_:bn100807",
+        "@id": "_:bn100813",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8915,7 +9022,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100808",
+        "@id": "_:bn100814",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8929,14 +9036,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100809",
+        "@id": "_:bn100815",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -8953,7 +9060,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100810",
+        "@id": "_:bn100816",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -8962,7 +9069,7 @@
         }
       },
       {
-        "@id": "_:bn100811",
+        "@id": "_:bn100817",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8981,7 +9088,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100812",
+        "@id": "_:bn100818",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8995,14 +9102,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100813",
+        "@id": "_:bn100819",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -9019,7 +9126,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100814",
+        "@id": "_:bn100820",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9028,7 +9135,7 @@
         }
       },
       {
-        "@id": "_:bn100815",
+        "@id": "_:bn100821",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9047,7 +9154,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100816",
+        "@id": "_:bn100822",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9061,14 +9168,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100817",
+        "@id": "_:bn100823",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -9085,7 +9192,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100818",
+        "@id": "_:bn100824",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9094,7 +9201,7 @@
         }
       },
       {
-        "@id": "_:bn100819",
+        "@id": "_:bn100825",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9113,7 +9220,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100820",
+        "@id": "_:bn100826",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9127,14 +9234,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100821",
+        "@id": "_:bn100827",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -9151,7 +9258,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100822",
+        "@id": "_:bn100828",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9160,7 +9267,7 @@
         }
       },
       {
-        "@id": "_:bn100823",
+        "@id": "_:bn100829",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9179,7 +9286,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100824",
+        "@id": "_:bn100830",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9193,14 +9300,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100825",
+        "@id": "_:bn100831",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -9222,7 +9329,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100826",
+        "@id": "_:bn100832",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9231,7 +9338,7 @@
         }
       },
       {
-        "@id": "_:bn100827",
+        "@id": "_:bn100833",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9250,7 +9357,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100828",
+        "@id": "_:bn100834",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9264,14 +9371,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100829",
+        "@id": "_:bn100835",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -9293,7 +9400,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100830",
+        "@id": "_:bn100836",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9302,7 +9409,7 @@
         }
       },
       {
-        "@id": "_:bn100831",
+        "@id": "_:bn100837",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9321,7 +9428,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100832",
+        "@id": "_:bn100838",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9335,14 +9442,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100833",
+        "@id": "_:bn100839",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -9359,7 +9466,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100834",
+        "@id": "_:bn100840",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9368,7 +9475,7 @@
         }
       },
       {
-        "@id": "_:bn100835",
+        "@id": "_:bn100841",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9387,7 +9494,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100836",
+        "@id": "_:bn100842",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9401,14 +9508,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100837",
+        "@id": "_:bn100843",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -9425,7 +9532,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100838",
+        "@id": "_:bn100844",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9434,7 +9541,7 @@
         }
       },
       {
-        "@id": "_:bn100839",
+        "@id": "_:bn100845",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9453,7 +9560,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100840",
+        "@id": "_:bn100846",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9467,14 +9574,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100841",
+        "@id": "_:bn100847",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -9496,7 +9603,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100842",
+        "@id": "_:bn100848",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9505,7 +9612,7 @@
         }
       },
       {
-        "@id": "_:bn100843",
+        "@id": "_:bn100849",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9524,7 +9631,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100844",
+        "@id": "_:bn100850",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9538,14 +9645,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100845",
+        "@id": "_:bn100851",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -9567,7 +9674,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100846",
+        "@id": "_:bn100852",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9576,7 +9683,7 @@
         }
       },
       {
-        "@id": "_:bn100847",
+        "@id": "_:bn100853",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9595,7 +9702,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100848",
+        "@id": "_:bn100854",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9609,14 +9716,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100849",
+        "@id": "_:bn100855",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -9633,7 +9740,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100850",
+        "@id": "_:bn100856",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9642,7 +9749,7 @@
         }
       },
       {
-        "@id": "_:bn100851",
+        "@id": "_:bn100857",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9661,7 +9768,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100852",
+        "@id": "_:bn100858",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9675,14 +9782,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100853",
+        "@id": "_:bn100859",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -9699,7 +9806,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100854",
+        "@id": "_:bn100860",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9708,7 +9815,7 @@
         }
       },
       {
-        "@id": "_:bn100855",
+        "@id": "_:bn100861",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9727,7 +9834,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100856",
+        "@id": "_:bn100862",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9741,14 +9848,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100857",
+        "@id": "_:bn100863",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -9765,7 +9872,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100858",
+        "@id": "_:bn100864",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9774,7 +9881,7 @@
         }
       },
       {
-        "@id": "_:bn100859",
+        "@id": "_:bn100865",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9793,7 +9900,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100860",
+        "@id": "_:bn100866",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9807,14 +9914,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100861",
+        "@id": "_:bn100867",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19157",
             "rdfs:label": "artist"
@@ -9831,7 +9938,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100862",
+        "@id": "_:bn100868",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9840,7 +9947,7 @@
         }
       },
       {
-        "@id": "_:bn100863",
+        "@id": "_:bn100869",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9859,7 +9966,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100864",
+        "@id": "_:bn100870",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9870,14 +9977,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100865",
+        "@id": "_:bn100871",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -9894,7 +10001,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100866",
+        "@id": "_:bn100872",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27437",
@@ -9920,7 +10027,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn100867",
+        "@id": "_:bn100873",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -9929,7 +10036,7 @@
         }
       },
       {
-        "@id": "_:bn100868",
+        "@id": "_:bn100874",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -9948,7 +10055,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn100869",
+        "@id": "_:bn100875",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -9959,14 +10066,14 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn100870",
+        "@id": "_:bn100876",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
         },
-        "role": [
+        "subjectHasRole": [
           {
             "@id": "semlab:Q19081",
             "rdfs:label": "engineer"
@@ -9991,7 +10098,7 @@
     ],
     "fieldOfWork": [
       {
-        "@id": "_:bn100871",
+        "@id": "_:bn100877",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27424",
@@ -10003,113 +10110,6 @@
             "@id": "semlab:Q27087",
             "rdfs:label": "Block 0 of B14 Brian Sherman Edge-Notched Card",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26717/0.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn100872",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn100873",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26553",
-    "rdfs:label": "Paul Bucharest",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn100874",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn100875",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "role": [
-          {
-            "@id": "semlab:Q19081",
-            "rdfs:label": "engineer"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27088",
-            "rdfs:label": "Block 0 of B14 Paul Bucharest Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26718/0.txt"
-          }
-        ]
-      }
-    ],
-    "employer": [
-      {
-        "@id": "_:bn100876",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25509",
-          "rdfs:label": "New York University",
-          "@type": "School"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27088",
-            "rdfs:label": "Block 0 of B14 Paul Bucharest Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26718/0.txt"
-          }
-        ]
-      }
-    ],
-    "streetAddress": [
-      {
-        "@value": {
-          "text": "505 Grand st NYC, N.Y. 10002",
-          "language": "en"
-        }
-      }
-    ],
-    "fieldOfWork": [
-      {
-        "@id": "_:bn100877",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27418",
-          "rdfs:label": "psychology",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27088",
-            "rdfs:label": "Block 0 of B14 Paul Bucharest Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26718/0.txt"
           }
         ]
       }
