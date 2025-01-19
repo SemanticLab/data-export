@@ -1174,6 +1174,17 @@
         "end date"
       ]
     },
+    "objectHasRole": {
+      "@id": "http://base.semlab.io/entity/P262",
+      "skos:prefLabel": "object has role",
+      "skos:altLabel": [
+        "object of statement has role"
+      ],
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P3831"
+      ],
+      "skos:note": "role of the value (object) in a statement; to qualify a subject with its role, use P117"
+    },
     "constraintEntityTypes": {
       "@id": "http://base.semlab.io/entity/P238",
       "skos:prefLabel": "constraint entity types",
@@ -1272,17 +1283,6 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
-    },
-    "objectHasRole": {
-      "@id": "http://base.semlab.io/entity/P262",
-      "skos:prefLabel": "object has role",
-      "skos:altLabel": [
-        "object of statement has role"
-      ],
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P3831"
-      ],
-      "skos:note": "role of the value (object) in a statement; to qualify a subject with its role, use P117"
     },
     "syntaxClarification": {
       "@id": "http://base.semlab.io/entity/P235",
@@ -2049,8 +2049,8 @@
       "@id": "http://base.semlab.io/entity/Q19071",
       "skos:prefLabel": "event",
       "skos:altLabel": [
-        "competition",
-        "events"
+        "events",
+        "competition"
       ],
       "owl:equivalentClass": [
         "https://schema.org/Event"
@@ -2345,12 +2345,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
-        "career",
         "craft",
         "employment",
         "job",
         "profession",
-        "work"
+        "work",
+        "career"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
