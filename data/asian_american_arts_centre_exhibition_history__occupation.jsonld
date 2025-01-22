@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn96465",
+        "@id": "_:bn96461",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn96466",
+        "@id": "_:bn96462",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -28,7 +28,7 @@
         }
       },
       {
-        "@id": "_:bn96467",
+        "@id": "_:bn96463",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
@@ -42,6 +42,71 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q25654",
     "rdfs:label": "selection committee member",
+    "@type": [
+      "Occupation"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn96464",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19070",
+          "rdfs:label": "occupation",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn96465",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25722",
+    "rdfs:label": "director",
+    "@type": [
+      "Occupation"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn96466",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19070",
+          "rdfs:label": "occupation",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn96467",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3455803"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25723",
+    "rdfs:label": "filmmaker",
     "@type": [
       "Occupation"
     ],
@@ -66,12 +131,17 @@
           "@type": "SemanticLabProject"
         }
       }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1414443"
+      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25722",
-    "rdfs:label": "director",
+    "@id": "semlab:Q25724",
+    "rdfs:label": "poet",
     "@type": [
       "Occupation"
     ],
@@ -89,76 +159,6 @@
     "partOfProject": [
       {
         "@id": "_:bn96471",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24831",
-          "rdfs:label": "Asian American Arts Centre Exhibition History",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3455803"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25723",
-    "rdfs:label": "filmmaker",
-    "@type": [
-      "Occupation"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn96472",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19070",
-          "rdfs:label": "occupation",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn96473",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24831",
-          "rdfs:label": "Asian American Arts Centre Exhibition History",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q1414443"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25724",
-    "rdfs:label": "poet",
-    "@type": [
-      "Occupation"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn96474",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19070",
-          "rdfs:label": "occupation",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn96475",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
