@@ -1174,6 +1174,17 @@
         "end date"
       ]
     },
+    "objectHasRole": {
+      "@id": "http://base.semlab.io/entity/P262",
+      "skos:prefLabel": "object has role",
+      "skos:altLabel": [
+        "object of statement has role"
+      ],
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P3831"
+      ],
+      "skos:note": "role of the value (object) in a statement; to qualify a subject with its role, use P117"
+    },
     "constraintEntityTypes": {
       "@id": "http://base.semlab.io/entity/P238",
       "skos:prefLabel": "constraint entity types",
@@ -1292,17 +1303,6 @@
       "@id": "http://base.semlab.io/entity/P239",
       "skos:prefLabel": "separator",
       "skos:note": "specifies the allowed separator(s) for \u201csingle value\u201d and \u201csingle best value\u201d constraints"
-    },
-    "objectHasRole": {
-      "@id": "http://base.semlab.io/entity/P262",
-      "skos:prefLabel": "object has role",
-      "skos:altLabel": [
-        "object of statement has role"
-      ],
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P3831"
-      ],
-      "skos:note": "role of the value (object) in a statement; to qualify a subject with its role, use P117"
     },
     "signedWith": {
       "@id": "http://base.semlab.io/entity/P169",
@@ -1488,15 +1488,6 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
-        "area of work",
-        "area",
-        "activity domain",
-        "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1514,7 +1505,16 @@
         "domain of activity",
         "discipline",
         "conduct research about",
-        "be researcher in"
+        "be researcher in",
+        "area of work",
+        "area",
+        "activity domain",
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
       ],
       "owl:equivalentClass": [
         "http://www.wikidata.org/entity/P101"
@@ -1793,8 +1793,8 @@
       "@id": "http://base.semlab.io/entity/Q19073",
       "skos:prefLabel": "artwork",
       "skos:altLabel": [
-        "work of art",
-        "art piece"
+        "art piece",
+        "work of art"
       ],
       "skos:note": "an artistic creation"
     },
@@ -2049,8 +2049,8 @@
       "@id": "http://base.semlab.io/entity/Q19071",
       "skos:prefLabel": "event",
       "skos:altLabel": [
-        "competition",
-        "events"
+        "events",
+        "competition"
       ],
       "owl:equivalentClass": [
         "https://schema.org/Event"
