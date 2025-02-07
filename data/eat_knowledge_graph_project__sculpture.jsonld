@@ -2,53 +2,22 @@
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q19315",
-    "rdfs:label": "Homage to New York",
+    "rdfs:label": "Homage to New York (sculpture)",
     "@type": [
-      "Artwork",
-      "Sculpture",
-      "Performance"
+      "Sculpture"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78554",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19073",
-          "rdfs:label": "artwork",
-          "@type": "Class"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24636",
-            "rdfs:label": "Block 2 of The Story of E.A.T. (pp.1-30)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/2.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn78555",
+        "@id": "_:bn78482",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
           "rdfs:label": "sculpture",
           "@type": "Class"
         },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24636",
-            "rdfs:label": "Block 2 of The Story of E.A.T. (pp.1-30)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/2.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn78556",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19074",
-          "rdfs:label": "performance",
-          "@type": "Class"
-        },
+        "objectNamedAs": [
+          "kinetic sculpture"
+        ],
         "referenceBlock": [
           {
             "@id": "semlab:Q24636",
@@ -60,7 +29,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78557",
+        "@id": "_:bn78483",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -71,16 +40,13 @@
     ],
     "creator": [
       {
-        "@id": "_:bn78558",
+        "@id": "_:bn78484",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19339",
           "rdfs:label": "Jean Tinguely",
           "@type": "Person"
         },
-        "date": [
-          "+1960-00-00T00:00:00Z"
-        ],
         "referenceBlock": [
           {
             "@id": "semlab:Q24635",
@@ -102,7 +68,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn78559",
+        "@id": "_:bn78485",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19471",
@@ -124,12 +90,15 @@
             "rdfs:label": "Block 2 of The Story of E.A.T. (pp.1-30)",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/2.txt"
           }
+        ],
+        "referenceUrl": [
+          "https://www.moma.org/calendar/exhibitions/3369"
         ]
       }
     ],
     "uses": [
       {
-        "@id": "_:bn78560",
+        "@id": "_:bn78486",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24357",
@@ -145,7 +114,7 @@
         ]
       },
       {
-        "@id": "_:bn78561",
+        "@id": "_:bn78487",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24337",
@@ -161,7 +130,7 @@
         ]
       },
       {
-        "@id": "_:bn78562",
+        "@id": "_:bn78488",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20630",
@@ -175,20 +144,11 @@
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/2.txt"
           }
         ]
-      },
-      {
-        "@id": "_:bn78563",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19462",
-          "rdfs:label": "Money Thrower",
-          "@type": "Artwork"
-        }
       }
     ],
     "contributor": [
       {
-        "@id": "_:bn78564",
+        "@id": "_:bn78489",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -208,6 +168,129 @@
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/12.txt"
           }
         ]
+      },
+      {
+        "@id": "_:bn78490",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        },
+        "referenceUrl": [
+          "https://www.rauschenbergfoundation.org/art/artwork/money-thrower-tinguelys-htny"
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1960-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn78491",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28937",
+          "rdfs:label": "Homage to New York (exhibition event)",
+          "@type": "ExhibitionEvent"
+        }
+      }
+    ],
+    "hasParts": [
+      {
+        "@id": "_:bn78492",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19462",
+          "rdfs:label": "Money Thrower (sculpture)",
+          "@type": "Sculpture"
+        }
+      }
+    ],
+    "description": [
+      {
+        "@value": "A self-constructing and self-destroying work of art conceived and built by Jean Tinguely"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q19462",
+    "rdfs:label": "Money Thrower (sculpture)",
+    "@type": [
+      "Sculpture"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn78493",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24556",
+          "rdfs:label": "sculpture",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn78494",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn78495",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1960-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn78496",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19315",
+          "rdfs:label": "Homage to New York (sculpture)",
+          "@type": "Sculpture"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Money Thrower for Tinguely's H.T.N.Y.",
+          "language": "en"
+        }
       }
     ]
   },
@@ -220,7 +303,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78565",
+        "@id": "_:bn78497",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -238,7 +321,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78566",
+        "@id": "_:bn78498",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -249,7 +332,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn78567",
+        "@id": "_:bn78499",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19143",
@@ -272,7 +355,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn78568",
+        "@id": "_:bn78500",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -299,7 +382,7 @@
         ]
       },
       {
-        "@id": "_:bn78569",
+        "@id": "_:bn78501",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19305",
@@ -323,7 +406,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn78570",
+        "@id": "_:bn78502",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24361",
@@ -339,7 +422,7 @@
         ]
       },
       {
-        "@id": "_:bn78571",
+        "@id": "_:bn78503",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24561",
@@ -355,7 +438,7 @@
         ]
       },
       {
-        "@id": "_:bn78572",
+        "@id": "_:bn78504",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23417",
@@ -373,7 +456,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn78573",
+        "@id": "_:bn78505",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19400",
@@ -402,7 +485,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78574",
+        "@id": "_:bn78506",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -416,7 +499,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78575",
+        "@id": "_:bn78507",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -427,7 +510,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn78576",
+        "@id": "_:bn78508",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19339",
@@ -445,7 +528,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn78577",
+        "@id": "_:bn78509",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24358",
@@ -471,7 +554,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78578",
+        "@id": "_:bn78510",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -485,7 +568,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78579",
+        "@id": "_:bn78511",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -496,7 +579,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn78580",
+        "@id": "_:bn78512",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19395",
@@ -514,7 +597,7 @@
     ],
     "source": [
       {
-        "@id": "_:bn78581",
+        "@id": "_:bn78513",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19192",
@@ -546,7 +629,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78582",
+        "@id": "_:bn78514",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -560,7 +643,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78583",
+        "@id": "_:bn78515",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -571,7 +654,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn78584",
+        "@id": "_:bn78516",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24206",
@@ -589,7 +672,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn78585",
+        "@id": "_:bn78517",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19547",
@@ -607,7 +690,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn78586",
+        "@id": "_:bn78518",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24337",
@@ -623,7 +706,7 @@
         ]
       },
       {
-        "@id": "_:bn78587",
+        "@id": "_:bn78519",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24359",
@@ -649,7 +732,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78588",
+        "@id": "_:bn78520",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -677,7 +760,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78589",
+        "@id": "_:bn78521",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -688,7 +771,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn78590",
+        "@id": "_:bn78522",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24409",
@@ -719,7 +802,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn78591",
+        "@id": "_:bn78523",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24349",
@@ -735,7 +818,7 @@
         ]
       },
       {
-        "@id": "_:bn78592",
+        "@id": "_:bn78524",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24676",
@@ -753,7 +836,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn78593",
+        "@id": "_:bn78525",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -785,7 +868,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78594",
+        "@id": "_:bn78526",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -801,7 +884,7 @@
         ]
       },
       {
-        "@id": "_:bn78595",
+        "@id": "_:bn78527",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -819,7 +902,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn78596",
+        "@id": "_:bn78528",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19283",
@@ -850,7 +933,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn78597",
+        "@id": "_:bn78529",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24480",
@@ -877,7 +960,7 @@
         ]
       },
       {
-        "@id": "_:bn78598",
+        "@id": "_:bn78530",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24233",
@@ -893,7 +976,7 @@
         ]
       },
       {
-        "@id": "_:bn78599",
+        "@id": "_:bn78531",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24490",
@@ -911,7 +994,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn78600",
+        "@id": "_:bn78532",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19636",
@@ -936,7 +1019,7 @@
         ]
       },
       {
-        "@id": "_:bn78601",
+        "@id": "_:bn78533",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19550",
@@ -948,7 +1031,7 @@
         ]
       },
       {
-        "@id": "_:bn78602",
+        "@id": "_:bn78534",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -960,7 +1043,7 @@
         ]
       },
       {
-        "@id": "_:bn78603",
+        "@id": "_:bn78535",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24409",
@@ -972,7 +1055,7 @@
         ]
       },
       {
-        "@id": "_:bn78604",
+        "@id": "_:bn78536",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19233",
@@ -986,7 +1069,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn78605",
+        "@id": "_:bn78537",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -1019,7 +1102,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78606",
+        "@id": "_:bn78538",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1039,7 +1122,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78607",
+        "@id": "_:bn78539",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -1055,7 +1138,7 @@
         ]
       },
       {
-        "@id": "_:bn78608",
+        "@id": "_:bn78540",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -1073,7 +1156,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78609",
+        "@id": "_:bn78541",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1084,7 +1167,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn78610",
+        "@id": "_:bn78542",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24438",
@@ -1100,7 +1183,7 @@
         ]
       },
       {
-        "@id": "_:bn78611",
+        "@id": "_:bn78543",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19371",
@@ -1116,7 +1199,7 @@
         ]
       },
       {
-        "@id": "_:bn78612",
+        "@id": "_:bn78544",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -1132,7 +1215,7 @@
         ]
       },
       {
-        "@id": "_:bn78613",
+        "@id": "_:bn78545",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24437",
@@ -1154,7 +1237,7 @@
         ]
       },
       {
-        "@id": "_:bn78614",
+        "@id": "_:bn78546",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24439",
@@ -1184,7 +1267,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn78615",
+        "@id": "_:bn78547",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19283",
@@ -1202,7 +1285,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn78616",
+        "@id": "_:bn78548",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24490",
@@ -1228,7 +1311,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78617",
+        "@id": "_:bn78549",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -1246,7 +1329,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78618",
+        "@id": "_:bn78550",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1257,7 +1340,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn78619",
+        "@id": "_:bn78551",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24699",
@@ -1275,7 +1358,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn78620",
+        "@id": "_:bn78552",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24360",
@@ -1291,7 +1374,7 @@
         ]
       },
       {
-        "@id": "_:bn78621",
+        "@id": "_:bn78553",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24548",
@@ -1307,7 +1390,7 @@
         ]
       },
       {
-        "@id": "_:bn78622",
+        "@id": "_:bn78554",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24702",
@@ -1323,7 +1406,7 @@
         ]
       },
       {
-        "@id": "_:bn78623",
+        "@id": "_:bn78555",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24703",
@@ -1341,7 +1424,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn78624",
+        "@id": "_:bn78556",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24701",
@@ -1357,7 +1440,7 @@
         ]
       },
       {
-        "@id": "_:bn78625",
+        "@id": "_:bn78557",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24533",
@@ -1376,7 +1459,7 @@
         ]
       },
       {
-        "@id": "_:bn78626",
+        "@id": "_:bn78558",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24534",
@@ -1394,7 +1477,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn78627",
+        "@id": "_:bn78559",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19508",
@@ -1416,7 +1499,7 @@
         ]
       },
       {
-        "@id": "_:bn78628",
+        "@id": "_:bn78560",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -1442,7 +1525,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78629",
+        "@id": "_:bn78561",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24556",
@@ -1453,7 +1536,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78630",
+        "@id": "_:bn78562",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1464,7 +1547,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn78631",
+        "@id": "_:bn78563",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24712",
@@ -1496,7 +1579,7 @@
         ]
       },
       {
-        "@id": "_:bn78632",
+        "@id": "_:bn78564",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24713",
@@ -1530,7 +1613,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn78633",
+        "@id": "_:bn78565",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24710",
@@ -1546,7 +1629,7 @@
         ]
       },
       {
-        "@id": "_:bn78634",
+        "@id": "_:bn78566",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24711",
@@ -1564,7 +1647,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn78635",
+        "@id": "_:bn78567",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19515",
@@ -1588,7 +1671,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn78636",
+        "@id": "_:bn78568",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24707",
@@ -1608,107 +1691,6 @@
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/9.txt"
           }
         ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q28936",
-    "rdfs:label": "Homage to New York (sculpture)",
-    "@type": [
-      "Sculpture"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn78637",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24556",
-          "rdfs:label": "sculpture",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn78638",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn78639",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19339",
-          "rdfs:label": "Jean Tinguely",
-          "@type": "Person"
-        }
-      }
-    ],
-    "uses": [
-      {
-        "@id": "_:bn78640",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24357",
-          "rdfs:label": "bicycle wheels",
-          "@type": "ArtMaterial"
-        }
-      },
-      {
-        "@id": "_:bn78641",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24337",
-          "rdfs:label": "timing device",
-          "@type": "Technology"
-        }
-      },
-      {
-        "@id": "_:bn78642",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20630",
-          "rdfs:label": "piano",
-          "@type": "ArtMaterial"
-        }
-      },
-      {
-        "@id": "_:bn78643",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19462",
-          "rdfs:label": "Money Thrower",
-          "@type": "Artwork"
-        }
-      }
-    ],
-    "manifestationOf": [
-      {
-        "@id": "_:bn78644",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28935",
-          "rdfs:label": "Homage to New York (artwork)",
-          "@type": "Artwork"
-        }
-      }
-    ],
-    "usedIn": [
-      {
-        "@id": "_:bn78645",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28937",
-          "rdfs:label": "Homage to New York (event)",
-          "@type": "Event"
-        }
       }
     ]
   }
