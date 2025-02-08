@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2025-02-07
+Generated: 2025-02-08
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -135,7 +135,7 @@ Generated: 2025-02-07
 | Occupation    | [eat_knowledge_graph_project__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__occupation.jsonld) | 36  |
 | Event    | [eat_knowledge_graph_project__event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__event.jsonld) | 17  |
 | Venue    | [eat_knowledge_graph_project__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__venue.jsonld) | 11  |
-| Artwork    | [eat_knowledge_graph_project__artwork.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artwork.jsonld) | 76  |
+| Artwork (Concept)    | [eat_knowledge_graph_project__artwork_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artwork_(concept).jsonld) | 76  |
 | Performance    | [eat_knowledge_graph_project__performance.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__performance.jsonld) | 23  |
 | Archival Object    | [eat_knowledge_graph_project__archival_object.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__archival_object.jsonld) | 1  |
 | Technology    | [eat_knowledge_graph_project__technology.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__technology.jsonld) | 83  |
@@ -165,7 +165,7 @@ Generated: 2025-02-07
 | Artist Statement    | [eat_knowledge_graph_project__artist_statement.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artist_statement.jsonld) | 18  |
 | Art Exhibition    | [eat_knowledge_graph_project__art_exhibition.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__art_exhibition.jsonld) | 14  |
 | Annotation    | [eat_knowledge_graph_project__annotation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__annotation.jsonld) | 10  |
-| Sound Installation    | [eat_knowledge_graph_project__sound_installation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__sound_installation.jsonld) | 2  |
+| Sound Installation (Concept)    | [eat_knowledge_graph_project__sound_installation_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__sound_installation_(concept).jsonld) | 2  |
 | Chart    | [eat_knowledge_graph_project__chart.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__chart.jsonld) | 1  |
 | Floor Plan    | [eat_knowledge_graph_project__floor_plan.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__floor_plan.jsonld) | 1  |
 | Form    | [eat_knowledge_graph_project__form.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__form.jsonld) | 1  |
@@ -242,7 +242,7 @@ Generated: 2025-02-07
 | Occupation    | [asian_american_arts_centre_exhibition_history__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__occupation.jsonld) | 5  |
 | Event    | [asian_american_arts_centre_exhibition_history__event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__event.jsonld) | 50  |
 | Venue    | [asian_american_arts_centre_exhibition_history__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__venue.jsonld) | 14  |
-| Artwork    | [asian_american_arts_centre_exhibition_history__artwork.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__artwork.jsonld) | 1  |
+| Artwork (Concept)    | [asian_american_arts_centre_exhibition_history__artwork_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__artwork_(concept).jsonld) | 1  |
 | Performance    | [asian_american_arts_centre_exhibition_history__performance.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__performance.jsonld) | 14  |
 | Publication    | [asian_american_arts_centre_exhibition_history__publication.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__publication.jsonld) | 1  |
 | Business    | [asian_american_arts_centre_exhibition_history__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/asian_american_arts_centre_exhibition_history__business.jsonld) | 4  |
