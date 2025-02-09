@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76952",
+        "@id": "_:bn76716",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "@id": "_:bn76953",
+        "@id": "_:bn76717",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23229",
@@ -29,7 +29,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76954",
+        "@id": "_:bn76718",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -38,7 +38,7 @@
         }
       },
       {
-        "@id": "_:bn76955",
+        "@id": "_:bn76719",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -47,7 +47,7 @@
         }
       },
       {
-        "@id": "_:bn76956",
+        "@id": "_:bn76720",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -56,7 +56,7 @@
         }
       },
       {
-        "@id": "_:bn76957",
+        "@id": "_:bn76721",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -65,7 +65,7 @@
         }
       },
       {
-        "@id": "_:bn76958",
+        "@id": "_:bn76722",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -76,7 +76,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn76959",
+        "@id": "_:bn76723",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19315",
@@ -95,6 +95,437 @@
     "wikidataQid": [
       {
         "@value": "Q5994"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24219",
+    "rdfs:label": "Bandoneon!",
+    "@type": [
+      "MusicalWork(Concept)",
+      "MusicalInstrument"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn76724",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28940",
+          "rdfs:label": "musical work (concept)",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn76725",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20619",
+          "rdfs:label": "musical instrument",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn76726",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "uses": [
+      {
+        "@id": "_:bn76727",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24548",
+          "rdfs:label": "sound",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76728",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24360",
+          "rdfs:label": "circuit",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76729",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24363",
+          "rdfs:label": "speakers",
+          "@type": "Technology"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76730",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24359",
+          "rdfs:label": "relay switches",
+          "@type": "Technology"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76731",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24349",
+          "rdfs:label": "electric light",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76732",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24564",
+          "rdfs:label": "transducers",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76733",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24230",
+          "rdfs:label": "wood",
+          "@type": "ArtMaterial"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76734",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24231",
+          "rdfs:label": "metal",
+          "@type": "ArtMaterial"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76735",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24558",
+          "rdfs:label": "control circuit",
+          "@type": "Technology"
+        },
+        "creator": [
+          {
+            "@id": "semlab:Q19282",
+            "rdfs:label": "Fred D. Waldhauer"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          },
+          {
+            "@id": "semlab:Q24656",
+            "rdfs:label": "Block 22 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/22.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76736",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24367",
+          "rdfs:label": "television",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          },
+          {
+            "@id": "semlab:Q24656",
+            "rdfs:label": "Block 22 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/22.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76737",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24373",
+          "rdfs:label": "projector",
+          "@type": "Technology"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76738",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24368",
+          "rdfs:label": "Vocoder",
+          "@type": "Technology"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24656",
+            "rdfs:label": "Block 22 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/22.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76739",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24565",
+          "rdfs:label": "horn",
+          "@type": "Sound"
+        },
+        "instanceOf": [
+          {
+            "@id": "semlab:Q24548",
+            "rdfs:label": "sound"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24656",
+            "rdfs:label": "Block 22 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/22.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76740",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24364",
+          "rdfs:label": "radio",
+          "@type": "Technology"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24656",
+            "rdfs:label": "Block 22 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/22.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76741",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24571",
+          "rdfs:label": "radio-controlled carts",
+          "@type": "Technology"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24656",
+            "rdfs:label": "Block 22 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/22.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn76742",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28942",
+          "rdfs:label": "bandoneon",
+          "@type": "MusicalInstrument"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          }
+        ]
+      }
+    ],
+    "performanceInstance": [
+      {
+        "@id": "_:bn76743",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24235",
+          "rdfs:label": "Bandoneon! (9 Evenings performances)",
+          "@type": "Performance"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          }
+        ]
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn76744",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19233",
+          "rdfs:label": "David Tudor",
+          "@type": "Person"
+        }
+      }
+    ],
+    "workPerformedAt": [
+      {
+        "@id": "_:bn76745",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19118",
+          "rdfs:label": "9 Evenings: Theatre and Engineering",
+          "@type": "Artwork(Concept)"
+        },
+        "location": [
+          {
+            "@id": "semlab:Q19117",
+            "rdfs:label": "69th Regiment Armory"
+          }
+        ],
+        "date": [
+          "+1966-00-00T00:00:00Z"
+        ]
+      }
+    ],
+    "describedOrDepictedAtUrl": [
+      {
+        "@value": "https://www.fondation-langlois.org/9evenings/e/david-tudor/background.html"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q28942",
+    "rdfs:label": "bandoneon",
+    "@type": [
+      "MusicalInstrument"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn76746",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20619",
+          "rdfs:label": "musical instrument",
+          "@type": "Class"
+        }
+      }
+    ],
+    "createdFor": [
+      {
+        "@id": "_:bn76747",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn76748",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn76749",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24219",
+          "rdfs:label": "Bandoneon!",
+          "@type": "MusicalWork(Concept)"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q215032"
       }
     ]
   }
