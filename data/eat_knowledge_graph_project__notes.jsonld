@@ -5,7 +5,7 @@
     "rdfs:label": "A40 Open Score Notes",
     "creator": [
       {
-        "@id": "_:bn78632",
+        "@id": "_:bn78415",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -22,7 +22,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78633",
+        "@id": "_:bn78416",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19069",
@@ -31,7 +31,7 @@
         }
       },
       {
-        "@id": "_:bn78634",
+        "@id": "_:bn78417",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19075",
@@ -40,7 +40,7 @@
         }
       },
       {
-        "@id": "_:bn78635",
+        "@id": "_:bn78418",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27062",
@@ -49,7 +49,7 @@
         }
       },
       {
-        "@id": "_:bn78636",
+        "@id": "_:bn78419",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27063",
@@ -60,7 +60,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn78637",
+        "@id": "_:bn78420",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19495",
@@ -69,7 +69,7 @@
         }
       },
       {
-        "@id": "_:bn78638",
+        "@id": "_:bn78421",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
@@ -80,7 +80,7 @@
     ],
     "copyrightHolder": [
       {
-        "@id": "_:bn78639",
+        "@id": "_:bn78422",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19846",
@@ -98,7 +98,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78640",
+        "@id": "_:bn78423",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -114,10 +114,10 @@
     ],
     "fileUrl": [
       {
-        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2023-01/A40_00.jpg"
+        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2025-02/A40_00.jpg"
       },
       {
-        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2023-01/A40_1.jpg"
+        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2025-02/A40_1.jpg"
       }
     ],
     "description": [
@@ -127,7 +127,7 @@
     ],
     "archivesCollection": [
       {
-        "@id": "_:bn78641",
+        "@id": "_:bn78424",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22705",
@@ -162,6 +162,138 @@
           "precision": 10,
           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
         }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Open Score Notes",
+          "language": "en"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q22945",
+    "rdfs:label": "A202 9 Evenings notes on performances",
+    "@type": [
+      "Notes"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn78425",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27063",
+          "rdfs:label": "notes",
+          "@type": "Class"
+        },
+        "format": [
+          {
+            "@id": "semlab:Q22290",
+            "rdfs:label": "draft"
+          }
+        ]
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "9 Evenings notes on performances",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1966-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "creditLine": [
+      {
+        "@value": "Creator: Unattributed"
+      }
+    ],
+    "description": [
+      {
+        "@value": "Notes on 9 Evenings: Theatre & Engineering works"
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn78426",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19495",
+          "rdfs:label": "Open Score",
+          "@type": "PerformanceArtwork(Concept)"
+        }
+      },
+      {
+        "@id": "_:bn78427",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19118",
+          "rdfs:label": "9 Evenings: Theatre and Engineering",
+          "@type": "Artwork(Concept)"
+        }
+      }
+    ],
+    "archivesCollection": [
+      {
+        "@id": "_:bn78428",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22371",
+          "rdfs:label": "Robert Rauschenberg papers at the Robert Rauschenberg Foundation Archives, New York",
+          "@type": "Collection"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28791",
+            "rdfs:label": "Block 36 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/36.txt"
+          }
+        ]
+      }
+    ],
+    "copyrightStatement": [
+      {
+        "@value": "Copyright restrictions may apply. Permission to reproduce this item must be obtained through the rights holder(s)."
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn78429",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "fileUrl": [
+      {
+        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2023-03/A202_00.jpg"
+      }
+    ],
+    "rrfaIdentifier": [
+      {
+        "@value": "A202"
+      }
+    ],
+    "citation": [
+      {
+        "@value": "Notes on 9 Evenings: Theatre & Engineering works, 1966. Creator: Unattributed."
       }
     ]
   }

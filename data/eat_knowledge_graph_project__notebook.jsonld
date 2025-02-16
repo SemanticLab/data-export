@@ -1,0 +1,183 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24063",
+    "rdfs:label": "A93 Spiral Notebook - Red",
+    "@type": [
+      "Notebook"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn81897",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28952",
+          "rdfs:label": "notebook",
+          "@type": "Class"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn81898",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        }
+      },
+      {
+        "@id": "_:bn81899",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19187",
+          "rdfs:label": "Brice Marden",
+          "@type": "Person"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Spiral Notebook - Red",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1967-10-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 10,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "creditLine": [
+      {
+        "@value": "Creator: Robert Rauschenberg Brice Marden and unidentified"
+      }
+    ],
+    "description": [
+      {
+        "@value": "Rauschenberg\u2019s notebook, with additional notes by Brice Marden and others (presumably Rauschenberg\u2019s studio staff). Includes performance notes, diagrams, and memos."
+      },
+      {
+        "@value": "Also includes a draft of a note to Steve Mark about contacting Robert Kennedy to inform him of a press conference taking place at his Lafayette St. studio on Oct 10th, announcing E.A.T.\u2019s partnerships between artists and the science and technology field"
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn81900",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        }
+      },
+      {
+        "@id": "_:bn81901",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22666",
+          "rdfs:label": "Robert Kennedy",
+          "@type": "Person"
+        }
+      },
+      {
+        "@id": "_:bn81902",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22683",
+          "rdfs:label": "E.A.T. Press Conference",
+          "@type": "Event"
+        }
+      }
+    ],
+    "archivesCollection": [
+      {
+        "@id": "_:bn81903",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22371",
+          "rdfs:label": "Robert Rauschenberg papers at the Robert Rauschenberg Foundation Archives, New York",
+          "@type": "Collection"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28765",
+            "rdfs:label": "Block 10 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/10.txt"
+          }
+        ]
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@id": "_:bn81904",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19846",
+          "rdfs:label": "Robert Rauschenberg Foundation",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28765",
+            "rdfs:label": "Block 10 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/10.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn81905",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "rrfaIdentifier": [
+      {
+        "@value": "A93"
+      }
+    ],
+    "citation": [
+      {
+        "@value": "Rauschenberg\u2019s notebook, with additional notes by Brice Marden and others (presumably Rauschenberg\u2019s studio staff)...1967. Creator: Robert Rauschenberg, Brice Marden, and unidentified."
+      }
+    ],
+    "copyrightStatement": [
+      {
+        "@value": "Copyright is held by the Robert Rauschenberg Foundation."
+      }
+    ],
+    "hasParts": [
+      {
+        "@id": "_:bn81906",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27063",
+          "rdfs:label": "notes",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28765",
+            "rdfs:label": "Block 10 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/10.txt"
+          }
+        ]
+      }
+    ]
+  }
+]
