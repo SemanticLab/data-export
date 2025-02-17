@@ -5,7 +5,7 @@
     "rdfs:label": "A40 Open Score Notes",
     "creator": [
       {
-        "@id": "_:bn78415",
+        "@id": "_:bn77371",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -15,32 +15,12 @@
       }
     ],
     "@type": [
-      "Document",
-      "ArchivalObject",
       "Instructions",
       "Notes"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78416",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19069",
-          "rdfs:label": "document",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn78417",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19075",
-          "rdfs:label": "archival object",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn78418",
+        "@id": "_:bn77372",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27062",
@@ -49,7 +29,7 @@
         }
       },
       {
-        "@id": "_:bn78419",
+        "@id": "_:bn77373",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27063",
@@ -60,7 +40,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn78420",
+        "@id": "_:bn77374",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19495",
@@ -69,7 +49,7 @@
         }
       },
       {
-        "@id": "_:bn78421",
+        "@id": "_:bn77375",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
@@ -80,7 +60,7 @@
     ],
     "copyrightHolder": [
       {
-        "@id": "_:bn78422",
+        "@id": "_:bn77376",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19846",
@@ -98,7 +78,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78423",
+        "@id": "_:bn77377",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -127,7 +107,7 @@
     ],
     "archivesCollection": [
       {
-        "@id": "_:bn78424",
+        "@id": "_:bn77378",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22705",
@@ -171,6 +151,709 @@
           "language": "en"
         }
       }
+    ],
+    "format": [
+      {
+        "@id": "_:bn77379",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22650",
+          "rdfs:label": "manuscript",
+          "@type": "Class"
+        }
+      }
+    ],
+    "extent": [
+      {
+        "@value": "pencil on yellow lined paper, 2 pages, 11 x 8 3/8 inches"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q22412",
+    "rdfs:label": "A197 9 Evenings notes on envelope",
+    "@type": [
+      "Notes",
+      "Envelope"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn77380",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27063",
+          "rdfs:label": "notes",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn77381",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28954",
+          "rdfs:label": "envelope",
+          "@type": "Class"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "9 Evenings notes on envelope",
+          "language": "en"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn77382",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        }
+      }
+    ],
+    "creditLine": [
+      {
+        "@value": "Creator: Robert Rauschenberg"
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1966-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "description": [
+      {
+        "@value": "Robert Rauschenberg's notes regarding 9 Evenings: Theatre & Engineering on an envelope addressed to Mr. and Mrs. Alex Hay"
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn77383",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19495",
+          "rdfs:label": "Open Score",
+          "@type": "PerformanceArtwork(Concept)"
+        }
+      },
+      {
+        "@id": "_:bn77384",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19118",
+          "rdfs:label": "9 Evenings: Theatre and Engineering",
+          "@type": "Artwork(Concept)"
+        }
+      }
+    ],
+    "archivesCollection": [
+      {
+        "@id": "_:bn77385",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22371",
+          "rdfs:label": "Robert Rauschenberg papers at the Robert Rauschenberg Foundation Archives, New York",
+          "@type": "Collection"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28786",
+            "rdfs:label": "Block 31 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/31.txt"
+          }
+        ]
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@id": "_:bn77386",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19846",
+          "rdfs:label": "Robert Rauschenberg Foundation",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28786",
+            "rdfs:label": "Block 31 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/31.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn77387",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "fileUrl": [
+      {
+        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2024-03/A197_00.jpg"
+      },
+      {
+        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2024-03/A197_01.jpg"
+      }
+    ],
+    "rrfaIdentifier": [
+      {
+        "@value": "A197"
+      }
+    ],
+    "citation": [
+      {
+        "@value": "Robert Rauschenberg's notes regarding 9 Evenings: Theatre & Engineering on an envelope addressed to Mr. and Mrs. Alex Hay, 1966. Creator: Robert Rauschenberg."
+      }
+    ],
+    "copyrightStatement": [
+      {
+        "@value": "Copyright is held by the Robert Rauschenberg Foundation."
+      }
+    ],
+    "format": [
+      {
+        "@id": "_:bn77388",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22650",
+          "rdfs:label": "manuscript",
+          "@type": "Class"
+        }
+      }
+    ],
+    "extent": [
+      {
+        "@value": "graphite on paper, recto and verso, 4 1/2 x 6 1/4"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q22703",
+    "rdfs:label": "A41 Open Score Notes",
+    "@type": [
+      "Notes",
+      "Instructions"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn77389",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27063",
+          "rdfs:label": "notes",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn77390",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27062",
+          "rdfs:label": "instructions",
+          "@type": "Class"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn77391",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Open Score Notes",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1966-10-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 10,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "description": [
+      {
+        "@value": "Rauschenberg\u2019s notes (instructions) for Open Score (1966), performed at 9 Evenings: Theatre & Engineering, 69th Regiment Armory, New York"
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn77392",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19495",
+          "rdfs:label": "Open Score",
+          "@type": "PerformanceArtwork(Concept)"
+        }
+      },
+      {
+        "@id": "_:bn77393",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19118",
+          "rdfs:label": "9 Evenings: Theatre and Engineering",
+          "@type": "Artwork(Concept)"
+        }
+      }
+    ],
+    "archivesCollection": [
+      {
+        "@id": "_:bn77394",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22371",
+          "rdfs:label": "Robert Rauschenberg papers at the Robert Rauschenberg Foundation Archives, New York",
+          "@type": "Collection"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28756",
+            "rdfs:label": "Block 1 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/1.txt"
+          }
+        ]
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@id": "_:bn77395",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19846",
+          "rdfs:label": "Robert Rauschenberg Foundation",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28756",
+            "rdfs:label": "Block 1 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn77396",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "fileUrl": [
+      {
+        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2021-08/A41_00.jpg"
+      },
+      {
+        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2021-08/A41_1.jpg"
+      }
+    ],
+    "rrfaIdentifier": [
+      {
+        "@value": "A41"
+      }
+    ],
+    "citation": [
+      {
+        "@value": "Rauschenberg\u2019s notes (instructions) for Open Score (1966), performed at 9 Evenings: Theatre & Engineering, 69th Regiment Armory, New York, October 1966. Creator: Robert Rauschenberg."
+      }
+    ],
+    "creditLine": [
+      {
+        "@value": "Creator: Robert Rauschenberg."
+      }
+    ],
+    "copyrightStatement": [
+      {
+        "@value": "Copyright is held by the Robert Rauschenberg Foundation."
+      }
+    ],
+    "format": [
+      {
+        "@id": "_:bn77397",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22650",
+          "rdfs:label": "manuscript",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn77398",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28953",
+          "rdfs:label": "typescript",
+          "@type": "Class"
+        }
+      }
+    ],
+    "extent": [
+      {
+        "@value": "Pencil and pen on paper (1966 Festival for Theater and Engineering letterhead on verso), creased in center, 8 1/2 x 11 inches"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q22716",
+    "rdfs:label": "A66 Open Score notes",
+    "@type": [
+      "Notes"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn77399",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27063",
+          "rdfs:label": "notes",
+          "@type": "Class"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn77400",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Open Score notes",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1966-10-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 10,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "description": [
+      {
+        "@value": "Rauschenberg\u2019s notes for Open Score (1966), performed at 9 Evenings: Theatre & Engineering, 69th Regiment Armory, New York"
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn77401",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19495",
+          "rdfs:label": "Open Score",
+          "@type": "PerformanceArtwork(Concept)"
+        }
+      },
+      {
+        "@id": "_:bn77402",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19118",
+          "rdfs:label": "9 Evenings: Theatre and Engineering",
+          "@type": "Artwork(Concept)"
+        }
+      }
+    ],
+    "archivesCollection": [
+      {
+        "@id": "_:bn77403",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22371",
+          "rdfs:label": "Robert Rauschenberg papers at the Robert Rauschenberg Foundation Archives, New York",
+          "@type": "Collection"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28758",
+            "rdfs:label": "Block 3 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/3.txt"
+          }
+        ]
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@id": "_:bn77404",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19846",
+          "rdfs:label": "Robert Rauschenberg Foundation",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28758",
+            "rdfs:label": "Block 3 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/3.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn77405",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "fileUrl": [
+      {
+        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2025-02/A66_00.jpg"
+      }
+    ],
+    "rrfaIdentifier": [
+      {
+        "@value": "A66"
+      }
+    ],
+    "citation": [
+      {
+        "@value": "Rauschenberg\u2019s notes for Open Score (1966), performed at 9 Evenings: Theatre & Engineering, 69th Regiment Armory, New York, October 1966, 1966. Creator: Robert Rauschenberg."
+      }
+    ],
+    "creditLine": [
+      {
+        "@value": "Creator: Robert Rauschenberg."
+      }
+    ],
+    "copyrightStatement": [
+      {
+        "@value": "Copyright is held by the Robert Rauschenberg Foundation."
+      }
+    ],
+    "format": [
+      {
+        "@id": "_:bn77406",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22650",
+          "rdfs:label": "manuscript",
+          "@type": "Class"
+        }
+      }
+    ],
+    "extent": [
+      {
+        "@value": "Pen on yellow lined paper, 12 1/2 x 8 inches"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q22942",
+    "rdfs:label": "A198 9 Evenings notes",
+    "@type": [
+      "Notes"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn77407",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27063",
+          "rdfs:label": "notes",
+          "@type": "Class"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn77408",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "9 Evenings notes",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1966-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "creditLine": [
+      {
+        "@value": "Creator: Robert Rauschenberg"
+      }
+    ],
+    "description": [
+      {
+        "@value": "Notes for 9 Evenings: Theatre & Engineering, a performance by Experiments in Art and Technology (E.A.T)"
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn77409",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19495",
+          "rdfs:label": "Open Score",
+          "@type": "PerformanceArtwork(Concept)"
+        }
+      },
+      {
+        "@id": "_:bn77410",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19118",
+          "rdfs:label": "9 Evenings: Theatre and Engineering",
+          "@type": "Artwork(Concept)"
+        }
+      }
+    ],
+    "archivesCollection": [
+      {
+        "@id": "_:bn77411",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22371",
+          "rdfs:label": "Robert Rauschenberg papers at the Robert Rauschenberg Foundation Archives, New York",
+          "@type": "Collection"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28787",
+            "rdfs:label": "Block 32 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/32.txt"
+          }
+        ]
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@id": "_:bn77412",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19846",
+          "rdfs:label": "Robert Rauschenberg Foundation",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28787",
+            "rdfs:label": "Block 32 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/32.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn77413",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "fileUrl": [
+      {
+        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2023-04/A198_00.jpg"
+      }
+    ],
+    "rrfaIdentifier": [
+      {
+        "@value": "A198"
+      }
+    ],
+    "citation": [
+      {
+        "@value": "Notes for 9 Evenings: Theatre & Engineering, a performance by Experiments in Art and Technology (E.A.T), 1966. Creator: Robert Rauschenberg. Creator: Robert Rauschenberg."
+      }
+    ],
+    "copyrightStatement": [
+      {
+        "@value": "Copyright is held by the Robert Rauschenberg Foundation."
+      }
+    ],
+    "format": [
+      {
+        "@id": "_:bn77414",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22650",
+          "rdfs:label": "manuscript",
+          "@type": "Class"
+        }
+      }
+    ],
+    "extent": [
+      {
+        "@value": "ink on paper, handwritten on recto and verso, 2 sheets, 4 x 6\" each"
+      }
     ]
   },
   {
@@ -182,7 +865,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78425",
+        "@id": "_:bn77415",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27063",
@@ -229,7 +912,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn78426",
+        "@id": "_:bn77416",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19495",
@@ -238,7 +921,7 @@
         }
       },
       {
-        "@id": "_:bn78427",
+        "@id": "_:bn77417",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
@@ -249,7 +932,7 @@
     ],
     "archivesCollection": [
       {
-        "@id": "_:bn78428",
+        "@id": "_:bn77418",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22371",
@@ -272,7 +955,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78429",
+        "@id": "_:bn77419",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -294,6 +977,22 @@
     "citation": [
       {
         "@value": "Notes on 9 Evenings: Theatre & Engineering works, 1966. Creator: Unattributed."
+      }
+    ],
+    "format": [
+      {
+        "@id": "_:bn77420",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28953",
+          "rdfs:label": "typescript",
+          "@type": "Class"
+        }
+      }
+    ],
+    "extent": [
+      {
+        "@value": "typescript on onion skin paper, 11 x 8 1/2\""
       }
     ]
   }

@@ -913,7 +913,7 @@
     "description": {
       "@id": "http://base.semlab.io/entity/P130",
       "skos:prefLabel": "description",
-      "skos:note": "description of the document as stated in the original source (e.g., E.A.T. Bibliography)"
+      "skos:note": "description of item as stated in the original source"
     },
     "hasEventParts": {
       "@id": "http://base.semlab.io/entity/P131",
@@ -1155,6 +1155,10 @@
       "@id": "http://base.semlab.io/entity/P264",
       "skos:prefLabel": "has manifestation"
     },
+    "manifestationOf": {
+      "@id": "http://base.semlab.io/entity/P265",
+      "skos:prefLabel": "manifestation of"
+    },
     "subjectHasRole": {
       "@id": "http://base.semlab.io/entity/P117",
       "skos:prefLabel": "subject has role",
@@ -1199,6 +1203,11 @@
       "skos:altLabel": [
         "end date"
       ]
+    },
+    "maximumDate": {
+      "@id": "http://base.semlab.io/entity/P232",
+      "skos:prefLabel": "maximum date",
+      "skos:note": "specifies the maximum date parameter of a 'range' or 'diff within range' constraint"
     },
     "formatAsARegularExpression": {
       "@id": "http://base.semlab.io/entity/P234",
@@ -1324,9 +1333,17 @@
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
     },
-    "manifestationOf": {
-      "@id": "http://base.semlab.io/entity/P265",
-      "skos:prefLabel": "manifestation of"
+    "extent": {
+      "@id": "http://base.semlab.io/entity/P266",
+      "skos:prefLabel": "extent",
+      "skos:altLabel": [
+        "physical description"
+      ]
+    },
+    "minimumQuantity": {
+      "@id": "http://base.semlab.io/entity/P229",
+      "skos:prefLabel": "minimum quantity",
+      "skos:note": "specifies the minimum quantity parameter of a 'range' or 'diff within range' constraint"
     },
     "maximumQuantity": {
       "@id": "http://base.semlab.io/entity/P230",
@@ -1337,11 +1354,6 @@
       "@id": "http://base.semlab.io/entity/P231",
       "skos:prefLabel": "minimum date",
       "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
-    },
-    "maximumDate": {
-      "@id": "http://base.semlab.io/entity/P232",
-      "skos:prefLabel": "maximum date",
-      "skos:note": "specifies the maximum date parameter of a 'range' or 'diff within range' constraint"
     },
     "namespace": {
       "@id": "http://base.semlab.io/entity/P233",
@@ -1705,11 +1717,6 @@
       "skos:prefLabel": "qualifier of property constraint",
       "skos:note": "specifies the item parameter of an 'item requires claim', 'value requires claim', or 'one of' constraint"
     },
-    "minimumQuantity": {
-      "@id": "http://base.semlab.io/entity/P229",
-      "skos:prefLabel": "minimum quantity",
-      "skos:note": "specifies the minimum quantity parameter of a 'range' or 'diff within range' constraint"
-    },
     "Activity": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q19077",
@@ -1738,20 +1745,14 @@
       ],
       "skos:note": "piece of metadata attached to a document or other entity"
     },
-    "ArchivalObject": {
-      "@type": "rdfs:Class",
-      "@id": "http://base.semlab.io/entity/Q19075",
-      "skos:prefLabel": "archival object",
-      "skos:note": "an object, such as a document, contained in and described by an archives"
-    },
     "ArtExhibition": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q22395",
       "skos:prefLabel": "art exhibition",
       "skos:altLabel": [
+        "exhibition",
         "art exhibit",
-        "art show",
-        "exhibition"
+        "art show"
       ],
       "skos:note": "organized presentation and display of works of art"
     },
@@ -1832,6 +1833,15 @@
         "silent auction"
       ],
       "skos:note": "event where goods are bought and sold by bid"
+    },
+    "Audio-VisualRecording": {
+      "@type": "rdfs:Class",
+      "@id": "http://base.semlab.io/entity/Q27420",
+      "skos:prefLabel": "audio-visual recording",
+      "skos:altLabel": [
+        "audio/visual recording",
+        "audio visual recording"
+      ]
     },
     "BandBattle": {
       "@type": "rdfs:Class",
@@ -2065,6 +2075,11 @@
       ],
       "skos:note": "card with holes around edges that can be punched out to code information on the card for retrieval"
     },
+    "Envelope": {
+      "@type": "rdfs:Class",
+      "@id": "http://base.semlab.io/entity/Q28954",
+      "skos:prefLabel": "envelope"
+    },
     "EthnicGroup": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q24626",
@@ -2104,10 +2119,10 @@
       "skos:prefLabel": "field of work (class)",
       "skos:note": "types of academic disciplines, technologies, materials mentioned as specialties in the Technical Services Program edge-notched cards and in other E.A.T. documents. Subclasses to be determined."
     },
-    "Film": {
+    "FilmArtwork(Concept)": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q19098",
-      "skos:prefLabel": "film",
+      "skos:prefLabel": "film artwork (concept)",
       "skos:altLabel": [
         "film",
         "flick",
@@ -2267,15 +2282,6 @@
       ],
       "skos:note": "branch, chapter, or subgroup of a national trade union"
     },
-    "Manuscript": {
-      "@type": "rdfs:Class",
-      "@id": "http://base.semlab.io/entity/Q22650",
-      "skos:prefLabel": "manuscript",
-      "skos:altLabel": [
-        "handwritten document"
-      ],
-      "skos:note": "document written by hand"
-    },
     "Memorandum": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q19090",
@@ -2299,12 +2305,6 @@
       "@id": "http://base.semlab.io/entity/Q25667",
       "skos:prefLabel": "monastery",
       "skos:note": "complex of buildings comprising the domestic quarters and workplace of monks or nuns"
-    },
-    "MovingImage": {
-      "@type": "rdfs:Class",
-      "@id": "http://base.semlab.io/entity/Q22656",
-      "skos:prefLabel": "moving image",
-      "skos:note": "single work, or take, made using the medium of video"
     },
     "Museum": {
       "@type": "rdfs:Class",
@@ -2397,12 +2397,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
+        "work",
         "career",
         "craft",
         "employment",
         "job",
-        "profession",
-        "work"
+        "profession"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
@@ -2418,6 +2418,10 @@
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q22646",
       "skos:prefLabel": "organizational chart",
+      "skos:altLabel": [
+        "org chart",
+        "organization chart"
+      ],
       "skos:note": "diagram that shows the structure of an organization and the relationships and relative ranks of its parts and positions/jobs"
     },
     "Painting": {
@@ -2671,6 +2675,11 @@
       "@id": "http://base.semlab.io/entity/Q22436",
       "skos:prefLabel": "sound installation (concept)",
       "skos:note": "art installation that incorporate sound into physical environments"
+    },
+    "SoundRecording": {
+      "@type": "rdfs:Class",
+      "@id": "http://base.semlab.io/entity/Q28955",
+      "skos:prefLabel": "sound recording"
     },
     "SportsStadium": {
       "@type": "rdfs:Class",

@@ -724,6 +724,11 @@
       "@type": "@id",
       "@container": "@set"
     },
+    "manifestationOf": {
+      "@id": "semlab:P265",
+      "@type": "@id",
+      "@container": "@set"
+    },
     "subjectHasRole": {
       "@id": "semlab:P117",
       "@type": "@id",
@@ -746,6 +751,11 @@
     },
     "endTime": {
       "@id": "semlab:P121",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "maximumDate": {
+      "@id": "semlab:P232",
       "@type": "@id",
       "@container": "@set"
     },
@@ -849,8 +859,13 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "manifestationOf": {
-      "@id": "semlab:P265",
+    "extent": {
+      "@id": "semlab:P266",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "minimumQuantity": {
+      "@id": "semlab:P229",
       "@type": "@id",
       "@container": "@set"
     },
@@ -861,11 +876,6 @@
     },
     "minimumDate": {
       "@id": "semlab:P231",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "maximumDate": {
-      "@id": "semlab:P232",
       "@type": "@id",
       "@container": "@set"
     },
@@ -1134,11 +1144,6 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "minimumQuantity": {
-      "@id": "semlab:P229",
-      "@type": "@id",
-      "@container": "@set"
-    },
     "Activity": {
       "@id": "semlab:Q19077",
       "@type": "@id"
@@ -1149,10 +1154,6 @@
     },
     "Annotation": {
       "@id": "semlab:Q22413",
-      "@type": "@id"
-    },
-    "ArchivalObject": {
-      "@id": "semlab:Q19075",
       "@type": "@id"
     },
     "ArtExhibition": {
@@ -1189,6 +1190,10 @@
     },
     "Auction": {
       "@id": "semlab:Q25660",
+      "@type": "@id"
+    },
+    "Audio-VisualRecording": {
+      "@id": "semlab:Q27420",
       "@type": "@id"
     },
     "BandBattle": {
@@ -1315,6 +1320,10 @@
       "@id": "semlab:Q28613",
       "@type": "@id"
     },
+    "Envelope": {
+      "@id": "semlab:Q28954",
+      "@type": "@id"
+    },
     "EthnicGroup": {
       "@id": "semlab:Q24626",
       "@type": "@id"
@@ -1335,7 +1344,7 @@
       "@id": "semlab:Q27377",
       "@type": "@id"
     },
-    "Film": {
+    "FilmArtwork(Concept)": {
       "@id": "semlab:Q19098",
       "@type": "@id"
     },
@@ -1423,10 +1432,6 @@
       "@id": "semlab:Q27056",
       "@type": "@id"
     },
-    "Manuscript": {
-      "@id": "semlab:Q22650",
-      "@type": "@id"
-    },
     "Memorandum": {
       "@id": "semlab:Q19090",
       "@type": "@id"
@@ -1437,10 +1442,6 @@
     },
     "Monastery": {
       "@id": "semlab:Q25667",
-      "@type": "@id"
-    },
-    "MovingImage": {
-      "@id": "semlab:Q22656",
       "@type": "@id"
     },
     "Museum": {
@@ -1641,6 +1642,10 @@
     },
     "SoundInstallation(Concept)": {
       "@id": "semlab:Q22436",
+      "@type": "@id"
+    },
+    "SoundRecording": {
+      "@id": "semlab:Q28955",
       "@type": "@id"
     },
     "SportsStadium": {

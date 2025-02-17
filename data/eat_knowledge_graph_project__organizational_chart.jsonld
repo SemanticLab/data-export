@@ -1,24 +1,163 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q22884",
-    "rdfs:label": "A221 E.A.T. organizational chart",
+    "@id": "semlab:Q22883",
+    "rdfs:label": "A220 E.A.T. organizational chart",
     "@type": [
-      "Document",
       "OrganizationalChart"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn77625",
+        "@id": "_:bn76600",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19069",
-          "rdfs:label": "document",
+          "@id": "semlab:Q22646",
+          "rdfs:label": "organizational chart",
           "@type": "Class"
         }
-      },
+      }
+    ],
+    "creator": [
       {
-        "@id": "_:bn77626",
+        "@id": "_:bn76601",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "E.A.T. organizational chart",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1966-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "creditLine": [
+      {
+        "@value": "Creator: Robert Rauschenberg and unidentified"
+      }
+    ],
+    "description": [
+      {
+        "@value": "Handwritten drafts by unidentified individual (recto) and Robert Rauschenberg (verso) of proposed Experiments in Art and Technology (E.A.T.) organizational charts"
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn76602",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        }
+      }
+    ],
+    "archivesCollection": [
+      {
+        "@id": "_:bn76603",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22371",
+          "rdfs:label": "Robert Rauschenberg papers at the Robert Rauschenberg Foundation Archives, New York",
+          "@type": "Collection"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28809",
+            "rdfs:label": "Block 54 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/54.txt"
+          }
+        ]
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@id": "_:bn76604",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19846",
+          "rdfs:label": "Robert Rauschenberg Foundation",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28809",
+            "rdfs:label": "Block 54 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/54.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn76605",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "rrfaIdentifier": [
+      {
+        "@value": "A220"
+      }
+    ],
+    "citation": [
+      {
+        "@value": "Handwritten drafts by unidentified individual (recto) and Robert Rauschenberg (verso) of proposed Experiments in Art and Technology (E.A.T.) organizational charts, 1966. Creator: Robert Rauschenberg and unidentified."
+      }
+    ],
+    "copyrightStatement": [
+      {
+        "@value": "Copyright is held by the Robert Rauschenberg Foundation and unidenfied rights holder."
+      }
+    ],
+    "format": [
+      {
+        "@id": "_:bn76606",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22650",
+          "rdfs:label": "manuscript",
+          "@type": "Class"
+        }
+      }
+    ],
+    "extent": [
+      {
+        "@value": "ink on notebook paper, recto and verso, 10 x 7 3/4\""
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q22884",
+    "rdfs:label": "A221 E.A.T. organizational chart",
+    "@type": [
+      "OrganizationalChart"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn76607",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22646",
@@ -47,7 +186,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn77627",
+        "@id": "_:bn76608",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -58,7 +197,7 @@
     ],
     "archivesCollection": [
       {
-        "@id": "_:bn77628",
+        "@id": "_:bn76609",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22371",
@@ -81,7 +220,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn77629",
+        "@id": "_:bn76610",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -115,6 +254,22 @@
           "precision": 9,
           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
         }
+      }
+    ],
+    "format": [
+      {
+        "@id": "_:bn76611",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28953",
+          "rdfs:label": "typescript",
+          "@type": "Class"
+        }
+      }
+    ],
+    "extent": [
+      {
+        "@value": "printed paper, 8 1/2 x 11\""
       }
     ]
   }

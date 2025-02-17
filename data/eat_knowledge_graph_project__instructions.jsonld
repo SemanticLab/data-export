@@ -5,7 +5,7 @@
     "rdfs:label": "A40 Open Score Notes",
     "creator": [
       {
-        "@id": "_:bn78405",
+        "@id": "_:bn77352",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -15,32 +15,12 @@
       }
     ],
     "@type": [
-      "Document",
-      "ArchivalObject",
       "Instructions",
       "Notes"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn78406",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19069",
-          "rdfs:label": "document",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn78407",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19075",
-          "rdfs:label": "archival object",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn78408",
+        "@id": "_:bn77353",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27062",
@@ -49,7 +29,7 @@
         }
       },
       {
-        "@id": "_:bn78409",
+        "@id": "_:bn77354",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27063",
@@ -60,7 +40,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn78410",
+        "@id": "_:bn77355",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19495",
@@ -69,7 +49,7 @@
         }
       },
       {
-        "@id": "_:bn78411",
+        "@id": "_:bn77356",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
@@ -80,7 +60,7 @@
     ],
     "copyrightHolder": [
       {
-        "@id": "_:bn78412",
+        "@id": "_:bn77357",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19846",
@@ -98,7 +78,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn78413",
+        "@id": "_:bn77358",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -127,7 +107,7 @@
     ],
     "archivesCollection": [
       {
-        "@id": "_:bn78414",
+        "@id": "_:bn77359",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22705",
@@ -170,6 +150,207 @@
           "text": "Open Score Notes",
           "language": "en"
         }
+      }
+    ],
+    "format": [
+      {
+        "@id": "_:bn77360",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22650",
+          "rdfs:label": "manuscript",
+          "@type": "Class"
+        }
+      }
+    ],
+    "extent": [
+      {
+        "@value": "pencil on yellow lined paper, 2 pages, 11 x 8 3/8 inches"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q22703",
+    "rdfs:label": "A41 Open Score Notes",
+    "@type": [
+      "Notes",
+      "Instructions"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn77361",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27063",
+          "rdfs:label": "notes",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn77362",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27062",
+          "rdfs:label": "instructions",
+          "@type": "Class"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn77363",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Open Score Notes",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1966-10-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 10,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "description": [
+      {
+        "@value": "Rauschenberg\u2019s notes (instructions) for Open Score (1966), performed at 9 Evenings: Theatre & Engineering, 69th Regiment Armory, New York"
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn77364",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19495",
+          "rdfs:label": "Open Score",
+          "@type": "PerformanceArtwork(Concept)"
+        }
+      },
+      {
+        "@id": "_:bn77365",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19118",
+          "rdfs:label": "9 Evenings: Theatre and Engineering",
+          "@type": "Artwork(Concept)"
+        }
+      }
+    ],
+    "archivesCollection": [
+      {
+        "@id": "_:bn77366",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22371",
+          "rdfs:label": "Robert Rauschenberg papers at the Robert Rauschenberg Foundation Archives, New York",
+          "@type": "Collection"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28756",
+            "rdfs:label": "Block 1 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/1.txt"
+          }
+        ]
+      }
+    ],
+    "copyrightHolder": [
+      {
+        "@id": "_:bn77367",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19846",
+          "rdfs:label": "Robert Rauschenberg Foundation",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q28756",
+            "rdfs:label": "Block 1 of R.R.F.A. Documentation List",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28614/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn77368",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "fileUrl": [
+      {
+        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2021-08/A41_00.jpg"
+      },
+      {
+        "@value": "https://www.rauschenbergfoundation.org/sites/default/files/2021-08/A41_1.jpg"
+      }
+    ],
+    "rrfaIdentifier": [
+      {
+        "@value": "A41"
+      }
+    ],
+    "citation": [
+      {
+        "@value": "Rauschenberg\u2019s notes (instructions) for Open Score (1966), performed at 9 Evenings: Theatre & Engineering, 69th Regiment Armory, New York, October 1966. Creator: Robert Rauschenberg."
+      }
+    ],
+    "creditLine": [
+      {
+        "@value": "Creator: Robert Rauschenberg."
+      }
+    ],
+    "copyrightStatement": [
+      {
+        "@value": "Copyright is held by the Robert Rauschenberg Foundation."
+      }
+    ],
+    "format": [
+      {
+        "@id": "_:bn77369",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22650",
+          "rdfs:label": "manuscript",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn77370",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28953",
+          "rdfs:label": "typescript",
+          "@type": "Class"
+        }
+      }
+    ],
+    "extent": [
+      {
+        "@value": "Pencil and pen on paper (1966 Festival for Theater and Engineering letterhead on verso), creased in center, 8 1/2 x 11 inches"
       }
     ]
   }
