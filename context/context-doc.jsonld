@@ -454,6 +454,7 @@
       "@id": "http://base.semlab.io/entity/P110",
       "skos:prefLabel": "employer",
       "skos:altLabel": [
+        "works for",
         "works at",
         "workplace",
         "working place",
@@ -461,8 +462,7 @@
         "worked for",
         "worked at place",
         "worked at",
-        "employed by",
-        "works for"
+        "employed by"
       ],
       "owl:equivalentClass": [
         "https://schema.org/worksFor",
@@ -1204,13 +1204,6 @@
         "end date"
       ]
     },
-    "extent": {
-      "@id": "http://base.semlab.io/entity/P266",
-      "skos:prefLabel": "extent",
-      "skos:altLabel": [
-        "physical description"
-      ]
-    },
     "maximumDate": {
       "@id": "http://base.semlab.io/entity/P232",
       "skos:prefLabel": "maximum date",
@@ -1359,6 +1352,13 @@
       "@id": "http://base.semlab.io/entity/P233",
       "skos:prefLabel": "namespace",
       "skos:note": "specifies the namespace parameter of a 'commons link' constraint"
+    },
+    "extent": {
+      "@id": "http://base.semlab.io/entity/P266",
+      "skos:prefLabel": "extent",
+      "skos:altLabel": [
+        "physical description"
+      ]
     },
     "musicianLeaderOf": {
       "@id": "http://base.semlab.io/entity/P160",
