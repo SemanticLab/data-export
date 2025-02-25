@@ -1555,6 +1555,10 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
+        "academic area",
+        "subject",
+        "domain",
+        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1577,11 +1581,7 @@
         "area",
         "activity domain",
         "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity"
+        "academic discipline"
       ],
       "owl:equivalentClass": [
         "http://www.wikidata.org/entity/P101"
@@ -1935,6 +1935,21 @@
         "http://id.loc.gov/authorities/subjects/sh85022986"
       ]
     },
+    "CinematicWork(Concept)": {
+      "@type": "rdfs:Class",
+      "@id": "http://base.semlab.io/entity/Q19098",
+      "skos:prefLabel": "cinematic work (concept)",
+      "skos:altLabel": [
+        "film",
+        "flick",
+        "motion picture",
+        "movie",
+        "film (work)",
+        "cinematic work (concept)",
+        "film artwork (concept)"
+      ],
+      "skos:note": "sequence of images that give the impression of movement; an artistic work created using the medium of film"
+    },
     "City": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q19058",
@@ -1985,7 +2000,8 @@
       "skos:altLabel": [
         "combine",
         "combine-painting"
-      ]
+      ],
+      "skos:note": "an artwork that incorporates elements of both painting and sculpture"
     },
     "CommunicationsSatellite": {
       "@type": "rdfs:Class",
@@ -2118,20 +2134,6 @@
       "@id": "http://base.semlab.io/entity/Q27377",
       "skos:prefLabel": "field of work (class)",
       "skos:note": "types of academic disciplines, technologies, materials mentioned as specialties in the Technical Services Program edge-notched cards and in other E.A.T. documents. Subclasses to be determined."
-    },
-    "FilmArtwork(Concept)": {
-      "@type": "rdfs:Class",
-      "@id": "http://base.semlab.io/entity/Q19098",
-      "skos:prefLabel": "film artwork (concept)",
-      "skos:altLabel": [
-        "film",
-        "flick",
-        "motion picture",
-        "movie",
-        "film (work)",
-        "cinematic work (concept)"
-      ],
-      "skos:note": "sequence of images that give the impression of movement; an artistic work created using the medium of film"
     },
     "FilmScreening": {
       "@type": "rdfs:Class",
@@ -2670,10 +2672,13 @@
       "skos:prefLabel": "sound",
       "skos:note": "mechanical wave that is an oscillation of pressure transmitted through a medium, composed of frequencies within hearing range"
     },
-    "SoundInstallation(Concept)": {
+    "SoundInstallationArtwork(Concept)": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q22436",
-      "skos:prefLabel": "sound installation (concept)",
+      "skos:prefLabel": "sound installation artwork (concept)",
+      "skos:altLabel": [
+        "sound installation (concept)"
+      ],
       "skos:note": "art installation that incorporate sound into physical environments"
     },
     "SoundRecording": {
