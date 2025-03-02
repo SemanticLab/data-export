@@ -1204,13 +1204,6 @@
         "end date"
       ]
     },
-    "extent": {
-      "@id": "http://base.semlab.io/entity/P266",
-      "skos:prefLabel": "extent",
-      "skos:altLabel": [
-        "physical description"
-      ]
-    },
     "maximumDate": {
       "@id": "http://base.semlab.io/entity/P232",
       "skos:prefLabel": "maximum date",
@@ -1339,6 +1332,13 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
+    },
+    "extent": {
+      "@id": "http://base.semlab.io/entity/P266",
+      "skos:prefLabel": "extent",
+      "skos:altLabel": [
+        "physical description"
+      ]
     },
     "minimumQuantity": {
       "@id": "http://base.semlab.io/entity/P229",
@@ -1555,6 +1555,10 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
+        "academic area",
+        "subject",
+        "domain",
+        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1577,11 +1581,7 @@
         "area",
         "activity domain",
         "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity"
+        "academic discipline"
       ],
       "owl:equivalentClass": [
         "http://www.wikidata.org/entity/P101"
@@ -1770,17 +1770,17 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
+        "arts materials",
+        "crafting material",
+        "material",
+        "media",
+        "medium",
         "art materials",
         "art media",
         "art medium",
         "artistic material",
         "artistic media",
-        "artistic medium",
-        "arts materials",
-        "crafting material",
-        "material",
-        "media",
-        "medium"
+        "artistic medium"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -2394,12 +2394,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
+        "career",
         "craft",
         "employment",
         "job",
         "profession",
-        "work",
-        "career"
+        "work"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
@@ -2731,15 +2731,15 @@
       "@id": "http://base.semlab.io/entity/Q23736",
       "skos:prefLabel": "unrealized project",
       "skos:altLabel": [
-        "project canceled",
-        "project cancelled",
-        "unfinished",
-        "unfinished project",
         "abandoned project",
         "canceled",
         "canceled project",
         "cancelled",
-        "cancelled project"
+        "cancelled project",
+        "project canceled",
+        "project cancelled",
+        "unfinished",
+        "unfinished project"
       ],
       "skos:note": "project that eventually was not realized"
     },
