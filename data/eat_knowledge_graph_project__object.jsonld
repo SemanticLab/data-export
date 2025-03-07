@@ -1,0 +1,60 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q28956",
+    "rdfs:label": "shoes",
+    "@type": [
+      "Object"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn77388",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27168",
+          "rdfs:label": "object",
+          "@type": "Class"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q22676"
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn77389",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25730",
+          "rdfs:label": "lucite shoes",
+          "@type": "Artwork(Object)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q25751",
+            "rdfs:label": "Block 1 of A moveable feast not so appetizing",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q25641/1.txt"
+          },
+          {
+            "@id": "semlab:Q25754",
+            "rdfs:label": "Block 4 of A moveable feast not so appetizing",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q25641/4.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn77390",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  }
+]

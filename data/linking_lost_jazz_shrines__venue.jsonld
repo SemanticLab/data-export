@@ -1,11 +1,16 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q22246",
-    "rdfs:label": "Apollo Theater",
+    "@id": "semlab:Q18837",
+    "rdfs:label": "Brooklyn Academy of Music",
+    "wikidataQid": [
+      {
+        "@value": "Q72912"
+      }
+    ],
     "partOfProject": [
       {
-        "@id": "_:bn40561",
+        "@id": "_:bn40567",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
@@ -14,7 +19,61 @@
         }
       },
       {
-        "@id": "_:bn40562",
+        "@id": "_:bn40568",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "LinkingLostJazz\"Shrine\"",
+      "Venue"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn40569",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18806",
+          "rdfs:label": "Linking Lost Jazz \"Shrine\"",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn40570",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19072",
+          "rdfs:label": "venue",
+          "@type": "Class"
+        }
+      }
+    ],
+    "E.A.T.DatascapePageIdentifier": [
+      {
+        "@value": "actor/410"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q22246",
+    "rdfs:label": "Apollo Theater",
+    "partOfProject": [
+      {
+        "@id": "_:bn40571",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18807",
+          "rdfs:label": "Linking Lost Jazz Shrines",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn40572",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -34,7 +93,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn40563",
+        "@id": "_:bn40573",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19072",
@@ -43,7 +102,7 @@
         }
       },
       {
-        "@id": "_:bn40564",
+        "@id": "_:bn40574",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18806",
@@ -54,7 +113,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn40565",
+        "@id": "_:bn40575",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
