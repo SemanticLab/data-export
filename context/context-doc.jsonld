@@ -1186,33 +1186,6 @@
         "end date"
       ]
     },
-    "extent": {
-      "@id": "http://base.semlab.io/entity/P266",
-      "skos:prefLabel": "extent",
-      "skos:altLabel": [
-        "physical description"
-      ]
-    },
-    "namespace": {
-      "@id": "http://base.semlab.io/entity/P233",
-      "skos:prefLabel": "namespace",
-      "skos:note": "specifies the namespace parameter of a 'commons link' constraint"
-    },
-    "formatAsARegularExpression": {
-      "@id": "http://base.semlab.io/entity/P234",
-      "skos:prefLabel": "format as a regular expression",
-      "skos:note": "specifies the format parameter of a 'format' constraint"
-    },
-    "syntaxClarification": {
-      "@id": "http://base.semlab.io/entity/P235",
-      "skos:prefLabel": "syntax clarification",
-      "skos:note": "specifies human-readable explanations of a 'format' constraint. The syntax clarification is shown as part of the 'format' constraint violation message, clarifying the regular expression"
-    },
-    "constraintScope": {
-      "@id": "http://base.semlab.io/entity/P237",
-      "skos:prefLabel": "constraint scope",
-      "skos:note": "specifies the context(s) in which a constraint is checked"
-    },
     "constraintClarification": {
       "@id": "http://base.semlab.io/entity/P236",
       "skos:prefLabel": "constraint clarification",
@@ -1321,6 +1294,33 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
+    },
+    "extent": {
+      "@id": "http://base.semlab.io/entity/P266",
+      "skos:prefLabel": "extent",
+      "skos:altLabel": [
+        "physical description"
+      ]
+    },
+    "namespace": {
+      "@id": "http://base.semlab.io/entity/P233",
+      "skos:prefLabel": "namespace",
+      "skos:note": "specifies the namespace parameter of a 'commons link' constraint"
+    },
+    "formatAsARegularExpression": {
+      "@id": "http://base.semlab.io/entity/P234",
+      "skos:prefLabel": "format as a regular expression",
+      "skos:note": "specifies the format parameter of a 'format' constraint"
+    },
+    "syntaxClarification": {
+      "@id": "http://base.semlab.io/entity/P235",
+      "skos:prefLabel": "syntax clarification",
+      "skos:note": "specifies human-readable explanations of a 'format' constraint. The syntax clarification is shown as part of the 'format' constraint violation message, clarifying the regular expression"
+    },
+    "constraintScope": {
+      "@id": "http://base.semlab.io/entity/P237",
+      "skos:prefLabel": "constraint scope",
+      "skos:note": "specifies the context(s) in which a constraint is checked"
     },
     "musicianLeaderOf": {
       "@id": "http://base.semlab.io/entity/P160",
@@ -1732,9 +1732,9 @@
       "@id": "http://base.semlab.io/entity/Q22395",
       "skos:prefLabel": "art exhibition",
       "skos:altLabel": [
+        "exhibition",
         "art exhibit",
-        "art show",
-        "exhibition"
+        "art show"
       ],
       "skos:note": "organized presentation and display of works of art"
     },
@@ -1752,6 +1752,7 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
+        "medium",
         "art materials",
         "art media",
         "art medium",
@@ -1761,8 +1762,7 @@
         "arts materials",
         "crafting material",
         "material",
-        "media",
-        "medium"
+        "media"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -2089,8 +2089,8 @@
       "@id": "http://base.semlab.io/entity/Q19071",
       "skos:prefLabel": "event",
       "skos:altLabel": [
-        "events",
-        "competition"
+        "competition",
+        "events"
       ],
       "owl:equivalentClass": [
         "https://schema.org/Event"
@@ -2386,12 +2386,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
-        "career",
         "craft",
         "employment",
         "job",
         "profession",
-        "work"
+        "work",
+        "career"
       ],
       "skos:note": "object is the vocation, profession, or skill by which the subject is identified"
     },
