@@ -1,14 +1,59 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q19160",
-    "rdfs:label": "AT&T",
+    "@id": "semlab:Q25524",
+    "rdfs:label": "Zuni Icosahedron",
+    "partOfProject": [
+      {
+        "@id": "_:bn94478",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q8075294"
+      }
+    ],
     "@type": [
       "Organization"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94478",
+        "@id": "_:bn94479",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19049",
+          "rdfs:label": "organization",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25666",
+    "rdfs:label": "Chuang Yen Monastery",
+    "@type": [
+      "Monastery",
+      "Organization"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn94480",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25667",
+          "rdfs:label": "monastery",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn94481",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19049",
@@ -19,7 +64,112 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn94479",
+        "@id": "_:bn94482",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q2544829"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25670",
+    "rdfs:label": "ChaShaMa",
+    "@type": [
+      "Organization"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn94483",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19049",
+          "rdfs:label": "organization",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn94484",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q5087261"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25671",
+    "rdfs:label": "Downtown Community Television Center",
+    "@type": [
+      "Organization"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn94485",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19049",
+          "rdfs:label": "organization",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn94486",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q5303407"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q19160",
+    "rdfs:label": "AT&T",
+    "@type": [
+      "Organization"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn94487",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19049",
+          "rdfs:label": "organization",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn94488",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -28,7 +178,7 @@
         }
       },
       {
-        "@id": "_:bn94480",
+        "@id": "_:bn94489",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -44,7 +194,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn94481",
+        "@id": "_:bn94490",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19248",
@@ -76,7 +226,7 @@
         ]
       },
       {
-        "@id": "_:bn94482",
+        "@id": "_:bn94491",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19663",
@@ -105,12 +255,12 @@
     ],
     "sponsorOf": [
       {
-        "@id": "_:bn94483",
+        "@id": "_:bn94492",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
           "rdfs:label": "Experiments in Art and Technology",
-          "@type": "NonprofitOrganization"
+          "@type": "Publisher"
         },
         "referenceBlock": [
           {
@@ -119,156 +269,6 @@
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19805/4.txt"
           }
         ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25524",
-    "rdfs:label": "Zuni Icosahedron",
-    "partOfProject": [
-      {
-        "@id": "_:bn94484",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24831",
-          "rdfs:label": "Asian American Arts Centre Exhibition History",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q8075294"
-      }
-    ],
-    "@type": [
-      "Organization"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn94485",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19049",
-          "rdfs:label": "organization",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25666",
-    "rdfs:label": "Chuang Yen Monastery",
-    "@type": [
-      "Monastery",
-      "Organization"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn94486",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25667",
-          "rdfs:label": "monastery",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn94487",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19049",
-          "rdfs:label": "organization",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn94488",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24831",
-          "rdfs:label": "Asian American Arts Centre Exhibition History",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q2544829"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25670",
-    "rdfs:label": "ChaShaMa",
-    "@type": [
-      "Organization"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn94489",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19049",
-          "rdfs:label": "organization",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn94490",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24831",
-          "rdfs:label": "Asian American Arts Centre Exhibition History",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q5087261"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25671",
-    "rdfs:label": "Downtown Community Television Center",
-    "@type": [
-      "Organization"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn94491",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19049",
-          "rdfs:label": "organization",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn94492",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24831",
-          "rdfs:label": "Asian American Arts Centre Exhibition History",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q5303407"
       }
     ]
   },
