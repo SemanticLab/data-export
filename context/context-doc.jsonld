@@ -1186,6 +1186,13 @@
         "end date"
       ]
     },
+    "extent": {
+      "@id": "http://base.semlab.io/entity/P266",
+      "skos:prefLabel": "extent",
+      "skos:altLabel": [
+        "physical description"
+      ]
+    },
     "constraintClarification": {
       "@id": "http://base.semlab.io/entity/P236",
       "skos:prefLabel": "constraint clarification",
@@ -1294,13 +1301,6 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
-    },
-    "extent": {
-      "@id": "http://base.semlab.io/entity/P266",
-      "skos:prefLabel": "extent",
-      "skos:altLabel": [
-        "physical description"
-      ]
     },
     "namespace": {
       "@id": "http://base.semlab.io/entity/P233",
@@ -1752,6 +1752,9 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
+        "material",
+        "media",
+        "medium",
         "art materials",
         "art media",
         "art medium",
@@ -1759,10 +1762,7 @@
         "artistic media",
         "artistic medium",
         "arts materials",
-        "crafting material",
-        "material",
-        "media",
-        "medium"
+        "crafting material"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -2089,8 +2089,8 @@
       "@id": "http://base.semlab.io/entity/Q19071",
       "skos:prefLabel": "event",
       "skos:altLabel": [
-        "events",
-        "competition"
+        "competition",
+        "events"
       ],
       "owl:equivalentClass": [
         "https://schema.org/Event"
