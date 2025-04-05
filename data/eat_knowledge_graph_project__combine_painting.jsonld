@@ -1,6 +1,95 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q19181",
+    "rdfs:label": "Black Market",
+    "@type": [
+      "CombinePainting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn80864",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28947",
+          "rdfs:label": "combine painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn80865",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn80866",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24206",
+          "rdfs:label": "Art in Motion",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24638",
+            "rdfs:label": "Block 4 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/4.txt"
+          }
+        ]
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn80867",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        },
+        "location": [
+          {
+            "@id": "semlab:Q19607",
+            "rdfs:label": "Stockholm (Sweden)"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24638",
+            "rdfs:label": "Block 4 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/4.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1961-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "describedOrDepictedAtUrl": [
+      {
+        "@value": "https://www.rauschenbergfoundation.org/art/artwork/black-market"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q19629",
     "rdfs:label": "Thermometer",
     "@type": [

@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2025-04-04
+Generated: 2025-04-05
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -194,7 +194,7 @@ Generated: 2025-04-04
 | Drawing    | [eat_knowledge_graph_project__drawing.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__drawing.jsonld) | 1  |
 | Project    | [eat_knowledge_graph_project__project.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__project.jsonld) | 9  |
 | Exhibition Event    | [eat_knowledge_graph_project__exhibition_event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__exhibition_event.jsonld) | 1  |
-| Painting    | [eat_knowledge_graph_project__painting.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__painting.jsonld) | 7  |
+| Painting    | [eat_knowledge_graph_project__painting.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__painting.jsonld) | 6  |
 | Local Union    | [eat_knowledge_graph_project__local_union.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__local_union.jsonld) | 1  |
 | Instructions    | [eat_knowledge_graph_project__instructions.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__instructions.jsonld) | 2  |
 | Notes    | [eat_knowledge_graph_project__notes.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__notes.jsonld) | 6  |
@@ -214,7 +214,7 @@ Generated: 2025-04-04
 | Literary Work (Concept)    | [eat_knowledge_graph_project__literary_work_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__literary_work_(concept).jsonld) | 1  |
 | Print    | [eat_knowledge_graph_project__print.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__print.jsonld) | 7  |
 | Poster    | [eat_knowledge_graph_project__poster.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__poster.jsonld) | 2  |
-| Combine Painting    | [eat_knowledge_graph_project__combine_painting.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__combine_painting.jsonld) | 2  |
+| Combine Painting    | [eat_knowledge_graph_project__combine_painting.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__combine_painting.jsonld) | 3  |
 | Newspaper    | [eat_knowledge_graph_project__newspaper.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__newspaper.jsonld) | 1  |
 | Notebook    | [eat_knowledge_graph_project__notebook.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__notebook.jsonld) | 1  |
 | Envelope    | [eat_knowledge_graph_project__envelope.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__envelope.jsonld) | 1  |
