@@ -1,45 +1,6 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q2021",
-    "rdfs:label": "founder",
-    "@type": [
-      "Occupation"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn73358",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19070",
-          "rdfs:label": "occupation",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn73359",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn73360",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q18807",
-          "rdfs:label": "Linking Lost Jazz Shrines",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q19081",
     "rdfs:label": "engineer",
     "@type": [
@@ -47,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73361",
+        "@id": "_:bn73439",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -63,7 +24,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73362",
+        "@id": "_:bn73440",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -82,7 +43,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73363",
+        "@id": "_:bn73441",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -93,7 +54,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73364",
+        "@id": "_:bn73442",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -102,7 +63,7 @@
         }
       },
       {
-        "@id": "_:bn73365",
+        "@id": "_:bn73443",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
@@ -117,22 +78,32 @@
     "@id": "semlab:Q20538",
     "rdfs:label": "photographer",
     "@type": [
-      "Occupation"
+      "Occupation",
+      "Role"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73366",
+        "@id": "_:bn73444",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
           "rdfs:label": "occupation",
           "@type": "Class"
         }
+      },
+      {
+        "@id": "_:bn73445",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28961",
+          "rdfs:label": "role",
+          "@type": "Class"
+        }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73367",
+        "@id": "_:bn73446",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -141,7 +112,7 @@
         }
       },
       {
-        "@id": "_:bn73368",
+        "@id": "_:bn73447",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
@@ -160,7 +131,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73369",
+        "@id": "_:bn73448",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -171,7 +142,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73370",
+        "@id": "_:bn73449",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -180,125 +151,11 @@
         }
       },
       {
-        "@id": "_:bn73371",
+        "@id": "_:bn73450",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
           "rdfs:label": "Linking Lost Jazz Shrines",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q22975",
-    "rdfs:label": "presenter",
-    "@type": [
-      "Occupation"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn73372",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19070",
-          "rdfs:label": "occupation",
-          "@type": "Class"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q13590141"
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn73373",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn73374",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q18807",
-          "rdfs:label": "Linking Lost Jazz Shrines",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23181",
-    "rdfs:label": "chairman of the board",
-    "@type": [
-      "Occupation"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn73375",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19070",
-          "rdfs:label": "occupation",
-          "@type": "Class"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q140686"
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn73376",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23182",
-    "rdfs:label": "chairman of the executive committee",
-    "@type": [
-      "Occupation"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn73377",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19070",
-          "rdfs:label": "occupation",
-          "@type": "Class"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q2534525"
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn73378",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
           "@type": "SemanticLabProject"
         }
       }
@@ -309,15 +166,25 @@
     "@id": "semlab:Q23183",
     "rdfs:label": "president",
     "@type": [
-      "Occupation"
+      "Occupation",
+      "Role"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73379",
+        "@id": "_:bn73451",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
           "rdfs:label": "occupation",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn73452",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28961",
+          "rdfs:label": "role",
           "@type": "Class"
         }
       }
@@ -329,7 +196,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73380",
+        "@id": "_:bn73453",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -344,15 +211,25 @@
     "@id": "semlab:Q23184",
     "rdfs:label": "vice president",
     "@type": [
-      "Occupation"
+      "Occupation",
+      "Role"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73381",
+        "@id": "_:bn73454",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
           "rdfs:label": "occupation",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn73455",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28961",
+          "rdfs:label": "role",
           "@type": "Class"
         }
       }
@@ -364,7 +241,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73382",
+        "@id": "_:bn73456",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -379,15 +256,25 @@
     "@id": "semlab:Q23185",
     "rdfs:label": "secretary",
     "@type": [
-      "Occupation"
+      "Occupation",
+      "Role"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73383",
+        "@id": "_:bn73457",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
           "rdfs:label": "occupation",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn73458",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28961",
+          "rdfs:label": "role",
           "@type": "Class"
         }
       }
@@ -399,7 +286,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73384",
+        "@id": "_:bn73459",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -408,7 +295,7 @@
         }
       },
       {
-        "@id": "_:bn73385",
+        "@id": "_:bn73460",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
@@ -427,7 +314,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73386",
+        "@id": "_:bn73461",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -443,11 +330,20 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73387",
+        "@id": "_:bn73462",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
           "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn73463",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18807",
+          "rdfs:label": "Linking Lost Jazz Shrines",
           "@type": "SemanticLabProject"
         }
       }
@@ -462,7 +358,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73388",
+        "@id": "_:bn73464",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -478,7 +374,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73389",
+        "@id": "_:bn73465",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -497,7 +393,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73390",
+        "@id": "_:bn73466",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -508,7 +404,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73391",
+        "@id": "_:bn73467",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -521,13 +417,13 @@
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q23189",
-    "rdfs:label": "film project supervision",
+    "rdfs:label": "film project supervisor",
     "@type": [
       "Occupation"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73392",
+        "@id": "_:bn73468",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -538,7 +434,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73393",
+        "@id": "_:bn73469",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -557,7 +453,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73394",
+        "@id": "_:bn73470",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -568,7 +464,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73395",
+        "@id": "_:bn73471",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -587,7 +483,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73396",
+        "@id": "_:bn73472",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -603,7 +499,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73397",
+        "@id": "_:bn73473",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -622,7 +518,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73398",
+        "@id": "_:bn73474",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -638,7 +534,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73399",
+        "@id": "_:bn73475",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -657,7 +553,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73400",
+        "@id": "_:bn73476",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -673,7 +569,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73401",
+        "@id": "_:bn73477",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -686,24 +582,34 @@
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q23216",
-    "rdfs:label": "production team",
+    "rdfs:label": "production team member",
     "@type": [
-      "Occupation"
+      "Occupation",
+      "Role"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73402",
+        "@id": "_:bn73478",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
           "rdfs:label": "occupation",
           "@type": "Class"
         }
+      },
+      {
+        "@id": "_:bn73479",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28961",
+          "rdfs:label": "role",
+          "@type": "Class"
+        }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73403",
+        "@id": "_:bn73480",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -722,7 +628,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73404",
+        "@id": "_:bn73481",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -733,7 +639,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73405",
+        "@id": "_:bn73482",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -752,7 +658,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73406",
+        "@id": "_:bn73483",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -763,46 +669,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73407",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23332",
-    "rdfs:label": "trustee",
-    "@type": [
-      "Occupation"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn73408",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19070",
-          "rdfs:label": "occupation",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn73409",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q18807",
-          "rdfs:label": "Linking Lost Jazz Shrines",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn73410",
+        "@id": "_:bn73484",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -821,7 +688,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73411",
+        "@id": "_:bn73485",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -832,7 +699,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73412",
+        "@id": "_:bn73486",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -845,54 +712,34 @@
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q23508",
-    "rdfs:label": "head of musicians' union",
+    "rdfs:label": "labor union president",
     "@type": [
-      "Occupation"
+      "Occupation",
+      "Role"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73413",
+        "@id": "_:bn73487",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
           "rdfs:label": "occupation",
           "@type": "Class"
         }
-      }
-    ],
-    "partOfProject": [
+      },
       {
-        "@id": "_:bn73414",
+        "@id": "_:bn73488",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23510",
-    "rdfs:label": "speaker",
-    "@type": [
-      "Occupation"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn73415",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19070",
-          "rdfs:label": "occupation",
+          "@id": "semlab:Q28961",
+          "rdfs:label": "role",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73416",
+        "@id": "_:bn73489",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -911,7 +758,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73417",
+        "@id": "_:bn73490",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -922,7 +769,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73418",
+        "@id": "_:bn73491",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -937,22 +784,32 @@
     "@id": "semlab:Q23519",
     "rdfs:label": "executive assistant",
     "@type": [
-      "Occupation"
+      "Occupation",
+      "Role"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73419",
+        "@id": "_:bn73492",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
           "rdfs:label": "occupation",
           "@type": "Class"
         }
+      },
+      {
+        "@id": "_:bn73493",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28961",
+          "rdfs:label": "role",
+          "@type": "Class"
+        }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73420",
+        "@id": "_:bn73494",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -967,22 +824,32 @@
     "@id": "semlab:Q23522",
     "rdfs:label": "coordinator",
     "@type": [
-      "Occupation"
+      "Occupation",
+      "Role"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73421",
+        "@id": "_:bn73495",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
           "rdfs:label": "occupation",
           "@type": "Class"
         }
+      },
+      {
+        "@id": "_:bn73496",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28961",
+          "rdfs:label": "role",
+          "@type": "Class"
+        }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73422",
+        "@id": "_:bn73497",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1003,7 +870,7 @@
     "rdfs:label": "professor",
     "partOfProject": [
       {
-        "@id": "_:bn73423",
+        "@id": "_:bn73498",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1017,7 +884,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73424",
+        "@id": "_:bn73499",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -1036,7 +903,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73425",
+        "@id": "_:bn73500",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -1047,7 +914,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73426",
+        "@id": "_:bn73501",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1056,11 +923,20 @@
         }
       },
       {
-        "@id": "_:bn73427",
+        "@id": "_:bn73502",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
           "rdfs:label": "Linking Lost Jazz Shrines",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn73503",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
           "@type": "SemanticLabProject"
         }
       }
@@ -1068,6 +944,9 @@
     "wikidataQid": [
       {
         "@value": "Q1162163"
+      },
+      {
+        "@value": "Q3455803"
       }
     ]
   },
@@ -1080,7 +959,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73428",
+        "@id": "_:bn73504",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -1091,7 +970,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73429",
+        "@id": "_:bn73505",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1112,7 +991,7 @@
     "rdfs:label": "choreographer",
     "partOfProject": [
       {
-        "@id": "_:bn73430",
+        "@id": "_:bn73506",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1131,7 +1010,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73431",
+        "@id": "_:bn73507",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -1150,7 +1029,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73432",
+        "@id": "_:bn73508",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -1161,7 +1040,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73433",
+        "@id": "_:bn73509",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1185,7 +1064,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73434",
+        "@id": "_:bn73510",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
@@ -1196,11 +1075,20 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn73435",
+        "@id": "_:bn73511",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
           "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn73512",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
           "@type": "SemanticLabProject"
         }
       }
@@ -1217,7 +1105,7 @@
     "rdfs:label": "tennis player",
     "partOfProject": [
       {
-        "@id": "_:bn73436",
+        "@id": "_:bn73513",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1231,13 +1119,69 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn73437",
+        "@id": "_:bn73514",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19070",
           "rdfs:label": "occupation",
           "@type": "Class"
         }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q28962",
+    "rdfs:label": "cinematographer",
+    "@type": [
+      "Occupation",
+      "Role"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn73515",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19070",
+          "rdfs:label": "occupation",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn73516",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28961",
+          "rdfs:label": "role",
+          "@type": "Class"
+        }
+      }
+    ],
+    "createdFor": [
+      {
+        "@id": "_:bn73517",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn73518",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q222344"
       }
     ]
   }
