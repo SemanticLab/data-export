@@ -1,0 +1,50 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24343",
+    "rdfs:label": "Space Girl",
+    "partOfProject": [
+      {
+        "@id": "_:bn81006",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn81007",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19382",
+          "rdfs:label": "Kisses Sweeter Than Wine",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24662",
+            "rdfs:label": "Block 28 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/28.txt"
+          }
+        ]
+      }
+    ],
+    "@type": [
+      "Character"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn81008",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28963",
+          "rdfs:label": "character",
+          "@type": "Class"
+        }
+      }
+    ]
+  }
+]
