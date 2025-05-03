@@ -184,6 +184,297 @@
     "relationshipGeneration": "https://base.semlab.io/entity/P25",
     "crowdSourceConsensus": "https://base.semlab.io/entity/P40",
     "blockTextURL": "https://base.semlab.io/entity/P20",
+    "mainSubject": {
+      "@id": "http://base.semlab.io/entity/P77",
+      "skos:prefLabel": "main subject",
+      "skos:altLabel": [
+        "mainly about",
+        "main topic",
+        "main thing",
+        "main issue",
+        "is about",
+        "about topic",
+        "topic of work",
+        "theme",
+        "subject heading",
+        "subject",
+        "primary topic",
+        "primary subject"
+      ],
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P921"
+      ],
+      "skos:note": "primary topic of a work"
+    },
+    "sender": {
+      "@id": "http://base.semlab.io/entity/P78",
+      "skos:prefLabel": "sender",
+      "skos:altLabel": [
+        "consignor"
+      ],
+      "skos:note": "person sending a shipment to be delivered, as in mail."
+    },
+    "addressee": {
+      "@id": "http://base.semlab.io/entity/P79",
+      "skos:prefLabel": "addressee",
+      "skos:altLabel": [
+        "recipient",
+        "receiver"
+      ],
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P1817"
+      ],
+      "skos:note": "person or organization to whom a information, letter or note is addressed"
+    },
+    "copyrightHolder": {
+      "@id": "http://base.semlab.io/entity/P81",
+      "skos:prefLabel": "copyright holder",
+      "skos:altLabel": [
+        "proprietor",
+        "licensor",
+        "copyright \u2018owner\u2019"
+      ],
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P3931"
+      ],
+      "skos:note": "person or organization who holds the copyright of a work"
+    },
+    "title": {
+      "@id": "http://base.semlab.io/entity/P82",
+      "skos:prefLabel": "title",
+      "skos:altLabel": [
+        "original title",
+        "known as",
+        "headline",
+        "full title",
+        "article"
+      ],
+      "owl:equivalentClass": [
+        "https://schema.org/name",
+        "http://www.wikidata.org/entity/P1476",
+        "http://purl.org/dc/terms/title"
+      ],
+      "skos:note": "title of a work, such as a newspaper article, a literary work, a website, or a performance work. This could also be a label ascribed to an archival document by an archives."
+    },
+    "documentType": {
+      "@id": "http://base.semlab.io/entity/P83",
+      "skos:prefLabel": "document type",
+      "skos:note": "a specific type of document identified by test cases in Semantic Lab"
+    },
+    "publisher": {
+      "@id": "http://base.semlab.io/entity/P84",
+      "skos:prefLabel": "publisher",
+      "owl:equivalentClass": [
+        "https://schema.org/publisher",
+        "http://www.wikidata.org/entity/P123",
+        "http://purl.org/dc/terms/publisher"
+      ],
+      "skos:note": "organization or person responsible for publishing a document"
+    },
+    "designer": {
+      "@id": "http://base.semlab.io/entity/P85",
+      "skos:prefLabel": "designer",
+      "skos:note": "person(s) who designed an item"
+    },
+    "editor": {
+      "@id": "http://base.semlab.io/entity/P86",
+      "skos:prefLabel": "editor",
+      "skos:altLabel": [
+        "edited by"
+      ],
+      "skos:note": "editor of a compiled work such as a book or a periodical (newspaper or an academic journal) or a document"
+    },
+    "pageNumber": {
+      "@id": "http://base.semlab.io/entity/P87",
+      "skos:prefLabel": "page number",
+      "skos:altLabel": [
+        "page",
+        "on page number"
+      ],
+      "owl:equivalentClass": [
+        "https://schema.org/pagination",
+        "http://www.wikidata.org/entity/P304"
+      ],
+      "skos:note": "the page of a document which a block or text or entity appears on; or the page of an article within a publication"
+    },
+    "volume": {
+      "@id": "http://base.semlab.io/entity/P88",
+      "skos:prefLabel": "volume",
+      "owl:equivalentClass": [
+        "https://schema.org/volumeNumber",
+        "http://www.wikidata.org/entity/P478"
+      ],
+      "skos:note": "Bibliographical unit; Volume number of a particular publication"
+    },
+    "issueNumber": {
+      "@id": "http://base.semlab.io/entity/P89",
+      "skos:prefLabel": "issue number",
+      "owl:equivalentClass": [
+        "https://schema.org/issueNumber",
+        "http://www.wikidata.org/entity/P433"
+      ],
+      "skos:note": "bibliographical unit; issue number of a particular publication"
+    },
+    "author": {
+      "@id": "http://base.semlab.io/entity/P91",
+      "skos:prefLabel": "author",
+      "owl:equivalentClass": [
+        "https://schema.org/author",
+        "http://www.wikidata.org/entity/P50"
+      ],
+      "skos:note": "main creator(s) of a written document"
+    },
+    "participantGroup": {
+      "@id": "http://base.semlab.io/entity/P92",
+      "skos:prefLabel": "participant group",
+      "skos:note": "group in which the subject is a participant in; refers to artists and engineers within the R.R./E.A.T. project, but this description may be expanded."
+    },
+    "participatedIn": {
+      "@id": "http://base.semlab.io/entity/P93",
+      "skos:prefLabel": "participated in",
+      "skos:altLabel": [
+        "took part in",
+        "present at",
+        "participant of"
+      ],
+      "skos:note": "the object is an artwork, event, performance, or other entity in which the subject was a participant"
+    },
+    "mentions": {
+      "@id": "http://base.semlab.io/entity/P94",
+      "skos:prefLabel": "mentions",
+      "skos:altLabel": [
+        "speaks of",
+        "references"
+      ],
+      "skos:note": "subject has mentioned by name or label, the object of this statement; use a more specific property if applicable"
+    },
+    "writesAbout": {
+      "@id": "http://base.semlab.io/entity/P95",
+      "skos:prefLabel": "writes about",
+      "skos:note": "topic a person writes about"
+    },
+    "partOf": {
+      "@id": "http://base.semlab.io/entity/P96",
+      "skos:prefLabel": "part of",
+      "skos:altLabel": [
+        "isPartOf"
+      ],
+      "owl:equivalentClass": [
+        "https://schema.org/isPartOf",
+        "http://www.wikidata.org/entity/P361"
+      ],
+      "skos:note": "object of which the subject is a part; indicates an item that this item is part of"
+    },
+    "date": {
+      "@id": "http://base.semlab.io/entity/P98",
+      "skos:prefLabel": "date",
+      "skos:altLabel": [
+        "point in time"
+      ],
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P585"
+      ],
+      "skos:note": "The date or point in time associated with the work. The specific type of date, if known (e.g. publication date, creation date, etc.) should be listed as a qualifier. If different from the standardized form of date that appears here, the date as written should be included as a reference."
+    },
+    "subtitle": {
+      "@id": "http://base.semlab.io/entity/P100",
+      "skos:prefLabel": "subtitle",
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P1680"
+      ],
+      "skos:note": "For works, when the title is followed by a subtitle"
+    },
+    "numberOfPages": {
+      "@id": "http://base.semlab.io/entity/P101",
+      "skos:prefLabel": "number of pages",
+      "owl:equivalentClass": [
+        "https://schema.org/numberOfPages",
+        "http://www.wikidata.org/entity/P1104"
+      ],
+      "skos:note": "number of pages in an edition of a written work"
+    },
+    "collectionCreator": {
+      "@id": "http://base.semlab.io/entity/P102",
+      "skos:prefLabel": "collection creator",
+      "skos:note": "entity (person, organization, etc.) that caused a record or collection to be produced or gathered"
+    },
+    "publishedIn": {
+      "@id": "http://base.semlab.io/entity/P103",
+      "skos:prefLabel": "published in",
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P1433"
+      ],
+      "skos:note": "Larger work that a given work was published in, like a book, journal or music album. Includes news outlet/periodical that published the article"
+    },
+    "placeOfPublication": {
+      "@id": "http://base.semlab.io/entity/P104",
+      "skos:prefLabel": "place of publication",
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P291"
+      ],
+      "skos:note": "geographical place of publication"
+    },
+    "statedIn": {
+      "@id": "http://base.semlab.io/entity/P105",
+      "skos:prefLabel": "stated in",
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P248"
+      ],
+      "skos:note": "to be used in the references field to refer to the information document in which a claim is made"
+    },
+    "languageOfWork": {
+      "@id": "http://base.semlab.io/entity/P106",
+      "skos:prefLabel": "language of work",
+      "skos:altLabel": [
+        "used language",
+        "language written in",
+        "language used",
+        "language of the reference",
+        "language of text",
+        "language of name",
+        "available in",
+        "audio language"
+      ],
+      "owl:equivalentClass": [
+        "https://schema.org/inLanguage",
+        "http://www.wikidata.org/entity/P407"
+      ],
+      "skos:note": "language associated with this work (book, letter, newsletter, booklet, piece of music, etc.)"
+    },
+    "dateType": {
+      "@id": "http://base.semlab.io/entity/P107",
+      "skos:prefLabel": "date type",
+      "skos:altLabel": [
+        "date has role",
+        "type of date"
+      ],
+      "skos:note": "the type of date that is listed (used to qualify date property)"
+    },
+    "employer": {
+      "@id": "http://base.semlab.io/entity/P110",
+      "skos:prefLabel": "employer",
+      "skos:altLabel": [
+        "works at",
+        "workplace",
+        "working place",
+        "working for",
+        "worked for",
+        "worked at place",
+        "worked at",
+        "employed by",
+        "works for"
+      ],
+      "owl:equivalentClass": [
+        "https://schema.org/worksFor",
+        "http://www.wikidata.org/entity/P108"
+      ],
+      "skos:note": "person or organization for which the subject works or worked"
+    },
+    "referenceUrl": {
+      "@id": "http://base.semlab.io/entity/P114",
+      "skos:prefLabel": "reference URL",
+      "skos:note": "web address location on the Internet from which the statement was derived"
+    },
     "instanceOf": {
       "@id": "http://base.semlab.io/entity/P1",
       "skos:prefLabel": "instance of",
@@ -551,297 +842,6 @@
       ],
       "skos:note": "object, work, or event that a person, group, or organization contributed to"
     },
-    "mainSubject": {
-      "@id": "http://base.semlab.io/entity/P77",
-      "skos:prefLabel": "main subject",
-      "skos:altLabel": [
-        "topic of work",
-        "theme",
-        "mainly about",
-        "main topic",
-        "main thing",
-        "main issue",
-        "is about",
-        "about topic",
-        "subject heading",
-        "subject",
-        "primary topic",
-        "primary subject"
-      ],
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P921"
-      ],
-      "skos:note": "primary topic of a work"
-    },
-    "sender": {
-      "@id": "http://base.semlab.io/entity/P78",
-      "skos:prefLabel": "sender",
-      "skos:altLabel": [
-        "consignor"
-      ],
-      "skos:note": "person sending a shipment to be delivered, as in mail."
-    },
-    "addressee": {
-      "@id": "http://base.semlab.io/entity/P79",
-      "skos:prefLabel": "addressee",
-      "skos:altLabel": [
-        "recipient",
-        "receiver"
-      ],
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P1817"
-      ],
-      "skos:note": "person or organization to whom a information, letter or note is addressed"
-    },
-    "copyrightHolder": {
-      "@id": "http://base.semlab.io/entity/P81",
-      "skos:prefLabel": "copyright holder",
-      "skos:altLabel": [
-        "proprietor",
-        "licensor",
-        "copyright \u2018owner\u2019"
-      ],
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P3931"
-      ],
-      "skos:note": "person or organization who holds the copyright of a work"
-    },
-    "title": {
-      "@id": "http://base.semlab.io/entity/P82",
-      "skos:prefLabel": "title",
-      "skos:altLabel": [
-        "original title",
-        "known as",
-        "headline",
-        "full title",
-        "article"
-      ],
-      "owl:equivalentClass": [
-        "https://schema.org/name",
-        "http://www.wikidata.org/entity/P1476",
-        "http://purl.org/dc/terms/title"
-      ],
-      "skos:note": "title of a work, such as a newspaper article, a literary work, a website, or a performance work. This could also be a label ascribed to an archival document by an archives."
-    },
-    "documentType": {
-      "@id": "http://base.semlab.io/entity/P83",
-      "skos:prefLabel": "document type",
-      "skos:note": "a specific type of document identified by test cases in Semantic Lab"
-    },
-    "publisher": {
-      "@id": "http://base.semlab.io/entity/P84",
-      "skos:prefLabel": "publisher",
-      "owl:equivalentClass": [
-        "https://schema.org/publisher",
-        "http://www.wikidata.org/entity/P123",
-        "http://purl.org/dc/terms/publisher"
-      ],
-      "skos:note": "organization or person responsible for publishing a document"
-    },
-    "designer": {
-      "@id": "http://base.semlab.io/entity/P85",
-      "skos:prefLabel": "designer",
-      "skos:note": "person(s) who designed an item"
-    },
-    "editor": {
-      "@id": "http://base.semlab.io/entity/P86",
-      "skos:prefLabel": "editor",
-      "skos:altLabel": [
-        "edited by"
-      ],
-      "skos:note": "editor of a compiled work such as a book or a periodical (newspaper or an academic journal) or a document"
-    },
-    "pageNumber": {
-      "@id": "http://base.semlab.io/entity/P87",
-      "skos:prefLabel": "page number",
-      "skos:altLabel": [
-        "page",
-        "on page number"
-      ],
-      "owl:equivalentClass": [
-        "https://schema.org/pagination",
-        "http://www.wikidata.org/entity/P304"
-      ],
-      "skos:note": "the page of a document which a block or text or entity appears on; or the page of an article within a publication"
-    },
-    "volume": {
-      "@id": "http://base.semlab.io/entity/P88",
-      "skos:prefLabel": "volume",
-      "owl:equivalentClass": [
-        "https://schema.org/volumeNumber",
-        "http://www.wikidata.org/entity/P478"
-      ],
-      "skos:note": "Bibliographical unit; Volume number of a particular publication"
-    },
-    "issueNumber": {
-      "@id": "http://base.semlab.io/entity/P89",
-      "skos:prefLabel": "issue number",
-      "owl:equivalentClass": [
-        "https://schema.org/issueNumber",
-        "http://www.wikidata.org/entity/P433"
-      ],
-      "skos:note": "bibliographical unit; issue number of a particular publication"
-    },
-    "author": {
-      "@id": "http://base.semlab.io/entity/P91",
-      "skos:prefLabel": "author",
-      "owl:equivalentClass": [
-        "https://schema.org/author",
-        "http://www.wikidata.org/entity/P50"
-      ],
-      "skos:note": "main creator(s) of a written document"
-    },
-    "participantGroup": {
-      "@id": "http://base.semlab.io/entity/P92",
-      "skos:prefLabel": "participant group",
-      "skos:note": "group in which the subject is a participant in; refers to artists and engineers within the R.R./E.A.T. project, but this description may be expanded."
-    },
-    "participatedIn": {
-      "@id": "http://base.semlab.io/entity/P93",
-      "skos:prefLabel": "participated in",
-      "skos:altLabel": [
-        "took part in",
-        "present at",
-        "participant of"
-      ],
-      "skos:note": "the object is an artwork, event, performance, or other entity in which the subject was a participant"
-    },
-    "mentions": {
-      "@id": "http://base.semlab.io/entity/P94",
-      "skos:prefLabel": "mentions",
-      "skos:altLabel": [
-        "speaks of",
-        "references"
-      ],
-      "skos:note": "subject has mentioned by name or label, the object of this statement; use a more specific property if applicable"
-    },
-    "writesAbout": {
-      "@id": "http://base.semlab.io/entity/P95",
-      "skos:prefLabel": "writes about",
-      "skos:note": "topic a person writes about"
-    },
-    "partOf": {
-      "@id": "http://base.semlab.io/entity/P96",
-      "skos:prefLabel": "part of",
-      "skos:altLabel": [
-        "isPartOf"
-      ],
-      "owl:equivalentClass": [
-        "https://schema.org/isPartOf",
-        "http://www.wikidata.org/entity/P361"
-      ],
-      "skos:note": "object of which the subject is a part; indicates an item that this item is part of"
-    },
-    "date": {
-      "@id": "http://base.semlab.io/entity/P98",
-      "skos:prefLabel": "date",
-      "skos:altLabel": [
-        "point in time"
-      ],
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P585"
-      ],
-      "skos:note": "The date or point in time associated with the work. The specific type of date, if known (e.g. publication date, creation date, etc.) should be listed as a qualifier. If different from the standardized form of date that appears here, the date as written should be included as a reference."
-    },
-    "subtitle": {
-      "@id": "http://base.semlab.io/entity/P100",
-      "skos:prefLabel": "subtitle",
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P1680"
-      ],
-      "skos:note": "For works, when the title is followed by a subtitle"
-    },
-    "numberOfPages": {
-      "@id": "http://base.semlab.io/entity/P101",
-      "skos:prefLabel": "number of pages",
-      "owl:equivalentClass": [
-        "https://schema.org/numberOfPages",
-        "http://www.wikidata.org/entity/P1104"
-      ],
-      "skos:note": "number of pages in an edition of a written work"
-    },
-    "collectionCreator": {
-      "@id": "http://base.semlab.io/entity/P102",
-      "skos:prefLabel": "collection creator",
-      "skos:note": "entity (person, organization, etc.) that caused a record or collection to be produced or gathered"
-    },
-    "publishedIn": {
-      "@id": "http://base.semlab.io/entity/P103",
-      "skos:prefLabel": "published in",
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P1433"
-      ],
-      "skos:note": "Larger work that a given work was published in, like a book, journal or music album. Includes news outlet/periodical that published the article"
-    },
-    "placeOfPublication": {
-      "@id": "http://base.semlab.io/entity/P104",
-      "skos:prefLabel": "place of publication",
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P291"
-      ],
-      "skos:note": "geographical place of publication"
-    },
-    "statedIn": {
-      "@id": "http://base.semlab.io/entity/P105",
-      "skos:prefLabel": "stated in",
-      "owl:equivalentClass": [
-        "http://www.wikidata.org/entity/P248"
-      ],
-      "skos:note": "to be used in the references field to refer to the information document in which a claim is made"
-    },
-    "languageOfWork": {
-      "@id": "http://base.semlab.io/entity/P106",
-      "skos:prefLabel": "language of work",
-      "skos:altLabel": [
-        "used language",
-        "language written in",
-        "language used",
-        "language of the reference",
-        "language of text",
-        "language of name",
-        "available in",
-        "audio language"
-      ],
-      "owl:equivalentClass": [
-        "https://schema.org/inLanguage",
-        "http://www.wikidata.org/entity/P407"
-      ],
-      "skos:note": "language associated with this work (book, letter, newsletter, booklet, piece of music, etc.)"
-    },
-    "dateType": {
-      "@id": "http://base.semlab.io/entity/P107",
-      "skos:prefLabel": "date type",
-      "skos:altLabel": [
-        "date has role",
-        "type of date"
-      ],
-      "skos:note": "the type of date that is listed (used to qualify date property)"
-    },
-    "employer": {
-      "@id": "http://base.semlab.io/entity/P110",
-      "skos:prefLabel": "employer",
-      "skos:altLabel": [
-        "works at",
-        "workplace",
-        "working place",
-        "working for",
-        "worked for",
-        "worked at place",
-        "worked at",
-        "employed by",
-        "works for"
-      ],
-      "owl:equivalentClass": [
-        "https://schema.org/worksFor",
-        "http://www.wikidata.org/entity/P108"
-      ],
-      "skos:note": "person or organization for which the subject works or worked"
-    },
-    "referenceUrl": {
-      "@id": "http://base.semlab.io/entity/P114",
-      "skos:prefLabel": "reference URL",
-      "skos:note": "web address location on the Internet from which the statement was derived"
-    },
     "natureOfRelation": {
       "@id": "http://base.semlab.io/entity/P122",
       "skos:prefLabel": "nature of relation",
@@ -913,7 +913,7 @@
     "description": {
       "@id": "http://base.semlab.io/entity/P130",
       "skos:prefLabel": "description",
-      "skos:note": "description of item as stated in the original source"
+      "skos:note": "Used to provide a free-text description of the content of the resource. In the E.A.T. Bibliography, this property contains the description of the item as stated in the original source."
     },
     "libraryOfCongressAuthorityId": {
       "@id": "http://base.semlab.io/entity/P133",
@@ -1143,6 +1143,23 @@
       "skos:prefLabel": "manifestation of",
       "skos:note": "TEMP LABEL"
     },
+    "extent": {
+      "@id": "http://base.semlab.io/entity/P266",
+      "skos:prefLabel": "extent",
+      "skos:altLabel": [
+        "physical description"
+      ]
+    },
+    "cinematographer": {
+      "@id": "http://base.semlab.io/entity/P267",
+      "skos:prefLabel": "cinematographer",
+      "skos:note": "temp SAA property (do not use)"
+    },
+    "presenter": {
+      "@id": "http://base.semlab.io/entity/P268",
+      "skos:prefLabel": "presenter",
+      "skos:note": "temp SAA property (do not use)"
+    },
     "subjectHasRole": {
       "@id": "http://base.semlab.io/entity/P117",
       "skos:prefLabel": "subject has role",
@@ -1188,10 +1205,45 @@
         "end date"
       ]
     },
+    "maximumQuantity": {
+      "@id": "http://base.semlab.io/entity/P230",
+      "skos:prefLabel": "maximum quantity",
+      "skos:note": "specifies the maximum quantity parameter of a 'range' or 'diff within range' constraint"
+    },
+    "minimumDate": {
+      "@id": "http://base.semlab.io/entity/P231",
+      "skos:prefLabel": "minimum date",
+      "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
+    },
+    "maximumDate": {
+      "@id": "http://base.semlab.io/entity/P232",
+      "skos:prefLabel": "maximum date",
+      "skos:note": "specifies the maximum date parameter of a 'range' or 'diff within range' constraint"
+    },
+    "namespace": {
+      "@id": "http://base.semlab.io/entity/P233",
+      "skos:prefLabel": "namespace",
+      "skos:note": "specifies the namespace parameter of a 'commons link' constraint"
+    },
+    "formatAsARegularExpression": {
+      "@id": "http://base.semlab.io/entity/P234",
+      "skos:prefLabel": "format as a regular expression",
+      "skos:note": "specifies the format parameter of a 'format' constraint"
+    },
+    "syntaxClarification": {
+      "@id": "http://base.semlab.io/entity/P235",
+      "skos:prefLabel": "syntax clarification",
+      "skos:note": "specifies human-readable explanations of a 'format' constraint. The syntax clarification is shown as part of the 'format' constraint violation message, clarifying the regular expression"
+    },
     "constraintClarification": {
       "@id": "http://base.semlab.io/entity/P236",
       "skos:prefLabel": "constraint clarification",
       "skos:note": "specifies human-readable explanations of a constraint (of any constraint type). The constraint clarification is shown below the main constraint violation message"
+    },
+    "constraintScope": {
+      "@id": "http://base.semlab.io/entity/P237",
+      "skos:prefLabel": "constraint scope",
+      "skos:note": "specifies the context(s) in which a constraint is checked"
     },
     "constraintEntityTypes": {
       "@id": "http://base.semlab.io/entity/P238",
@@ -1297,32 +1349,10 @@
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
     },
-    "extent": {
-      "@id": "http://base.semlab.io/entity/P266",
-      "skos:prefLabel": "extent",
-      "skos:altLabel": [
-        "physical description"
-      ]
-    },
-    "namespace": {
-      "@id": "http://base.semlab.io/entity/P233",
-      "skos:prefLabel": "namespace",
-      "skos:note": "specifies the namespace parameter of a 'commons link' constraint"
-    },
-    "formatAsARegularExpression": {
-      "@id": "http://base.semlab.io/entity/P234",
-      "skos:prefLabel": "format as a regular expression",
-      "skos:note": "specifies the format parameter of a 'format' constraint"
-    },
-    "syntaxClarification": {
-      "@id": "http://base.semlab.io/entity/P235",
-      "skos:prefLabel": "syntax clarification",
-      "skos:note": "specifies human-readable explanations of a 'format' constraint. The syntax clarification is shown as part of the 'format' constraint violation message, clarifying the regular expression"
-    },
-    "constraintScope": {
-      "@id": "http://base.semlab.io/entity/P237",
-      "skos:prefLabel": "constraint scope",
-      "skos:note": "specifies the context(s) in which a constraint is checked"
+    "productionTeamMember": {
+      "@id": "http://base.semlab.io/entity/P269",
+      "skos:prefLabel": "production team member",
+      "skos:note": "temp SAA property (do not use)"
     },
     "musicianLeaderOf": {
       "@id": "http://base.semlab.io/entity/P160",
@@ -1686,21 +1716,6 @@
       "skos:prefLabel": "minimum quantity",
       "skos:note": "specifies the minimum quantity parameter of a 'range' or 'diff within range' constraint"
     },
-    "maximumQuantity": {
-      "@id": "http://base.semlab.io/entity/P230",
-      "skos:prefLabel": "maximum quantity",
-      "skos:note": "specifies the maximum quantity parameter of a 'range' or 'diff within range' constraint"
-    },
-    "minimumDate": {
-      "@id": "http://base.semlab.io/entity/P231",
-      "skos:prefLabel": "minimum date",
-      "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
-    },
-    "maximumDate": {
-      "@id": "http://base.semlab.io/entity/P232",
-      "skos:prefLabel": "maximum date",
-      "skos:note": "specifies the maximum date parameter of a 'range' or 'diff within range' constraint"
-    },
     "Activity": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q19077",
@@ -1734,9 +1749,9 @@
       "@id": "http://base.semlab.io/entity/Q22395",
       "skos:prefLabel": "art exhibition",
       "skos:altLabel": [
+        "art exhibit",
         "art show",
-        "exhibition",
-        "art exhibit"
+        "exhibition"
       ],
       "skos:note": "organized presentation and display of works of art"
     },
@@ -2154,12 +2169,12 @@
       "@id": "http://base.semlab.io/entity/Q23179",
       "skos:prefLabel": "genre",
       "skos:altLabel": [
-        "thematic genre",
         "artistic genre",
         "form/genre",
         "genre/form",
         "stylistic genre",
-        "technical genre"
+        "technical genre",
+        "thematic genre"
       ],
       "skos:note": "category of creative works based on stylistic, thematic or technical criteria"
     },
@@ -2743,15 +2758,15 @@
       "@id": "http://base.semlab.io/entity/Q23736",
       "skos:prefLabel": "unrealized project",
       "skos:altLabel": [
+        "abandoned project",
+        "canceled",
+        "canceled project",
+        "cancelled",
         "cancelled project",
         "project canceled",
         "project cancelled",
         "unfinished",
-        "unfinished project",
-        "abandoned project",
-        "canceled",
-        "canceled project",
-        "cancelled"
+        "unfinished project"
       ],
       "skos:note": "project that eventually was not realized"
     },
