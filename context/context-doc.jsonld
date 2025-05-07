@@ -1260,26 +1260,6 @@
         "end date"
       ]
     },
-    "maximumQuantity": {
-      "@id": "http://base.semlab.io/entity/P230",
-      "skos:prefLabel": "maximum quantity",
-      "skos:note": "specifies the maximum quantity parameter of a 'range' or 'diff within range' constraint"
-    },
-    "minimumDate": {
-      "@id": "http://base.semlab.io/entity/P231",
-      "skos:prefLabel": "minimum date",
-      "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
-    },
-    "maximumDate": {
-      "@id": "http://base.semlab.io/entity/P232",
-      "skos:prefLabel": "maximum date",
-      "skos:note": "specifies the maximum date parameter of a 'range' or 'diff within range' constraint"
-    },
-    "namespace": {
-      "@id": "http://base.semlab.io/entity/P233",
-      "skos:prefLabel": "namespace",
-      "skos:note": "specifies the namespace parameter of a 'commons link' constraint"
-    },
     "formatAsARegularExpression": {
       "@id": "http://base.semlab.io/entity/P234",
       "skos:prefLabel": "format as a regular expression",
@@ -1403,6 +1383,26 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
+    },
+    "maximumQuantity": {
+      "@id": "http://base.semlab.io/entity/P230",
+      "skos:prefLabel": "maximum quantity",
+      "skos:note": "specifies the maximum quantity parameter of a 'range' or 'diff within range' constraint"
+    },
+    "minimumDate": {
+      "@id": "http://base.semlab.io/entity/P231",
+      "skos:prefLabel": "minimum date",
+      "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
+    },
+    "maximumDate": {
+      "@id": "http://base.semlab.io/entity/P232",
+      "skos:prefLabel": "maximum date",
+      "skos:note": "specifies the maximum date parameter of a 'range' or 'diff within range' constraint"
+    },
+    "namespace": {
+      "@id": "http://base.semlab.io/entity/P233",
+      "skos:prefLabel": "namespace",
+      "skos:note": "specifies the namespace parameter of a 'commons link' constraint"
     },
     "productionTeamMember": {
       "@id": "http://base.semlab.io/entity/P269",
@@ -2758,15 +2758,15 @@
       "@id": "http://base.semlab.io/entity/Q23736",
       "skos:prefLabel": "unrealized project",
       "skos:altLabel": [
+        "abandoned project",
+        "canceled",
+        "canceled project",
+        "cancelled",
         "cancelled project",
         "project canceled",
         "project cancelled",
         "unfinished",
-        "unfinished project",
-        "abandoned project",
-        "canceled",
-        "canceled project",
-        "cancelled"
+        "unfinished project"
       ],
       "skos:note": "project that eventually was not realized"
     },
