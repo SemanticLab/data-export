@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84494",
+        "@id": "_:bn84522",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84495",
+        "@id": "_:bn84523",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -28,7 +28,7 @@
         }
       },
       {
-        "@id": "_:bn84496",
+        "@id": "_:bn84524",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -52,7 +52,7 @@
     ],
     "wasInvitedTo": [
       {
-        "@id": "_:bn84497",
+        "@id": "_:bn84525",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20541",
@@ -70,7 +70,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn84498",
+        "@id": "_:bn84526",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24201",
@@ -88,7 +88,7 @@
     ],
     "lifePartner": [
       {
-        "@id": "_:bn84499",
+        "@id": "_:bn84527",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24181",
@@ -106,7 +106,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn84500",
+        "@id": "_:bn84528",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
@@ -133,7 +133,7 @@
         ]
       },
       {
-        "@id": "_:bn84501",
+        "@id": "_:bn84529",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23737",
@@ -165,7 +165,7 @@
         ]
       },
       {
-        "@id": "_:bn84502",
+        "@id": "_:bn84530",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19590",
@@ -189,7 +189,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn84503",
+        "@id": "_:bn84531",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24381",
@@ -208,7 +208,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn84504",
+        "@id": "_:bn84532",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19157",
@@ -230,7 +230,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84505",
+        "@id": "_:bn84533",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -241,7 +241,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84506",
+        "@id": "_:bn84534",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -250,7 +250,7 @@
         }
       },
       {
-        "@id": "_:bn84507",
+        "@id": "_:bn84535",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -274,7 +274,7 @@
     ],
     "livedIn": [
       {
-        "@id": "_:bn84508",
+        "@id": "_:bn84536",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -292,7 +292,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn84509",
+        "@id": "_:bn84537",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19118",
@@ -319,7 +319,7 @@
         ]
       },
       {
-        "@id": "_:bn84510",
+        "@id": "_:bn84538",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23737",
@@ -353,7 +353,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn84511",
+        "@id": "_:bn84539",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -376,7 +376,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn84512",
+        "@id": "_:bn84540",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19157",
@@ -403,7 +403,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84513",
+        "@id": "_:bn84541",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -427,7 +427,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84514",
+        "@id": "_:bn84542",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -436,7 +436,7 @@
         }
       },
       {
-        "@id": "_:bn84515",
+        "@id": "_:bn84543",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -447,13 +447,19 @@
     ],
     "employer": [
       {
-        "@id": "_:bn84516",
+        "@id": "_:bn84544",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19461",
           "rdfs:label": "Moderna Museet",
           "@type": "Museum"
         },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q24019",
+            "rdfs:label": "director"
+          }
+        ],
         "referenceBlock": [
           {
             "@id": "semlab:Q24637",
@@ -461,16 +467,14 @@
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/3.txt"
           }
         ]
-      }
-    ],
-    "collaboratedWith": [
+      },
       {
-        "@id": "_:bn84517",
+        "@id": "_:bn84545",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24538",
-          "rdfs:label": "Willem Sandberg",
-          "@type": "Person"
+          "@id": "semlab:Q19604",
+          "rdfs:label": "Stedelijk Museum",
+          "@type": "Museum"
         },
         "referenceBlock": [
           {
@@ -483,7 +487,7 @@
     ],
     "visitedPlace": [
       {
-        "@id": "_:bn84518",
+        "@id": "_:bn84546",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -504,7 +508,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn84519",
+        "@id": "_:bn84547",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24406",
@@ -527,7 +531,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn84520",
+        "@id": "_:bn84548",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24544",
@@ -564,7 +568,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84521",
+        "@id": "_:bn84549",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -580,7 +584,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84522",
+        "@id": "_:bn84550",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -604,7 +608,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84523",
+        "@id": "_:bn84551",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -615,7 +619,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84524",
+        "@id": "_:bn84552",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -639,7 +643,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84525",
+        "@id": "_:bn84553",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -655,7 +659,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84526",
+        "@id": "_:bn84554",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -679,7 +683,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84527",
+        "@id": "_:bn84555",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -695,7 +699,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84528",
+        "@id": "_:bn84556",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -714,7 +718,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84529",
+        "@id": "_:bn84557",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -730,7 +734,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84530",
+        "@id": "_:bn84558",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -739,7 +743,7 @@
         }
       },
       {
-        "@id": "_:bn84531",
+        "@id": "_:bn84559",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -750,7 +754,7 @@
     ],
     "friendOf": [
       {
-        "@id": "_:bn84532",
+        "@id": "_:bn84560",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23511",
@@ -773,7 +777,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn84533",
+        "@id": "_:bn84561",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19157",
@@ -795,7 +799,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84534",
+        "@id": "_:bn84562",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -811,7 +815,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84535",
+        "@id": "_:bn84563",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -835,7 +839,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84536",
+        "@id": "_:bn84564",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -851,7 +855,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84537",
+        "@id": "_:bn84565",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -870,7 +874,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84538",
+        "@id": "_:bn84566",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -886,7 +890,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84539",
+        "@id": "_:bn84567",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -905,7 +909,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84540",
+        "@id": "_:bn84568",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -921,7 +925,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84541",
+        "@id": "_:bn84569",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -945,7 +949,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84542",
+        "@id": "_:bn84570",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -961,7 +965,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84543",
+        "@id": "_:bn84571",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -980,7 +984,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84544",
+        "@id": "_:bn84572",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -996,7 +1000,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84545",
+        "@id": "_:bn84573",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1020,7 +1024,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84546",
+        "@id": "_:bn84574",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1036,7 +1040,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84547",
+        "@id": "_:bn84575",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1055,7 +1059,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84548",
+        "@id": "_:bn84576",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1071,7 +1075,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84549",
+        "@id": "_:bn84577",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1090,7 +1094,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84550",
+        "@id": "_:bn84578",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1106,7 +1110,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84551",
+        "@id": "_:bn84579",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1125,7 +1129,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84552",
+        "@id": "_:bn84580",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1141,7 +1145,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84553",
+        "@id": "_:bn84581",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1160,7 +1164,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84554",
+        "@id": "_:bn84582",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1176,7 +1180,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84555",
+        "@id": "_:bn84583",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1200,7 +1204,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84556",
+        "@id": "_:bn84584",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1216,7 +1220,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84557",
+        "@id": "_:bn84585",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1235,7 +1239,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn84558",
+        "@id": "_:bn84586",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19157",
@@ -1257,7 +1261,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84559",
+        "@id": "_:bn84587",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1273,7 +1277,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84560",
+        "@id": "_:bn84588",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1292,7 +1296,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84561",
+        "@id": "_:bn84589",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1308,7 +1312,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84562",
+        "@id": "_:bn84590",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1327,7 +1331,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84563",
+        "@id": "_:bn84591",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1343,7 +1347,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84564",
+        "@id": "_:bn84592",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1362,7 +1366,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84565",
+        "@id": "_:bn84593",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1378,7 +1382,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84566",
+        "@id": "_:bn84594",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1397,7 +1401,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84567",
+        "@id": "_:bn84595",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1413,7 +1417,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84568",
+        "@id": "_:bn84596",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1437,7 +1441,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84569",
+        "@id": "_:bn84597",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1453,7 +1457,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84570",
+        "@id": "_:bn84598",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1472,7 +1476,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84571",
+        "@id": "_:bn84599",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1488,7 +1492,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84572",
+        "@id": "_:bn84600",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1507,7 +1511,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84573",
+        "@id": "_:bn84601",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1523,7 +1527,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84574",
+        "@id": "_:bn84602",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1547,7 +1551,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84575",
+        "@id": "_:bn84603",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1563,7 +1567,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84576",
+        "@id": "_:bn84604",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1582,7 +1586,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84577",
+        "@id": "_:bn84605",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1598,7 +1602,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84578",
+        "@id": "_:bn84606",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1622,7 +1626,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84579",
+        "@id": "_:bn84607",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1638,7 +1642,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84580",
+        "@id": "_:bn84608",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1657,7 +1661,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84581",
+        "@id": "_:bn84609",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1673,7 +1677,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84582",
+        "@id": "_:bn84610",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1692,7 +1696,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84583",
+        "@id": "_:bn84611",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1708,7 +1712,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84584",
+        "@id": "_:bn84612",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1732,7 +1736,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84585",
+        "@id": "_:bn84613",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1748,7 +1752,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84586",
+        "@id": "_:bn84614",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1767,7 +1771,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84587",
+        "@id": "_:bn84615",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1783,7 +1787,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84588",
+        "@id": "_:bn84616",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1807,7 +1811,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84589",
+        "@id": "_:bn84617",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1823,7 +1827,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84590",
+        "@id": "_:bn84618",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1842,7 +1846,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84591",
+        "@id": "_:bn84619",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1853,7 +1857,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84592",
+        "@id": "_:bn84620",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1872,7 +1876,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84593",
+        "@id": "_:bn84621",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1883,7 +1887,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84594",
+        "@id": "_:bn84622",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1902,7 +1906,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84595",
+        "@id": "_:bn84623",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1913,7 +1917,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84596",
+        "@id": "_:bn84624",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1932,7 +1936,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84597",
+        "@id": "_:bn84625",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1943,7 +1947,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84598",
+        "@id": "_:bn84626",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1962,7 +1966,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84599",
+        "@id": "_:bn84627",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1973,7 +1977,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84600",
+        "@id": "_:bn84628",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1992,7 +1996,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84601",
+        "@id": "_:bn84629",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2003,7 +2007,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84602",
+        "@id": "_:bn84630",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -2022,7 +2026,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84603",
+        "@id": "_:bn84631",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2033,7 +2037,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84604",
+        "@id": "_:bn84632",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -2052,7 +2056,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84605",
+        "@id": "_:bn84633",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2063,7 +2067,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84606",
+        "@id": "_:bn84634",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -2082,7 +2086,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84607",
+        "@id": "_:bn84635",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2093,7 +2097,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn84608",
+        "@id": "_:bn84636",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -2102,7 +2106,7 @@
         }
       },
       {
-        "@id": "_:bn84609",
+        "@id": "_:bn84637",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2113,7 +2117,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn84610",
+        "@id": "_:bn84638",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22368",
@@ -2136,7 +2140,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn84611",
+        "@id": "_:bn84639",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20540",
@@ -2163,426 +2167,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84612",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84613",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21294",
-    "rdfs:label": "Betje Howell",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84614",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84615",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21295",
-    "rdfs:label": "Beverly Kees",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84616",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84617",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21296",
-    "rdfs:label": "Bruce Grund",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84618",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84619",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21297",
-    "rdfs:label": "C. C. Culter",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84620",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84621",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21298",
-    "rdfs:label": "Camilla Snyder",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84622",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84623",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21299",
-    "rdfs:label": "Charlotte Willard",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84624",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84625",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21300",
-    "rdfs:label": "David L. Shirley",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84626",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84627",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21301",
-    "rdfs:label": "David Perlman",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84628",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84629",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21302",
-    "rdfs:label": "Davis Wylie",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84630",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84631",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21303",
-    "rdfs:label": "Doris Hering",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84632",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84633",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21304",
-    "rdfs:label": "Eliza",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84634",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84635",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21305",
-    "rdfs:label": "Elizabeth Sodoma",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84636",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84637",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21306",
-    "rdfs:label": "Elwin Porter",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84638",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84639",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21307",
-    "rdfs:label": "Erika Abeel",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn84640",
         "@type": "RelEvent",
         "agentObj": {
@@ -2601,9 +2185,429 @@
           "rdfs:label": "E.A.T. Bibliography Project",
           "@type": "SemanticLabProject"
         }
-      },
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21294",
+    "rdfs:label": "Betje Howell",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn84642",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84643",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21295",
+    "rdfs:label": "Beverly Kees",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84644",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84645",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21296",
+    "rdfs:label": "Bruce Grund",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84646",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84647",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21297",
+    "rdfs:label": "C. C. Culter",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84648",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84649",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21298",
+    "rdfs:label": "Camilla Snyder",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84650",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84651",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21299",
+    "rdfs:label": "Charlotte Willard",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84652",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84653",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21300",
+    "rdfs:label": "David L. Shirley",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84654",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84655",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21301",
+    "rdfs:label": "David Perlman",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84656",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84657",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21302",
+    "rdfs:label": "Davis Wylie",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84658",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84659",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21303",
+    "rdfs:label": "Doris Hering",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84660",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84661",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21304",
+    "rdfs:label": "Eliza",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84662",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84663",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21305",
+    "rdfs:label": "Elizabeth Sodoma",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84664",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84665",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21306",
+    "rdfs:label": "Elwin Porter",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84666",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84667",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21307",
+    "rdfs:label": "Erika Abeel",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84668",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84669",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn84670",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2614,7 +2618,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn84643",
+        "@id": "_:bn84671",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23737",
@@ -2646,426 +2650,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn84644",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84645",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21309",
-    "rdfs:label": "Grace Marmor Spruch",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84646",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84647",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21310",
-    "rdfs:label": "Henry Apfelbaum",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84648",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84649",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21311",
-    "rdfs:label": "Horace Sutton",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84650",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84651",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21312",
-    "rdfs:label": "Howard Smith",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84652",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84653",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21313",
-    "rdfs:label": "Ian W. Marthenson",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84654",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84655",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21314",
-    "rdfs:label": "Ida Jean Kain",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84656",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84657",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21315",
-    "rdfs:label": "J. R. Pierce",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84658",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84659",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21316",
-    "rdfs:label": "Jack Burnham",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84660",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84661",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21317",
-    "rdfs:label": "James T. Burns",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84662",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84663",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21318",
-    "rdfs:label": "Jane H. Kay",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84664",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84665",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21319",
-    "rdfs:label": "Jascha Reichardt",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84666",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84667",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21320",
-    "rdfs:label": "Jean Batie",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84668",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84669",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21321",
-    "rdfs:label": "Jean Clay",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84670",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84671",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21322",
-    "rdfs:label": "Jean Reeves",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn84672",
         "@type": "RelEvent",
         "agentObj": {
@@ -3089,8 +2673,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21323",
-    "rdfs:label": "Jill Johnston",
+    "@id": "semlab:Q21309",
+    "rdfs:label": "Grace Marmor Spruch",
     "@type": [
       "Person"
     ],
@@ -3119,8 +2703,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21324",
-    "rdfs:label": "John Canady",
+    "@id": "semlab:Q21310",
+    "rdfs:label": "Henry Apfelbaum",
     "@type": [
       "Person"
     ],
@@ -3149,8 +2733,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21325",
-    "rdfs:label": "John Chandler",
+    "@id": "semlab:Q21311",
+    "rdfs:label": "Horace Sutton",
     "@type": [
       "Person"
     ],
@@ -3179,8 +2763,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21326",
-    "rdfs:label": "John Forbes",
+    "@id": "semlab:Q21312",
+    "rdfs:label": "Howard Smith",
     "@type": [
       "Person"
     ],
@@ -3209,8 +2793,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21327",
-    "rdfs:label": "Jon E. Browning",
+    "@id": "semlab:Q21313",
+    "rdfs:label": "Ian W. Marthenson",
     "@type": [
       "Person"
     ],
@@ -3239,8 +2823,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21328",
-    "rdfs:label": "Joseph Kaye",
+    "@id": "semlab:Q21314",
+    "rdfs:label": "Ida Jean Kain",
     "@type": [
       "Person"
     ],
@@ -3269,8 +2853,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21329",
-    "rdfs:label": "Judith Anderson",
+    "@id": "semlab:Q21315",
+    "rdfs:label": "J. R. Pierce",
     "@type": [
       "Person"
     ],
@@ -3299,8 +2883,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21330",
-    "rdfs:label": "Juridi Yano",
+    "@id": "semlab:Q21316",
+    "rdfs:label": "Jack Burnham",
     "@type": [
       "Person"
     ],
@@ -3329,8 +2913,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21331",
-    "rdfs:label": "Katherine Kuh",
+    "@id": "semlab:Q21317",
+    "rdfs:label": "James T. Burns",
     "@type": [
       "Person"
     ],
@@ -3359,8 +2943,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21332",
-    "rdfs:label": "Katsuhiro Yamaguchi",
+    "@id": "semlab:Q21318",
+    "rdfs:label": "Jane H. Kay",
     "@type": [
       "Person"
     ],
@@ -3385,17 +2969,12 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "E.A.T.DatascapePageIdentifier": [
-      {
-        "@value": "actor/395"
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21333",
-    "rdfs:label": "Kay Tateishi",
+    "@id": "semlab:Q21319",
+    "rdfs:label": "Jascha Reichardt",
     "@type": [
       "Person"
     ],
@@ -3424,8 +3003,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21334",
-    "rdfs:label": "Koichiro Ishizaki",
+    "@id": "semlab:Q21320",
+    "rdfs:label": "Jean Batie",
     "@type": [
       "Person"
     ],
@@ -3454,8 +3033,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21335",
-    "rdfs:label": "L. J. Heilos",
+    "@id": "semlab:Q21321",
+    "rdfs:label": "Jean Clay",
     "@type": [
       "Person"
     ],
@@ -3484,8 +3063,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21336",
-    "rdfs:label": "Lars Gunnar Bodin",
+    "@id": "semlab:Q21322",
+    "rdfs:label": "Jean Reeves",
     "@type": [
       "Person"
     ],
@@ -3514,8 +3093,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21337",
-    "rdfs:label": "M. V. Mathews",
+    "@id": "semlab:Q21323",
+    "rdfs:label": "Jill Johnston",
     "@type": [
       "Person"
     ],
@@ -3544,8 +3123,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21338",
-    "rdfs:label": "Malice",
+    "@id": "semlab:Q21324",
+    "rdfs:label": "John Canady",
     "@type": [
       "Person"
     ],
@@ -3574,8 +3153,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21339",
-    "rdfs:label": "Manuel De Lima",
+    "@id": "semlab:Q21325",
+    "rdfs:label": "John Chandler",
     "@type": [
       "Person"
     ],
@@ -3604,8 +3183,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21340",
-    "rdfs:label": "Maria Clara Moyano",
+    "@id": "semlab:Q21326",
+    "rdfs:label": "John Forbes",
     "@type": [
       "Person"
     ],
@@ -3634,8 +3213,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21341",
-    "rdfs:label": "Marianna Kaufman",
+    "@id": "semlab:Q21327",
+    "rdfs:label": "Jon E. Browning",
     "@type": [
       "Person"
     ],
@@ -3664,8 +3243,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21342",
-    "rdfs:label": "Miriam Dungan Cross",
+    "@id": "semlab:Q21328",
+    "rdfs:label": "Joseph Kaye",
     "@type": [
       "Person"
     ],
@@ -3694,8 +3273,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21343",
-    "rdfs:label": "Monique Fong",
+    "@id": "semlab:Q21329",
+    "rdfs:label": "Judith Anderson",
     "@type": [
       "Person"
     ],
@@ -3724,8 +3303,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21345",
-    "rdfs:label": "Nilo Lindgren",
+    "@id": "semlab:Q21330",
+    "rdfs:label": "Juridi Yano",
     "@type": [
       "Person"
     ],
@@ -3750,6 +3329,431 @@
           "@type": "SemanticLabProject"
         }
       }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21331",
+    "rdfs:label": "Katherine Kuh",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84718",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84719",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21332",
+    "rdfs:label": "Katsuhiro Yamaguchi",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84720",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84721",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "E.A.T.DatascapePageIdentifier": [
+      {
+        "@value": "actor/395"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21333",
+    "rdfs:label": "Kay Tateishi",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84722",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84723",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21334",
+    "rdfs:label": "Koichiro Ishizaki",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84724",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84725",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21335",
+    "rdfs:label": "L. J. Heilos",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84726",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84727",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21336",
+    "rdfs:label": "Lars Gunnar Bodin",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84728",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84729",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21337",
+    "rdfs:label": "M. V. Mathews",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84730",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84731",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21338",
+    "rdfs:label": "Malice",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84732",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84733",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21339",
+    "rdfs:label": "Manuel De Lima",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84734",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84735",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21340",
+    "rdfs:label": "Maria Clara Moyano",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84736",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84737",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21341",
+    "rdfs:label": "Marianna Kaufman",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84738",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84739",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21342",
+    "rdfs:label": "Miriam Dungan Cross",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84740",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84741",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21343",
+    "rdfs:label": "Monique Fong",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84742",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84743",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21345",
+    "rdfs:label": "Nilo Lindgren",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84744",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84745",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
     ],
     "E.A.T.DatascapePageIdentifier": [
       {
@@ -3758,7 +3762,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn84718",
+        "@id": "_:bn84746",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20540",
@@ -3775,426 +3779,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q21346",
     "rdfs:label": "Norma Harrison",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84719",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84720",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21347",
-    "rdfs:label": "Normand Theriault",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84721",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84722",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21348",
-    "rdfs:label": "Oscar",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84723",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84724",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21349",
-    "rdfs:label": "Patrick O'Connor",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84725",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84726",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21351",
-    "rdfs:label": "Rena Berger",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84727",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84728",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21352",
-    "rdfs:label": "Richard Christiansen",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84729",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84730",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21353",
-    "rdfs:label": "Richard F. Shepard",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84731",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84732",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21354",
-    "rdfs:label": "Robert Henry",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84733",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84734",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21355",
-    "rdfs:label": "Roderick Nordell",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84735",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84736",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21356",
-    "rdfs:label": "Roger Kenneth Field",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84737",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84738",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21357",
-    "rdfs:label": "Stanley Klein",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84739",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84740",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21358",
-    "rdfs:label": "Themla R. Newman",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84741",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84742",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21359",
-    "rdfs:label": "Torsten Eckbom",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84743",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84744",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21360",
-    "rdfs:label": "Virginia Westover",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn84745",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn84746",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21361",
-    "rdfs:label": "Wendy Michener",
     "@type": [
       "Person"
     ],
@@ -4223,8 +3807,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21362",
-    "rdfs:label": "Willem van der Eyken",
+    "@id": "semlab:Q21347",
+    "rdfs:label": "Normand Theriault",
     "@type": [
       "Person"
     ],
@@ -4253,8 +3837,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21363",
-    "rdfs:label": "William Wilson",
+    "@id": "semlab:Q21348",
+    "rdfs:label": "Oscar",
     "@type": [
       "Person"
     ],
@@ -4272,6 +3856,426 @@
     "partOfProject": [
       {
         "@id": "_:bn84752",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21349",
+    "rdfs:label": "Patrick O'Connor",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84753",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84754",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21351",
+    "rdfs:label": "Rena Berger",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84755",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84756",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21352",
+    "rdfs:label": "Richard Christiansen",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84757",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84758",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21353",
+    "rdfs:label": "Richard F. Shepard",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84759",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84760",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21354",
+    "rdfs:label": "Robert Henry",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84761",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84762",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21355",
+    "rdfs:label": "Roderick Nordell",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84763",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84764",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21356",
+    "rdfs:label": "Roger Kenneth Field",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84765",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84766",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21357",
+    "rdfs:label": "Stanley Klein",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84767",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84768",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21358",
+    "rdfs:label": "Themla R. Newman",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84769",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84770",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21359",
+    "rdfs:label": "Torsten Eckbom",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84771",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84772",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21360",
+    "rdfs:label": "Virginia Westover",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84773",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84774",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21361",
+    "rdfs:label": "Wendy Michener",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84775",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84776",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21362",
+    "rdfs:label": "Willem van der Eyken",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84777",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84778",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21363",
+    "rdfs:label": "William Wilson",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84779",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84780",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
