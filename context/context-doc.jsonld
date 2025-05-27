@@ -1205,6 +1205,31 @@
         "end date"
       ]
     },
+    "productionTeamMember": {
+      "@id": "http://base.semlab.io/entity/P269",
+      "skos:prefLabel": "production team member",
+      "skos:note": "temp SAA property (do not use)"
+    },
+    "maximumQuantity": {
+      "@id": "http://base.semlab.io/entity/P230",
+      "skos:prefLabel": "maximum quantity",
+      "skos:note": "specifies the maximum quantity parameter of a 'range' or 'diff within range' constraint"
+    },
+    "minimumDate": {
+      "@id": "http://base.semlab.io/entity/P231",
+      "skos:prefLabel": "minimum date",
+      "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
+    },
+    "maximumDate": {
+      "@id": "http://base.semlab.io/entity/P232",
+      "skos:prefLabel": "maximum date",
+      "skos:note": "specifies the maximum date parameter of a 'range' or 'diff within range' constraint"
+    },
+    "namespace": {
+      "@id": "http://base.semlab.io/entity/P233",
+      "skos:prefLabel": "namespace",
+      "skos:note": "specifies the namespace parameter of a 'commons link' constraint"
+    },
     "formatAsARegularExpression": {
       "@id": "http://base.semlab.io/entity/P234",
       "skos:prefLabel": "format as a regular expression",
@@ -1328,31 +1353,6 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
-    },
-    "productionTeamMember": {
-      "@id": "http://base.semlab.io/entity/P269",
-      "skos:prefLabel": "production team member",
-      "skos:note": "temp SAA property (do not use)"
-    },
-    "maximumQuantity": {
-      "@id": "http://base.semlab.io/entity/P230",
-      "skos:prefLabel": "maximum quantity",
-      "skos:note": "specifies the maximum quantity parameter of a 'range' or 'diff within range' constraint"
-    },
-    "minimumDate": {
-      "@id": "http://base.semlab.io/entity/P231",
-      "skos:prefLabel": "minimum date",
-      "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
-    },
-    "maximumDate": {
-      "@id": "http://base.semlab.io/entity/P232",
-      "skos:prefLabel": "maximum date",
-      "skos:note": "specifies the maximum date parameter of a 'range' or 'diff within range' constraint"
-    },
-    "namespace": {
-      "@id": "http://base.semlab.io/entity/P233",
-      "skos:prefLabel": "namespace",
-      "skos:note": "specifies the namespace parameter of a 'commons link' constraint"
     },
     "musicianLeaderOf": {
       "@id": "http://base.semlab.io/entity/P160",
@@ -1769,6 +1769,8 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
+        "media",
+        "medium",
         "art materials",
         "art media",
         "art medium",
@@ -1777,9 +1779,7 @@
         "artistic medium",
         "arts materials",
         "crafting material",
-        "material",
-        "media",
-        "medium"
+        "material"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -2196,6 +2196,11 @@
       "owl:equivalentClass": [
         "http://xmlns.com/foaf/0.1/Group"
       ]
+    },
+    "GuestList": {
+      "@type": "rdfs:Class",
+      "@id": "http://base.semlab.io/entity/Q19086",
+      "skos:prefLabel": "guest list"
     },
     "HistoricDemographica": {
       "@type": "rdfs:Class",
@@ -2697,7 +2702,7 @@
     "SemanticLabProject": {
       "@type": "rdfs:Class",
       "@id": "http://base.semlab.io/entity/Q19064",
-      "skos:prefLabel": "Semantic Lab Project",
+      "skos:prefLabel": "Semantic Lab project",
       "skos:altLabel": [
         "SemLab project"
       ]
