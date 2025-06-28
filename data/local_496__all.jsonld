@@ -1,8 +1,8 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q194",
-    "rdfs:label": "Percy Humphrey",
+    "@id": "semlab:Q76",
+    "rdfs:label": "Clarence Henry",
     "@type": [
       "Person"
     ],
@@ -22,8 +22,8 @@
         "@id": "_:bn50776",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q20719",
-          "rdfs:label": "Local 496",
+          "@id": "semlab:Q21217",
+          "rdfs:label": "Linked Jazz Oral History Network",
           "@type": "SemanticLabProject"
         }
       },
@@ -31,30 +31,30 @@
         "@id": "_:bn50777",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q21217",
-          "rdfs:label": "Linked Jazz Oral History Network",
+          "@id": "semlab:Q20719",
+          "rdfs:label": "Local 496",
           "@type": "SemanticLabProject"
         }
       }
     ],
     "legacyUri": [
       {
-        "@value": "http://dbpedia.org/resource/Percy_Humphrey"
+        "@value": "http://dbpedia.org/resource/Clarence_Henry"
       }
     ],
     "thumbnail": [
       {
-        "@value": "https://linkedjazz.org/image/square/Percy_Humphrey.png"
+        "@value": "https://linkedjazz.org/image/square/Clarence_Henry.png"
       }
     ],
     "linkedJazzSlug": [
       {
-        "@value": "Percy_Humphrey"
+        "@value": "Clarence_Henry"
       }
     ],
     "wikidataQid": [
       {
-        "@value": "Q7167411"
+        "@value": "Q1095442"
       }
     ],
     "demographica": [
@@ -90,6 +90,148 @@
         "@id": "_:bn50780",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q20630",
+          "rdfs:label": "piano",
+          "@type": "ArtMaterial"
+        },
+        "statedIn": [
+          {
+            "@id": "semlab:Q27054",
+            "rdfs:label": "Local 496 Membership Directory"
+          }
+        ],
+        "pageNumber": [
+          "25"
+        ]
+      }
+    ],
+    "livedIn": [
+      {
+        "@id": "_:bn50781",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27150",
+          "rdfs:label": "New Orleans (La.)",
+          "@type": "City"
+        },
+        "streetAddress": [
+          {
+            "text": "3309 Lawrence St., New Orleans, Louisiana 70114",
+            "language": "en"
+          }
+        ],
+        "coordinateLocation": [
+          {
+            "latitude": 29.938055555555554,
+            "longitude": -90.02083333333333,
+            "altitude": null,
+            "precision": 0.0002777777777777778,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          }
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q27054",
+            "rdfs:label": "Local 496 Membership Directory"
+          }
+        ],
+        "pageNumber": [
+          "9"
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q194",
+    "rdfs:label": "Percy Humphrey",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn50782",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn50783",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20719",
+          "rdfs:label": "Local 496",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn50784",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21217",
+          "rdfs:label": "Linked Jazz Oral History Network",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "legacyUri": [
+      {
+        "@value": "http://dbpedia.org/resource/Percy_Humphrey"
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://linkedjazz.org/image/square/Percy_Humphrey.png"
+      }
+    ],
+    "linkedJazzSlug": [
+      {
+        "@value": "Percy_Humphrey"
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q7167411"
+      }
+    ],
+    "demographica": [
+      {
+        "@id": "_:bn50785",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19065",
+          "rdfs:label": "men",
+          "@type": "Demographica"
+        }
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn50786",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27053",
+          "rdfs:label": "American Federation of Musicians. Local 496",
+          "@type": "LocalUnion"
+        },
+        "statedIn": [
+          {
+            "@id": "semlab:Q27054",
+            "rdfs:label": "Local 496 Membership Directory"
+          }
+        ]
+      }
+    ],
+    "instrument": [
+      {
+        "@id": "_:bn50787",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q20620",
           "rdfs:label": "trumpet",
           "@type": "MusicalInstrument"
@@ -107,7 +249,7 @@
     ],
     "livedIn": [
       {
-        "@id": "_:bn50781",
+        "@id": "_:bn50788",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27150",
@@ -150,7 +292,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn50782",
+        "@id": "_:bn50789",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -161,7 +303,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn50783",
+        "@id": "_:bn50790",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -170,7 +312,7 @@
         }
       },
       {
-        "@id": "_:bn50784",
+        "@id": "_:bn50791",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21217",
@@ -197,148 +339,6 @@
     "wikidataQid": [
       {
         "@value": "Q2330233"
-      }
-    ],
-    "demographica": [
-      {
-        "@id": "_:bn50785",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19065",
-          "rdfs:label": "men",
-          "@type": "Demographica"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn50786",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27053",
-          "rdfs:label": "American Federation of Musicians. Local 496",
-          "@type": "LocalUnion"
-        },
-        "statedIn": [
-          {
-            "@id": "semlab:Q27054",
-            "rdfs:label": "Local 496 Membership Directory"
-          }
-        ]
-      }
-    ],
-    "instrument": [
-      {
-        "@id": "_:bn50787",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20721",
-          "rdfs:label": "clarinet",
-          "@type": "MusicalInstrument"
-        },
-        "statedIn": [
-          {
-            "@id": "semlab:Q27054",
-            "rdfs:label": "Local 496 Membership Directory"
-          }
-        ],
-        "pageNumber": [
-          "22"
-        ]
-      }
-    ],
-    "livedIn": [
-      {
-        "@id": "_:bn50788",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27150",
-          "rdfs:label": "New Orleans (La.)",
-          "@type": "City"
-        },
-        "streetAddress": [
-          {
-            "text": "2315 Cadiz St., New Orleans, Louisiana 70115",
-            "language": "en"
-          }
-        ],
-        "coordinateLocation": [
-          {
-            "latitude": 29.933333333333334,
-            "longitude": -90.10472222222222,
-            "altitude": null,
-            "precision": 0.0002777777777777778,
-            "globe": "http://www.wikidata.org/entity/Q2"
-          }
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q27054",
-            "rdfs:label": "Local 496 Membership Directory"
-          }
-        ],
-        "pageNumber": [
-          "10"
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q76",
-    "rdfs:label": "Clarence Henry",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn50789",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn50790",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21217",
-          "rdfs:label": "Linked Jazz Oral History Network",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn50791",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20719",
-          "rdfs:label": "Local 496",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "legacyUri": [
-      {
-        "@value": "http://dbpedia.org/resource/Clarence_Henry"
-      }
-    ],
-    "thumbnail": [
-      {
-        "@value": "https://linkedjazz.org/image/square/Clarence_Henry.png"
-      }
-    ],
-    "linkedJazzSlug": [
-      {
-        "@value": "Clarence_Henry"
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q1095442"
       }
     ],
     "demographica": [
@@ -374,9 +374,9 @@
         "@id": "_:bn50794",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q20630",
-          "rdfs:label": "piano",
-          "@type": "ArtMaterial"
+          "@id": "semlab:Q20721",
+          "rdfs:label": "clarinet",
+          "@type": "MusicalInstrument"
         },
         "statedIn": [
           {
@@ -385,7 +385,7 @@
           }
         ],
         "pageNumber": [
-          "25"
+          "22"
         ]
       }
     ],
@@ -400,14 +400,14 @@
         },
         "streetAddress": [
           {
-            "text": "3309 Lawrence St., New Orleans, Louisiana 70114",
+            "text": "2315 Cadiz St., New Orleans, Louisiana 70115",
             "language": "en"
           }
         ],
         "coordinateLocation": [
           {
-            "latitude": 29.938055555555554,
-            "longitude": -90.02083333333333,
+            "latitude": 29.933333333333334,
+            "longitude": -90.10472222222222,
             "altitude": null,
             "precision": 0.0002777777777777778,
             "globe": "http://www.wikidata.org/entity/Q2"
@@ -420,7 +420,7 @@
           }
         ],
         "pageNumber": [
-          "9"
+          "10"
         ]
       }
     ]
@@ -12106,8 +12106,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q1926",
-    "rdfs:label": "Teddy Edwards",
+    "@id": "semlab:Q1547",
+    "rdfs:label": "Harold Dejan",
     "@type": [
       "Person"
     ],
@@ -12144,22 +12144,22 @@
     ],
     "legacyUri": [
       {
-        "@value": "http://dbpedia.org/resource/Teddy_Edwards"
+        "@value": "http://dbpedia.org/resource/Harold_Dejan"
       }
     ],
     "thumbnail": [
       {
-        "@value": "https://linkedjazz.org/image/square/Teddy_Edwards.png"
+        "@value": "https://linkedjazz.org/image/square/Harold_Dejan.png"
       }
     ],
     "linkedJazzSlug": [
       {
-        "@value": "Teddy_Edwards"
+        "@value": "Harold_Dejan"
       }
     ],
     "wikidataQid": [
       {
-        "@value": "Q322308"
+        "@value": "Q1585801"
       }
     ],
     "demographica": [
@@ -12195,148 +12195,6 @@
         "@id": "_:bn51178",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q20627",
-          "rdfs:label": "drums",
-          "@type": "MusicalInstrument"
-        },
-        "statedIn": [
-          {
-            "@id": "semlab:Q27054",
-            "rdfs:label": "Local 496 Membership Directory"
-          }
-        ],
-        "pageNumber": [
-          "23"
-        ]
-      }
-    ],
-    "livedIn": [
-      {
-        "@id": "_:bn51179",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27150",
-          "rdfs:label": "New Orleans (La.)",
-          "@type": "City"
-        },
-        "streetAddress": [
-          {
-            "text": "2028 St. Phillips St., New Orleans, Louisiana 70116",
-            "language": "en"
-          }
-        ],
-        "coordinateLocation": [
-          {
-            "latitude": 29.968611111111112,
-            "longitude": -90.07472222222222,
-            "altitude": null,
-            "precision": 0.0002777777777777778,
-            "globe": "http://www.wikidata.org/entity/Q2"
-          }
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q27054",
-            "rdfs:label": "Local 496 Membership Directory"
-          }
-        ],
-        "pageNumber": [
-          "7"
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q1547",
-    "rdfs:label": "Harold Dejan",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn51180",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn51181",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20719",
-          "rdfs:label": "Local 496",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn51182",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21217",
-          "rdfs:label": "Linked Jazz Oral History Network",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "legacyUri": [
-      {
-        "@value": "http://dbpedia.org/resource/Harold_Dejan"
-      }
-    ],
-    "thumbnail": [
-      {
-        "@value": "https://linkedjazz.org/image/square/Harold_Dejan.png"
-      }
-    ],
-    "linkedJazzSlug": [
-      {
-        "@value": "Harold_Dejan"
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q1585801"
-      }
-    ],
-    "demographica": [
-      {
-        "@id": "_:bn51183",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19065",
-          "rdfs:label": "men",
-          "@type": "Demographica"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn51184",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27053",
-          "rdfs:label": "American Federation of Musicians. Local 496",
-          "@type": "LocalUnion"
-        },
-        "statedIn": [
-          {
-            "@id": "semlab:Q27054",
-            "rdfs:label": "Local 496 Membership Directory"
-          }
-        ]
-      }
-    ],
-    "instrument": [
-      {
-        "@id": "_:bn51185",
-        "@type": "RelEvent",
-        "agentObj": {
           "@id": "semlab:Q20623",
           "rdfs:label": "saxophone",
           "@type": "MusicalInstrument"
@@ -12354,7 +12212,7 @@
     ],
     "livedIn": [
       {
-        "@id": "_:bn51186",
+        "@id": "_:bn51179",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27150",
@@ -12397,7 +12255,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn51187",
+        "@id": "_:bn51180",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -12408,7 +12266,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn51188",
+        "@id": "_:bn51181",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21217",
@@ -12417,7 +12275,7 @@
         }
       },
       {
-        "@id": "_:bn51189",
+        "@id": "_:bn51182",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -12443,7 +12301,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn51190",
+        "@id": "_:bn51183",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -12454,7 +12312,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn51191",
+        "@id": "_:bn51184",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27053",
@@ -12471,7 +12329,7 @@
     ],
     "instrument": [
       {
-        "@id": "_:bn51192",
+        "@id": "_:bn51185",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20721",
@@ -12491,7 +12349,7 @@
     ],
     "livedIn": [
       {
-        "@id": "_:bn51193",
+        "@id": "_:bn51186",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27150",
@@ -12534,7 +12392,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn51194",
+        "@id": "_:bn51187",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -12545,7 +12403,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn51195",
+        "@id": "_:bn51188",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -12554,7 +12412,7 @@
         }
       },
       {
-        "@id": "_:bn51196",
+        "@id": "_:bn51189",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21217",
@@ -12585,7 +12443,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn51197",
+        "@id": "_:bn51190",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -12596,7 +12454,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn51198",
+        "@id": "_:bn51191",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27053",
@@ -12613,7 +12471,7 @@
     ],
     "instrument": [
       {
-        "@id": "_:bn51199",
+        "@id": "_:bn51192",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20624",
@@ -12627,7 +12485,7 @@
     ],
     "livedIn": [
       {
-        "@id": "_:bn51200",
+        "@id": "_:bn51193",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27150",
@@ -12670,6 +12528,148 @@
     ],
     "instanceOf": [
       {
+        "@id": "_:bn51194",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn51195",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20719",
+          "rdfs:label": "Local 496",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn51196",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21217",
+          "rdfs:label": "Linked Jazz Oral History Network",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "legacyUri": [
+      {
+        "@value": "http://dbpedia.org/resource/Louis_Barbarin"
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://linkedjazz.org/image/square/Louis_Barbarin.png"
+      }
+    ],
+    "linkedJazzSlug": [
+      {
+        "@value": "Louis_Barbarin"
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1871516"
+      }
+    ],
+    "demographica": [
+      {
+        "@id": "_:bn51197",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19065",
+          "rdfs:label": "men",
+          "@type": "Demographica"
+        }
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn51198",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27053",
+          "rdfs:label": "American Federation of Musicians. Local 496",
+          "@type": "LocalUnion"
+        },
+        "statedIn": [
+          {
+            "@id": "semlab:Q27054",
+            "rdfs:label": "Local 496 Membership Directory"
+          }
+        ]
+      }
+    ],
+    "instrument": [
+      {
+        "@id": "_:bn51199",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20627",
+          "rdfs:label": "drums",
+          "@type": "MusicalInstrument"
+        },
+        "statedIn": [
+          {
+            "@id": "semlab:Q27054",
+            "rdfs:label": "Local 496 Membership Directory"
+          }
+        ],
+        "pageNumber": [
+          "23"
+        ]
+      }
+    ],
+    "livedIn": [
+      {
+        "@id": "_:bn51200",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27150",
+          "rdfs:label": "New Orleans (La.)",
+          "@type": "City"
+        },
+        "streetAddress": [
+          {
+            "text": "1722 New Orleans St., New Orleans, Louisiana 70116",
+            "language": "en"
+          }
+        ],
+        "coordinateLocation": [
+          {
+            "latitude": 29.974444444444444,
+            "longitude": -90.06555555555556,
+            "altitude": null,
+            "precision": 0.0002777777777777778,
+            "globe": "http://www.wikidata.org/entity/Q2"
+          }
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q27054",
+            "rdfs:label": "Local 496 Membership Directory"
+          }
+        ],
+        "pageNumber": [
+          "2"
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q1926",
+    "rdfs:label": "Teddy Edwards",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
         "@id": "_:bn51201",
         "@type": "RelEvent",
         "agentObj": {
@@ -12701,22 +12701,22 @@
     ],
     "legacyUri": [
       {
-        "@value": "http://dbpedia.org/resource/Louis_Barbarin"
+        "@value": "http://dbpedia.org/resource/Teddy_Edwards"
       }
     ],
     "thumbnail": [
       {
-        "@value": "https://linkedjazz.org/image/square/Louis_Barbarin.png"
+        "@value": "https://linkedjazz.org/image/square/Teddy_Edwards.png"
       }
     ],
     "linkedJazzSlug": [
       {
-        "@value": "Louis_Barbarin"
+        "@value": "Teddy_Edwards"
       }
     ],
     "wikidataQid": [
       {
-        "@value": "Q1871516"
+        "@value": "Q322308"
       }
     ],
     "demographica": [
@@ -12778,14 +12778,14 @@
         },
         "streetAddress": [
           {
-            "text": "1722 New Orleans St., New Orleans, Louisiana 70116",
+            "text": "2028 St. Phillips St., New Orleans, Louisiana 70116",
             "language": "en"
           }
         ],
         "coordinateLocation": [
           {
-            "latitude": 29.974444444444444,
-            "longitude": -90.06555555555556,
+            "latitude": 29.968611111111112,
+            "longitude": -90.07472222222222,
             "altitude": null,
             "precision": 0.0002777777777777778,
             "globe": "http://www.wikidata.org/entity/Q2"
@@ -12798,7 +12798,7 @@
           }
         ],
         "pageNumber": [
-          "2"
+          "7"
         ]
       }
     ]
@@ -55152,51 +55152,6 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27055",
-    "rdfs:label": "Tulane University",
-    "@type": [
-      "Institution",
-      "School"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn53191",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1804",
-          "rdfs:label": "institution",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn53192",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20618",
-          "rdfs:label": "school",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn53193",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20719",
-          "rdfs:label": "Local 496",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q1193547"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q27047",
     "rdfs:label": "George Lewis",
     "@type": [
@@ -55204,7 +55159,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53194",
+        "@id": "_:bn53191",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -55215,7 +55170,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53195",
+        "@id": "_:bn53192",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -55226,7 +55181,7 @@
     ],
     "differentFrom": [
       {
-        "@id": "_:bn53196",
+        "@id": "_:bn53193",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q863",
@@ -55237,7 +55192,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn53197",
+        "@id": "_:bn53194",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27053",
@@ -55254,7 +55209,7 @@
     ],
     "instrument": [
       {
-        "@id": "_:bn53198",
+        "@id": "_:bn53195",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20721",
@@ -55274,7 +55229,7 @@
     ],
     "livedIn": [
       {
-        "@id": "_:bn53199",
+        "@id": "_:bn53196",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27150",
@@ -55317,7 +55272,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53200",
+        "@id": "_:bn53197",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -55328,7 +55283,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53201",
+        "@id": "_:bn53198",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -55344,7 +55299,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn53202",
+        "@id": "_:bn53199",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27053",
@@ -55361,7 +55316,7 @@
     ],
     "instrument": [
       {
-        "@id": "_:bn53203",
+        "@id": "_:bn53200",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20721",
@@ -55381,7 +55336,7 @@
     ],
     "livedIn": [
       {
-        "@id": "_:bn53204",
+        "@id": "_:bn53201",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27150",
@@ -55424,7 +55379,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53205",
+        "@id": "_:bn53202",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -55435,7 +55390,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53206",
+        "@id": "_:bn53203",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -55446,7 +55401,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn53207",
+        "@id": "_:bn53204",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27053",
@@ -55463,7 +55418,7 @@
     ],
     "instrument": [
       {
-        "@id": "_:bn53208",
+        "@id": "_:bn53205",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20620",
@@ -55483,7 +55438,7 @@
     ],
     "livedIn": [
       {
-        "@id": "_:bn53209",
+        "@id": "_:bn53206",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27150",
@@ -55526,7 +55481,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53210",
+        "@id": "_:bn53207",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -55537,7 +55492,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53211",
+        "@id": "_:bn53208",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -55548,7 +55503,7 @@
     ],
     "differentFrom": [
       {
-        "@id": "_:bn53212",
+        "@id": "_:bn53209",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q388",
@@ -55559,7 +55514,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn53213",
+        "@id": "_:bn53210",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27053",
@@ -55576,7 +55531,7 @@
     ],
     "instrument": [
       {
-        "@id": "_:bn53214",
+        "@id": "_:bn53211",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20623",
@@ -55596,7 +55551,7 @@
     ],
     "livedIn": [
       {
-        "@id": "_:bn53215",
+        "@id": "_:bn53212",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27150",
@@ -55639,7 +55594,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53216",
+        "@id": "_:bn53213",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -55650,7 +55605,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53217",
+        "@id": "_:bn53214",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -55661,7 +55616,7 @@
     ],
     "differentFrom": [
       {
-        "@id": "_:bn53218",
+        "@id": "_:bn53215",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1538",
@@ -55672,7 +55627,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn53219",
+        "@id": "_:bn53216",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27053",
@@ -55689,7 +55644,7 @@
     ],
     "instrument": [
       {
-        "@id": "_:bn53220",
+        "@id": "_:bn53217",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20630",
@@ -55709,7 +55664,7 @@
     ],
     "livedIn": [
       {
-        "@id": "_:bn53221",
+        "@id": "_:bn53218",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27150",
@@ -55752,7 +55707,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53222",
+        "@id": "_:bn53219",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -55763,7 +55718,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53223",
+        "@id": "_:bn53220",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -55774,7 +55729,7 @@
     ],
     "differentFrom": [
       {
-        "@id": "_:bn53224",
+        "@id": "_:bn53221",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1586",
@@ -55785,7 +55740,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn53225",
+        "@id": "_:bn53222",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27053",
@@ -55802,7 +55757,7 @@
     ],
     "instrument": [
       {
-        "@id": "_:bn53226",
+        "@id": "_:bn53223",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20623",
@@ -55822,7 +55777,7 @@
     ],
     "livedIn": [
       {
-        "@id": "_:bn53227",
+        "@id": "_:bn53224",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27150",
@@ -55865,7 +55820,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53228",
+        "@id": "_:bn53225",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
@@ -55876,7 +55831,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53229",
+        "@id": "_:bn53226",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -55900,7 +55855,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53230",
+        "@id": "_:bn53227",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
@@ -55911,7 +55866,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53231",
+        "@id": "_:bn53228",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -55935,7 +55890,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53232",
+        "@id": "_:bn53229",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
@@ -55946,7 +55901,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53233",
+        "@id": "_:bn53230",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -55970,7 +55925,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53234",
+        "@id": "_:bn53231",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
@@ -55981,7 +55936,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53235",
+        "@id": "_:bn53232",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -56005,7 +55960,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53236",
+        "@id": "_:bn53233",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
@@ -56016,7 +55971,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53237",
+        "@id": "_:bn53234",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -56040,7 +55995,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53238",
+        "@id": "_:bn53235",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
@@ -56051,7 +56006,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53239",
+        "@id": "_:bn53236",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -56076,7 +56031,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53240",
+        "@id": "_:bn53237",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
@@ -56085,7 +56040,7 @@
         }
       },
       {
-        "@id": "_:bn53241",
+        "@id": "_:bn53238",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23229",
@@ -56096,7 +56051,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53242",
+        "@id": "_:bn53239",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -56105,7 +56060,7 @@
         }
       },
       {
-        "@id": "_:bn53243",
+        "@id": "_:bn53240",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -56114,7 +56069,7 @@
         }
       },
       {
-        "@id": "_:bn53244",
+        "@id": "_:bn53241",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -56123,7 +56078,7 @@
         }
       },
       {
-        "@id": "_:bn53245",
+        "@id": "_:bn53242",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -56132,7 +56087,7 @@
         }
       },
       {
-        "@id": "_:bn53246",
+        "@id": "_:bn53243",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -56143,7 +56098,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn53247",
+        "@id": "_:bn53244",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19315",
@@ -56175,7 +56130,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53248",
+        "@id": "_:bn53245",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
@@ -56184,7 +56139,7 @@
         }
       },
       {
-        "@id": "_:bn53249",
+        "@id": "_:bn53246",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23229",
@@ -56195,7 +56150,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53250",
+        "@id": "_:bn53247",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -56204,7 +56159,7 @@
         }
       },
       {
-        "@id": "_:bn53251",
+        "@id": "_:bn53248",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -56213,7 +56168,7 @@
         }
       },
       {
-        "@id": "_:bn53252",
+        "@id": "_:bn53249",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -56222,7 +56177,7 @@
         }
       },
       {
-        "@id": "_:bn53253",
+        "@id": "_:bn53250",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -56231,7 +56186,7 @@
         }
       },
       {
-        "@id": "_:bn53254",
+        "@id": "_:bn53251",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -56242,7 +56197,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn53255",
+        "@id": "_:bn53252",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19315",
@@ -56273,7 +56228,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53256",
+        "@id": "_:bn53253",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
@@ -56284,7 +56239,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53257",
+        "@id": "_:bn53254",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -56308,7 +56263,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53258",
+        "@id": "_:bn53255",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22649",
@@ -56319,7 +56274,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53259",
+        "@id": "_:bn53256",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -56330,7 +56285,7 @@
     ],
     "documentSource": [
       {
-        "@id": "_:bn53260",
+        "@id": "_:bn53257",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27055",
@@ -56355,7 +56310,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53261",
+        "@id": "_:bn53258",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1804",
@@ -56364,7 +56319,7 @@
         }
       },
       {
-        "@id": "_:bn53262",
+        "@id": "_:bn53259",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20618",
@@ -56375,7 +56330,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53263",
+        "@id": "_:bn53260",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -56399,7 +56354,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53264",
+        "@id": "_:bn53261",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
@@ -56410,7 +56365,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53265",
+        "@id": "_:bn53262",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -56434,7 +56389,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53266",
+        "@id": "_:bn53263",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
@@ -56445,7 +56400,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn53267",
+        "@id": "_:bn53264",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -56469,11 +56424,56 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn53268",
+        "@id": "_:bn53265",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27056",
           "rdfs:label": "local union",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn53266",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20719",
+          "rdfs:label": "Local 496",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q66949304"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27055",
+    "rdfs:label": "Tulane University",
+    "@type": [
+      "Institution",
+      "School"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn53267",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1804",
+          "rdfs:label": "institution",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn53268",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20618",
+          "rdfs:label": "school",
           "@type": "Class"
         }
       }
@@ -56491,7 +56491,7 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q66949304"
+        "@value": "Q1193547"
       }
     ]
   }

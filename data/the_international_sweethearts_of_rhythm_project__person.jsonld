@@ -15668,8 +15668,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23097",
-    "rdfs:label": "Vivian Harris",
+    "@id": "semlab:Q23400",
+    "rdfs:label": "Judy Perkins",
     "@type": [
       "Person"
     ],
@@ -15689,6 +15689,212 @@
         "@id": "_:bn43932",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q20613",
+          "rdfs:label": "Women of Jazz",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn43933",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20655",
+          "rdfs:label": "The International Sweethearts of Rhythm Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q108574354"
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn43934",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20614",
+          "rdfs:label": "International Sweethearts of Rhythm",
+          "@type": "MusicGroup"
+        },
+        "instrument": [
+          {
+            "@id": "semlab:Q20622",
+            "rdfs:label": "vocals"
+          }
+        ],
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19082",
+            "rdfs:label": "musician"
+          }
+        ],
+        "referenceUrl": [
+          "https://media.mnhs.org/things/cms/10279/502/AV1989_212_1_M.pdf",
+          "https://chroniclingamerica.loc.gov/lccn/sn83025247/1946-06-14/ed-1/seq-6/"
+        ]
+      }
+    ],
+    "relativeOf": [
+      {
+        "@id": "_:bn43935",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20610",
+          "rdfs:label": "Anna Mae Winburn",
+          "@type": "Person"
+        },
+        "isRelation": [
+          {
+            "@id": "semlab:Q20649",
+            "rdfs:label": "sibling"
+          }
+        ],
+        "referenceUrl": [
+          "https://media.mnhs.org/things/cms/10279/502/AV1989_212_1_M.pdf",
+          "https://chroniclingamerica.loc.gov/lccn/sn83025247/1946-06-14/ed-1/seq-6/"
+        ]
+      }
+    ],
+    "occupation": [
+      {
+        "@id": "_:bn43936",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19082",
+          "rdfs:label": "musician",
+          "@type": "Occupation"
+        }
+      }
+    ],
+    "demographica": [
+      {
+        "@id": "_:bn43937",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18803",
+          "rdfs:label": "women",
+          "@type": "Demographica"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q23500",
+    "rdfs:label": "Amos Milburn",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn43938",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn43939",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20655",
+          "rdfs:label": "The International Sweethearts of Rhythm Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q474283"
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn43940",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23499",
+          "rdfs:label": "Amos Milburn and His \"Little\" Band",
+          "@type": "MusicGroup"
+        }
+      }
+    ],
+    "demographica": [
+      {
+        "@id": "_:bn43941",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19065",
+          "rdfs:label": "men",
+          "@type": "Demographica"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27037",
+    "rdfs:label": "Phil Harris",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn43942",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn43943",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20655",
+          "rdfs:label": "The International Sweethearts of Rhythm Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q123167101"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q23097",
+    "rdfs:label": "Vivian Harris",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn43944",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn43945",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q20655",
           "rdfs:label": "The International Sweethearts of Rhythm Project",
           "@type": "SemanticLabProject"
@@ -15702,7 +15908,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn43933",
+        "@id": "_:bn43946",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18803",
@@ -15711,7 +15917,7 @@
         }
       },
       {
-        "@id": "_:bn43934",
+        "@id": "_:bn43947",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21153",
@@ -15730,7 +15936,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn43935",
+        "@id": "_:bn43948",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -15741,7 +15947,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn43936",
+        "@id": "_:bn43949",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -15757,7 +15963,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn43937",
+        "@id": "_:bn43950",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -15766,7 +15972,7 @@
         }
       },
       {
-        "@id": "_:bn43938",
+        "@id": "_:bn43951",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21153",
@@ -15790,7 +15996,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn43939",
+        "@id": "_:bn43952",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -15801,7 +16007,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn43940",
+        "@id": "_:bn43953",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -15817,7 +16023,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn43941",
+        "@id": "_:bn43954",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -15826,7 +16032,7 @@
         }
       },
       {
-        "@id": "_:bn43942",
+        "@id": "_:bn43955",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21153",
@@ -15850,7 +16056,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn43943",
+        "@id": "_:bn43956",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -15861,7 +16067,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn43944",
+        "@id": "_:bn43957",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -15877,7 +16083,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn43945",
+        "@id": "_:bn43958",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -15896,7 +16102,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn43946",
+        "@id": "_:bn43959",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -15907,7 +16113,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn43947",
+        "@id": "_:bn43960",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -15918,7 +16124,7 @@
     ],
     "lifePartner": [
       {
-        "@id": "_:bn43948",
+        "@id": "_:bn43961",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20586",
@@ -15938,7 +16144,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn43949",
+        "@id": "_:bn43962",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -15970,7 +16176,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn43950",
+        "@id": "_:bn43963",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -15994,7 +16200,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn43951",
+        "@id": "_:bn43964",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -16005,7 +16211,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn43952",
+        "@id": "_:bn43965",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -16016,7 +16222,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn43953",
+        "@id": "_:bn43966",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
@@ -16027,7 +16233,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn43954",
+        "@id": "_:bn43967",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -16038,7 +16244,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn43955",
+        "@id": "_:bn43968",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23118",
@@ -16067,7 +16273,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn43956",
+        "@id": "_:bn43969",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -16078,7 +16284,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn43957",
+        "@id": "_:bn43970",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -16094,7 +16300,7 @@
     ],
     "demographica": [
       {
-        "@id": "_:bn43958",
+        "@id": "_:bn43971",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19065",
@@ -16113,210 +16319,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q23265",
     "rdfs:label": "Eddie Rector",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn43959",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn43960",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20655",
-          "rdfs:label": "The International Sweethearts of Rhythm Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q24068914"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23284",
-    "rdfs:label": "Kitty Stevenson",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn43961",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn43962",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20613",
-          "rdfs:label": "Women of Jazz",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn43963",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20655",
-          "rdfs:label": "The International Sweethearts of Rhythm Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q108119575"
-      }
-    ],
-    "demographica": [
-      {
-        "@id": "_:bn43964",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q18803",
-          "rdfs:label": "women",
-          "@type": "Demographica"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23400",
-    "rdfs:label": "Judy Perkins",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn43965",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn43966",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20613",
-          "rdfs:label": "Women of Jazz",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn43967",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20655",
-          "rdfs:label": "The International Sweethearts of Rhythm Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q108574354"
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn43968",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20614",
-          "rdfs:label": "International Sweethearts of Rhythm",
-          "@type": "MusicGroup"
-        },
-        "instrument": [
-          {
-            "@id": "semlab:Q20622",
-            "rdfs:label": "vocals"
-          }
-        ],
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19082",
-            "rdfs:label": "musician"
-          }
-        ],
-        "referenceUrl": [
-          "https://media.mnhs.org/things/cms/10279/502/AV1989_212_1_M.pdf",
-          "https://chroniclingamerica.loc.gov/lccn/sn83025247/1946-06-14/ed-1/seq-6/"
-        ]
-      }
-    ],
-    "relativeOf": [
-      {
-        "@id": "_:bn43969",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20610",
-          "rdfs:label": "Anna Mae Winburn",
-          "@type": "Person"
-        },
-        "isRelation": [
-          {
-            "@id": "semlab:Q20649",
-            "rdfs:label": "sibling"
-          }
-        ],
-        "referenceUrl": [
-          "https://media.mnhs.org/things/cms/10279/502/AV1989_212_1_M.pdf",
-          "https://chroniclingamerica.loc.gov/lccn/sn83025247/1946-06-14/ed-1/seq-6/"
-        ]
-      }
-    ],
-    "occupation": [
-      {
-        "@id": "_:bn43970",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19082",
-          "rdfs:label": "musician",
-          "@type": "Occupation"
-        }
-      }
-    ],
-    "demographica": [
-      {
-        "@id": "_:bn43971",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q18803",
-          "rdfs:label": "women",
-          "@type": "Demographica"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23500",
-    "rdfs:label": "Amos Milburn",
     "@type": [
       "Person"
     ],
@@ -16344,42 +16346,20 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q474283"
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn43974",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q23499",
-          "rdfs:label": "Amos Milburn and His \"Little\" Band",
-          "@type": "MusicGroup"
-        }
-      }
-    ],
-    "demographica": [
-      {
-        "@id": "_:bn43975",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19065",
-          "rdfs:label": "men",
-          "@type": "Demographica"
-        }
+        "@value": "Q24068914"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27037",
-    "rdfs:label": "Phil Harris",
+    "@id": "semlab:Q23284",
+    "rdfs:label": "Kitty Stevenson",
     "@type": [
       "Person"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn43976",
+        "@id": "_:bn43974",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -16390,7 +16370,16 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn43977",
+        "@id": "_:bn43975",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20613",
+          "rdfs:label": "Women of Jazz",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn43976",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -16401,7 +16390,18 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q123167101"
+        "@value": "Q108119575"
+      }
+    ],
+    "demographica": [
+      {
+        "@id": "_:bn43977",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18803",
+          "rdfs:label": "women",
+          "@type": "Demographica"
+        }
       }
     ]
   }
