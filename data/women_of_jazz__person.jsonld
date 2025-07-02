@@ -21662,8 +21662,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23400",
-    "rdfs:label": "Judy Perkins",
+    "@id": "semlab:Q23284",
+    "rdfs:label": "Kitty Stevenson",
     "@type": [
       "Person"
     ],
@@ -21700,12 +21700,67 @@
     ],
     "wikidataQid": [
       {
+        "@value": "Q108119575"
+      }
+    ],
+    "demographica": [
+      {
+        "@id": "_:bn49310",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18803",
+          "rdfs:label": "women",
+          "@type": "Demographica"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q23400",
+    "rdfs:label": "Judy Perkins",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn49311",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn49312",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20613",
+          "rdfs:label": "Women of Jazz",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn49313",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20655",
+          "rdfs:label": "The International Sweethearts of Rhythm Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
         "@value": "Q108574354"
       }
     ],
     "memberOf": [
       {
-        "@id": "_:bn49310",
+        "@id": "_:bn49314",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20614",
@@ -21732,7 +21787,7 @@
     ],
     "relativeOf": [
       {
-        "@id": "_:bn49311",
+        "@id": "_:bn49315",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20610",
@@ -21753,68 +21808,13 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn49312",
+        "@id": "_:bn49316",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19082",
           "rdfs:label": "musician",
           "@type": "Occupation"
         }
-      }
-    ],
-    "demographica": [
-      {
-        "@id": "_:bn49313",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q18803",
-          "rdfs:label": "women",
-          "@type": "Demographica"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23284",
-    "rdfs:label": "Kitty Stevenson",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn49314",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn49315",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20613",
-          "rdfs:label": "Women of Jazz",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn49316",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20655",
-          "rdfs:label": "The International Sweethearts of Rhythm Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q108119575"
       }
     ],
     "demographica": [
