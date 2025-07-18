@@ -9,64 +9,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81304",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19076",
-          "rdfs:label": "technology",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn81305",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28955",
-          "rdfs:label": "sound recording",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn81306",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "usedIn": [
-      {
-        "@id": "_:bn81307",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24408",
-          "rdfs:label": "Pepsi Pavilion",
-          "@type": "ArtExhibition"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24741",
-            "rdfs:label": "Block 16 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/16.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24718",
-    "rdfs:label": "shattering glass sound recording",
-    "@type": [
-      "Technology",
-      "SoundRecording"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn81308",
         "@type": "RelEvent",
         "agentObj": {
@@ -117,8 +59,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24719",
-    "rdfs:label": "ducks sound recording",
+    "@id": "semlab:Q24718",
+    "rdfs:label": "shattering glass sound recording",
     "@type": [
       "Technology",
       "SoundRecording"
@@ -175,8 +117,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24720",
-    "rdfs:label": "frogs sound recording",
+    "@id": "semlab:Q24719",
+    "rdfs:label": "ducks sound recording",
     "@type": [
       "Technology",
       "SoundRecording"
@@ -233,8 +175,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24721",
-    "rdfs:label": "cicadas sound recording",
+    "@id": "semlab:Q24720",
+    "rdfs:label": "frogs sound recording",
     "@type": [
       "Technology",
       "SoundRecording"
@@ -291,8 +233,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24722",
-    "rdfs:label": "lions roaring sound recording",
+    "@id": "semlab:Q24721",
+    "rdfs:label": "cicadas sound recording",
     "@type": [
       "Technology",
       "SoundRecording"
@@ -331,6 +273,64 @@
     "usedIn": [
       {
         "@id": "_:bn81327",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24408",
+          "rdfs:label": "Pepsi Pavilion",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24741",
+            "rdfs:label": "Block 16 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/16.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24722",
+    "rdfs:label": "lions roaring sound recording",
+    "@type": [
+      "Technology",
+      "SoundRecording"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn81328",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19076",
+          "rdfs:label": "technology",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn81329",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28955",
+          "rdfs:label": "sound recording",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn81330",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn81331",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",

@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn77432",
+        "@id": "_:bn77436",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23229",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "@id": "_:bn77433",
+        "@id": "_:bn77437",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24345",
@@ -29,7 +29,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn77434",
+        "@id": "_:bn77438",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19593",
@@ -52,7 +52,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn77435",
+        "@id": "_:bn77439",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -72,7 +72,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn77436",
+        "@id": "_:bn77440",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23229",
@@ -81,7 +81,7 @@
         }
       },
       {
-        "@id": "_:bn77437",
+        "@id": "_:bn77441",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24345",
@@ -92,7 +92,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn77438",
+        "@id": "_:bn77442",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -103,7 +103,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn77439",
+        "@id": "_:bn77443",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24220",
@@ -135,74 +135,11 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn77440",
+        "@id": "_:bn77444",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24345",
           "rdfs:label": "brand",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn77441",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q23229",
-          "rdfs:label": "art material",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn77442",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "usedIn": [
-      {
-        "@id": "_:bn77443",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19382",
-          "rdfs:label": "Kisses Sweeter Than Wine",
-          "@type": "PerformanceArtwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24662",
-            "rdfs:label": "Block 28 of The Story of E.A.T. (pp.1-30)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/28.txt"
-          }
-        ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q1686705"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24413",
-    "rdfs:label": "Mylar",
-    "@type": [
-      "ArtMaterial",
-      "Brand"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn77444",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q23229",
-          "rdfs:label": "art material",
           "@type": "Class"
         }
       },
@@ -210,8 +147,8 @@
         "@id": "_:bn77445",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24345",
-          "rdfs:label": "brand",
+          "@id": "semlab:Q23229",
+          "rdfs:label": "art material",
           "@type": "Class"
         }
       }
@@ -243,9 +180,72 @@
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/28.txt"
           }
         ]
-      },
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1686705"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24413",
+    "rdfs:label": "Mylar",
+    "@type": [
+      "ArtMaterial",
+      "Brand"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn77448",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23229",
+          "rdfs:label": "art material",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn77449",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24345",
+          "rdfs:label": "brand",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn77450",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn77451",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19382",
+          "rdfs:label": "Kisses Sweeter Than Wine",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24662",
+            "rdfs:label": "Block 28 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/28.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77452",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -266,7 +266,7 @@
         ]
       },
       {
-        "@id": "_:bn77449",
+        "@id": "_:bn77453",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24456",
@@ -282,7 +282,7 @@
         ]
       },
       {
-        "@id": "_:bn77450",
+        "@id": "_:bn77454",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24460",
@@ -314,7 +314,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn77451",
+        "@id": "_:bn77455",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23229",
@@ -323,7 +323,7 @@
         }
       },
       {
-        "@id": "_:bn77452",
+        "@id": "_:bn77456",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24345",
@@ -334,7 +334,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn77453",
+        "@id": "_:bn77457",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -345,7 +345,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn77454",
+        "@id": "_:bn77458",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24220",
@@ -361,7 +361,7 @@
         ]
       },
       {
-        "@id": "_:bn77455",
+        "@id": "_:bn77459",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25730",
