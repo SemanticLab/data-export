@@ -1,0 +1,56 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q19081",
+    "rdfs:label": "engineer",
+    "@type": [
+      "Occupation",
+      "Role"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn98001",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19070",
+          "rdfs:label": "occupation",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn98002",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28961",
+          "rdfs:label": "role",
+          "@type": "Class"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q81096"
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn98003",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn98004",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25509",
+    "rdfs:label": "New York University",
+    "partOfProject": [
+      {
+        "@id": "_:bn97477",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn97478",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q49210"
+      }
+    ],
+    "@type": [
+      "Institution",
+      "School"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn97479",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1804",
+          "rdfs:label": "institution",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn97480",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20618",
+          "rdfs:label": "school",
+          "@type": "Class"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn97481",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27088",
+            "rdfs:label": "Block 0 of B14 Paul Bucharest Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26718/0.txt"
+          }
+        ]
+      }
+    ],
+    "employee": [
+      {
+        "@id": "_:bn97482",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26553",
+          "rdfs:label": "Paul Bucharest",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27088",
+            "rdfs:label": "Block 0 of B14 Paul Bucharest Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26718/0.txt"
+          }
+        ]
+      }
+    ]
+  }
+]
