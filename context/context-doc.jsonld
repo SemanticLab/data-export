@@ -1215,6 +1215,11 @@
         "end date"
       ]
     },
+    "translator": {
+      "@id": "http://base.semlab.io/entity/P273",
+      "skos:prefLabel": "translator",
+      "skos:note": "person responsible for translating a written work from one language to another"
+    },
     "maximumQuantity": {
       "@id": "http://base.semlab.io/entity/P230",
       "skos:prefLabel": "maximum quantity",
@@ -1353,11 +1358,6 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
-    },
-    "translator": {
-      "@id": "http://base.semlab.io/entity/P273",
-      "skos:prefLabel": "translator",
-      "skos:note": "person responsible for translating a written work from one language to another"
     },
     "property": {
       "@id": "http://base.semlab.io/entity/P227",
@@ -1585,15 +1585,6 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
-        "area of work",
-        "area",
-        "activity domain",
-        "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1611,7 +1602,16 @@
         "domain of activity",
         "discipline",
         "conduct research about",
-        "be researcher in"
+        "be researcher in",
+        "area of work",
+        "area",
+        "activity domain",
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
       ],
       "owl:equivalentClass": [
         "http://www.wikidata.org/entity/P101"
