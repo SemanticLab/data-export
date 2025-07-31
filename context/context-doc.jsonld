@@ -1220,6 +1220,26 @@
       "skos:prefLabel": "translator",
       "skos:note": "person responsible for translating a written work from one language to another"
     },
+    "property": {
+      "@id": "http://base.semlab.io/entity/P227",
+      "skos:prefLabel": "property",
+      "skos:note": "specifies the property parameter of an 'inverse', 'item requires claim', 'value requires claim', 'difference within range', 'mandatory qualifiers', or 'qualifiers' constraint"
+    },
+    "qualifierOfPropertyConstraint": {
+      "@id": "http://base.semlab.io/entity/P228",
+      "skos:prefLabel": "qualifier of property constraint",
+      "skos:note": "specifies the item parameter of an 'item requires claim', 'value requires claim', or 'one of' constraint"
+    },
+    "minimumQuantity": {
+      "@id": "http://base.semlab.io/entity/P229",
+      "skos:prefLabel": "minimum quantity",
+      "skos:note": "specifies the minimum quantity parameter of a 'range' or 'diff within range' constraint"
+    },
+    "minimumDate": {
+      "@id": "http://base.semlab.io/entity/P231",
+      "skos:prefLabel": "minimum date",
+      "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
+    },
     "maximumQuantity": {
       "@id": "http://base.semlab.io/entity/P230",
       "skos:prefLabel": "maximum quantity",
@@ -1358,26 +1378,6 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
-    },
-    "property": {
-      "@id": "http://base.semlab.io/entity/P227",
-      "skos:prefLabel": "property",
-      "skos:note": "specifies the property parameter of an 'inverse', 'item requires claim', 'value requires claim', 'difference within range', 'mandatory qualifiers', or 'qualifiers' constraint"
-    },
-    "qualifierOfPropertyConstraint": {
-      "@id": "http://base.semlab.io/entity/P228",
-      "skos:prefLabel": "qualifier of property constraint",
-      "skos:note": "specifies the item parameter of an 'item requires claim', 'value requires claim', or 'one of' constraint"
-    },
-    "minimumQuantity": {
-      "@id": "http://base.semlab.io/entity/P229",
-      "skos:prefLabel": "minimum quantity",
-      "skos:note": "specifies the minimum quantity parameter of a 'range' or 'diff within range' constraint"
-    },
-    "minimumDate": {
-      "@id": "http://base.semlab.io/entity/P231",
-      "skos:prefLabel": "minimum date",
-      "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
     },
     "sponsorOf": {
       "@id": "http://base.semlab.io/entity/P157",
@@ -1779,9 +1779,9 @@
       "@id": "http://base.semlab.io/entity/Q22395",
       "skos:prefLabel": "art exhibition",
       "skos:altLabel": [
-        "exhibition",
         "art exhibit",
-        "art show"
+        "art show",
+        "exhibition"
       ],
       "skos:note": "organized presentation and display of works of art"
     },
@@ -1799,6 +1799,8 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
+        "art materials",
+        "art media",
         "art medium",
         "artistic material",
         "artistic media",
@@ -1807,9 +1809,7 @@
         "crafting material",
         "material",
         "media",
-        "medium",
-        "art materials",
-        "art media"
+        "medium"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -1987,12 +1987,12 @@
       "@id": "http://base.semlab.io/entity/Q19058",
       "skos:prefLabel": "city",
       "skos:altLabel": [
-        "army installation",
-        "hamlet",
         "military camp",
         "settlement",
         "town",
-        "village"
+        "village",
+        "army installation",
+        "hamlet"
       ],
       "owl:equivalentClass": [
         "https://schema.org/City"
@@ -2464,12 +2464,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
+        "profession",
+        "work",
         "career",
         "craft",
         "employment",
-        "job",
-        "profession",
-        "work"
+        "job"
       ],
       "skos:note": "job title or profession of the person"
     },
