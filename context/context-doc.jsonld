@@ -529,7 +529,7 @@
     "partOfProject": {
       "@id": "http://base.semlab.io/entity/P11",
       "skos:prefLabel": "part of project",
-      "skos:note": "Describes project components such as properties, objects, agents, etc. which are part of a Semantic Lab project. This property should not be used with ontological classes."
+      "skos:note": "Describes project components such as properties, objects, agents, etc. which are part of a Semantic Lab project. This property should not be used with meta-level classes."
     },
     "documentSourceUrl": {
       "@id": "http://base.semlab.io/entity/P12",
@@ -1048,15 +1048,6 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
-        "area of work",
-        "area",
-        "activity domain",
-        "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1074,7 +1065,16 @@
         "domain of activity",
         "discipline",
         "conduct research about",
-        "be researcher in"
+        "be researcher in",
+        "area of work",
+        "area",
+        "activity domain",
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
       ],
       "owl:equivalentClass": [
         "http://www.wikidata.org/entity/P101"
@@ -1250,6 +1250,26 @@
       "skos:prefLabel": "translator",
       "skos:note": "person responsible for translating a written work from one language to another"
     },
+    "property": {
+      "@id": "http://base.semlab.io/entity/P227",
+      "skos:prefLabel": "property",
+      "skos:note": "specifies the property parameter of an 'inverse', 'item requires claim', 'value requires claim', 'difference within range', 'mandatory qualifiers', or 'qualifiers' constraint"
+    },
+    "qualifierOfPropertyConstraint": {
+      "@id": "http://base.semlab.io/entity/P228",
+      "skos:prefLabel": "qualifier of property constraint",
+      "skos:note": "specifies the item parameter of an 'item requires claim', 'value requires claim', or 'one of' constraint"
+    },
+    "minimumQuantity": {
+      "@id": "http://base.semlab.io/entity/P229",
+      "skos:prefLabel": "minimum quantity",
+      "skos:note": "specifies the minimum quantity parameter of a 'range' or 'diff within range' constraint"
+    },
+    "minimumDate": {
+      "@id": "http://base.semlab.io/entity/P231",
+      "skos:prefLabel": "minimum date",
+      "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
+    },
     "maximumQuantity": {
       "@id": "http://base.semlab.io/entity/P230",
       "skos:prefLabel": "maximum quantity",
@@ -1388,26 +1408,6 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
-    },
-    "property": {
-      "@id": "http://base.semlab.io/entity/P227",
-      "skos:prefLabel": "property",
-      "skos:note": "specifies the property parameter of an 'inverse', 'item requires claim', 'value requires claim', 'difference within range', 'mandatory qualifiers', or 'qualifiers' constraint"
-    },
-    "qualifierOfPropertyConstraint": {
-      "@id": "http://base.semlab.io/entity/P228",
-      "skos:prefLabel": "qualifier of property constraint",
-      "skos:note": "specifies the item parameter of an 'item requires claim', 'value requires claim', or 'one of' constraint"
-    },
-    "minimumQuantity": {
-      "@id": "http://base.semlab.io/entity/P229",
-      "skos:prefLabel": "minimum quantity",
-      "skos:note": "specifies the minimum quantity parameter of a 'range' or 'diff within range' constraint"
-    },
-    "minimumDate": {
-      "@id": "http://base.semlab.io/entity/P231",
-      "skos:prefLabel": "minimum date",
-      "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
     },
     "natureOfRelation": {
       "@id": "http://base.semlab.io/entity/P122",
@@ -1799,17 +1799,17 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "art material",
       "skos:altLabel": [
-        "artistic material",
-        "artistic media",
-        "artistic medium",
-        "arts materials",
-        "crafting material",
         "material",
         "media",
         "medium",
         "art materials",
         "art media",
-        "art medium"
+        "art medium",
+        "artistic material",
+        "artistic media",
+        "artistic medium",
+        "arts materials",
+        "crafting material"
       ],
       "skos:note": "substance, raw ingredient, or tool that is utilized by an artist to create a work of art"
     },
@@ -2522,7 +2522,8 @@
       "@id": "http://base.semlab.io/entity/Q19074",
       "skos:prefLabel": "performance",
       "skos:altLabel": [
-        "artistic performance"
+        "artistic performance",
+        "performance (event)"
       ],
       "skos:note": "performing arts event or activity; a performing arts production"
     },

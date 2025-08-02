@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2025-08-01
+Generated: 2025-08-02
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -21,8 +21,8 @@ Generated: 2025-08-01
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [linked_jazz_oral_history_network__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__all.jsonld) | 2052  |
-| Person    | [linked_jazz_oral_history_network__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__person.jsonld) | 1992  |
+| All    | [linked_jazz_oral_history_network__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__all.jsonld) | 2055  |
+| Person    | [linked_jazz_oral_history_network__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__person.jsonld) | 1995  |
 | Institution    | [linked_jazz_oral_history_network__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__institution.jsonld) | 5  |
 | Music Group    | [linked_jazz_oral_history_network__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__music_group.jsonld) | 2  |
 | Interview Transcript    | [linked_jazz_oral_history_network__interview_transcript.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__interview_transcript.jsonld) | 52  |
@@ -122,7 +122,7 @@ Generated: 2025-08-01
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat_knowledge_graph_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__all.jsonld) | 2115  |
+| All    | [eat_knowledge_graph_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__all.jsonld) | 2114  |
 | Person    | [eat_knowledge_graph_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__person.jsonld) | 1063  |
 | Institution    | [eat_knowledge_graph_project__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__institution.jsonld) | 60  |
 | Linking Lost Jazz "Shrine"    | [eat_knowledge_graph_project__linking_lost_jazz_"shrine".jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__linking_lost_jazz_"shrine".jsonld) | 3  |
@@ -138,7 +138,7 @@ Generated: 2025-08-01
 | Occupation    | [eat_knowledge_graph_project__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__occupation.jsonld) | 32  |
 | Event    | [eat_knowledge_graph_project__event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__event.jsonld) | 17  |
 | Venue    | [eat_knowledge_graph_project__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__venue.jsonld) | 12  |
-| Artwork (Concept)    | [eat_knowledge_graph_project__artwork_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artwork_(concept).jsonld) | 14  |
+| Artwork (Concept)    | [eat_knowledge_graph_project__artwork_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artwork_(concept).jsonld) | 13  |
 | Performance    | [eat_knowledge_graph_project__performance.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__performance.jsonld) | 37  |
 | Technology    | [eat_knowledge_graph_project__technology.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__technology.jsonld) | 79  |
 | Activity    | [eat_knowledge_graph_project__activity.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__activity.jsonld) | 1  |
