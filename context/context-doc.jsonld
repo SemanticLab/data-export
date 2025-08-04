@@ -1245,6 +1245,11 @@
         "end date"
       ]
     },
+    "translator": {
+      "@id": "http://base.semlab.io/entity/P273",
+      "skos:prefLabel": "translator",
+      "skos:note": "person responsible for translating a written work from one language to another"
+    },
     "property": {
       "@id": "http://base.semlab.io/entity/P227",
       "skos:prefLabel": "property",
@@ -1403,11 +1408,6 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
-    },
-    "translator": {
-      "@id": "http://base.semlab.io/entity/P273",
-      "skos:prefLabel": "translator",
-      "skos:note": "person responsible for translating a written work from one language to another"
     },
     "natureOfRelation": {
       "@id": "http://base.semlab.io/entity/P122",
@@ -1972,13 +1972,13 @@
       "@id": "http://base.semlab.io/entity/Q19098",
       "skos:prefLabel": "cinematic work (concept)",
       "skos:altLabel": [
+        "film",
         "flick",
         "motion picture",
         "movie",
         "film (work)",
         "cinematic work (concept)",
-        "film artwork (concept)",
-        "film"
+        "film artwork (concept)"
       ],
       "skos:note": "sequence of images that give the impression of movement; an artistic work created using the medium of film"
     },
@@ -2813,15 +2813,15 @@
       "@id": "http://base.semlab.io/entity/Q23736",
       "skos:prefLabel": "unrealized project",
       "skos:altLabel": [
+        "abandoned project",
+        "canceled",
         "canceled project",
         "cancelled",
         "cancelled project",
         "project canceled",
         "project cancelled",
         "unfinished",
-        "unfinished project",
-        "abandoned project",
-        "canceled"
+        "unfinished project"
       ],
       "skos:note": "project that eventually was not realized"
     },
