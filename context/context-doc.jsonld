@@ -1215,6 +1215,11 @@
         "end date"
       ]
     },
+    "translator": {
+      "@id": "http://base.semlab.io/entity/P273",
+      "skos:prefLabel": "translator",
+      "skos:note": "person responsible for translating a written work from one language to another"
+    },
     "maximumQuantity": {
       "@id": "http://base.semlab.io/entity/P230",
       "skos:prefLabel": "maximum quantity",
@@ -1373,11 +1378,6 @@
       "@id": "http://base.semlab.io/entity/P231",
       "skos:prefLabel": "minimum date",
       "skos:note": "specifies the minimum date parameter of a 'range' or 'diff within range' constraint"
-    },
-    "translator": {
-      "@id": "http://base.semlab.io/entity/P273",
-      "skos:prefLabel": "translator",
-      "skos:note": "person responsible for translating a written work from one language to another"
     },
     "sponsorOf": {
       "@id": "http://base.semlab.io/entity/P157",
@@ -1779,9 +1779,9 @@
       "@id": "http://base.semlab.io/entity/Q22395",
       "skos:prefLabel": "art exhibition",
       "skos:altLabel": [
-        "exhibition",
         "art exhibit",
-        "art show"
+        "art show",
+        "exhibition"
       ],
       "skos:note": "organized presentation and display of works of art"
     },
@@ -2813,15 +2813,15 @@
       "@id": "http://base.semlab.io/entity/Q23736",
       "skos:prefLabel": "unrealized project",
       "skos:altLabel": [
-        "project canceled",
-        "project cancelled",
-        "unfinished",
-        "unfinished project",
         "abandoned project",
         "canceled",
         "canceled project",
         "cancelled",
-        "cancelled project"
+        "cancelled project",
+        "project canceled",
+        "project cancelled",
+        "unfinished",
+        "unfinished project"
       ],
       "skos:note": "project that eventually was not realized"
     },
