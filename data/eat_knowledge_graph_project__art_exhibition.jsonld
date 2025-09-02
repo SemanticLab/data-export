@@ -1,14 +1,14 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q22394",
-    "rdfs:label": "Print Survey in Themes, 1952\u20131992",
+    "@id": "semlab:Q28946",
+    "rdfs:label": "Rauschenberg: Soundings",
     "@type": [
       "ArtExhibition"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74409",
+        "@id": "_:bn74515",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -19,7 +19,387 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74410",
+        "@id": "_:bn74516",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn74517",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19471",
+          "rdfs:label": "Museum of Modern Art",
+          "@type": "Publisher"
+        },
+        "referenceUrl": [
+          "https://www.moma.org/calendar/exhibitions/3503"
+        ]
+      }
+    ],
+    "startTime": [
+      {
+        "@value": {
+          "time": "+1968-10-22T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "endTime": [
+      {
+        "@value": {
+          "time": "+1969-01-26T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "describedOrDepictedAtUrl": [
+      {
+        "@value": "https://www.moma.org/calendar/exhibitions/3503"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q28967",
+    "rdfs:label": "The Story of E.A.T.: Experiments in Art and Technology, 1960 \u2013 2001 (exhibition)",
+    "@type": [
+      "ArtExhibition"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn74518",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22395",
+          "rdfs:label": "art exhibition",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn74519",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn74520",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24443",
+          "rdfs:label": "Jill Krauskopf Gellene",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24757",
+            "rdfs:label": "Block 32 of The Story of E.A.T. (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/32.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn74521",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19371",
+          "rdfs:label": "Julie Martin",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24757",
+            "rdfs:label": "Block 32 of The Story of E.A.T. (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/32.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn74522",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24441",
+          "rdfs:label": "Hedi Sorger",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24757",
+            "rdfs:label": "Block 32 of The Story of E.A.T. (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/32.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn74523",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24442",
+          "rdfs:label": "John Tormey",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24757",
+            "rdfs:label": "Block 32 of The Story of E.A.T. (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/32.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn74524",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24716",
+          "rdfs:label": "Applied Image",
+          "@type": "Business"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24757",
+            "rdfs:label": "Block 32 of The Story of E.A.T. (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/32.txt"
+          }
+        ]
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn74525",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28968",
+          "rdfs:label": "Le Trib\u00f9 dell\u2019Arte",
+          "@type": "ArtExhibition"
+        },
+        "referenceUrl": [
+          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn74526",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28970",
+          "rdfs:label": "Galleria Comunale d'Arte Moderna e Contemporanea",
+          "@type": "ArtGallery"
+        },
+        "date": [
+          "+2001-00-00T00:00:00Z"
+        ],
+        "referenceUrl": [
+          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
+        ]
+      },
+      {
+        "@id": "_:bn74527",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28972",
+          "rdfs:label": "Sonnabend Gallery",
+          "@type": "ArtGallery"
+        },
+        "date": [
+          "+2002-01-00T00:00:00Z"
+        ],
+        "referenceUrl": [
+          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
+        ]
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn74528",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19180",
+          "rdfs:label": "Billy Kl\u00fcver",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24757",
+            "rdfs:label": "Block 32 of The Story of E.A.T. (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/32.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q28968",
+    "rdfs:label": "Le Trib\u00f9 dell\u2019Arte",
+    "@type": [
+      "ArtExhibition"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn74529",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22395",
+          "rdfs:label": "art exhibition",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn74530",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn74531",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19180",
+          "rdfs:label": "Billy Kl\u00fcver",
+          "@type": "Person"
+        },
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceUrl": [
+          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
+        ]
+      },
+      {
+        "@id": "_:bn74532",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28973",
+          "rdfs:label": "Achille Bonito Oliva",
+          "@type": "Person"
+        },
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q24406",
+            "rdfs:label": "curator"
+          }
+        ],
+        "referenceUrl": [
+          "https://www.castellodirivoli.org/en/research/research-institute/archives-at-the-crri%EF%BF%BC/cecilia-casorati-archive-of-the-exhibition-tribu-dellarte-2001/"
+        ]
+      },
+      {
+        "@id": "_:bn74533",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28969",
+          "rdfs:label": "Germano Celant",
+          "@type": "Person"
+        },
+        "referenceUrl": [
+          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn74534",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28970",
+          "rdfs:label": "Galleria Comunale d'Arte Moderna e Contemporanea",
+          "@type": "ArtGallery"
+        },
+        "date": [
+          "+2001-00-00T00:00:00Z"
+        ],
+        "referenceUrl": [
+          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
+        ]
+      }
+    ],
+    "hasParts": [
+      {
+        "@id": "_:bn74535",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28967",
+          "rdfs:label": "The Story of E.A.T.: Experiments in Art and Technology, 1960 \u2013 2001 (exhibition)",
+          "@type": "ArtExhibition"
+        },
+        "creator": [
+          {
+            "@id": "semlab:Q19180",
+            "rdfs:label": "Billy Kl\u00fcver"
+          }
+        ],
+        "referenceUrl": [
+          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
+        ]
+      }
+    ],
+    "curator": [
+      {
+        "@id": "_:bn74536",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28973",
+          "rdfs:label": "Achille Bonito Oliva",
+          "@type": "Person"
+        },
+        "referenceUrl": [
+          "https://www.castellodirivoli.org/en/research/research-institute/archives-at-the-crri%EF%BF%BC/cecilia-casorati-archive-of-the-exhibition-tribu-dellarte-2001/"
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q22394",
+    "rdfs:label": "Print Survey in Themes, 1952\u20131992",
+    "@type": [
+      "ArtExhibition"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn74537",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22395",
+          "rdfs:label": "art exhibition",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn74538",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -35,7 +415,7 @@
     "rdfs:label": "Giant Model Airplanes",
     "partOfProject": [
       {
-        "@id": "_:bn74411",
+        "@id": "_:bn74539",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -50,7 +430,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74412",
+        "@id": "_:bn74540",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23886",
@@ -59,7 +439,7 @@
         }
       },
       {
-        "@id": "_:bn74413",
+        "@id": "_:bn74541",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -70,7 +450,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn74414",
+        "@id": "_:bn74542",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23502",
@@ -128,7 +508,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74415",
+        "@id": "_:bn74543",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -139,7 +519,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74416",
+        "@id": "_:bn74544",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -150,7 +530,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn74417",
+        "@id": "_:bn74545",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19489",
@@ -166,7 +546,7 @@
         ]
       },
       {
-        "@id": "_:bn74418",
+        "@id": "_:bn74546",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19339",
@@ -182,7 +562,7 @@
         ]
       },
       {
-        "@id": "_:bn74419",
+        "@id": "_:bn74547",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -198,7 +578,7 @@
         ]
       },
       {
-        "@id": "_:bn74420",
+        "@id": "_:bn74548",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24175",
@@ -220,7 +600,7 @@
         ]
       },
       {
-        "@id": "_:bn74421",
+        "@id": "_:bn74549",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19126",
@@ -242,7 +622,7 @@
         ]
       },
       {
-        "@id": "_:bn74422",
+        "@id": "_:bn74550",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24174",
@@ -264,7 +644,7 @@
         ]
       },
       {
-        "@id": "_:bn74423",
+        "@id": "_:bn74551",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19429",
@@ -286,7 +666,7 @@
         ]
       },
       {
-        "@id": "_:bn74424",
+        "@id": "_:bn74552",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19478",
@@ -308,7 +688,7 @@
         ]
       },
       {
-        "@id": "_:bn74425",
+        "@id": "_:bn74553",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19395",
@@ -330,7 +710,7 @@
         ]
       },
       {
-        "@id": "_:bn74426",
+        "@id": "_:bn74554",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20514",
@@ -354,7 +734,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn74427",
+        "@id": "_:bn74555",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19604",
@@ -386,7 +766,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74428",
+        "@id": "_:bn74556",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -397,7 +777,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74429",
+        "@id": "_:bn74557",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -416,7 +796,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74430",
+        "@id": "_:bn74558",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -434,7 +814,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74431",
+        "@id": "_:bn74559",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -445,7 +825,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn74432",
+        "@id": "_:bn74560",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24178",
@@ -463,7 +843,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn74433",
+        "@id": "_:bn74561",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19471",
@@ -489,7 +869,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74434",
+        "@id": "_:bn74562",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -500,7 +880,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74435",
+        "@id": "_:bn74563",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -511,7 +891,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn74436",
+        "@id": "_:bn74564",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19162",
@@ -533,7 +913,7 @@
         ]
       },
       {
-        "@id": "_:bn74437",
+        "@id": "_:bn74565",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19349",
@@ -555,7 +935,7 @@
         ]
       },
       {
-        "@id": "_:bn74438",
+        "@id": "_:bn74566",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24179",
@@ -573,7 +953,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn74439",
+        "@id": "_:bn74567",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24200",
@@ -604,7 +984,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn74440",
+        "@id": "_:bn74568",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -636,7 +1016,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74441",
+        "@id": "_:bn74569",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -659,7 +1039,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74442",
+        "@id": "_:bn74570",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -670,7 +1050,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn74443",
+        "@id": "_:bn74571",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24180",
@@ -686,7 +1066,7 @@
         ]
       },
       {
-        "@id": "_:bn74444",
+        "@id": "_:bn74572",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19131",
@@ -704,7 +1084,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn74445",
+        "@id": "_:bn74573",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -720,7 +1100,7 @@
         ]
       },
       {
-        "@id": "_:bn74446",
+        "@id": "_:bn74574",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19131",
@@ -758,7 +1138,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74447",
+        "@id": "_:bn74575",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -776,7 +1156,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74448",
+        "@id": "_:bn74576",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -787,7 +1167,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn74449",
+        "@id": "_:bn74577",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -803,7 +1183,7 @@
         ]
       },
       {
-        "@id": "_:bn74450",
+        "@id": "_:bn74578",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20514",
@@ -819,7 +1199,7 @@
         ]
       },
       {
-        "@id": "_:bn74451",
+        "@id": "_:bn74579",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19323",
@@ -835,7 +1215,7 @@
         ]
       },
       {
-        "@id": "_:bn74452",
+        "@id": "_:bn74580",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19570",
@@ -857,7 +1237,7 @@
         ]
       },
       {
-        "@id": "_:bn74453",
+        "@id": "_:bn74581",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19346",
@@ -879,7 +1259,7 @@
         ]
       },
       {
-        "@id": "_:bn74454",
+        "@id": "_:bn74582",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19215",
@@ -901,7 +1281,7 @@
         ]
       },
       {
-        "@id": "_:bn74455",
+        "@id": "_:bn74583",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19292",
@@ -923,7 +1303,7 @@
         ]
       },
       {
-        "@id": "_:bn74456",
+        "@id": "_:bn74584",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24186",
@@ -945,7 +1325,7 @@
         ]
       },
       {
-        "@id": "_:bn74457",
+        "@id": "_:bn74585",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19637",
@@ -967,7 +1347,7 @@
         ]
       },
       {
-        "@id": "_:bn74458",
+        "@id": "_:bn74586",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19143",
@@ -1011,7 +1391,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74459",
+        "@id": "_:bn74587",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -1029,7 +1409,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74460",
+        "@id": "_:bn74588",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1040,7 +1420,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn74461",
+        "@id": "_:bn74589",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20514",
@@ -1064,7 +1444,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn74462",
+        "@id": "_:bn74590",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19471",
@@ -1097,7 +1477,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74463",
+        "@id": "_:bn74591",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -1108,7 +1488,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74464",
+        "@id": "_:bn74592",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1119,7 +1499,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn74465",
+        "@id": "_:bn74593",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24409",
@@ -1135,7 +1515,7 @@
         ]
       },
       {
-        "@id": "_:bn74466",
+        "@id": "_:bn74594",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -1151,7 +1531,7 @@
         ]
       },
       {
-        "@id": "_:bn74467",
+        "@id": "_:bn74595",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19233",
@@ -1167,7 +1547,7 @@
         ]
       },
       {
-        "@id": "_:bn74468",
+        "@id": "_:bn74596",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19550",
@@ -1183,7 +1563,7 @@
         ]
       },
       {
-        "@id": "_:bn74469",
+        "@id": "_:bn74597",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19283",
@@ -1199,7 +1579,7 @@
         ]
       },
       {
-        "@id": "_:bn74470",
+        "@id": "_:bn74598",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24417",
@@ -1215,7 +1595,7 @@
         ]
       },
       {
-        "@id": "_:bn74471",
+        "@id": "_:bn74599",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24448",
@@ -1237,7 +1617,7 @@
         ]
       },
       {
-        "@id": "_:bn74472",
+        "@id": "_:bn74600",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -1248,7 +1628,7 @@
     ],
     "hasParts": [
       {
-        "@id": "_:bn74473",
+        "@id": "_:bn74601",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24573",
@@ -1279,7 +1659,7 @@
         ]
       },
       {
-        "@id": "_:bn74474",
+        "@id": "_:bn74602",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22674",
@@ -1300,7 +1680,7 @@
         ]
       },
       {
-        "@id": "_:bn74475",
+        "@id": "_:bn74603",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24411",
@@ -1326,7 +1706,7 @@
         ]
       },
       {
-        "@id": "_:bn74476",
+        "@id": "_:bn74604",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24412",
@@ -1347,7 +1727,7 @@
         ]
       },
       {
-        "@id": "_:bn74477",
+        "@id": "_:bn74605",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24414",
@@ -1365,7 +1745,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn74478",
+        "@id": "_:bn74606",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24398",
@@ -1381,7 +1761,7 @@
         ]
       },
       {
-        "@id": "_:bn74479",
+        "@id": "_:bn74607",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24356",
@@ -1407,7 +1787,7 @@
         ]
       },
       {
-        "@id": "_:bn74480",
+        "@id": "_:bn74608",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24363",
@@ -1423,7 +1803,7 @@
         ]
       },
       {
-        "@id": "_:bn74481",
+        "@id": "_:bn74609",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24413",
@@ -1444,7 +1824,7 @@
         ]
       },
       {
-        "@id": "_:bn74482",
+        "@id": "_:bn74610",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24548",
@@ -1465,7 +1845,7 @@
         ]
       },
       {
-        "@id": "_:bn74483",
+        "@id": "_:bn74611",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24668",
@@ -1481,7 +1861,7 @@
         ]
       },
       {
-        "@id": "_:bn74484",
+        "@id": "_:bn74612",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24669",
@@ -1497,7 +1877,7 @@
         ]
       },
       {
-        "@id": "_:bn74485",
+        "@id": "_:bn74613",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24230",
@@ -1513,7 +1893,7 @@
         ]
       },
       {
-        "@id": "_:bn74486",
+        "@id": "_:bn74614",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24670",
@@ -1529,7 +1909,7 @@
         ]
       },
       {
-        "@id": "_:bn74487",
+        "@id": "_:bn74615",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24671",
@@ -1545,7 +1925,7 @@
         ]
       },
       {
-        "@id": "_:bn74488",
+        "@id": "_:bn74616",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24672",
@@ -1561,7 +1941,7 @@
         ]
       },
       {
-        "@id": "_:bn74489",
+        "@id": "_:bn74617",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24673",
@@ -1577,7 +1957,7 @@
         ]
       },
       {
-        "@id": "_:bn74490",
+        "@id": "_:bn74618",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24717",
@@ -1593,7 +1973,7 @@
         ]
       },
       {
-        "@id": "_:bn74491",
+        "@id": "_:bn74619",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24718",
@@ -1609,7 +1989,7 @@
         ]
       },
       {
-        "@id": "_:bn74492",
+        "@id": "_:bn74620",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24719",
@@ -1625,7 +2005,7 @@
         ]
       },
       {
-        "@id": "_:bn74493",
+        "@id": "_:bn74621",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24720",
@@ -1641,7 +2021,7 @@
         ]
       },
       {
-        "@id": "_:bn74494",
+        "@id": "_:bn74622",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24721",
@@ -1657,7 +2037,7 @@
         ]
       },
       {
-        "@id": "_:bn74495",
+        "@id": "_:bn74623",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24722",
@@ -1673,7 +2053,7 @@
         ]
       },
       {
-        "@id": "_:bn74496",
+        "@id": "_:bn74624",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24674",
@@ -1689,7 +2069,7 @@
         ]
       },
       {
-        "@id": "_:bn74497",
+        "@id": "_:bn74625",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24349",
@@ -1707,7 +2087,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn74498",
+        "@id": "_:bn74626",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24675",
@@ -1725,18 +2105,18 @@
     ],
     "creator": [
       {
-        "@id": "_:bn74499",
+        "@id": "_:bn74627",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
           "rdfs:label": "Experiments in Art and Technology",
-          "@type": "NonprofitOrganization"
+          "@type": "Publisher"
         }
       }
     ],
     "partOf": [
       {
-        "@id": "_:bn74500",
+        "@id": "_:bn74628",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22368",
@@ -1767,7 +2147,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74501",
+        "@id": "_:bn74629",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -1778,7 +2158,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74502",
+        "@id": "_:bn74630",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1789,7 +2169,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn74503",
+        "@id": "_:bn74631",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19461",
@@ -1834,7 +2214,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn74504",
+        "@id": "_:bn74632",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -1856,7 +2236,7 @@
         ]
       },
       {
-        "@id": "_:bn74505",
+        "@id": "_:bn74633",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19338",
@@ -1878,7 +2258,7 @@
         ]
       },
       {
-        "@id": "_:bn74506",
+        "@id": "_:bn74634",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19547",
@@ -1900,7 +2280,7 @@
         ]
       },
       {
-        "@id": "_:bn74507",
+        "@id": "_:bn74635",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19130",
@@ -1922,7 +2302,7 @@
         ]
       },
       {
-        "@id": "_:bn74508",
+        "@id": "_:bn74636",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20514",
@@ -1944,7 +2324,7 @@
         ]
       },
       {
-        "@id": "_:bn74509",
+        "@id": "_:bn74637",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -1970,7 +2350,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74510",
+        "@id": "_:bn74638",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -1988,7 +2368,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74511",
+        "@id": "_:bn74639",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1999,7 +2379,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn74512",
+        "@id": "_:bn74640",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19461",
@@ -2016,7 +2396,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn74513",
+        "@id": "_:bn74641",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20514",
@@ -2038,12 +2418,12 @@
         ]
       },
       {
-        "@id": "_:bn74514",
+        "@id": "_:bn74642",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
           "rdfs:label": "Experiments in Art and Technology",
-          "@type": "NonprofitOrganization"
+          "@type": "Publisher"
         },
         "referenceBlock": [
           {
@@ -2064,7 +2444,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74515",
+        "@id": "_:bn74643",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -2082,7 +2462,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74516",
+        "@id": "_:bn74644",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2093,7 +2473,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn74517",
+        "@id": "_:bn74645",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19188",
@@ -2121,7 +2501,7 @@
         ]
       },
       {
-        "@id": "_:bn74518",
+        "@id": "_:bn74646",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19471",
@@ -2151,7 +2531,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74519",
+        "@id": "_:bn74647",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -2169,7 +2549,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74520",
+        "@id": "_:bn74648",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2180,7 +2560,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn74521",
+        "@id": "_:bn74649",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25726",
@@ -2202,7 +2582,7 @@
         ]
       },
       {
-        "@id": "_:bn74522",
+        "@id": "_:bn74650",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25728",
@@ -2241,7 +2621,7 @@
         ]
       },
       {
-        "@id": "_:bn74523",
+        "@id": "_:bn74651",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -2250,7 +2630,7 @@
         }
       },
       {
-        "@id": "_:bn74524",
+        "@id": "_:bn74652",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25527",
@@ -2264,7 +2644,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn74525",
+        "@id": "_:bn74653",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -2286,7 +2666,7 @@
         ]
       },
       {
-        "@id": "_:bn74526",
+        "@id": "_:bn74654",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25640",
@@ -2308,7 +2688,7 @@
         ]
       },
       {
-        "@id": "_:bn74527",
+        "@id": "_:bn74655",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25525",
@@ -2327,386 +2707,6 @@
             "rdfs:label": "Block 0 of letter from Julie Martin about the Rauschenberg/Performance exhibit (Cooper Union)",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q25650/0.txt"
           }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q28946",
-    "rdfs:label": "Rauschenberg: Soundings",
-    "@type": [
-      "ArtExhibition"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn74528",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q22395",
-          "rdfs:label": "art exhibition",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn74529",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn74530",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19471",
-          "rdfs:label": "Museum of Modern Art",
-          "@type": "Publisher"
-        },
-        "referenceUrl": [
-          "https://www.moma.org/calendar/exhibitions/3503"
-        ]
-      }
-    ],
-    "startTime": [
-      {
-        "@value": {
-          "time": "+1968-10-22T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 11,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "endTime": [
-      {
-        "@value": {
-          "time": "+1969-01-26T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 11,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "describedOrDepictedAtUrl": [
-      {
-        "@value": "https://www.moma.org/calendar/exhibitions/3503"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q28967",
-    "rdfs:label": "The Story of E.A.T.: Experiments in Art and Technology, 1960 \u2013 2001 (exhibition)",
-    "@type": [
-      "ArtExhibition"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn74531",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q22395",
-          "rdfs:label": "art exhibition",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn74532",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "contributor": [
-      {
-        "@id": "_:bn74533",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24443",
-          "rdfs:label": "Jill Krauskopf Gellene",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24757",
-            "rdfs:label": "Block 32 of The Story of E.A.T. (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/32.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn74534",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19371",
-          "rdfs:label": "Julie Martin",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24757",
-            "rdfs:label": "Block 32 of The Story of E.A.T. (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/32.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn74535",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24441",
-          "rdfs:label": "Hedi Sorger",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24757",
-            "rdfs:label": "Block 32 of The Story of E.A.T. (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/32.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn74536",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24442",
-          "rdfs:label": "John Tormey",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24757",
-            "rdfs:label": "Block 32 of The Story of E.A.T. (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/32.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn74537",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24716",
-          "rdfs:label": "Applied Image",
-          "@type": "Business"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24757",
-            "rdfs:label": "Block 32 of The Story of E.A.T. (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/32.txt"
-          }
-        ]
-      }
-    ],
-    "partOf": [
-      {
-        "@id": "_:bn74538",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28968",
-          "rdfs:label": "Le Trib\u00f9 dell\u2019Arte",
-          "@type": "ArtExhibition"
-        },
-        "referenceUrl": [
-          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
-        ]
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn74539",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28970",
-          "rdfs:label": "Galleria Comunale d'Arte Moderna e Contemporanea",
-          "@type": "ArtGallery"
-        },
-        "date": [
-          "+2001-00-00T00:00:00Z"
-        ],
-        "referenceUrl": [
-          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
-        ]
-      },
-      {
-        "@id": "_:bn74540",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28972",
-          "rdfs:label": "Sonnabend Gallery",
-          "@type": "ArtGallery"
-        },
-        "date": [
-          "+2002-01-00T00:00:00Z"
-        ],
-        "referenceUrl": [
-          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
-        ]
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn74541",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19180",
-          "rdfs:label": "Billy Kl\u00fcver",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24757",
-            "rdfs:label": "Block 32 of The Story of E.A.T. (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/32.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q28968",
-    "rdfs:label": "Le Trib\u00f9 dell\u2019Arte",
-    "@type": [
-      "ArtExhibition"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn74542",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q22395",
-          "rdfs:label": "art exhibition",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn74543",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "contributor": [
-      {
-        "@id": "_:bn74544",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19180",
-          "rdfs:label": "Billy Kl\u00fcver",
-          "@type": "Person"
-        },
-        "objectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceUrl": [
-          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
-        ]
-      },
-      {
-        "@id": "_:bn74545",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28973",
-          "rdfs:label": "Achille Bonito Oliva",
-          "@type": "Person"
-        },
-        "objectHasRole": [
-          {
-            "@id": "semlab:Q24406",
-            "rdfs:label": "curator"
-          }
-        ],
-        "referenceUrl": [
-          "https://www.castellodirivoli.org/en/research/research-institute/archives-at-the-crri%EF%BF%BC/cecilia-casorati-archive-of-the-exhibition-tribu-dellarte-2001/"
-        ]
-      },
-      {
-        "@id": "_:bn74546",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28969",
-          "rdfs:label": "Germano Celant",
-          "@type": "Person"
-        },
-        "referenceUrl": [
-          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
-        ]
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn74547",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28970",
-          "rdfs:label": "Galleria Comunale d'Arte Moderna e Contemporanea",
-          "@type": "ArtGallery"
-        },
-        "date": [
-          "+2001-00-00T00:00:00Z"
-        ],
-        "referenceUrl": [
-          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
-        ]
-      }
-    ],
-    "hasParts": [
-      {
-        "@id": "_:bn74548",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28967",
-          "rdfs:label": "The Story of E.A.T.: Experiments in Art and Technology, 1960 \u2013 2001 (exhibition)",
-          "@type": "ArtExhibition"
-        },
-        "creator": [
-          {
-            "@id": "semlab:Q19180",
-            "rdfs:label": "Billy Kl\u00fcver"
-          }
-        ],
-        "referenceUrl": [
-          "https://www.experimentsinartandtechnology.org/story-of-e-a-t"
-        ]
-      }
-    ],
-    "curator": [
-      {
-        "@id": "_:bn74549",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28973",
-          "rdfs:label": "Achille Bonito Oliva",
-          "@type": "Person"
-        },
-        "referenceUrl": [
-          "https://www.castellodirivoli.org/en/research/research-institute/archives-at-the-crri%EF%BF%BC/cecilia-casorati-archive-of-the-exhibition-tribu-dellarte-2001/"
         ]
       }
     ]
