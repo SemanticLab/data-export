@@ -5,7 +5,7 @@
     "rdfs:label": "Parade",
     "partOfProject": [
       {
-        "@id": "_:bn75972",
+        "@id": "_:bn76272",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -24,7 +24,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75973",
+        "@id": "_:bn76273",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28940",
@@ -43,7 +43,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75974",
+        "@id": "_:bn76274",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28940",
@@ -54,7 +54,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75975",
+        "@id": "_:bn76275",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -79,22 +79,39 @@
     "@id": "semlab:Q24222",
     "rdfs:label": "Funakukushi",
     "@type": [
-      "MusicalWork(Concept)"
+      "MusicalWork(Concept)",
+      "SoundRecording"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn75976",
+        "@id": "_:bn76276",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28940",
           "rdfs:label": "musical work (concept)",
           "@type": "Class"
         }
+      },
+      {
+        "@id": "_:bn76277",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28955",
+          "rdfs:label": "sound recording",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q19780",
+            "rdfs:label": "E.A.T. Nine Evenings Program Block 18",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/e729fd60af13c9b5f2941348ac297707/18.txt"
+          }
+        ]
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn75977",
+        "@id": "_:bn76278",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -105,13 +122,26 @@
     ],
     "creator": [
       {
-        "@id": "_:bn75978",
+        "@id": "_:bn76279",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19641",
           "rdfs:label": "Toshi Ichiyanagi",
           "@type": "Person"
-        }
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q23105",
+            "rdfs:label": "composer"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q19780",
+            "rdfs:label": "E.A.T. Nine Evenings Program Block 18",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/e729fd60af13c9b5f2941348ac297707/18.txt"
+          }
+        ]
       }
     ],
     "duration": [
@@ -129,7 +159,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn75979",
+        "@id": "_:bn76280",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22339",
