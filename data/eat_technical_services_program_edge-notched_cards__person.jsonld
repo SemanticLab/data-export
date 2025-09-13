@@ -2107,7 +2107,7 @@
         "agentObj": {
           "@id": "semlab:Q24229",
           "rdfs:label": "neon",
-          "@type": "ArtMaterial"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -3147,7 +3147,7 @@
         "agentObj": {
           "@id": "semlab:Q24453",
           "rdfs:label": "VHS",
-          "@type": "ArtMaterial"
+          "@type": "FieldOfWork(Class)"
         },
         "referenceBlock": [
           {
@@ -3555,41 +3555,25 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q19133",
-    "rdfs:label": "Allan Kaprow",
-    "partOfProject": [
+    "@id": "semlab:Q26786",
+    "rdfs:label": "Carl Kuehne",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn93719",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
         }
-      },
-      {
-        "@id": "_:bn93720",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q366380"
-      }
-    ],
-    "thumbnail": [
-      {
-        "@value": "https://semlab.s3.amazonaws.com/images/Q19133.jpg"
       }
     ],
     "memberOf": [
       {
-        "@id": "_:bn93721",
+        "@id": "_:bn93720",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -3598,99 +3582,112 @@
         },
         "subjectHasRole": [
           {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
+            "@id": "semlab:Q19081",
+            "rdfs:label": "engineer"
           }
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27093",
-            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
+            "@id": "semlab:Q27107",
+            "rdfs:label": "Block 0 of B14 Carl Kuehne Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26728/0.txt"
           }
         ]
       }
     ],
-    "E.A.T.DatascapePageIdentifier": [
+    "employer": [
       {
-        "@value": "actor/161"
+        "@id": "_:bn93721",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27038",
+          "rdfs:label": "National Computer Analysts",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27107",
+            "rdfs:label": "Block 0 of B14 Carl Kuehne Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26728/0.txt"
+          }
+        ]
       }
     ],
-    "occupation": [
+    "streetAddress": [
+      {
+        "@value": {
+          "text": "65 Mountain Ave, Warren, N.J. 07060",
+          "language": "en"
+        }
+      }
+    ],
+    "fieldOfWork": [
       {
         "@id": "_:bn93722",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19157",
-          "rdfs:label": "artist",
-          "@type": "Occupation"
+          "@id": "semlab:Q27393",
+          "rdfs:label": "computer science",
+          "@type": "FieldOfWork(Class)"
         },
-        "referenceUrl": [
-          "https://eat_datascape.medialab.sciences-po.fr/actor/161"
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27107",
+            "rdfs:label": "Block 0 of B14 Carl Kuehne Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26728/0.txt"
+          }
         ]
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+      },
       {
         "@id": "_:bn93723",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
+          "@id": "semlab:Q27381",
+          "rdfs:label": "artificial intelligence",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27107",
+            "rdfs:label": "Block 0 of B14 Carl Kuehne Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26728/0.txt"
+          }
+        ]
       }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q19472",
-    "rdfs:label": "Nam June Paik",
+    ],
     "partOfProject": [
       {
         "@id": "_:bn93724",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24831",
-          "rdfs:label": "Asian American Arts Centre Exhibition History",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn93725",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn93726",
-        "@type": "RelEvent",
-        "agentObj": {
           "@id": "semlab:Q28603",
           "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
           "@type": "SemanticLabProject"
         }
       }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26787",
+    "rdfs:label": "Daniel Anderson",
+    "@type": [
+      "Person"
     ],
-    "wikidataQid": [
+    "instanceOf": [
       {
-        "@value": "Q158056"
-      }
-    ],
-    "thumbnail": [
-      {
-        "@value": "https://semlab.s3.amazonaws.com/images/Q19472.jpg"
+        "@id": "_:bn93725",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
       }
     ],
     "memberOf": [
       {
-        "@id": "_:bn93727",
+        "@id": "_:bn93726",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -3699,410 +3696,360 @@
         },
         "subjectHasRole": [
           {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
+            "@id": "semlab:Q19081",
+            "rdfs:label": "engineer"
           }
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27079",
-            "rdfs:label": "Block 1 of B14 Joe S. Gans Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26708/1.txt"
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
           }
         ]
       }
     ],
-    "E.A.T.DatascapePageIdentifier": [
+    "employer": [
       {
-        "@value": "actor/265"
+        "@id": "_:bn93727",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27064",
+          "rdfs:label": "Berkeley Unified School District",
+          "@type": "Institution"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
       }
     ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+    "fieldOfWork": [
       {
         "@id": "_:bn93728",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25067",
-    "rdfs:label": "Agnes Denes",
-    "partOfProject": [
+          "@id": "semlab:Q27397",
+          "rdfs:label": "electrical engineering",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
+      },
       {
         "@id": "_:bn93729",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24831",
-          "rdfs:label": "Asian American Arts Centre Exhibition History",
-          "@type": "SemanticLabProject"
-        }
+          "@id": "semlab:Q27418",
+          "rdfs:label": "psychology",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
       },
       {
         "@id": "_:bn93730",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q394503"
-      }
-    ],
-    "demographica": [
+          "@id": "semlab:Q27424",
+          "rdfs:label": "sociology",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
+      },
       {
         "@id": "_:bn93731",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q18803",
-          "rdfs:label": "women",
-          "@type": "Demographica"
-        }
-      }
-    ],
-    "memberOf": [
+          "@id": "semlab:Q27409",
+          "rdfs:label": "lighting equipment",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
+      },
       {
         "@id": "_:bn93732",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
+          "@id": "semlab:Q27433",
+          "rdfs:label": "light projection",
+          "@type": "FieldOfWork(Class)"
         },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27091",
-            "rdfs:label": "Block 1 of B14 Danial Cronin Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26719/1.txt"
-          },
-          {
-            "@id": "semlab:Q27093",
-            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
-          },
-          {
-            "@id": "semlab:Q27095",
-            "rdfs:label": "Block 1 of B14 Judith Prager Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26721/1.txt"
-          },
-          {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
           }
         ]
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+      },
       {
         "@id": "_:bn93733",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26290",
-    "rdfs:label": "Olive Prense",
-    "memberOf": [
+          "@id": "semlab:Q27382",
+          "rdfs:label": "audio systems",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
+      },
       {
         "@id": "_:bn93734",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
+          "@id": "semlab:Q27383",
+          "rdfs:label": "audio-visual conversions",
+          "@type": "FieldOfWork(Class)"
         },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27089",
-            "rdfs:label": "Block 1 of B14 Paul Bucharest Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26718/1.txt"
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
           }
         ]
-      }
-    ],
-    "partOfProject": [
+      },
       {
         "@id": "_:bn93735",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+          "@id": "semlab:Q27391",
+          "rdfs:label": "communications",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
+      },
       {
         "@id": "_:bn93736",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26291",
-    "rdfs:label": "Bernita Miller",
-    "memberOf": [
+          "@id": "semlab:Q24367",
+          "rdfs:label": "television",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
+      },
       {
         "@id": "_:bn93737",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
+          "@id": "semlab:Q27386",
+          "rdfs:label": "cathode rays",
+          "@type": "FieldOfWork(Class)"
         },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27091",
-            "rdfs:label": "Block 1 of B14 Danial Cronin Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26719/1.txt"
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
           }
         ]
-      }
-    ],
-    "partOfProject": [
+      },
       {
         "@id": "_:bn93738",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+          "@id": "semlab:Q27024",
+          "rdfs:label": "video recordings (material)",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
+      },
       {
         "@id": "_:bn93739",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26292",
-    "rdfs:label": "Evan Jacobsen",
-    "memberOf": [
+          "@id": "semlab:Q27420",
+          "rdfs:label": "audio-visual recording",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
+      },
       {
         "@id": "_:bn93740",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
+          "@id": "semlab:Q27421",
+          "rdfs:label": "remote controls",
+          "@type": "FieldOfWork(Class)"
         },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27091",
-            "rdfs:label": "Block 1 of B14 Danial Cronin Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26719/1.txt"
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
           }
         ]
-      }
-    ],
-    "partOfProject": [
+      },
       {
         "@id": "_:bn93741",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+          "@id": "semlab:Q24360",
+          "rdfs:label": "circuit",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
+      },
       {
         "@id": "_:bn93742",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26293",
-    "rdfs:label": "John Sylvester",
-    "memberOf": [
+          "@id": "semlab:Q27380",
+          "rdfs:label": "industrial architecture",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
+      },
       {
         "@id": "_:bn93743",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
+          "@id": "semlab:Q27437",
+          "rdfs:label": "architecture",
+          "@type": "FieldOfWork(Class)"
         },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27093",
-            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
           }
         ]
-      }
-    ],
-    "partOfProject": [
+      },
       {
         "@id": "_:bn93744",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+          "@id": "semlab:Q27408",
+          "rdfs:label": "control systems",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
+      },
       {
         "@id": "_:bn93745",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
+          "@id": "semlab:Q27417",
+          "rdfs:label": "photography",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27067",
+            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
+          }
+        ]
       }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26294",
-    "rdfs:label": "Ross Cotton",
-    "memberOf": [
+    ],
+    "partOfProject": [
       {
         "@id": "_:bn93746",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27102",
-            "rdfs:label": "Block 1 of B14 Vincent F Lisanti Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26725/1.txt"
-          }
-        ]
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
       }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26788",
+    "rdfs:label": "David J. Lamb",
+    "@type": [
+      "Person"
     ],
-    "partOfProject": [
+    "instanceOf": [
       {
         "@id": "_:bn93747",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93748",
-        "@type": "RelEvent",
-        "agentObj": {
           "@id": "semlab:Q1",
           "rdfs:label": "person",
           "@type": "Class"
         }
       }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26295",
-    "rdfs:label": "Howard Gutstadt",
+    ],
     "memberOf": [
       {
-        "@id": "_:bn93749",
+        "@id": "_:bn93748",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -4111,22 +4058,66 @@
         },
         "subjectHasRole": [
           {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
+            "@id": "semlab:Q19081",
+            "rdfs:label": "engineer"
           }
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27104",
-            "rdfs:label": "Block 1 of B14 Craig Fields Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26726/1.txt"
+            "@id": "semlab:Q27109",
+            "rdfs:label": "Block 0 of B14 David J. Lamb Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26730/0.txt"
+          }
+        ]
+      }
+    ],
+    "employer": [
+      {
+        "@id": "_:bn93749",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27108",
+          "rdfs:label": "Micro-Swiss Inc.",
+          "@type": "Business"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27109",
+            "rdfs:label": "Block 0 of B14 David J. Lamb Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26730/0.txt"
+          }
+        ]
+      }
+    ],
+    "streetAddress": [
+      {
+        "@value": {
+          "text": "Allison Apts 109 F, Marlton N.J.",
+          "language": "en"
+        }
+      }
+    ],
+    "fieldOfWork": [
+      {
+        "@id": "_:bn93750",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27422",
+          "rdfs:label": "sales",
+          "@type": "FieldOfWork(Class)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27109",
+            "rdfs:label": "Block 0 of B14 David J. Lamb Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26730/0.txt"
           }
         ]
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93750",
+        "@id": "_:bn93751",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4134,26 +4125,12 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93751",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26296",
-    "rdfs:label": "Came Wade Zimmerman",
+    "@id": "semlab:Q27023",
+    "rdfs:label": "Lee Jaffe",
     "memberOf": [
       {
         "@id": "_:bn93752",
@@ -4171,9 +4148,14 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27116",
-            "rdfs:label": "Block 1 of B14 Joseph Stella Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26716/1.txt"
+            "@id": "semlab:Q27093",
+            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
+          },
+          {
+            "@id": "semlab:Q27095",
+            "rdfs:label": "Block 1 of B14 Judith Prager Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26721/1.txt"
           }
         ]
       }
@@ -4206,8 +4188,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26297",
-    "rdfs:label": "Daniel Rothenburg",
+    "@id": "semlab:Q27065",
+    "rdfs:label": "Frank Goad",
     "memberOf": [
       {
         "@id": "_:bn93755",
@@ -4225,23 +4207,28 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27106",
-            "rdfs:label": "Block 1 of B14 William R Wetzel Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26727/1.txt"
+            "@id": "semlab:Q27068",
+            "rdfs:label": "Block 1 of B14 Daniel Anderson Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/1.txt"
           }
         ]
       }
     ],
-    "partOfProject": [
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn93756",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
         }
-      },
+      }
+    ],
+    "partOfProject": [
       {
         "@id": "_:bn93757",
         "@type": "RelEvent",
@@ -4251,53 +4238,24 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93758",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26298",
-    "rdfs:label": "Judith Perty",
-    "memberOf": [
-      {
-        "@id": "_:bn93759",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27106",
-            "rdfs:label": "Block 1 of B14 William R Wetzel Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26727/1.txt"
-          }
-        ]
-      }
-    ],
+    "@id": "semlab:Q19133",
+    "rdfs:label": "Allan Kaprow",
     "partOfProject": [
       {
-        "@id": "_:bn93760",
+        "@id": "_:bn93758",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn93759",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4306,28 +4264,19 @@
         }
       }
     ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+    "wikidataQid": [
       {
-        "@id": "_:bn93761",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
+        "@value": "Q366380"
       }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26299",
-    "rdfs:label": "Norman Peterson",
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q19133.jpg"
+      }
+    ],
     "memberOf": [
       {
-        "@id": "_:bn93762",
+        "@id": "_:bn93760",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -4342,46 +4291,93 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27106",
-            "rdfs:label": "Block 1 of B14 William R Wetzel Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26727/1.txt"
+            "@id": "semlab:Q27093",
+            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
           }
         ]
       }
     ],
+    "E.A.T.DatascapePageIdentifier": [
+      {
+        "@value": "actor/161"
+      }
+    ],
+    "occupation": [
+      {
+        "@id": "_:bn93761",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19157",
+          "rdfs:label": "artist",
+          "@type": "Occupation"
+        },
+        "referenceUrl": [
+          "https://eat_datascape.medialab.sciences-po.fr/actor/161"
+        ]
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93762",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q19472",
+    "rdfs:label": "Nam June Paik",
     "partOfProject": [
       {
         "@id": "_:bn93763",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn93764",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn93765",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q28603",
           "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
           "@type": "SemanticLabProject"
         }
       }
     ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+    "wikidataQid": [
       {
-        "@id": "_:bn93764",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
+        "@value": "Q158056"
       }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26300",
-    "rdfs:label": "Herman March",
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q19472.jpg"
+      }
+    ],
     "memberOf": [
       {
-        "@id": "_:bn93765",
+        "@id": "_:bn93766",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -4396,22 +4392,16 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
+            "@id": "semlab:Q27079",
+            "rdfs:label": "Block 1 of B14 Joe S. Gans Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26708/1.txt"
           }
         ]
       }
     ],
-    "partOfProject": [
+    "E.A.T.DatascapePageIdentifier": [
       {
-        "@id": "_:bn93766",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
+        "@value": "actor/265"
       }
     ],
     "@type": [
@@ -4431,11 +4421,105 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26301",
-    "rdfs:label": "George Logerman",
-    "memberOf": [
+    "@id": "semlab:Q25067",
+    "rdfs:label": "Agnes Denes",
+    "partOfProject": [
       {
         "@id": "_:bn93768",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn93769",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q394503"
+      }
+    ],
+    "demographica": [
+      {
+        "@id": "_:bn93770",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18803",
+          "rdfs:label": "women",
+          "@type": "Demographica"
+        }
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn93771",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27091",
+            "rdfs:label": "Block 1 of B14 Danial Cronin Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26719/1.txt"
+          },
+          {
+            "@id": "semlab:Q27093",
+            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
+          },
+          {
+            "@id": "semlab:Q27095",
+            "rdfs:label": "Block 1 of B14 Judith Prager Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26721/1.txt"
+          },
+          {
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
+          }
+        ]
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93772",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26290",
+    "rdfs:label": "Olive Prense",
+    "memberOf": [
+      {
+        "@id": "_:bn93773",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -4459,417 +4543,309 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93769",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93770",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26302",
-    "rdfs:label": "Jacob Perlmutter",
-    "memberOf": [
-      {
-        "@id": "_:bn93771",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93772",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93773",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26303",
-    "rdfs:label": "Mike Hart",
-    "memberOf": [
-      {
         "@id": "_:bn93774",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
-          }
-        ]
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
       }
     ],
-    "partOfProject": [
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn93775",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
         }
       }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26291",
+    "rdfs:label": "Bernita Miller",
+    "memberOf": [
       {
         "@id": "_:bn93776",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27091",
+            "rdfs:label": "Block 1 of B14 Danial Cronin Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26719/1.txt"
+          }
+        ]
       }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26308",
-    "rdfs:label": "Martin Newman",
-    "memberOf": [
+    ],
+    "partOfProject": [
       {
         "@id": "_:bn93777",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
-          }
-        ]
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
       }
     ],
-    "partOfProject": [
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn93778",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
         }
       }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26292",
+    "rdfs:label": "Evan Jacobsen",
+    "memberOf": [
       {
         "@id": "_:bn93779",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27091",
+            "rdfs:label": "Block 1 of B14 Danial Cronin Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26719/1.txt"
+          }
+        ]
       }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26322",
-    "rdfs:label": "Tim Young",
-    "memberOf": [
+    ],
+    "partOfProject": [
       {
         "@id": "_:bn93780",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
-          }
-        ]
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
       }
     ],
-    "partOfProject": [
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn93781",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
         }
       }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26293",
+    "rdfs:label": "John Sylvester",
+    "memberOf": [
       {
         "@id": "_:bn93782",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27093",
+            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
+          }
+        ]
       }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26323",
-    "rdfs:label": "Gabe Fielding",
-    "memberOf": [
+    ],
+    "partOfProject": [
       {
         "@id": "_:bn93783",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
-          }
-        ]
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
       }
     ],
-    "partOfProject": [
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn93784",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
         }
       }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26294",
+    "rdfs:label": "Ross Cotton",
+    "memberOf": [
       {
         "@id": "_:bn93785",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27102",
+            "rdfs:label": "Block 1 of B14 Vincent F Lisanti Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26725/1.txt"
+          }
+        ]
       }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26324",
-    "rdfs:label": "Jill Rosenberg",
-    "memberOf": [
+    ],
+    "partOfProject": [
       {
         "@id": "_:bn93786",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
-          }
-        ]
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
       }
     ],
-    "partOfProject": [
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn93787",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
         }
       }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26295",
+    "rdfs:label": "Howard Gutstadt",
+    "memberOf": [
       {
         "@id": "_:bn93788",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27104",
+            "rdfs:label": "Block 1 of B14 Craig Fields Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26726/1.txt"
+          }
+        ]
       }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26325",
-    "rdfs:label": "Alfred Wyatt",
-    "memberOf": [
+    ],
+    "partOfProject": [
       {
         "@id": "_:bn93789",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
-          }
-        ]
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
       }
     ],
-    "partOfProject": [
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn93790",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
         }
       }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26296",
+    "rdfs:label": "Came Wade Zimmerman",
+    "memberOf": [
       {
         "@id": "_:bn93791",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26326",
-    "rdfs:label": "Joel Mason",
-    "memberOf": [
-      {
-        "@id": "_:bn93792",
-        "@type": "RelEvent",
-        "agentObj": {
           "@id": "semlab:Q24347",
           "rdfs:label": "Technical Services Program",
           "@type": "UnrealizedProject"
@@ -4882,16 +4858,16 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+            "@id": "semlab:Q27116",
+            "rdfs:label": "Block 1 of B14 Joseph Stella Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26716/1.txt"
           }
         ]
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93793",
+        "@id": "_:bn93792",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -4905,7 +4881,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93794",
+        "@id": "_:bn93793",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4917,11 +4893,11 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26327",
-    "rdfs:label": "Pat Sloane",
+    "@id": "semlab:Q26297",
+    "rdfs:label": "Daniel Rothenburg",
     "memberOf": [
       {
-        "@id": "_:bn93795",
+        "@id": "_:bn93794",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -4936,14 +4912,23 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+            "@id": "semlab:Q27106",
+            "rdfs:label": "Block 1 of B14 William R Wetzel Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26727/1.txt"
           }
         ]
       }
     ],
     "partOfProject": [
+      {
+        "@id": "_:bn93795",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
       {
         "@id": "_:bn93796",
         "@type": "RelEvent",
@@ -4971,8 +4956,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26328",
-    "rdfs:label": "Ken Hannibal",
+    "@id": "semlab:Q26298",
+    "rdfs:label": "Judith Perty",
     "memberOf": [
       {
         "@id": "_:bn93798",
@@ -4990,9 +4975,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+            "@id": "semlab:Q27106",
+            "rdfs:label": "Block 1 of B14 William R Wetzel Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26727/1.txt"
           }
         ]
       }
@@ -5025,8 +5010,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26329",
-    "rdfs:label": "Peter Haron",
+    "@id": "semlab:Q26299",
+    "rdfs:label": "Norman Peterson",
     "memberOf": [
       {
         "@id": "_:bn93801",
@@ -5044,9 +5029,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+            "@id": "semlab:Q27106",
+            "rdfs:label": "Block 1 of B14 William R Wetzel Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26727/1.txt"
           }
         ]
       }
@@ -5079,8 +5064,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26330",
-    "rdfs:label": "John Matasea",
+    "@id": "semlab:Q26300",
+    "rdfs:label": "Herman March",
     "memberOf": [
       {
         "@id": "_:bn93804",
@@ -5098,9 +5083,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27070",
-            "rdfs:label": "Block 1 of B14 Nat Ostroff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26389/1.txt"
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
           }
         ]
       }
@@ -5133,8 +5118,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26331",
-    "rdfs:label": "Jame Sahlstrand",
+    "@id": "semlab:Q26301",
+    "rdfs:label": "George Logerman",
     "memberOf": [
       {
         "@id": "_:bn93807",
@@ -5152,9 +5137,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27072",
-            "rdfs:label": "Block 1 of B14 Eugene B. Seeley Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26578/1.txt"
+            "@id": "semlab:Q27089",
+            "rdfs:label": "Block 1 of B14 Paul Bucharest Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26718/1.txt"
           }
         ]
       }
@@ -5187,8 +5172,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26332",
-    "rdfs:label": "John Champs",
+    "@id": "semlab:Q26302",
+    "rdfs:label": "Jacob Perlmutter",
     "memberOf": [
       {
         "@id": "_:bn93810",
@@ -5206,9 +5191,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27079",
-            "rdfs:label": "Block 1 of B14 Joe S. Gans Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26708/1.txt"
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
           }
         ]
       }
@@ -5241,8 +5226,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26333",
-    "rdfs:label": "Kira Gale",
+    "@id": "semlab:Q26303",
+    "rdfs:label": "Mike Hart",
     "memberOf": [
       {
         "@id": "_:bn93813",
@@ -5260,9 +5245,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27079",
-            "rdfs:label": "Block 1 of B14 Joe S. Gans Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26708/1.txt"
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
           }
         ]
       }
@@ -5295,8 +5280,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26334",
-    "rdfs:label": "Susan Alexander",
+    "@id": "semlab:Q26308",
+    "rdfs:label": "Martin Newman",
     "memberOf": [
       {
         "@id": "_:bn93816",
@@ -5314,9 +5299,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27079",
-            "rdfs:label": "Block 1 of B14 Joe S. Gans Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26708/1.txt"
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
           }
         ]
       }
@@ -5349,8 +5334,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26335",
-    "rdfs:label": "Rain Arme",
+    "@id": "semlab:Q26322",
+    "rdfs:label": "Tim Young",
     "memberOf": [
       {
         "@id": "_:bn93819",
@@ -5368,9 +5353,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27098",
-            "rdfs:label": "Block 1 of B14 Robert J Stahl Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26723/1.txt"
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
           }
         ]
       }
@@ -5403,8 +5388,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26336",
-    "rdfs:label": "Robert O'Brien",
+    "@id": "semlab:Q26323",
+    "rdfs:label": "Gabe Fielding",
     "memberOf": [
       {
         "@id": "_:bn93822",
@@ -5422,9 +5407,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
           }
         ]
       }
@@ -5457,8 +5442,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26337",
-    "rdfs:label": "Doloris Holmes",
+    "@id": "semlab:Q26324",
+    "rdfs:label": "Jill Rosenberg",
     "memberOf": [
       {
         "@id": "_:bn93825",
@@ -5476,9 +5461,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27116",
-            "rdfs:label": "Block 1 of B14 Joseph Stella Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26716/1.txt"
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
           }
         ]
       }
@@ -5492,11 +5477,6 @@
           "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
           "@type": "SemanticLabProject"
         }
-      }
-    ],
-    "E.A.T.DatascapePageIdentifier": [
-      {
-        "@value": "actor/979"
       }
     ],
     "@type": [
@@ -5516,8 +5496,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26338",
-    "rdfs:label": "Bob Howard",
+    "@id": "semlab:Q26325",
+    "rdfs:label": "Alfred Wyatt",
     "memberOf": [
       {
         "@id": "_:bn93828",
@@ -5535,9 +5515,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27104",
-            "rdfs:label": "Block 1 of B14 Craig Fields Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26726/1.txt"
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
           }
         ]
       }
@@ -5570,8 +5550,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26339",
-    "rdfs:label": "Aaron Marcus",
+    "@id": "semlab:Q26326",
+    "rdfs:label": "Joel Mason",
     "memberOf": [
       {
         "@id": "_:bn93831",
@@ -5589,9 +5569,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27106",
-            "rdfs:label": "Block 1 of B14 William R Wetzel Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26727/1.txt"
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
           }
         ]
       }
@@ -5605,11 +5585,6 @@
           "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
           "@type": "SemanticLabProject"
         }
-      }
-    ],
-    "E.A.T.DatascapePageIdentifier": [
-      {
-        "@value": "actor/823"
       }
     ],
     "@type": [
@@ -5629,8 +5604,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26340",
-    "rdfs:label": "Ronald Mallory",
+    "@id": "semlab:Q26327",
+    "rdfs:label": "Pat Sloane",
     "memberOf": [
       {
         "@id": "_:bn93834",
@@ -5648,9 +5623,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27093",
-            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
           }
         ]
       }
@@ -5683,8 +5658,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26342",
-    "rdfs:label": "Phyllis Gershuny",
+    "@id": "semlab:Q26328",
+    "rdfs:label": "Ken Hannibal",
     "memberOf": [
       {
         "@id": "_:bn93837",
@@ -5702,9 +5677,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27098",
-            "rdfs:label": "Block 1 of B14 Robert J Stahl Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26723/1.txt"
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
           }
         ]
       }
@@ -5737,8 +5712,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26343",
-    "rdfs:label": "Kenneth Dunkley",
+    "@id": "semlab:Q26329",
+    "rdfs:label": "Peter Haron",
     "memberOf": [
       {
         "@id": "_:bn93840",
@@ -5756,9 +5731,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
           }
         ]
       }
@@ -5791,8 +5766,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26344",
-    "rdfs:label": "James Meyer",
+    "@id": "semlab:Q26330",
+    "rdfs:label": "John Matasea",
     "memberOf": [
       {
         "@id": "_:bn93843",
@@ -5810,9 +5785,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27084",
-            "rdfs:label": "Block 1 of B14 Daniel A. Bartman Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26710/1.txt"
+            "@id": "semlab:Q27070",
+            "rdfs:label": "Block 1 of B14 Nat Ostroff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26389/1.txt"
           }
         ]
       }
@@ -5845,11 +5820,615 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26345",
-    "rdfs:label": "Aleksandra Kasuba",
+    "@id": "semlab:Q26331",
+    "rdfs:label": "Jame Sahlstrand",
     "memberOf": [
       {
         "@id": "_:bn93846",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27072",
+            "rdfs:label": "Block 1 of B14 Eugene B. Seeley Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26578/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93847",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93848",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26332",
+    "rdfs:label": "John Champs",
+    "memberOf": [
+      {
+        "@id": "_:bn93849",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27079",
+            "rdfs:label": "Block 1 of B14 Joe S. Gans Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26708/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93850",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93851",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26333",
+    "rdfs:label": "Kira Gale",
+    "memberOf": [
+      {
+        "@id": "_:bn93852",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27079",
+            "rdfs:label": "Block 1 of B14 Joe S. Gans Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26708/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93853",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93854",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26334",
+    "rdfs:label": "Susan Alexander",
+    "memberOf": [
+      {
+        "@id": "_:bn93855",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27079",
+            "rdfs:label": "Block 1 of B14 Joe S. Gans Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26708/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93856",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93857",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26335",
+    "rdfs:label": "Rain Arme",
+    "memberOf": [
+      {
+        "@id": "_:bn93858",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27098",
+            "rdfs:label": "Block 1 of B14 Robert J Stahl Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26723/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93859",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93860",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26336",
+    "rdfs:label": "Robert O'Brien",
+    "memberOf": [
+      {
+        "@id": "_:bn93861",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93862",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93863",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26337",
+    "rdfs:label": "Doloris Holmes",
+    "memberOf": [
+      {
+        "@id": "_:bn93864",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27116",
+            "rdfs:label": "Block 1 of B14 Joseph Stella Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26716/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93865",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "E.A.T.DatascapePageIdentifier": [
+      {
+        "@value": "actor/979"
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93866",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26338",
+    "rdfs:label": "Bob Howard",
+    "memberOf": [
+      {
+        "@id": "_:bn93867",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27104",
+            "rdfs:label": "Block 1 of B14 Craig Fields Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26726/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93868",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93869",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26339",
+    "rdfs:label": "Aaron Marcus",
+    "memberOf": [
+      {
+        "@id": "_:bn93870",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27106",
+            "rdfs:label": "Block 1 of B14 William R Wetzel Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26727/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93871",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "E.A.T.DatascapePageIdentifier": [
+      {
+        "@value": "actor/823"
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93872",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26340",
+    "rdfs:label": "Ronald Mallory",
+    "memberOf": [
+      {
+        "@id": "_:bn93873",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27093",
+            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93874",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93875",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26342",
+    "rdfs:label": "Phyllis Gershuny",
+    "memberOf": [
+      {
+        "@id": "_:bn93876",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27098",
+            "rdfs:label": "Block 1 of B14 Robert J Stahl Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26723/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93877",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93878",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26343",
+    "rdfs:label": "Kenneth Dunkley",
+    "memberOf": [
+      {
+        "@id": "_:bn93879",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -5873,7 +6452,115 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93847",
+        "@id": "_:bn93880",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93881",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26344",
+    "rdfs:label": "James Meyer",
+    "memberOf": [
+      {
+        "@id": "_:bn93882",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27084",
+            "rdfs:label": "Block 1 of B14 Daniel A. Bartman Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26710/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93883",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93884",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26345",
+    "rdfs:label": "Aleksandra Kasuba",
+    "memberOf": [
+      {
+        "@id": "_:bn93885",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93886",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5889,7 +6576,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn93848",
+        "@id": "_:bn93887",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19157",
@@ -5906,7 +6593,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93849",
+        "@id": "_:bn93888",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5922,7 +6609,7 @@
     "rdfs:label": "Mierle Ukeles",
     "memberOf": [
       {
-        "@id": "_:bn93850",
+        "@id": "_:bn93889",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -5951,7 +6638,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93851",
+        "@id": "_:bn93890",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -5965,7 +6652,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93852",
+        "@id": "_:bn93891",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -5981,7 +6668,7 @@
     "rdfs:label": "Esta Nesbitt",
     "memberOf": [
       {
-        "@id": "_:bn93853",
+        "@id": "_:bn93892",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -6005,7 +6692,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93854",
+        "@id": "_:bn93893",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6019,7 +6706,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93855",
+        "@id": "_:bn93894",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6035,7 +6722,7 @@
     "rdfs:label": "Ira Schneider",
     "memberOf": [
       {
-        "@id": "_:bn93856",
+        "@id": "_:bn93895",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -6064,7 +6751,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93857",
+        "@id": "_:bn93896",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6078,7 +6765,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93858",
+        "@id": "_:bn93897",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -6094,7 +6781,7 @@
     "rdfs:label": "Lucio Isolani",
     "memberOf": [
       {
-        "@id": "_:bn93859",
+        "@id": "_:bn93898",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -6123,7 +6810,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93860",
+        "@id": "_:bn93899",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -6139,7 +6826,7 @@
     ],
     "occupation": [
       {
-        "@id": "_:bn93861",
+        "@id": "_:bn93900",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19157",
@@ -6149,733 +6836,6 @@
         "referenceUrl": [
           "https://eat_datascape.medialab.sciences-po.fr/actor/778"
         ]
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93862",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26350",
-    "rdfs:label": "Carol Geary",
-    "memberOf": [
-      {
-        "@id": "_:bn93863",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27095",
-            "rdfs:label": "Block 1 of B14 Judith Prager Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26721/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93864",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93865",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26351",
-    "rdfs:label": "Josiah Edgerly",
-    "memberOf": [
-      {
-        "@id": "_:bn93866",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27095",
-            "rdfs:label": "Block 1 of B14 Judith Prager Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26721/1.txt"
-          },
-          {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93867",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93868",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26352",
-    "rdfs:label": "Sheldon Levine",
-    "memberOf": [
-      {
-        "@id": "_:bn93869",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27104",
-            "rdfs:label": "Block 1 of B14 Craig Fields Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26726/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93870",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93871",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26353",
-    "rdfs:label": "Wade Zimmerman",
-    "memberOf": [
-      {
-        "@id": "_:bn93872",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93873",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93874",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26354",
-    "rdfs:label": "Bert Webb",
-    "memberOf": [
-      {
-        "@id": "_:bn93875",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27072",
-            "rdfs:label": "Block 1 of B14 Eugene B. Seeley Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26578/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93876",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93877",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26355",
-    "rdfs:label": "A. da Sil\u00f3s",
-    "memberOf": [
-      {
-        "@id": "_:bn93878",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93879",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93880",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26356",
-    "rdfs:label": "Jean Dupuy",
-    "memberOf": [
-      {
-        "@id": "_:bn93881",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
-          }
-        ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3171880"
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93882",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "E.A.T.DatascapePageIdentifier": [
-      {
-        "@value": "actor/74"
-      }
-    ],
-    "subjectNamedAs": [
-      {
-        "@value": "J. Dupuy"
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93883",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26357",
-    "rdfs:label": "R. Chapman",
-    "memberOf": [
-      {
-        "@id": "_:bn93884",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27093",
-            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
-          },
-          {
-            "@id": "semlab:Q27095",
-            "rdfs:label": "Block 1 of B14 Judith Prager Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26721/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93885",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93886",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26358",
-    "rdfs:label": "Dr. Stafford",
-    "memberOf": [
-      {
-        "@id": "_:bn93887",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27116",
-            "rdfs:label": "Block 1 of B14 Joseph Stella Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26716/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93888",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93889",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26359",
-    "rdfs:label": "K. Marshant",
-    "memberOf": [
-      {
-        "@id": "_:bn93890",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27093",
-            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93891",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93892",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26360",
-    "rdfs:label": "N. Siegel",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93893",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn93894",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27104",
-            "rdfs:label": "Block 1 of B14 Craig Fields Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26726/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93895",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26361",
-    "rdfs:label": "J. McCormack",
-    "memberOf": [
-      {
-        "@id": "_:bn93896",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93897",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93898",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26362",
-    "rdfs:label": "W. Right",
-    "memberOf": [
-      {
-        "@id": "_:bn93899",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93900",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
       }
     ],
     "@type": [
@@ -6895,8 +6855,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26363",
-    "rdfs:label": "T. Titolo",
+    "@id": "semlab:Q26350",
+    "rdfs:label": "Carol Geary",
     "memberOf": [
       {
         "@id": "_:bn93902",
@@ -6914,9 +6874,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+            "@id": "semlab:Q27095",
+            "rdfs:label": "Block 1 of B14 Judith Prager Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26721/1.txt"
           }
         ]
       }
@@ -6949,8 +6909,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26364",
-    "rdfs:label": "H. Wilder",
+    "@id": "semlab:Q26351",
+    "rdfs:label": "Josiah Edgerly",
     "memberOf": [
       {
         "@id": "_:bn93905",
@@ -6967,6 +6927,11 @@
           }
         ],
         "referenceBlock": [
+          {
+            "@id": "semlab:Q27095",
+            "rdfs:label": "Block 1 of B14 Judith Prager Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26721/1.txt"
+          },
           {
             "@id": "semlab:Q27114",
             "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
@@ -7003,8 +6968,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26365",
-    "rdfs:label": "M. Craig",
+    "@id": "semlab:Q26352",
+    "rdfs:label": "Sheldon Levine",
     "memberOf": [
       {
         "@id": "_:bn93908",
@@ -7022,9 +6987,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+            "@id": "semlab:Q27104",
+            "rdfs:label": "Block 1 of B14 Craig Fields Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26726/1.txt"
           }
         ]
       }
@@ -7057,8 +7022,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26366",
-    "rdfs:label": "J. Evans",
+    "@id": "semlab:Q26353",
+    "rdfs:label": "Wade Zimmerman",
     "memberOf": [
       {
         "@id": "_:bn93911",
@@ -7111,8 +7076,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26367",
-    "rdfs:label": "Dr. Morris",
+    "@id": "semlab:Q26354",
+    "rdfs:label": "Bert Webb",
     "memberOf": [
       {
         "@id": "_:bn93914",
@@ -7130,9 +7095,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+            "@id": "semlab:Q27072",
+            "rdfs:label": "Block 1 of B14 Eugene B. Seeley Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26578/1.txt"
           }
         ]
       }
@@ -7165,8 +7130,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26368",
-    "rdfs:label": "Jen. Mallow",
+    "@id": "semlab:Q26355",
+    "rdfs:label": "A. da Sil\u00f3s",
     "memberOf": [
       {
         "@id": "_:bn93917",
@@ -7184,9 +7149,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
           }
         ]
       }
@@ -7219,8 +7184,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26369",
-    "rdfs:label": "H. Dunes",
+    "@id": "semlab:Q26356",
+    "rdfs:label": "Jean Dupuy",
     "memberOf": [
       {
         "@id": "_:bn93920",
@@ -7238,11 +7203,16 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
           }
         ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3171880"
       }
     ],
     "partOfProject": [
@@ -7254,6 +7224,16 @@
           "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
           "@type": "SemanticLabProject"
         }
+      }
+    ],
+    "E.A.T.DatascapePageIdentifier": [
+      {
+        "@value": "actor/74"
+      }
+    ],
+    "subjectNamedAs": [
+      {
+        "@value": "J. Dupuy"
       }
     ],
     "@type": [
@@ -7273,8 +7253,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26370",
-    "rdfs:label": "J. Weissman",
+    "@id": "semlab:Q26357",
+    "rdfs:label": "R. Chapman",
     "memberOf": [
       {
         "@id": "_:bn93923",
@@ -7292,9 +7272,14 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27114",
-            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+            "@id": "semlab:Q27093",
+            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
+          },
+          {
+            "@id": "semlab:Q27095",
+            "rdfs:label": "Block 1 of B14 Judith Prager Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26721/1.txt"
           }
         ]
       }
@@ -7327,8 +7312,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26371",
-    "rdfs:label": "Carol Lamport",
+    "@id": "semlab:Q26358",
+    "rdfs:label": "Dr. Stafford",
     "memberOf": [
       {
         "@id": "_:bn93926",
@@ -7346,9 +7331,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
+            "@id": "semlab:Q27116",
+            "rdfs:label": "Block 1 of B14 Joseph Stella Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26716/1.txt"
           }
         ]
       }
@@ -7381,8 +7366,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26372",
-    "rdfs:label": "Alan Kudglu",
+    "@id": "semlab:Q26359",
+    "rdfs:label": "K. Marshant",
     "memberOf": [
       {
         "@id": "_:bn93929",
@@ -7400,9 +7385,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
+            "@id": "semlab:Q27093",
+            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
           }
         ]
       }
@@ -7435,11 +7420,605 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26373",
-    "rdfs:label": "Marx Cohen",
-    "memberOf": [
+    "@id": "semlab:Q26360",
+    "rdfs:label": "N. Siegel",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn93932",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "memberOf": [
+      {
+        "@id": "_:bn93933",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27104",
+            "rdfs:label": "Block 1 of B14 Craig Fields Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26726/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93934",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26361",
+    "rdfs:label": "J. McCormack",
+    "memberOf": [
+      {
+        "@id": "_:bn93935",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93936",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93937",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26362",
+    "rdfs:label": "W. Right",
+    "memberOf": [
+      {
+        "@id": "_:bn93938",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93939",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93940",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26363",
+    "rdfs:label": "T. Titolo",
+    "memberOf": [
+      {
+        "@id": "_:bn93941",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93942",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93943",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26364",
+    "rdfs:label": "H. Wilder",
+    "memberOf": [
+      {
+        "@id": "_:bn93944",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93945",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93946",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26365",
+    "rdfs:label": "M. Craig",
+    "memberOf": [
+      {
+        "@id": "_:bn93947",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93948",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93949",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26366",
+    "rdfs:label": "J. Evans",
+    "memberOf": [
+      {
+        "@id": "_:bn93950",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93951",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93952",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26367",
+    "rdfs:label": "Dr. Morris",
+    "memberOf": [
+      {
+        "@id": "_:bn93953",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93954",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93955",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26368",
+    "rdfs:label": "Jen. Mallow",
+    "memberOf": [
+      {
+        "@id": "_:bn93956",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93957",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93958",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26369",
+    "rdfs:label": "H. Dunes",
+    "memberOf": [
+      {
+        "@id": "_:bn93959",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93960",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93961",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26370",
+    "rdfs:label": "J. Weissman",
+    "memberOf": [
+      {
+        "@id": "_:bn93962",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27114",
+            "rdfs:label": "Block 1 of B14 Eugene Dolgoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26715/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93963",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93964",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26371",
+    "rdfs:label": "Carol Lamport",
+    "memberOf": [
+      {
+        "@id": "_:bn93965",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -7463,7 +8042,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93933",
+        "@id": "_:bn93966",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7477,7 +8056,115 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93934",
+        "@id": "_:bn93967",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26372",
+    "rdfs:label": "Alan Kudglu",
+    "memberOf": [
+      {
+        "@id": "_:bn93968",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93969",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93970",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q26373",
+    "rdfs:label": "Marx Cohen",
+    "memberOf": [
+      {
+        "@id": "_:bn93971",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24347",
+          "rdfs:label": "Technical Services Program",
+          "@type": "UnrealizedProject"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn93972",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn93973",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7493,7 +8180,7 @@
     "rdfs:label": "Barry Feiss",
     "memberOf": [
       {
-        "@id": "_:bn93935",
+        "@id": "_:bn93974",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -7517,7 +8204,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93936",
+        "@id": "_:bn93975",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -7526,7 +8213,7 @@
         }
       },
       {
-        "@id": "_:bn93937",
+        "@id": "_:bn93976",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7540,7 +8227,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93938",
+        "@id": "_:bn93977",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7556,7 +8243,7 @@
     "rdfs:label": "Evan Crongn",
     "memberOf": [
       {
-        "@id": "_:bn93939",
+        "@id": "_:bn93978",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -7580,7 +8267,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93940",
+        "@id": "_:bn93979",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7594,7 +8281,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93941",
+        "@id": "_:bn93980",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7610,7 +8297,7 @@
     "rdfs:label": "Joseph Sterch",
     "memberOf": [
       {
-        "@id": "_:bn93942",
+        "@id": "_:bn93981",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -7634,7 +8321,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93943",
+        "@id": "_:bn93982",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7648,7 +8335,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93944",
+        "@id": "_:bn93983",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7664,7 +8351,7 @@
     "rdfs:label": "Emma Ehrenreich",
     "memberOf": [
       {
-        "@id": "_:bn93945",
+        "@id": "_:bn93984",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -7688,7 +8375,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93946",
+        "@id": "_:bn93985",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7702,7 +8389,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93947",
+        "@id": "_:bn93986",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7721,7 +8408,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93948",
+        "@id": "_:bn93987",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7732,7 +8419,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn93949",
+        "@id": "_:bn93988",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -7761,7 +8448,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93950",
+        "@id": "_:bn93989",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7777,7 +8464,7 @@
     "rdfs:label": "Art Grond",
     "memberOf": [
       {
-        "@id": "_:bn93951",
+        "@id": "_:bn93990",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -7806,7 +8493,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93952",
+        "@id": "_:bn93991",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7820,7 +8507,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93953",
+        "@id": "_:bn93992",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7836,7 +8523,7 @@
     "rdfs:label": "Marilyn Wood",
     "memberOf": [
       {
-        "@id": "_:bn93954",
+        "@id": "_:bn93993",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -7860,7 +8547,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93955",
+        "@id": "_:bn93994",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7874,7 +8561,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93956",
+        "@id": "_:bn93995",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7895,7 +8582,7 @@
     "rdfs:label": "Joan Webster Price",
     "memberOf": [
       {
-        "@id": "_:bn93957",
+        "@id": "_:bn93996",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -7919,7 +8606,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93958",
+        "@id": "_:bn93997",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7933,7 +8620,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93959",
+        "@id": "_:bn93998",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -7949,7 +8636,7 @@
     "rdfs:label": "Glenn Steigelman",
     "memberOf": [
       {
-        "@id": "_:bn93960",
+        "@id": "_:bn93999",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -7978,7 +8665,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93961",
+        "@id": "_:bn94000",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -7992,7 +8679,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93962",
+        "@id": "_:bn94001",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8008,7 +8695,7 @@
     "rdfs:label": "Tony Source",
     "memberOf": [
       {
-        "@id": "_:bn93963",
+        "@id": "_:bn94002",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -8037,7 +8724,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93964",
+        "@id": "_:bn94003",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8051,7 +8738,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93965",
+        "@id": "_:bn94004",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8067,7 +8754,7 @@
     "rdfs:label": "William Soghor",
     "memberOf": [
       {
-        "@id": "_:bn93966",
+        "@id": "_:bn94005",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24347",
@@ -8091,7 +8778,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn93967",
+        "@id": "_:bn94006",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -8105,7 +8792,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn93968",
+        "@id": "_:bn94007",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -8119,688 +8806,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q26385",
     "rdfs:label": "Ben Ychuda",
-    "memberOf": [
-      {
-        "@id": "_:bn93969",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27104",
-            "rdfs:label": "Block 1 of B14 Craig Fields Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26726/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93970",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93971",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26386",
-    "rdfs:label": "Nickolas Rock",
-    "memberOf": [
-      {
-        "@id": "_:bn93972",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27111",
-            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93973",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93974",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26786",
-    "rdfs:label": "Carl Kuehne",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93975",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn93976",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19081",
-            "rdfs:label": "engineer"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27107",
-            "rdfs:label": "Block 0 of B14 Carl Kuehne Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26728/0.txt"
-          }
-        ]
-      }
-    ],
-    "employer": [
-      {
-        "@id": "_:bn93977",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27038",
-          "rdfs:label": "National Computer Analysts",
-          "@type": "Organization"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27107",
-            "rdfs:label": "Block 0 of B14 Carl Kuehne Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26728/0.txt"
-          }
-        ]
-      }
-    ],
-    "streetAddress": [
-      {
-        "@value": {
-          "text": "65 Mountain Ave, Warren, N.J. 07060",
-          "language": "en"
-        }
-      }
-    ],
-    "fieldOfWork": [
-      {
-        "@id": "_:bn93978",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27393",
-          "rdfs:label": "computer science",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27107",
-            "rdfs:label": "Block 0 of B14 Carl Kuehne Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26728/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93979",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27381",
-          "rdfs:label": "artificial intelligence",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27107",
-            "rdfs:label": "Block 0 of B14 Carl Kuehne Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26728/0.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn93980",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26787",
-    "rdfs:label": "Daniel Anderson",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn93981",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn93982",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19081",
-            "rdfs:label": "engineer"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      }
-    ],
-    "employer": [
-      {
-        "@id": "_:bn93983",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27064",
-          "rdfs:label": "Berkeley Unified School District",
-          "@type": "Institution"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      }
-    ],
-    "fieldOfWork": [
-      {
-        "@id": "_:bn93984",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27397",
-          "rdfs:label": "electrical engineering",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93985",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27418",
-          "rdfs:label": "psychology",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93986",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27424",
-          "rdfs:label": "sociology",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93987",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27409",
-          "rdfs:label": "lighting equipment",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93988",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27433",
-          "rdfs:label": "light projection",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93989",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27382",
-          "rdfs:label": "audio systems",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93990",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27383",
-          "rdfs:label": "audio-visual conversions",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93991",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27391",
-          "rdfs:label": "communications",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93992",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24367",
-          "rdfs:label": "television",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93993",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27386",
-          "rdfs:label": "cathode rays",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93994",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27024",
-          "rdfs:label": "video recordings (material)",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93995",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27420",
-          "rdfs:label": "audio-visual recording",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93996",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27421",
-          "rdfs:label": "remote controls",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93997",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24360",
-          "rdfs:label": "circuit",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93998",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27380",
-          "rdfs:label": "industrial architecture",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn93999",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27437",
-          "rdfs:label": "architecture",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn94000",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27408",
-          "rdfs:label": "control systems",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn94001",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27417",
-          "rdfs:label": "photography",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27067",
-            "rdfs:label": "Block 0 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/0.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn94002",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26788",
-    "rdfs:label": "David J. Lamb",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn94003",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "memberOf": [
-      {
-        "@id": "_:bn94004",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24347",
-          "rdfs:label": "Technical Services Program",
-          "@type": "UnrealizedProject"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19081",
-            "rdfs:label": "engineer"
-          }
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27109",
-            "rdfs:label": "Block 0 of B14 David J. Lamb Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26730/0.txt"
-          }
-        ]
-      }
-    ],
-    "employer": [
-      {
-        "@id": "_:bn94005",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27108",
-          "rdfs:label": "Micro-Swiss Inc.",
-          "@type": "Business"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27109",
-            "rdfs:label": "Block 0 of B14 David J. Lamb Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26730/0.txt"
-          }
-        ]
-      }
-    ],
-    "streetAddress": [
-      {
-        "@value": {
-          "text": "Allison Apts 109 F, Marlton N.J.",
-          "language": "en"
-        }
-      }
-    ],
-    "fieldOfWork": [
-      {
-        "@id": "_:bn94006",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27422",
-          "rdfs:label": "sales",
-          "@type": "FieldOfWork(Class)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27109",
-            "rdfs:label": "Block 0 of B14 David J. Lamb Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26730/0.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn94007",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27023",
-    "rdfs:label": "Lee Jaffe",
     "memberOf": [
       {
         "@id": "_:bn94008",
@@ -8818,14 +8823,9 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27093",
-            "rdfs:label": "Block 1 of B14 Jerry Goodman Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26720/1.txt"
-          },
-          {
-            "@id": "semlab:Q27095",
-            "rdfs:label": "Block 1 of B14 Judith Prager Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26721/1.txt"
+            "@id": "semlab:Q27104",
+            "rdfs:label": "Block 1 of B14 Craig Fields Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26726/1.txt"
           }
         ]
       }
@@ -8858,8 +8858,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27065",
-    "rdfs:label": "Frank Goad",
+    "@id": "semlab:Q26386",
+    "rdfs:label": "Nickolas Rock",
     "memberOf": [
       {
         "@id": "_:bn94011",
@@ -8877,11 +8877,22 @@
         ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q27068",
-            "rdfs:label": "Block 1 of B14 Daniel Anderson Edge-Notched Card",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26729/1.txt"
+            "@id": "semlab:Q27111",
+            "rdfs:label": "Block 1 of B14 John Minkhoff Edge-Notched Card",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q26713/1.txt"
           }
         ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn94012",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
       }
     ],
     "@type": [
@@ -8889,23 +8900,12 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94012",
+        "@id": "_:bn94013",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
           "rdfs:label": "person",
           "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn94013",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
         }
       }
     ]
