@@ -5,7 +5,7 @@
     "rdfs:label": "Asian American Arts Centre",
     "partOfProject": [
       {
-        "@id": "_:bn90267",
+        "@id": "_:bn90263",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -17,6 +17,62 @@
     "wikidataQid": [
       {
         "@value": "Q4806558"
+      }
+    ],
+    "@type": [
+      "Organization",
+      "Venue"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn90264",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19049",
+          "rdfs:label": "organization",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn90265",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19072",
+          "rdfs:label": "venue",
+          "@type": "Class"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn90266",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25485",
+    "rdfs:label": "Basement Workshop",
+    "partOfProject": [
+      {
+        "@id": "_:bn90267",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q20979200"
       }
     ],
     "@type": [
@@ -57,8 +113,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25485",
-    "rdfs:label": "Basement Workshop",
+    "@id": "semlab:Q25486",
+    "rdfs:label": "Bronx River Art Center",
     "partOfProject": [
       {
         "@id": "_:bn90271",
@@ -72,7 +128,7 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q20979200"
+        "@value": "Q112064747"
       }
     ],
     "@type": [
@@ -113,8 +169,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25486",
-    "rdfs:label": "Bronx River Art Center",
+    "@id": "semlab:Q25487",
+    "rdfs:label": "Bryant Park",
     "partOfProject": [
       {
         "@id": "_:bn90275",
@@ -128,11 +184,11 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q112064747"
+        "@value": "Q995174"
       }
     ],
     "@type": [
-      "Organization",
+      "Park",
       "Venue"
     ],
     "instanceOf": [
@@ -140,8 +196,8 @@
         "@id": "_:bn90276",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19049",
-          "rdfs:label": "organization",
+          "@id": "semlab:Q23077",
+          "rdfs:label": "park",
           "@type": "Class"
         }
       },
@@ -169,67 +225,11 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25487",
-    "rdfs:label": "Bryant Park",
-    "partOfProject": [
-      {
-        "@id": "_:bn90279",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24831",
-          "rdfs:label": "Asian American Arts Centre Exhibition History",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q995174"
-      }
-    ],
-    "@type": [
-      "Park",
-      "Venue"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn90280",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q23077",
-          "rdfs:label": "park",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn90281",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19072",
-          "rdfs:label": "venue",
-          "@type": "Class"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn90282",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19486",
-          "rdfs:label": "New York (N.Y.)",
-          "@type": "City"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q25496",
     "rdfs:label": "Cleveland Institute of Art",
     "partOfProject": [
       {
-        "@id": "_:bn90283",
+        "@id": "_:bn90279",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -250,7 +250,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn90284",
+        "@id": "_:bn90280",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1804",
@@ -259,11 +259,67 @@
         }
       },
       {
-        "@id": "_:bn90285",
+        "@id": "_:bn90281",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20618",
           "rdfs:label": "school",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn90282",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19072",
+          "rdfs:label": "venue",
+          "@type": "Class"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn90283",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21524",
+          "rdfs:label": "Cleveland (Ohio)",
+          "@type": "City"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25501",
+    "rdfs:label": "Henry Street Settlement",
+    "partOfProject": [
+      {
+        "@id": "_:bn90284",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q5728819"
+      }
+    ],
+    "@type": [
+      "Organization",
+      "Venue"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn90285",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19049",
+          "rdfs:label": "organization",
           "@type": "Class"
         }
       },
@@ -282,8 +338,8 @@
         "@id": "_:bn90287",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q21524",
-          "rdfs:label": "Cleveland (Ohio)",
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
           "@type": "City"
         }
       }
@@ -291,8 +347,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25501",
-    "rdfs:label": "Henry Street Settlement",
+    "@id": "semlab:Q25503",
+    "rdfs:label": "Jamaica Center for Arts & Learning",
     "partOfProject": [
       {
         "@id": "_:bn90288",
@@ -306,7 +362,7 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q5728819"
+        "@value": "Q6127277"
       }
     ],
     "@type": [
@@ -347,8 +403,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25503",
-    "rdfs:label": "Jamaica Center for Arts & Learning",
+    "@id": "semlab:Q25504",
+    "rdfs:label": "Kenkeleba House",
     "partOfProject": [
       {
         "@id": "_:bn90292",
@@ -362,7 +418,7 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q6127277"
+        "@value": "Q55563173"
       }
     ],
     "@type": [
@@ -403,8 +459,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25504",
-    "rdfs:label": "Kenkeleba House",
+    "@id": "semlab:Q25512",
+    "rdfs:label": "Silk Road Cafe",
     "partOfProject": [
       {
         "@id": "_:bn90296",
@@ -418,11 +474,11 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q55563173"
+        "@value": "Q110714453"
       }
     ],
     "@type": [
-      "Organization",
+      "Business",
       "Venue"
     ],
     "instanceOf": [
@@ -430,8 +486,8 @@
         "@id": "_:bn90297",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19049",
-          "rdfs:label": "organization",
+          "@id": "semlab:Q19085",
+          "rdfs:label": "business",
           "@type": "Class"
         }
       },
@@ -459,67 +515,11 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25512",
-    "rdfs:label": "Silk Road Cafe",
-    "partOfProject": [
-      {
-        "@id": "_:bn90300",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24831",
-          "rdfs:label": "Asian American Arts Centre Exhibition History",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q110714453"
-      }
-    ],
-    "@type": [
-      "Business",
-      "Venue"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn90301",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19085",
-          "rdfs:label": "business",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn90302",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19072",
-          "rdfs:label": "venue",
-          "@type": "Class"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn90303",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19486",
-          "rdfs:label": "New York (N.Y.)",
-          "@type": "City"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q25513",
     "rdfs:label": "Silver Center",
     "partOfProject": [
       {
-        "@id": "_:bn90304",
+        "@id": "_:bn90300",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -538,7 +538,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn90305",
+        "@id": "_:bn90301",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19072",
@@ -549,7 +549,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn90306",
+        "@id": "_:bn90302",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -560,7 +560,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn90307",
+        "@id": "_:bn90303",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25509",
@@ -576,7 +576,7 @@
     "rdfs:label": "Sumei Multidisciplinary Arts Center",
     "partOfProject": [
       {
-        "@id": "_:bn90308",
+        "@id": "_:bn90304",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -596,7 +596,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn90309",
+        "@id": "_:bn90305",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19049",
@@ -605,7 +605,7 @@
         }
       },
       {
-        "@id": "_:bn90310",
+        "@id": "_:bn90306",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19072",
@@ -616,7 +616,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn90311",
+        "@id": "_:bn90307",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25530",
@@ -632,7 +632,7 @@
     "rdfs:label": "The Clemente Soto Velez Cultural and Educational Center",
     "partOfProject": [
       {
-        "@id": "_:bn90312",
+        "@id": "_:bn90308",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -652,7 +652,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn90313",
+        "@id": "_:bn90309",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19072",
@@ -661,7 +661,7 @@
         }
       },
       {
-        "@id": "_:bn90314",
+        "@id": "_:bn90310",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19049",
@@ -672,7 +672,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn90315",
+        "@id": "_:bn90311",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -688,7 +688,7 @@
     "rdfs:label": "Tweed Courthouse",
     "partOfProject": [
       {
-        "@id": "_:bn90316",
+        "@id": "_:bn90312",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -707,7 +707,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn90317",
+        "@id": "_:bn90313",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19072",
@@ -718,7 +718,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn90318",
+        "@id": "_:bn90314",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -734,7 +734,7 @@
     "rdfs:label": "Wunsch Arts Center",
     "partOfProject": [
       {
-        "@id": "_:bn90319",
+        "@id": "_:bn90315",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -754,7 +754,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn90320",
+        "@id": "_:bn90316",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19049",
@@ -763,7 +763,7 @@
         }
       },
       {
-        "@id": "_:bn90321",
+        "@id": "_:bn90317",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19072",
@@ -774,7 +774,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn90322",
+        "@id": "_:bn90318",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25531",
