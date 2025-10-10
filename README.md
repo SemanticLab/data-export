@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2025-10-05
+Generated: 2025-10-10
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -122,7 +122,7 @@ Generated: 2025-10-05
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat_knowledge_graph_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__all.jsonld) | 2146  |
+| All    | [eat_knowledge_graph_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__all.jsonld) | 2147  |
 | Person    | [eat_knowledge_graph_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__person.jsonld) | 1076  |
 | Institution    | [eat_knowledge_graph_project__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__institution.jsonld) | 60  |
 | Linking Lost Jazz "Shrine"    | [eat_knowledge_graph_project__linking_lost_jazz_"shrine".jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__linking_lost_jazz_"shrine".jsonld) | 3  |
@@ -140,7 +140,7 @@ Generated: 2025-10-05
 | Venue    | [eat_knowledge_graph_project__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__venue.jsonld) | 12  |
 | Artwork (Concept)    | [eat_knowledge_graph_project__artwork_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artwork_(concept).jsonld) | 13  |
 | Performance    | [eat_knowledge_graph_project__performance.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__performance.jsonld) | 37  |
-| Technology    | [eat_knowledge_graph_project__technology.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__technology.jsonld) | 84  |
+| Technology    | [eat_knowledge_graph_project__technology.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__technology.jsonld) | 85  |
 | Activity    | [eat_knowledge_graph_project__activity.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__activity.jsonld) | 1  |
 | Publication    | [eat_knowledge_graph_project__publication.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__publication.jsonld) | 37  |
 | Business    | [eat_knowledge_graph_project__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__business.jsonld) | 128  |
