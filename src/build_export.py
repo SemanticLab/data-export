@@ -187,6 +187,7 @@ sparql = """
 """
 headers = {
     'Accept': 'application/sparql-results+json',
+    'User-Agent': 'semlab-data-process',
 }
 params = {
 	'query' : sparql
@@ -213,6 +214,7 @@ sparql = """
 """
 headers = {
     'Accept': 'application/sparql-results+json',
+    'User-Agent': 'semlab-data-process',
 }
 params = {
 	'query' : sparql
@@ -238,6 +240,7 @@ sparql = """
 """
 headers = {
     'Accept': 'application/sparql-results+json',
+    'User-Agent': 'semlab-data-process',
 }
 params = {
 	'query' : sparql
@@ -289,6 +292,7 @@ sparql = f"""
 
 headers = {
     'Accept': 'application/sparql-results+json',
+    'User-Agent': 'semlab-data-process',
 }
 params = {
 	'query' : sparql
@@ -363,6 +367,7 @@ for project_qid in projects:
 
 	headers = {
 	    'Accept': 'application/sparql-results+json',
+	    'User-Agent': 'semlab-data-process',
 	}
 
 	params = {
@@ -429,6 +434,7 @@ for project_qid in projects:
 
 		headers = {
 		    'Accept': 'application/sparql-results+json',
+		    'User-Agent': 'semlab-data-process',
 		}
 
 		params = {

@@ -31,6 +31,7 @@ LIMIT 5000
 """
 headers = {
     'Accept': 'application/sparql-results+json',
+    'User-Agent': 'semlab-data-process',
 }
 params = {
 	'query' : sparql
@@ -112,6 +113,7 @@ sparql = """
 """
 headers = {
     'Accept': 'application/sparql-results+json',
+    'User-Agent': 'semlab-data-process',
 }
 params = {
 	'query' : sparql
