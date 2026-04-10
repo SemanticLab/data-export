@@ -4,32 +4,32 @@
     "@id": "semlab:Q24229",
     "rdfs:label": "neon",
     "@type": [
-      "ArtMaterial",
-      "FieldOfWork(Class)"
+      "Material",
+      "FieldOfWork"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94748",
+        "@id": "_:bn98733",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23229",
-          "rdfs:label": "art material",
+          "rdfs:label": "material",
           "@type": "Class"
         }
       },
       {
-        "@id": "_:bn94749",
+        "@id": "_:bn98734",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27377",
-          "rdfs:label": "field of work (class)",
+          "rdfs:label": "field of work",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn94750",
+        "@id": "_:bn98735",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -38,7 +38,7 @@
         }
       },
       {
-        "@id": "_:bn94751",
+        "@id": "_:bn98736",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -49,7 +49,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn94752",
+        "@id": "_:bn98737",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22687",
@@ -87,6 +87,11 @@
       {
         "@value": "http://id.loc.gov/authorities/subjects/sh85090790"
       }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24229.jpg"
+      }
     ]
   },
   {
@@ -94,32 +99,42 @@
     "@id": "semlab:Q24453",
     "rdfs:label": "VHS",
     "@type": [
-      "ArtMaterial",
-      "FieldOfWork(Class)"
+      "Material",
+      "FieldOfWork",
+      "VideoRecordings(Material)"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94753",
+        "@id": "_:bn98738",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23229",
-          "rdfs:label": "art material",
+          "rdfs:label": "material",
           "@type": "Class"
         }
       },
       {
-        "@id": "_:bn94754",
+        "@id": "_:bn98739",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27377",
-          "rdfs:label": "field of work (class)",
+          "rdfs:label": "field of work",
           "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn98740",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27024",
+          "rdfs:label": "video recordings (material)",
+          "@type": "FieldOfWork"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn94755",
+        "@id": "_:bn98741",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -128,7 +143,7 @@
         }
       },
       {
-        "@id": "_:bn94756",
+        "@id": "_:bn98742",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -144,13 +159,18 @@
     ],
     "subclassOf": [
       {
-        "@id": "_:bn94757",
+        "@id": "_:bn98743",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26763",
           "rdfs:label": "film (material)",
-          "@type": "FieldOfWork(Class)"
+          "@type": "FieldOfWork"
         }
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24453.jpg"
       }
     ]
   }

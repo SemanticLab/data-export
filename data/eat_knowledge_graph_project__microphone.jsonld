@@ -4,32 +4,32 @@
     "@id": "semlab:Q24375",
     "rdfs:label": "contact microphone",
     "@type": [
-      "Technology",
+      "AudioDevice",
       "Microphone"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76459",
+        "@id": "_:bn78451",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19076",
-          "rdfs:label": "technology",
+          "@id": "semlab:Q29606",
+          "rdfs:label": "audio device",
           "@type": "Class"
         }
       },
       {
-        "@id": "_:bn76460",
+        "@id": "_:bn78452",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24400",
           "rdfs:label": "microphone",
-          "@type": "Technology"
+          "@type": "AudioDevice"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76461",
+        "@id": "_:bn78453",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -40,7 +40,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn76462",
+        "@id": "_:bn78454",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19159",
@@ -56,7 +56,7 @@
         ]
       },
       {
-        "@id": "_:bn76463",
+        "@id": "_:bn78455",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19495",
@@ -72,7 +72,7 @@
         ]
       },
       {
-        "@id": "_:bn76464",
+        "@id": "_:bn78456",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19644",
@@ -88,7 +88,7 @@
         ]
       },
       {
-        "@id": "_:bn76465",
+        "@id": "_:bn78457",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23778",
@@ -107,6 +107,34 @@
     "wikidataQid": [
       {
         "@value": "Q2719348"
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24375.jpg"
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn78458",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22679",
+          "rdfs:label": "sound-wired tennis racket",
+          "@type": "UniquelyEngineeredDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23990",
+            "rdfs:label": "Block 0 of A232 E.A.T. project description",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22896/0.txt"
+          },
+          {
+            "@id": "semlab:Q24653",
+            "rdfs:label": "Block 19 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/19.txt"
+          }
+        ]
       }
     ]
   }

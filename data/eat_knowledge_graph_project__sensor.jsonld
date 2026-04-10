@@ -1,0 +1,414 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q22680",
+    "rdfs:label": "Doppler Sonar system for Vehicle",
+    "@type": [
+      "UniquelyEngineeredDevice",
+      "Sensor"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79438",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29605",
+          "rdfs:label": "uniquely engineered device",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn79439",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29584",
+          "rdfs:label": "sensor",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79440",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn79441",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22693",
+          "rdfs:label": "Vehicle",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23680",
+            "rdfs:label": "Block 3 of A233 E.A.T. project description",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22897/3.txt"
+          },
+          {
+            "@id": "semlab:Q24654",
+            "rdfs:label": "Block 20 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/20.txt"
+          }
+        ]
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn79442",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19513",
+          "rdfs:label": "Peter Hirsch",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24654",
+            "rdfs:label": "Block 20 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/20.txt"
+          },
+          {
+            "@id": "semlab:Q23681",
+            "rdfs:label": "Block 4 of A233 E.A.T. project description",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22897/4.txt"
+          }
+        ]
+      }
+    ],
+    "describedOrDepictedAtUrl": [
+      {
+        "@value": "https://www.fondation-langlois.org/9evenings/e/lucinda-childs/performance.html"
+      }
+    ],
+    "hasParts": [
+      {
+        "@id": "_:bn79443",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24366",
+          "rdfs:label": "receiver",
+          "@type": "AudioDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23679",
+            "rdfs:label": "Block 2 of A233 E.A.T. project description",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22897/2.txt"
+          },
+          {
+            "@id": "semlab:Q24654",
+            "rdfs:label": "Block 20 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/20.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79444",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29376",
+          "rdfs:label": "transmitter",
+          "@type": "SignalProcessingComponent"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23679",
+            "rdfs:label": "Block 2 of A233 E.A.T. project description",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22897/2.txt"
+          },
+          {
+            "@id": "semlab:Q24654",
+            "rdfs:label": "Block 20 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/20.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79445",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29377",
+          "rdfs:label": "demodulator",
+          "@type": "Technology"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23679",
+            "rdfs:label": "Block 2 of A233 E.A.T. project description",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22897/2.txt"
+          },
+          {
+            "@id": "semlab:Q24654",
+            "rdfs:label": "Block 20 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/20.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79446",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29378",
+          "rdfs:label": "ionovac transducer",
+          "@type": "Technology"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23679",
+            "rdfs:label": "Block 2 of A233 E.A.T. project description",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22897/2.txt"
+          },
+          {
+            "@id": "semlab:Q24654",
+            "rdfs:label": "Block 20 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/20.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79447",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24370",
+          "rdfs:label": "oscillator",
+          "@type": "SignalProcessingComponent"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23679",
+            "rdfs:label": "Block 2 of A233 E.A.T. project description",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22897/2.txt"
+          },
+          {
+            "@id": "semlab:Q24654",
+            "rdfs:label": "Block 20 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/20.txt"
+          }
+        ]
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q22680.jpg"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24369",
+    "rdfs:label": "Geiger counter",
+    "@type": [
+      "Sensor"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79448",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29584",
+          "rdfs:label": "sensor",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79449",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn79450",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23778",
+          "rdfs:label": "Variations VII",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24657",
+            "rdfs:label": "Block 23 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/23.txt"
+          }
+        ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q48171"
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24369.jpg"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24488",
+    "rdfs:label": "corner reflector",
+    "@type": [
+      "Sensor"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79451",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29584",
+          "rdfs:label": "sensor",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79452",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn79453",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24487",
+          "rdfs:label": "outdoor projection screen for Centre Georges Pompidou",
+          "@type": "VisualProjectionOrDisplayDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24752",
+            "rdfs:label": "Block 27 of The Story of E.A.T. (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/27.txt"
+          }
+        ]
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24488.jpg"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29540",
+    "rdfs:label": "photocell switching circuit",
+    "partOfProject": [
+      {
+        "@id": "_:bn79454",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Sensor"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79455",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29584",
+          "rdfs:label": "sensor",
+          "@type": "Class"
+        }
+      }
+    ],
+    "hasParts": [
+      {
+        "@id": "_:bn79456",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29541",
+          "rdfs:label": "photocell",
+          "@type": "Sensor"
+        },
+        "referenceUrl": [
+          "https://www.experimentsinartandtechnology.org/cage-variations-v?utm"
+        ]
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q29540.jpg"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29541",
+    "rdfs:label": "photocell",
+    "@type": [
+      "Sensor"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79457",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29584",
+          "rdfs:label": "sensor",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79458",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q29541.jpg"
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn79459",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29540",
+          "rdfs:label": "photocell switching circuit",
+          "@type": "Sensor"
+        },
+        "referenceUrl": [
+          "https://www.experimentsinartandtechnology.org/cage-variations-v?utm"
+        ]
+      }
+    ]
+  }
+]
