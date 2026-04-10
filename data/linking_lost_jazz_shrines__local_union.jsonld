@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn40270",
+        "@id": "_:bn42882",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27056",
@@ -19,11 +19,20 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn40271",
+        "@id": "_:bn42883",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
           "rdfs:label": "Linking Lost Jazz Shrines",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn42884",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
           "@type": "SemanticLabProject"
         }
       }
@@ -33,21 +42,16 @@
         "@value": "Q108429936"
       }
     ],
-    "wikidataUri": [
-      {
-        "@value": "http://www.wikidata.org/entity/Q108429936"
-      }
-    ],
     "employee": [
       {
-        "@id": "_:bn40272",
+        "@id": "_:bn42885",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19313",
           "rdfs:label": "Herman D. Kenin",
           "@type": "Person"
         },
-        "role": [
+        "objectHasRole": [
           {
             "@id": "semlab:Q23183",
             "rdfs:label": "president"

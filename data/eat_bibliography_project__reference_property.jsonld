@@ -1,0 +1,122 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:P87",
+    "rdfs:label": "page number",
+    "domain": [
+      {
+        "@id": "_:bn83428",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19069",
+          "rdfs:label": "document",
+          "@type": "Class"
+        }
+      }
+    ],
+    "@type": [
+      "Property",
+      "QualifierProperty",
+      "ReferenceProperty"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn83429",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20664",
+          "rdfs:label": "property",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn83430",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22531",
+          "rdfs:label": "qualifier property",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn83431",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28612",
+          "rdfs:label": "semlab:Q28612",
+          "@type": "semlab:semlab:NoType"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn83432",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20613",
+          "rdfs:label": "Women of Jazz",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn83433",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20655",
+          "rdfs:label": "The International Sweethearts of Rhythm Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn83434",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "equivalentProperty": [
+      {
+        "@value": "http://www.wikidata.org/entity/P304"
+      },
+      {
+        "@value": "https://schema.org/pagination"
+      }
+    ],
+    "exportAliasName": [
+      {
+        "@value": "pageNumber"
+      }
+    ],
+    "createdFor": [
+      {
+        "@id": "_:bn83435",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "propertyExample": [
+      {
+        "@id": "_:bn83436",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28755",
+          "rdfs:label": "Block 0 of R.R.F.A. Documentation List",
+          "@type": "Block"
+        },
+        "pageNumber": [
+          1
+        ],
+        "referenceUrl": [
+          "https://base.semlab.io/entity/Q28755#P87"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24347",
+    "rdfs:label": "Technical Services Program",
+    "@type": [
+      "UnrealizedProject"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn94758",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23736",
+          "rdfs:label": "unrealized project",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn94759",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn94760",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn94761",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24727",
+            "rdfs:label": "Block 2 of The Story of E.A.T. Part II",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/2.txt"
+          }
+        ]
+      }
+    ]
+  }
+]

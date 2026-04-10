@@ -1,0 +1,177 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q19499",
+    "rdfs:label": "Parade",
+    "partOfProject": [
+      {
+        "@id": "_:bn77184",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q2051330"
+      }
+    ],
+    "@type": [
+      "MusicalWork(Concept)"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn77185",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28940",
+          "rdfs:label": "musical work (concept)",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q19624",
+    "rdfs:label": "The Rite of Spring",
+    "@type": [
+      "MusicalWork(Concept)"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn77186",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28940",
+          "rdfs:label": "musical work (concept)",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn77187",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q206015"
+      }
+    ],
+    "describedOrDepictedAtUrl": [
+      {
+        "@value": "https://www.boosey.com/cr/music/Igor-Stravinsky-The-Rite-of-Spring/2769"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24222",
+    "rdfs:label": "Funakukushi",
+    "@type": [
+      "MusicalWork(Concept)",
+      "SoundRecording"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn77188",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28940",
+          "rdfs:label": "musical work (concept)",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn77189",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28955",
+          "rdfs:label": "sound recording",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q19780",
+            "rdfs:label": "E.A.T. Nine Evenings Program Block 18",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/e729fd60af13c9b5f2941348ac297707/18.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn77190",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn77191",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19641",
+          "rdfs:label": "Toshi Ichiyanagi",
+          "@type": "Person"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q23105",
+            "rdfs:label": "composer"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q19780",
+            "rdfs:label": "E.A.T. Nine Evenings Program Block 18",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/e729fd60af13c9b5f2941348ac297707/18.txt"
+          }
+        ]
+      }
+    ],
+    "duration": [
+      {
+        "@value": {
+          "amount": "+13",
+          "unit": "http://base.semlab.io/entity/Q24546"
+        }
+      }
+    ],
+    "fullWorkAvailableAtURL": [
+      {
+        "@value": "https://youtu.be/ZLW4YJT4BK0"
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn77192",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22339",
+          "rdfs:label": "Solo",
+          "@type": "PerformanceArtwork(Concept)"
+        }
+      }
+    ],
+    "describedOrDepictedAtUrl": [
+      {
+        "@value": "https://www.discogs.com/release/5440519-Toshi-Ichiyanagi-%E8%88%B9%E9%9A%A0-Funakakushi"
+      }
+    ]
+  }
+]

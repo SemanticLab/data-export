@@ -1,0 +1,135 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q19471",
+    "rdfs:label": "Museum of Modern Art",
+    "@type": [
+      "Museum",
+      "Publisher"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn81055",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19103",
+          "rdfs:label": "museum",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn81056",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21676",
+          "rdfs:label": "publisher",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn81057",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn81058",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q188740"
+      }
+    ],
+    "employee": [
+      {
+        "@id": "_:bn81059",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19128",
+          "rdfs:label": "Alfred H. Barr",
+          "@type": "Person"
+        },
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q23317",
+            "rdfs:label": "Former Director of Museum Collections"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23630",
+            "rdfs:label": "Block 10 of A76 E.A.T. booklet",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22778/10.txt"
+          },
+          {
+            "@id": "semlab:Q23607",
+            "rdfs:label": "Block 10 of A69 E.A.T. booklet, draft with Rauschenberg's edits",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22777/10.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21509",
+    "rdfs:label": "Musee d'Art Moderne de la Ville de Paris",
+    "@type": [
+      "Publisher",
+      "Museum"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn81060",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21676",
+          "rdfs:label": "publisher",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn81061",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19103",
+          "rdfs:label": "museum",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn81062",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q857276"
+      }
+    ],
+    "E.A.T.DatascapePageIdentifier": [
+      {
+        "@value": "actor/578"
+      }
+    ]
+  }
+]

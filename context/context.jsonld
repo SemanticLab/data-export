@@ -10,10 +10,7 @@
     "rel": "http://purl.org/vocab/relationship/",
     "schema": "https://schema.org/",
     "RelEvent": "https://base.semlab.io/entity/Q27035",
-    "MusicVenue": {
-      "@id": "semlab:Q18806",
-      "@type": "@id"
-    },
+    "MusicVenue": "https://base.semlab.io/entity/Q18806",
     "Block": {
       "@id": "semlab:Q2013",
       "@type": "@id"
@@ -142,6 +139,406 @@
     "relationshipGeneration": "https://base.semlab.io/entity/P25",
     "crowdSourceConsensus": "https://base.semlab.io/entity/P40",
     "blockTextURL": "https://base.semlab.io/entity/P20",
+    "mainSubject": {
+      "@id": "semlab:P77",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sender": {
+      "@id": "semlab:P78",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "addressee": {
+      "@id": "semlab:P79",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "copyrightHolder": {
+      "@id": "semlab:P81",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "title": {
+      "@id": "semlab:P82",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "documentType": {
+      "@id": "semlab:P83",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "publisher": {
+      "@id": "semlab:P84",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "designer": {
+      "@id": "semlab:P85",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "editor": {
+      "@id": "semlab:P86",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "pageNumber": {
+      "@id": "semlab:P87",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "volume": {
+      "@id": "semlab:P88",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "issueNumber": {
+      "@id": "semlab:P89",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "author": {
+      "@id": "semlab:P91",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "participantGroup": {
+      "@id": "semlab:P92",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "participatedIn": {
+      "@id": "semlab:P93",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "mentions": {
+      "@id": "semlab:P94",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "writesAbout": {
+      "@id": "semlab:P95",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "partOf": {
+      "@id": "semlab:P96",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "date": {
+      "@id": "semlab:P98",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "subtitle": {
+      "@id": "semlab:P100",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "numberOfPages": {
+      "@id": "semlab:P101",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "collectionCreator": {
+      "@id": "semlab:P102",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "publishedIn": {
+      "@id": "semlab:P103",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "placeOfPublication": {
+      "@id": "semlab:P104",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "statedIn": {
+      "@id": "semlab:P105",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "languageOfWork": {
+      "@id": "semlab:P106",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "dateType": {
+      "@id": "semlab:P107",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "employer": {
+      "@id": "semlab:P110",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "referenceUrl": {
+      "@id": "semlab:P114",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "sponsorOf": {
+      "@id": "semlab:P157",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "musicianLeaderOf": {
+      "@id": "semlab:P160",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "teacherOf": {
+      "@id": "semlab:P161",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "signedWith": {
+      "@id": "semlab:P169",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "interviewedBy": {
+      "@id": "semlab:P170",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "interviewed": {
+      "@id": "semlab:P171",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "photographed": {
+      "@id": "semlab:P173",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "precededBy": {
+      "@id": "semlab:P175",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "succeededBy": {
+      "@id": "semlab:P176",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "differentFrom": {
+      "@id": "semlab:P177",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "shownAt": {
+      "@id": "semlab:P178",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "employee": {
+      "@id": "semlab:P179",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "inverseProperty": {
+      "@id": "semlab:P180",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "operatingArea": {
+      "@id": "semlab:P181",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "similarProperty": {
+      "@id": "semlab:P183",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "uses": {
+      "@id": "semlab:P185",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "duration": {
+      "@id": "semlab:P186",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "budget": {
+      "@id": "semlab:P188",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "format": {
+      "@id": "semlab:P191",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "color": {
+      "@id": "semlab:P192",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "usedIn": {
+      "@id": "semlab:P194",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasParts": {
+      "@id": "semlab:P195",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "curator": {
+      "@id": "semlab:P197",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "organizer": {
+      "@id": "semlab:P198",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "superclassOf": {
+      "@id": "semlab:P199",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "fileUrl": {
+      "@id": "semlab:P200",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "skos:closeMatch": {
+      "@id": "semlab:P201",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "fieldOfWork": {
+      "@id": "semlab:P202",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "verificationBatch": {
+      "@id": "semlab:P203",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "exportAliasName": {
+      "@id": "semlab:P204",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "createdFor": {
+      "@id": "semlab:P205",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "ieeeTerm": {
+      "@id": "semlab:P206",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "vocabulary": {
+      "@id": "semlab:P207",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "superpropertyOf": {
+      "@id": "semlab:P208",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "performerOf": {
+      "@id": "semlab:P210",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "dinedAt": {
+      "@id": "semlab:P211",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "dinedWith": {
+      "@id": "semlab:P212",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "prepared": {
+      "@id": "semlab:P213",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "presenterOf": {
+      "@id": "semlab:P214",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "presentedAt": {
+      "@id": "semlab:P215",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hostedBy": {
+      "@id": "semlab:P216",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "listenedTo": {
+      "@id": "semlab:P217",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "read": {
+      "@id": "semlab:P218",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "viewed": {
+      "@id": "semlab:P219",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "attendedPerformanceOfWork": {
+      "@id": "semlab:P220",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "propertyConstraint": {
+      "@id": "semlab:P221",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "exceptionToConstraint": {
+      "@id": "semlab:P222",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "constraintStatus": {
+      "@id": "semlab:P223",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "WikimediaLanguageCode": {
+      "@id": "semlab:P224",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "class": {
+      "@id": "semlab:P225",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "relation": {
+      "@id": "semlab:P226",
+      "@type": "@id",
+      "@container": "@set"
+    },
     "instanceOf": {
       "@id": "semlab:P1",
       "@type": "@id",
@@ -179,11 +576,6 @@
     },
     "wikidataQid": {
       "@id": "semlab:P8",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "wikidataUri": {
-      "@id": "semlab:P9",
       "@type": "@id",
       "@container": "@set"
     },
@@ -387,7 +779,7 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "residentOf": {
+    "livedIn": {
       "@id": "semlab:P69",
       "@type": "@id",
       "@container": "@set"
@@ -412,152 +804,7 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "mainSubject": {
-      "@id": "semlab:P77",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "sender": {
-      "@id": "semlab:P78",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "addressee": {
-      "@id": "semlab:P79",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "copyrightHolder": {
-      "@id": "semlab:P81",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "title": {
-      "@id": "semlab:P82",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "documentType": {
-      "@id": "semlab:P83",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "publisher": {
-      "@id": "semlab:P84",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "designer": {
-      "@id": "semlab:P85",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "editor": {
-      "@id": "semlab:P86",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "pageNumber": {
-      "@id": "semlab:P87",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "volume": {
-      "@id": "semlab:P88",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "issueNumber": {
-      "@id": "semlab:P89",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "author": {
-      "@id": "semlab:P91",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "participantGroup": {
-      "@id": "semlab:P92",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "participatedIn": {
-      "@id": "semlab:P93",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "mentions": {
-      "@id": "semlab:P94",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "discusses": {
-      "@id": "semlab:P95",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "partOf": {
-      "@id": "semlab:P96",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "date": {
-      "@id": "semlab:P98",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "subtitle": {
-      "@id": "semlab:P100",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "numberOfPages": {
-      "@id": "semlab:P101",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "collectionCreator": {
-      "@id": "semlab:P102",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "publishedIn": {
-      "@id": "semlab:P103",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "placeOfPublication": {
-      "@id": "semlab:P104",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "statedIn": {
-      "@id": "semlab:P105",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "languageOfWork": {
-      "@id": "semlab:P106",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "dateType": {
-      "@id": "semlab:P107",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "employer": {
-      "@id": "semlab:P110",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "referenceUrl": {
-      "@id": "semlab:P114",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "role": {
+    "subjectHasRole": {
       "@id": "semlab:P117",
       "@type": "@id",
       "@container": "@set"
@@ -577,148 +824,148 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "photographed": {
-      "@id": "semlab:P173",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "precededBy": {
-      "@id": "semlab:P175",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "succeededBy": {
-      "@id": "semlab:P176",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "differentFrom": {
-      "@id": "semlab:P177",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "shownAt": {
-      "@id": "semlab:P178",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "employee": {
-      "@id": "semlab:P179",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "inverseProperty": {
-      "@id": "semlab:P180",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "operatingArea": {
-      "@id": "semlab:P181",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "similarProperty": {
-      "@id": "semlab:P183",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "uses": {
-      "@id": "semlab:P185",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "duration": {
-      "@id": "semlab:P186",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "budget": {
-      "@id": "semlab:P188",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "format": {
-      "@id": "semlab:P191",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "color": {
-      "@id": "semlab:P192",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "usedIn": {
-      "@id": "semlab:P194",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "hasParts": {
-      "@id": "semlab:P195",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "curator": {
-      "@id": "semlab:P197",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "organizer": {
-      "@id": "semlab:P198",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "superclassOf": {
-      "@id": "semlab:P199",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "fileUrl": {
-      "@id": "semlab:P200",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "skos:closeMatch": {
-      "@id": "semlab:P201",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "fieldOfWork": {
-      "@id": "semlab:P202",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "verificationBatch": {
-      "@id": "semlab:P203",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "exportAliasName": {
-      "@id": "semlab:P204",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "createdFor": {
-      "@id": "semlab:P205",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "ieeeTerm": {
-      "@id": "semlab:P206",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "vocabulary": {
-      "@id": "semlab:P207",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "superpropertyOf": {
-      "@id": "semlab:P208",
-      "@type": "@id",
-      "@container": "@set"
-    },
     "endTime": {
       "@id": "semlab:P121",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "property": {
+      "@id": "semlab:P227",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "qualifierOfPropertyConstraint": {
+      "@id": "semlab:P228",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "minimumQuantity": {
+      "@id": "semlab:P229",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "minimumDate": {
+      "@id": "semlab:P231",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "maximumQuantity": {
+      "@id": "semlab:P230",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "maximumDate": {
+      "@id": "semlab:P232",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "namespace": {
+      "@id": "semlab:P233",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "formatAsARegularExpression": {
+      "@id": "semlab:P234",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "syntaxClarification": {
+      "@id": "semlab:P235",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "constraintClarification": {
+      "@id": "semlab:P236",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "constraintScope": {
+      "@id": "semlab:P237",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "constraintEntityTypes": {
+      "@id": "semlab:P238",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "separator": {
+      "@id": "semlab:P239",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "propertyScope": {
+      "@id": "semlab:P240",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "mentionsViaAttribution": {
+      "@id": "semlab:P241",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "formatterUrl": {
+      "@id": "semlab:P244",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "E.A.T.DatascapePageIdentifier": {
+      "@id": "semlab:P245",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "partOfSeries": {
+      "@id": "semlab:P246",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "bibliographicReferenceOf": {
+      "@id": "semlab:P247",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasBibliographicReference": {
+      "@id": "semlab:P248",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "fullWorkAvailableAtURL": {
+      "@id": "semlab:P249",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "partOfCollection": {
+      "@id": "semlab:P250",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "propertyExample": {
+      "@id": "semlab:P251",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "workPerformedAt": {
+      "@id": "semlab:P252",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "describedOrDepictedAtUrl": {
+      "@id": "semlab:P253",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "founderOf": {
+      "@id": "semlab:P254",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "foundedBy": {
+      "@id": "semlab:P255",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "translator": {
+      "@id": "semlab:P273",
       "@type": "@id",
       "@container": "@set"
     },
@@ -757,23 +1004,8 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "subEvent": {
-      "@id": "semlab:P131",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "superEvent": {
-      "@id": "semlab:P132",
-      "@type": "@id",
-      "@container": "@set"
-    },
     "libraryOfCongressAuthorityId": {
       "@id": "semlab:P133",
-      "@type": "@id",
-      "@container": "@set"
-    },
-    "reportedDate": {
-      "@id": "semlab:P134",
       "@type": "@id",
       "@container": "@set"
     },
@@ -807,7 +1039,7 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "edtf": {
+    "objectNamedAs": {
       "@id": "semlab:P141",
       "@type": "@id",
       "@container": "@set"
@@ -852,35 +1084,94 @@
       "@type": "@id",
       "@container": "@set"
     },
-    "sponsorOf": {
-      "@id": "semlab:P157",
+    "traveledWith": {
+      "@id": "semlab:P256",
       "@type": "@id",
       "@container": "@set"
     },
-    "musicianLeaderOf": {
-      "@id": "semlab:P160",
+    "togetherWith": {
+      "@id": "semlab:P257",
       "@type": "@id",
       "@container": "@set"
     },
-    "teacherOf": {
-      "@id": "semlab:P161",
+    "honoredBy": {
+      "@id": "semlab:P258",
       "@type": "@id",
       "@container": "@set"
     },
-    "signedWith": {
-      "@id": "semlab:P169",
+    "honored": {
+      "@id": "semlab:P259",
       "@type": "@id",
       "@container": "@set"
     },
-    "interviewedBy": {
-      "@id": "semlab:P170",
+    "collectedWorksBy": {
+      "@id": "semlab:P260",
       "@type": "@id",
       "@container": "@set"
     },
-    "interviewed": {
-      "@id": "semlab:P171",
+    "hasWorksCollectedBy": {
+      "@id": "semlab:P261",
       "@type": "@id",
       "@container": "@set"
+    },
+    "objectHasRole": {
+      "@id": "semlab:P262",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "subjectNamedAs": {
+      "@id": "semlab:P263",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "hasManifestation": {
+      "@id": "semlab:P264",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "manifestationOf": {
+      "@id": "semlab:P265",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "extent": {
+      "@id": "semlab:P266",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "cinematographer": {
+      "@id": "semlab:P267",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "presenter": {
+      "@id": "semlab:P268",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "productionTeamMember": {
+      "@id": "semlab:P269",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "artist": {
+      "@id": "semlab:P270",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "performanceEngineer": {
+      "@id": "semlab:P271",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "reviewOf": {
+      "@id": "semlab:P272",
+      "@type": "@id",
+      "@container": "@set"
+    },
+    "AcademicJournal": {
+      "@id": "semlab:Q20637",
+      "@type": "@id"
     },
     "Activity": {
       "@id": "semlab:Q19077",
@@ -892,10 +1183,6 @@
     },
     "Annotation": {
       "@id": "semlab:Q22413",
-      "@type": "@id"
-    },
-    "ArchivalObject": {
-      "@id": "semlab:Q19075",
       "@type": "@id"
     },
     "ArtExhibition": {
@@ -914,15 +1201,11 @@
       "@id": "semlab:Q20638",
       "@type": "@id"
     },
-    "ArtistBook": {
-      "@id": "semlab:Q21588",
-      "@type": "@id"
-    },
     "ArtistCollective": {
       "@id": "semlab:Q25669",
       "@type": "@id"
     },
-    "Artist'SStatement": {
+    "ArtistStatement": {
       "@id": "semlab:Q22365",
       "@type": "@id"
     },
@@ -930,12 +1213,20 @@
       "@id": "semlab:Q23505",
       "@type": "@id"
     },
-    "Artwork": {
+    "Artwork(Concept)": {
       "@id": "semlab:Q19073",
+      "@type": "@id"
+    },
+    "Artwork(Object)": {
+      "@id": "semlab:Q28932",
       "@type": "@id"
     },
     "Auction": {
       "@id": "semlab:Q25660",
+      "@type": "@id"
+    },
+    "Audio-VisualRecording": {
+      "@id": "semlab:Q27420",
       "@type": "@id"
     },
     "BandBattle": {
@@ -946,8 +1237,12 @@
       "@id": "semlab:Q23886",
       "@type": "@id"
     },
-    "BiomedicalElectronics": {
-      "@id": "semlab:Q27385",
+    "BibliographicReference": {
+      "@id": "semlab:Q27513",
+      "@type": "@id"
+    },
+    "Bibliography": {
+      "@id": "semlab:Q27514",
       "@type": "@id"
     },
     "Book": {
@@ -982,12 +1277,12 @@
       "@id": "semlab:Q25657",
       "@type": "@id"
     },
-    "Chart": {
-      "@id": "semlab:Q22646",
+    "Character": {
+      "@id": "semlab:Q28963",
       "@type": "@id"
     },
-    "Chemistry": {
-      "@id": "semlab:Q27387",
+    "CinematicWork(Concept)": {
+      "@id": "semlab:Q19098",
       "@type": "@id"
     },
     "City": {
@@ -1008,6 +1303,10 @@
     },
     "Color": {
       "@id": "semlab:Q24451",
+      "@type": "@id"
+    },
+    "CombinePainting": {
+      "@id": "semlab:Q28947",
       "@type": "@id"
     },
     "CommunicationsSatellite": {
@@ -1034,16 +1333,32 @@
       "@id": "semlab:Q21151",
       "@type": "@id"
     },
+    "Diary": {
+      "@id": "semlab:Q27447",
+      "@type": "@id"
+    },
     "DiaryEntry": {
       "@id": "semlab:Q27354",
+      "@type": "@id"
+    },
+    "Dissertation": {
+      "@id": "semlab:Q28975",
       "@type": "@id"
     },
     "Document": {
       "@id": "semlab:Q19069",
       "@type": "@id"
     },
-    "DraftDocument": {
-      "@id": "semlab:Q22290",
+    "Drawing": {
+      "@id": "semlab:Q24678",
+      "@type": "@id"
+    },
+    "Edge-NotchedCard": {
+      "@id": "semlab:Q28613",
+      "@type": "@id"
+    },
+    "Envelope": {
+      "@id": "semlab:Q28954",
       "@type": "@id"
     },
     "EthnicGroup": {
@@ -1054,16 +1369,16 @@
       "@id": "semlab:Q19071",
       "@type": "@id"
     },
+    "ExhibitionEvent": {
+      "@id": "semlab:Q25970",
+      "@type": "@id"
+    },
     "Family": {
       "@id": "semlab:Q19097",
       "@type": "@id"
     },
     "FieldOfWork(Class)": {
       "@id": "semlab:Q27377",
-      "@type": "@id"
-    },
-    "Film": {
-      "@id": "semlab:Q19098",
       "@type": "@id"
     },
     "FilmScreening": {
@@ -1086,12 +1401,20 @@
       "@id": "semlab:Q19047",
       "@type": "@id"
     },
+    "GuestList": {
+      "@id": "semlab:Q19086",
+      "@type": "@id"
+    },
     "HistoricDemographica": {
       "@id": "semlab:Q21162",
       "@type": "@id"
     },
     "Hotel": {
       "@id": "semlab:Q23497",
+      "@type": "@id"
+    },
+    "InstallationArtwork(Concept)": {
+      "@id": "semlab:Q28933",
       "@type": "@id"
     },
     "Institution": {
@@ -1122,6 +1445,10 @@
       "@id": "semlab:Q20656",
       "@type": "@id"
     },
+    "Language": {
+      "@id": "semlab:Q28977",
+      "@type": "@id"
+    },
     "Lecture": {
       "@id": "semlab:Q24396",
       "@type": "@id"
@@ -1130,16 +1457,24 @@
       "@id": "semlab:Q19091",
       "@type": "@id"
     },
+    "LetterToTheEditor": {
+      "@id": "semlab:Q28958",
+      "@type": "@id"
+    },
+    "LinkingLostJazz\"Shrine\"": {
+      "@id": "semlab:Q18806",
+      "@type": "@id"
+    },
     "List": {
       "@id": "semlab:Q22649",
       "@type": "@id"
     },
-    "LocalUnion": {
-      "@id": "semlab:Q27056",
+    "LiteraryWork(Concept)": {
+      "@id": "semlab:Q28941",
       "@type": "@id"
     },
-    "Manuscript": {
-      "@id": "semlab:Q22650",
+    "LocalUnion": {
+      "@id": "semlab:Q27056",
       "@type": "@id"
     },
     "Memorandum": {
@@ -1154,10 +1489,6 @@
       "@id": "semlab:Q25667",
       "@type": "@id"
     },
-    "MovingImage": {
-      "@id": "semlab:Q22656",
-      "@type": "@id"
-    },
     "Museum": {
       "@id": "semlab:Q19103",
       "@type": "@id"
@@ -1170,12 +1501,20 @@
       "@id": "semlab:Q20619",
       "@type": "@id"
     },
+    "MusicalWork(Concept)": {
+      "@id": "semlab:Q28940",
+      "@type": "@id"
+    },
     "Neighborhood": {
       "@id": "semlab:Q19059",
       "@type": "@id"
     },
     "Newsletter": {
       "@id": "semlab:Q19095",
+      "@type": "@id"
+    },
+    "Newspaper": {
+      "@id": "semlab:Q28950",
       "@type": "@id"
     },
     "NewspaperClipping": {
@@ -1186,8 +1525,16 @@
       "@id": "semlab:Q23195",
       "@type": "@id"
     },
+    "Notebook": {
+      "@id": "semlab:Q28952",
+      "@type": "@id"
+    },
     "Notes": {
       "@id": "semlab:Q27063",
+      "@type": "@id"
+    },
+    "Object": {
+      "@id": "semlab:Q27168",
       "@type": "@id"
     },
     "Occupation": {
@@ -1196,6 +1543,10 @@
     },
     "Organization": {
       "@id": "semlab:Q19049",
+      "@type": "@id"
+    },
+    "OrganizationalChart": {
+      "@id": "semlab:Q22646",
       "@type": "@id"
     },
     "Painting": {
@@ -1218,6 +1569,10 @@
       "@id": "semlab:Q19074",
       "@type": "@id"
     },
+    "PerformanceArtwork(Concept)": {
+      "@id": "semlab:Q28938",
+      "@type": "@id"
+    },
     "Person": {
       "@id": "semlab:Q1",
       "@type": "@id"
@@ -1234,6 +1589,10 @@
       "@id": "semlab:Q22301",
       "@type": "@id"
     },
+    "Poster": {
+      "@id": "semlab:Q28945",
+      "@type": "@id"
+    },
     "Presentation": {
       "@id": "semlab:Q25661",
       "@type": "@id"
@@ -1244,6 +1603,10 @@
     },
     "PriceDescriptor": {
       "@id": "semlab:Q22989",
+      "@type": "@id"
+    },
+    "Print": {
+      "@id": "semlab:Q28943",
       "@type": "@id"
     },
     "Programme": {
@@ -1266,7 +1629,7 @@
       "@id": "semlab:Q21676",
       "@type": "@id"
     },
-    "Qualifier": {
+    "QualifierProperty": {
       "@id": "semlab:Q22531",
       "@type": "@id"
     },
@@ -1290,12 +1653,24 @@
       "@id": "semlab:Q19051",
       "@type": "@id"
     },
+    "ReferenceProperty": {
+      "@id": "semlab:Q28612",
+      "@type": "@id"
+    },
     "RelationshipGenerationType": {
       "@id": "semlab:Q27036",
       "@type": "@id"
     },
     "Restaurant": {
       "@id": "semlab:Q26025",
+      "@type": "@id"
+    },
+    "Review": {
+      "@id": "semlab:Q28960",
+      "@type": "@id"
+    },
+    "Role": {
+      "@id": "semlab:Q28961",
       "@type": "@id"
     },
     "Schedule": {
@@ -1322,8 +1697,12 @@
       "@id": "semlab:Q24548",
       "@type": "@id"
     },
-    "SoundInstallation": {
+    "SoundInstallationArtwork(Concept)": {
       "@id": "semlab:Q22436",
+      "@type": "@id"
+    },
+    "SoundRecording": {
+      "@id": "semlab:Q28955",
       "@type": "@id"
     },
     "SportsStadium": {
@@ -1332,6 +1711,10 @@
     },
     "State": {
       "@id": "semlab:Q19057",
+      "@type": "@id"
+    },
+    "Steamship": {
+      "@id": "semlab:Q28964",
       "@type": "@id"
     },
     "StreetPerformance": {
@@ -1368,6 +1751,10 @@
     },
     "Warehouse": {
       "@id": "semlab:Q23078",
+      "@type": "@id"
+    },
+    "Work": {
+      "@id": "semlab:Q26150",
       "@type": "@id"
     },
     "Workshop": {
