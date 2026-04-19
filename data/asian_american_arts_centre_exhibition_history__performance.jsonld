@@ -10,7 +10,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94147",
+        "@id": "_:bn94155",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25659",
@@ -18,132 +18,6 @@
           "@type": "Class"
         }
       },
-      {
-        "@id": "_:bn94148",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19071",
-          "rdfs:label": "event",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn94149",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19074",
-          "rdfs:label": "performance",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn94150",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24831",
-          "rdfs:label": "Asian American Arts Centre Exhibition History",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn94151",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25483",
-          "rdfs:label": "Asian American Arts Centre",
-          "@type": "Venue"
-        }
-      }
-    ],
-    "organizer": [
-      {
-        "@id": "_:bn94152",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25483",
-          "rdfs:label": "Asian American Arts Centre",
-          "@type": "Venue"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q111730688"
-      }
-    ],
-    "contributor": [
-      {
-        "@id": "_:bn94153",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25474",
-          "rdfs:label": "Yeong Gill Kim",
-          "@type": "Person"
-        },
-        "objectHasRole": [
-          {
-            "@id": "semlab:Q23510",
-            "rdfs:label": "speaker"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn94154",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25275",
-          "rdfs:label": "Chee Wang Ng",
-          "@type": "Person"
-        },
-        "objectHasRole": [
-          {
-            "@id": "semlab:Q23510",
-            "rdfs:label": "speaker"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn94155",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25010",
-          "rdfs:label": "Russel Baba",
-          "@type": "Person"
-        },
-        "objectHasRole": [
-          {
-            "@id": "semlab:Q20662",
-            "rdfs:label": "performing artist"
-          }
-        ]
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1999-04-13T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 11,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25674",
-    "rdfs:label": "\"A Tribute to Fathers\", D'Asia Vu Performance",
-    "@type": [
-      "Event",
-      "Performance"
-    ],
-    "instanceOf": [
       {
         "@id": "_:bn94156",
         "@type": "RelEvent",
@@ -198,12 +72,138 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q112279311"
+        "@value": "Q111730688"
       }
     ],
     "contributor": [
       {
         "@id": "_:bn94161",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25474",
+          "rdfs:label": "Yeong Gill Kim",
+          "@type": "Person"
+        },
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q23510",
+            "rdfs:label": "speaker"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn94162",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25275",
+          "rdfs:label": "Chee Wang Ng",
+          "@type": "Person"
+        },
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q23510",
+            "rdfs:label": "speaker"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn94163",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25010",
+          "rdfs:label": "Russel Baba",
+          "@type": "Person"
+        },
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q20662",
+            "rdfs:label": "performing artist"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1999-04-13T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25674",
+    "rdfs:label": "\"A Tribute to Fathers\", D'Asia Vu Performance",
+    "@type": [
+      "Event",
+      "Performance"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn94164",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19071",
+          "rdfs:label": "event",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn94165",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19074",
+          "rdfs:label": "performance",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn94166",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn94167",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25483",
+          "rdfs:label": "Asian American Arts Centre",
+          "@type": "Venue"
+        }
+      }
+    ],
+    "organizer": [
+      {
+        "@id": "_:bn94168",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25483",
+          "rdfs:label": "Asian American Arts Centre",
+          "@type": "Venue"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q112279311"
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn94169",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25301",
@@ -218,7 +218,7 @@
         ]
       },
       {
-        "@id": "_:bn94162",
+        "@id": "_:bn94170",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25142",
@@ -233,7 +233,7 @@
         ]
       },
       {
-        "@id": "_:bn94163",
+        "@id": "_:bn94171",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25284",
@@ -248,7 +248,7 @@
         ]
       },
       {
-        "@id": "_:bn94164",
+        "@id": "_:bn94172",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24963",
@@ -286,7 +286,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94165",
+        "@id": "_:bn94173",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19071",
@@ -295,7 +295,7 @@
         }
       },
       {
-        "@id": "_:bn94166",
+        "@id": "_:bn94174",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19074",
@@ -306,7 +306,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn94167",
+        "@id": "_:bn94175",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -317,27 +317,27 @@
     ],
     "location": [
       {
-        "@id": "_:bn94168",
+        "@id": "_:bn94176",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25504",
           "rdfs:label": "Kenkeleba House",
-          "@type": "Organization"
+          "@type": "Venue"
         }
       }
     ],
     "organizer": [
       {
-        "@id": "_:bn94169",
+        "@id": "_:bn94177",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25504",
           "rdfs:label": "Kenkeleba House",
-          "@type": "Organization"
+          "@type": "Venue"
         }
       },
       {
-        "@id": "_:bn94170",
+        "@id": "_:bn94178",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -353,7 +353,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn94171",
+        "@id": "_:bn94179",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25363",
@@ -368,7 +368,7 @@
         ]
       },
       {
-        "@id": "_:bn94172",
+        "@id": "_:bn94180",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24954",
@@ -383,7 +383,7 @@
         ]
       },
       {
-        "@id": "_:bn94173",
+        "@id": "_:bn94181",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25080",
@@ -421,7 +421,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94174",
+        "@id": "_:bn94182",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19071",
@@ -430,7 +430,7 @@
         }
       },
       {
-        "@id": "_:bn94175",
+        "@id": "_:bn94183",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19074",
@@ -441,7 +441,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn94176",
+        "@id": "_:bn94184",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -452,7 +452,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn94177",
+        "@id": "_:bn94185",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -463,7 +463,7 @@
     ],
     "organizer": [
       {
-        "@id": "_:bn94178",
+        "@id": "_:bn94186",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -479,7 +479,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn94179",
+        "@id": "_:bn94187",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25112",
@@ -518,7 +518,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94180",
+        "@id": "_:bn94188",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19073",
@@ -527,7 +527,7 @@
         }
       },
       {
-        "@id": "_:bn94181",
+        "@id": "_:bn94189",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19071",
@@ -536,7 +536,7 @@
         }
       },
       {
-        "@id": "_:bn94182",
+        "@id": "_:bn94190",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19074",
@@ -547,7 +547,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn94183",
+        "@id": "_:bn94191",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -558,7 +558,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn94184",
+        "@id": "_:bn94192",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -569,7 +569,7 @@
     ],
     "organizer": [
       {
-        "@id": "_:bn94185",
+        "@id": "_:bn94193",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -585,7 +585,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn94186",
+        "@id": "_:bn94194",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25214",
@@ -600,7 +600,7 @@
         ]
       },
       {
-        "@id": "_:bn94187",
+        "@id": "_:bn94195",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25327",
@@ -638,125 +638,11 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94188",
+        "@id": "_:bn94196",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19071",
           "rdfs:label": "event",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn94189",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19074",
-          "rdfs:label": "performance",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn94190",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24831",
-          "rdfs:label": "Asian American Arts Centre Exhibition History",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn94191",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25501",
-          "rdfs:label": "Henry Street Settlement",
-          "@type": "Venue"
-        }
-      }
-    ],
-    "organizer": [
-      {
-        "@id": "_:bn94192",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25482",
-          "rdfs:label": "Asian American Arts Alliance",
-          "@type": "Organization"
-        }
-      },
-      {
-        "@id": "_:bn94193",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25501",
-          "rdfs:label": "Henry Street Settlement",
-          "@type": "Venue"
-        }
-      },
-      {
-        "@id": "_:bn94194",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25483",
-          "rdfs:label": "Asian American Arts Centre",
-          "@type": "Venue"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q113487230"
-      }
-    ],
-    "contributor": [
-      {
-        "@id": "_:bn94195",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25116",
-          "rdfs:label": "Linda Faigao-Hall",
-          "@type": "Person"
-        },
-        "objectHasRole": [
-          {
-            "@id": "semlab:Q20662",
-            "rdfs:label": "performing artist"
-          }
-        ]
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1986-10-25T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 11,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25699",
-    "rdfs:label": "\"Roots to Reality II\" Festival Evening of Performances",
-    "@type": [
-      "Performance",
-      "Event"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn94196",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19074",
-          "rdfs:label": "performance",
           "@type": "Class"
         }
       },
@@ -764,8 +650,8 @@
         "@id": "_:bn94197",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19071",
-          "rdfs:label": "event",
+          "@id": "semlab:Q19074",
+          "rdfs:label": "performance",
           "@type": "Class"
         }
       }
@@ -823,12 +709,126 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q113487229"
+        "@value": "Q113487230"
       }
     ],
     "contributor": [
       {
         "@id": "_:bn94203",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25116",
+          "rdfs:label": "Linda Faigao-Hall",
+          "@type": "Person"
+        },
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q20662",
+            "rdfs:label": "performing artist"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1986-10-25T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25699",
+    "rdfs:label": "\"Roots to Reality II\" Festival Evening of Performances",
+    "@type": [
+      "Performance",
+      "Event"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn94204",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19074",
+          "rdfs:label": "performance",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn94205",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19071",
+          "rdfs:label": "event",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn94206",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24831",
+          "rdfs:label": "Asian American Arts Centre Exhibition History",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn94207",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25501",
+          "rdfs:label": "Henry Street Settlement",
+          "@type": "Venue"
+        }
+      }
+    ],
+    "organizer": [
+      {
+        "@id": "_:bn94208",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25482",
+          "rdfs:label": "Asian American Arts Alliance",
+          "@type": "Organization"
+        }
+      },
+      {
+        "@id": "_:bn94209",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25501",
+          "rdfs:label": "Henry Street Settlement",
+          "@type": "Venue"
+        }
+      },
+      {
+        "@id": "_:bn94210",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25483",
+          "rdfs:label": "Asian American Arts Centre",
+          "@type": "Venue"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q113487229"
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn94211",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25271",
@@ -843,7 +843,7 @@
         ]
       },
       {
-        "@id": "_:bn94204",
+        "@id": "_:bn94212",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25665",
@@ -882,7 +882,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94205",
+        "@id": "_:bn94213",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25658",
@@ -891,7 +891,7 @@
         }
       },
       {
-        "@id": "_:bn94206",
+        "@id": "_:bn94214",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19071",
@@ -900,7 +900,7 @@
         }
       },
       {
-        "@id": "_:bn94207",
+        "@id": "_:bn94215",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19074",
@@ -911,7 +911,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn94208",
+        "@id": "_:bn94216",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -922,7 +922,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn94209",
+        "@id": "_:bn94217",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25501",
@@ -933,7 +933,7 @@
     ],
     "organizer": [
       {
-        "@id": "_:bn94210",
+        "@id": "_:bn94218",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25482",
@@ -942,7 +942,7 @@
         }
       },
       {
-        "@id": "_:bn94211",
+        "@id": "_:bn94219",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25501",
@@ -951,7 +951,7 @@
         }
       },
       {
-        "@id": "_:bn94212",
+        "@id": "_:bn94220",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -967,7 +967,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn94213",
+        "@id": "_:bn94221",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25388",
@@ -982,7 +982,7 @@
         ]
       },
       {
-        "@id": "_:bn94214",
+        "@id": "_:bn94222",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25042",
@@ -997,7 +997,7 @@
         ]
       },
       {
-        "@id": "_:bn94215",
+        "@id": "_:bn94223",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25143",
@@ -1012,7 +1012,7 @@
         ]
       },
       {
-        "@id": "_:bn94216",
+        "@id": "_:bn94224",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25249",
@@ -1027,7 +1027,7 @@
         ]
       },
       {
-        "@id": "_:bn94217",
+        "@id": "_:bn94225",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24963",
@@ -1042,7 +1042,7 @@
         ]
       },
       {
-        "@id": "_:bn94218",
+        "@id": "_:bn94226",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25091",
@@ -1057,7 +1057,7 @@
         ]
       },
       {
-        "@id": "_:bn94219",
+        "@id": "_:bn94227",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25140",
@@ -1072,7 +1072,7 @@
         ]
       },
       {
-        "@id": "_:bn94220",
+        "@id": "_:bn94228",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25165",
@@ -1087,7 +1087,7 @@
         ]
       },
       {
-        "@id": "_:bn94221",
+        "@id": "_:bn94229",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25394",
@@ -1102,7 +1102,7 @@
         ]
       },
       {
-        "@id": "_:bn94222",
+        "@id": "_:bn94230",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25056",
@@ -1150,7 +1150,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94223",
+        "@id": "_:bn94231",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19071",
@@ -1159,7 +1159,7 @@
         }
       },
       {
-        "@id": "_:bn94224",
+        "@id": "_:bn94232",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19074",
@@ -1170,7 +1170,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn94225",
+        "@id": "_:bn94233",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -1181,16 +1181,16 @@
     ],
     "location": [
       {
-        "@id": "_:bn94226",
+        "@id": "_:bn94234",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25504",
           "rdfs:label": "Kenkeleba House",
-          "@type": "Organization"
+          "@type": "Venue"
         }
       },
       {
-        "@id": "_:bn94227",
+        "@id": "_:bn94235",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -1201,16 +1201,16 @@
     ],
     "organizer": [
       {
-        "@id": "_:bn94228",
+        "@id": "_:bn94236",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25504",
           "rdfs:label": "Kenkeleba House",
-          "@type": "Organization"
+          "@type": "Venue"
         }
       },
       {
-        "@id": "_:bn94229",
+        "@id": "_:bn94237",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -1235,7 +1235,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94230",
+        "@id": "_:bn94238",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19071",
@@ -1244,7 +1244,7 @@
         }
       },
       {
-        "@id": "_:bn94231",
+        "@id": "_:bn94239",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19074",
@@ -1255,7 +1255,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn94232",
+        "@id": "_:bn94240",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -1266,7 +1266,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn94233",
+        "@id": "_:bn94241",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25487",
@@ -1277,7 +1277,7 @@
     ],
     "organizer": [
       {
-        "@id": "_:bn94234",
+        "@id": "_:bn94242",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -1293,7 +1293,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn94235",
+        "@id": "_:bn94243",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24965",
@@ -1308,7 +1308,7 @@
         ]
       },
       {
-        "@id": "_:bn94236",
+        "@id": "_:bn94244",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25253",
@@ -1323,7 +1323,7 @@
         ]
       },
       {
-        "@id": "_:bn94237",
+        "@id": "_:bn94245",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24905",
@@ -1360,7 +1360,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94238",
+        "@id": "_:bn94246",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19074",
@@ -1371,7 +1371,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn94239",
+        "@id": "_:bn94247",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -1382,7 +1382,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn94240",
+        "@id": "_:bn94248",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -1393,7 +1393,7 @@
     ],
     "organizer": [
       {
-        "@id": "_:bn94241",
+        "@id": "_:bn94249",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -1409,7 +1409,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn94242",
+        "@id": "_:bn94250",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24965",
@@ -1432,7 +1432,7 @@
         ]
       },
       {
-        "@id": "_:bn94243",
+        "@id": "_:bn94251",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25041",
@@ -1470,7 +1470,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94244",
+        "@id": "_:bn94252",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19071",
@@ -1479,7 +1479,7 @@
         }
       },
       {
-        "@id": "_:bn94245",
+        "@id": "_:bn94253",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19074",
@@ -1490,7 +1490,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn94246",
+        "@id": "_:bn94254",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -1501,7 +1501,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn94247",
+        "@id": "_:bn94255",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25520",
@@ -1512,7 +1512,7 @@
     ],
     "organizer": [
       {
-        "@id": "_:bn94248",
+        "@id": "_:bn94256",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -1528,7 +1528,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn94249",
+        "@id": "_:bn94257",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25041",
@@ -1543,7 +1543,7 @@
         ]
       },
       {
-        "@id": "_:bn94250",
+        "@id": "_:bn94258",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25339",
@@ -1558,7 +1558,7 @@
         ]
       },
       {
-        "@id": "_:bn94251",
+        "@id": "_:bn94259",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24965",
@@ -1596,7 +1596,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94252",
+        "@id": "_:bn94260",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19074",
@@ -1605,7 +1605,7 @@
         }
       },
       {
-        "@id": "_:bn94253",
+        "@id": "_:bn94261",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19071",
@@ -1616,7 +1616,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn94254",
+        "@id": "_:bn94262",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -1627,7 +1627,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn94255",
+        "@id": "_:bn94263",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -1638,7 +1638,7 @@
     ],
     "organizer": [
       {
-        "@id": "_:bn94256",
+        "@id": "_:bn94264",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -1654,7 +1654,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn94257",
+        "@id": "_:bn94265",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25454",
@@ -1692,7 +1692,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn94258",
+        "@id": "_:bn94266",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19071",
@@ -1701,7 +1701,7 @@
         }
       },
       {
-        "@id": "_:bn94259",
+        "@id": "_:bn94267",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19074",
@@ -1712,7 +1712,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn94260",
+        "@id": "_:bn94268",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24831",
@@ -1723,7 +1723,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn94261",
+        "@id": "_:bn94269",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -1734,7 +1734,7 @@
     ],
     "organizer": [
       {
-        "@id": "_:bn94262",
+        "@id": "_:bn94270",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25483",
@@ -1750,7 +1750,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn94263",
+        "@id": "_:bn94271",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24965",
@@ -1765,7 +1765,7 @@
         ]
       },
       {
-        "@id": "_:bn94264",
+        "@id": "_:bn94272",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25454",
