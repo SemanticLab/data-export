@@ -4,32 +4,32 @@
     "@id": "semlab:Q24229",
     "rdfs:label": "neon",
     "@type": [
-      "ArtMaterial",
-      "FieldOfWork(Class)"
+      "Material",
+      "FieldOfWork"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76838",
+        "@id": "_:bn79271",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23229",
-          "rdfs:label": "art material",
+          "rdfs:label": "material",
           "@type": "Class"
         }
       },
       {
-        "@id": "_:bn76839",
+        "@id": "_:bn79272",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27377",
-          "rdfs:label": "field of work (class)",
+          "rdfs:label": "field of work",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76840",
+        "@id": "_:bn79273",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -38,7 +38,7 @@
         }
       },
       {
-        "@id": "_:bn76841",
+        "@id": "_:bn79274",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -49,7 +49,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn76842",
+        "@id": "_:bn79275",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22687",
@@ -87,6 +87,11 @@
       {
         "@value": "http://id.loc.gov/authorities/subjects/sh85090790"
       }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24229.jpg"
+      }
     ]
   },
   {
@@ -94,32 +99,42 @@
     "@id": "semlab:Q24349",
     "rdfs:label": "electric light",
     "@type": [
-      "ArtMaterial",
-      "FieldOfWork(Class)"
+      "OpticalPhenomenon",
+      "FieldOfWork",
+      "ImagingDevice"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76843",
+        "@id": "_:bn79276",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q23229",
-          "rdfs:label": "art material",
+          "@id": "semlab:Q29612",
+          "rdfs:label": "optical phenomenon",
           "@type": "Class"
         }
       },
       {
-        "@id": "_:bn76844",
+        "@id": "_:bn79277",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27377",
-          "rdfs:label": "field of work (class)",
+          "rdfs:label": "field of work",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn79278",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29614",
+          "rdfs:label": "imaging device",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76845",
+        "@id": "_:bn79279",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -135,7 +150,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn76846",
+        "@id": "_:bn79280",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19651",
@@ -151,7 +166,7 @@
         ]
       },
       {
-        "@id": "_:bn76847",
+        "@id": "_:bn79281",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22339",
@@ -167,7 +182,7 @@
         ]
       },
       {
-        "@id": "_:bn76848",
+        "@id": "_:bn79282",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23778",
@@ -183,7 +198,7 @@
         ]
       },
       {
-        "@id": "_:bn76849",
+        "@id": "_:bn79283",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24219",
@@ -199,7 +214,7 @@
         ]
       },
       {
-        "@id": "_:bn76850",
+        "@id": "_:bn79284",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19601",
@@ -215,7 +230,7 @@
         ]
       },
       {
-        "@id": "_:bn76851",
+        "@id": "_:bn79285",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24412",
@@ -231,7 +246,7 @@
         ]
       },
       {
-        "@id": "_:bn76852",
+        "@id": "_:bn79286",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24411",
@@ -247,7 +262,7 @@
         ]
       },
       {
-        "@id": "_:bn76853",
+        "@id": "_:bn79287",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -263,7 +278,7 @@
         ]
       },
       {
-        "@id": "_:bn76854",
+        "@id": "_:bn79288",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19158",
@@ -277,6 +292,27 @@
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/29.txt"
           }
         ]
+      },
+      {
+        "@id": "_:bn79289",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19495",
+          "rdfs:label": "Open Score",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          }
+        ]
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24349.jpg"
       }
     ]
   },
@@ -285,32 +321,32 @@
     "@id": "semlab:Q24360",
     "rdfs:label": "circuit",
     "@type": [
-      "Technology",
-      "FieldOfWork(Class)"
+      "SignalProcessingComponent",
+      "FieldOfWork"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76855",
+        "@id": "_:bn79290",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19076",
-          "rdfs:label": "technology",
+          "@id": "semlab:Q29604",
+          "rdfs:label": "signal processing component",
           "@type": "Class"
         }
       },
       {
-        "@id": "_:bn76856",
+        "@id": "_:bn79291",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27377",
-          "rdfs:label": "field of work (class)",
+          "rdfs:label": "field of work",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76857",
+        "@id": "_:bn79292",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -319,7 +355,7 @@
         }
       },
       {
-        "@id": "_:bn76858",
+        "@id": "_:bn79293",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -330,7 +366,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn76859",
+        "@id": "_:bn79294",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22687",
@@ -351,7 +387,7 @@
         ]
       },
       {
-        "@id": "_:bn76860",
+        "@id": "_:bn79295",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24219",
@@ -367,7 +403,7 @@
         ]
       },
       {
-        "@id": "_:bn76861",
+        "@id": "_:bn79296",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24700",
@@ -381,6 +417,56 @@
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/31.txt"
           }
         ]
+      },
+      {
+        "@id": "_:bn79297",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19495",
+          "rdfs:label": "Open Score",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          }
+        ]
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24360.jpg"
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn79298",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22667",
+          "rdfs:label": "Feedback Device",
+          "@type": "UniquelyEngineeredDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q22432",
+            "rdfs:label": "A237 E.A.T. project description"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79299",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29511",
+          "rdfs:label": "polyethylene air-inflated structure",
+          "@type": "UniquelyEngineeredDevice"
+        },
+        "referenceUrl": [
+          "https://www.experimentsinartandtechnology.org/steve-paxton-physical-things"
+        ]
       }
     ]
   },
@@ -389,32 +475,32 @@
     "@id": "semlab:Q24367",
     "rdfs:label": "television",
     "@type": [
-      "Technology",
-      "FieldOfWork(Class)"
+      "FieldOfWork",
+      "ImagingDevice"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76862",
+        "@id": "_:bn79300",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19076",
-          "rdfs:label": "technology",
+          "@id": "semlab:Q27377",
+          "rdfs:label": "field of work",
           "@type": "Class"
         }
       },
       {
-        "@id": "_:bn76863",
+        "@id": "_:bn79301",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q27377",
-          "rdfs:label": "field of work (class)",
+          "@id": "semlab:Q29614",
+          "rdfs:label": "imaging device",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76864",
+        "@id": "_:bn79302",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -423,7 +509,7 @@
         }
       },
       {
-        "@id": "_:bn76865",
+        "@id": "_:bn79303",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -434,7 +520,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn76866",
+        "@id": "_:bn79304",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19382",
@@ -455,7 +541,7 @@
         ]
       },
       {
-        "@id": "_:bn76867",
+        "@id": "_:bn79305",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19651",
@@ -471,7 +557,7 @@
         ]
       },
       {
-        "@id": "_:bn76868",
+        "@id": "_:bn79306",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24219",
@@ -487,7 +573,7 @@
         ]
       },
       {
-        "@id": "_:bn76869",
+        "@id": "_:bn79307",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24570",
@@ -503,7 +589,7 @@
         ]
       },
       {
-        "@id": "_:bn76870",
+        "@id": "_:bn79308",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24704",
@@ -536,6 +622,11 @@
       {
         "@value": "http://id.loc.gov/authorities/subjects/sh85133456"
       }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24367.jpg"
+      }
     ]
   },
   {
@@ -543,32 +634,32 @@
     "@id": "semlab:Q24398",
     "rdfs:label": "laser",
     "@type": [
-      "Technology",
-      "FieldOfWork(Class)"
+      "OpticalPhenomenon",
+      "FieldOfWork"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76871",
+        "@id": "_:bn79309",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19076",
-          "rdfs:label": "technology",
+          "@id": "semlab:Q29612",
+          "rdfs:label": "optical phenomenon",
           "@type": "Class"
         }
       },
       {
-        "@id": "_:bn76872",
+        "@id": "_:bn79310",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27377",
-          "rdfs:label": "field of work (class)",
+          "rdfs:label": "field of work",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76873",
+        "@id": "_:bn79311",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -577,7 +668,7 @@
         }
       },
       {
-        "@id": "_:bn76874",
+        "@id": "_:bn79312",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -593,7 +684,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn76875",
+        "@id": "_:bn79313",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24412",
@@ -609,7 +700,7 @@
         ]
       },
       {
-        "@id": "_:bn76876",
+        "@id": "_:bn79314",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -625,7 +716,7 @@
         ]
       },
       {
-        "@id": "_:bn76877",
+        "@id": "_:bn79315",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24414",
@@ -653,6 +744,11 @@
       {
         "@value": "https://id.loc.gov/authorities/subjects/sh85074788.html"
       }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24398.jpg"
+      }
     ]
   },
   {
@@ -660,32 +756,42 @@
     "@id": "semlab:Q24399",
     "rdfs:label": "holography",
     "@type": [
-      "Technology",
-      "FieldOfWork(Class)"
+      "OpticalPhenomenon",
+      "FieldOfWork",
+      "Technique"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76878",
+        "@id": "_:bn79316",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19076",
-          "rdfs:label": "technology",
+          "@id": "semlab:Q29612",
+          "rdfs:label": "optical phenomenon",
           "@type": "Class"
         }
       },
       {
-        "@id": "_:bn76879",
+        "@id": "_:bn79317",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27377",
-          "rdfs:label": "field of work (class)",
+          "rdfs:label": "field of work",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn79318",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30045",
+          "rdfs:label": "technique",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76880",
+        "@id": "_:bn79319",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -694,7 +800,7 @@
         }
       },
       {
-        "@id": "_:bn76881",
+        "@id": "_:bn79320",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -720,6 +826,11 @@
       {
         "@value": "http://id.loc.gov/authorities/subjects/sh85061533"
       }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24399.jpg"
+      }
     ]
   },
   {
@@ -727,32 +838,32 @@
     "@id": "semlab:Q24402",
     "rdfs:label": "computer generated sound",
     "@type": [
-      "Technology",
-      "FieldOfWork(Class)"
+      "FieldOfWork",
+      "AuditoryPhenomenon"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76882",
+        "@id": "_:bn79321",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19076",
-          "rdfs:label": "technology",
+          "@id": "semlab:Q27377",
+          "rdfs:label": "field of work",
           "@type": "Class"
         }
       },
       {
-        "@id": "_:bn76883",
+        "@id": "_:bn79322",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q27377",
-          "rdfs:label": "field of work (class)",
+          "@id": "semlab:Q29611",
+          "rdfs:label": "auditory phenomenon",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76884",
+        "@id": "_:bn79323",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -761,13 +872,18 @@
         }
       },
       {
-        "@id": "_:bn76885",
+        "@id": "_:bn79324",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
           "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
           "@type": "SemanticLabProject"
         }
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24402.jpg"
       }
     ]
   },
@@ -776,32 +892,42 @@
     "@id": "semlab:Q24453",
     "rdfs:label": "VHS",
     "@type": [
-      "ArtMaterial",
-      "FieldOfWork(Class)"
+      "Material",
+      "FieldOfWork",
+      "VideoRecordings(Material)"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76886",
+        "@id": "_:bn79325",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23229",
-          "rdfs:label": "art material",
+          "rdfs:label": "material",
           "@type": "Class"
         }
       },
       {
-        "@id": "_:bn76887",
+        "@id": "_:bn79326",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27377",
-          "rdfs:label": "field of work (class)",
+          "rdfs:label": "field of work",
           "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn79327",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27024",
+          "rdfs:label": "video recordings (material)",
+          "@type": "FieldOfWork"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76888",
+        "@id": "_:bn79328",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -810,7 +936,7 @@
         }
       },
       {
-        "@id": "_:bn76889",
+        "@id": "_:bn79329",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -826,13 +952,18 @@
     ],
     "subclassOf": [
       {
-        "@id": "_:bn76890",
+        "@id": "_:bn79330",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26763",
           "rdfs:label": "film (material)",
-          "@type": "FieldOfWork(Class)"
+          "@type": "FieldOfWork"
         }
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24453.jpg"
       }
     ]
   },
@@ -842,11 +973,11 @@
     "rdfs:label": "sound",
     "@type": [
       "Class",
-      "FieldOfWork(Class)"
+      "FieldOfWork"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76891",
+        "@id": "_:bn79331",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19063",
@@ -855,18 +986,18 @@
         }
       },
       {
-        "@id": "_:bn76892",
+        "@id": "_:bn79332",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27377",
-          "rdfs:label": "field of work (class)",
+          "rdfs:label": "field of work",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76893",
+        "@id": "_:bn79333",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -875,7 +1006,7 @@
         }
       },
       {
-        "@id": "_:bn76894",
+        "@id": "_:bn79334",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -891,7 +1022,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn76895",
+        "@id": "_:bn79335",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19382",
@@ -907,7 +1038,7 @@
         ]
       },
       {
-        "@id": "_:bn76896",
+        "@id": "_:bn79336",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19520",
@@ -923,7 +1054,7 @@
         ]
       },
       {
-        "@id": "_:bn76897",
+        "@id": "_:bn79337",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19644",
@@ -939,7 +1070,7 @@
         ]
       },
       {
-        "@id": "_:bn76898",
+        "@id": "_:bn79338",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22693",
@@ -955,7 +1086,7 @@
         ]
       },
       {
-        "@id": "_:bn76899",
+        "@id": "_:bn79339",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23778",
@@ -971,7 +1102,7 @@
         ]
       },
       {
-        "@id": "_:bn76900",
+        "@id": "_:bn79340",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24219",
@@ -987,7 +1118,7 @@
         ]
       },
       {
-        "@id": "_:bn76901",
+        "@id": "_:bn79341",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24570",
@@ -1003,7 +1134,7 @@
         ]
       },
       {
-        "@id": "_:bn76902",
+        "@id": "_:bn79342",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19601",
@@ -1019,7 +1150,7 @@
         ]
       },
       {
-        "@id": "_:bn76903",
+        "@id": "_:bn79343",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24412",
@@ -1035,7 +1166,7 @@
         ]
       },
       {
-        "@id": "_:bn76904",
+        "@id": "_:bn79344",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -1056,12 +1187,12 @@
         ]
       },
       {
-        "@id": "_:bn76905",
+        "@id": "_:bn79345",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24684",
           "rdfs:label": "Island Eye Island Ear",
-          "@type": "Concert"
+          "@type": "SoundInstallationArtwork(Concept)"
         },
         "referenceBlock": [
           {
@@ -1072,7 +1203,7 @@
         ]
       },
       {
-        "@id": "_:bn76906",
+        "@id": "_:bn79346",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19158",
@@ -1088,7 +1219,7 @@
         ]
       },
       {
-        "@id": "_:bn76907",
+        "@id": "_:bn79347",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24700",
@@ -1103,39 +1234,44 @@
           }
         ]
       }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24548.jpg"
+      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q24564",
-    "rdfs:label": "transducers",
+    "rdfs:label": "transducer",
     "@type": [
-      "Technology",
-      "FieldOfWork(Class)"
+      "SignalProcessingComponent",
+      "FieldOfWork"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76908",
+        "@id": "_:bn79348",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19076",
-          "rdfs:label": "technology",
+          "@id": "semlab:Q29604",
+          "rdfs:label": "signal processing component",
           "@type": "Class"
         }
       },
       {
-        "@id": "_:bn76909",
+        "@id": "_:bn79349",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27377",
-          "rdfs:label": "field of work (class)",
+          "rdfs:label": "field of work",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76910",
+        "@id": "_:bn79350",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1144,7 +1280,7 @@
         }
       },
       {
-        "@id": "_:bn76911",
+        "@id": "_:bn79351",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -1155,7 +1291,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn76912",
+        "@id": "_:bn79352",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24219",
@@ -1188,6 +1324,11 @@
       {
         "@value": "http://id.loc.gov/authorities/subjects/sh85136892"
       }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24564.jpg"
+      }
     ]
   },
   {
@@ -1195,21 +1336,21 @@
     "@id": "semlab:Q27420",
     "rdfs:label": "audio-visual recording",
     "@type": [
-      "FieldOfWork(Class)",
+      "FieldOfWork",
       "Class"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76913",
+        "@id": "_:bn79353",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27377",
-          "rdfs:label": "field of work (class)",
+          "rdfs:label": "field of work",
           "@type": "Class"
         }
       },
       {
-        "@id": "_:bn76914",
+        "@id": "_:bn79354",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19063",
@@ -1220,7 +1361,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76915",
+        "@id": "_:bn79355",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1229,7 +1370,7 @@
         }
       },
       {
-        "@id": "_:bn76916",
+        "@id": "_:bn79356",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -1240,7 +1381,7 @@
     ],
     "createdFor": [
       {
-        "@id": "_:bn76917",
+        "@id": "_:bn79357",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -1251,7 +1392,7 @@
     ],
     "differentFrom": [
       {
-        "@id": "_:bn76918",
+        "@id": "_:bn79358",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28955",
@@ -1262,7 +1403,7 @@
     ],
     "subclassOf": [
       {
-        "@id": "_:bn76919",
+        "@id": "_:bn79359",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28932",
@@ -1271,23 +1412,292 @@
         }
       },
       {
-        "@id": "_:bn76920",
+        "@id": "_:bn79360",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19069",
           "rdfs:label": "document",
           "@type": "Class"
         }
+      },
+      {
+        "@id": "_:bn79361",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29606",
+          "rdfs:label": "audio device",
+          "@type": "Class"
+        }
       }
     ],
     "format": [
       {
-        "@id": "_:bn76921",
+        "@id": "_:bn79362",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26763",
           "rdfs:label": "film (material)",
-          "@type": "FieldOfWork(Class)"
+          "@type": "FieldOfWork"
+        }
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q27420.jpg"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29706",
+    "rdfs:label": "computer animation",
+    "wikidataQid": [
+      {
+        "@value": "Q1401416"
+      }
+    ],
+    "@type": [
+      "FieldOfWork"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79363",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27377",
+          "rdfs:label": "field of work",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79364",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29707",
+    "rdfs:label": "computer music",
+    "wikidataQid": [
+      {
+        "@value": "Q1122550"
+      }
+    ],
+    "@type": [
+      "FieldOfWork"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79365",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27377",
+          "rdfs:label": "field of work",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79366",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29708",
+    "rdfs:label": "computer graphics",
+    "wikidataQid": [
+      {
+        "@value": "Q150971"
+      }
+    ],
+    "@type": [
+      "FieldOfWork"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79367",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27377",
+          "rdfs:label": "field of work",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79368",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29716",
+    "rdfs:label": "psychoanalysis",
+    "wikidataQid": [
+      {
+        "@value": "Q41630"
+      }
+    ],
+    "@type": [
+      "FieldOfWork",
+      "Theory"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79369",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27377",
+          "rdfs:label": "field of work",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn79370",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30046",
+          "rdfs:label": "theory",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79371",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29725",
+    "rdfs:label": "electron microscopy",
+    "wikidataQid": [
+      {
+        "@value": "Q68535882"
+      }
+    ],
+    "@type": [
+      "FieldOfWork"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79372",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27377",
+          "rdfs:label": "field of work",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79373",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29752",
+    "rdfs:label": "anthropology",
+    "wikidataQid": [
+      {
+        "@value": "Q23404"
+      }
+    ],
+    "@type": [
+      "FieldOfWork"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79374",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27377",
+          "rdfs:label": "field of work",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79375",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29753",
+    "rdfs:label": "computer science",
+    "wikidataQid": [
+      {
+        "@value": "Q21198"
+      }
+    ],
+    "@type": [
+      "FieldOfWork"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79376",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27377",
+          "rdfs:label": "field of work",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79377",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
         }
       }
     ]

@@ -4,22 +4,32 @@
     "@id": "semlab:Q22679",
     "rdfs:label": "sound-wired tennis racket",
     "@type": [
-      "Artwork(Object)"
+      "Artwork(Object)",
+      "UniquelyEngineeredDevice"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76949",
+        "@id": "_:bn79405",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28932",
           "rdfs:label": "artwork (object)",
           "@type": "Class"
         }
+      },
+      {
+        "@id": "_:bn79406",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29605",
+          "rdfs:label": "uniquely engineered device",
+          "@type": "Class"
+        }
       }
     ],
     "creator": [
       {
-        "@id": "_:bn76950",
+        "@id": "_:bn79407",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -49,7 +59,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76951",
+        "@id": "_:bn79408",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -60,7 +70,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn76952",
+        "@id": "_:bn79409",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19179",
@@ -73,22 +83,16 @@
             "rdfs:label": "engineer"
           }
         ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q23418",
-            "rdfs:label": "semlab:Q23418"
-          }
-        ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q23990",
-            "rdfs:label": "Block 0 of A232 E.A.T. project description",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22896/0.txt"
+            "@id": "semlab:Q19781",
+            "rdfs:label": "E.A.T. Nine Evenings Program Block 17",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/e729fd60af13c9b5f2941348ac297707/17.txt"
           }
         ]
       },
       {
-        "@id": "_:bn76953",
+        "@id": "_:bn79410",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19348",
@@ -108,19 +112,13 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn76954",
+        "@id": "_:bn79411",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19495",
           "rdfs:label": "Open Score",
           "@type": "PerformanceArtwork(Concept)"
         },
-        "statedIn": [
-          {
-            "@id": "semlab:Q23418",
-            "rdfs:label": "semlab:Q23418"
-          }
-        ],
         "referenceBlock": [
           {
             "@id": "semlab:Q23990",
@@ -141,13 +139,33 @@
             "@id": "semlab:Q24014",
             "rdfs:label": "Block 0 of A213 9 Evenings Rauschenberg note",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22955/0.txt"
+          },
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          },
+          {
+            "@id": "semlab:Q24013",
+            "rdfs:label": "Block 1 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/1.txt"
+          },
+          {
+            "@id": "semlab:Q23615",
+            "rdfs:label": "Block 1 of A66 Open Score notes",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22716/1.txt"
+          },
+          {
+            "@id": "semlab:Q23616",
+            "rdfs:label": "Block 2 of A66 Open Score notes",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22716/2.txt"
           }
         ]
       }
     ],
     "shownAt": [
       {
-        "@id": "_:bn76955",
+        "@id": "_:bn79412",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25528",
@@ -176,15 +194,83 @@
         "@value": "https://www.fondation-langlois.org/html/e/media.php?NumObjet=38950"
       }
     ],
-    "uses": [
+    "thumbnail": [
       {
-        "@id": "_:bn76956",
+        "@value": "https://semlab.s3.amazonaws.com/images/Q22679.jpg"
+      }
+    ],
+    "hasParts": [
+      {
+        "@id": "_:bn79413",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19076",
-          "rdfs:label": "technology",
-          "@type": "Class"
-        }
+          "@id": "semlab:Q29526",
+          "rdfs:label": "FM transmitter",
+          "@type": "CommunicationDevice"
+        },
+        "objectNamedAs": [
+          "crystal-controlled fm transmitter"
+        ],
+        "modifiedBy": [
+          {
+            "@id": "semlab:Q19179",
+            "rdfs:label": "Bill Kaminski"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23990",
+            "rdfs:label": "Block 0 of A232 E.A.T. project description",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22896/0.txt"
+          },
+          {
+            "@id": "semlab:Q24653",
+            "rdfs:label": "Block 19 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/19.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79414",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24559",
+          "rdfs:label": "antenna",
+          "@type": "CommunicationDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23990",
+            "rdfs:label": "Block 0 of A232 E.A.T. project description",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22896/0.txt"
+          },
+          {
+            "@id": "semlab:Q24653",
+            "rdfs:label": "Block 19 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/19.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79415",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24375",
+          "rdfs:label": "contact microphone",
+          "@type": "AudioDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23990",
+            "rdfs:label": "Block 0 of A232 E.A.T. project description",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22896/0.txt"
+          },
+          {
+            "@id": "semlab:Q24653",
+            "rdfs:label": "Block 19 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/19.txt"
+          }
+        ]
       }
     ]
   },
@@ -197,7 +283,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76957",
+        "@id": "_:bn79416",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28932",
@@ -215,7 +301,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76958",
+        "@id": "_:bn79417",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -226,7 +312,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn76959",
+        "@id": "_:bn79418",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -244,12 +330,12 @@
     ],
     "uses": [
       {
-        "@id": "_:bn76960",
+        "@id": "_:bn79419",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24398",
           "rdfs:label": "laser",
-          "@type": "FieldOfWork(Class)"
+          "@type": "OpticalPhenomenon"
         },
         "referenceBlock": [
           {
@@ -260,12 +346,12 @@
         ]
       },
       {
-        "@id": "_:bn76961",
+        "@id": "_:bn79420",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24356",
           "rdfs:label": "mirror",
-          "@type": "ArtMaterial"
+          "@type": "Material"
         },
         "referenceBlock": [
           {
@@ -281,12 +367,12 @@
         ]
       },
       {
-        "@id": "_:bn76962",
+        "@id": "_:bn79421",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23779",
           "rdfs:label": "sound system",
-          "@type": "Technology"
+          "@type": "AudioDevice"
         },
         "referenceBlock": [
           {
@@ -297,12 +383,12 @@
         ]
       },
       {
-        "@id": "_:bn76963",
+        "@id": "_:bn79422",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24363",
-          "rdfs:label": "speakers",
-          "@type": "Technology"
+          "rdfs:label": "speaker",
+          "@type": "AudioDevice"
         },
         "referenceBlock": [
           {
@@ -313,12 +399,12 @@
         ]
       },
       {
-        "@id": "_:bn76964",
+        "@id": "_:bn79423",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24349",
           "rdfs:label": "electric light",
-          "@type": "FieldOfWork(Class)"
+          "@type": "ImagingDevice"
         },
         "referenceBlock": [
           {
@@ -331,7 +417,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn76965",
+        "@id": "_:bn79424",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19233",
@@ -347,7 +433,7 @@
         ]
       },
       {
-        "@id": "_:bn76966",
+        "@id": "_:bn79425",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24410",
@@ -365,7 +451,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn76967",
+        "@id": "_:bn79426",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -396,7 +482,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76968",
+        "@id": "_:bn79427",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28932",
@@ -407,7 +493,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76969",
+        "@id": "_:bn79428",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -418,7 +504,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn76970",
+        "@id": "_:bn79429",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19150",
@@ -441,7 +527,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn76971",
+        "@id": "_:bn79430",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25528",
@@ -452,7 +538,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn76972",
+        "@id": "_:bn79431",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19428",
@@ -463,12 +549,12 @@
     ],
     "uses": [
       {
-        "@id": "_:bn76973",
+        "@id": "_:bn79432",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24568",
           "rdfs:label": "Lucite",
-          "@type": "Brand"
+          "@type": "PlasticAndFoam"
         },
         "referenceBlock": [
           {
@@ -484,11 +570,11 @@
         ]
       },
       {
-        "@id": "_:bn76974",
+        "@id": "_:bn79433",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28956",
-          "rdfs:label": "shoes",
+          "rdfs:label": "shoe",
           "@type": "Object"
         },
         "referenceBlock": [
@@ -503,6 +589,41 @@
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q25641/4.txt"
           }
         ]
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q25730.jpg"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30113",
+    "rdfs:label": "Ninety Parallel Sinusoids With Linearly Increasing Period",
+    "@type": [
+      "Artwork(Object)"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79434",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28932",
+          "rdfs:label": "artwork (object)",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79435",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
       }
     ]
   }

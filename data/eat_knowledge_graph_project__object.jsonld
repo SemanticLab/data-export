@@ -2,13 +2,13 @@
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q28956",
-    "rdfs:label": "shoes",
+    "rdfs:label": "shoe",
     "@type": [
       "Object"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76819",
+        "@id": "_:bn79251",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27168",
@@ -24,7 +24,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn76820",
+        "@id": "_:bn79252",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25730",
@@ -47,7 +47,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76821",
+        "@id": "_:bn79253",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -66,7 +66,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn76822",
+        "@id": "_:bn79254",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27168",
@@ -77,13 +77,36 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn76823",
+        "@id": "_:bn79255",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
           "rdfs:label": "E.A.T. Knowledge Graph Project",
           "@type": "SemanticLabProject"
         }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn79256",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19495",
+          "rdfs:label": "Open Score",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24013",
+            "rdfs:label": "Block 1 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/1.txt"
+          },
+          {
+            "@id": "semlab:Q23615",
+            "rdfs:label": "Block 1 of A66 Open Score notes",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22716/1.txt"
+          }
+        ]
       }
     ]
   }

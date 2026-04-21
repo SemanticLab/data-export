@@ -1,0 +1,82 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24453",
+    "rdfs:label": "VHS",
+    "@type": [
+      "Material",
+      "FieldOfWork",
+      "VideoRecordings(Material)"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn99650",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23229",
+          "rdfs:label": "material",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn99651",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27377",
+          "rdfs:label": "field of work",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn99652",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27024",
+          "rdfs:label": "video recordings (material)",
+          "@type": "FieldOfWork"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn99653",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn99654",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q183976"
+      }
+    ],
+    "subclassOf": [
+      {
+        "@id": "_:bn99655",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26763",
+          "rdfs:label": "film (material)",
+          "@type": "FieldOfWork"
+        }
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24453.jpg"
+      }
+    ]
+  }
+]

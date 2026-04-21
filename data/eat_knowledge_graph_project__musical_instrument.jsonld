@@ -1,71 +1,35 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q20630",
-    "rdfs:label": "piano",
+    "@id": "semlab:Q19614",
+    "rdfs:label": "TEEM",
     "@type": [
-      "MusicalInstrument",
-      "ArtMaterial"
+      "UniquelyEngineeredDevice",
+      "MusicalInstrument"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74813",
+        "@id": "_:bn77201",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29605",
+          "rdfs:label": "uniquely engineered device",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn77202",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
           "rdfs:label": "musical instrument",
           "@type": "Class"
         }
-      },
-      {
-        "@id": "_:bn74814",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q23229",
-          "rdfs:label": "art material",
-          "@type": "Class"
-        }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74815",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20613",
-          "rdfs:label": "Women of Jazz",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn74816",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20655",
-          "rdfs:label": "The International Sweethearts of Rhythm Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn74817",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn74818",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20719",
-          "rdfs:label": "Local 496",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn74819",
+        "@id": "_:bn77203",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -76,7 +40,507 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn74820",
+        "@id": "_:bn77204",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21364",
+          "rdfs:label": "Open Score (9 Evenings performance on October 14, 1966)",
+          "@type": "Performance"
+        }
+      },
+      {
+        "@id": "_:bn77205",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24235",
+          "rdfs:label": "Bandoneon! (9 Evenings performance on October 14, 1966)",
+          "@type": "Performance"
+        }
+      },
+      {
+        "@id": "_:bn77206",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24236",
+          "rdfs:label": "Carriage Discreteness (9 Evenings performance on October 15, 1966)",
+          "@type": "Performance"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q19773",
+            "rdfs:label": "E.A.T. Nine Evenings Program Block 12",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/e729fd60af13c9b5f2941348ac297707/12.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77207",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24238",
+          "rdfs:label": "Solo (9 Evenings performance on October 13, 1966)",
+          "@type": "Performance"
+        }
+      },
+      {
+        "@id": "_:bn77208",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24239",
+          "rdfs:label": "Grass Field (9 Evenings performance on October 13, 1966)",
+          "@type": "Performance"
+        }
+      },
+      {
+        "@id": "_:bn77209",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24240",
+          "rdfs:label": "Two Holes of Water (9 Evenings performance on October 18, 1966)",
+          "@type": "Performance"
+        }
+      },
+      {
+        "@id": "_:bn77210",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24241",
+          "rdfs:label": "Kisses Sweeter than Wine (9 Evenings performance on October 21, 1966)",
+          "@type": "Performance"
+        }
+      },
+      {
+        "@id": "_:bn77211",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24338",
+          "rdfs:label": "Variations VII (9 Evenings performance on October 15, 1966)",
+          "@type": "Performance"
+        }
+      },
+      {
+        "@id": "_:bn77212",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24631",
+          "rdfs:label": "Physical Things (9 Evenings performance on October 13, 1966)",
+          "@type": "Performance"
+        }
+      },
+      {
+        "@id": "_:bn77213",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24632",
+          "rdfs:label": "Vehicle (9 Evenings performance on October 16, 1966)",
+          "@type": "Performance"
+        }
+      },
+      {
+        "@id": "_:bn77214",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29199",
+          "rdfs:label": "Open Score (9 Evenings performance on October 23, 1966)",
+          "@type": "Performance"
+        }
+      }
+    ],
+    "describedOrDepictedAtUrl": [
+      {
+        "@value": "https://www.fondation-langlois.org/9evenings/e/theme/teem.html"
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn77215",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19180",
+          "rdfs:label": "Billy Kl\u00fcver",
+          "@type": "Person"
+        },
+        "referenceUrl": [
+          "https://www.fondation-langlois.org/9evenings/e/theme/teem.html"
+        ]
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn77216",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q19762",
+            "rdfs:label": "E.A.T. Nine Evenings Program Block 0",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/e729fd60af13c9b5f2941348ac297707/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77217",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19418",
+          "rdfs:label": "Lucinda Childs",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q19762",
+            "rdfs:label": "E.A.T. Nine Evenings Program Block 0",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/e729fd60af13c9b5f2941348ac297707/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77218",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19312",
+          "rdfs:label": "Herb Schneider",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q19762",
+            "rdfs:label": "E.A.T. Nine Evenings Program Block 0",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/e729fd60af13c9b5f2941348ac297707/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77219",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19180",
+          "rdfs:label": "Billy Kl\u00fcver",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q19762",
+            "rdfs:label": "E.A.T. Nine Evenings Program Block 0",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/e729fd60af13c9b5f2941348ac297707/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77220",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19508",
+          "rdfs:label": "Per Biorn",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q19762",
+            "rdfs:label": "E.A.T. Nine Evenings Program Block 0",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/e729fd60af13c9b5f2941348ac297707/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77221",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19548",
+          "rdfs:label": "L.J. Robinson",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q19762",
+            "rdfs:label": "E.A.T. Nine Evenings Program Block 0",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/e729fd60af13c9b5f2941348ac297707/0.txt"
+          }
+        ]
+      }
+    ],
+    "hasParts": [
+      {
+        "@id": "_:bn77222",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29568",
+          "rdfs:label": "silicon-controlled rectifier circuitry",
+          "@type": "SignalProcessingComponent"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23881",
+            "rdfs:label": "Block 0 of A206 9 Evenings theme components",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22959/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77223",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22384",
+          "rdfs:label": "Proportional Control System",
+          "@type": "UniquelyEngineeredDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23881",
+            "rdfs:label": "Block 0 of A206 9 Evenings theme components",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22959/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77224",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24372",
+          "rdfs:label": "amplifier",
+          "@type": "AudioDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23881",
+            "rdfs:label": "Block 0 of A206 9 Evenings theme components",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22959/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77225",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23510",
+          "rdfs:label": "speaker",
+          "@type": "Role"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23881",
+            "rdfs:label": "Block 0 of A206 9 Evenings theme components",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22959/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77226",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29526",
+          "rdfs:label": "FM transmitter",
+          "@type": "CommunicationDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23881",
+            "rdfs:label": "Block 0 of A206 9 Evenings theme components",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22959/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77227",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29564",
+          "rdfs:label": "encoder",
+          "@type": "SignalProcessingComponent"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23881",
+            "rdfs:label": "Block 0 of A206 9 Evenings theme components",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22959/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77228",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29565",
+          "rdfs:label": "decoder",
+          "@type": "SignalProcessingComponent"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23881",
+            "rdfs:label": "Block 0 of A206 9 Evenings theme components",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22959/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77229",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29567",
+          "rdfs:label": "FM receiver",
+          "@type": "SignalProcessingComponent"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23881",
+            "rdfs:label": "Block 0 of A206 9 Evenings theme components",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22959/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77230",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29570",
+          "rdfs:label": "tonal control circuit",
+          "@type": "SignalProcessingComponent"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23881",
+            "rdfs:label": "Block 0 of A206 9 Evenings theme components",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22959/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77231",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29566",
+          "rdfs:label": "power relay",
+          "@type": "SignalProcessingComponent"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23881",
+            "rdfs:label": "Block 0 of A206 9 Evenings theme components",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22959/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77232",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29571",
+          "rdfs:label": "drum switch",
+          "@type": "SignalProcessingComponent"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23881",
+            "rdfs:label": "Block 0 of A206 9 Evenings theme components",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22959/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn77233",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29572",
+          "rdfs:label": "preamplifier",
+          "@type": "SignalProcessingComponent"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q23881",
+            "rdfs:label": "Block 0 of A206 9 Evenings theme components",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22959/0.txt"
+          }
+        ]
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q19614.jpg"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q20630",
+    "rdfs:label": "piano",
+    "@type": [
+      "MusicalInstrument",
+      "TheatricalProp"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn77234",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20619",
+          "rdfs:label": "musical instrument",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn77235",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29600",
+          "rdfs:label": "theatrical prop",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn77236",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20613",
+          "rdfs:label": "Women of Jazz",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn77237",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20655",
+          "rdfs:label": "The International Sweethearts of Rhythm Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn77238",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn77239",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20719",
+          "rdfs:label": "Local 496",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn77240",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn77241",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19315",
@@ -96,6 +560,11 @@
       {
         "@value": "Q5994"
       }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q20630.jpg"
+      }
     ]
   },
   {
@@ -107,7 +576,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn74821",
+        "@id": "_:bn77242",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20619",
@@ -118,7 +587,7 @@
     ],
     "createdFor": [
       {
-        "@id": "_:bn74822",
+        "@id": "_:bn77243",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -129,7 +598,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn74823",
+        "@id": "_:bn77244",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -140,7 +609,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn74824",
+        "@id": "_:bn77245",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24219",
@@ -152,6 +621,11 @@
     "wikidataQid": [
       {
         "@value": "Q215032"
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q28942.jpg"
       }
     ]
   }

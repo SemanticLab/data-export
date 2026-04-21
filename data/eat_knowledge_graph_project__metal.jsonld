@@ -1,0 +1,60 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24561",
+    "rdfs:label": "paperclip",
+    "@type": [
+      "Metal"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn78788",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24231",
+          "rdfs:label": "metal",
+          "@type": "Material"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn78789",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn78790",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19593",
+          "rdfs:label": "Silver Clouds",
+          "@type": "Sculpture"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24649",
+            "rdfs:label": "Block 15 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/15.txt"
+          }
+        ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q8353"
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24561.jpg"
+      }
+    ]
+  }
+]
