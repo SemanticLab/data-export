@@ -1,0 +1,54 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27647",
+    "rdfs:label": "Berkeley St. Church",
+    "@type": [
+      "Church"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102978",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29619",
+          "rdfs:label": "church",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102979",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "coordinateLocation": [
+      {
+        "@value": {
+          "latitude": 42.345622,
+          "longitude": -71.070705,
+          "altitude": null,
+          "precision": 1e-06,
+          "globe": "http://www.wikidata.org/entity/Q2"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn102980",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21518",
+          "rdfs:label": "Boston (Mass.)",
+          "@type": "City"
+        }
+      }
+    ]
+  }
+]
