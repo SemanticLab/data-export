@@ -335,7 +335,7 @@ for project_qid in projects:
 	#exclude_instance_ofs
 
 	project_label = projects_labels[project_qid]
-	project_filename_base = project_label.lower().replace(" ","_").replace('.','').replace('+','').replace(' ','-') + "__"
+	project_filename_base = project_label.lower().replace(" ","_").replace('.','').replace('+','').replace(' ','-').replace('/','').replace(':','').replace('(','').replace(')','') + "__"
 
 
 	markdown = markdown + f"""
