@@ -1,0 +1,68 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29623",
+    "rdfs:label": "Giardini della Biennale",
+    "@type": [
+      "Garden",
+      "Park",
+      "Venue"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102309",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29622",
+          "rdfs:label": "garden",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn102310",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23077",
+          "rdfs:label": "park",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn102311",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19072",
+          "rdfs:label": "venue",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102312",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q724170"
+      }
+    ],
+    "coordinateLocation": [
+      {
+        "@value": {
+          "latitude": 45.42901694444444,
+          "longitude": 12.357933888888889,
+          "altitude": null,
+          "precision": 2.7777777777777776e-07,
+          "globe": "http://www.wikidata.org/entity/Q2"
+        }
+      }
+    ]
+  }
+]
