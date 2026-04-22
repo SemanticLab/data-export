@@ -14,7 +14,7 @@ lookup = lookup_abbr
 
 exclude_instance_ofs = ['Q20664','Q22531','Q23571','Q23572','Q2013','Q19063', 'Q21151','Q26025']
 
-projects = ['Q21217','Q18807','Q20655','Q20613','Q20719','Q19104','Q20517','Q24831', 'Q28603', 'Q28901', 'Q27355', 'Q28603', 'Q28959']
+projects = list(dict.fromkeys(['Q21217','Q18807','Q20655','Q20613','Q20719','Q19104','Q20517','Q24831', 'Q28603', 'Q28901', 'Q27355', 'Q28959']))
 
 
 	# 'Q21217': 'Linked Jazz Project',
@@ -28,7 +28,6 @@ projects = ['Q21217','Q18807','Q20655','Q20613','Q20719','Q19104','Q20517','Q248
  	# 'Q28603' : 'E.A.T. Technical Services Program Edge-Notched Cards'
 	# 'Q28901' : Roma / New York: 1948-1964 (Germano Celant) Pilot
 	# 'Q27355' : Mary Berenson Diaries Project 
-	# 'Q28603' : 'E.A.T. Technical Services Program Edge-Notched Cards'
 	# 'Q28959' : Berenson Bibliography Project
 
 blockToUrl = {}
@@ -346,7 +345,7 @@ for project_qid in projects:
 
 
 	
-	toc_markdown = toc_markdown + f"- [{project_label}](#{project_label.lower().replace('.','').replace('+','').replace(' ','-')})\n"
+	toc_markdown = toc_markdown + f"- [{project_label}](#{project_label.lower().replace('.','').replace('+','').replace(' ','-').replace('/','').replace(':','').replace('(','').replace(')','') })\n"
 
 
 
