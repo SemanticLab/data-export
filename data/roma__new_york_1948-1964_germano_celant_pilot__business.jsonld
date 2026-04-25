@@ -1,6 +1,99 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q19590",
+    "rdfs:label": "Sidney Janis Gallery",
+    "@type": [
+      "Business",
+      "ArtGallery"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102478",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19085",
+          "rdfs:label": "business",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn102479",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24537",
+          "rdfs:label": "art gallery",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102480",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn102481",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q56555805"
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn102482",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24642",
+            "rdfs:label": "Block 8 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/8.txt"
+          }
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30294",
+            "rdfs:label": "1948 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "51"
+        ]
+      }
+    ],
+    "startTime": [
+      {
+        "@value": {
+          "time": "+1948-09-21T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q30539",
     "rdfs:label": "Charles Egan Gallery",
     "@type": [
@@ -9,7 +102,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102400",
+        "@id": "_:bn102483",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24537",
@@ -18,7 +111,7 @@
         }
       },
       {
-        "@id": "_:bn102401",
+        "@id": "_:bn102484",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19085",
@@ -29,7 +122,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102402",
+        "@id": "_:bn102485",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -40,7 +133,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn102403",
+        "@id": "_:bn102486",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -60,7 +153,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102404",
+        "@id": "_:bn102487",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24537",
@@ -69,7 +162,7 @@
         }
       },
       {
-        "@id": "_:bn102405",
+        "@id": "_:bn102488",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19085",
@@ -80,7 +173,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102406",
+        "@id": "_:bn102489",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -91,7 +184,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn102407",
+        "@id": "_:bn102490",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28971",
@@ -117,7 +210,7 @@
     ],
     "foundedBy": [
       {
-        "@id": "_:bn102408",
+        "@id": "_:bn102491",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30280",
@@ -144,7 +237,7 @@
         ]
       },
       {
-        "@id": "_:bn102409",
+        "@id": "_:bn102492",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30281",
@@ -182,7 +275,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102410",
+        "@id": "_:bn102493",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24537",
@@ -191,7 +284,7 @@
         }
       },
       {
-        "@id": "_:bn102411",
+        "@id": "_:bn102494",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19085",
@@ -202,7 +295,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102412",
+        "@id": "_:bn102495",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -213,7 +306,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn102413",
+        "@id": "_:bn102496",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28971",
@@ -233,7 +326,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102414",
+        "@id": "_:bn102497",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24537",
@@ -242,7 +335,7 @@
         }
       },
       {
-        "@id": "_:bn102415",
+        "@id": "_:bn102498",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19085",
@@ -253,7 +346,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102416",
+        "@id": "_:bn102499",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -264,7 +357,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn102417",
+        "@id": "_:bn102500",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -289,7 +382,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102418",
+        "@id": "_:bn102501",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24537",
@@ -298,7 +391,7 @@
         }
       },
       {
-        "@id": "_:bn102419",
+        "@id": "_:bn102502",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19085",
@@ -309,7 +402,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102420",
+        "@id": "_:bn102503",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -320,7 +413,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn102421",
+        "@id": "_:bn102504",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -331,105 +424,12 @@
     ],
     "foundedBy": [
       {
-        "@id": "_:bn102422",
+        "@id": "_:bn102505",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30399",
           "rdfs:label": "Catherine Viviano",
           "@type": "Person"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q19590",
-    "rdfs:label": "Sidney Janis Gallery",
-    "@type": [
-      "Business",
-      "ArtGallery"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102423",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19085",
-          "rdfs:label": "business",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn102424",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24537",
-          "rdfs:label": "art gallery",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102425",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn102426",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q56555805"
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn102427",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19486",
-          "rdfs:label": "New York (N.Y.)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24642",
-            "rdfs:label": "Block 8 of The Story of E.A.T. (pp.1-30)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/8.txt"
-          }
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30294",
-            "rdfs:label": "1948 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "51"
-        ]
-      }
-    ],
-    "startTime": [
-      {
-        "@value": {
-          "time": "+1948-09-21T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 11,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
         }
       }
     ]
