@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2026-04-28
+Generated: 2026-04-29
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -305,12 +305,12 @@ Generated: 2026-04-28
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat_technical_services_program_edge-notched_cards__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__all.jsonld) | 467  |
-| Person    | [eat_technical_services_program_edge-notched_cards__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__person.jsonld) | 224  |
+| All    | [eat_technical_services_program_edge-notched_cards__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__all.jsonld) | 495  |
+| Person    | [eat_technical_services_program_edge-notched_cards__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__person.jsonld) | 240  |
 | Institution    | [eat_technical_services_program_edge-notched_cards__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__institution.jsonld) | 14  |
 | Organization    | [eat_technical_services_program_edge-notched_cards__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__organization.jsonld) | 11  |
 | Occupation    | [eat_technical_services_program_edge-notched_cards__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__occupation.jsonld) | 2  |
-| Business    | [eat_technical_services_program_edge-notched_cards__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__business.jsonld) | 28  |
+| Business    | [eat_technical_services_program_edge-notched_cards__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__business.jsonld) | 33  |
 | School    | [eat_technical_services_program_edge-notched_cards__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__school.jsonld) | 1  |
 | Publisher    | [eat_technical_services_program_edge-notched_cards__publisher.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__publisher.jsonld) | 1  |
 | Nonprofit Organization    | [eat_technical_services_program_edge-notched_cards__nonprofit_organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__nonprofit_organization.jsonld) | 1  |
@@ -318,7 +318,7 @@ Generated: 2026-04-28
 | Unrealized Project    | [eat_technical_services_program_edge-notched_cards__unrealized_project.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__unrealized_project.jsonld) | 1  |
 | Video Recordings (Material)    | [eat_technical_services_program_edge-notched_cards__video_recordings_(material).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__video_recordings_(material).jsonld) | 1  |
 | Field Of Work    | [eat_technical_services_program_edge-notched_cards__field_of_work.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__field_of_work.jsonld) | 68  |
-| Edge-Notched Card    | [eat_technical_services_program_edge-notched_cards__edge-notched_card.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__edge-notched_card.jsonld) | 104  |
+| Edge-Notched Card    | [eat_technical_services_program_edge-notched_cards__edge-notched_card.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__edge-notched_card.jsonld) | 111  |
 | Role    | [eat_technical_services_program_edge-notched_cards__role.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__role.jsonld) | 1  |
 | Signal Processing Component    | [eat_technical_services_program_edge-notched_cards__signal_processing_component.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__signal_processing_component.jsonld) | 2  |
 | Auditory Phenomenon    | [eat_technical_services_program_edge-notched_cards__auditory_phenomenon.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__auditory_phenomenon.jsonld) | 1  |
@@ -373,12 +373,12 @@ Generated: 2026-04-28
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [berenson_bibliography_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__all.jsonld) | 342  |
-| Person    | [berenson_bibliography_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__person.jsonld) | 103  |
+| All    | [berenson_bibliography_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__all.jsonld) | 346  |
+| Person    | [berenson_bibliography_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__person.jsonld) | 105  |
 | Group    | [berenson_bibliography_project__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__group.jsonld) | 2  |
 | Organization    | [berenson_bibliography_project__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__organization.jsonld) | 1  |
 | Place    | [berenson_bibliography_project__place.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__place.jsonld) | 5  |
-| City    | [berenson_bibliography_project__city.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__city.jsonld) | 9  |
+| City    | [berenson_bibliography_project__city.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__city.jsonld) | 10  |
 | Artwork (Concept)    | [berenson_bibliography_project__artwork_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__artwork_(concept).jsonld) | 5  |
 | Publication    | [berenson_bibliography_project__publication.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__publication.jsonld) | 21  |
 | Family    | [berenson_bibliography_project__family.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__family.jsonld) | 3  |
@@ -387,7 +387,7 @@ Generated: 2026-04-28
 | Article    | [berenson_bibliography_project__article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__article.jsonld) | 50  |
 | Book    | [berenson_bibliography_project__book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__book.jsonld) | 47  |
 | Drawing    | [berenson_bibliography_project__drawing.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__drawing.jsonld) | 1  |
-| Painting    | [berenson_bibliography_project__painting.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__painting.jsonld) | 34  |
+| Painting    | [berenson_bibliography_project__painting.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__painting.jsonld) | 35  |
 | Island    | [berenson_bibliography_project__island.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__island.jsonld) | 1  |
 | Series    | [berenson_bibliography_project__series.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__series.jsonld) | 3  |
 | Literary Work (Concept)    | [berenson_bibliography_project__literary_work_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__literary_work_(concept).jsonld) | 2  |
