@@ -1206,26 +1206,6 @@
         "end date"
       ]
     },
-    "presentedAt": {
-      "@id": "http://base.semlab.io/entity/P215",
-      "skos:prefLabel": "presented at",
-      "skos:note": "place subject presented a work"
-    },
-    "hostedBy": {
-      "@id": "http://base.semlab.io/entity/P216",
-      "skos:prefLabel": "hosted by",
-      "skos:note": "person who hosted the subject"
-    },
-    "listenedTo": {
-      "@id": "http://base.semlab.io/entity/P217",
-      "skos:prefLabel": "listened to",
-      "skos:note": "work the subject listened to"
-    },
-    "viewed": {
-      "@id": "http://base.semlab.io/entity/P219",
-      "skos:prefLabel": "viewed",
-      "skos:note": "visual work or collection the subject viewed"
-    },
     "read": {
       "@id": "http://base.semlab.io/entity/P218",
       "skos:prefLabel": "read",
@@ -1422,6 +1402,26 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
+    },
+    "presentedAt": {
+      "@id": "http://base.semlab.io/entity/P215",
+      "skos:prefLabel": "presented at",
+      "skos:note": "place subject presented a work"
+    },
+    "hostedBy": {
+      "@id": "http://base.semlab.io/entity/P216",
+      "skos:prefLabel": "hosted by",
+      "skos:note": "person who hosted the subject"
+    },
+    "listenedTo": {
+      "@id": "http://base.semlab.io/entity/P217",
+      "skos:prefLabel": "listened to",
+      "skos:note": "work the subject listened to"
+    },
+    "viewed": {
+      "@id": "http://base.semlab.io/entity/P219",
+      "skos:prefLabel": "viewed",
+      "skos:note": "visual work or collection the subject viewed"
     },
     "natureOfRelation": {
       "@id": "http://base.semlab.io/entity/P122",
@@ -2061,12 +2061,12 @@
       "@id": "http://base.semlab.io/entity/Q19058",
       "skos:prefLabel": "city",
       "skos:altLabel": [
+        "village",
         "army installation",
         "hamlet",
         "military camp",
         "settlement",
-        "town",
-        "village"
+        "town"
       ],
       "owl:equivalentClass": [
         "https://schema.org/City"
@@ -2115,11 +2115,11 @@
       "@id": "http://base.semlab.io/entity/Q29603",
       "skos:prefLabel": "communication device",
       "skos:altLabel": [
+        "communications equipment",
+        "communications technology",
         "communication device",
         "communication equipment",
-        "communication technology",
-        "communications equipment",
-        "communications technology"
+        "communication technology"
       ],
       "skos:note": "technology for conveying meaning, usually across distance"
     },
@@ -2648,12 +2648,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
+        "career",
         "craft",
         "employment",
         "job",
         "profession",
-        "work",
-        "career"
+        "work"
       ],
       "skos:note": "job title or profession of the person"
     },
@@ -2729,8 +2729,8 @@
       "@id": "http://base.semlab.io/entity/Q1",
       "skos:prefLabel": "person",
       "owl:equivalentClass": [
-        "http://xmlns.com/foaf/0.1/Person",
-        "https://schema.org/Person"
+        "https://schema.org/Person",
+        "http://xmlns.com/foaf/0.1/Person"
       ]
     },
     "Photograph": {
@@ -3045,9 +3045,9 @@
       "@id": "http://base.semlab.io/entity/Q29610",
       "skos:prefLabel": "textile",
       "skos:altLabel": [
-        "fabric",
         "textile material",
-        "textiles"
+        "textiles",
+        "fabric"
       ],
       "skos:note": "various fiber-based materials"
     },
