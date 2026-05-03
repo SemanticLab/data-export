@@ -1,8 +1,8 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30442",
-    "rdfs:label": "Joan Mitchell",
+    "@id": "semlab:Q30546",
+    "rdfs:label": "Fausto Melotti",
     "@type": [
       "Person"
     ],
@@ -28,62 +28,91 @@
         }
       }
     ],
-    "wikidataQid": [
-      {
-        "@value": "Q469934"
-      }
-    ],
     "countryOfCitizenship": [
       {
         "@id": "_:bn102551",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
           "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30443",
-    "rdfs:label": "Maria Jarema",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102552",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102553",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
         }
       }
     ],
     "wikidataQid": [
       {
-        "@value": "Q11768919"
+        "@value": "Q2357153"
+      }
+    ],
+    "contributedTo": [
+      {
+        "@id": "_:bn102552",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30543",
+          "rdfs:label": "Handicraft as a Fine Art in Italy",
+          "@type": "ArtExhibition"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q19157",
+            "rdfs:label": "artist"
+          }
+        ],
+        "location": [
+          {
+            "@id": "semlab:Q30542",
+            "rdfs:label": "House of Italian Handicraft"
+          }
+        ],
+        "date": [
+          "+1948-00-00T00:00:00Z"
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30294",
+            "rdfs:label": "1948 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "51"
+        ]
+      }
+    ],
+    "exhibitedWorkAt": [
+      {
+        "@id": "_:bn102553",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30542",
+          "rdfs:label": "House of Italian Handicraft",
+          "@type": "ArtGallery"
+        },
+        "location": [
+          {
+            "@id": "semlab:Q19486",
+            "rdfs:label": "New York (N.Y.)"
+          }
+        ],
+        "startTime": [
+          "+1948-00-00T00:00:00Z"
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30294",
+            "rdfs:label": "1948 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "51"
+        ]
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30444",
-    "rdfs:label": "Mario Ballocco",
+    "@id": "semlab:Q30558",
+    "rdfs:label": "Alberto Magnelli",
     "@type": [
       "Person"
     ],
@@ -111,7 +140,7 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q16576252"
+        "@value": "Q607568"
       }
     ],
     "countryOfCitizenship": [
@@ -128,8 +157,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30445",
-    "rdfs:label": "Mimmo Rotella",
+    "@id": "semlab:Q30559",
+    "rdfs:label": "Barnett Newman",
     "@type": [
       "Person"
     ],
@@ -157,7 +186,7 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q1348839"
+        "@value": "Q374504"
       }
     ],
     "countryOfCitizenship": [
@@ -165,8 +194,8 @@
         "@id": "_:bn102559",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
           "@type": "Country"
         }
       }
@@ -174,8 +203,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30446",
-    "rdfs:label": "Mino Guerrini",
+    "@id": "semlab:Q30560",
+    "rdfs:label": "Bradley Walker Tomlin",
     "@type": [
       "Person"
     ],
@@ -203,12 +232,2384 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q1439893"
+        "@value": "Q551865"
       }
     ],
     "countryOfCitizenship": [
       {
         "@id": "_:bn102562",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30561",
+    "rdfs:label": "Giosetta Fioroni",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102563",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102564",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3765995"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102565",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30562",
+    "rdfs:label": "Grace Hartigan",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102566",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102567",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q535581"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102568",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30563",
+    "rdfs:label": "Mannucci",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102569",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102570",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q43133836"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102571",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30564",
+    "rdfs:label": "Matta",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102572",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102573",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q450236"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102574",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30547",
+          "rdfs:label": "Chile",
+          "@type": "Country"
+        }
+      },
+      {
+        "@id": "_:bn102575",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26035",
+          "rdfs:label": "France",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30565",
+    "rdfs:label": "Nicolas Calas",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102576",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102577",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3556022"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102578",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30478",
+          "rdfs:label": "Greece",
+          "@type": "Country"
+        }
+      },
+      {
+        "@id": "_:bn102579",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30566",
+    "rdfs:label": "Palma Bucarelli",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102580",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102581",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3892735"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102582",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30567",
+    "rdfs:label": "Sam Hunter",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102583",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102584",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q15497263"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102585",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30569",
+    "rdfs:label": "Agostino Bonalumi",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102586",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102587",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3606725"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102588",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30570",
+    "rdfs:label": "Umberto Bignardi",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102589",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102590",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q16826008"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102591",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30571",
+    "rdfs:label": "Buggiani",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102592",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102593",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q96145598"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30572",
+    "rdfs:label": "Charles Delloye",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102594",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102595",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102596",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26035",
+          "rdfs:label": "France",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30573",
+    "rdfs:label": "Enrico Castellani",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102597",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102598",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q560134"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102599",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30574",
+    "rdfs:label": "Francesco Lo Savio",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102600",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102601",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q948414"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102602",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30575",
+    "rdfs:label": "Franco Angeli",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102603",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102604",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3751112"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102605",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30576",
+    "rdfs:label": "Frederick Kiesler",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102606",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102607",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q99499715"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102608",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30568",
+          "rdfs:label": "Austria",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30577",
+    "rdfs:label": "Giuseppe Uncini",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102609",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102610",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3771564"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102611",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30578",
+    "rdfs:label": "Leo Paolazzi",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102612",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102613",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q604396"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102614",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30579",
+    "rdfs:label": "Mario Schifano",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102615",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102616",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1411112"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102617",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30580",
+    "rdfs:label": "Marotta",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102618",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102619",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3764661"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102620",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30581",
+    "rdfs:label": "Nuvolo",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102621",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102622",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3879951"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102623",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30582",
+    "rdfs:label": "Paul Fierens",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102624",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102625",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q19754062"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102626",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30491",
+          "rdfs:label": "Belgium",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30583",
+    "rdfs:label": "Piero Manzoni",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102627",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102628",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q472756"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102629",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30584",
+    "rdfs:label": "Tano Festa",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102630",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102631",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3980896"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102632",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30585",
+    "rdfs:label": "Al Hansen",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102633",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102634",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q2636085"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102635",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30586",
+    "rdfs:label": "Alberto Biasi",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102636",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102637",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3608150"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102638",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30587",
+    "rdfs:label": "Arnaldo Pomodoro",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102639",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102640",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q594368"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102641",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30588",
+    "rdfs:label": "Bliss Parkinson",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102642",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102643",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q73088623"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30589",
+    "rdfs:label": "Carla Lonzi",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102644",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102645",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3658850"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102646",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30590",
+    "rdfs:label": "Dada Maino",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102647",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102648",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3700763"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102649",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30591",
+    "rdfs:label": "Dick Higgins",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102650",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102651",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1209700"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102652",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      },
+      {
+        "@id": "_:bn102653",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26033",
+          "rdfs:label": "England",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30592",
+    "rdfs:label": "Enrico Donati",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102654",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102655",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q2574382"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102656",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      },
+      {
+        "@id": "_:bn102657",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30593",
+    "rdfs:label": "Manfredo Massironi",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102658",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102659",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q18419085"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102660",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30594",
+    "rdfs:label": "Marco Santini",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102661",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102662",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30595",
+    "rdfs:label": "Patrick J. Kelleher",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102663",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102664",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q94109699"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30596",
+    "rdfs:label": "Roszak",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102665",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102666",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q258726"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102667",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30597",
+    "rdfs:label": "Virginia Dortch",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102668",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102669",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q99496510"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102670",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      },
+      {
+        "@id": "_:bn102671",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30608",
+    "rdfs:label": "Fabio Mauri",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102672",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102673",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3737777"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102674",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30609",
+    "rdfs:label": "Franco Bemporad",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102675",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102676",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q41739642"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102677",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30610",
+    "rdfs:label": "Franco Gentilini",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102678",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102679",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3082379"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102680",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30611",
+    "rdfs:label": "Gio Pomodoro",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102681",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102682",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q321182"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102683",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30612",
+    "rdfs:label": "Jack Gelber",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102684",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102685",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q973544"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102686",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30613",
+    "rdfs:label": "Judith Malina",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102687",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102688",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q213844"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102689",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30614",
+    "rdfs:label": "Julian Beck",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102690",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102691",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1332885"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102692",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30615",
+    "rdfs:label": "Luciano Anceschi",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102693",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102694",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3838517"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102695",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30616",
+    "rdfs:label": "Umberto Eco",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102696",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102697",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q12807"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102698",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30617",
+    "rdfs:label": "William C. Seitz",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102699",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102700",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q19754141"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102701",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30618",
+    "rdfs:label": "William Carlos Williams",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102702",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102703",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q178106"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102704",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30442",
+    "rdfs:label": "Joan Mitchell",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102705",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102706",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q469934"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102707",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24388",
+          "rdfs:label": "United States",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30443",
+    "rdfs:label": "Maria Jarema",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102708",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102709",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q11768919"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30444",
+    "rdfs:label": "Mario Ballocco",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102710",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102711",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q16576252"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102712",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30445",
+    "rdfs:label": "Mimmo Rotella",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102713",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102714",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1348839"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102715",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30446",
+    "rdfs:label": "Mino Guerrini",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn102716",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn102717",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1439893"
+      }
+    ],
+    "countryOfCitizenship": [
+      {
+        "@id": "_:bn102718",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -219,7 +2620,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn102563",
+        "@id": "_:bn102719",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30529",
@@ -256,7 +2657,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102564",
+        "@id": "_:bn102720",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -267,7 +2668,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102565",
+        "@id": "_:bn102721",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -283,7 +2684,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102566",
+        "@id": "_:bn102722",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -294,7 +2695,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn102567",
+        "@id": "_:bn102723",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29625",
@@ -329,7 +2730,7 @@
     ],
     "hasWorksCollectedBy": [
       {
-        "@id": "_:bn102568",
+        "@id": "_:bn102724",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30286",
@@ -352,7 +2753,7 @@
     ],
     "exhibitedWorkAt": [
       {
-        "@id": "_:bn102569",
+        "@id": "_:bn102725",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29623",
@@ -389,7 +2790,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102570",
+        "@id": "_:bn102726",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -400,7 +2801,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102571",
+        "@id": "_:bn102727",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -416,7 +2817,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102572",
+        "@id": "_:bn102728",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -435,7 +2836,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102573",
+        "@id": "_:bn102729",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -446,7 +2847,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102574",
+        "@id": "_:bn102730",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -462,7 +2863,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn102575",
+        "@id": "_:bn102731",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30599",
@@ -485,7 +2886,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn102576",
+        "@id": "_:bn102732",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30620",
@@ -516,7 +2917,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102577",
+        "@id": "_:bn102733",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -527,7 +2928,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102578",
+        "@id": "_:bn102734",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -543,7 +2944,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102579",
+        "@id": "_:bn102735",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -554,7 +2955,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn102580",
+        "@id": "_:bn102736",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30599",
@@ -577,7 +2978,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn102581",
+        "@id": "_:bn102737",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30620",
@@ -608,7 +3009,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102582",
+        "@id": "_:bn102738",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -619,7 +3020,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102583",
+        "@id": "_:bn102739",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -635,7 +3036,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102584",
+        "@id": "_:bn102740",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -646,7 +3047,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn102585",
+        "@id": "_:bn102741",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30598",
@@ -683,7 +3084,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102586",
+        "@id": "_:bn102742",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -694,7 +3095,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102587",
+        "@id": "_:bn102743",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -710,7 +3111,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102588",
+        "@id": "_:bn102744",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -721,7 +3122,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn102589",
+        "@id": "_:bn102745",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30599",
@@ -744,7 +3145,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn102590",
+        "@id": "_:bn102746",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30620",
@@ -775,7 +3176,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102591",
+        "@id": "_:bn102747",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -786,7 +3187,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102592",
+        "@id": "_:bn102748",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -802,7 +3203,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102593",
+        "@id": "_:bn102749",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -813,7 +3214,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn102594",
+        "@id": "_:bn102750",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30599",
@@ -836,7 +3237,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn102595",
+        "@id": "_:bn102751",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30620",
@@ -867,7 +3268,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102596",
+        "@id": "_:bn102752",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -878,7 +3279,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102597",
+        "@id": "_:bn102753",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -894,7 +3295,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102598",
+        "@id": "_:bn102754",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -905,7 +3306,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn102599",
+        "@id": "_:bn102755",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30599",
@@ -928,7 +3329,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn102600",
+        "@id": "_:bn102756",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30620",
@@ -959,7 +3360,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102601",
+        "@id": "_:bn102757",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -970,7 +3371,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102602",
+        "@id": "_:bn102758",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -986,7 +3387,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102603",
+        "@id": "_:bn102759",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -1005,7 +3406,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102604",
+        "@id": "_:bn102760",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1016,7 +3417,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102605",
+        "@id": "_:bn102761",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1032,7 +3433,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102606",
+        "@id": "_:bn102762",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -1051,7 +3452,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102607",
+        "@id": "_:bn102763",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1062,7 +3463,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102608",
+        "@id": "_:bn102764",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1078,7 +3479,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102609",
+        "@id": "_:bn102765",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -1097,7 +3498,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102610",
+        "@id": "_:bn102766",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1108,7 +3509,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102611",
+        "@id": "_:bn102767",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1124,7 +3525,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102612",
+        "@id": "_:bn102768",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -1143,7 +3544,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102613",
+        "@id": "_:bn102769",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1154,7 +3555,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102614",
+        "@id": "_:bn102770",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1170,7 +3571,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102615",
+        "@id": "_:bn102771",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -1189,7 +3590,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102616",
+        "@id": "_:bn102772",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1200,7 +3601,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102617",
+        "@id": "_:bn102773",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1216,7 +3617,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102618",
+        "@id": "_:bn102774",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -1235,7 +3636,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102619",
+        "@id": "_:bn102775",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1246,7 +3647,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102620",
+        "@id": "_:bn102776",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1262,7 +3663,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102621",
+        "@id": "_:bn102777",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -1273,7 +3674,7 @@
     ],
     "exhibitedWorkAt": [
       {
-        "@id": "_:bn102622",
+        "@id": "_:bn102778",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30542",
@@ -1302,7 +3703,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn102623",
+        "@id": "_:bn102779",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30543",
@@ -1345,7 +3746,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102624",
+        "@id": "_:bn102780",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1356,7 +3757,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102625",
+        "@id": "_:bn102781",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1375,7 +3776,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102626",
+        "@id": "_:bn102782",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1386,7 +3787,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102627",
+        "@id": "_:bn102783",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1402,7 +3803,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102628",
+        "@id": "_:bn102784",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -1421,7 +3822,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102629",
+        "@id": "_:bn102785",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1432,7 +3833,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102630",
+        "@id": "_:bn102786",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1448,7 +3849,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102631",
+        "@id": "_:bn102787",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -1467,7 +3868,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102632",
+        "@id": "_:bn102788",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1478,7 +3879,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102633",
+        "@id": "_:bn102789",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1494,7 +3895,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102634",
+        "@id": "_:bn102790",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -1513,7 +3914,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102635",
+        "@id": "_:bn102791",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1524,7 +3925,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102636",
+        "@id": "_:bn102792",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1535,7 +3936,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102637",
+        "@id": "_:bn102793",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -1554,7 +3955,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102638",
+        "@id": "_:bn102794",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1565,7 +3966,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102639",
+        "@id": "_:bn102795",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1581,7 +3982,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102640",
+        "@id": "_:bn102796",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -1600,7 +4001,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102641",
+        "@id": "_:bn102797",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1611,7 +4012,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102642",
+        "@id": "_:bn102798",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1622,7 +4023,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102643",
+        "@id": "_:bn102799",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -1641,7 +4042,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102644",
+        "@id": "_:bn102800",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1652,7 +4053,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102645",
+        "@id": "_:bn102801",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1668,7 +4069,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102646",
+        "@id": "_:bn102802",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -1687,7 +4088,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102647",
+        "@id": "_:bn102803",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1698,7 +4099,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102648",
+        "@id": "_:bn102804",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1714,7 +4115,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102649",
+        "@id": "_:bn102805",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -1733,7 +4134,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102650",
+        "@id": "_:bn102806",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1744,7 +4145,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102651",
+        "@id": "_:bn102807",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1760,7 +4161,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102652",
+        "@id": "_:bn102808",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24675",
@@ -1779,7 +4180,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102653",
+        "@id": "_:bn102809",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1790,7 +4191,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102654",
+        "@id": "_:bn102810",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1806,7 +4207,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102655",
+        "@id": "_:bn102811",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26036",
@@ -1825,7 +4226,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102656",
+        "@id": "_:bn102812",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1836,7 +4237,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102657",
+        "@id": "_:bn102813",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1855,7 +4256,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102658",
+        "@id": "_:bn102814",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1866,7 +4267,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102659",
+        "@id": "_:bn102815",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1877,7 +4278,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102660",
+        "@id": "_:bn102816",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -1896,7 +4297,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102661",
+        "@id": "_:bn102817",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1907,7 +4308,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102662",
+        "@id": "_:bn102818",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1923,7 +4324,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102663",
+        "@id": "_:bn102819",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26034",
@@ -1942,7 +4343,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102664",
+        "@id": "_:bn102820",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1953,7 +4354,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102665",
+        "@id": "_:bn102821",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -1969,7 +4370,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102666",
+        "@id": "_:bn102822",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -1988,7 +4389,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102667",
+        "@id": "_:bn102823",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -1999,7 +4400,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102668",
+        "@id": "_:bn102824",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2015,7 +4416,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102669",
+        "@id": "_:bn102825",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -2034,7 +4435,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102670",
+        "@id": "_:bn102826",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2045,7 +4446,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102671",
+        "@id": "_:bn102827",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2061,7 +4462,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102672",
+        "@id": "_:bn102828",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -2080,7 +4481,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102673",
+        "@id": "_:bn102829",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2091,7 +4492,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102674",
+        "@id": "_:bn102830",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2107,7 +4508,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102675",
+        "@id": "_:bn102831",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -2126,7 +4527,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102676",
+        "@id": "_:bn102832",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2137,7 +4538,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102677",
+        "@id": "_:bn102833",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2153,7 +4554,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102678",
+        "@id": "_:bn102834",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -2172,7 +4573,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102679",
+        "@id": "_:bn102835",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2183,7 +4584,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102680",
+        "@id": "_:bn102836",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2199,7 +4600,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102681",
+        "@id": "_:bn102837",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26036",
@@ -2208,7 +4609,7 @@
         }
       },
       {
-        "@id": "_:bn102682",
+        "@id": "_:bn102838",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -2227,7 +4628,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102683",
+        "@id": "_:bn102839",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2238,7 +4639,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102684",
+        "@id": "_:bn102840",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2254,7 +4655,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102685",
+        "@id": "_:bn102841",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -2273,7 +4674,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102686",
+        "@id": "_:bn102842",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2284,7 +4685,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102687",
+        "@id": "_:bn102843",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2300,7 +4701,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102688",
+        "@id": "_:bn102844",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -2319,7 +4720,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102689",
+        "@id": "_:bn102845",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2330,7 +4731,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102690",
+        "@id": "_:bn102846",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2346,7 +4747,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102691",
+        "@id": "_:bn102847",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -2365,7 +4766,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102692",
+        "@id": "_:bn102848",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2376,7 +4777,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102693",
+        "@id": "_:bn102849",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2392,7 +4793,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102694",
+        "@id": "_:bn102850",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -2411,7 +4812,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102695",
+        "@id": "_:bn102851",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2422,7 +4823,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102696",
+        "@id": "_:bn102852",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2438,7 +4839,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102697",
+        "@id": "_:bn102853",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30478",
@@ -2447,7 +4848,7 @@
         }
       },
       {
-        "@id": "_:bn102698",
+        "@id": "_:bn102854",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -2466,7 +4867,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102699",
+        "@id": "_:bn102855",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2477,7 +4878,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102700",
+        "@id": "_:bn102856",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2496,7 +4897,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102701",
+        "@id": "_:bn102857",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2507,7 +4908,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102702",
+        "@id": "_:bn102858",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2523,7 +4924,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102703",
+        "@id": "_:bn102859",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -2542,7 +4943,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102704",
+        "@id": "_:bn102860",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2553,7 +4954,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102705",
+        "@id": "_:bn102861",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2569,7 +4970,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102706",
+        "@id": "_:bn102862",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -2588,7 +4989,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102707",
+        "@id": "_:bn102863",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2599,7 +5000,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102708",
+        "@id": "_:bn102864",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2618,7 +5019,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102709",
+        "@id": "_:bn102865",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2629,7 +5030,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102710",
+        "@id": "_:bn102866",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2653,7 +5054,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102711",
+        "@id": "_:bn102867",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2664,7 +5065,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102712",
+        "@id": "_:bn102868",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2683,7 +5084,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102713",
+        "@id": "_:bn102869",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2694,7 +5095,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102714",
+        "@id": "_:bn102870",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2710,7 +5111,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102715",
+        "@id": "_:bn102871",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -2721,7 +5122,7 @@
     ],
     "relativeOf": [
       {
-        "@id": "_:bn102716",
+        "@id": "_:bn102872",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30505",
@@ -2755,7 +5156,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102717",
+        "@id": "_:bn102873",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2766,7 +5167,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102718",
+        "@id": "_:bn102874",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2782,7 +5183,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102719",
+        "@id": "_:bn102875",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -2801,7 +5202,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102720",
+        "@id": "_:bn102876",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2812,7 +5213,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102721",
+        "@id": "_:bn102877",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2828,7 +5229,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102722",
+        "@id": "_:bn102878",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -2847,7 +5248,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102723",
+        "@id": "_:bn102879",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2858,7 +5259,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102724",
+        "@id": "_:bn102880",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2874,7 +5275,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102725",
+        "@id": "_:bn102881",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -2893,7 +5294,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102726",
+        "@id": "_:bn102882",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2904,7 +5305,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102727",
+        "@id": "_:bn102883",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2920,7 +5321,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102728",
+        "@id": "_:bn102884",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -2939,7 +5340,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102729",
+        "@id": "_:bn102885",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -2950,7 +5351,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102730",
+        "@id": "_:bn102886",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -2966,7 +5367,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102731",
+        "@id": "_:bn102887",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -2977,7 +5378,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn102732",
+        "@id": "_:bn102888",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30529",
@@ -3014,7 +5415,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102733",
+        "@id": "_:bn102889",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3025,7 +5426,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102734",
+        "@id": "_:bn102890",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3041,7 +5442,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102735",
+        "@id": "_:bn102891",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -3060,7 +5461,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102736",
+        "@id": "_:bn102892",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3071,7 +5472,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102737",
+        "@id": "_:bn102893",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3087,7 +5488,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102738",
+        "@id": "_:bn102894",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26035",
@@ -3106,7 +5507,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102739",
+        "@id": "_:bn102895",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3117,7 +5518,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102740",
+        "@id": "_:bn102896",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3133,7 +5534,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102741",
+        "@id": "_:bn102897",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26035",
@@ -3152,7 +5553,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102742",
+        "@id": "_:bn102898",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3163,7 +5564,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102743",
+        "@id": "_:bn102899",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3179,7 +5580,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102744",
+        "@id": "_:bn102900",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -3190,7 +5591,7 @@
     ],
     "relativeOf": [
       {
-        "@id": "_:bn102745",
+        "@id": "_:bn102901",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30496",
@@ -3224,7 +5625,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102746",
+        "@id": "_:bn102902",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3235,7 +5636,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102747",
+        "@id": "_:bn102903",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3254,7 +5655,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102748",
+        "@id": "_:bn102904",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3265,7 +5666,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102749",
+        "@id": "_:bn102905",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3281,7 +5682,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102750",
+        "@id": "_:bn102906",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -3300,7 +5701,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102751",
+        "@id": "_:bn102907",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3311,7 +5712,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102752",
+        "@id": "_:bn102908",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3327,7 +5728,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102753",
+        "@id": "_:bn102909",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26035",
@@ -3346,7 +5747,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102754",
+        "@id": "_:bn102910",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3357,7 +5758,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102755",
+        "@id": "_:bn102911",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3373,7 +5774,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102756",
+        "@id": "_:bn102912",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -3392,7 +5793,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102757",
+        "@id": "_:bn102913",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3403,7 +5804,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102758",
+        "@id": "_:bn102914",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3419,7 +5820,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102759",
+        "@id": "_:bn102915",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26034",
@@ -3438,7 +5839,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102760",
+        "@id": "_:bn102916",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3449,7 +5850,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102761",
+        "@id": "_:bn102917",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3468,7 +5869,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102762",
+        "@id": "_:bn102918",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3479,7 +5880,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102763",
+        "@id": "_:bn102919",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3495,7 +5896,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102764",
+        "@id": "_:bn102920",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -3514,7 +5915,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102765",
+        "@id": "_:bn102921",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3525,7 +5926,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102766",
+        "@id": "_:bn102922",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3541,7 +5942,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102767",
+        "@id": "_:bn102923",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26033",
@@ -3560,7 +5961,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102768",
+        "@id": "_:bn102924",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3571,7 +5972,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102769",
+        "@id": "_:bn102925",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3590,7 +5991,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102770",
+        "@id": "_:bn102926",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3601,7 +6002,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102771",
+        "@id": "_:bn102927",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3617,7 +6018,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102772",
+        "@id": "_:bn102928",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26035",
@@ -3636,7 +6037,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102773",
+        "@id": "_:bn102929",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3647,7 +6048,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102774",
+        "@id": "_:bn102930",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3663,7 +6064,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102775",
+        "@id": "_:bn102931",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -3674,7 +6075,7 @@
     ],
     "exhibitedWorkAt": [
       {
-        "@id": "_:bn102776",
+        "@id": "_:bn102932",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30542",
@@ -3703,7 +6104,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn102777",
+        "@id": "_:bn102933",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30543",
@@ -3746,7 +6147,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102778",
+        "@id": "_:bn102934",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3757,7 +6158,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102779",
+        "@id": "_:bn102935",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3773,7 +6174,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102780",
+        "@id": "_:bn102936",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -3792,7 +6193,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102781",
+        "@id": "_:bn102937",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3803,7 +6204,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102782",
+        "@id": "_:bn102938",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3819,7 +6220,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102783",
+        "@id": "_:bn102939",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -3838,7 +6239,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102784",
+        "@id": "_:bn102940",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3849,7 +6250,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102785",
+        "@id": "_:bn102941",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3865,7 +6266,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102786",
+        "@id": "_:bn102942",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26035",
@@ -3874,7 +6275,7 @@
         }
       },
       {
-        "@id": "_:bn102787",
+        "@id": "_:bn102943",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30491",
@@ -3893,7 +6294,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102788",
+        "@id": "_:bn102944",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3904,7 +6305,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102789",
+        "@id": "_:bn102945",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3920,7 +6321,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102790",
+        "@id": "_:bn102946",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26035",
@@ -3939,7 +6340,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102791",
+        "@id": "_:bn102947",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3950,7 +6351,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102792",
+        "@id": "_:bn102948",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -3974,7 +6375,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102793",
+        "@id": "_:bn102949",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3985,7 +6386,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102794",
+        "@id": "_:bn102950",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -4001,7 +6402,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102795",
+        "@id": "_:bn102951",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -4020,7 +6421,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102796",
+        "@id": "_:bn102952",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4031,7 +6432,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102797",
+        "@id": "_:bn102953",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -4047,7 +6448,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102798",
+        "@id": "_:bn102954",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -4066,7 +6467,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102799",
+        "@id": "_:bn102955",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4077,7 +6478,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102800",
+        "@id": "_:bn102956",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -4096,7 +6497,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102801",
+        "@id": "_:bn102957",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4107,7 +6508,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102802",
+        "@id": "_:bn102958",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -4123,7 +6524,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102803",
+        "@id": "_:bn102959",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -4142,7 +6543,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102804",
+        "@id": "_:bn102960",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4153,7 +6554,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102805",
+        "@id": "_:bn102961",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -4169,7 +6570,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102806",
+        "@id": "_:bn102962",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -4188,7 +6589,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102807",
+        "@id": "_:bn102963",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4199,7 +6600,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102808",
+        "@id": "_:bn102964",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -4215,7 +6616,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102809",
+        "@id": "_:bn102965",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -4234,7 +6635,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102810",
+        "@id": "_:bn102966",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4245,7 +6646,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102811",
+        "@id": "_:bn102967",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -4261,7 +6662,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102812",
+        "@id": "_:bn102968",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26037",
@@ -4280,7 +6681,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102813",
+        "@id": "_:bn102969",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4296,7 +6697,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102814",
+        "@id": "_:bn102970",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -4307,7 +6708,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102815",
+        "@id": "_:bn102971",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -4318,7 +6719,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn102816",
+        "@id": "_:bn102972",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30529",
@@ -4355,7 +6756,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102817",
+        "@id": "_:bn102973",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4366,7 +6767,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102818",
+        "@id": "_:bn102974",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -4377,7 +6778,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102819",
+        "@id": "_:bn102975",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24388",
@@ -4393,7 +6794,7 @@
     ],
     "exhibitedWorkAt": [
       {
-        "@id": "_:bn102820",
+        "@id": "_:bn102976",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29623",
@@ -4422,7 +6823,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn102821",
+        "@id": "_:bn102977",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29625",
@@ -4457,7 +6858,7 @@
     ],
     "hasWorksCollectedBy": [
       {
-        "@id": "_:bn102822",
+        "@id": "_:bn102978",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30286",
@@ -4488,7 +6889,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102823",
+        "@id": "_:bn102979",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4504,7 +6905,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102824",
+        "@id": "_:bn102980",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -4515,7 +6916,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102825",
+        "@id": "_:bn102981",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -4526,7 +6927,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn102826",
+        "@id": "_:bn102982",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30543",
@@ -4569,7 +6970,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn102827",
+        "@id": "_:bn102983",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -4580,7 +6981,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn102828",
+        "@id": "_:bn102984",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -4591,7 +6992,7 @@
     ],
     "countryOfCitizenship": [
       {
-        "@id": "_:bn102829",
+        "@id": "_:bn102985",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25745",
@@ -4607,7 +7008,7 @@
     ],
     "memberOf": [
       {
-        "@id": "_:bn102830",
+        "@id": "_:bn102986",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30529",
@@ -4626,2407 +7027,6 @@
         "pageNumber": [
           "44"
         ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30546",
-    "rdfs:label": "Fausto Melotti",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102831",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102832",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102833",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q2357153"
-      }
-    ],
-    "contributedTo": [
-      {
-        "@id": "_:bn102834",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30543",
-          "rdfs:label": "Handicraft as a Fine Art in Italy",
-          "@type": "ArtExhibition"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q19157",
-            "rdfs:label": "artist"
-          }
-        ],
-        "location": [
-          {
-            "@id": "semlab:Q30542",
-            "rdfs:label": "House of Italian Handicraft"
-          }
-        ],
-        "date": [
-          "+1948-00-00T00:00:00Z"
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30294",
-            "rdfs:label": "1948 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "51"
-        ]
-      }
-    ],
-    "exhibitedWorkAt": [
-      {
-        "@id": "_:bn102835",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30542",
-          "rdfs:label": "House of Italian Handicraft",
-          "@type": "ArtGallery"
-        },
-        "location": [
-          {
-            "@id": "semlab:Q19486",
-            "rdfs:label": "New York (N.Y.)"
-          }
-        ],
-        "startTime": [
-          "+1948-00-00T00:00:00Z"
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30294",
-            "rdfs:label": "1948 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "51"
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30558",
-    "rdfs:label": "Alberto Magnelli",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102836",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102837",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q607568"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102838",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30559",
-    "rdfs:label": "Barnett Newman",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102839",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102840",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q374504"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102841",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30560",
-    "rdfs:label": "Bradley Walker Tomlin",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102842",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102843",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q551865"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102844",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30561",
-    "rdfs:label": "Giosetta Fioroni",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102845",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102846",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3765995"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102847",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30562",
-    "rdfs:label": "Grace Hartigan",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102848",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102849",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q535581"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102850",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30563",
-    "rdfs:label": "Mannucci",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102851",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102852",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q43133836"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102853",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30564",
-    "rdfs:label": "Matta",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102854",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102855",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q450236"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102856",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30547",
-          "rdfs:label": "Chile",
-          "@type": "Country"
-        }
-      },
-      {
-        "@id": "_:bn102857",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26035",
-          "rdfs:label": "France",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30565",
-    "rdfs:label": "Nicolas Calas",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102858",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102859",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3556022"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102860",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30478",
-          "rdfs:label": "Greece",
-          "@type": "Country"
-        }
-      },
-      {
-        "@id": "_:bn102861",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30566",
-    "rdfs:label": "Palma Bucarelli",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102862",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102863",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3892735"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102864",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30567",
-    "rdfs:label": "Sam Hunter",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102865",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102866",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q15497263"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102867",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30569",
-    "rdfs:label": "Agostino Bonalumi",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102868",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102869",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3606725"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102870",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30570",
-    "rdfs:label": "Umberto Bignardi",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102871",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102872",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q16826008"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102873",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30571",
-    "rdfs:label": "Buggiani",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102874",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102875",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q96145598"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30572",
-    "rdfs:label": "Charles Delloye",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102876",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102877",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102878",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26035",
-          "rdfs:label": "France",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30573",
-    "rdfs:label": "Enrico Castellani",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102879",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102880",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q560134"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102881",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30574",
-    "rdfs:label": "Francesco Lo Savio",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102882",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102883",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q948414"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102884",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30575",
-    "rdfs:label": "Franco Angeli",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102885",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102886",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3751112"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102887",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30576",
-    "rdfs:label": "Frederick Kiesler",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102888",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102889",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q99499715"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102890",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30568",
-          "rdfs:label": "Austria",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30577",
-    "rdfs:label": "Giuseppe Uncini",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102891",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102892",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3771564"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102893",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30578",
-    "rdfs:label": "Leo Paolazzi",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102894",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102895",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q604396"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102896",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30579",
-    "rdfs:label": "Mario Schifano",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102897",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102898",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q1411112"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102899",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30580",
-    "rdfs:label": "Marotta",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102900",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102901",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3764661"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102902",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30581",
-    "rdfs:label": "Nuvolo",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102903",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102904",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3879951"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102905",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30582",
-    "rdfs:label": "Paul Fierens",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102906",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102907",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q19754062"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102908",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30491",
-          "rdfs:label": "Belgium",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30583",
-    "rdfs:label": "Piero Manzoni",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102909",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102910",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q472756"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102911",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30584",
-    "rdfs:label": "Tano Festa",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102912",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102913",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3980896"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102914",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30585",
-    "rdfs:label": "Al Hansen",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102915",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102916",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q2636085"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102917",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30586",
-    "rdfs:label": "Alberto Biasi",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102918",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102919",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3608150"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102920",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30587",
-    "rdfs:label": "Arnaldo Pomodoro",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102921",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102922",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q594368"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102923",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30588",
-    "rdfs:label": "Bliss Parkinson",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102924",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102925",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q73088623"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30589",
-    "rdfs:label": "Carla Lonzi",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102926",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102927",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3658850"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102928",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30590",
-    "rdfs:label": "Dada Maino",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102929",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102930",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3700763"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102931",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30591",
-    "rdfs:label": "Dick Higgins",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102932",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102933",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q1209700"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102934",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      },
-      {
-        "@id": "_:bn102935",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26033",
-          "rdfs:label": "England",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30592",
-    "rdfs:label": "Enrico Donati",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102936",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102937",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q2574382"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102938",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      },
-      {
-        "@id": "_:bn102939",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30593",
-    "rdfs:label": "Manfredo Massironi",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102940",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102941",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q18419085"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102942",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30594",
-    "rdfs:label": "Marco Santini",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102943",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102944",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30595",
-    "rdfs:label": "Patrick J. Kelleher",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102945",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102946",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q94109699"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30596",
-    "rdfs:label": "Roszak",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102947",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102948",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q258726"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102949",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30597",
-    "rdfs:label": "Virginia Dortch",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102950",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102951",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q99496510"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102952",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      },
-      {
-        "@id": "_:bn102953",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30608",
-    "rdfs:label": "Fabio Mauri",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102954",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102955",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3737777"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102956",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30609",
-    "rdfs:label": "Franco Bemporad",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102957",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102958",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q41739642"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102959",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30610",
-    "rdfs:label": "Franco Gentilini",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102960",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102961",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3082379"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102962",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30611",
-    "rdfs:label": "Gio Pomodoro",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102963",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102964",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q321182"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102965",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30612",
-    "rdfs:label": "Jack Gelber",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102966",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102967",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q973544"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102968",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30613",
-    "rdfs:label": "Judith Malina",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102969",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102970",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q213844"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102971",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30614",
-    "rdfs:label": "Julian Beck",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102972",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102973",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q1332885"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102974",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30615",
-    "rdfs:label": "Luciano Anceschi",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102975",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102976",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3838517"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102977",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30616",
-    "rdfs:label": "Umberto Eco",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102978",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102979",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q12807"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102980",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30617",
-    "rdfs:label": "William C. Seitz",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102981",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102982",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q19754141"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102983",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30618",
-    "rdfs:label": "William Carlos Williams",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn102984",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn102985",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q178106"
-      }
-    ],
-    "countryOfCitizenship": [
-      {
-        "@id": "_:bn102986",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24388",
-          "rdfs:label": "United States",
-          "@type": "Country"
-        }
       }
     ]
   },
