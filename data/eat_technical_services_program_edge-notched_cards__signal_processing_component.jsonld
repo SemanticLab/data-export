@@ -9,6 +9,160 @@
     ],
     "instanceOf": [
       {
+        "@id": "_:bn101581",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29604",
+          "rdfs:label": "signal processing component",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn101582",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27377",
+          "rdfs:label": "field of work",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn101583",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn101584",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28603",
+          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn101585",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22687",
+          "rdfs:label": "Field Painting",
+          "@type": "Painting"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24644",
+            "rdfs:label": "Block 10 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/10.txt"
+          },
+          {
+            "@id": "semlab:Q25840",
+            "rdfs:label": "Block 0 of A235 E.A.T. project description",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22899/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn101586",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24219",
+          "rdfs:label": "Bandoneon!",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24655",
+            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn101587",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24700",
+          "rdfs:label": "Friends and Neighbors",
+          "@type": "InstallationArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24756",
+            "rdfs:label": "Block 31 of The Story of E.A.T. (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/31.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn101588",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19495",
+          "rdfs:label": "Open Score",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24012",
+            "rdfs:label": "Block 0 of A210 9 Evenings press release",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
+          }
+        ]
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24360.jpg"
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn101589",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22667",
+          "rdfs:label": "Feedback Device",
+          "@type": "UniquelyEngineeredDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q22432",
+            "rdfs:label": "A237 E.A.T. project description"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn101590",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29511",
+          "rdfs:label": "polyethylene air-inflated structure",
+          "@type": "UniquelyEngineeredDevice"
+        },
+        "referenceUrl": [
+          "https://www.experimentsinartandtechnology.org/steve-paxton-physical-things"
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24564",
+    "rdfs:label": "transducer",
+    "@type": [
+      "SignalProcessingComponent",
+      "FieldOfWork"
+    ],
+    "instanceOf": [
+      {
         "@id": "_:bn101591",
         "@type": "RelEvent",
         "agentObj": {
@@ -50,160 +204,6 @@
     "usedIn": [
       {
         "@id": "_:bn101595",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q22687",
-          "rdfs:label": "Field Painting",
-          "@type": "Painting"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24644",
-            "rdfs:label": "Block 10 of The Story of E.A.T. (pp.1-30)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/10.txt"
-          },
-          {
-            "@id": "semlab:Q25840",
-            "rdfs:label": "Block 0 of A235 E.A.T. project description",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22899/0.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn101596",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24219",
-          "rdfs:label": "Bandoneon!",
-          "@type": "PerformanceArtwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24655",
-            "rdfs:label": "Block 21 of The Story of E.A.T. (pp.1-30)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/21.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn101597",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24700",
-          "rdfs:label": "Friends and Neighbors",
-          "@type": "InstallationArtwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24756",
-            "rdfs:label": "Block 31 of The Story of E.A.T. (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/31.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn101598",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19495",
-          "rdfs:label": "Open Score",
-          "@type": "PerformanceArtwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24012",
-            "rdfs:label": "Block 0 of A210 9 Evenings press release",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19860/0.txt"
-          }
-        ]
-      }
-    ],
-    "thumbnail": [
-      {
-        "@value": "https://semlab.s3.amazonaws.com/images/Q24360.jpg"
-      }
-    ],
-    "partOf": [
-      {
-        "@id": "_:bn101599",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q22667",
-          "rdfs:label": "Feedback Device",
-          "@type": "UniquelyEngineeredDevice"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q22432",
-            "rdfs:label": "A237 E.A.T. project description"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn101600",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29511",
-          "rdfs:label": "polyethylene air-inflated structure",
-          "@type": "UniquelyEngineeredDevice"
-        },
-        "referenceUrl": [
-          "https://www.experimentsinartandtechnology.org/steve-paxton-physical-things"
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24564",
-    "rdfs:label": "transducer",
-    "@type": [
-      "SignalProcessingComponent",
-      "FieldOfWork"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn101601",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29604",
-          "rdfs:label": "signal processing component",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn101602",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27377",
-          "rdfs:label": "field of work",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn101603",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn101604",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28603",
-          "rdfs:label": "E.A.T. Technical Services Program Edge-Notched Cards",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "usedIn": [
-      {
-        "@id": "_:bn101605",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24219",

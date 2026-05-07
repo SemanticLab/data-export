@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn103550",
+        "@id": "_:bn103540",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19085",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "@id": "_:bn103551",
+        "@id": "_:bn103541",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24537",
@@ -29,7 +29,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn103552",
+        "@id": "_:bn103542",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -38,7 +38,7 @@
         }
       },
       {
-        "@id": "_:bn103553",
+        "@id": "_:bn103543",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -54,7 +54,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn103554",
+        "@id": "_:bn103544",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -102,6 +102,179 @@
     ],
     "instanceOf": [
       {
+        "@id": "_:bn103545",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24537",
+          "rdfs:label": "art gallery",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn103546",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19085",
+          "rdfs:label": "business",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn103547",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn103548",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30541",
+    "rdfs:label": "Galleria dell'Obelisco",
+    "@type": [
+      "ArtGallery",
+      "Business"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn103549",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24537",
+          "rdfs:label": "art gallery",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn103550",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19085",
+          "rdfs:label": "business",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn103551",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn103552",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28971",
+          "rdfs:label": "Rome (Italy)",
+          "@type": "City"
+        },
+        "streetAddress": [
+          {
+            "text": "Via Sistina 146",
+            "language": "it"
+          }
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30294",
+            "rdfs:label": "1948 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "46"
+        ]
+      }
+    ],
+    "foundedBy": [
+      {
+        "@id": "_:bn103553",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30280",
+          "rdfs:label": "Gaspero Del Corso",
+          "@type": "Person"
+        },
+        "startTime": [
+          "+1946-11-00T00:00:00Z"
+        ],
+        "location": [
+          {
+            "@id": "semlab:Q28971",
+            "rdfs:label": "Rome (Italy)"
+          }
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30294",
+            "rdfs:label": "1948 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "46"
+        ]
+      },
+      {
+        "@id": "_:bn103554",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30281",
+          "rdfs:label": "Irene Brin",
+          "@type": "Person"
+        },
+        "startTime": [
+          "+1946-11-00T00:00:00Z"
+        ],
+        "location": [
+          {
+            "@id": "semlab:Q28971",
+            "rdfs:label": "Rome (Italy)"
+          }
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30294",
+            "rdfs:label": "1948 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "46"
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30545",
+    "rdfs:label": "La Margherita",
+    "@type": [
+      "ArtGallery",
+      "Business"
+    ],
+    "instanceOf": [
+      {
         "@id": "_:bn103555",
         "@type": "RelEvent",
         "agentObj": {
@@ -136,8 +309,8 @@
         "@id": "_:bn103558",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19486",
-          "rdfs:label": "New York (N.Y.)",
+          "@id": "semlab:Q28971",
+          "rdfs:label": "Rome (Italy)",
           "@type": "City"
         }
       }
@@ -145,8 +318,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30541",
-    "rdfs:label": "Galleria dell'Obelisco",
+    "@id": "semlab:Q30600",
+    "rdfs:label": "Hugo Gallery",
     "@type": [
       "ArtGallery",
       "Business"
@@ -187,179 +360,6 @@
         "@id": "_:bn103562",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28971",
-          "rdfs:label": "Rome (Italy)",
-          "@type": "City"
-        },
-        "streetAddress": [
-          {
-            "text": "Via Sistina 146",
-            "language": "it"
-          }
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30294",
-            "rdfs:label": "1948 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "46"
-        ]
-      }
-    ],
-    "foundedBy": [
-      {
-        "@id": "_:bn103563",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30280",
-          "rdfs:label": "Gaspero Del Corso",
-          "@type": "Person"
-        },
-        "startTime": [
-          "+1946-11-00T00:00:00Z"
-        ],
-        "location": [
-          {
-            "@id": "semlab:Q28971",
-            "rdfs:label": "Rome (Italy)"
-          }
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30294",
-            "rdfs:label": "1948 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "46"
-        ]
-      },
-      {
-        "@id": "_:bn103564",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30281",
-          "rdfs:label": "Irene Brin",
-          "@type": "Person"
-        },
-        "startTime": [
-          "+1946-11-00T00:00:00Z"
-        ],
-        "location": [
-          {
-            "@id": "semlab:Q28971",
-            "rdfs:label": "Rome (Italy)"
-          }
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30294",
-            "rdfs:label": "1948 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "46"
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30545",
-    "rdfs:label": "La Margherita",
-    "@type": [
-      "ArtGallery",
-      "Business"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn103565",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24537",
-          "rdfs:label": "art gallery",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn103566",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19085",
-          "rdfs:label": "business",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn103567",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn103568",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28971",
-          "rdfs:label": "Rome (Italy)",
-          "@type": "City"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30600",
-    "rdfs:label": "Hugo Gallery",
-    "@type": [
-      "ArtGallery",
-      "Business"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn103569",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24537",
-          "rdfs:label": "art gallery",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn103570",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19085",
-          "rdfs:label": "business",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn103571",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn103572",
-        "@type": "RelEvent",
-        "agentObj": {
           "@id": "semlab:Q19486",
           "rdfs:label": "New York (N.Y.)",
           "@type": "City"
@@ -382,7 +382,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn103573",
+        "@id": "_:bn103563",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24537",
@@ -391,7 +391,7 @@
         }
       },
       {
-        "@id": "_:bn103574",
+        "@id": "_:bn103564",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19085",
@@ -402,7 +402,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn103575",
+        "@id": "_:bn103565",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -413,7 +413,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn103576",
+        "@id": "_:bn103566",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -424,7 +424,7 @@
     ],
     "foundedBy": [
       {
-        "@id": "_:bn103577",
+        "@id": "_:bn103567",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30399",

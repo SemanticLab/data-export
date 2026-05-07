@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2026-05-06
+Generated: 2026-05-07
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -375,8 +375,8 @@ Generated: 2026-05-06
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [berenson_bibliography_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__all.jsonld) | 346  |
-| Person    | [berenson_bibliography_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__person.jsonld) | 105  |
+| All    | [berenson_bibliography_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__all.jsonld) | 350  |
+| Person    | [berenson_bibliography_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__person.jsonld) | 107  |
 | Group    | [berenson_bibliography_project__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__group.jsonld) | 2  |
 | Organization    | [berenson_bibliography_project__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__organization.jsonld) | 1  |
 | Place    | [berenson_bibliography_project__place.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__place.jsonld) | 5  |
@@ -388,6 +388,7 @@ Generated: 2026-05-06
 | Academic Journal    | [berenson_bibliography_project__academic_journal.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__academic_journal.jsonld) | 4  |
 | Article    | [berenson_bibliography_project__article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__article.jsonld) | 50  |
 | Book    | [berenson_bibliography_project__book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__book.jsonld) | 47  |
+| Material    | [berenson_bibliography_project__material.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__material.jsonld) | 1  |
 | Drawing    | [berenson_bibliography_project__drawing.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__drawing.jsonld) | 1  |
 | Painting    | [berenson_bibliography_project__painting.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__painting.jsonld) | 35  |
 | Island    | [berenson_bibliography_project__island.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__island.jsonld) | 1  |
@@ -396,7 +397,7 @@ Generated: 2026-05-06
 | Print    | [berenson_bibliography_project__print.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__print.jsonld) | 1  |
 | Letter To The Editor    | [berenson_bibliography_project__letter_to_the_editor.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__letter_to_the_editor.jsonld) | 9  |
 | Review    | [berenson_bibliography_project__review.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__review.jsonld) | 26  |
-| Character    | [berenson_bibliography_project__character.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__character.jsonld) | 1  |
+| Character    | [berenson_bibliography_project__character.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__character.jsonld) | 2  |
 | Dissertation    | [berenson_bibliography_project__dissertation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__dissertation.jsonld) | 1  |
 | Language    | [berenson_bibliography_project__language.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__language.jsonld) | 4  |
 | Church    | [berenson_bibliography_project__church.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__church.jsonld) | 3  |
