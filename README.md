@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2026-05-15
+Generated: 2026-05-16
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -125,8 +125,8 @@ Generated: 2026-05-15
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat_knowledge_graph_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__all.jsonld) | 2403  |
-| Person    | [eat_knowledge_graph_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__person.jsonld) | 1133  |
+| All    | [eat_knowledge_graph_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__all.jsonld) | 2404  |
+| Person    | [eat_knowledge_graph_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__person.jsonld) | 1134  |
 | Institution    | [eat_knowledge_graph_project__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__institution.jsonld) | 67  |
 | Linking Lost Jazz "Shrine"    | [eat_knowledge_graph_project__linking_lost_jazz_"shrine".jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__linking_lost_jazz_"shrine".jsonld) | 3  |
 | Borough    | [eat_knowledge_graph_project__borough.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__borough.jsonld) | 2  |
@@ -238,8 +238,8 @@ Generated: 2026-05-15
 | Uniquely Engineered Device    | [eat_knowledge_graph_project__uniquely_engineered_device.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__uniquely_engineered_device.jsonld) | 16  |
 | Audio Device    | [eat_knowledge_graph_project__audio_device.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__audio_device.jsonld) | 10  |
 | Visual Projection Or Display Device    | [eat_knowledge_graph_project__visual_projection_or_display_device.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__visual_projection_or_display_device.jsonld) | 14  |
-| Plastic And Foam    | [eat_knowledge_graph_project__plastic_and_foam.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__plastic_and_foam.jsonld) | 12  |
-| Textile    | [eat_knowledge_graph_project__textile.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__textile.jsonld) | 7  |
+| Plastic And Foam    | [eat_knowledge_graph_project__plastic_and_foam.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__plastic_and_foam.jsonld) | 13  |
+| Textile    | [eat_knowledge_graph_project__textile.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__textile.jsonld) | 6  |
 | Auditory Phenomenon    | [eat_knowledge_graph_project__auditory_phenomenon.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__auditory_phenomenon.jsonld) | 14  |
 | Optical Phenomenon    | [eat_knowledge_graph_project__optical_phenomenon.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__optical_phenomenon.jsonld) | 11  |
 | Biological Signal Or Activity    | [eat_knowledge_graph_project__biological_signal_or_activity.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__biological_signal_or_activity.jsonld) | 4  |
@@ -375,8 +375,8 @@ Generated: 2026-05-15
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [berenson_bibliography_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__all.jsonld) | 363  |
-| Person    | [berenson_bibliography_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__person.jsonld) | 117  |
+| All    | [berenson_bibliography_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__all.jsonld) | 364  |
+| Person    | [berenson_bibliography_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__person.jsonld) | 118  |
 | Group    | [berenson_bibliography_project__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__group.jsonld) | 2  |
 | Organization    | [berenson_bibliography_project__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__organization.jsonld) | 1  |
 | Place    | [berenson_bibliography_project__place.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/berenson_bibliography_project__place.jsonld) | 5  |
