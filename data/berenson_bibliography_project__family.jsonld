@@ -13,41 +13,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn105961",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19097",
-          "rdfs:label": "family",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn105962",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28959",
-          "rdfs:label": "Berenson Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29909",
-    "rdfs:label": "Schlegel brothers",
-    "wikidataQid": [
-      {
-        "@value": "Q108763535"
-      }
-    ],
-    "@type": [
-      "Family"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn105963",
         "@type": "RelEvent",
         "agentObj": {
@@ -71,8 +36,13 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30026",
-    "rdfs:label": "Pollaiuolo family",
+    "@id": "semlab:Q29909",
+    "rdfs:label": "Schlegel brothers",
+    "wikidataQid": [
+      {
+        "@value": "Q108763535"
+      }
+    ],
     "@type": [
       "Family"
     ],
@@ -90,6 +60,36 @@
     "partOfProject": [
       {
         "@id": "_:bn105966",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28959",
+          "rdfs:label": "Berenson Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30026",
+    "rdfs:label": "Pollaiuolo family",
+    "@type": [
+      "Family"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn105967",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19097",
+          "rdfs:label": "family",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn105968",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
