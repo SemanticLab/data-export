@@ -2,14 +2,14 @@
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q24043",
-    "rdfs:label": "TECHNE",
+    "rdfs:label": "Techne",
     "@type": [
       "Publication",
       "Newspaper"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80417",
+        "@id": "_:bn80453",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -25,7 +25,7 @@
         ]
       },
       {
-        "@id": "_:bn80418",
+        "@id": "_:bn80454",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28950",
@@ -43,7 +43,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80419",
+        "@id": "_:bn80455",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -54,23 +54,25 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn80420",
+        "@id": "_:bn80456",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
           "rdfs:label": "Experiments in Art and Technology",
           "@type": "NonprofitOrganization"
-        },
-        "date": [
-          "+1967-00-00T00:00:00Z"
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24726",
-            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
-          }
-        ]
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1969-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
       }
     ]
   }
