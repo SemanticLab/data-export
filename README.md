@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2026-06-14
+Generated: 2026-06-16
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -306,12 +306,12 @@ Generated: 2026-06-14
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat_technical_services_program_edge-notched_cards__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__all.jsonld) | 720  |
-| Person    | [eat_technical_services_program_edge-notched_cards__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__person.jsonld) | 369  |
+| All    | [eat_technical_services_program_edge-notched_cards__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__all.jsonld) | 728  |
+| Person    | [eat_technical_services_program_edge-notched_cards__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__person.jsonld) | 375  |
 | Institution    | [eat_technical_services_program_edge-notched_cards__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__institution.jsonld) | 28  |
 | Organization    | [eat_technical_services_program_edge-notched_cards__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__organization.jsonld) | 11  |
 | Occupation    | [eat_technical_services_program_edge-notched_cards__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__occupation.jsonld) | 2  |
-| Business    | [eat_technical_services_program_edge-notched_cards__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__business.jsonld) | 59  |
+| Business    | [eat_technical_services_program_edge-notched_cards__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__business.jsonld) | 60  |
 | School    | [eat_technical_services_program_edge-notched_cards__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__school.jsonld) | 1  |
 | Publisher    | [eat_technical_services_program_edge-notched_cards__publisher.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__publisher.jsonld) | 1  |
 | Nonprofit Organization    | [eat_technical_services_program_edge-notched_cards__nonprofit_organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__nonprofit_organization.jsonld) | 1  |
@@ -319,7 +319,7 @@ Generated: 2026-06-14
 | Unrealized Project    | [eat_technical_services_program_edge-notched_cards__unrealized_project.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__unrealized_project.jsonld) | 1  |
 | Video Recordings (Material)    | [eat_technical_services_program_edge-notched_cards__video_recordings_(material).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__video_recordings_(material).jsonld) | 1  |
 | Field Of Work    | [eat_technical_services_program_edge-notched_cards__field_of_work.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__field_of_work.jsonld) | 68  |
-| Edge-Notched Card    | [eat_technical_services_program_edge-notched_cards__edge-notched_card.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__edge-notched_card.jsonld) | 167  |
+| Edge-Notched Card    | [eat_technical_services_program_edge-notched_cards__edge-notched_card.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__edge-notched_card.jsonld) | 168  |
 | Role    | [eat_technical_services_program_edge-notched_cards__role.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__role.jsonld) | 1  |
 | Signal Processing Component    | [eat_technical_services_program_edge-notched_cards__signal_processing_component.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__signal_processing_component.jsonld) | 2  |
 | Auditory Phenomenon    | [eat_technical_services_program_edge-notched_cards__auditory_phenomenon.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__auditory_phenomenon.jsonld) | 1  |
@@ -330,8 +330,8 @@ Generated: 2026-06-14
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [roma__new_york_1948-1964_germano_celant_pilot__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__all.jsonld) | 264  |
-| Person    | [roma__new_york_1948-1964_germano_celant_pilot__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__person.jsonld) | 197  |
+| All    | [roma__new_york_1948-1964_germano_celant_pilot__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__all.jsonld) | 266  |
+| Person    | [roma__new_york_1948-1964_germano_celant_pilot__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__person.jsonld) | 199  |
 | Institution    | [roma__new_york_1948-1964_germano_celant_pilot__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__institution.jsonld) | 1  |
 | Group    | [roma__new_york_1948-1964_germano_celant_pilot__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__group.jsonld) | 2  |
 | Organization    | [roma__new_york_1948-1964_germano_celant_pilot__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__organization.jsonld) | 3  |
