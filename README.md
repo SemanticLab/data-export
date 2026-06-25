@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2026-06-24
+Generated: 2026-06-25
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -24,19 +24,20 @@ Generated: 2026-06-24
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [linked_jazz_oral_history_network__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__all.jsonld) | 2258  |
+| All    | [linked_jazz_oral_history_network__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__all.jsonld) | 2259  |
 | Person    | [linked_jazz_oral_history_network__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__person.jsonld) | 2198  |
 | Institution    | [linked_jazz_oral_history_network__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__institution.jsonld) | 5  |
 | Music Group    | [linked_jazz_oral_history_network__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__music_group.jsonld) | 2  |
+| Organization    | [linked_jazz_oral_history_network__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__organization.jsonld) | 1  |
 | Interview Transcript    | [linked_jazz_oral_history_network__interview_transcript.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__interview_transcript.jsonld) | 52  |
 | Collection    | [linked_jazz_oral_history_network__collection.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linked_jazz_oral_history_network__collection.jsonld) | 1  |
 ## Linking Lost Jazz Shrines
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [linking_lost_jazz_shrines__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__all.jsonld) | 1036  |
+| All    | [linking_lost_jazz_shrines__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__all.jsonld) | 1037  |
 | Person    | [linking_lost_jazz_shrines__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__person.jsonld) | 616  |
-| Institution    | [linking_lost_jazz_shrines__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__institution.jsonld) | 1  |
+| Institution    | [linking_lost_jazz_shrines__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__institution.jsonld) | 2  |
 | Music Group    | [linking_lost_jazz_shrines__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__music_group.jsonld) | 53  |
 | Linking Lost Jazz "Shrine"    | [linking_lost_jazz_shrines__linking_lost_jazz_"shrine".jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__linking_lost_jazz_"shrine".jsonld) | 174  |
 | Borough    | [linking_lost_jazz_shrines__borough.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__borough.jsonld) | 1  |
