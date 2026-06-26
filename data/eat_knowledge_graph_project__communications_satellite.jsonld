@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79532",
+        "@id": "_:bn79540",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24457",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79533",
+        "@id": "_:bn79541",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -43,145 +43,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q24456",
     "rdfs:label": "ECHO",
-    "@type": [
-      "CommunicationsSatellite"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79534",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24457",
-          "rdfs:label": "communications satellite",
-          "@type": "CommunicationDevice"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24740",
-            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79535",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn79536",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19173",
-          "rdfs:label": "Bell Labs",
-          "@type": "Publisher"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24740",
-            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
-          }
-        ]
-      }
-    ],
-    "uses": [
-      {
-        "@id": "_:bn79537",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24413",
-          "rdfs:label": "Mylar",
-          "@type": "PlasticAndFoam"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24740",
-            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn79538",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24356",
-          "rdfs:label": "mirror",
-          "@type": "Material"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24740",
-            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
-          }
-        ]
-      }
-    ],
-    "contributor": [
-      {
-        "@id": "_:bn79539",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24447",
-          "rdfs:label": "Elsa Garmire",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24740",
-            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn79540",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24666",
-          "rdfs:label": "Gilmore Schjeldahl",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24740",
-            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn79541",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19180",
-          "rdfs:label": "Billy Kl\u00fcver",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24740",
-            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24460",
-    "rdfs:label": "PAGEOS",
     "@type": [
       "CommunicationsSatellite"
     ],
@@ -214,9 +75,148 @@
         }
       }
     ],
-    "uses": [
+    "creator": [
       {
         "@id": "_:bn79544",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19173",
+          "rdfs:label": "Bell Labs",
+          "@type": "Publisher"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24740",
+            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
+          }
+        ]
+      }
+    ],
+    "uses": [
+      {
+        "@id": "_:bn79545",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24413",
+          "rdfs:label": "Mylar",
+          "@type": "PlasticAndFoam"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24740",
+            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79546",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24356",
+          "rdfs:label": "mirror",
+          "@type": "Material"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24740",
+            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
+          }
+        ]
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn79547",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24447",
+          "rdfs:label": "Elsa Garmire",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24740",
+            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79548",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24666",
+          "rdfs:label": "Gilmore Schjeldahl",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24740",
+            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79549",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19180",
+          "rdfs:label": "Billy Kl\u00fcver",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24740",
+            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24460",
+    "rdfs:label": "PAGEOS",
+    "@type": [
+      "CommunicationsSatellite"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79550",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24457",
+          "rdfs:label": "communications satellite",
+          "@type": "CommunicationDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24740",
+            "rdfs:label": "Block 15 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/15.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79551",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "uses": [
+      {
+        "@id": "_:bn79552",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24356",
@@ -232,7 +232,7 @@
         ]
       },
       {
-        "@id": "_:bn79545",
+        "@id": "_:bn79553",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24413",
@@ -250,7 +250,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn79546",
+        "@id": "_:bn79554",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24666",
@@ -268,7 +268,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn79547",
+        "@id": "_:bn79555",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19476",
@@ -287,7 +287,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79548",
+        "@id": "_:bn79556",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24457",
@@ -305,7 +305,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79549",
+        "@id": "_:bn79557",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -316,7 +316,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn79550",
+        "@id": "_:bn79558",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24469",
@@ -334,7 +334,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn79551",
+        "@id": "_:bn79559",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19558",
@@ -352,7 +352,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn79552",
+        "@id": "_:bn79560",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24677",
@@ -370,7 +370,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn79553",
+        "@id": "_:bn79561",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19161",

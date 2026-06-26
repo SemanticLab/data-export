@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79554",
+        "@id": "_:bn79562",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19085",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "@id": "_:bn79555",
+        "@id": "_:bn79563",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24537",
@@ -29,7 +29,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79556",
+        "@id": "_:bn79564",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -38,7 +38,7 @@
         }
       },
       {
-        "@id": "_:bn79557",
+        "@id": "_:bn79565",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -54,7 +54,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn79558",
+        "@id": "_:bn79566",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -101,131 +101,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79559",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24537",
-          "rdfs:label": "art gallery",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79560",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24680",
-    "rdfs:label": "420 West Broadway",
-    "@type": [
-      "Business",
-      "ArtGallery"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79561",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19085",
-          "rdfs:label": "business",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn79562",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24537",
-          "rdfs:label": "art gallery",
-          "@type": "Class"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24750",
-            "rdfs:label": "Block 25 of The Story of E.A.T. (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/25.txt"
-          }
-        ]
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn79563",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19486",
-          "rdfs:label": "New York (N.Y.)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24750",
-            "rdfs:label": "Block 25 of The Story of E.A.T. (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/25.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79564",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25726",
-    "rdfs:label": "Arthur Houghton Gallery",
-    "@type": [
-      "ArtGallery"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79565",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24537",
-          "rdfs:label": "art gallery",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79566",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25743",
-    "rdfs:label": "Perspectives Gallery",
-    "@type": [
-      "ArtGallery"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn79567",
         "@type": "RelEvent",
         "agentObj": {
@@ -249,14 +124,79 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q28970",
-    "rdfs:label": "Galleria Comunale d'Arte Moderna e Contemporanea",
+    "@id": "semlab:Q24680",
+    "rdfs:label": "420 West Broadway",
     "@type": [
+      "Business",
       "ArtGallery"
     ],
     "instanceOf": [
       {
         "@id": "_:bn79569",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19085",
+          "rdfs:label": "business",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn79570",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24537",
+          "rdfs:label": "art gallery",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24750",
+            "rdfs:label": "Block 25 of The Story of E.A.T. (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/25.txt"
+          }
+        ]
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn79571",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24750",
+            "rdfs:label": "Block 25 of The Story of E.A.T. (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/25.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79572",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25726",
+    "rdfs:label": "Arthur Houghton Gallery",
+    "@type": [
+      "ArtGallery"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79573",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24537",
@@ -267,7 +207,67 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79570",
+        "@id": "_:bn79574",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25743",
+    "rdfs:label": "Perspectives Gallery",
+    "@type": [
+      "ArtGallery"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79575",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24537",
+          "rdfs:label": "art gallery",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79576",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q28970",
+    "rdfs:label": "Galleria Comunale d'Arte Moderna e Contemporanea",
+    "@type": [
+      "ArtGallery"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79577",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24537",
+          "rdfs:label": "art gallery",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79578",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -278,7 +278,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn79571",
+        "@id": "_:bn79579",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28971",
