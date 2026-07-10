@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2026-07-09
+Generated: 2026-07-10
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -307,8 +307,8 @@ Generated: 2026-07-09
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat_technical_services_program_edge-notched_cards__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__all.jsonld) | 910  |
-| Person    | [eat_technical_services_program_edge-notched_cards__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__person.jsonld) | 473  |
+| All    | [eat_technical_services_program_edge-notched_cards__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__all.jsonld) | 911  |
+| Person    | [eat_technical_services_program_edge-notched_cards__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__person.jsonld) | 474  |
 | Institution    | [eat_technical_services_program_edge-notched_cards__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__institution.jsonld) | 36  |
 | Organization    | [eat_technical_services_program_edge-notched_cards__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__organization.jsonld) | 11  |
 | Occupation    | [eat_technical_services_program_edge-notched_cards__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__occupation.jsonld) | 2  |
