@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2026-07-15
+Generated: 2026-07-16
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -331,23 +331,27 @@ Generated: 2026-07-15
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [roma__new_york_1948-1964_germano_celant_pilot__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__all.jsonld) | 298  |
-| Person    | [roma__new_york_1948-1964_germano_celant_pilot__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__person.jsonld) | 231  |
-| Institution    | [roma__new_york_1948-1964_germano_celant_pilot__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__institution.jsonld) | 1  |
+| All    | [roma__new_york_1948-1964_germano_celant_pilot__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__all.jsonld) | 341  |
+| Person    | [roma__new_york_1948-1964_germano_celant_pilot__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__person.jsonld) | 233  |
+| Institution    | [roma__new_york_1948-1964_germano_celant_pilot__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__institution.jsonld) | 2  |
 | Group    | [roma__new_york_1948-1964_germano_celant_pilot__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__group.jsonld) | 2  |
-| Organization    | [roma__new_york_1948-1964_germano_celant_pilot__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__organization.jsonld) | 3  |
-| Place    | [roma__new_york_1948-1964_germano_celant_pilot__place.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__place.jsonld) | 1  |
+| Organization    | [roma__new_york_1948-1964_germano_celant_pilot__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__organization.jsonld) | 6  |
+| Place    | [roma__new_york_1948-1964_germano_celant_pilot__place.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__place.jsonld) | 6  |
 | Country    | [roma__new_york_1948-1964_germano_celant_pilot__country.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__country.jsonld) | 6  |
 | State    | [roma__new_york_1948-1964_germano_celant_pilot__state.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__state.jsonld) | 1  |
+| City    | [roma__new_york_1948-1964_germano_celant_pilot__city.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__city.jsonld) | 1  |
 | Venue    | [roma__new_york_1948-1964_germano_celant_pilot__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__venue.jsonld) | 1  |
 | Publication    | [roma__new_york_1948-1964_germano_celant_pilot__publication.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__publication.jsonld) | 1  |
 | Business    | [roma__new_york_1948-1964_germano_celant_pilot__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__business.jsonld) | 6  |
+| Museum    | [roma__new_york_1948-1964_germano_celant_pilot__museum.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__museum.jsonld) | 1  |
+| School    | [roma__new_york_1948-1964_germano_celant_pilot__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__school.jsonld) | 1  |
 | Catalogue    | [roma__new_york_1948-1964_germano_celant_pilot__catalogue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__catalogue.jsonld) | 1  |
 | Publisher    | [roma__new_york_1948-1964_germano_celant_pilot__publisher.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__publisher.jsonld) | 2  |
-| Art Exhibition    | [roma__new_york_1948-1964_germano_celant_pilot__art_exhibition.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__art_exhibition.jsonld) | 3  |
+| Art Exhibition    | [roma__new_york_1948-1964_germano_celant_pilot__art_exhibition.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__art_exhibition.jsonld) | 14  |
 | Park    | [roma__new_york_1948-1964_germano_celant_pilot__park.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__park.jsonld) | 1  |
-| Art Gallery    | [roma__new_york_1948-1964_germano_celant_pilot__art_gallery.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__art_gallery.jsonld) | 7  |
+| Art Gallery    | [roma__new_york_1948-1964_germano_celant_pilot__art_gallery.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__art_gallery.jsonld) | 24  |
 | Artist Collective    | [roma__new_york_1948-1964_germano_celant_pilot__artist_collective.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__artist_collective.jsonld) | 4  |
+| Church    | [roma__new_york_1948-1964_germano_celant_pilot__church.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__church.jsonld) | 1  |
 | Garden    | [roma__new_york_1948-1964_germano_celant_pilot__garden.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__garden.jsonld) | 1  |
 | Biennale    | [roma__new_york_1948-1964_germano_celant_pilot__biennale.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__biennale.jsonld) | 9  |
 | Chapter    | [roma__new_york_1948-1964_germano_celant_pilot__chapter.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__chapter.jsonld) | 17  |
