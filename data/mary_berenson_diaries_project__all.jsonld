@@ -3468,6 +3468,36 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30044",
+    "rdfs:label": "Morellian method",
+    "@type": [
+      "Method"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn108436",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30043",
+          "rdfs:label": "method",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn108437",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q29597",
     "rdfs:label": "Intruder",
     "wikidataQid": [
@@ -3480,7 +3510,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn108436",
+        "@id": "_:bn108438",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28941",
@@ -3491,7 +3521,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn108437",
+        "@id": "_:bn108439",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3515,41 +3545,11 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn108438",
+        "@id": "_:bn108440",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
           "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn108439",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30044",
-    "rdfs:label": "Morellian method",
-    "@type": [
-      "Method"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn108440",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30043",
-          "rdfs:label": "method",
           "@type": "Class"
         }
       }
