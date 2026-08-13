@@ -5,7 +5,7 @@
     "rdfs:label": "\"body sounds\"",
     "partOfProject": [
       {
-        "@id": "_:bn81722",
+        "@id": "_:bn81726",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -16,7 +16,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81723",
+        "@id": "_:bn81727",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24239",
@@ -37,7 +37,7 @@
         ]
       },
       {
-        "@id": "_:bn81724",
+        "@id": "_:bn81728",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29213",
@@ -63,7 +63,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81725",
+        "@id": "_:bn81729",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29613",
@@ -84,7 +84,7 @@
     "rdfs:label": "brain wave",
     "partOfProject": [
       {
-        "@id": "_:bn81726",
+        "@id": "_:bn81730",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -95,7 +95,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81727",
+        "@id": "_:bn81731",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24338",
@@ -107,7 +107,7 @@
         ]
       },
       {
-        "@id": "_:bn81728",
+        "@id": "_:bn81732",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29208",
@@ -118,72 +118,6 @@
           "https://www.fondation-langlois.org/9evenings/e/john-cage/performance.html"
         ]
       },
-      {
-        "@id": "_:bn81729",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24239",
-          "rdfs:label": "Grass Field (9 Evenings performance on October 13, 1966)",
-          "@type": "Performance"
-        },
-        "referenceUrl": [
-          "https://www.fondation-langlois.org/html/e/page.php?NumPage=2151"
-        ]
-      },
-      {
-        "@id": "_:bn81730",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29213",
-          "rdfs:label": "Grass Field (9 Evenings performance on October 22, 1966)",
-          "@type": "Performance"
-        },
-        "referenceUrl": [
-          "https://www.fondation-langlois.org/html/e/page.php?NumPage=2151"
-        ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q60442"
-      }
-    ],
-    "@type": [
-      "BiologicalSignalOrActivity"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn81731",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29613",
-          "rdfs:label": "biological signal or activity",
-          "@type": "Class"
-        }
-      }
-    ],
-    "thumbnail": [
-      {
-        "@value": "https://semlab.s3.amazonaws.com/images/Q29503.jpg"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29504",
-    "rdfs:label": "muscle activity",
-    "partOfProject": [
-      {
-        "@id": "_:bn81732",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "usedIn": [
       {
         "@id": "_:bn81733",
         "@type": "RelEvent",
@@ -209,6 +143,11 @@
         ]
       }
     ],
+    "wikidataQid": [
+      {
+        "@value": "Q60442"
+      }
+    ],
     "@type": [
       "BiologicalSignalOrActivity"
     ],
@@ -225,14 +164,14 @@
     ],
     "thumbnail": [
       {
-        "@value": "https://semlab.s3.amazonaws.com/images/Q29504.jpg"
+        "@value": "https://semlab.s3.amazonaws.com/images/Q29503.jpg"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29505",
-    "rdfs:label": "eye movement",
+    "@id": "semlab:Q29504",
+    "rdfs:label": "muscle activity",
     "partOfProject": [
       {
         "@id": "_:bn81736",
@@ -255,6 +194,67 @@
         },
         "referenceUrl": [
           "https://www.fondation-langlois.org/html/e/page.php?NumPage=2151"
+        ]
+      },
+      {
+        "@id": "_:bn81738",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29213",
+          "rdfs:label": "Grass Field (9 Evenings performance on October 22, 1966)",
+          "@type": "Performance"
+        },
+        "referenceUrl": [
+          "https://www.fondation-langlois.org/html/e/page.php?NumPage=2151"
+        ]
+      }
+    ],
+    "@type": [
+      "BiologicalSignalOrActivity"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn81739",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29613",
+          "rdfs:label": "biological signal or activity",
+          "@type": "Class"
+        }
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q29504.jpg"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29505",
+    "rdfs:label": "eye movement",
+    "partOfProject": [
+      {
+        "@id": "_:bn81740",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn81741",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24239",
+          "rdfs:label": "Grass Field (9 Evenings performance on October 13, 1966)",
+          "@type": "Performance"
+        },
+        "referenceUrl": [
+          "https://www.fondation-langlois.org/html/e/page.php?NumPage=2151"
         ],
         "referenceBlock": [
           {
@@ -265,7 +265,7 @@
         ]
       },
       {
-        "@id": "_:bn81738",
+        "@id": "_:bn81742",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29213",
@@ -294,7 +294,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81739",
+        "@id": "_:bn81743",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29613",
