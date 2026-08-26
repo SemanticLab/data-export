@@ -1262,26 +1262,6 @@
         "end date"
       ]
     },
-    "presenterOf": {
-      "@id": "http://base.semlab.io/entity/P214",
-      "skos:prefLabel": "presenter of",
-      "skos:note": "work the subject presented"
-    },
-    "presentedAt": {
-      "@id": "http://base.semlab.io/entity/P215",
-      "skos:prefLabel": "presented at",
-      "skos:note": "place subject presented a work"
-    },
-    "hostedBy": {
-      "@id": "http://base.semlab.io/entity/P216",
-      "skos:prefLabel": "hosted by",
-      "skos:note": "person who hosted the subject"
-    },
-    "listenedTo": {
-      "@id": "http://base.semlab.io/entity/P217",
-      "skos:prefLabel": "listened to",
-      "skos:note": "work the subject listened to"
-    },
     "read": {
       "@id": "http://base.semlab.io/entity/P218",
       "skos:prefLabel": "read",
@@ -1483,6 +1463,26 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
+    },
+    "presenterOf": {
+      "@id": "http://base.semlab.io/entity/P214",
+      "skos:prefLabel": "presenter of",
+      "skos:note": "work the subject presented"
+    },
+    "presentedAt": {
+      "@id": "http://base.semlab.io/entity/P215",
+      "skos:prefLabel": "presented at",
+      "skos:note": "place subject presented a work"
+    },
+    "hostedBy": {
+      "@id": "http://base.semlab.io/entity/P216",
+      "skos:prefLabel": "hosted by",
+      "skos:note": "person who hosted the subject"
+    },
+    "listenedTo": {
+      "@id": "http://base.semlab.io/entity/P217",
+      "skos:prefLabel": "listened to",
+      "skos:note": "work the subject listened to"
     },
     "sponsoredBy": {
       "@id": "http://base.semlab.io/entity/P155",
@@ -2089,12 +2089,12 @@
       "@id": "http://base.semlab.io/entity/Q19058",
       "skos:prefLabel": "city",
       "skos:altLabel": [
+        "army installation",
         "hamlet",
         "military camp",
         "settlement",
         "town",
-        "village",
-        "army installation"
+        "village"
       ],
       "owl:equivalentClass": [
         "https://schema.org/City"
@@ -2207,8 +2207,8 @@
       "@id": "http://base.semlab.io/entity/Q29599",
       "skos:prefLabel": "device",
       "skos:altLabel": [
-        "mechanical device",
-        "electronic device"
+        "electronic device",
+        "mechanical device"
       ],
       "skos:note": "a thing made or adapted for a particular purpose, especially a piece of mechanical or electronic equipment"
     },
@@ -2676,12 +2676,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
-        "career",
         "craft",
         "employment",
         "job",
         "profession",
-        "work"
+        "work",
+        "career"
       ],
       "skos:note": "job title or profession of the person"
     },
@@ -2696,8 +2696,8 @@
       "@id": "http://base.semlab.io/entity/Q19049",
       "skos:prefLabel": "organization",
       "owl:equivalentClass": [
-        "https://schema.org/Organization",
-        "http://xmlns.com/foaf/0.1/Organization"
+        "http://xmlns.com/foaf/0.1/Organization",
+        "https://schema.org/Organization"
       ]
     },
     "OrganizationalChart": {
@@ -2757,8 +2757,8 @@
       "@id": "http://base.semlab.io/entity/Q1",
       "skos:prefLabel": "person",
       "owl:equivalentClass": [
-        "http://xmlns.com/foaf/0.1/Person",
-        "https://schema.org/Person"
+        "https://schema.org/Person",
+        "http://xmlns.com/foaf/0.1/Person"
       ]
     },
     "Photograph": {
@@ -3112,15 +3112,15 @@
       "@id": "http://base.semlab.io/entity/Q23736",
       "skos:prefLabel": "unrealized project",
       "skos:altLabel": [
+        "abandoned project",
+        "canceled",
+        "canceled project",
+        "cancelled",
         "cancelled project",
         "project canceled",
         "project cancelled",
         "unfinished",
-        "unfinished project",
-        "abandoned project",
-        "canceled",
-        "canceled project",
-        "cancelled"
+        "unfinished project"
       ],
       "skos:note": "project that eventually was not realized"
     },
