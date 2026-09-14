@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2026-09-13
+Generated: 2026-09-14
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -331,8 +331,8 @@ Generated: 2026-09-13
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [roma__new_york_1948-1964_germano_celant_pilot__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__all.jsonld) | 342  |
-| Person    | [roma__new_york_1948-1964_germano_celant_pilot__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__person.jsonld) | 233  |
+| All    | [roma__new_york_1948-1964_germano_celant_pilot__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__all.jsonld) | 344  |
+| Person    | [roma__new_york_1948-1964_germano_celant_pilot__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__person.jsonld) | 235  |
 | Institution    | [roma__new_york_1948-1964_germano_celant_pilot__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__institution.jsonld) | 2  |
 | Group    | [roma__new_york_1948-1964_germano_celant_pilot__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__group.jsonld) | 2  |
 | Organization    | [roma__new_york_1948-1964_germano_celant_pilot__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/roma__new_york_1948-1964_germano_celant_pilot__organization.jsonld) | 6  |
