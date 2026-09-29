@@ -1262,26 +1262,6 @@
         "end date"
       ]
     },
-    "presenterOf": {
-      "@id": "http://base.semlab.io/entity/P214",
-      "skos:prefLabel": "presenter of",
-      "skos:note": "work the subject presented"
-    },
-    "presentedAt": {
-      "@id": "http://base.semlab.io/entity/P215",
-      "skos:prefLabel": "presented at",
-      "skos:note": "place subject presented a work"
-    },
-    "hostedBy": {
-      "@id": "http://base.semlab.io/entity/P216",
-      "skos:prefLabel": "hosted by",
-      "skos:note": "person who hosted the subject"
-    },
-    "listenedTo": {
-      "@id": "http://base.semlab.io/entity/P217",
-      "skos:prefLabel": "listened to",
-      "skos:note": "work the subject listened to"
-    },
     "read": {
       "@id": "http://base.semlab.io/entity/P218",
       "skos:prefLabel": "read",
@@ -1483,6 +1463,26 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
+    },
+    "presenterOf": {
+      "@id": "http://base.semlab.io/entity/P214",
+      "skos:prefLabel": "presenter of",
+      "skos:note": "work the subject presented"
+    },
+    "presentedAt": {
+      "@id": "http://base.semlab.io/entity/P215",
+      "skos:prefLabel": "presented at",
+      "skos:note": "place subject presented a work"
+    },
+    "hostedBy": {
+      "@id": "http://base.semlab.io/entity/P216",
+      "skos:prefLabel": "hosted by",
+      "skos:note": "person who hosted the subject"
+    },
+    "listenedTo": {
+      "@id": "http://base.semlab.io/entity/P217",
+      "skos:prefLabel": "listened to",
+      "skos:note": "work the subject listened to"
     },
     "sponsoredBy": {
       "@id": "http://base.semlab.io/entity/P155",
@@ -2074,13 +2074,13 @@
       "@id": "http://base.semlab.io/entity/Q19098",
       "skos:prefLabel": "cinematic work (concept)",
       "skos:altLabel": [
+        "film",
+        "flick",
+        "motion picture",
         "movie",
         "film (work)",
         "cinematic work (concept)",
-        "film artwork (concept)",
-        "film",
-        "flick",
-        "motion picture"
+        "film artwork (concept)"
       ],
       "skos:note": "sequence of images that give the impression of movement; an artistic work created using the medium of film"
     },
@@ -2089,12 +2089,12 @@
       "@id": "http://base.semlab.io/entity/Q19058",
       "skos:prefLabel": "city",
       "skos:altLabel": [
+        "village",
         "army installation",
         "hamlet",
         "military camp",
         "settlement",
-        "town",
-        "village"
+        "town"
       ],
       "owl:equivalentClass": [
         "https://schema.org/City"
@@ -2524,8 +2524,6 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "material",
       "skos:altLabel": [
-        "art materials",
-        "art media",
         "art medium",
         "artistic material",
         "artistic media",
@@ -2534,7 +2532,9 @@
         "crafting material",
         "material",
         "media",
-        "medium"
+        "medium",
+        "art materials",
+        "art media"
       ],
       "owl:equivalentClass": [
         "http://vocab.getty.edu/page/aat/300010357"
@@ -2760,8 +2760,8 @@
       "@id": "http://base.semlab.io/entity/Q1",
       "skos:prefLabel": "person",
       "owl:equivalentClass": [
-        "http://xmlns.com/foaf/0.1/Person",
-        "https://schema.org/Person"
+        "https://schema.org/Person",
+        "http://xmlns.com/foaf/0.1/Person"
       ]
     },
     "Photograph": {
