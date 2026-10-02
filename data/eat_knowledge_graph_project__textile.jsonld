@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81761",
+        "@id": "_:bn81765",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23229",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "@id": "_:bn81762",
+        "@id": "_:bn81766",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29610",
@@ -29,7 +29,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn81763",
+        "@id": "_:bn81767",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -45,7 +45,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81764",
+        "@id": "_:bn81768",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -78,7 +78,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81765",
+        "@id": "_:bn81769",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23229",
@@ -87,7 +87,7 @@
         }
       },
       {
-        "@id": "_:bn81766",
+        "@id": "_:bn81770",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29610",
@@ -96,7 +96,7 @@
         }
       },
       {
-        "@id": "_:bn81767",
+        "@id": "_:bn81771",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29600",
@@ -107,7 +107,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn81768",
+        "@id": "_:bn81772",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -123,7 +123,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81769",
+        "@id": "_:bn81773",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24686",
@@ -149,74 +149,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q24702",
     "rdfs:label": "clothing",
-    "@type": [
-      "Material",
-      "Textile"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn81770",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q23229",
-          "rdfs:label": "material",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn81771",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29610",
-          "rdfs:label": "textile",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn81772",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q11460"
-      }
-    ],
-    "usedIn": [
-      {
-        "@id": "_:bn81773",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24700",
-          "rdfs:label": "Friends and Neighbors",
-          "@type": "InstallationArtwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24756",
-            "rdfs:label": "Block 31 of The Story of E.A.T. (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/31.txt"
-          }
-        ]
-      }
-    ],
-    "thumbnail": [
-      {
-        "@value": "https://semlab.s3.amazonaws.com/images/Q24702.jpg"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24710",
-    "rdfs:label": "ribbon",
     "@type": [
       "Material",
       "Textile"
@@ -254,12 +186,80 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q6918773"
+        "@value": "Q11460"
       }
     ],
     "usedIn": [
       {
         "@id": "_:bn81777",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24700",
+          "rdfs:label": "Friends and Neighbors",
+          "@type": "InstallationArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24756",
+            "rdfs:label": "Block 31 of The Story of E.A.T. (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/31.txt"
+          }
+        ]
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24702.jpg"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24710",
+    "rdfs:label": "ribbon",
+    "@type": [
+      "Material",
+      "Textile"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn81778",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23229",
+          "rdfs:label": "material",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn81779",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29610",
+          "rdfs:label": "textile",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn81780",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q6918773"
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn81781",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24708",
@@ -287,7 +287,7 @@
     "rdfs:label": "cloth (sack)",
     "partOfProject": [
       {
-        "@id": "_:bn81778",
+        "@id": "_:bn81782",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -298,7 +298,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81779",
+        "@id": "_:bn81783",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29199",
@@ -325,7 +325,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81780",
+        "@id": "_:bn81784",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29610",
@@ -334,7 +334,7 @@
         }
       },
       {
-        "@id": "_:bn81781",
+        "@id": "_:bn81785",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29600",
@@ -355,7 +355,7 @@
     "rdfs:label": "cloth",
     "partOfProject": [
       {
-        "@id": "_:bn81782",
+        "@id": "_:bn81786",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -366,7 +366,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81783",
+        "@id": "_:bn81787",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24239",
@@ -385,7 +385,7 @@
         ]
       },
       {
-        "@id": "_:bn81784",
+        "@id": "_:bn81788",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29213",
@@ -414,7 +414,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81785",
+        "@id": "_:bn81789",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29610",

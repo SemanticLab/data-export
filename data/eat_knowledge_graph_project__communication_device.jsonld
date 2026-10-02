@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81264",
+        "@id": "_:bn81268",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29603",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn81265",
+        "@id": "_:bn81269",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -30,7 +30,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81266",
+        "@id": "_:bn81270",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19496",
@@ -51,7 +51,7 @@
         ]
       },
       {
-        "@id": "_:bn81267",
+        "@id": "_:bn81271",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19651",
@@ -67,7 +67,7 @@
         ]
       },
       {
-        "@id": "_:bn81268",
+        "@id": "_:bn81272",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22339",
@@ -83,7 +83,7 @@
         ]
       },
       {
-        "@id": "_:bn81269",
+        "@id": "_:bn81273",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24219",
@@ -106,7 +106,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn81270",
+        "@id": "_:bn81274",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24571",
@@ -132,7 +132,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81271",
+        "@id": "_:bn81275",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29603",
@@ -143,7 +143,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn81272",
+        "@id": "_:bn81276",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -167,80 +167,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q24482",
     "rdfs:label": "telephone line",
-    "@type": [
-      "CommunicationDevice"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn81273",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29603",
-          "rdfs:label": "communication device",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn81274",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "usedIn": [
-      {
-        "@id": "_:bn81275",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q23778",
-          "rdfs:label": "Variations VII",
-          "@type": "PerformanceArtwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24657",
-            "rdfs:label": "Block 23 of The Story of E.A.T. (pp.1-30)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/23.txt"
-          },
-          {
-            "@id": "semlab:Q23787",
-            "rdfs:label": "Block 7 of A214 9 Evenings remarks by John Cage",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22956/7.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn81276",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19207",
-          "rdfs:label": "Children and Communication",
-          "@type": "Project"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24748",
-            "rdfs:label": "Block 23 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/23.txt"
-          }
-        ]
-      }
-    ],
-    "thumbnail": [
-      {
-        "@value": "https://semlab.s3.amazonaws.com/images/Q24482.jpg"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24483",
-    "rdfs:label": "facsimile machine",
     "@type": [
       "CommunicationDevice"
     ],
@@ -271,6 +197,80 @@
         "@id": "_:bn81279",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q23778",
+          "rdfs:label": "Variations VII",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24657",
+            "rdfs:label": "Block 23 of The Story of E.A.T. (pp.1-30)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/23.txt"
+          },
+          {
+            "@id": "semlab:Q23787",
+            "rdfs:label": "Block 7 of A214 9 Evenings remarks by John Cage",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22956/7.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn81280",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19207",
+          "rdfs:label": "Children and Communication",
+          "@type": "Project"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24748",
+            "rdfs:label": "Block 23 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/23.txt"
+          }
+        ]
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q24482.jpg"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24483",
+    "rdfs:label": "facsimile machine",
+    "@type": [
+      "CommunicationDevice"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn81281",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29603",
+          "rdfs:label": "communication device",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn81282",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn81283",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q19207",
           "rdfs:label": "Children and Communication",
           "@type": "Project"
@@ -299,7 +299,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81280",
+        "@id": "_:bn81284",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29603",
@@ -310,7 +310,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn81281",
+        "@id": "_:bn81285",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -321,7 +321,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81282",
+        "@id": "_:bn81286",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23778",
@@ -337,7 +337,7 @@
         ]
       },
       {
-        "@id": "_:bn81283",
+        "@id": "_:bn81287",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19207",
@@ -365,7 +365,7 @@
     "rdfs:label": "parabolic antenna",
     "partOfProject": [
       {
-        "@id": "_:bn81284",
+        "@id": "_:bn81288",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -376,7 +376,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81285",
+        "@id": "_:bn81289",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24684",
@@ -397,7 +397,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81286",
+        "@id": "_:bn81290",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29603",
@@ -421,7 +421,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81287",
+        "@id": "_:bn81291",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29603",
@@ -432,7 +432,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn81288",
+        "@id": "_:bn81292",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -443,7 +443,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81289",
+        "@id": "_:bn81293",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19207",
@@ -474,7 +474,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81290",
+        "@id": "_:bn81294",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29603",
@@ -485,7 +485,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn81291",
+        "@id": "_:bn81295",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -496,7 +496,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81292",
+        "@id": "_:bn81296",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19495",
@@ -512,7 +512,7 @@
         ]
       },
       {
-        "@id": "_:bn81293",
+        "@id": "_:bn81297",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19651",
@@ -528,7 +528,7 @@
         ]
       },
       {
-        "@id": "_:bn81294",
+        "@id": "_:bn81298",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22339",
@@ -544,7 +544,7 @@
         ]
       },
       {
-        "@id": "_:bn81295",
+        "@id": "_:bn81299",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24684",
@@ -567,12 +567,12 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn81296",
+        "@id": "_:bn81300",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22679",
           "rdfs:label": "sound-wired tennis racket",
-          "@type": "UniquelyEngineeredDevice"
+          "@type": "Artwork(Object)"
         },
         "referenceBlock": [
           {
@@ -588,7 +588,7 @@
         ]
       },
       {
-        "@id": "_:bn81297",
+        "@id": "_:bn81301",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24571",
@@ -619,7 +619,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81298",
+        "@id": "_:bn81302",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29603",
@@ -630,7 +630,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn81299",
+        "@id": "_:bn81303",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -646,7 +646,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81300",
+        "@id": "_:bn81304",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -677,7 +677,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81301",
+        "@id": "_:bn81305",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29603",
@@ -688,7 +688,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn81302",
+        "@id": "_:bn81306",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -699,7 +699,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81303",
+        "@id": "_:bn81307",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24496",
@@ -715,7 +715,7 @@
         ]
       },
       {
-        "@id": "_:bn81304",
+        "@id": "_:bn81308",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24679",
@@ -746,7 +746,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81305",
+        "@id": "_:bn81309",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29603",
@@ -757,7 +757,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn81306",
+        "@id": "_:bn81310",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -778,7 +778,7 @@
     "rdfs:label": "FM transmitter",
     "partOfProject": [
       {
-        "@id": "_:bn81307",
+        "@id": "_:bn81311",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -789,7 +789,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn81308",
+        "@id": "_:bn81312",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24238",
@@ -801,7 +801,7 @@
         ]
       },
       {
-        "@id": "_:bn81309",
+        "@id": "_:bn81313",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29210",
@@ -820,7 +820,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn81310",
+        "@id": "_:bn81314",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19614",
@@ -836,12 +836,12 @@
         ]
       },
       {
-        "@id": "_:bn81311",
+        "@id": "_:bn81315",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22679",
           "rdfs:label": "sound-wired tennis racket",
-          "@type": "UniquelyEngineeredDevice"
+          "@type": "Artwork(Object)"
         },
         "referenceBlock": [
           {
@@ -857,7 +857,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81312",
+        "@id": "_:bn81316",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29603",
@@ -881,7 +881,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn81313",
+        "@id": "_:bn81317",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29603",
@@ -892,7 +892,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn81314",
+        "@id": "_:bn81318",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -903,7 +903,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn81315",
+        "@id": "_:bn81319",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19614",
