@@ -1,71 +1,6 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q31418",
-    "rdfs:label": "School of Fine Arts Rome",
-    "@type": [
-      "School",
-      "Institution"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn113951",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20618",
-          "rdfs:label": "school",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn113952",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1804",
-          "rdfs:label": "institution",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn113953",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q338481"
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn113954",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28971",
-          "rdfs:label": "Rome (Italy)",
-          "@type": "City"
-        }
-      },
-      {
-        "@id": "_:bn113955",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q30544",
     "rdfs:label": "American Academy of Rome",
     "@type": [
@@ -73,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn113956",
+        "@id": "_:bn114149",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1804",
@@ -84,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn113957",
+        "@id": "_:bn114150",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -100,12 +35,77 @@
     ],
     "location": [
       {
-        "@id": "_:bn113958",
+        "@id": "_:bn114151",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28971",
           "rdfs:label": "Rome (Italy)",
           "@type": "City"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q31418",
+    "rdfs:label": "School of Fine Arts Rome",
+    "@type": [
+      "School",
+      "Institution"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn114152",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20618",
+          "rdfs:label": "school",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn114153",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1804",
+          "rdfs:label": "institution",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn114154",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q338481"
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn114155",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28971",
+          "rdfs:label": "Rome (Italy)",
+          "@type": "City"
+        }
+      },
+      {
+        "@id": "_:bn114156",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
         }
       }
     ]
