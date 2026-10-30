@@ -3309,18 +3309,18 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30044",
-    "rdfs:label": "Morellian method",
+    "@id": "semlab:Q27647",
+    "rdfs:label": "Berkeley St. Church",
     "@type": [
-      "Method"
+      "Church"
     ],
     "instanceOf": [
       {
         "@id": "_:bn114806",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q30043",
-          "rdfs:label": "method",
+          "@id": "semlab:Q29619",
+          "rdfs:label": "church",
           "@type": "Class"
         }
       }
@@ -3335,75 +3335,74 @@
           "@type": "SemanticLabProject"
         }
       }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29597",
-    "rdfs:label": "Intruder",
-    "wikidataQid": [
+    ],
+    "coordinateLocation": [
       {
-        "@value": "Q3204277"
+        "@value": {
+          "latitude": 42.345622,
+          "longitude": -71.070705,
+          "altitude": null,
+          "precision": 1e-06,
+          "globe": "http://www.wikidata.org/entity/Q2"
+        }
       }
     ],
-    "@type": [
-      "LiteraryWork(Concept)"
-    ],
-    "instanceOf": [
+    "location": [
       {
         "@id": "_:bn114808",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28941",
-          "rdfs:label": "literary work (concept)",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn114809",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
+          "@id": "semlab:Q21518",
+          "rdfs:label": "Boston (Mass.)",
+          "@type": "City"
         }
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29598",
-    "rdfs:label": "Maurice Maeterlinck",
-    "wikidataQid": [
-      {
-        "@value": "Q49747"
-      }
-    ],
+    "@id": "semlab:Q27665",
+    "rdfs:label": "Italian Garden, Green Hill",
     "@type": [
-      "Person"
+      "Garden"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn114810",
+        "@id": "_:bn114809",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
+          "@id": "semlab:Q29622",
+          "rdfs:label": "garden",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn114811",
+        "@id": "_:bn114810",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
           "rdfs:label": "Mary Berenson Diaries Project",
           "@type": "SemanticLabProject"
         }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn114811",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27568",
+          "rdfs:label": "Green Hill",
+          "@type": "Estate"
+        },
+        "location": [
+          {
+            "@id": "semlab:Q27567",
+            "rdfs:label": "Brookline (Mass.)"
+          }
+        ]
       }
     ]
   },
@@ -3469,18 +3468,18 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27647",
-    "rdfs:label": "Berkeley St. Church",
+    "@id": "semlab:Q30044",
+    "rdfs:label": "Morellian method",
     "@type": [
-      "Church"
+      "Method"
     ],
     "instanceOf": [
       {
         "@id": "_:bn114816",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q29619",
-          "rdfs:label": "church",
+          "@id": "semlab:Q30043",
+          "rdfs:label": "method",
           "@type": "Class"
         }
       }
@@ -3495,51 +3494,34 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "coordinateLocation": [
-      {
-        "@value": {
-          "latitude": 42.345622,
-          "longitude": -71.070705,
-          "altitude": null,
-          "precision": 1e-06,
-          "globe": "http://www.wikidata.org/entity/Q2"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn114818",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21518",
-          "rdfs:label": "Boston (Mass.)",
-          "@type": "City"
-        }
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27665",
-    "rdfs:label": "Italian Garden, Green Hill",
+    "@id": "semlab:Q29597",
+    "rdfs:label": "Intruder",
+    "wikidataQid": [
+      {
+        "@value": "Q3204277"
+      }
+    ],
     "@type": [
-      "Garden"
+      "LiteraryWork(Concept)"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn114819",
+        "@id": "_:bn114818",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q29622",
-          "rdfs:label": "garden",
+          "@id": "semlab:Q28941",
+          "rdfs:label": "literary work (concept)",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn114820",
+        "@id": "_:bn114819",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3547,22 +3529,40 @@
           "@type": "SemanticLabProject"
         }
       }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29598",
+    "rdfs:label": "Maurice Maeterlinck",
+    "wikidataQid": [
+      {
+        "@value": "Q49747"
+      }
     ],
-    "location": [
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn114820",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
       {
         "@id": "_:bn114821",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q27568",
-          "rdfs:label": "Green Hill",
-          "@type": "Estate"
-        },
-        "location": [
-          {
-            "@id": "semlab:Q27567",
-            "rdfs:label": "Brookline (Mass.)"
-          }
-        ]
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
       }
     ]
   }
