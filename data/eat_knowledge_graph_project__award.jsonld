@@ -10,7 +10,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn82133",
+        "@id": "_:bn85004",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -24,13 +24,96 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn82134",
+        "@id": "_:bn85005",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30677",
           "rdfs:label": "award",
           "@type": "Class"
         }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32753",
+    "rdfs:label": "Bell Telephone Laboratories Fellowship",
+    "@type": [
+      "Award"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn85006",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30677",
+          "rdfs:label": "award",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn85007",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "sponsoredBy": [
+      {
+        "@id": "_:bn85008",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19173",
+          "rdfs:label": "Bell Labs",
+          "@type": "Publisher"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32486",
+            "rdfs:label": "Block 0 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32754",
+    "rdfs:label": "Royal Order of Vasa",
+    "@type": [
+      "Award"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn85009",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30677",
+          "rdfs:label": "award",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn85010",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1258644"
       }
     ]
   }

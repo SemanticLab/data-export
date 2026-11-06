@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn82112",
+        "@id": "_:bn84978",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19071",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "@id": "_:bn82113",
+        "@id": "_:bn84979",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29624",
@@ -29,7 +29,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn82114",
+        "@id": "_:bn84980",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -41,6 +41,108 @@
     "wikidataQid": [
       {
         "@value": "Q4021638"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32522",
+    "rdfs:label": "6th Paris Biennale",
+    "@type": [
+      "Event",
+      "Biennale"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84981",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19071",
+          "rdfs:label": "event",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32485",
+            "rdfs:label": "Block 4 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/4.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn84982",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29624",
+          "rdfs:label": "biennale",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32485",
+            "rdfs:label": "Block 4 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/4.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84983",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1969-09-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 10,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn84984",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21555",
+          "rdfs:label": "Paris (France)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32485",
+            "rdfs:label": "Block 4 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/4.txt"
+          }
+        ]
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn84985",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19180",
+          "rdfs:label": "Billy Kl\u00fcver",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32485",
+            "rdfs:label": "Block 4 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/4.txt"
+          }
+        ]
       }
     ]
   }

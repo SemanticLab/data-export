@@ -1,0 +1,55 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32611",
+    "rdfs:label": "Berkeley Heights Public Library",
+    "@type": [
+      "Library"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn84975",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29618",
+          "rdfs:label": "library",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn84976",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q69958061"
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn84977",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22337",
+          "rdfs:label": "Berkeley Heights (N.J.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32492",
+            "rdfs:label": "Block 7 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/7.txt"
+          }
+        ]
+      }
+    ]
+  }
+]

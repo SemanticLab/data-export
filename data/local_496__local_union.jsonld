@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn58677",
+        "@id": "_:bn58695",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27056",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn58678",
+        "@id": "_:bn58696",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20719",
@@ -31,6 +31,154 @@
     "wikidataQid": [
       {
         "@value": "Q66949304"
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1926-06-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 10,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "endTime": [
+      {
+        "@value": {
+          "time": "+1969-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "foundedBy": [
+      {
+        "@id": "_:bn58697",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1615",
+          "rdfs:label": "Papa Celestin",
+          "@type": "Person"
+        },
+        "referenceUrl": [
+          "https://archives.tulane.edu/repositories/3/resources/1482"
+        ],
+        "retrieved": [
+          {
+            "time": "+2026-11-05T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn58698",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1551",
+          "rdfs:label": "Armand Piron",
+          "@type": "Person"
+        },
+        "referenceUrl": [
+          "https://archives.tulane.edu/repositories/3/resources/1482"
+        ],
+        "retrieved": [
+          {
+            "time": "+2026-11-05T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          }
+        ]
+      }
+    ],
+    "succeededBy": [
+      {
+        "@id": "_:bn58699",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32482",
+          "rdfs:label": "American Federation of Musicians. Local 174-496",
+          "@type": "LocalUnion"
+        },
+        "referenceUrl": [
+          "https://archives.tulane.edu/repositories/3/resources/1482"
+        ],
+        "retrieved": [
+          {
+            "time": "+2026-11-05T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32482",
+    "rdfs:label": "American Federation of Musicians. Local 174-496",
+    "@type": [
+      "LocalUnion"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn58700",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27056",
+          "rdfs:label": "local union",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn58701",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20719",
+          "rdfs:label": "Local 496",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "precededBy": [
+      {
+        "@id": "_:bn58702",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27053",
+          "rdfs:label": "American Federation of Musicians. Local 496",
+          "@type": "LocalUnion"
+        },
+        "referenceUrl": [
+          "https://archives.tulane.edu/repositories/3/resources/1482"
+        ],
+        "retrieved": [
+          {
+            "time": "+2026-11-05T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          }
+        ]
       }
     ]
   }

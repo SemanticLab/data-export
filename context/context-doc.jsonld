@@ -141,12 +141,12 @@
       "@id": "http://base.semlab.io/entity/P152",
       "skos:prefLabel": "street address",
       "skos:altLabel": [
+        "address",
         "postal address",
         "physical address",
         "mailing address",
         "mail address",
-        "located at street address",
-        "address"
+        "located at street address"
       ],
       "owl:equivalentClass": [
         "http://www.wikidata.org/entity/P6375"
@@ -1151,11 +1151,6 @@
       "skos:prefLabel": "dined with",
       "skos:note": "person or group subject dined with"
     },
-    "prepared": {
-      "@id": "http://base.semlab.io/entity/P213",
-      "skos:prefLabel": "prepared",
-      "skos:note": "work the subject prepared"
-    },
     "subjectHasRole": {
       "@id": "http://base.semlab.io/entity/P117",
       "skos:prefLabel": "subject has role",
@@ -1200,6 +1195,31 @@
       "skos:altLabel": [
         "end date"
       ]
+    },
+    "prepared": {
+      "@id": "http://base.semlab.io/entity/P213",
+      "skos:prefLabel": "prepared",
+      "skos:note": "work the subject prepared"
+    },
+    "presenterOf": {
+      "@id": "http://base.semlab.io/entity/P214",
+      "skos:prefLabel": "presenter of",
+      "skos:note": "work the subject presented"
+    },
+    "presentedAt": {
+      "@id": "http://base.semlab.io/entity/P215",
+      "skos:prefLabel": "presented at",
+      "skos:note": "place subject presented a work"
+    },
+    "listenedTo": {
+      "@id": "http://base.semlab.io/entity/P217",
+      "skos:prefLabel": "listened to",
+      "skos:note": "work the subject listened to"
+    },
+    "hostedBy": {
+      "@id": "http://base.semlab.io/entity/P216",
+      "skos:prefLabel": "hosted by",
+      "skos:note": "person who hosted the subject"
     },
     "read": {
       "@id": "http://base.semlab.io/entity/P218",
@@ -1402,26 +1422,6 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
-    },
-    "presenterOf": {
-      "@id": "http://base.semlab.io/entity/P214",
-      "skos:prefLabel": "presenter of",
-      "skos:note": "work the subject presented"
-    },
-    "presentedAt": {
-      "@id": "http://base.semlab.io/entity/P215",
-      "skos:prefLabel": "presented at",
-      "skos:note": "place subject presented a work"
-    },
-    "hostedBy": {
-      "@id": "http://base.semlab.io/entity/P216",
-      "skos:prefLabel": "hosted by",
-      "skos:note": "person who hosted the subject"
-    },
-    "listenedTo": {
-      "@id": "http://base.semlab.io/entity/P217",
-      "skos:prefLabel": "listened to",
-      "skos:note": "work the subject listened to"
     },
     "natureOfRelation": {
       "@id": "http://base.semlab.io/entity/P122",
@@ -1797,6 +1797,14 @@
       "@id": "http://base.semlab.io/entity/P281",
       "skos:prefLabel": "modified",
       "skos:note": "main statement property to denote when a person modified an existing technology to fit the artistic needs of a 9 Evenings performance artwork"
+    },
+    "geonamesId": {
+      "@id": "http://base.semlab.io/entity/P282",
+      "skos:prefLabel": "GeoNames",
+      "owl:equivalentClass": [
+        "http://www.wikidata.org/entity/P1566"
+      ],
+      "skos:note": "GeoNames Id"
     },
     "AcademicJournal": {
       "@type": "rdfs:Class",
@@ -2524,8 +2532,6 @@
       "@id": "http://base.semlab.io/entity/Q23229",
       "skos:prefLabel": "material",
       "skos:altLabel": [
-        "art medium",
-        "artistic material",
         "artistic media",
         "artistic medium",
         "arts materials",
@@ -2534,7 +2540,9 @@
         "media",
         "medium",
         "art materials",
-        "art media"
+        "art media",
+        "art medium",
+        "artistic material"
       ],
       "owl:equivalentClass": [
         "http://vocab.getty.edu/page/aat/300010357"
@@ -2679,12 +2687,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
+        "profession",
+        "work",
         "career",
         "craft",
         "employment",
-        "job",
-        "profession",
-        "work"
+        "job"
       ],
       "skos:note": "job title or profession of the person"
     },
@@ -2738,6 +2746,15 @@
       "@id": "http://base.semlab.io/entity/Q23077",
       "skos:prefLabel": "park",
       "skos:note": "public or private recreation area designated as \"park\""
+    },
+    "Patent": {
+      "@type": "rdfs:Class",
+      "@id": "http://base.semlab.io/entity/Q32755",
+      "skos:prefLabel": "patent",
+      "skos:altLabel": [
+        "patents"
+      ],
+      "skos:note": "exclusive right granted for an invention, and the published document that describes it"
     },
     "Performance": {
       "@type": "rdfs:Class",

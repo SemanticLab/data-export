@@ -1,2566 +1,45 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27449",
-    "rdfs:label": "Mary Berenson",
+    "@id": "semlab:Q26033",
+    "rdfs:label": "England",
     "@type": [
-      "Person"
+      "Country"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115367",
+        "@id": "_:bn120471",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
+          "@id": "semlab:Q19056",
+          "rdfs:label": "country",
           "@type": "Class"
         }
       }
     ],
+    "wikidataQid": [
+      {
+        "@value": "Q21"
+      }
+    ],
     "partOfProject": [
       {
-        "@id": "_:bn115368",
+        "@id": "_:bn120472",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
           "rdfs:label": "Mary Berenson Diaries Project",
           "@type": "SemanticLabProject"
         }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q6779039"
-      }
-    ],
-    "visitedPlace": [
-      {
-        "@id": "_:bn115369",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27451",
-          "rdfs:label": "Liverpool",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27668",
-            "rdfs:label": "Block 1 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/1.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115370",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27526",
-          "rdfs:label": "The Reef",
-          "@type": "Estate"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27669",
-            "rdfs:label": "Block 2 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/2.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115371",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19486",
-          "rdfs:label": "New York (N.Y.)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27671",
-            "rdfs:label": "Block 4 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/4.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115372",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27510",
-          "rdfs:label": "Newport (R.I.)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27676",
-            "rdfs:label": "Block 9 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/9.txt"
-          },
-          {
-            "@id": "semlab:Q27685",
-            "rdfs:label": "Block 18 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/18.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115373",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27545",
-          "rdfs:label": "Dorchester (Boston, Mass.)",
-          "@type": "Neighborhood"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27691",
-            "rdfs:label": "Block 24 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/24.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115374",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27549",
-          "rdfs:label": "Old Point",
-          "@type": "Neighborhood"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27692",
-            "rdfs:label": "Block 25 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/25.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115375",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21518",
-          "rdfs:label": "Boston (Mass.)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27692",
-            "rdfs:label": "Block 25 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/25.txt"
-          },
-          {
-            "@id": "semlab:Q27712",
-            "rdfs:label": "Block 45 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/45.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115376",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27552",
-          "rdfs:label": "Great Blue Hill",
-          "@type": "Hill"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27697",
-            "rdfs:label": "Block 30 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/30.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115377",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27553",
-          "rdfs:label": "Cambridge (Mass.)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27699",
-            "rdfs:label": "Block 32 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/32.txt"
-          },
-          {
-            "@id": "semlab:Q27727",
-            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115378",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27557",
-          "rdfs:label": "Willowbrook Cottage",
-          "@type": "Residence"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27702",
-            "rdfs:label": "Block 35 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/35.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115379",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27568",
-          "rdfs:label": "Green Hill",
-          "@type": "Estate"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27704",
-            "rdfs:label": "Block 37 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/37.txt"
-          },
-          {
-            "@id": "semlab:Q27707",
-            "rdfs:label": "Block 40 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/40.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115380",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27581",
-          "rdfs:label": "Arboretum",
-          "@type": "Park"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27709",
-            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115381",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27665",
-          "rdfs:label": "Italian Garden, Green Hill",
-          "@type": "Garden"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27709",
-            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
-          },
-          {
-            "@id": "semlab:Q27733",
-            "rdfs:label": "Block 66 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/66.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115382",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27588",
-          "rdfs:label": "Boston Public Library, McKim Building",
-          "@type": "Library"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27712",
-            "rdfs:label": "Block 45 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/45.txt"
-          },
-          {
-            "@id": "semlab:Q27718",
-            "rdfs:label": "Block 51 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/51.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115383",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27602",
-          "rdfs:label": "Museum of Fine Arts Boston",
-          "@type": "Museum"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27715",
-            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115384",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27616",
-          "rdfs:label": "Franklin Park",
-          "@type": "Park"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27719",
-            "rdfs:label": "Block 52 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/52.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115385",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27628",
-          "rdfs:label": "Beverly Farms",
-          "@type": "Neighborhood"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27724",
-            "rdfs:label": "Block 57 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/57.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115386",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27658",
-          "rdfs:label": "Plymouth Inn",
-          "@type": "Hotel"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27732",
-            "rdfs:label": "Block 65 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/65.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115387",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27664",
-          "rdfs:label": "Springfield (Mass.)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27734",
-            "rdfs:label": "Block 67 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/67.txt"
-          }
-        ]
-      }
-    ],
-    "mentions": [
-      {
-        "@id": "_:bn115388",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27518",
-          "rdfs:label": "J. M. W. Turner",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27668",
-            "rdfs:label": "Block 1 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/1.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115389",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27519",
-          "rdfs:label": "James McNeill Whistler",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27668",
-            "rdfs:label": "Block 1 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/1.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115390",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27522",
-          "rdfs:label": "Edith",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27671",
-            "rdfs:label": "Block 4 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/4.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115391",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27454",
-          "rdfs:label": "Grace",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27675",
-            "rdfs:label": "Block 8 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/8.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115392",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27529",
-          "rdfs:label": "The South",
-          "@type": "LiteraryWork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27683",
-            "rdfs:label": "Block 16 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/16.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115393",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27539",
-          "rdfs:label": "Mr. Coates",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27689",
-            "rdfs:label": "Block 22 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/22.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115394",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27540",
-          "rdfs:label": "Mr. Berevin",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27689",
-            "rdfs:label": "Block 22 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/22.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115395",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27541",
-          "rdfs:label": "Mr. Taylor",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27689",
-            "rdfs:label": "Block 22 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/22.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115396",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27542",
-          "rdfs:label": "Mrs. Winty Chandler",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27689",
-            "rdfs:label": "Block 22 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/22.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115397",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27548",
-          "rdfs:label": "Miss Sellers",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27693",
-            "rdfs:label": "Block 26 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/26.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115398",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27577",
-          "rdfs:label": "George Moore (philosopher)",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27705",
-            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115399",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27586",
-          "rdfs:label": "John Davison Rockefeller",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27709",
-            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115400",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27585",
-          "rdfs:label": "Charles Augustus Strong",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27710",
-            "rdfs:label": "Block 43 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/43.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115401",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27593",
-          "rdfs:label": "Evelyn",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27713",
-            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115402",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27601",
-          "rdfs:label": "John Singer Sargent",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27718",
-            "rdfs:label": "Block 51 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/51.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115403",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27624",
-          "rdfs:label": "William James",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27722",
-            "rdfs:label": "Block 55 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/55.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115404",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27625",
-          "rdfs:label": "Mrs. Whitman",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27722",
-            "rdfs:label": "Block 55 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/55.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115405",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27596",
-          "rdfs:label": "John Grey",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27722",
-            "rdfs:label": "Block 55 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/55.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115406",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27626",
-          "rdfs:label": "Mrs. Bell",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27722",
-            "rdfs:label": "Block 55 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/55.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115407",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27627",
-          "rdfs:label": "Piggy Everett",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27722",
-            "rdfs:label": "Block 55 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/55.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115408",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27595",
-          "rdfs:label": "Edward Everett Hale",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27722",
-            "rdfs:label": "Block 55 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/55.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115409",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27657",
-          "rdfs:label": "Miss Seward",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27731",
-            "rdfs:label": "Block 64 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/64.txt"
-          }
-        ]
-      }
-    ],
-    "read": [
-      {
-        "@id": "_:bn115410",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27452",
-          "rdfs:label": "The Arabian Nights",
-          "@type": "Book"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27670",
-            "rdfs:label": "Block 3 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/3.txt"
-          }
-        ]
-      }
-    ],
-    "dinedWith": [
-      {
-        "@id": "_:bn115411",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27454",
-          "rdfs:label": "Grace",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27671",
-            "rdfs:label": "Block 4 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/4.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115412",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27520",
-          "rdfs:label": "Bond's new wife",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27671",
-            "rdfs:label": "Block 4 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/4.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115413",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27521",
-          "rdfs:label": "Bond",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27671",
-            "rdfs:label": "Block 4 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/4.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115414",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27524",
-          "rdfs:label": "Mr. Fearing",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27677",
-            "rdfs:label": "Block 10 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/10.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115415",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27525",
-          "rdfs:label": "Mrs. Fearing",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27677",
-            "rdfs:label": "Block 10 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/10.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115416",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27527",
-          "rdfs:label": "Mrs. Andrews",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27680",
-            "rdfs:label": "Block 13 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/13.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115417",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27532",
-          "rdfs:label": "Miss Busk",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27685",
-            "rdfs:label": "Block 18 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/18.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115418",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27554",
-          "rdfs:label": "Mrs. Toy",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27699",
-            "rdfs:label": "Block 32 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/32.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115419",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27570",
-          "rdfs:label": "Mr. Proctor",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27705",
-            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
-          },
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115420",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27376",
-          "rdfs:label": "George Santayana",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27709",
-            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115421",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27596",
-          "rdfs:label": "John Grey",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27713",
-            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115422",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27597",
-          "rdfs:label": "Mrs. John Grey",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27713",
-            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115423",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27598",
-          "rdfs:label": "Clayton Johns",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27713",
-            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115424",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27594",
-          "rdfs:label": "Ellen Hale",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27718",
-            "rdfs:label": "Block 51 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/51.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115425",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27618",
-          "rdfs:label": "Owen Wister",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27721",
-            "rdfs:label": "Block 54 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/54.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115426",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27625",
-          "rdfs:label": "Mrs. Whitman",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27724",
-            "rdfs:label": "Block 57 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/57.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115427",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27578",
-          "rdfs:label": "Mrs. Parkman",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27724",
-            "rdfs:label": "Block 57 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/57.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115428",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27629",
-          "rdfs:label": "Mr. Barton",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27724",
-            "rdfs:label": "Block 57 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/57.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115429",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27630",
-          "rdfs:label": "Miss Pendleton",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27724",
-            "rdfs:label": "Block 57 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/57.txt"
-          },
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115430",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27569",
-          "rdfs:label": "Isabella Stewart Gardner",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27727",
-            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
-          },
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115431",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27632",
-          "rdfs:label": "Archie Coolidge",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27727",
-            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115432",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27646",
-          "rdfs:label": "Mr. Foote",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115433",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27648",
-          "rdfs:label": "Ms. Foote",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115434",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27649",
-          "rdfs:label": "Mrs. Foote",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115435",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27650",
-          "rdfs:label": "Harold Bauer",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115436",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27584",
-          "rdfs:label": "Mr. Swift",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115437",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27603",
-          "rdfs:label": "Mr. Chalfin",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      }
-    ],
-    "dinedAt": [
-      {
-        "@id": "_:bn115438",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27666",
-          "rdfs:label": "Greek restaurant just by the depot",
-          "@type": "Restaurant"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27671",
-            "rdfs:label": "Block 4 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/4.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115439",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27582",
-          "rdfs:label": "Country Club",
-          "@type": "Restaurant"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27709",
-            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115440",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27633",
-          "rdfs:label": "Union",
-          "@type": "Restaurant"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27727",
-            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115441",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27645",
-          "rdfs:label": "Dedham (Mass.)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      }
-    ],
-    "hostedBy": [
-      {
-        "@id": "_:bn115442",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27455",
-          "rdfs:label": "Mr. Davis",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27672",
-            "rdfs:label": "Block 5 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/5.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115443",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27569",
-          "rdfs:label": "Isabella Stewart Gardner",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27705",
-            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
-          }
-        ]
-      }
-    ],
-    "viewed": [
-      {
-        "@id": "_:bn115444",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27523",
-          "rdfs:label": "Egyptian squatting figure",
-          "@type": "Artwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27673",
-            "rdfs:label": "Block 6 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/6.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115445",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27604",
-          "rdfs:label": "scroll with the sack of a town on it, from about 1250",
-          "@type": "Artwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27715",
-            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115446",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27621",
-          "rdfs:label": "exhibition of Japanese things",
-          "@type": "ExhibitionEvent"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27721",
-            "rdfs:label": "Block 54 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/54.txt"
-          }
-        ]
-      }
-    ],
-    "hasMet": [
-      {
-        "@id": "_:bn115447",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27527",
-          "rdfs:label": "Mrs. Andrews",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27685",
-            "rdfs:label": "Block 18 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/18.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115448",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27531",
-          "rdfs:label": "Sophy Buffum",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27685",
-            "rdfs:label": "Block 18 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/18.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115449",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27530",
-          "rdfs:label": "Mrs. Davis",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27685",
-            "rdfs:label": "Block 18 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/18.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115450",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27376",
-          "rdfs:label": "George Santayana",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27699",
-            "rdfs:label": "Block 32 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/32.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115451",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27555",
-          "rdfs:label": "Leslie Hopkinson",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27699",
-            "rdfs:label": "Block 32 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/32.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115452",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27556",
-          "rdfs:label": "Mr. Andrew",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27700",
-            "rdfs:label": "Block 33 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/33.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115453",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27559",
-          "rdfs:label": "Gertrude",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27702",
-            "rdfs:label": "Block 35 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/35.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115454",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27560",
-          "rdfs:label": "Mrs. Tyler",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27702",
-            "rdfs:label": "Block 35 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/35.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115455",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27562",
-          "rdfs:label": "Rabbi Fleischer",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27702",
-            "rdfs:label": "Block 35 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/35.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115456",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27574",
-          "rdfs:label": "Sarah Whitman",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27705",
-            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115457",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27575",
-          "rdfs:label": "Josiah Royce",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27705",
-            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115458",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27578",
-          "rdfs:label": "Mrs. Parkman",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27705",
-            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115459",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27579",
-          "rdfs:label": "Mr. Higginson",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27706",
-            "rdfs:label": "Block 39 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/39.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115460",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27580",
-          "rdfs:label": "Mrs. Higginson",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27706",
-            "rdfs:label": "Block 39 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/39.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115461",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27583",
-          "rdfs:label": "Mr. Dwight",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27709",
-            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115462",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27584",
-          "rdfs:label": "Mr. Swift",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27709",
-            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115463",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27570",
-          "rdfs:label": "Mr. Proctor",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27713",
-            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115464",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27594",
-          "rdfs:label": "Ellen Hale",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27713",
-            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115465",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27595",
-          "rdfs:label": "Edward Everett Hale",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27713",
-            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115466",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27599",
-          "rdfs:label": "Helen Hopekirk",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27715",
-            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115467",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27600",
-          "rdfs:label": "Mr. Hopekirk",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27715",
-            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115468",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27603",
-          "rdfs:label": "Mr. Chalfin",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27715",
-            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115469",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27614",
-          "rdfs:label": "Mr. Lang",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27716",
-            "rdfs:label": "Block 49 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/49.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115470",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27613",
-          "rdfs:label": "Mrs. Lang",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27716",
-            "rdfs:label": "Block 49 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/49.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115471",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27615",
-          "rdfs:label": "T. H. Perry",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27718",
-            "rdfs:label": "Block 51 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/51.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115472",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27622",
-          "rdfs:label": "Denman Ross",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27721",
-            "rdfs:label": "Block 54 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/54.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115473",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27623",
-          "rdfs:label": "Theodore Dwight",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27721",
-            "rdfs:label": "Block 54 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/54.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115474",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27653",
-          "rdfs:label": "Mrs. Thorndyke",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115475",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27654",
-          "rdfs:label": "Miss Dana",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115476",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27655",
-          "rdfs:label": "Charley Gibson",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115477",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27656",
-          "rdfs:label": "Bavarian Count",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      }
-    ],
-    "mentionsViaAttribution": [
-      {
-        "@id": "_:bn115478",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27536",
-          "rdfs:label": "Forgery (Filippino)",
-          "@type": "Artwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27688",
-            "rdfs:label": "Block 21 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/21.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115479",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27533",
-          "rdfs:label": "Tricca-Leonardo",
-          "@type": "Artwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27688",
-            "rdfs:label": "Block 21 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/21.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115480",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27535",
-          "rdfs:label": "forgery (Logan)",
-          "@type": "Artwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27688",
-            "rdfs:label": "Block 21 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/21.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115481",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27590",
-          "rdfs:label": "Muses of Inspiration murals",
-          "@type": "Artwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27712",
-            "rdfs:label": "Block 45 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/45.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115482",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27591",
-          "rdfs:label": "The Quest and Achievement of the Holy Grail",
-          "@type": "Artwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27712",
-            "rdfs:label": "Block 45 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/45.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115483",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27592",
-          "rdfs:label": "Triumph of Religion murals",
-          "@type": "Artwork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27712",
-            "rdfs:label": "Block 45 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/45.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115484",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27631",
-          "rdfs:label": "Sandro Botticelli",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27724",
-            "rdfs:label": "Block 57 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/57.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115485",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27644",
-          "rdfs:label": "nude lady (Bonifazio)",
-          "@type": "Painting"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27733",
-            "rdfs:label": "Block 66 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/66.txt"
-          }
-        ]
-      }
-    ],
-    "relativeOf": [
-      {
-        "@id": "_:bn115486",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27546",
-          "rdfs:label": "Grandpa Cope",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27692",
-            "rdfs:label": "Block 25 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/25.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115487",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27547",
-          "rdfs:label": "Rachel",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27692",
-            "rdfs:label": "Block 25 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/25.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115488",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27550",
-          "rdfs:label": "Judith Berenson",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27693",
-            "rdfs:label": "Block 26 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/26.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115489",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27551",
-          "rdfs:label": "Albert Berenson",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27693",
-            "rdfs:label": "Block 26 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/26.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115490",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27563",
-          "rdfs:label": "Uncle Goldman",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27703",
-            "rdfs:label": "Block 36 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/36.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115491",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27565",
-          "rdfs:label": "Hinda Coen",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27703",
-            "rdfs:label": "Block 36 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/36.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115492",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27566",
-          "rdfs:label": "James Coen",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27703",
-            "rdfs:label": "Block 36 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/36.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115493",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27661",
-          "rdfs:label": "Abraham Berenson",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27734",
-            "rdfs:label": "Block 67 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/67.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115494",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27662",
-          "rdfs:label": "Senda Berenson",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27734",
-            "rdfs:label": "Block 67 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/67.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115495",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27663",
-          "rdfs:label": "Elizabeth Berenson",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27734",
-            "rdfs:label": "Block 67 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/67.txt"
-          }
-        ]
-      }
-    ],
-    "attendedPerformanceOf": [
-      {
-        "@id": "_:bn115496",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19532",
-          "rdfs:label": "Pyotr Ilyich Tchaikovsky",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27705",
-            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115497",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27572",
-          "rdfs:label": "Bruneau",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27705",
-            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115498",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27573",
-          "rdfs:label": "Johannes Brahms",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27705",
-            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115499",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1944",
-          "rdfs:label": "Ludwig van Beethoven",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27727",
-            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115500",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27643",
-          "rdfs:label": "Mr. Arbos",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27728",
-            "rdfs:label": "Block 61 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/61.txt"
-          }
-        ]
-      }
-    ],
-    "attendedPerformanceOfWork": [
-      {
-        "@id": "_:bn115501",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27571",
-          "rdfs:label": "Symphony Concert (October 17, 1903)",
-          "@type": "Concert"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27705",
-            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115502",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27606",
-          "rdfs:label": "opening of the Jordan Hall at the new Conservatory building",
-          "@type": "Concert"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27715",
-            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115503",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27609",
-          "rdfs:label": "Toccata, Adagio, and Fugue in C major",
-          "@type": "MusicalWork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27716",
-            "rdfs:label": "Block 49 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/49.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115504",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27610",
-          "rdfs:label": "Piano Concerto in A minor",
-          "@type": "MusicalWork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27716",
-            "rdfs:label": "Block 49 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/49.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115505",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27611",
-          "rdfs:label": "Ouverture (Chaplin)",
-          "@type": "MusicalWork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27716",
-            "rdfs:label": "Block 49 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/49.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115506",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27612",
-          "rdfs:label": "Symphony No. 3",
-          "@type": "MusicalWork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27716",
-            "rdfs:label": "Block 49 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/49.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115507",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27617",
-          "rdfs:label": "The Virginian",
-          "@type": "LiteraryWork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27719",
-            "rdfs:label": "Block 52 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/52.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115508",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27634",
-          "rdfs:label": "Harvard-Brown Football Match (October 24, 1903)",
-          "@type": "Event"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27727",
-            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115509",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27637",
-          "rdfs:label": "Symphony Concert (October 24, 1903)",
-          "@type": "Concert"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27727",
-            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115510",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27638",
-          "rdfs:label": "Zur Namensfeier",
-          "@type": "MusicalWork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27727",
-            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115511",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27639",
-          "rdfs:label": "Waldweben",
-          "@type": "MusicalWork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27727",
-            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115512",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27640",
-          "rdfs:label": "Mendelssohn Violin Concerto",
-          "@type": "MusicalWork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27727",
-            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115513",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27641",
-          "rdfs:label": "tango (Arbos)",
-          "@type": "MusicalWork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27727",
-            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn115514",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27642",
-          "rdfs:label": "Glazonnoff symphony",
-          "@type": "MusicalWork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27728",
-            "rdfs:label": "Block 61 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/61.txt"
-          }
-        ]
-      }
-    ],
-    "attendedPerformanceAt": [
-      {
-        "@id": "_:bn115515",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27607",
-          "rdfs:label": "Jordan Hall",
-          "@type": "Venue"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27715",
-            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
-          }
-        ]
-      }
-    ],
-    "listenedTo": [
-      {
-        "@id": "_:bn115516",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27652",
-          "rdfs:label": "Irish Melody",
-          "@type": "MusicalWork(Concept)"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q27730",
-            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
-          }
-        ]
-      }
-    ],
-    "thumbnail": [
-      {
-        "@value": "https://semlab.s3.amazonaws.com/images/Q27449.jpg"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27450",
-    "rdfs:label": "Bernard Berenson",
-    "@type": [
-      "Person"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn115517",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1",
-          "rdfs:label": "person",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn115518",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q359047"
-      }
-    ],
-    "thumbnail": [
-      {
-        "@value": "https://semlab.s3.amazonaws.com/images/Q27450.jpg"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27526",
-    "rdfs:label": "The Reef",
-    "@type": [
-      "Estate"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn115519",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29617",
-          "rdfs:label": "estate",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn115520",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q137887871"
       }
     ],
     "coordinateLocation": [
       {
         "@value": {
-          "latitude": 41.45361611111111,
-          "longitude": -71.35396,
+          "latitude": 53,
+          "longitude": -1,
           "altitude": null,
-          "precision": 2.7777777777777776e-07,
+          "precision": 0.0002777777777777778,
           "globe": "http://www.wikidata.org/entity/Q2"
         }
       }
@@ -2568,93 +47,46 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27545",
-    "rdfs:label": "Dorchester (Boston, Mass.)",
+    "@id": "semlab:Q26036",
+    "rdfs:label": "Spain",
     "@type": [
-      "Neighborhood"
+      "Country"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115521",
+        "@id": "_:bn120473",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19059",
-          "rdfs:label": "neighborhood",
+          "@id": "semlab:Q19056",
+          "rdfs:label": "country",
           "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn115522",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
         }
       }
     ],
     "wikidataQid": [
       {
-        "@value": "Q1024037"
-      }
-    ],
-    "coordinateLocation": [
-      {
-        "@value": {
-          "latitude": 42.31666666666667,
-          "longitude": -71.05,
-          "altitude": null,
-          "precision": 0.016666666666666666,
-          "globe": "http://www.wikidata.org/entity/Q2"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn115523",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21518",
-          "rdfs:label": "Boston (Mass.)",
-          "@type": "City"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27549",
-    "rdfs:label": "Old Point",
-    "@type": [
-      "Neighborhood"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn115524",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19059",
-          "rdfs:label": "neighborhood",
-          "@type": "Class"
-        },
-        "certainty": [
-          {
-            "@id": "semlab:Q28898",
-            "rdfs:label": "semlab:Q28898"
-          }
-        ]
+        "@value": "Q29"
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115525",
+        "@id": "_:bn120474",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
           "rdfs:label": "Mary Berenson Diaries Project",
           "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "coordinateLocation": [
+      {
+        "@value": {
+          "latitude": 40.2,
+          "longitude": -3.5,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
         }
       }
     ]
@@ -2668,7 +100,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115526",
+        "@id": "_:bn120475",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29620",
@@ -2679,7 +111,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115527",
+        "@id": "_:bn120476",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -2714,7 +146,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115528",
+        "@id": "_:bn120477",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19058",
@@ -2725,7 +157,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115529",
+        "@id": "_:bn120478",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -2760,7 +192,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115530",
+        "@id": "_:bn120479",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29621",
@@ -2771,7 +203,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115531",
+        "@id": "_:bn120480",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -2782,7 +214,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn115532",
+        "@id": "_:bn120481",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27558",
@@ -2809,7 +241,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115533",
+        "@id": "_:bn120482",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19058",
@@ -2820,7 +252,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115534",
+        "@id": "_:bn120483",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -2855,7 +287,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115535",
+        "@id": "_:bn120484",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19058",
@@ -2866,7 +298,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115536",
+        "@id": "_:bn120485",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -2901,7 +333,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115537",
+        "@id": "_:bn120486",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29617",
@@ -2912,7 +344,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115538",
+        "@id": "_:bn120487",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -2939,7 +371,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn115539",
+        "@id": "_:bn120488",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27567",
@@ -2951,30 +383,25 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26033",
-    "rdfs:label": "England",
+    "@id": "semlab:Q27449",
+    "rdfs:label": "Mary Berenson",
     "@type": [
-      "Country"
+      "Person"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115540",
+        "@id": "_:bn120489",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19056",
-          "rdfs:label": "country",
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
           "@type": "Class"
         }
       }
     ],
-    "wikidataQid": [
-      {
-        "@value": "Q21"
-      }
-    ],
     "partOfProject": [
       {
-        "@id": "_:bn115541",
+        "@id": "_:bn120490",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -2983,13 +410,2539 @@
         }
       }
     ],
+    "wikidataQid": [
+      {
+        "@value": "Q6779039"
+      }
+    ],
+    "visitedPlace": [
+      {
+        "@id": "_:bn120491",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27451",
+          "rdfs:label": "Liverpool",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27668",
+            "rdfs:label": "Block 1 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/1.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120492",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27526",
+          "rdfs:label": "The Reef",
+          "@type": "Estate"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27669",
+            "rdfs:label": "Block 2 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/2.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120493",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27671",
+            "rdfs:label": "Block 4 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/4.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120494",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27510",
+          "rdfs:label": "Newport (R.I.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27676",
+            "rdfs:label": "Block 9 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/9.txt"
+          },
+          {
+            "@id": "semlab:Q27685",
+            "rdfs:label": "Block 18 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/18.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120495",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27545",
+          "rdfs:label": "Dorchester (Boston, Mass.)",
+          "@type": "Neighborhood"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27691",
+            "rdfs:label": "Block 24 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/24.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120496",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27549",
+          "rdfs:label": "Old Point",
+          "@type": "Neighborhood"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27692",
+            "rdfs:label": "Block 25 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/25.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120497",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21518",
+          "rdfs:label": "Boston (Mass.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27692",
+            "rdfs:label": "Block 25 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/25.txt"
+          },
+          {
+            "@id": "semlab:Q27712",
+            "rdfs:label": "Block 45 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/45.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120498",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27552",
+          "rdfs:label": "Great Blue Hill",
+          "@type": "Hill"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27697",
+            "rdfs:label": "Block 30 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/30.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120499",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27553",
+          "rdfs:label": "Cambridge (Mass.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27699",
+            "rdfs:label": "Block 32 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/32.txt"
+          },
+          {
+            "@id": "semlab:Q27727",
+            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120500",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27557",
+          "rdfs:label": "Willowbrook Cottage",
+          "@type": "Residence"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27702",
+            "rdfs:label": "Block 35 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/35.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120501",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27568",
+          "rdfs:label": "Green Hill",
+          "@type": "Estate"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27704",
+            "rdfs:label": "Block 37 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/37.txt"
+          },
+          {
+            "@id": "semlab:Q27707",
+            "rdfs:label": "Block 40 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/40.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120502",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27581",
+          "rdfs:label": "Arboretum",
+          "@type": "Park"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27709",
+            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120503",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27665",
+          "rdfs:label": "Italian Garden, Green Hill",
+          "@type": "Garden"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27709",
+            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
+          },
+          {
+            "@id": "semlab:Q27733",
+            "rdfs:label": "Block 66 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/66.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120504",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27588",
+          "rdfs:label": "Boston Public Library, McKim Building",
+          "@type": "Library"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27712",
+            "rdfs:label": "Block 45 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/45.txt"
+          },
+          {
+            "@id": "semlab:Q27718",
+            "rdfs:label": "Block 51 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/51.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120505",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27602",
+          "rdfs:label": "Museum of Fine Arts Boston",
+          "@type": "Museum"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27715",
+            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120506",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27616",
+          "rdfs:label": "Franklin Park",
+          "@type": "Park"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27719",
+            "rdfs:label": "Block 52 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/52.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120507",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27628",
+          "rdfs:label": "Beverly Farms",
+          "@type": "Neighborhood"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27724",
+            "rdfs:label": "Block 57 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/57.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120508",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27658",
+          "rdfs:label": "Plymouth Inn",
+          "@type": "Hotel"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27732",
+            "rdfs:label": "Block 65 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/65.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120509",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27664",
+          "rdfs:label": "Springfield (Mass.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27734",
+            "rdfs:label": "Block 67 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/67.txt"
+          }
+        ]
+      }
+    ],
+    "mentions": [
+      {
+        "@id": "_:bn120510",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27518",
+          "rdfs:label": "J. M. W. Turner",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27668",
+            "rdfs:label": "Block 1 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/1.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120511",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27519",
+          "rdfs:label": "James McNeill Whistler",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27668",
+            "rdfs:label": "Block 1 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/1.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120512",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27522",
+          "rdfs:label": "Edith",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27671",
+            "rdfs:label": "Block 4 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/4.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120513",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27454",
+          "rdfs:label": "Grace",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27675",
+            "rdfs:label": "Block 8 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/8.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120514",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27529",
+          "rdfs:label": "The South",
+          "@type": "LiteraryWork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27683",
+            "rdfs:label": "Block 16 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/16.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120515",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27539",
+          "rdfs:label": "Mr. Coates",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27689",
+            "rdfs:label": "Block 22 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/22.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120516",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27540",
+          "rdfs:label": "Mr. Berevin",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27689",
+            "rdfs:label": "Block 22 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/22.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120517",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27541",
+          "rdfs:label": "Mr. Taylor",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27689",
+            "rdfs:label": "Block 22 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/22.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120518",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27542",
+          "rdfs:label": "Mrs. Winty Chandler",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27689",
+            "rdfs:label": "Block 22 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/22.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120519",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27548",
+          "rdfs:label": "Miss Sellers",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27693",
+            "rdfs:label": "Block 26 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/26.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120520",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27577",
+          "rdfs:label": "George Moore (philosopher)",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27705",
+            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120521",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27586",
+          "rdfs:label": "John Davison Rockefeller",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27709",
+            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120522",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27585",
+          "rdfs:label": "Charles Augustus Strong",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27710",
+            "rdfs:label": "Block 43 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/43.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120523",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27593",
+          "rdfs:label": "Evelyn",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27713",
+            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120524",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27601",
+          "rdfs:label": "John Singer Sargent",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27718",
+            "rdfs:label": "Block 51 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/51.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120525",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27624",
+          "rdfs:label": "William James",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27722",
+            "rdfs:label": "Block 55 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/55.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120526",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27625",
+          "rdfs:label": "Mrs. Whitman",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27722",
+            "rdfs:label": "Block 55 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/55.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120527",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27596",
+          "rdfs:label": "John Grey",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27722",
+            "rdfs:label": "Block 55 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/55.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120528",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27626",
+          "rdfs:label": "Mrs. Bell",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27722",
+            "rdfs:label": "Block 55 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/55.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120529",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27627",
+          "rdfs:label": "Piggy Everett",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27722",
+            "rdfs:label": "Block 55 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/55.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120530",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27595",
+          "rdfs:label": "Edward Everett Hale",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27722",
+            "rdfs:label": "Block 55 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/55.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120531",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27657",
+          "rdfs:label": "Miss Seward",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27731",
+            "rdfs:label": "Block 64 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/64.txt"
+          }
+        ]
+      }
+    ],
+    "read": [
+      {
+        "@id": "_:bn120532",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27452",
+          "rdfs:label": "The Arabian Nights",
+          "@type": "Book"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27670",
+            "rdfs:label": "Block 3 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/3.txt"
+          }
+        ]
+      }
+    ],
+    "dinedWith": [
+      {
+        "@id": "_:bn120533",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27454",
+          "rdfs:label": "Grace",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27671",
+            "rdfs:label": "Block 4 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/4.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120534",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27520",
+          "rdfs:label": "Bond's new wife",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27671",
+            "rdfs:label": "Block 4 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/4.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120535",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27521",
+          "rdfs:label": "Bond",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27671",
+            "rdfs:label": "Block 4 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/4.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120536",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27524",
+          "rdfs:label": "Mr. Fearing",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27677",
+            "rdfs:label": "Block 10 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/10.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120537",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27525",
+          "rdfs:label": "Mrs. Fearing",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27677",
+            "rdfs:label": "Block 10 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/10.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120538",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27527",
+          "rdfs:label": "Mrs. Andrews",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27680",
+            "rdfs:label": "Block 13 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/13.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120539",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27532",
+          "rdfs:label": "Miss Busk",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27685",
+            "rdfs:label": "Block 18 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/18.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120540",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27554",
+          "rdfs:label": "Mrs. Toy",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27699",
+            "rdfs:label": "Block 32 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/32.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120541",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27570",
+          "rdfs:label": "Mr. Proctor",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27705",
+            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
+          },
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120542",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27376",
+          "rdfs:label": "George Santayana",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27709",
+            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120543",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27596",
+          "rdfs:label": "John Grey",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27713",
+            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120544",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27597",
+          "rdfs:label": "Mrs. John Grey",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27713",
+            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120545",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27598",
+          "rdfs:label": "Clayton Johns",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27713",
+            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120546",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27594",
+          "rdfs:label": "Ellen Hale",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27718",
+            "rdfs:label": "Block 51 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/51.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120547",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27618",
+          "rdfs:label": "Owen Wister",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27721",
+            "rdfs:label": "Block 54 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/54.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120548",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27625",
+          "rdfs:label": "Mrs. Whitman",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27724",
+            "rdfs:label": "Block 57 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/57.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120549",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27578",
+          "rdfs:label": "Mrs. Parkman",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27724",
+            "rdfs:label": "Block 57 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/57.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120550",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27629",
+          "rdfs:label": "Mr. Barton",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27724",
+            "rdfs:label": "Block 57 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/57.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120551",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27630",
+          "rdfs:label": "Miss Pendleton",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27724",
+            "rdfs:label": "Block 57 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/57.txt"
+          },
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120552",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27569",
+          "rdfs:label": "Isabella Stewart Gardner",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27727",
+            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
+          },
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120553",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27632",
+          "rdfs:label": "Archie Coolidge",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27727",
+            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120554",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27646",
+          "rdfs:label": "Mr. Foote",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120555",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27648",
+          "rdfs:label": "Ms. Foote",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120556",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27649",
+          "rdfs:label": "Mrs. Foote",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120557",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27650",
+          "rdfs:label": "Harold Bauer",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120558",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27584",
+          "rdfs:label": "Mr. Swift",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120559",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27603",
+          "rdfs:label": "Mr. Chalfin",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      }
+    ],
+    "dinedAt": [
+      {
+        "@id": "_:bn120560",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27666",
+          "rdfs:label": "Greek restaurant just by the depot",
+          "@type": "Restaurant"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27671",
+            "rdfs:label": "Block 4 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/4.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120561",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27582",
+          "rdfs:label": "Country Club",
+          "@type": "Restaurant"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27709",
+            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120562",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27633",
+          "rdfs:label": "Union",
+          "@type": "Restaurant"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27727",
+            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120563",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27645",
+          "rdfs:label": "Dedham (Mass.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      }
+    ],
+    "hostedBy": [
+      {
+        "@id": "_:bn120564",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27455",
+          "rdfs:label": "Mr. Davis",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27672",
+            "rdfs:label": "Block 5 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/5.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120565",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27569",
+          "rdfs:label": "Isabella Stewart Gardner",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27705",
+            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
+          }
+        ]
+      }
+    ],
+    "viewed": [
+      {
+        "@id": "_:bn120566",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27523",
+          "rdfs:label": "Egyptian squatting figure",
+          "@type": "Artwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27673",
+            "rdfs:label": "Block 6 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/6.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120567",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27604",
+          "rdfs:label": "scroll with the sack of a town on it, from about 1250",
+          "@type": "Artwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27715",
+            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120568",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27621",
+          "rdfs:label": "exhibition of Japanese things",
+          "@type": "ExhibitionEvent"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27721",
+            "rdfs:label": "Block 54 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/54.txt"
+          }
+        ]
+      }
+    ],
+    "hasMet": [
+      {
+        "@id": "_:bn120569",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27527",
+          "rdfs:label": "Mrs. Andrews",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27685",
+            "rdfs:label": "Block 18 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/18.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120570",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27531",
+          "rdfs:label": "Sophy Buffum",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27685",
+            "rdfs:label": "Block 18 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/18.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120571",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27530",
+          "rdfs:label": "Mrs. Davis",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27685",
+            "rdfs:label": "Block 18 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/18.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120572",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27376",
+          "rdfs:label": "George Santayana",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27699",
+            "rdfs:label": "Block 32 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/32.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120573",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27555",
+          "rdfs:label": "Leslie Hopkinson",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27699",
+            "rdfs:label": "Block 32 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/32.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120574",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27556",
+          "rdfs:label": "Mr. Andrew",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27700",
+            "rdfs:label": "Block 33 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/33.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120575",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27559",
+          "rdfs:label": "Gertrude",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27702",
+            "rdfs:label": "Block 35 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/35.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120576",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27560",
+          "rdfs:label": "Mrs. Tyler",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27702",
+            "rdfs:label": "Block 35 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/35.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120577",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27562",
+          "rdfs:label": "Rabbi Fleischer",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27702",
+            "rdfs:label": "Block 35 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/35.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120578",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27574",
+          "rdfs:label": "Sarah Whitman",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27705",
+            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120579",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27575",
+          "rdfs:label": "Josiah Royce",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27705",
+            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120580",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27578",
+          "rdfs:label": "Mrs. Parkman",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27705",
+            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120581",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27579",
+          "rdfs:label": "Mr. Higginson",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27706",
+            "rdfs:label": "Block 39 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/39.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120582",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27580",
+          "rdfs:label": "Mrs. Higginson",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27706",
+            "rdfs:label": "Block 39 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/39.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120583",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27583",
+          "rdfs:label": "Mr. Dwight",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27709",
+            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120584",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27584",
+          "rdfs:label": "Mr. Swift",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27709",
+            "rdfs:label": "Block 42 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/42.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120585",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27570",
+          "rdfs:label": "Mr. Proctor",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27713",
+            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120586",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27594",
+          "rdfs:label": "Ellen Hale",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27713",
+            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120587",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27595",
+          "rdfs:label": "Edward Everett Hale",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27713",
+            "rdfs:label": "Block 46 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/46.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120588",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27599",
+          "rdfs:label": "Helen Hopekirk",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27715",
+            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120589",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27600",
+          "rdfs:label": "Mr. Hopekirk",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27715",
+            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120590",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27603",
+          "rdfs:label": "Mr. Chalfin",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27715",
+            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120591",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27614",
+          "rdfs:label": "Mr. Lang",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27716",
+            "rdfs:label": "Block 49 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/49.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120592",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27613",
+          "rdfs:label": "Mrs. Lang",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27716",
+            "rdfs:label": "Block 49 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/49.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120593",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27615",
+          "rdfs:label": "T. H. Perry",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27718",
+            "rdfs:label": "Block 51 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/51.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120594",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27622",
+          "rdfs:label": "Denman Ross",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27721",
+            "rdfs:label": "Block 54 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/54.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120595",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27623",
+          "rdfs:label": "Theodore Dwight",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27721",
+            "rdfs:label": "Block 54 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/54.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120596",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27653",
+          "rdfs:label": "Mrs. Thorndyke",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120597",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27654",
+          "rdfs:label": "Miss Dana",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120598",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27655",
+          "rdfs:label": "Charley Gibson",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120599",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27656",
+          "rdfs:label": "Bavarian Count",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      }
+    ],
+    "mentionsViaAttribution": [
+      {
+        "@id": "_:bn120600",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27536",
+          "rdfs:label": "Forgery (Filippino)",
+          "@type": "Artwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27688",
+            "rdfs:label": "Block 21 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120601",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27533",
+          "rdfs:label": "Tricca-Leonardo",
+          "@type": "Artwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27688",
+            "rdfs:label": "Block 21 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120602",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27535",
+          "rdfs:label": "forgery (Logan)",
+          "@type": "Artwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27688",
+            "rdfs:label": "Block 21 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/21.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120603",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27590",
+          "rdfs:label": "Muses of Inspiration murals",
+          "@type": "Artwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27712",
+            "rdfs:label": "Block 45 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/45.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120604",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27591",
+          "rdfs:label": "The Quest and Achievement of the Holy Grail",
+          "@type": "Artwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27712",
+            "rdfs:label": "Block 45 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/45.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120605",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27592",
+          "rdfs:label": "Triumph of Religion murals",
+          "@type": "Artwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27712",
+            "rdfs:label": "Block 45 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/45.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120606",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27631",
+          "rdfs:label": "Sandro Botticelli",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27724",
+            "rdfs:label": "Block 57 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/57.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120607",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27644",
+          "rdfs:label": "nude lady (Bonifazio)",
+          "@type": "Painting"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27733",
+            "rdfs:label": "Block 66 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/66.txt"
+          }
+        ]
+      }
+    ],
+    "relativeOf": [
+      {
+        "@id": "_:bn120608",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27546",
+          "rdfs:label": "Grandpa Cope",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27692",
+            "rdfs:label": "Block 25 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/25.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120609",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27547",
+          "rdfs:label": "Rachel",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27692",
+            "rdfs:label": "Block 25 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/25.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120610",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27550",
+          "rdfs:label": "Judith Berenson",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27693",
+            "rdfs:label": "Block 26 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/26.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120611",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27551",
+          "rdfs:label": "Albert Berenson",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27693",
+            "rdfs:label": "Block 26 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/26.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120612",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27563",
+          "rdfs:label": "Uncle Goldman",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27703",
+            "rdfs:label": "Block 36 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/36.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120613",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27565",
+          "rdfs:label": "Hinda Coen",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27703",
+            "rdfs:label": "Block 36 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/36.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120614",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27566",
+          "rdfs:label": "James Coen",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27703",
+            "rdfs:label": "Block 36 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/36.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120615",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27661",
+          "rdfs:label": "Abraham Berenson",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27734",
+            "rdfs:label": "Block 67 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/67.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120616",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27662",
+          "rdfs:label": "Senda Berenson",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27734",
+            "rdfs:label": "Block 67 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/67.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120617",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27663",
+          "rdfs:label": "Elizabeth Berenson",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27734",
+            "rdfs:label": "Block 67 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/67.txt"
+          }
+        ]
+      }
+    ],
+    "attendedPerformanceOf": [
+      {
+        "@id": "_:bn120618",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19532",
+          "rdfs:label": "Pyotr Ilyich Tchaikovsky",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27705",
+            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120619",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27572",
+          "rdfs:label": "Bruneau",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27705",
+            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120620",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27573",
+          "rdfs:label": "Johannes Brahms",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27705",
+            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120621",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1944",
+          "rdfs:label": "Ludwig van Beethoven",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27727",
+            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120622",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27643",
+          "rdfs:label": "Mr. Arbos",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27728",
+            "rdfs:label": "Block 61 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/61.txt"
+          }
+        ]
+      }
+    ],
+    "attendedPerformanceOfWork": [
+      {
+        "@id": "_:bn120623",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27571",
+          "rdfs:label": "Symphony Concert (October 17, 1903)",
+          "@type": "Concert"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27705",
+            "rdfs:label": "Block 38 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/38.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120624",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27606",
+          "rdfs:label": "opening of the Jordan Hall at the new Conservatory building",
+          "@type": "Concert"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27715",
+            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120625",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27609",
+          "rdfs:label": "Toccata, Adagio, and Fugue in C major",
+          "@type": "MusicalWork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27716",
+            "rdfs:label": "Block 49 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/49.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120626",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27610",
+          "rdfs:label": "Piano Concerto in A minor",
+          "@type": "MusicalWork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27716",
+            "rdfs:label": "Block 49 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/49.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120627",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27611",
+          "rdfs:label": "Ouverture (Chaplin)",
+          "@type": "MusicalWork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27716",
+            "rdfs:label": "Block 49 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/49.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120628",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27612",
+          "rdfs:label": "Symphony No. 3",
+          "@type": "MusicalWork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27716",
+            "rdfs:label": "Block 49 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/49.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120629",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27617",
+          "rdfs:label": "The Virginian",
+          "@type": "LiteraryWork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27719",
+            "rdfs:label": "Block 52 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/52.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120630",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27634",
+          "rdfs:label": "Harvard-Brown Football Match (October 24, 1903)",
+          "@type": "Event"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27727",
+            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120631",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27637",
+          "rdfs:label": "Symphony Concert (October 24, 1903)",
+          "@type": "Concert"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27727",
+            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120632",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27638",
+          "rdfs:label": "Zur Namensfeier",
+          "@type": "MusicalWork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27727",
+            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120633",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27639",
+          "rdfs:label": "Waldweben",
+          "@type": "MusicalWork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27727",
+            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120634",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27640",
+          "rdfs:label": "Mendelssohn Violin Concerto",
+          "@type": "MusicalWork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27727",
+            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120635",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27641",
+          "rdfs:label": "tango (Arbos)",
+          "@type": "MusicalWork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27727",
+            "rdfs:label": "Block 60 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/60.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn120636",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27642",
+          "rdfs:label": "Glazonnoff symphony",
+          "@type": "MusicalWork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27728",
+            "rdfs:label": "Block 61 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/61.txt"
+          }
+        ]
+      }
+    ],
+    "attendedPerformanceAt": [
+      {
+        "@id": "_:bn120637",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27607",
+          "rdfs:label": "Jordan Hall",
+          "@type": "Venue"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27715",
+            "rdfs:label": "Block 48 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/48.txt"
+          }
+        ]
+      }
+    ],
+    "listenedTo": [
+      {
+        "@id": "_:bn120638",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27652",
+          "rdfs:label": "Irish Melody",
+          "@type": "MusicalWork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q27730",
+            "rdfs:label": "Block 63 of Mary Berenson diary, 1903 - 1904",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q27448/63.txt"
+          }
+        ]
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q27449.jpg"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27450",
+    "rdfs:label": "Bernard Berenson",
+    "@type": [
+      "Person"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn120639",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1",
+          "rdfs:label": "person",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn120640",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q359047"
+      }
+    ],
+    "thumbnail": [
+      {
+        "@value": "https://semlab.s3.amazonaws.com/images/Q27450.jpg"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27526",
+    "rdfs:label": "The Reef",
+    "@type": [
+      "Estate"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn120641",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29617",
+          "rdfs:label": "estate",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn120642",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q137887871"
+      }
+    ],
     "coordinateLocation": [
       {
         "@value": {
-          "latitude": 53,
-          "longitude": -1,
+          "latitude": 41.45361611111111,
+          "longitude": -71.35396,
           "altitude": null,
-          "precision": 0.0002777777777777778,
+          "precision": 2.7777777777777776e-07,
           "globe": "http://www.wikidata.org/entity/Q2"
         }
       }
@@ -2997,30 +2950,118 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26036",
-    "rdfs:label": "Spain",
+    "@id": "semlab:Q27545",
+    "rdfs:label": "Dorchester (Boston, Mass.)",
     "@type": [
-      "Country"
+      "Neighborhood"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115542",
+        "@id": "_:bn120643",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19056",
-          "rdfs:label": "country",
+          "@id": "semlab:Q19059",
+          "rdfs:label": "neighborhood",
           "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn120644",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
         }
       }
     ],
     "wikidataQid": [
       {
-        "@value": "Q29"
+        "@value": "Q1024037"
+      }
+    ],
+    "coordinateLocation": [
+      {
+        "@value": {
+          "latitude": 42.31666666666667,
+          "longitude": -71.05,
+          "altitude": null,
+          "precision": 0.016666666666666666,
+          "globe": "http://www.wikidata.org/entity/Q2"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn120645",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21518",
+          "rdfs:label": "Boston (Mass.)",
+          "@type": "City"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27549",
+    "rdfs:label": "Old Point",
+    "@type": [
+      "Neighborhood"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn120646",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19059",
+          "rdfs:label": "neighborhood",
+          "@type": "Class"
+        },
+        "certainty": [
+          {
+            "@id": "semlab:Q28898",
+            "rdfs:label": "semlab:Q28898"
+          }
+        ]
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115543",
+        "@id": "_:bn120647",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27647",
+    "rdfs:label": "Berkeley St. Church",
+    "@type": [
+      "Church"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn120648",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29619",
+          "rdfs:label": "church",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn120649",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3032,12 +3073,70 @@
     "coordinateLocation": [
       {
         "@value": {
-          "latitude": 40.2,
-          "longitude": -3.5,
+          "latitude": 42.345622,
+          "longitude": -71.070705,
           "altitude": null,
-          "precision": 0.0002777777777777778,
+          "precision": 1e-06,
           "globe": "http://www.wikidata.org/entity/Q2"
         }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn120650",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21518",
+          "rdfs:label": "Boston (Mass.)",
+          "@type": "City"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27665",
+    "rdfs:label": "Italian Garden, Green Hill",
+    "@type": [
+      "Garden"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn120651",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29622",
+          "rdfs:label": "garden",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn120652",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn120653",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27568",
+          "rdfs:label": "Green Hill",
+          "@type": "Estate"
+        },
+        "location": [
+          {
+            "@id": "semlab:Q27567",
+            "rdfs:label": "Brookline (Mass.)"
+          }
+        ]
       }
     ]
   },
@@ -3050,7 +3149,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115544",
+        "@id": "_:bn120654",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19058",
@@ -3061,7 +3160,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115545",
+        "@id": "_:bn120655",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3088,7 +3187,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn115546",
+        "@id": "_:bn120656",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24449",
@@ -3107,7 +3206,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115547",
+        "@id": "_:bn120657",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29618",
@@ -3118,7 +3217,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115548",
+        "@id": "_:bn120658",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3153,7 +3252,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115549",
+        "@id": "_:bn120659",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23077",
@@ -3164,7 +3263,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115550",
+        "@id": "_:bn120660",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3199,7 +3298,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115551",
+        "@id": "_:bn120661",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25970",
@@ -3210,7 +3309,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115552",
+        "@id": "_:bn120662",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3229,7 +3328,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115553",
+        "@id": "_:bn120663",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19059",
@@ -3240,7 +3339,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115554",
+        "@id": "_:bn120664",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3267,7 +3366,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn115555",
+        "@id": "_:bn120665",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27558",
@@ -3286,7 +3385,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115556",
+        "@id": "_:bn120666",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -3297,136 +3396,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115557",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27647",
-    "rdfs:label": "Berkeley St. Church",
-    "@type": [
-      "Church"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn115558",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29619",
-          "rdfs:label": "church",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn115559",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "coordinateLocation": [
-      {
-        "@value": {
-          "latitude": 42.345622,
-          "longitude": -71.070705,
-          "altitude": null,
-          "precision": 1e-06,
-          "globe": "http://www.wikidata.org/entity/Q2"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn115560",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21518",
-          "rdfs:label": "Boston (Mass.)",
-          "@type": "City"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27665",
-    "rdfs:label": "Italian Garden, Green Hill",
-    "@type": [
-      "Garden"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn115561",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29622",
-          "rdfs:label": "garden",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn115562",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn115563",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27568",
-          "rdfs:label": "Green Hill",
-          "@type": "Estate"
-        },
-        "location": [
-          {
-            "@id": "semlab:Q27567",
-            "rdfs:label": "Brookline (Mass.)"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30044",
-    "rdfs:label": "Morellian method",
-    "@type": [
-      "Method"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn115564",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30043",
-          "rdfs:label": "method",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn115565",
+        "@id": "_:bn120667",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3445,7 +3415,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115566",
+        "@id": "_:bn120668",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27354",
@@ -3456,7 +3426,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115567",
+        "@id": "_:bn120669",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3475,7 +3445,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115568",
+        "@id": "_:bn120670",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27354",
@@ -3486,7 +3456,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115569",
+        "@id": "_:bn120671",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3510,7 +3480,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115570",
+        "@id": "_:bn120672",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28941",
@@ -3521,7 +3491,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115571",
+        "@id": "_:bn120673",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3545,7 +3515,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn115572",
+        "@id": "_:bn120674",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3556,7 +3526,37 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn115573",
+        "@id": "_:bn120675",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30044",
+    "rdfs:label": "Morellian method",
+    "@type": [
+      "Method"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn120676",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30043",
+          "rdfs:label": "method",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn120677",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
