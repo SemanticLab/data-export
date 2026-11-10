@@ -1899,8 +1899,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32634",
-    "rdfs:label": "ZERO (magazine)",
+    "@id": "semlab:Q22223",
+    "rdfs:label": "The Village Voice",
     "@type": [
       "Publication"
     ],
@@ -1913,6 +1913,11 @@
           "rdfs:label": "publication",
           "@type": "Class"
         }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q876158"
       }
     ],
     "partOfProject": [
@@ -1938,8 +1943,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32635",
-    "rdfs:label": "Vi (magazine)",
+    "@id": "semlab:Q23901",
+    "rdfs:label": "Washington (D.C.) Journal",
     "@type": [
       "Publication"
     ],
@@ -1959,13 +1964,512 @@
         "@id": "_:bn79189",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "employee": [
+      {
+        "@id": "_:bn79190",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19383",
+          "rdfs:label": "Klaus Wust",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24035",
+            "rdfs:label": "Block 0 of A217 9 Evenings press briefing guest list",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22880/0.txt"
+          },
+          {
+            "@id": "semlab:Q23905",
+            "rdfs:label": "Block 0 of A120 Guest list for Nine Evenings: Theater and Engineering press briefing",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19841/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24042",
+    "rdfs:label": "E.A.T. Operations and Information",
+    "@type": [
+      "Publication",
+      "Newsletter"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79191",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24726",
+            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79192",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19095",
+          "rdfs:label": "newsletter",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24726",
+            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79193",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79194",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        },
+        "date": [
+          "+1967-00-00T00:00:00Z"
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24726",
+            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24043",
+    "rdfs:label": "Techne",
+    "@type": [
+      "Publication",
+      "Newspaper"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79195",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24726",
+            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79196",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28950",
+          "rdfs:label": "newspaper",
+          "@type": "Class"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q24726",
+            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          }
+        ]
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79197",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79198",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1969-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24048",
+    "rdfs:label": "Broadside",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79199",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79200",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q4972295"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25642",
+    "rdfs:label": "Houston Chronicle",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79201",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79202",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25644",
+    "rdfs:label": "Houston Post",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79203",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79204",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29479",
+    "rdfs:label": "The Two Cultures",
+    "wikidataQid": [
+      {
+        "@value": "Q232061"
+      }
+    ],
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79205",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79206",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29681",
+    "rdfs:label": "Encyclop\u00e6dia Britannica",
+    "wikidataQid": [
+      {
+        "@value": "Q455"
+      }
+    ],
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79207",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79208",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29717",
+    "rdfs:label": "Spectrum",
+    "wikidataQid": [
+      {
+        "@value": "Q7575270"
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79209",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79210",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32612",
+    "rdfs:label": "Proceedings of the Institution of Electrical Engineers",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79211",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79212",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q20517",
           "rdfs:label": "E.A.T. Bibliography Project",
           "@type": "SemanticLabProject"
         }
       },
       {
-        "@id": "_:bn79190",
+        "@id": "_:bn79213",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q79624680"
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79214",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32573",
+          "rdfs:label": "Institution of Electrical Engineers",
+          "@type": "Organization"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32634",
+    "rdfs:label": "ZERO (magazine)",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79215",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79216",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79217",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32635",
+    "rdfs:label": "Vi (magazine)",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79218",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79219",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79220",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1989,7 +2493,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79191",
+        "@id": "_:bn79221",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -2000,7 +2504,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79192",
+        "@id": "_:bn79222",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -2009,7 +2513,7 @@
         }
       },
       {
-        "@id": "_:bn79193",
+        "@id": "_:bn79223",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2023,427 +2527,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q32637",
     "rdfs:label": "Scienza e Tecnica (Annuario della EST)",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79194",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79195",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79196",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn79197",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32190",
-          "rdfs:label": "Edizioni Scientifiche e Tecniche Mondadori",
-          "@type": "Business"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32494",
-            "rdfs:label": "Block 9 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/9.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32638",
-    "rdfs:label": "Radical Software",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79198",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79199",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79200",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q7280464"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32639",
-    "rdfs:label": "XXe Si\u00e8cle",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79201",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79202",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79203",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32640",
-    "rdfs:label": "Sculpture (magazine)",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79204",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79205",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79206",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32641",
-    "rdfs:label": "ARCH+",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79207",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79208",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79209",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q631994"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32642",
-    "rdfs:label": "Il Giornale dell'Arte",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79210",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79211",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79212",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3792750"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32643",
-    "rdfs:label": "Journal of Applied Physics",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79213",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79214",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79215",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q1987941"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32644",
-    "rdfs:label": "Proceedings of the IEEE",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79216",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79217",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79218",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3021749"
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn79219",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19324",
-          "rdfs:label": "Institute of Electrical and Electronics Engineers",
-          "@type": "Organization"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32645",
-    "rdfs:label": "IEEE Transactions on Electron Devices",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79220",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79221",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79222",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q2269764"
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn79223",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19324",
-          "rdfs:label": "Institute of Electrical and Electronics Engineers",
-          "@type": "Organization"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32646",
-    "rdfs:label": "Applied Optics",
     "@type": [
       "Publication"
     ],
@@ -2478,22 +2561,35 @@
         }
       }
     ],
-    "wikidataQid": [
+    "publisher": [
       {
-        "@value": "Q4781557"
+        "@id": "_:bn79227",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32190",
+          "rdfs:label": "Edizioni Scientifiche e Tecniche Mondadori",
+          "@type": "Business"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32494",
+            "rdfs:label": "Block 9 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/9.txt"
+          }
+        ]
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32647",
-    "rdfs:label": "International Anthology of Contemporary Engraving, Volume V: American Artists",
+    "@id": "semlab:Q32638",
+    "rdfs:label": "Radical Software",
     "@type": [
       "Publication"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79227",
+        "@id": "_:bn79228",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -2504,7 +2600,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79228",
+        "@id": "_:bn79229",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -2513,7 +2609,7 @@
         }
       },
       {
-        "@id": "_:bn79229",
+        "@id": "_:bn79230",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2522,101 +2618,55 @@
         }
       }
     ],
-    "title": [
+    "wikidataQid": [
       {
-        "@value": {
-          "text": "International Anthology of Contemporary Engraving, Volume V: American Artists",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1964-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn79230",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32582",
-          "rdfs:label": "Galleria Schwarz",
-          "@type": "ArtGallery"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn79231",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21543",
-          "rdfs:label": "Milan (Italy)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
-      }
-    ],
-    "editor": [
-      {
-        "@id": "_:bn79232",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19180",
-          "rdfs:label": "Billy Kl\u00fcver",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn79233",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32556",
-          "rdfs:label": "Arturo Schwarz",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
+        "@value": "Q7280464"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32648",
-    "rdfs:label": "R\u00f6relse i konsten (catalogue)",
+    "@id": "semlab:Q32639",
+    "rdfs:label": "XXe Si\u00e8cle",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79231",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79232",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79233",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32640",
+    "rdfs:label": "Sculpture (magazine)",
     "@type": [
       "Publication"
     ],
@@ -2650,86 +2700,56 @@
           "@type": "SemanticLabProject"
         }
       }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32641",
+    "rdfs:label": "ARCH+",
+    "@type": [
+      "Publication"
     ],
-    "title": [
-      {
-        "@value": {
-          "text": "R\u00f6relse i konsten",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1961-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "publisher": [
+    "instanceOf": [
       {
         "@id": "_:bn79237",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19461",
-          "rdfs:label": "Moderna Museet",
-          "@type": "Museum"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
       }
     ],
-    "placeOfPublication": [
+    "partOfProject": [
       {
         "@id": "_:bn79238",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19607",
-          "rdfs:label": "Stockholm (Sweden)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
-      }
-    ],
-    "mainSubject": [
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
       {
         "@id": "_:bn79239",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24206",
-          "rdfs:label": "Art in Motion",
-          "@type": "ArtExhibition"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q631994"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32649",
-    "rdfs:label": "M\u00e9ta (Pontus Hult\u00e9n, 1972)",
+    "@id": "semlab:Q32642",
+    "rdfs:label": "Il Giornale dell'Arte",
     "@type": [
       "Publication"
     ],
@@ -2764,141 +2784,22 @@
         }
       }
     ],
-    "title": [
+    "wikidataQid": [
       {
-        "@value": {
-          "text": "M\u00e9ta",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1972-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn79243",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19461",
-          "rdfs:label": "Moderna Museet",
-          "@type": "Museum"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn79244",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32615",
-          "rdfs:label": "Ullstein Verlag",
-          "@type": "Publisher"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn79245",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19607",
-          "rdfs:label": "Stockholm (Sweden)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn79246",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21528",
-          "rdfs:label": "Frankfurt am Main (Germany)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn79247",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20514",
-          "rdfs:label": "Pontus Hult\u00e9n",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
-      }
-    ],
-    "mainSubject": [
-      {
-        "@id": "_:bn79248",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19339",
-          "rdfs:label": "Jean Tinguely",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
+        "@value": "Q3792750"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32650",
-    "rdfs:label": "Paris-New York (catalogue)",
+    "@id": "semlab:Q32643",
+    "rdfs:label": "Journal of Applied Physics",
     "@type": [
       "Publication"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79249",
+        "@id": "_:bn79243",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -2909,7 +2810,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79250",
+        "@id": "_:bn79244",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -2918,7 +2819,7 @@
         }
       },
       {
-        "@id": "_:bn79251",
+        "@id": "_:bn79245",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2927,67 +2828,126 @@
         }
       }
     ],
-    "title": [
+    "wikidataQid": [
       {
-        "@value": {
-          "text": "Paris-New York",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1977-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn79252",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19205",
-          "rdfs:label": "Centre Pompidou",
-          "@type": "Museum"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn79253",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21555",
-          "rdfs:label": "Paris (France)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32493",
-            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
-          }
-        ]
+        "@value": "Q1987941"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32651",
-    "rdfs:label": "A Magic Stronger Than Death",
+    "@id": "semlab:Q32644",
+    "rdfs:label": "Proceedings of the IEEE",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79246",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79247",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79248",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3021749"
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79249",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19324",
+          "rdfs:label": "Institute of Electrical and Electronics Engineers",
+          "@type": "Organization"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32645",
+    "rdfs:label": "IEEE Transactions on Electron Devices",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79250",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79251",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79252",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q2269764"
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79253",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19324",
+          "rdfs:label": "Institute of Electrical and Electronics Engineers",
+          "@type": "Organization"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32646",
+    "rdfs:label": "Applied Optics",
     "@type": [
       "Publication"
     ],
@@ -3022,6 +2982,550 @@
         }
       }
     ],
+    "wikidataQid": [
+      {
+        "@value": "Q4781557"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32647",
+    "rdfs:label": "International Anthology of Contemporary Engraving, Volume V: American Artists",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79257",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79258",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79259",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "International Anthology of Contemporary Engraving, Volume V: American Artists",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1964-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79260",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32582",
+          "rdfs:label": "Galleria Schwarz",
+          "@type": "ArtGallery"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      }
+    ],
+    "placeOfPublication": [
+      {
+        "@id": "_:bn79261",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21543",
+          "rdfs:label": "Milan (Italy)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      }
+    ],
+    "editor": [
+      {
+        "@id": "_:bn79262",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19180",
+          "rdfs:label": "Billy Kl\u00fcver",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79263",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32556",
+          "rdfs:label": "Arturo Schwarz",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32648",
+    "rdfs:label": "R\u00f6relse i konsten (catalogue)",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79264",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79265",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79266",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "R\u00f6relse i konsten",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1961-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79267",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19461",
+          "rdfs:label": "Moderna Museet",
+          "@type": "Museum"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      }
+    ],
+    "placeOfPublication": [
+      {
+        "@id": "_:bn79268",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19607",
+          "rdfs:label": "Stockholm (Sweden)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn79269",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24206",
+          "rdfs:label": "Art in Motion",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32649",
+    "rdfs:label": "M\u00e9ta (Pontus Hult\u00e9n, 1972)",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79270",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79271",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79272",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "M\u00e9ta",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1972-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79273",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19461",
+          "rdfs:label": "Moderna Museet",
+          "@type": "Museum"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79274",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32615",
+          "rdfs:label": "Ullstein Verlag",
+          "@type": "Publisher"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      }
+    ],
+    "placeOfPublication": [
+      {
+        "@id": "_:bn79275",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19607",
+          "rdfs:label": "Stockholm (Sweden)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79276",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21528",
+          "rdfs:label": "Frankfurt am Main (Germany)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn79277",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20514",
+          "rdfs:label": "Pontus Hult\u00e9n",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn79278",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19339",
+          "rdfs:label": "Jean Tinguely",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32650",
+    "rdfs:label": "Paris-New York (catalogue)",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79279",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79280",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79281",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Paris-New York",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1977-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79282",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19205",
+          "rdfs:label": "Centre Pompidou",
+          "@type": "Museum"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      }
+    ],
+    "placeOfPublication": [
+      {
+        "@id": "_:bn79283",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21555",
+          "rdfs:label": "Paris (France)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32493",
+            "rdfs:label": "Block 8 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/8.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32651",
+    "rdfs:label": "A Magic Stronger Than Death",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79284",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79285",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79286",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
     "title": [
       {
         "@value": {
@@ -3044,7 +3548,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn79257",
+        "@id": "_:bn79287",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32616",
@@ -3062,7 +3566,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79258",
+        "@id": "_:bn79288",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21543",
@@ -3080,7 +3584,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn79259",
+        "@id": "_:bn79289",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20514",
@@ -3096,7 +3600,7 @@
         ]
       },
       {
-        "@id": "_:bn79260",
+        "@id": "_:bn79290",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19339",
@@ -3114,7 +3618,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn79261",
+        "@id": "_:bn79291",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19339",
@@ -3140,7 +3644,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79262",
+        "@id": "_:bn79292",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -3151,7 +3655,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79263",
+        "@id": "_:bn79293",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -3160,7 +3664,7 @@
         }
       },
       {
-        "@id": "_:bn79264",
+        "@id": "_:bn79294",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3191,7 +3695,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn79265",
+        "@id": "_:bn79295",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19461",
@@ -3209,7 +3713,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79266",
+        "@id": "_:bn79296",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19607",
@@ -3227,7 +3731,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn79267",
+        "@id": "_:bn79297",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24211",
@@ -3253,7 +3757,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79268",
+        "@id": "_:bn79298",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -3264,7 +3768,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79269",
+        "@id": "_:bn79299",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -3273,7 +3777,7 @@
         }
       },
       {
-        "@id": "_:bn79270",
+        "@id": "_:bn79300",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3304,7 +3808,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn79271",
+        "@id": "_:bn79301",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32617",
@@ -3322,7 +3826,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79272",
+        "@id": "_:bn79302",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23769",
@@ -3340,7 +3844,7 @@
     ],
     "editor": [
       {
-        "@id": "_:bn79273",
+        "@id": "_:bn79303",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32557",
@@ -3366,7 +3870,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79274",
+        "@id": "_:bn79304",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -3377,7 +3881,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79275",
+        "@id": "_:bn79305",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -3386,7 +3890,7 @@
         }
       },
       {
-        "@id": "_:bn79276",
+        "@id": "_:bn79306",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3417,7 +3921,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn79277",
+        "@id": "_:bn79307",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32618",
@@ -3435,7 +3939,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79278",
+        "@id": "_:bn79308",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27066",
@@ -3453,7 +3957,7 @@
     ],
     "editor": [
       {
-        "@id": "_:bn79279",
+        "@id": "_:bn79309",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32558",
@@ -3469,7 +3973,7 @@
         ]
       },
       {
-        "@id": "_:bn79280",
+        "@id": "_:bn79310",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32559",
@@ -3495,7 +3999,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79281",
+        "@id": "_:bn79311",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -3506,7 +4010,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79282",
+        "@id": "_:bn79312",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -3515,7 +4019,7 @@
         }
       },
       {
-        "@id": "_:bn79283",
+        "@id": "_:bn79313",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3546,7 +4050,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79284",
+        "@id": "_:bn79314",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21569",
@@ -3564,7 +4068,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn79285",
+        "@id": "_:bn79315",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21496",
@@ -3590,7 +4094,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79286",
+        "@id": "_:bn79316",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -3601,7 +4105,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79287",
+        "@id": "_:bn79317",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -3610,7 +4114,7 @@
         }
       },
       {
-        "@id": "_:bn79288",
+        "@id": "_:bn79318",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3641,7 +4145,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn79289",
+        "@id": "_:bn79319",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32586",
@@ -3659,7 +4163,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79290",
+        "@id": "_:bn79320",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32531",
@@ -3685,7 +4189,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79291",
+        "@id": "_:bn79321",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -3696,7 +4200,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79292",
+        "@id": "_:bn79322",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -3705,7 +4209,7 @@
         }
       },
       {
-        "@id": "_:bn79293",
+        "@id": "_:bn79323",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3736,7 +4240,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79294",
+        "@id": "_:bn79324",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32535",
@@ -3754,7 +4258,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn79295",
+        "@id": "_:bn79325",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19461",
@@ -3780,7 +4284,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79296",
+        "@id": "_:bn79326",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -3791,7 +4295,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79297",
+        "@id": "_:bn79327",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -3800,7 +4304,7 @@
         }
       },
       {
-        "@id": "_:bn79298",
+        "@id": "_:bn79328",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3831,7 +4335,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn79299",
+        "@id": "_:bn79329",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19461",
@@ -3849,7 +4353,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79300",
+        "@id": "_:bn79330",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19607",
@@ -3867,7 +4371,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn79301",
+        "@id": "_:bn79331",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19461",
@@ -3888,569 +4392,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q32659",
     "rdfs:label": "The Circle of Montparnasse: Jewish Artists in Paris, 1905-1945",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79302",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79303",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79304",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "The Circle of Montparnasse: Jewish Artists in Paris, 1905-1945",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1985-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn79305",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32619",
-          "rdfs:label": "Universe Books",
-          "@type": "Publisher"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn79306",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19486",
-          "rdfs:label": "New York (N.Y.)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ],
-    "editor": [
-      {
-        "@id": "_:bn79307",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32560",
-          "rdfs:label": "Kenneth E. Silver",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn79308",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32561",
-          "rdfs:label": "Romy Golan",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ],
-    "mainSubject": [
-      {
-        "@id": "_:bn79309",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32547",
-          "rdfs:label": "Montparnasse (Paris, France)",
-          "@type": "Neighborhood"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32660",
-    "rdfs:label": "Perpetual Motif: The Art of Man Ray",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79310",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79311",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79312",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "Perpetual Motif: The Art of Man Ray",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1988-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn79313",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32620",
-          "rdfs:label": "Abbeville Press",
-          "@type": "Publisher"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn79314",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19486",
-          "rdfs:label": "New York (N.Y.)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ],
-    "editor": [
-      {
-        "@id": "_:bn79315",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32562",
-          "rdfs:label": "Merry Foresta",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ],
-    "mainSubject": [
-      {
-        "@id": "_:bn79316",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32553",
-          "rdfs:label": "Man Ray",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32661",
-    "rdfs:label": "Metropolis (Montreal Museum of Fine Arts, 1991)",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79317",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79318",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79319",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "Metropolis",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1991-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn79320",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32584",
-          "rdfs:label": "Montreal Museum of Fine Arts",
-          "@type": "Museum"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn79321",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21546",
-          "rdfs:label": "Montr\u00e9al (Qu\u00e9bec)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32662",
-    "rdfs:label": "Swedish Avantgarde Film 1924-1990",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79322",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79323",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79324",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "Swedish Avantgarde Film 1924-1990",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1991-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn79325",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32587",
-          "rdfs:label": "Anthology Film Archives",
-          "@type": "Organization"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn79326",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19486",
-          "rdfs:label": "New York (N.Y.)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32663",
-    "rdfs:label": "Exposition Amedeo Modigliani au Japon 1992-1993",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79327",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79328",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79329",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "Exposition Amedeo Modigliani au Japon 1992-1993",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1992-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn79330",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32585",
-          "rdfs:label": "Museum of Modern Art, Ibaraki",
-          "@type": "Museum"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ],
-    "mainSubject": [
-      {
-        "@id": "_:bn79331",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32551",
-          "rdfs:label": "Amedeo Modigliani",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32495",
-            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32664",
-    "rdfs:label": "Culture on the Brink: Ideologies of Technology",
     "@type": [
       "Publication"
     ],
@@ -4488,6 +4429,569 @@
     "title": [
       {
         "@value": {
+          "text": "The Circle of Montparnasse: Jewish Artists in Paris, 1905-1945",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1985-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79335",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32619",
+          "rdfs:label": "Universe Books",
+          "@type": "Publisher"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ],
+    "placeOfPublication": [
+      {
+        "@id": "_:bn79336",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ],
+    "editor": [
+      {
+        "@id": "_:bn79337",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32560",
+          "rdfs:label": "Kenneth E. Silver",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn79338",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32561",
+          "rdfs:label": "Romy Golan",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn79339",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32547",
+          "rdfs:label": "Montparnasse (Paris, France)",
+          "@type": "Neighborhood"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32660",
+    "rdfs:label": "Perpetual Motif: The Art of Man Ray",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79340",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79341",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79342",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Perpetual Motif: The Art of Man Ray",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1988-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79343",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32620",
+          "rdfs:label": "Abbeville Press",
+          "@type": "Publisher"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ],
+    "placeOfPublication": [
+      {
+        "@id": "_:bn79344",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ],
+    "editor": [
+      {
+        "@id": "_:bn79345",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32562",
+          "rdfs:label": "Merry Foresta",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn79346",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32553",
+          "rdfs:label": "Man Ray",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32661",
+    "rdfs:label": "Metropolis (Montreal Museum of Fine Arts, 1991)",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79347",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79348",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79349",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Metropolis",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1991-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79350",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32584",
+          "rdfs:label": "Montreal Museum of Fine Arts",
+          "@type": "Museum"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ],
+    "placeOfPublication": [
+      {
+        "@id": "_:bn79351",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21546",
+          "rdfs:label": "Montr\u00e9al (Qu\u00e9bec)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32662",
+    "rdfs:label": "Swedish Avantgarde Film 1924-1990",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79352",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79353",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79354",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Swedish Avantgarde Film 1924-1990",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1991-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79355",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32587",
+          "rdfs:label": "Anthology Film Archives",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ],
+    "placeOfPublication": [
+      {
+        "@id": "_:bn79356",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19486",
+          "rdfs:label": "New York (N.Y.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32663",
+    "rdfs:label": "Exposition Amedeo Modigliani au Japon 1992-1993",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79357",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79358",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79359",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Exposition Amedeo Modigliani au Japon 1992-1993",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1992-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn79360",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32585",
+          "rdfs:label": "Museum of Modern Art, Ibaraki",
+          "@type": "Museum"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn79361",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32551",
+          "rdfs:label": "Amedeo Modigliani",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32495",
+            "rdfs:label": "Block 10 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/10.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32664",
+    "rdfs:label": "Culture on the Brink: Ideologies of Technology",
+    "@type": [
+      "Publication"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn79362",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19079",
+          "rdfs:label": "publication",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn79363",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn79364",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
           "text": "Culture on the Brink: Ideologies of Technology",
           "language": "en"
         }
@@ -4507,7 +5011,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn79335",
+        "@id": "_:bn79365",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32614",
@@ -4525,7 +5029,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79336",
+        "@id": "_:bn79366",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21564",
@@ -4551,7 +5055,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79337",
+        "@id": "_:bn79367",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -4562,7 +5066,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79338",
+        "@id": "_:bn79368",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -4571,7 +5075,7 @@
         }
       },
       {
-        "@id": "_:bn79339",
+        "@id": "_:bn79369",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4602,7 +5106,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn79340",
+        "@id": "_:bn79370",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32628",
@@ -4620,7 +5124,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79341",
+        "@id": "_:bn79371",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32530",
@@ -4638,7 +5142,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn79342",
+        "@id": "_:bn79372",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -4664,7 +5168,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79343",
+        "@id": "_:bn79373",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -4675,7 +5179,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79344",
+        "@id": "_:bn79374",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -4684,7 +5188,7 @@
         }
       },
       {
-        "@id": "_:bn79345",
+        "@id": "_:bn79375",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4715,7 +5219,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn79346",
+        "@id": "_:bn79376",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19598",
@@ -4733,7 +5237,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79347",
+        "@id": "_:bn79377",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -4751,7 +5255,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn79348",
+        "@id": "_:bn79378",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -4777,7 +5281,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79349",
+        "@id": "_:bn79379",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -4788,7 +5292,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79350",
+        "@id": "_:bn79380",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -4797,7 +5301,7 @@
         }
       },
       {
-        "@id": "_:bn79351",
+        "@id": "_:bn79381",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4828,7 +5332,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn79352",
+        "@id": "_:bn79382",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19233",
@@ -4844,7 +5348,7 @@
         ]
       },
       {
-        "@id": "_:bn79353",
+        "@id": "_:bn79383",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32564",
@@ -4870,7 +5374,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79354",
+        "@id": "_:bn79384",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -4881,7 +5385,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79355",
+        "@id": "_:bn79385",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -4890,7 +5394,7 @@
         }
       },
       {
-        "@id": "_:bn79356",
+        "@id": "_:bn79386",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4921,7 +5425,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn79357",
+        "@id": "_:bn79387",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19471",
@@ -4939,7 +5443,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79358",
+        "@id": "_:bn79388",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -4957,7 +5461,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn79359",
+        "@id": "_:bn79389",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19338",
@@ -4983,7 +5487,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79360",
+        "@id": "_:bn79390",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -4994,7 +5498,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79361",
+        "@id": "_:bn79391",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -5003,7 +5507,7 @@
         }
       },
       {
-        "@id": "_:bn79362",
+        "@id": "_:bn79392",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5034,7 +5538,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn79363",
+        "@id": "_:bn79393",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32629",
@@ -5052,7 +5556,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79364",
+        "@id": "_:bn79394",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21569",
@@ -5070,7 +5574,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn79365",
+        "@id": "_:bn79395",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32550",
@@ -5096,7 +5600,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn79366",
+        "@id": "_:bn79396",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -5107,7 +5611,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn79367",
+        "@id": "_:bn79397",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -5116,7 +5620,7 @@
         }
       },
       {
-        "@id": "_:bn79368",
+        "@id": "_:bn79398",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -5147,7 +5651,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn79369",
+        "@id": "_:bn79399",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28134",
@@ -5165,7 +5669,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn79370",
+        "@id": "_:bn79400",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -5186,532 +5690,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q32752",
     "rdfs:label": "Proceedings of the International Convention of Microwave Valves",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79371",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79372",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79373",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "Proceedings of the International Convention of Microwave Valves",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1960-06-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 10,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "placeOfPublication": [
-      {
-        "@id": "_:bn79374",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q32530",
-          "rdfs:label": "Munich (Germany)",
-          "@type": "City"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q32499",
-            "rdfs:label": "Block 14 of Billy Kl\u00fcver CV",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/14.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q22223",
-    "rdfs:label": "The Village Voice",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79375",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q876158"
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79376",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn79377",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23901",
-    "rdfs:label": "Washington (D.C.) Journal",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79378",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79379",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "employee": [
-      {
-        "@id": "_:bn79380",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19383",
-          "rdfs:label": "Klaus Wust",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24035",
-            "rdfs:label": "Block 0 of A217 9 Evenings press briefing guest list",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22880/0.txt"
-          },
-          {
-            "@id": "semlab:Q23905",
-            "rdfs:label": "Block 0 of A120 Guest list for Nine Evenings: Theater and Engineering press briefing",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19841/0.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24042",
-    "rdfs:label": "E.A.T. Operations and Information",
-    "@type": [
-      "Publication",
-      "Newsletter"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79381",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24726",
-            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn79382",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19095",
-          "rdfs:label": "newsletter",
-          "@type": "Class"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24726",
-            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79383",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn79384",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19263",
-          "rdfs:label": "Experiments in Art and Technology",
-          "@type": "Publisher"
-        },
-        "date": [
-          "+1967-00-00T00:00:00Z"
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24726",
-            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24043",
-    "rdfs:label": "Techne",
-    "@type": [
-      "Publication",
-      "Newspaper"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79385",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24726",
-            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
-          }
-        ]
-      },
-      {
-        "@id": "_:bn79386",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28950",
-          "rdfs:label": "newspaper",
-          "@type": "Class"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q24726",
-            "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
-          }
-        ]
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79387",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "publisher": [
-      {
-        "@id": "_:bn79388",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19263",
-          "rdfs:label": "Experiments in Art and Technology",
-          "@type": "Publisher"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1969-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24048",
-    "rdfs:label": "Broadside",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79389",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79390",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q4972295"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25642",
-    "rdfs:label": "Houston Chronicle",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79391",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79392",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25644",
-    "rdfs:label": "Houston Post",
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79393",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79394",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29479",
-    "rdfs:label": "The Two Cultures",
-    "wikidataQid": [
-      {
-        "@value": "Q232061"
-      }
-    ],
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79395",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79396",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29681",
-    "rdfs:label": "Encyclop\u00e6dia Britannica",
-    "wikidataQid": [
-      {
-        "@value": "Q455"
-      }
-    ],
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79397",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79398",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29717",
-    "rdfs:label": "Spectrum",
-    "wikidataQid": [
-      {
-        "@value": "Q7575270"
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn79399",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "@type": [
-      "Publication"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn79400",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19079",
-          "rdfs:label": "publication",
-          "@type": "Class"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32612",
-    "rdfs:label": "Proceedings of the Institution of Electrical Engineers",
     "@type": [
       "Publication"
     ],
@@ -5746,20 +5724,42 @@
         }
       }
     ],
-    "wikidataQid": [
+    "title": [
       {
-        "@value": "Q79624680"
+        "@value": {
+          "text": "Proceedings of the International Convention of Microwave Valves",
+          "language": "en"
+        }
       }
     ],
-    "publisher": [
+    "date": [
+      {
+        "@value": {
+          "time": "+1960-06-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 10,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "placeOfPublication": [
       {
         "@id": "_:bn79404",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q32573",
-          "rdfs:label": "Institution of Electrical Engineers",
-          "@type": "Organization"
-        }
+          "@id": "semlab:Q32530",
+          "rdfs:label": "Munich (Germany)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q32499",
+            "rdfs:label": "Block 14 of Billy Kl\u00fcver CV",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/14.txt"
+          }
+        ]
       }
     ]
   }

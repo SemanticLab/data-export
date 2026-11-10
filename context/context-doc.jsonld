@@ -454,7 +454,6 @@
       "@id": "http://base.semlab.io/entity/P110",
       "skos:prefLabel": "employer",
       "skos:altLabel": [
-        "works for",
         "works at",
         "workplace",
         "working place",
@@ -462,7 +461,8 @@
         "worked for",
         "worked at place",
         "worked at",
-        "employed by"
+        "employed by",
+        "works for"
       ],
       "owl:equivalentClass": [
         "https://schema.org/worksFor",
@@ -1066,15 +1066,6 @@
       "@id": "http://base.semlab.io/entity/P202",
       "skos:prefLabel": "field of work",
       "skos:altLabel": [
-        "area of work",
-        "area",
-        "activity domain",
-        "academic subject",
-        "academic discipline",
-        "academic area",
-        "subject",
-        "domain",
-        "activity",
         "trade",
         "studies",
         "specialty",
@@ -1092,7 +1083,16 @@
         "domain of activity",
         "discipline",
         "conduct research about",
-        "be researcher in"
+        "be researcher in",
+        "area of work",
+        "area",
+        "activity domain",
+        "academic subject",
+        "academic discipline",
+        "academic area",
+        "subject",
+        "domain",
+        "activity"
       ],
       "owl:equivalentClass": [
         "http://www.wikidata.org/entity/P101"
@@ -2687,12 +2687,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
-        "profession",
-        "work",
         "career",
         "craft",
         "employment",
-        "job"
+        "job",
+        "profession",
+        "work"
       ],
       "skos:note": "job title or profession of the person"
     },
@@ -2707,8 +2707,8 @@
       "@id": "http://base.semlab.io/entity/Q19049",
       "skos:prefLabel": "organization",
       "owl:equivalentClass": [
-        "https://schema.org/Organization",
-        "http://xmlns.com/foaf/0.1/Organization"
+        "http://xmlns.com/foaf/0.1/Organization",
+        "https://schema.org/Organization"
       ]
     },
     "OrganizationalChart": {
