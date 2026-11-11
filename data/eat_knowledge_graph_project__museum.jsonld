@@ -10,7 +10,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80183",
+        "@id": "_:bn80185",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19049",
@@ -19,7 +19,7 @@
         }
       },
       {
-        "@id": "_:bn80184",
+        "@id": "_:bn80186",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -28,7 +28,7 @@
         }
       },
       {
-        "@id": "_:bn80185",
+        "@id": "_:bn80187",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18806",
@@ -39,7 +39,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80186",
+        "@id": "_:bn80188",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -48,7 +48,7 @@
         }
       },
       {
-        "@id": "_:bn80187",
+        "@id": "_:bn80189",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
@@ -78,7 +78,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80188",
+        "@id": "_:bn80190",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -87,7 +87,7 @@
         }
       },
       {
-        "@id": "_:bn80189",
+        "@id": "_:bn80191",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19049",
@@ -98,7 +98,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80190",
+        "@id": "_:bn80192",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -122,7 +122,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80191",
+        "@id": "_:bn80193",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -133,7 +133,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80192",
+        "@id": "_:bn80194",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -149,7 +149,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn80193",
+        "@id": "_:bn80195",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21555",
@@ -167,12 +167,12 @@
     ],
     "uses": [
       {
-        "@id": "_:bn80194",
+        "@id": "_:bn80196",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24487",
           "rdfs:label": "outdoor projection screen for Centre Georges Pompidou",
-          "@type": "VisualProjectionOrDisplayDevice"
+          "@type": "TheatricalSceneryComponent"
         },
         "referenceBlock": [
           {
@@ -185,7 +185,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn80195",
+        "@id": "_:bn80197",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19539",
@@ -207,7 +207,7 @@
         ]
       },
       {
-        "@id": "_:bn80196",
+        "@id": "_:bn80198",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19545",
@@ -239,41 +239,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80197",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19103",
-          "rdfs:label": "museum",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn80198",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q49135"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q19344",
-    "rdfs:label": "Jewish Museum",
-    "@type": [
-      "Museum"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn80199",
         "@type": "RelEvent",
         "agentObj": {
@@ -296,14 +261,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q592116"
+        "@value": "Q49135"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q19414",
-    "rdfs:label": "Los Angeles County Museum of Art",
+    "@id": "semlab:Q19344",
+    "rdfs:label": "Jewish Museum",
     "@type": [
       "Museum"
     ],
@@ -331,12 +296,47 @@
     ],
     "wikidataQid": [
       {
+        "@value": "Q592116"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q19414",
+    "rdfs:label": "Los Angeles County Museum of Art",
+    "@type": [
+      "Museum"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn80203",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19103",
+          "rdfs:label": "museum",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn80204",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
         "@value": "Q1641836"
       }
     ],
     "location": [
       {
-        "@id": "_:bn80203",
+        "@id": "_:bn80205",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24531",
@@ -354,7 +354,7 @@
     ],
     "sponsorOf": [
       {
-        "@id": "_:bn80204",
+        "@id": "_:bn80206",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19470",
@@ -380,7 +380,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80205",
+        "@id": "_:bn80207",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -391,7 +391,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80206",
+        "@id": "_:bn80208",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -412,7 +412,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn80207",
+        "@id": "_:bn80209",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19607",
@@ -440,7 +440,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn80208",
+        "@id": "_:bn80210",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24496",
@@ -472,7 +472,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80209",
+        "@id": "_:bn80211",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -481,7 +481,7 @@
         }
       },
       {
-        "@id": "_:bn80210",
+        "@id": "_:bn80212",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21676",
@@ -492,7 +492,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80211",
+        "@id": "_:bn80213",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -501,7 +501,7 @@
         }
       },
       {
-        "@id": "_:bn80212",
+        "@id": "_:bn80214",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -517,7 +517,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn80213",
+        "@id": "_:bn80215",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19128",
@@ -584,7 +584,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80214",
+        "@id": "_:bn80216",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -595,7 +595,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80215",
+        "@id": "_:bn80217",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -624,7 +624,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80216",
+        "@id": "_:bn80218",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -635,7 +635,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80217",
+        "@id": "_:bn80219",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -664,7 +664,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80218",
+        "@id": "_:bn80220",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -675,7 +675,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80219",
+        "@id": "_:bn80221",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -699,7 +699,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80220",
+        "@id": "_:bn80222",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -710,7 +710,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80221",
+        "@id": "_:bn80223",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -726,7 +726,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn80222",
+        "@id": "_:bn80224",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24532",
@@ -753,7 +753,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80223",
+        "@id": "_:bn80225",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1804",
@@ -761,36 +761,6 @@
           "@type": "Class"
         }
       },
-      {
-        "@id": "_:bn80224",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19103",
-          "rdfs:label": "museum",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn80225",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q25728",
-    "rdfs:label": "Contemporary Arts Museum Houston",
-    "@type": [
-      "Museum"
-    ],
-    "instanceOf": [
       {
         "@id": "_:bn80226",
         "@type": "RelEvent",
@@ -811,10 +781,40 @@
           "@type": "SemanticLabProject"
         }
       }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q25728",
+    "rdfs:label": "Contemporary Arts Museum Houston",
+    "@type": [
+      "Museum"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn80228",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19103",
+          "rdfs:label": "museum",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn80229",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
     ],
     "location": [
       {
-        "@id": "_:bn80228",
+        "@id": "_:bn80230",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23492",
@@ -845,7 +845,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80229",
+        "@id": "_:bn80231",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -856,7 +856,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80230",
+        "@id": "_:bn80232",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -880,7 +880,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80231",
+        "@id": "_:bn80233",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -891,7 +891,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80232",
+        "@id": "_:bn80234",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -902,7 +902,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn80233",
+        "@id": "_:bn80235",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24381",
@@ -921,7 +921,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80234",
+        "@id": "_:bn80236",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -932,7 +932,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80235",
+        "@id": "_:bn80237",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27735",
@@ -941,7 +941,7 @@
         }
       },
       {
-        "@id": "_:bn80236",
+        "@id": "_:bn80238",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -970,7 +970,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80237",
+        "@id": "_:bn80239",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -981,7 +981,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80238",
+        "@id": "_:bn80240",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27735",
@@ -990,7 +990,7 @@
         }
       },
       {
-        "@id": "_:bn80239",
+        "@id": "_:bn80241",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1019,7 +1019,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80240",
+        "@id": "_:bn80242",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1030,7 +1030,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80241",
+        "@id": "_:bn80243",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27735",
@@ -1039,7 +1039,7 @@
         }
       },
       {
-        "@id": "_:bn80242",
+        "@id": "_:bn80244",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1068,7 +1068,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80243",
+        "@id": "_:bn80245",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1079,7 +1079,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80244",
+        "@id": "_:bn80246",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27735",
@@ -1088,7 +1088,7 @@
         }
       },
       {
-        "@id": "_:bn80245",
+        "@id": "_:bn80247",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1117,7 +1117,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80246",
+        "@id": "_:bn80248",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1128,7 +1128,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80247",
+        "@id": "_:bn80249",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27735",
@@ -1137,7 +1137,7 @@
         }
       },
       {
-        "@id": "_:bn80248",
+        "@id": "_:bn80250",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1166,7 +1166,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80249",
+        "@id": "_:bn80251",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1177,7 +1177,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80250",
+        "@id": "_:bn80252",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27735",
@@ -1186,7 +1186,7 @@
         }
       },
       {
-        "@id": "_:bn80251",
+        "@id": "_:bn80253",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1215,7 +1215,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80252",
+        "@id": "_:bn80254",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1226,7 +1226,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80253",
+        "@id": "_:bn80255",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27735",
@@ -1235,7 +1235,7 @@
         }
       },
       {
-        "@id": "_:bn80254",
+        "@id": "_:bn80256",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1264,7 +1264,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80255",
+        "@id": "_:bn80257",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1275,7 +1275,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80256",
+        "@id": "_:bn80258",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27735",
@@ -1284,7 +1284,7 @@
         }
       },
       {
-        "@id": "_:bn80257",
+        "@id": "_:bn80259",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1313,7 +1313,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80258",
+        "@id": "_:bn80260",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1324,7 +1324,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80259",
+        "@id": "_:bn80261",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27735",
@@ -1333,7 +1333,7 @@
         }
       },
       {
-        "@id": "_:bn80260",
+        "@id": "_:bn80262",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1362,7 +1362,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80261",
+        "@id": "_:bn80263",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1373,7 +1373,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80262",
+        "@id": "_:bn80264",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27735",
@@ -1382,7 +1382,7 @@
         }
       },
       {
-        "@id": "_:bn80263",
+        "@id": "_:bn80265",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1411,7 +1411,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80264",
+        "@id": "_:bn80266",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1422,7 +1422,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80265",
+        "@id": "_:bn80267",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27735",
@@ -1431,7 +1431,7 @@
         }
       },
       {
-        "@id": "_:bn80266",
+        "@id": "_:bn80268",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1465,41 +1465,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80267",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19103",
-          "rdfs:label": "museum",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn80268",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29687",
-    "rdfs:label": "New York Hall of Science",
-    "wikidataQid": [
-      {
-        "@value": "Q2306200"
-      }
-    ],
-    "@type": [
-      "Museum"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn80269",
         "@type": "RelEvent",
         "agentObj": {
@@ -1523,8 +1488,13 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q32574",
-    "rdfs:label": "Louisiana Museum of Modern Art",
+    "@id": "semlab:Q29687",
+    "rdfs:label": "New York Hall of Science",
+    "wikidataQid": [
+      {
+        "@value": "Q2306200"
+      }
+    ],
     "@type": [
       "Museum"
     ],
@@ -1549,6 +1519,36 @@
           "@type": "SemanticLabProject"
         }
       }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q32574",
+    "rdfs:label": "Louisiana Museum of Modern Art",
+    "@type": [
+      "Museum"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn80273",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19103",
+          "rdfs:label": "museum",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn80274",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
     ],
     "wikidataQid": [
       {
@@ -1557,7 +1557,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn80273",
+        "@id": "_:bn80275",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24533",
@@ -1583,7 +1583,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80274",
+        "@id": "_:bn80276",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1594,7 +1594,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80275",
+        "@id": "_:bn80277",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1610,7 +1610,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn80276",
+        "@id": "_:bn80278",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21569",
@@ -1636,7 +1636,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80277",
+        "@id": "_:bn80279",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1647,7 +1647,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80278",
+        "@id": "_:bn80280",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1663,7 +1663,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn80279",
+        "@id": "_:bn80281",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32540",
@@ -1689,7 +1689,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80280",
+        "@id": "_:bn80282",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1700,7 +1700,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80281",
+        "@id": "_:bn80283",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1716,7 +1716,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn80282",
+        "@id": "_:bn80284",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21523",
@@ -1742,7 +1742,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80283",
+        "@id": "_:bn80285",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1753,7 +1753,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80284",
+        "@id": "_:bn80286",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1769,7 +1769,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn80285",
+        "@id": "_:bn80287",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32546",
@@ -1795,7 +1795,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80286",
+        "@id": "_:bn80288",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1806,7 +1806,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80287",
+        "@id": "_:bn80289",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1822,7 +1822,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn80288",
+        "@id": "_:bn80290",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32530",
@@ -1848,7 +1848,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80289",
+        "@id": "_:bn80291",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1859,7 +1859,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80290",
+        "@id": "_:bn80292",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1875,7 +1875,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn80291",
+        "@id": "_:bn80293",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21572",
@@ -1901,7 +1901,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80292",
+        "@id": "_:bn80294",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1912,7 +1912,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80293",
+        "@id": "_:bn80295",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1928,7 +1928,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn80294",
+        "@id": "_:bn80296",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21546",
@@ -1954,7 +1954,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80295",
+        "@id": "_:bn80297",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19103",
@@ -1965,7 +1965,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80296",
+        "@id": "_:bn80298",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
