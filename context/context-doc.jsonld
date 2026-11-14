@@ -1196,26 +1196,6 @@
         "end date"
       ]
     },
-    "prepared": {
-      "@id": "http://base.semlab.io/entity/P213",
-      "skos:prefLabel": "prepared",
-      "skos:note": "work the subject prepared"
-    },
-    "presenterOf": {
-      "@id": "http://base.semlab.io/entity/P214",
-      "skos:prefLabel": "presenter of",
-      "skos:note": "work the subject presented"
-    },
-    "presentedAt": {
-      "@id": "http://base.semlab.io/entity/P215",
-      "skos:prefLabel": "presented at",
-      "skos:note": "place subject presented a work"
-    },
-    "listenedTo": {
-      "@id": "http://base.semlab.io/entity/P217",
-      "skos:prefLabel": "listened to",
-      "skos:note": "work the subject listened to"
-    },
     "hostedBy": {
       "@id": "http://base.semlab.io/entity/P216",
       "skos:prefLabel": "hosted by",
@@ -1422,6 +1402,26 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
+    },
+    "prepared": {
+      "@id": "http://base.semlab.io/entity/P213",
+      "skos:prefLabel": "prepared",
+      "skos:note": "work the subject prepared"
+    },
+    "presenterOf": {
+      "@id": "http://base.semlab.io/entity/P214",
+      "skos:prefLabel": "presenter of",
+      "skos:note": "work the subject presented"
+    },
+    "presentedAt": {
+      "@id": "http://base.semlab.io/entity/P215",
+      "skos:prefLabel": "presented at",
+      "skos:note": "place subject presented a work"
+    },
+    "listenedTo": {
+      "@id": "http://base.semlab.io/entity/P217",
+      "skos:prefLabel": "listened to",
+      "skos:note": "work the subject listened to"
     },
     "natureOfRelation": {
       "@id": "http://base.semlab.io/entity/P122",
@@ -2687,12 +2687,12 @@
       "@id": "http://base.semlab.io/entity/Q19070",
       "skos:prefLabel": "occupation",
       "skos:altLabel": [
+        "profession",
+        "work",
         "career",
         "craft",
         "employment",
-        "job",
-        "profession",
-        "work"
+        "job"
       ],
       "skos:note": "job title or profession of the person"
     },
@@ -3132,15 +3132,15 @@
       "@id": "http://base.semlab.io/entity/Q23736",
       "skos:prefLabel": "unrealized project",
       "skos:altLabel": [
-        "project cancelled",
-        "unfinished",
-        "unfinished project",
         "abandoned project",
         "canceled",
         "canceled project",
         "cancelled",
         "cancelled project",
-        "project canceled"
+        "project canceled",
+        "project cancelled",
+        "unfinished",
+        "unfinished project"
       ],
       "skos:note": "project that eventually was not realized"
     },
