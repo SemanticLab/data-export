@@ -1,0 +1,132 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33351",
+    "rdfs:label": "Dr. Gerard and Phyllis Seltzer Sculpture Garden",
+    "@type": [
+      "Garden"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn152582",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29622",
+          "rdfs:label": "garden",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn152583",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "foundedBy": [
+      {
+        "@id": "_:bn152584",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q37386",
+          "rdfs:label": "Phyllis Seltzer",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41226",
+            "rdfs:label": "Block 0 of Phyllis Estelle Seltzer (death notice)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39855/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn152585",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q37381",
+          "rdfs:label": "Gerard Seltzer",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41226",
+            "rdfs:label": "Block 0 of Phyllis Estelle Seltzer (death notice)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39855/0.txt"
+          }
+        ]
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn152586",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q33363",
+          "rdfs:label": "Edgewater (Cleveland, Ohio)",
+          "@type": "Neighborhood"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41226",
+            "rdfs:label": "Block 0 of Phyllis Estelle Seltzer (death notice)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39855/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q34128",
+    "rdfs:label": "UCLA Sculpture Garden",
+    "@type": [
+      "Garden"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn152587",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29622",
+          "rdfs:label": "garden",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn152588",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn152589",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q32339",
+          "rdfs:label": "University of California, Los Angeles",
+          "@type": "Institution"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40983",
+            "rdfs:label": "Block 0 of Art News: UCLA Sculpture Garden Additions",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40294/0.txt"
+          }
+        ]
+      }
+    ]
+  }
+]

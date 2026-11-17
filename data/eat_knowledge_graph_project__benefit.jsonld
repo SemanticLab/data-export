@@ -5,7 +5,7 @@
     "rdfs:label": "Giant Model Airplanes",
     "partOfProject": [
       {
-        "@id": "_:bn82072",
+        "@id": "_:bn146006",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -20,7 +20,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn82073",
+        "@id": "_:bn146007",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23886",
@@ -29,7 +29,7 @@
         }
       },
       {
-        "@id": "_:bn82074",
+        "@id": "_:bn146008",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22395",
@@ -40,7 +40,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn82075",
+        "@id": "_:bn146009",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23502",
@@ -52,6 +52,11 @@
             "@id": "semlab:Q23896",
             "rdfs:label": "Block 1 of A118 Brochure for Giant Model Airplanes: A Benefit Exhibition",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22785/1.txt"
+          },
+          {
+            "@id": "semlab:Q41256",
+            "rdfs:label": "Block 0 of Portland And The Arts . . . Former Westbrook Woman Hopes For Operatic And Concert Career",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39861/0.txt"
           }
         ]
       }
@@ -86,11 +91,21 @@
           "precision": 11,
           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
         }
+      },
+      {
+        "@value": {
+          "time": "+1967-06-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 10,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
       }
     ],
     "contributor": [
       {
-        "@id": "_:bn82076",
+        "@id": "_:bn146010",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23887",
@@ -102,11 +117,16 @@
             "@id": "semlab:Q23896",
             "rdfs:label": "Block 1 of A118 Brochure for Giant Model Airplanes: A Benefit Exhibition",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22785/1.txt"
+          },
+          {
+            "@id": "semlab:Q40632",
+            "rdfs:label": "Block 1 of Three Large Model Airplanes Going To Art Auction In East",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39872/1.txt"
           }
         ]
       },
       {
-        "@id": "_:bn82077",
+        "@id": "_:bn146011",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23888",
@@ -118,11 +138,16 @@
             "@id": "semlab:Q23896",
             "rdfs:label": "Block 1 of A118 Brochure for Giant Model Airplanes: A Benefit Exhibition",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22785/1.txt"
+          },
+          {
+            "@id": "semlab:Q40632",
+            "rdfs:label": "Block 1 of Three Large Model Airplanes Going To Art Auction In East",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39872/1.txt"
           }
         ]
       },
       {
-        "@id": "_:bn82078",
+        "@id": "_:bn146012",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28182",
@@ -134,8 +159,393 @@
             "@id": "semlab:Q23896",
             "rdfs:label": "Block 1 of A118 Brochure for Giant Model Airplanes: A Benefit Exhibition",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22785/1.txt"
+          },
+          {
+            "@id": "semlab:Q40632",
+            "rdfs:label": "Block 1 of Three Large Model Airplanes Going To Art Auction In East",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39872/1.txt"
           }
         ]
+      },
+      {
+        "@id": "_:bn146013",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q35777",
+          "rdfs:label": "Charles Allsopp",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41256",
+            "rdfs:label": "Block 0 of Portland And The Arts . . . Former Westbrook Woman Hopes For Operatic And Concert Career",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39861/0.txt"
+          }
+        ]
+      }
+    ],
+    "sponsoredBy": [
+      {
+        "@id": "_:bn146014",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41256",
+            "rdfs:label": "Block 0 of Portland And The Arts . . . Former Westbrook Woman Hopes For Operatic And Concert Career",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39861/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38194",
+    "rdfs:label": "Symphony Ball (Portland, Or., 1970)",
+    "@type": [
+      "Benefit"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn146015",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23886",
+          "rdfs:label": "benefit",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn146016",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1970-10-17T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn146017",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q33751",
+          "rdfs:label": "Portland Hilton Hotel",
+          "@type": "Hotel"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40871",
+            "rdfs:label": "Block 0 of Scene & Heard",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40474/0.txt"
+          },
+          {
+            "@id": "semlab:Q40900",
+            "rdfs:label": "Block 0 of Scene & Heard",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40478/0.txt"
+          }
+        ]
+      }
+    ],
+    "organizer": [
+      {
+        "@id": "_:bn146018",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q36046",
+          "rdfs:label": "Mrs. George Casarno",
+          "@type": "Person"
+        },
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q22976",
+            "rdfs:label": "chairperson"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40871",
+            "rdfs:label": "Block 0 of Scene & Heard",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40474/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn146019",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q35419",
+          "rdfs:label": "Symphony Ball Committee (Portland, Or.)",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40881",
+            "rdfs:label": "Block 2 of Scene & Heard",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40474/2.txt"
+          },
+          {
+            "@id": "semlab:Q40900",
+            "rdfs:label": "Block 0 of Scene & Heard",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40478/0.txt"
+          }
+        ]
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn146020",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27994",
+          "rdfs:label": "E.A.T. local group In Portland, Oregon",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40871",
+            "rdfs:label": "Block 0 of Scene & Heard",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40474/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn146021",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q37723",
+          "rdfs:label": "Arvid Orbeck",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40871",
+            "rdfs:label": "Block 0 of Scene & Heard",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40474/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn146022",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q37727",
+          "rdfs:label": "Shirley Orbeck",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40871",
+            "rdfs:label": "Block 0 of Scene & Heard",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40474/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38453",
+    "rdfs:label": "Benefit for the Northside Center for Child Development (Automation House, 1970)",
+    "@type": [
+      "Benefit"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn146023",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23886",
+          "rdfs:label": "benefit",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn146024",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn146025",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19163",
+          "rdfs:label": "Automation House",
+          "@type": "Venue"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40622",
+            "rdfs:label": "Block 0 of Sights, Sounds, Action Benefiting Northside",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39866/0.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1970-10-23T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "organizer": [
+      {
+        "@id": "_:bn146026",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q34699",
+          "rdfs:label": "Northsiders",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40622",
+            "rdfs:label": "Block 0 of Sights, Sounds, Action Benefiting Northside",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39866/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38587",
+    "rdfs:label": "Benefit exhibition for Experiments in Art and Technology (late 1960s)",
+    "@type": [
+      "Benefit"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn146027",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23886",
+          "rdfs:label": "benefit",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn146028",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn146029",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41220",
+            "rdfs:label": "Block 0 of Ecological impact at Oberlin exhibit",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39854/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38772",
+    "rdfs:label": "EATART",
+    "@type": [
+      "Benefit"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn146030",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23886",
+          "rdfs:label": "benefit",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn146031",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn146032",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q33708",
+          "rdfs:label": "Pasadena (Calif.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41036",
+            "rdfs:label": "Block 0 of 'EATART' is the title of a benefit to be held Saturday for EAT/LA",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40308/0.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1970-06-20T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
       }
     ]
   }

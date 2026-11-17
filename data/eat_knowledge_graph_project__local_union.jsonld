@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn82607",
+        "@id": "_:bn148578",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27056",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn82608",
+        "@id": "_:bn148579",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
@@ -28,7 +28,7 @@
         }
       },
       {
-        "@id": "_:bn82609",
+        "@id": "_:bn148580",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -44,7 +44,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn82610",
+        "@id": "_:bn148581",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19313",
@@ -62,6 +62,72 @@
             "@id": "semlab:Q23621",
             "rdfs:label": "Block 1 of A76 E.A.T. booklet",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q22778/1.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q34028",
+    "rdfs:label": "American Federation of Musicians. Local 11-367",
+    "@type": [
+      "LocalUnion"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn148582",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27056",
+          "rdfs:label": "local union",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn148583",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn148584",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28442",
+          "rdfs:label": "American Federation of Musicians",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41691",
+            "rdfs:label": "Block 1 of Louisville, Pilot City in New Arts Program, Awaits AFL-CIO Study",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39985/1.txt"
+          }
+        ]
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn148585",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23476",
+          "rdfs:label": "Louisville (Ky.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41691",
+            "rdfs:label": "Block 1 of Louisville, Pilot City in New Arts Program, Awaits AFL-CIO Study",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39985/1.txt"
           }
         ]
       }

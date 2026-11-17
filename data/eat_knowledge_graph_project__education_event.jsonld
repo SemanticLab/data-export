@@ -1,0 +1,86 @@
+[
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38478",
+    "rdfs:label": "Anatomy and Figure Drawing (UCLA Extension course, 1969)",
+    "@type": [
+      "EducationEvent"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn148326",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25969",
+          "rdfs:label": "education event",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn148327",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn148328",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q37281",
+          "rdfs:label": "Joel E. Schechter",
+          "@type": "Person"
+        },
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q20641",
+            "rdfs:label": "instructor"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41522",
+            "rdfs:label": "Block 0 of Additional Happenings in Art",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39932/0.txt"
+          }
+        ]
+      }
+    ],
+    "organizer": [
+      {
+        "@id": "_:bn148329",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q35592",
+          "rdfs:label": "UCLA Extension",
+          "@type": "Institution"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41522",
+            "rdfs:label": "Block 0 of Additional Happenings in Art",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39932/0.txt"
+          }
+        ]
+      }
+    ],
+    "startTime": [
+      {
+        "@value": {
+          "time": "+1969-09-23T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ]
+  }
+]

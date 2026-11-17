@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn82002",
+        "@id": "_:bn145909",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19072",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "@id": "_:bn82003",
+        "@id": "_:bn145910",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23505",
@@ -29,7 +29,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn82004",
+        "@id": "_:bn145911",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -56,6 +56,24 @@
           "globe": "http://www.wikidata.org/entity/Q2"
         }
       }
+    ],
+    "location": [
+      {
+        "@id": "_:bn145912",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q33899",
+          "rdfs:label": "SoHo (New York, N.Y.)",
+          "@type": "Neighborhood"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40787",
+            "rdfs:label": "Block 0 of Soho much fun: Raising money for art's sake",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40238/0.txt"
+          }
+        ]
+      }
     ]
   },
   {
@@ -67,7 +85,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn82005",
+        "@id": "_:bn145913",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23505",
@@ -78,13 +96,109 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn82006",
+        "@id": "_:bn145914",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
           "rdfs:label": "E.A.T. Knowledge Graph Project",
           "@type": "SemanticLabProject"
         }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33420",
+    "rdfs:label": "George Segal farm and studio (South Brunswick, N.J.)",
+    "@type": [
+      "Artist'SStudio"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn145915",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23505",
+          "rdfs:label": "artist's studio",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn145916",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn145917",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q33917",
+          "rdfs:label": "South Brunswick (N.J.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41098",
+            "rdfs:label": "Block 0 of Icon of pop art remembered with affection",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40031/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33722",
+    "rdfs:label": "Peterson studio (Lake Oswego, Or.)",
+    "@type": [
+      "Artist'SStudio"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn145918",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23505",
+          "rdfs:label": "artist's studio",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn145919",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn145920",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q33593",
+          "rdfs:label": "Lake Oswego (Or.)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41941",
+            "rdfs:label": "Block 0 of EAT Film Meet Due",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40236/0.txt"
+          }
+        ]
       }
     ]
   }

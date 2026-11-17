@@ -5,7 +5,7 @@
     "rdfs:label": "Tantric Geography (sketch)",
     "partOfProject": [
       {
-        "@id": "_:bn82468",
+        "@id": "_:bn147726",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -16,7 +16,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn82469",
+        "@id": "_:bn147727",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -42,7 +42,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn82470",
+        "@id": "_:bn147728",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24678",
@@ -59,12 +59,664 @@
     ],
     "depicts": [
       {
-        "@id": "_:bn82471",
+        "@id": "_:bn147729",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28944",
           "rdfs:label": "Tantric Geometry (sculpture)",
           "@type": "Sculpture"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39021",
+    "rdfs:label": "Drawing for Stoned Moon Book",
+    "@type": [
+      "Drawing"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn147730",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24678",
+          "rdfs:label": "drawing",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn147731",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn147732",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41827",
+            "rdfs:label": "Block 2 of The 1st mission to the moon: a view by Rauschenberg",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40101/2.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1970-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn147733",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q38634",
+          "rdfs:label": "Loose in Some Real Tropics: Robert Rauschenberg's 'Stoned Moon' Projects, 1969-70",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41827",
+            "rdfs:label": "Block 2 of The 1st mission to the moon: a view by Rauschenberg",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40101/2.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39069",
+    "rdfs:label": "Erased de Kooning Drawing",
+    "@type": [
+      "Drawing"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn147734",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24678",
+          "rdfs:label": "drawing",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn147735",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn147736",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41169",
+            "rdfs:label": "Block 0 of Dark images of a Pop decade",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40044/0.txt"
+          },
+          {
+            "@id": "semlab:Q40644",
+            "rdfs:label": "Block 3 of Signs of the times",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40197/3.txt"
+          },
+          {
+            "@id": "semlab:Q41321",
+            "rdfs:label": "Block 1 of John Latham on Robert Rauschenberg's Dirt Painting (for John Cage) circa 1953",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40104/1.txt"
+          },
+          {
+            "@id": "semlab:Q40866",
+            "rdfs:label": "Block 1 of Rauschenberg still making history",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39971/1.txt"
+          },
+          {
+            "@id": "semlab:Q41332",
+            "rdfs:label": "Block 2 of Robert Rauschenberg",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40106/2.txt"
+          },
+          {
+            "@id": "semlab:Q41559",
+            "rdfs:label": "Block 1 of Robert Rauschenberg: Artist's works were messy, innovative",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40423/1.txt"
+          },
+          {
+            "@id": "semlab:Q41205",
+            "rdfs:label": "Block 8 of Robert Rauschenberg, 1925 - 2008: He led the way to Pop Art",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40345/8.txt"
+          },
+          {
+            "@id": "semlab:Q40774",
+            "rdfs:label": "Block 4 of Robert Rauschenberg interview-profile (Observer Life, 26 October 1997)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40450/4.txt"
+          },
+          {
+            "@id": "semlab:Q41236",
+            "rdfs:label": "Block 2 of \u201eZiemskie piek\u0142o\u201d Roberta Rauschenberga",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39857/2.txt"
+          },
+          {
+            "@id": "semlab:Q41648",
+            "rdfs:label": "Block 9 of The Artist as Playwright and Engineer",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39966/9.txt"
+          },
+          {
+            "@id": "semlab:Q41025",
+            "rdfs:label": "Block 1 of Making an art of change",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40491/1.txt"
+          },
+          {
+            "@id": "semlab:Q41810",
+            "rdfs:label": "Block 1 of Landmark exhibition of artist Rauschenberg to open in Houston",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40085/1.txt"
+          },
+          {
+            "@id": "semlab:Q41759",
+            "rdfs:label": "Block 2 of De Kooning i Rauschenberg",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40355/2.txt"
+          },
+          {
+            "@id": "semlab:Q41851",
+            "rdfs:label": "Block 0 of Rauschenberg Strives for Better Windows",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40130/0.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1953-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn147737",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30289",
+          "rdfs:label": "Willem de Kooning",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41321",
+            "rdfs:label": "Block 1 of John Latham on Robert Rauschenberg's Dirt Painting (for John Cage) circa 1953",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40104/1.txt"
+          },
+          {
+            "@id": "semlab:Q41332",
+            "rdfs:label": "Block 2 of Robert Rauschenberg",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40106/2.txt"
+          },
+          {
+            "@id": "semlab:Q41559",
+            "rdfs:label": "Block 1 of Robert Rauschenberg: Artist's works were messy, innovative",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40423/1.txt"
+          },
+          {
+            "@id": "semlab:Q41203",
+            "rdfs:label": "Block 7 of Robert Rauschenberg, 1925 - 2008: He led the way to Pop Art",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40345/7.txt"
+          },
+          {
+            "@id": "semlab:Q41025",
+            "rdfs:label": "Block 1 of Making an art of change",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40491/1.txt"
+          }
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn147738",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q38509",
+          "rdfs:label": "Robert Rauschenberg retrospective (National Collection of Fine Arts, 1976-1977)",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40866",
+            "rdfs:label": "Block 1 of Rauschenberg still making history",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39971/1.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn147739",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q38520",
+          "rdfs:label": "Robert Rauschenberg: The Early 1950s",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41025",
+            "rdfs:label": "Block 1 of Making an art of change",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40491/1.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39210",
+    "rdfs:label": "Genesis",
+    "@type": [
+      "Drawing"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn147740",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24678",
+          "rdfs:label": "drawing",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn147741",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn147742",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28370",
+          "rdfs:label": "Ingeborg A. Richter",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41137",
+            "rdfs:label": "Block 0 of Art Moves With the Times",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40507/0.txt"
+          }
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn147743",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q38584",
+          "rdfs:label": "Ingeborg Richter exhibition (Women's City Club, Cleveland, 1968)",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41137",
+            "rdfs:label": "Block 0 of Art Moves With the Times",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40507/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39374",
+    "rdfs:label": "Horizontal Vitruvian Man",
+    "@type": [
+      "Drawing"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn147744",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24678",
+          "rdfs:label": "drawing",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn147745",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn147746",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q35334",
+          "rdfs:label": "Barbara Berger",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41265",
+            "rdfs:label": "Block 0 of 'Largest Arts and Crafts Event in World' Opening in Bellevue",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40087/0.txt"
+          }
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn147747",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q38061",
+          "rdfs:label": "Pacific Northwest Arts and Crafts Fair (1969)",
+          "@type": "Event"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41265",
+            "rdfs:label": "Block 0 of 'Largest Arts and Crafts Event in World' Opening in Bellevue",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40087/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39443",
+    "rdfs:label": "Simple Reducing Machine",
+    "@type": [
+      "Drawing"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn147748",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24678",
+          "rdfs:label": "drawing",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn147749",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn147750",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24175",
+          "rdfs:label": "Rube Goldberg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41788",
+            "rdfs:label": "Block 2 of Swiss Folk Art--And Another Look at 'Machines'",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40056/2.txt"
+          }
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn147751",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24405",
+          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (exhibition)",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41788",
+            "rdfs:label": "Block 2 of Swiss Folk Art--And Another Look at 'Machines'",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40056/2.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39604",
+    "rdfs:label": "Thirty-Four Illustrations for Dante's Inferno",
+    "@type": [
+      "Drawing"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn147752",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24678",
+          "rdfs:label": "drawing",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn147753",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn147754",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41231",
+            "rdfs:label": "Block 0 of \u201eZiemskie piek\u0142o\u201d Roberta Rauschenberga",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39857/0.txt"
+          },
+          {
+            "@id": "semlab:Q41759",
+            "rdfs:label": "Block 2 of De Kooning i Rauschenberg",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40355/2.txt"
+          }
+        ]
+      }
+    ],
+    "depicts": [
+      {
+        "@id": "_:bn147755",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q39442",
+          "rdfs:label": "Inferno",
+          "@type": "LiteraryWork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41233",
+            "rdfs:label": "Block 1 of \u201eZiemskie piek\u0142o\u201d Roberta Rauschenberga",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39857/1.txt"
+          }
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn147756",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q38496",
+          "rdfs:label": "Robert Rauschenberg: illustrations to Dante's Inferno (Muzeum Sztuki, \u0141\u00f3d\u017a, 1973-1974)",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41233",
+            "rdfs:label": "Block 1 of \u201eZiemskie piek\u0142o\u201d Roberta Rauschenberga",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39857/1.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1959-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39610",
+    "rdfs:label": "Three pastel figure studies",
+    "@type": [
+      "Drawing"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn147757",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24678",
+          "rdfs:label": "drawing",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn147758",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn147759",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q37647",
+          "rdfs:label": "Estelle Stinchfield",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40970",
+            "rdfs:label": "Block 0 of '53 Varieties' on exhibit",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39994/0.txt"
+          }
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn147760",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q38263",
+          "rdfs:label": "53 Varieties",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40970",
+            "rdfs:label": "Block 0 of '53 Varieties' on exhibit",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39994/0.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1925-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
         }
       }
     ]

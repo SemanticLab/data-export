@@ -5,7 +5,7 @@
     "rdfs:label": "E.A.T. Bibliography: 1965-1980",
     "creator": [
       {
-        "@id": "_:bn83546",
+        "@id": "_:bn149589",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -24,7 +24,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn83547",
+        "@id": "_:bn149590",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -35,7 +35,7 @@
     ],
     "copyrightHolder": [
       {
-        "@id": "_:bn83548",
+        "@id": "_:bn149591",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -69,7 +69,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn83549",
+        "@id": "_:bn149592",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27514",
@@ -80,7 +80,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn83550",
+        "@id": "_:bn149593",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -89,12 +89,71 @@
         }
       },
       {
-        "@id": "_:bn83551",
+        "@id": "_:bn149594",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
           "rdfs:label": "E.A.T. Knowledge Graph Project",
           "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q41983",
+    "rdfs:label": "E.A.T. Bibliography: newspaper supplement (2026)",
+    "@type": [
+      "Bibliography"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn149595",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27514",
+          "rdfs:label": "bibliography",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn149596",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn149597",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "E.A.T. Bibliography: newspaper supplement",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+2026-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
         }
       }
     ]

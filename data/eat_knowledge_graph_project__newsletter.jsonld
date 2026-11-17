@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn80182",
+        "@id": "_:bn134906",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -25,7 +25,7 @@
         ]
       },
       {
-        "@id": "_:bn80183",
+        "@id": "_:bn134907",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19095",
@@ -43,7 +43,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn80184",
+        "@id": "_:bn134908",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -54,7 +54,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn80185",
+        "@id": "_:bn134909",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -69,8 +69,43 @@
             "@id": "semlab:Q24726",
             "rdfs:label": "Block 1 of The Story of E.A.T.  (pp. 31-63)",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24714/1.txt"
+          },
+          {
+            "@id": "semlab:Q41401",
+            "rdfs:label": "Block 1 of New Yorker Reports On Recent Developments In 'EAT' Group",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39898/1.txt"
           }
         ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q35221",
+    "rdfs:label": "E.A.T. News",
+    "@type": [
+      "Newsletter"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn134910",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19095",
+          "rdfs:label": "newsletter",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn134911",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
       }
     ]
   }

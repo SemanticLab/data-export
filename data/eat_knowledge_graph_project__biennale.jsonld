@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn85052",
+        "@id": "_:bn152590",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19071",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "@id": "_:bn85053",
+        "@id": "_:bn152591",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29624",
@@ -29,7 +29,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn85054",
+        "@id": "_:bn152592",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -54,7 +54,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn85055",
+        "@id": "_:bn152593",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19071",
@@ -70,7 +70,7 @@
         ]
       },
       {
-        "@id": "_:bn85056",
+        "@id": "_:bn152594",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29624",
@@ -88,7 +88,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn85057",
+        "@id": "_:bn152595",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -111,7 +111,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn85058",
+        "@id": "_:bn152596",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21555",
@@ -123,13 +123,65 @@
             "@id": "semlab:Q32485",
             "rdfs:label": "Block 4 of Billy Kl\u00fcver CV",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/4.txt"
+          },
+          {
+            "@id": "semlab:Q41178",
+            "rdfs:label": "Block 0 of Smithsonian sponsors group art",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40045/0.txt"
+          },
+          {
+            "@id": "semlab:Q41043",
+            "rdfs:label": "Block 0 of L'imagination relay\u00e9e par l'\u00e9lectronique",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40311/0.txt"
+          },
+          {
+            "@id": "semlab:Q41516",
+            "rdfs:label": "Block 0 of Art News: All-City Festival Winners Named",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39930/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn152597",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21509",
+          "rdfs:label": "Musee d'Art Moderne de la Ville de Paris",
+          "@type": "Publisher"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41050",
+            "rdfs:label": "Block 1 of L'imagination relay\u00e9e par l'\u00e9lectronique",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40311/1.txt"
+          },
+          {
+            "@id": "semlab:Q41516",
+            "rdfs:label": "Block 0 of Art News: All-City Festival Winners Named",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39930/0.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn152598",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q33620",
+          "rdfs:label": "Mus\u00e9e Galliera",
+          "@type": "Museum"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41050",
+            "rdfs:label": "Block 1 of L'imagination relay\u00e9e par l'\u00e9lectronique",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40311/1.txt"
           }
         ]
       }
     ],
     "contributor": [
       {
-        "@id": "_:bn85059",
+        "@id": "_:bn152599",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -143,6 +195,276 @@
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q32484/4.txt"
           }
         ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38256",
+    "rdfs:label": "42nd Venice Biennale",
+    "@type": [
+      "Biennale"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn152600",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29624",
+          "rdfs:label": "biennale",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn152601",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn152602",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q31408",
+          "rdfs:label": "Venice Biennale",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41980",
+            "rdfs:label": "Block 0 of Computers: True art forms or means to an end?",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40281/0.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1986-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38449",
+    "rdfs:label": "18th S\u00e3o Paulo Biennial",
+    "@type": [
+      "Biennale"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn152603",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29624",
+          "rdfs:label": "biennale",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn152604",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1985-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38451",
+    "rdfs:label": "10th S\u00e3o Paulo Biennial (1969)",
+    "@type": [
+      "Biennale"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn152605",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29624",
+          "rdfs:label": "biennale",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn152606",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn152607",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q33841",
+          "rdfs:label": "S\u00e3o Paulo (Brazil)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41344",
+            "rdfs:label": "Block 0 of Gyorgy Kepes, 95: Artist, aesthetic theorist",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40107/0.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1969-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38459",
+    "rdfs:label": "34th Venice Biennale",
+    "@type": [
+      "Biennale"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn152608",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29624",
+          "rdfs:label": "biennale",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn152609",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn152610",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q31408",
+          "rdfs:label": "Venice Biennale",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40804",
+            "rdfs:label": "Block 1 of Major Exhibit At Museum",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39961/1.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38904",
+    "rdfs:label": "International Biennial of Graphic Arts (5th : 1963 : Ljubljana)",
+    "@type": [
+      "Biennale"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn152611",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29624",
+          "rdfs:label": "biennale",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn152612",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn152613",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q33652",
+          "rdfs:label": "Ljubljana (Slovenia)",
+          "@type": "City"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41049",
+            "rdfs:label": "Block 0 of Something about Robert Rauschenberg",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40018/0.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1963-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
       }
     ]
   }
