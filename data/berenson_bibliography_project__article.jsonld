@@ -1,14 +1,96 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29113",
-    "rdfs:label": "Ibsen's Last Play",
+    "@id": "semlab:Q29034",
+    "rdfs:label": "Jacopo del Sellaio",
     "@type": [
       "Article"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203649",
+        "@id": "_:bn204671",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20638",
+          "rdfs:label": "article",
+          "@type": "Class"
+        }
+      }
+    ],
+    "fullWorkAvailableAtURL": [
+      {
+        "@value": "https://hdl.handle.net/2027/mdp.39015017555494?urlappend=%3Bseq=268%3Bownerid=13510798897441069-274"
+      }
+    ],
+    "languageOfWork": [
+      {
+        "@id": "_:bn204672",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28980",
+          "rdfs:label": "German",
+          "@type": "Language"
+        }
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn204673",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29002",
+          "rdfs:label": "Hans Mackowsky",
+          "@type": "Person"
+        }
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Jacopo del Sellaio",
+          "language": "it"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1899-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn204674",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28959",
+          "rdfs:label": "Berenson Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q123596519"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29105",
+    "rdfs:label": "The Paris Exhibition des Arts de la Femme",
+    "@type": [
+      "Article"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn204675",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -19,7 +101,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203650",
+        "@id": "_:bn204676",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -30,7 +112,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203651",
+        "@id": "_:bn204677",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29103",
@@ -41,7 +123,578 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203652",
+        "@id": "_:bn204678",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28978",
+          "rdfs:label": "English",
+          "@type": "Language"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q123345739"
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn204679",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27449",
+          "rdfs:label": "Mary Berenson",
+          "@type": "Person"
+        },
+        "objectNamedAs": [
+          "M. W."
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q28985",
+            "rdfs:label": "Mary Berenson and the conception of connoisseurship"
+          }
+        ]
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "The Paris Exhibition des Arts de la Femme",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1892-09-24T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "fullWorkAvailableAtURL": [
+      {
+        "@value": "https://link.gale.com/apps/doc/DX1900362143/NCUK?u=new64731&sid=bookmark-NCUK&pg=11&xid=b8a7dfa1"
+      }
+    ],
+    "volume": [
+      {
+        "@value": "6"
+      }
+    ],
+    "issueNumber": [
+      {
+        "@value": "204"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29106",
+    "rdfs:label": "Some Comments on Correggio in Connection with His Pictures in Dresden",
+    "@type": [
+      "Article"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn204680",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20638",
+          "rdfs:label": "article",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn204681",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28959",
+          "rdfs:label": "Berenson Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "publishedIn": [
+      {
+        "@id": "_:bn204682",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29097",
+          "rdfs:label": "The Knight Errant",
+          "@type": "Publication"
+        }
+      },
+      {
+        "@id": "_:bn204683",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28982",
+          "rdfs:label": "The Study and Criticism of Italian Art",
+          "@type": "Book"
+        }
+      }
+    ],
+    "fullWorkAvailableAtURL": [
+      {
+        "@value": "http://www.jstor.org/stable/25515893"
+      }
+    ],
+    "languageOfWork": [
+      {
+        "@id": "_:bn204684",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28978",
+          "rdfs:label": "English",
+          "@type": "Language"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q123345740"
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn204685",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27450",
+          "rdfs:label": "Bernard Berenson",
+          "@type": "Person"
+        },
+        "objectNamedAs": [
+          "Bernhard Berenson"
+        ]
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Some Comments on Correggio in Connection with His Pictures in Dresden",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1892-10-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 10,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "volume": [
+      {
+        "@value": "1"
+      }
+    ],
+    "issueNumber": [
+      {
+        "@value": "3"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29108",
+    "rdfs:label": "Pictures in Venice as documents about Venetian women",
+    "@type": [
+      "Article"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn204686",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20638",
+          "rdfs:label": "article",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn204687",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28959",
+          "rdfs:label": "Berenson Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "publishedIn": [
+      {
+        "@id": "_:bn204688",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29103",
+          "rdfs:label": "Women's Penny Paper",
+          "@type": "Publication"
+        }
+      }
+    ],
+    "languageOfWork": [
+      {
+        "@id": "_:bn204689",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28978",
+          "rdfs:label": "English",
+          "@type": "Language"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q123345742"
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn204690",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27449",
+          "rdfs:label": "Mary Berenson",
+          "@type": "Person"
+        },
+        "objectNamedAs": [
+          "M. W."
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q28985",
+            "rdfs:label": "Mary Berenson and the conception of connoisseurship"
+          }
+        ]
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "Pictures in Venice as documents about Venetian women",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1892-10-29T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "fullWorkAvailableAtURL": [
+      {
+        "@value": "https://link.gale.com/apps/doc/DX1900362338/GDCS?u=new64731&sid=bookmark-GDCS&pg=6&xid=517d0031"
+      }
+    ],
+    "volume": [
+      {
+        "@value": "7"
+      }
+    ],
+    "issueNumber": [
+      {
+        "@value": "209"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29109",
+    "rdfs:label": "The March of Ancona",
+    "@type": [
+      "Article"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn204691",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20638",
+          "rdfs:label": "article",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn204692",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28959",
+          "rdfs:label": "Berenson Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "publishedIn": [
+      {
+        "@id": "_:bn204693",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29103",
+          "rdfs:label": "Women's Penny Paper",
+          "@type": "Publication"
+        }
+      }
+    ],
+    "languageOfWork": [
+      {
+        "@id": "_:bn204694",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28978",
+          "rdfs:label": "English",
+          "@type": "Language"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q123345743"
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn204695",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27449",
+          "rdfs:label": "Mary Berenson",
+          "@type": "Person"
+        },
+        "objectNamedAs": [
+          "M. W."
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q28985",
+            "rdfs:label": "Mary Berenson and the conception of connoisseurship"
+          }
+        ]
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "The March of Ancona",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1892-11-26T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "fullWorkAvailableAtURL": [
+      {
+        "@value": "https://link.gale.com/apps/doc/DX1900362496/NCUK?u=new64731&sid=bookmark-NCUK&pg=9&xid=21d40b6c"
+      }
+    ],
+    "volume": [
+      {
+        "@value": "7"
+      }
+    ],
+    "issueNumber": [
+      {
+        "@value": "213"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29110",
+    "rdfs:label": "The Woman Question in Novels. I. Potapenko",
+    "@type": [
+      "Article"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn204696",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20638",
+          "rdfs:label": "article",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn204697",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28959",
+          "rdfs:label": "Berenson Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "publishedIn": [
+      {
+        "@id": "_:bn204698",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29103",
+          "rdfs:label": "Women's Penny Paper",
+          "@type": "Publication"
+        }
+      }
+    ],
+    "languageOfWork": [
+      {
+        "@id": "_:bn204699",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28978",
+          "rdfs:label": "English",
+          "@type": "Language"
+        }
+      }
+    ],
+    "subtitle": [
+      {
+        "@value": {
+          "text": "I. Potapenko",
+          "language": "en"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q123345744"
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn204700",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27449",
+          "rdfs:label": "Mary Berenson",
+          "@type": "Person"
+        },
+        "objectNamedAs": [
+          "M. W."
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q28985",
+            "rdfs:label": "Mary Berenson and the conception of connoisseurship"
+          }
+        ]
+      }
+    ],
+    "title": [
+      {
+        "@value": {
+          "text": "The Woman Question in Novels",
+          "language": "en"
+        }
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1893-01-07T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "fullWorkAvailableAtURL": [
+      {
+        "@value": "https://link.gale.com/apps/doc/DX1900363154/NCUK?u=new64731&sid=bookmark-NCUK&pg=9&xid=8739fd1b"
+      }
+    ],
+    "volume": [
+      {
+        "@value": "9"
+      }
+    ],
+    "issueNumber": [
+      {
+        "@value": "219"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29113",
+    "rdfs:label": "Ibsen's Last Play",
+    "@type": [
+      "Article"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn204701",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20638",
+          "rdfs:label": "article",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn204702",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28959",
+          "rdfs:label": "Berenson Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "publishedIn": [
+      {
+        "@id": "_:bn204703",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29103",
+          "rdfs:label": "Women's Penny Paper",
+          "@type": "Publication"
+        }
+      }
+    ],
+    "languageOfWork": [
+      {
+        "@id": "_:bn204704",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -57,7 +710,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203653",
+        "@id": "_:bn204705",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -126,7 +779,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203654",
+        "@id": "_:bn204706",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -137,7 +790,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203655",
+        "@id": "_:bn204707",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -148,7 +801,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203656",
+        "@id": "_:bn204708",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22213",
@@ -157,7 +810,7 @@
         }
       },
       {
-        "@id": "_:bn203657",
+        "@id": "_:bn204709",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28982",
@@ -168,7 +821,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203658",
+        "@id": "_:bn204710",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -184,7 +837,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203659",
+        "@id": "_:bn204711",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -247,7 +900,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203660",
+        "@id": "_:bn204712",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -258,7 +911,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203661",
+        "@id": "_:bn204713",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -269,7 +922,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203662",
+        "@id": "_:bn204714",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29102",
@@ -278,7 +931,7 @@
         }
       },
       {
-        "@id": "_:bn203663",
+        "@id": "_:bn204715",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28983",
@@ -294,7 +947,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203664",
+        "@id": "_:bn204716",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -310,7 +963,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203665",
+        "@id": "_:bn204717",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -368,7 +1021,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203666",
+        "@id": "_:bn204718",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -379,7 +1032,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203667",
+        "@id": "_:bn204719",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -390,7 +1043,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203668",
+        "@id": "_:bn204720",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22213",
@@ -409,7 +1062,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203669",
+        "@id": "_:bn204721",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -425,7 +1078,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203670",
+        "@id": "_:bn204722",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -483,7 +1136,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203671",
+        "@id": "_:bn204723",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -494,7 +1147,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203672",
+        "@id": "_:bn204724",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -505,7 +1158,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203673",
+        "@id": "_:bn204725",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29087",
@@ -516,7 +1169,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203674",
+        "@id": "_:bn204726",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -552,7 +1205,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203675",
+        "@id": "_:bn204727",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -577,7 +1230,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203676",
+        "@id": "_:bn204728",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -588,7 +1241,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203677",
+        "@id": "_:bn204729",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -599,7 +1252,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203678",
+        "@id": "_:bn204730",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29087",
@@ -610,7 +1263,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203679",
+        "@id": "_:bn204731",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -626,7 +1279,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203680",
+        "@id": "_:bn204732",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -671,7 +1324,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203681",
+        "@id": "_:bn204733",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -682,7 +1335,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203682",
+        "@id": "_:bn204734",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -693,7 +1346,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203683",
+        "@id": "_:bn204735",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29087",
@@ -704,7 +1357,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203684",
+        "@id": "_:bn204736",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -720,7 +1373,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203685",
+        "@id": "_:bn204737",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -765,7 +1418,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203686",
+        "@id": "_:bn204738",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -776,7 +1429,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203687",
+        "@id": "_:bn204739",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -787,7 +1440,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203688",
+        "@id": "_:bn204740",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22213",
@@ -796,7 +1449,7 @@
         }
       },
       {
-        "@id": "_:bn203689",
+        "@id": "_:bn204741",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28982",
@@ -807,7 +1460,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203690",
+        "@id": "_:bn204742",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -823,7 +1476,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203691",
+        "@id": "_:bn204743",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -886,7 +1539,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203692",
+        "@id": "_:bn204744",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -897,7 +1550,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203693",
+        "@id": "_:bn204745",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -908,7 +1561,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203694",
+        "@id": "_:bn204746",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29098",
@@ -919,7 +1572,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203695",
+        "@id": "_:bn204747",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -935,7 +1588,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203696",
+        "@id": "_:bn204748",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -998,7 +1651,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203697",
+        "@id": "_:bn204749",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -1009,7 +1662,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203698",
+        "@id": "_:bn204750",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -1020,7 +1673,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203699",
+        "@id": "_:bn204751",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29087",
@@ -1031,7 +1684,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203700",
+        "@id": "_:bn204752",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -1047,7 +1700,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203701",
+        "@id": "_:bn204753",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -1092,7 +1745,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203702",
+        "@id": "_:bn204754",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -1103,7 +1756,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203703",
+        "@id": "_:bn204755",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -1114,7 +1767,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203704",
+        "@id": "_:bn204756",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22213",
@@ -1123,7 +1776,7 @@
         }
       },
       {
-        "@id": "_:bn203705",
+        "@id": "_:bn204757",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28982",
@@ -1134,7 +1787,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203706",
+        "@id": "_:bn204758",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -1150,7 +1803,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203707",
+        "@id": "_:bn204759",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -1213,7 +1866,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203708",
+        "@id": "_:bn204760",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -1224,7 +1877,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203709",
+        "@id": "_:bn204761",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -1235,7 +1888,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203710",
+        "@id": "_:bn204762",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -1246,7 +1899,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203711",
+        "@id": "_:bn204763",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -1262,7 +1915,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203712",
+        "@id": "_:bn204764",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -1320,7 +1973,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203713",
+        "@id": "_:bn204765",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -1331,7 +1984,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203714",
+        "@id": "_:bn204766",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -1342,7 +1995,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203715",
+        "@id": "_:bn204767",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29095",
@@ -1353,7 +2006,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203716",
+        "@id": "_:bn204768",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -1369,7 +2022,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203717",
+        "@id": "_:bn204769",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -1429,7 +2082,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203718",
+        "@id": "_:bn204770",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -1440,7 +2093,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203719",
+        "@id": "_:bn204771",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -1451,7 +2104,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203720",
+        "@id": "_:bn204772",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -1462,7 +2115,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203721",
+        "@id": "_:bn204773",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -1478,7 +2131,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203722",
+        "@id": "_:bn204774",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -1547,7 +2200,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203723",
+        "@id": "_:bn204775",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -1558,7 +2211,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203724",
+        "@id": "_:bn204776",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -1569,7 +2222,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203725",
+        "@id": "_:bn204777",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -1578,7 +2231,7 @@
         }
       },
       {
-        "@id": "_:bn203726",
+        "@id": "_:bn204778",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28983",
@@ -1589,7 +2242,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203727",
+        "@id": "_:bn204779",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -1605,7 +2258,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203728",
+        "@id": "_:bn204780",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -1668,7 +2321,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203729",
+        "@id": "_:bn204781",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -1679,7 +2332,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203730",
+        "@id": "_:bn204782",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -1690,7 +2343,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203731",
+        "@id": "_:bn204783",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29100",
@@ -1701,7 +2354,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203732",
+        "@id": "_:bn204784",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -1717,7 +2370,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203733",
+        "@id": "_:bn204785",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -1777,7 +2430,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203734",
+        "@id": "_:bn204786",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -1788,7 +2441,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203735",
+        "@id": "_:bn204787",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -1799,7 +2452,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203736",
+        "@id": "_:bn204788",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22213",
@@ -1810,7 +2463,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203737",
+        "@id": "_:bn204789",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -1826,7 +2479,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203738",
+        "@id": "_:bn204790",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -1889,7 +2542,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203739",
+        "@id": "_:bn204791",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -1900,7 +2553,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203740",
+        "@id": "_:bn204792",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -1911,7 +2564,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203741",
+        "@id": "_:bn204793",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -1922,7 +2575,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203742",
+        "@id": "_:bn204794",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -1938,7 +2591,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203743",
+        "@id": "_:bn204795",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -1995,7 +2648,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203744",
+        "@id": "_:bn204796",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -2006,7 +2659,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203745",
+        "@id": "_:bn204797",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -2017,7 +2670,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203746",
+        "@id": "_:bn204798",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -2026,7 +2679,7 @@
         }
       },
       {
-        "@id": "_:bn203747",
+        "@id": "_:bn204799",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28983",
@@ -2037,7 +2690,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203748",
+        "@id": "_:bn204800",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -2053,7 +2706,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203749",
+        "@id": "_:bn204801",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -2116,7 +2769,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203750",
+        "@id": "_:bn204802",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -2127,7 +2780,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203751",
+        "@id": "_:bn204803",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -2138,7 +2791,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203752",
+        "@id": "_:bn204804",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -2147,7 +2800,7 @@
         }
       },
       {
-        "@id": "_:bn203753",
+        "@id": "_:bn204805",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28982",
@@ -2158,7 +2811,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203754",
+        "@id": "_:bn204806",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -2174,7 +2827,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203755",
+        "@id": "_:bn204807",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -2237,7 +2890,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203756",
+        "@id": "_:bn204808",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -2248,7 +2901,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203757",
+        "@id": "_:bn204809",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -2259,7 +2912,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203758",
+        "@id": "_:bn204810",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29089",
@@ -2275,7 +2928,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203759",
+        "@id": "_:bn204811",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -2291,7 +2944,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203760",
+        "@id": "_:bn204812",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -2338,7 +2991,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203761",
+        "@id": "_:bn204813",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -2349,7 +3002,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203762",
+        "@id": "_:bn204814",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -2360,7 +3013,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203763",
+        "@id": "_:bn204815",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -2369,7 +3022,7 @@
         }
       },
       {
-        "@id": "_:bn203764",
+        "@id": "_:bn204816",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28983",
@@ -2380,7 +3033,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203765",
+        "@id": "_:bn204817",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -2396,7 +3049,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203766",
+        "@id": "_:bn204818",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -2459,7 +3112,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203767",
+        "@id": "_:bn204819",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -2470,7 +3123,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203768",
+        "@id": "_:bn204820",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -2481,7 +3134,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203769",
+        "@id": "_:bn204821",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -2492,7 +3145,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203770",
+        "@id": "_:bn204822",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -2508,7 +3161,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203771",
+        "@id": "_:bn204823",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -2565,7 +3218,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203772",
+        "@id": "_:bn204824",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -2576,7 +3229,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203773",
+        "@id": "_:bn204825",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -2587,7 +3240,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203774",
+        "@id": "_:bn204826",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29085",
@@ -2596,7 +3249,7 @@
         }
       },
       {
-        "@id": "_:bn203775",
+        "@id": "_:bn204827",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28983",
@@ -2612,7 +3265,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203776",
+        "@id": "_:bn204828",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -2628,7 +3281,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203777",
+        "@id": "_:bn204829",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -2680,7 +3333,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203778",
+        "@id": "_:bn204830",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -2691,7 +3344,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203779",
+        "@id": "_:bn204831",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -2702,7 +3355,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203780",
+        "@id": "_:bn204832",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -2711,7 +3364,7 @@
         }
       },
       {
-        "@id": "_:bn203781",
+        "@id": "_:bn204833",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28982",
@@ -2722,7 +3375,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203782",
+        "@id": "_:bn204834",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -2752,7 +3405,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203783",
+        "@id": "_:bn204835",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -2809,7 +3462,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203784",
+        "@id": "_:bn204836",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -2820,7 +3473,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203785",
+        "@id": "_:bn204837",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -2831,7 +3484,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203786",
+        "@id": "_:bn204838",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -2840,7 +3493,7 @@
         }
       },
       {
-        "@id": "_:bn203787",
+        "@id": "_:bn204839",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28982",
@@ -2851,7 +3504,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203788",
+        "@id": "_:bn204840",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -2881,7 +3534,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203789",
+        "@id": "_:bn204841",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -2938,7 +3591,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203790",
+        "@id": "_:bn204842",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -2949,7 +3602,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203791",
+        "@id": "_:bn204843",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -2960,7 +3613,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203792",
+        "@id": "_:bn204844",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22213",
@@ -2971,7 +3624,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203793",
+        "@id": "_:bn204845",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -2987,7 +3640,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203794",
+        "@id": "_:bn204846",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -3044,7 +3697,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203795",
+        "@id": "_:bn204847",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -3055,7 +3708,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203796",
+        "@id": "_:bn204848",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -3066,7 +3719,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203797",
+        "@id": "_:bn204849",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29092",
@@ -3077,7 +3730,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203798",
+        "@id": "_:bn204850",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -3093,7 +3746,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203799",
+        "@id": "_:bn204851",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -3148,7 +3801,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203800",
+        "@id": "_:bn204852",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -3159,7 +3812,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203801",
+        "@id": "_:bn204853",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -3170,7 +3823,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203802",
+        "@id": "_:bn204854",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -3181,7 +3834,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203803",
+        "@id": "_:bn204855",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -3197,7 +3850,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203804",
+        "@id": "_:bn204856",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -3254,7 +3907,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203805",
+        "@id": "_:bn204857",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -3265,7 +3918,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203806",
+        "@id": "_:bn204858",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -3276,7 +3929,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203807",
+        "@id": "_:bn204859",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29092",
@@ -3287,7 +3940,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203808",
+        "@id": "_:bn204860",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -3303,7 +3956,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203809",
+        "@id": "_:bn204861",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -3358,7 +4011,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203810",
+        "@id": "_:bn204862",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -3369,7 +4022,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203811",
+        "@id": "_:bn204863",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -3380,7 +4033,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203812",
+        "@id": "_:bn204864",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29092",
@@ -3389,7 +4042,7 @@
         }
       },
       {
-        "@id": "_:bn203813",
+        "@id": "_:bn204865",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28983",
@@ -3400,7 +4053,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203814",
+        "@id": "_:bn204866",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -3416,7 +4069,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203815",
+        "@id": "_:bn204867",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -3468,7 +4121,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203816",
+        "@id": "_:bn204868",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -3479,7 +4132,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203817",
+        "@id": "_:bn204869",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -3490,7 +4143,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203818",
+        "@id": "_:bn204870",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29090",
@@ -3499,7 +4152,7 @@
         }
       },
       {
-        "@id": "_:bn203819",
+        "@id": "_:bn204871",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28983",
@@ -3515,7 +4168,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203820",
+        "@id": "_:bn204872",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -3531,7 +4184,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203821",
+        "@id": "_:bn204873",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -3589,7 +4242,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203822",
+        "@id": "_:bn204874",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -3600,7 +4253,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203823",
+        "@id": "_:bn204875",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -3611,7 +4264,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203824",
+        "@id": "_:bn204876",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -3620,7 +4273,7 @@
         }
       },
       {
-        "@id": "_:bn203825",
+        "@id": "_:bn204877",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28983",
@@ -3631,7 +4284,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203826",
+        "@id": "_:bn204878",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -3647,7 +4300,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203827",
+        "@id": "_:bn204879",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -3710,7 +4363,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203828",
+        "@id": "_:bn204880",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -3721,7 +4374,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203829",
+        "@id": "_:bn204881",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -3732,7 +4385,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203830",
+        "@id": "_:bn204882",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29099",
@@ -3748,7 +4401,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203831",
+        "@id": "_:bn204883",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -3764,7 +4417,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203832",
+        "@id": "_:bn204884",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -3812,7 +4465,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203833",
+        "@id": "_:bn204885",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -3823,7 +4476,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203834",
+        "@id": "_:bn204886",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -3834,7 +4487,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203835",
+        "@id": "_:bn204887",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29092",
@@ -3845,7 +4498,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203836",
+        "@id": "_:bn204888",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -3861,7 +4514,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203837",
+        "@id": "_:bn204889",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -3913,7 +4566,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203838",
+        "@id": "_:bn204890",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -3924,7 +4577,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203839",
+        "@id": "_:bn204891",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -3935,7 +4588,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203840",
+        "@id": "_:bn204892",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29086",
@@ -3946,7 +4599,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203841",
+        "@id": "_:bn204893",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -3962,7 +4615,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203842",
+        "@id": "_:bn204894",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -4025,7 +4678,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203843",
+        "@id": "_:bn204895",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -4036,7 +4689,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203844",
+        "@id": "_:bn204896",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -4047,7 +4700,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203845",
+        "@id": "_:bn204897",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29086",
@@ -4058,7 +4711,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203846",
+        "@id": "_:bn204898",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -4074,7 +4727,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203847",
+        "@id": "_:bn204899",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -4137,7 +4790,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203848",
+        "@id": "_:bn204900",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -4148,7 +4801,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203849",
+        "@id": "_:bn204901",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -4159,7 +4812,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203850",
+        "@id": "_:bn204902",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29096",
@@ -4178,7 +4831,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203851",
+        "@id": "_:bn204903",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -4194,7 +4847,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203852",
+        "@id": "_:bn204904",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -4246,7 +4899,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203853",
+        "@id": "_:bn204905",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -4257,7 +4910,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203854",
+        "@id": "_:bn204906",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -4268,7 +4921,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203855",
+        "@id": "_:bn204907",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29096",
@@ -4287,7 +4940,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203856",
+        "@id": "_:bn204908",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -4311,7 +4964,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203857",
+        "@id": "_:bn204909",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -4363,7 +5016,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203858",
+        "@id": "_:bn204910",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -4374,7 +5027,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203859",
+        "@id": "_:bn204911",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -4385,7 +5038,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203860",
+        "@id": "_:bn204912",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29096",
@@ -4404,7 +5057,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203861",
+        "@id": "_:bn204913",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -4428,7 +5081,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203862",
+        "@id": "_:bn204914",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27450",
@@ -4480,7 +5133,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203863",
+        "@id": "_:bn204915",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -4491,7 +5144,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203864",
+        "@id": "_:bn204916",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -4502,7 +5155,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203865",
+        "@id": "_:bn204917",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29092",
@@ -4513,7 +5166,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203866",
+        "@id": "_:bn204918",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28978",
@@ -4529,7 +5182,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203867",
+        "@id": "_:bn204919",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -4581,7 +5234,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203868",
+        "@id": "_:bn204920",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -4592,7 +5245,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203869",
+        "@id": "_:bn204921",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -4603,7 +5256,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203870",
+        "@id": "_:bn204922",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -4622,7 +5275,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203871",
+        "@id": "_:bn204923",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -4652,7 +5305,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203872",
+        "@id": "_:bn204924",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -4704,7 +5357,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203873",
+        "@id": "_:bn204925",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -4715,7 +5368,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203874",
+        "@id": "_:bn204926",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",
@@ -4726,7 +5379,7 @@
     ],
     "publishedIn": [
       {
-        "@id": "_:bn203875",
+        "@id": "_:bn204927",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29088",
@@ -4745,7 +5398,7 @@
     ],
     "languageOfWork": [
       {
-        "@id": "_:bn203876",
+        "@id": "_:bn204928",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28979",
@@ -4775,7 +5428,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn203877",
+        "@id": "_:bn204929",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27449",
@@ -4820,659 +5473,6 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29034",
-    "rdfs:label": "Jacopo del Sellaio",
-    "@type": [
-      "Article"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn203878",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20638",
-          "rdfs:label": "article",
-          "@type": "Class"
-        }
-      }
-    ],
-    "fullWorkAvailableAtURL": [
-      {
-        "@value": "https://hdl.handle.net/2027/mdp.39015017555494?urlappend=%3Bseq=268%3Bownerid=13510798897441069-274"
-      }
-    ],
-    "languageOfWork": [
-      {
-        "@id": "_:bn203879",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28980",
-          "rdfs:label": "German",
-          "@type": "Language"
-        }
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn203880",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29002",
-          "rdfs:label": "Hans Mackowsky",
-          "@type": "Person"
-        }
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "Jacopo del Sellaio",
-          "language": "it"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1899-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn203881",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28959",
-          "rdfs:label": "Berenson Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q123596519"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29105",
-    "rdfs:label": "The Paris Exhibition des Arts de la Femme",
-    "@type": [
-      "Article"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn203882",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20638",
-          "rdfs:label": "article",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn203883",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28959",
-          "rdfs:label": "Berenson Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "publishedIn": [
-      {
-        "@id": "_:bn203884",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29103",
-          "rdfs:label": "Women's Penny Paper",
-          "@type": "Publication"
-        }
-      }
-    ],
-    "languageOfWork": [
-      {
-        "@id": "_:bn203885",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28978",
-          "rdfs:label": "English",
-          "@type": "Language"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q123345739"
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn203886",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27449",
-          "rdfs:label": "Mary Berenson",
-          "@type": "Person"
-        },
-        "objectNamedAs": [
-          "M. W."
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q28985",
-            "rdfs:label": "Mary Berenson and the conception of connoisseurship"
-          }
-        ]
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "The Paris Exhibition des Arts de la Femme",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1892-09-24T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 11,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "fullWorkAvailableAtURL": [
-      {
-        "@value": "https://link.gale.com/apps/doc/DX1900362143/NCUK?u=new64731&sid=bookmark-NCUK&pg=11&xid=b8a7dfa1"
-      }
-    ],
-    "volume": [
-      {
-        "@value": "6"
-      }
-    ],
-    "issueNumber": [
-      {
-        "@value": "204"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29106",
-    "rdfs:label": "Some Comments on Correggio in Connection with His Pictures in Dresden",
-    "@type": [
-      "Article"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn203887",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20638",
-          "rdfs:label": "article",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn203888",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28959",
-          "rdfs:label": "Berenson Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "publishedIn": [
-      {
-        "@id": "_:bn203889",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29097",
-          "rdfs:label": "The Knight Errant",
-          "@type": "Publication"
-        }
-      },
-      {
-        "@id": "_:bn203890",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28982",
-          "rdfs:label": "The Study and Criticism of Italian Art",
-          "@type": "Book"
-        }
-      }
-    ],
-    "fullWorkAvailableAtURL": [
-      {
-        "@value": "http://www.jstor.org/stable/25515893"
-      }
-    ],
-    "languageOfWork": [
-      {
-        "@id": "_:bn203891",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28978",
-          "rdfs:label": "English",
-          "@type": "Language"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q123345740"
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn203892",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27450",
-          "rdfs:label": "Bernard Berenson",
-          "@type": "Person"
-        },
-        "objectNamedAs": [
-          "Bernhard Berenson"
-        ]
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "Some Comments on Correggio in Connection with His Pictures in Dresden",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1892-10-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 10,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "volume": [
-      {
-        "@value": "1"
-      }
-    ],
-    "issueNumber": [
-      {
-        "@value": "3"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29108",
-    "rdfs:label": "Pictures in Venice as documents about Venetian women",
-    "@type": [
-      "Article"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn203893",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20638",
-          "rdfs:label": "article",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn203894",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28959",
-          "rdfs:label": "Berenson Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "publishedIn": [
-      {
-        "@id": "_:bn203895",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29103",
-          "rdfs:label": "Women's Penny Paper",
-          "@type": "Publication"
-        }
-      }
-    ],
-    "languageOfWork": [
-      {
-        "@id": "_:bn203896",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28978",
-          "rdfs:label": "English",
-          "@type": "Language"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q123345742"
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn203897",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27449",
-          "rdfs:label": "Mary Berenson",
-          "@type": "Person"
-        },
-        "objectNamedAs": [
-          "M. W."
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q28985",
-            "rdfs:label": "Mary Berenson and the conception of connoisseurship"
-          }
-        ]
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "Pictures in Venice as documents about Venetian women",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1892-10-29T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 11,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "fullWorkAvailableAtURL": [
-      {
-        "@value": "https://link.gale.com/apps/doc/DX1900362338/GDCS?u=new64731&sid=bookmark-GDCS&pg=6&xid=517d0031"
-      }
-    ],
-    "volume": [
-      {
-        "@value": "7"
-      }
-    ],
-    "issueNumber": [
-      {
-        "@value": "209"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29109",
-    "rdfs:label": "The March of Ancona",
-    "@type": [
-      "Article"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn203898",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20638",
-          "rdfs:label": "article",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn203899",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28959",
-          "rdfs:label": "Berenson Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "publishedIn": [
-      {
-        "@id": "_:bn203900",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29103",
-          "rdfs:label": "Women's Penny Paper",
-          "@type": "Publication"
-        }
-      }
-    ],
-    "languageOfWork": [
-      {
-        "@id": "_:bn203901",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28978",
-          "rdfs:label": "English",
-          "@type": "Language"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q123345743"
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn203902",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27449",
-          "rdfs:label": "Mary Berenson",
-          "@type": "Person"
-        },
-        "objectNamedAs": [
-          "M. W."
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q28985",
-            "rdfs:label": "Mary Berenson and the conception of connoisseurship"
-          }
-        ]
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "The March of Ancona",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1892-11-26T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 11,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "fullWorkAvailableAtURL": [
-      {
-        "@value": "https://link.gale.com/apps/doc/DX1900362496/NCUK?u=new64731&sid=bookmark-NCUK&pg=9&xid=21d40b6c"
-      }
-    ],
-    "volume": [
-      {
-        "@value": "7"
-      }
-    ],
-    "issueNumber": [
-      {
-        "@value": "213"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29110",
-    "rdfs:label": "The Woman Question in Novels. I. Potapenko",
-    "@type": [
-      "Article"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn203903",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20638",
-          "rdfs:label": "article",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn203904",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28959",
-          "rdfs:label": "Berenson Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "publishedIn": [
-      {
-        "@id": "_:bn203905",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29103",
-          "rdfs:label": "Women's Penny Paper",
-          "@type": "Publication"
-        }
-      }
-    ],
-    "languageOfWork": [
-      {
-        "@id": "_:bn203906",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28978",
-          "rdfs:label": "English",
-          "@type": "Language"
-        }
-      }
-    ],
-    "subtitle": [
-      {
-        "@value": {
-          "text": "I. Potapenko",
-          "language": "en"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q123345744"
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn203907",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27449",
-          "rdfs:label": "Mary Berenson",
-          "@type": "Person"
-        },
-        "objectNamedAs": [
-          "M. W."
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q28985",
-            "rdfs:label": "Mary Berenson and the conception of connoisseurship"
-          }
-        ]
-      }
-    ],
-    "title": [
-      {
-        "@value": {
-          "text": "The Woman Question in Novels",
-          "language": "en"
-        }
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1893-01-07T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 11,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "fullWorkAvailableAtURL": [
-      {
-        "@value": "https://link.gale.com/apps/doc/DX1900363154/NCUK?u=new64731&sid=bookmark-NCUK&pg=9&xid=8739fd1b"
-      }
-    ],
-    "volume": [
-      {
-        "@value": "9"
-      }
-    ],
-    "issueNumber": [
-      {
-        "@value": "219"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q30042",
     "rdfs:label": "Promoting \u00abNew Art Criticism\u00bb: Bernard Berenson\u2019s Botticelli Battles and the Birth of the Amico di Sandro",
     "wikidataQid": [
@@ -5485,7 +5485,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn203908",
+        "@id": "_:bn204930",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20638",
@@ -5496,7 +5496,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn203909",
+        "@id": "_:bn204931",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28959",

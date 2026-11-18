@@ -1270,26 +1270,6 @@
         "end date"
       ]
     },
-    "prepared": {
-      "@id": "http://base.semlab.io/entity/P213",
-      "skos:prefLabel": "prepared",
-      "skos:note": "work the subject prepared"
-    },
-    "presenterOf": {
-      "@id": "http://base.semlab.io/entity/P214",
-      "skos:prefLabel": "presenter of",
-      "skos:note": "work the subject presented"
-    },
-    "presentedAt": {
-      "@id": "http://base.semlab.io/entity/P215",
-      "skos:prefLabel": "presented at",
-      "skos:note": "place subject presented a work"
-    },
-    "listenedTo": {
-      "@id": "http://base.semlab.io/entity/P217",
-      "skos:prefLabel": "listened to",
-      "skos:note": "work the subject listened to"
-    },
     "hostedBy": {
       "@id": "http://base.semlab.io/entity/P216",
       "skos:prefLabel": "hosted by",
@@ -1496,6 +1476,26 @@
         "https://schema.org/founder"
       ],
       "skos:note": "used to indicate that the subject is founded by this person"
+    },
+    "prepared": {
+      "@id": "http://base.semlab.io/entity/P213",
+      "skos:prefLabel": "prepared",
+      "skos:note": "work the subject prepared"
+    },
+    "presenterOf": {
+      "@id": "http://base.semlab.io/entity/P214",
+      "skos:prefLabel": "presenter of",
+      "skos:note": "work the subject presented"
+    },
+    "presentedAt": {
+      "@id": "http://base.semlab.io/entity/P215",
+      "skos:prefLabel": "presented at",
+      "skos:note": "place subject presented a work"
+    },
+    "listenedTo": {
+      "@id": "http://base.semlab.io/entity/P217",
+      "skos:prefLabel": "listened to",
+      "skos:note": "work the subject listened to"
     },
     "sponsoredBy": {
       "@id": "http://base.semlab.io/entity/P155",
@@ -2344,8 +2344,8 @@
       "@id": "http://base.semlab.io/entity/Q19071",
       "skos:prefLabel": "event",
       "skos:altLabel": [
-        "competition",
-        "events"
+        "events",
+        "competition"
       ],
       "owl:equivalentClass": [
         "https://schema.org/Event"
@@ -2815,8 +2815,8 @@
       "@id": "http://base.semlab.io/entity/Q19049",
       "skos:prefLabel": "organization",
       "owl:equivalentClass": [
-        "http://xmlns.com/foaf/0.1/Organization",
-        "https://schema.org/Organization"
+        "https://schema.org/Organization",
+        "http://xmlns.com/foaf/0.1/Organization"
       ]
     },
     "OrganizationalChart": {
@@ -3292,7 +3292,6 @@
       "@id": "http://base.semlab.io/entity/Q23736",
       "skos:prefLabel": "unrealized project",
       "skos:altLabel": [
-        "unfinished project",
         "abandoned project",
         "canceled",
         "canceled project",
@@ -3300,7 +3299,8 @@
         "cancelled project",
         "project canceled",
         "project cancelled",
-        "unfinished"
+        "unfinished",
+        "unfinished project"
       ],
       "skos:note": "project that eventually was not realized"
     },
@@ -3320,9 +3320,9 @@
       "@id": "http://base.semlab.io/entity/Q33152",
       "skos:prefLabel": "vehicle",
       "skos:altLabel": [
+        "car",
         "automobile",
-        "spacecraft",
-        "car"
+        "spacecraft"
       ],
       "skos:note": "machine for transport, such as an automobile, motorcycle or spacecraft"
     },
