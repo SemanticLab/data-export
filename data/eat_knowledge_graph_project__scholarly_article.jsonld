@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn138510",
+        "@id": "_:bn142940",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20635",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn138511",
+        "@id": "_:bn142941",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -30,7 +30,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn138512",
+        "@id": "_:bn142942",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -44,6 +44,132 @@
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39960/0.txt"
           }
         ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q43140",
+    "rdfs:label": "Computers and the Visual Arts",
+    "@type": [
+      "ScholarlyArticle"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn142943",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20635",
+          "rdfs:label": "scholarly article",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn142944",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn142945",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29648",
+          "rdfs:label": "A. Michael Noll",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q43159",
+            "rdfs:label": "Block 3 of The Interview: A. Michael Noll (Right Click Save)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q43005/3.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q43264",
+    "rdfs:label": "Attaining Consonance in Arbitrary Scales",
+    "@type": [
+      "ScholarlyArticle"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn142946",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20635",
+          "rdfs:label": "scholarly article",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn142947",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn142948",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19363",
+          "rdfs:label": "John R. Pierce",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q43319",
+            "rdfs:label": "Block 24 of Interview with John R. Pierce, 1979",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q43291/24.txt"
+          }
+        ]
+      }
+    ],
+    "publishedIn": [
+      {
+        "@id": "_:bn142949",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q43258",
+          "rdfs:label": "Journal of the Acoustical Society of America",
+          "@type": "Publication"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q43319",
+            "rdfs:label": "Block 24 of Interview with John R. Pierce, 1979",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q43291/24.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1966-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
       }
     ]
   }

@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn150901",
+        "@id": "_:bn155586",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25969",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn150902",
+        "@id": "_:bn155587",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -30,7 +30,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn150903",
+        "@id": "_:bn155588",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37281",
@@ -54,7 +54,7 @@
     ],
     "organizer": [
       {
-        "@id": "_:bn150904",
+        "@id": "_:bn155589",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q35592",
@@ -78,6 +78,124 @@
           "before": 0,
           "after": 0,
           "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q43448",
+    "rdfs:label": "Projects (Nova Scotia College of Art and Design class)",
+    "@type": [
+      "EducationEvent"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn155590",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25969",
+          "rdfs:label": "education event",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn155591",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn155592",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q43342",
+          "rdfs:label": "David Askevold",
+          "@type": "Person"
+        },
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q20641",
+            "rdfs:label": "instructor"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q43476",
+            "rdfs:label": "Block 6 of Interview with Iain Baxter&",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q43453/6.txt"
+          }
+        ]
+      }
+    ],
+    "organizer": [
+      {
+        "@id": "_:bn155593",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q43392",
+          "rdfs:label": "Nova Scotia College of Art and Design",
+          "@type": "Institution"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q43476",
+            "rdfs:label": "Block 6 of Interview with Iain Baxter&",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q43453/6.txt"
+          }
+        ]
+      }
+    ],
+    "uses": [
+      {
+        "@id": "_:bn155594",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24497",
+          "rdfs:label": "telex machine",
+          "@type": "CommunicationDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q43476",
+            "rdfs:label": "Block 6 of Interview with Iain Baxter&",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q43453/6.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn155595",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24483",
+          "rdfs:label": "facsimile machine",
+          "@type": "CommunicationDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q43476",
+            "rdfs:label": "Block 6 of Interview with Iain Baxter&",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q43453/6.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1969-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
         }
       }

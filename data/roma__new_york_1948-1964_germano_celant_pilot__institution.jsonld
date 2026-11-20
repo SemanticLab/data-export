@@ -1,14 +1,24 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30544",
-    "rdfs:label": "American Academy of Rome",
+    "@id": "semlab:Q31418",
+    "rdfs:label": "School of Fine Arts Rome",
     "@type": [
+      "School",
       "Institution"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn204434",
+        "@id": "_:bn209454",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20618",
+          "rdfs:label": "school",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn209455",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1804",
@@ -19,7 +29,62 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn204435",
+        "@id": "_:bn209456",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q338481"
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn209457",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28971",
+          "rdfs:label": "Rome (Italy)",
+          "@type": "City"
+        }
+      },
+      {
+        "@id": "_:bn209458",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q30544",
+    "rdfs:label": "American Academy of Rome",
+    "@type": [
+      "Institution"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn209459",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q1804",
+          "rdfs:label": "institution",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn209460",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -35,7 +100,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn204436",
+        "@id": "_:bn209461",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28971",
@@ -54,71 +119,6 @@
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40259/0.txt"
           }
         ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q31418",
-    "rdfs:label": "School of Fine Arts Rome",
-    "@type": [
-      "School",
-      "Institution"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn204437",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20618",
-          "rdfs:label": "school",
-          "@type": "Class"
-        }
-      },
-      {
-        "@id": "_:bn204438",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q1804",
-          "rdfs:label": "institution",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn204439",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q338481"
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn204440",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28971",
-          "rdfs:label": "Rome (Italy)",
-          "@type": "City"
-        }
-      },
-      {
-        "@id": "_:bn204441",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
       }
     ]
   }

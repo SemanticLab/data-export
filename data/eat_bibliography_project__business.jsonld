@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn166666",
+        "@id": "_:bn171556",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19085",
@@ -24,7 +24,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn166667",
+        "@id": "_:bn171557",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -33,7 +33,7 @@
         }
       },
       {
-        "@id": "_:bn166668",
+        "@id": "_:bn171558",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -52,7 +52,7 @@
     ],
     "contributedTo": [
       {
-        "@id": "_:bn166669",
+        "@id": "_:bn171559",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23884",
@@ -78,7 +78,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn166670",
+        "@id": "_:bn171560",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19085",
@@ -89,7 +89,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn166671",
+        "@id": "_:bn171561",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -98,7 +98,7 @@
         }
       },
       {
-        "@id": "_:bn166672",
+        "@id": "_:bn171562",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -109,7 +109,7 @@
     ],
     "employee": [
       {
-        "@id": "_:bn166673",
+        "@id": "_:bn171563",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24407",
@@ -128,6 +128,69 @@
     "E.A.T.DatascapePageIdentifier": [
       {
         "@value": "actor/458"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21498",
+    "rdfs:label": "Western Electric Co",
+    "@type": [
+      "Publisher",
+      "Business"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn171564",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21676",
+          "rdfs:label": "publisher",
+          "@type": "Class"
+        }
+      },
+      {
+        "@id": "_:bn171565",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19085",
+          "rdfs:label": "business",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn171566",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q2031258"
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn171567",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19160",
+          "rdfs:label": "AT&T",
+          "@type": "Business"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q43302",
+            "rdfs:label": "Block 7 of Max Mathews (NAMM Oral History Program, 2007)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q43282/7.txt"
+          }
+        ]
       }
     ]
   }

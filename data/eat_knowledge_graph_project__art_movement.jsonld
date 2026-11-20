@@ -1,14 +1,19 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q38855",
-    "rdfs:label": "De Stijl",
+    "@id": "semlab:Q29747",
+    "rdfs:label": "op art",
+    "wikidataQid": [
+      {
+        "@value": "Q182331"
+      }
+    ],
     "@type": [
       "ArtMovement"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn155613",
+        "@id": "_:bn160473",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q33155",
@@ -19,7 +24,37 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn155614",
+        "@id": "_:bn160474",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38855",
+    "rdfs:label": "De Stijl",
+    "@type": [
+      "ArtMovement"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn160475",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q33155",
+          "rdfs:label": "art movement",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn160476",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -43,7 +78,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn155615",
+        "@id": "_:bn160477",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q33155",
@@ -54,7 +89,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn155616",
+        "@id": "_:bn160478",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -73,7 +108,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn155617",
+        "@id": "_:bn160479",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q33155",
@@ -84,7 +119,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn155618",
+        "@id": "_:bn160480",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
