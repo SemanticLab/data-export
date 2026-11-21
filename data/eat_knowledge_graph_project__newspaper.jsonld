@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158927",
+        "@id": "_:bn161539",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19079",
@@ -25,7 +25,7 @@
         ]
       },
       {
-        "@id": "_:bn158928",
+        "@id": "_:bn161540",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28950",
@@ -43,7 +43,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158929",
+        "@id": "_:bn161541",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -54,7 +54,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn158930",
+        "@id": "_:bn161542",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -66,6 +66,11 @@
             "@id": "semlab:Q41401",
             "rdfs:label": "Block 1 of New Yorker Reports On Recent Developments In 'EAT' Group",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39898/1.txt"
+          },
+          {
+            "@id": "semlab:Q44002",
+            "rdfs:label": "Block 64 of The Reminiscences of Julie Martin",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19868/64.txt"
           }
         ]
       }
@@ -80,6 +85,56 @@
           "precision": 9,
           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
         }
+      }
+    ],
+    "mentions": [
+      {
+        "@id": "_:bn161543",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19298",
+          "rdfs:label": "Gottfried Wilhelm Leibniz",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q44002",
+            "rdfs:label": "Block 64 of The Reminiscences of Julie Martin",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19868/64.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn161544",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19215",
+          "rdfs:label": "Claes Oldenburg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q44002",
+            "rdfs:label": "Block 64 of The Reminiscences of Julie Martin",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19868/64.txt"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn161545",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q43875",
+          "rdfs:label": "Pete Seeger",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q44002",
+            "rdfs:label": "Block 64 of The Reminiscences of Julie Martin",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19868/64.txt"
+          }
+        ]
       }
     ]
   }

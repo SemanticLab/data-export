@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn43955",
+        "@id": "_:bn43949",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20648",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn43956",
+        "@id": "_:bn43950",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
@@ -38,7 +38,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn43957",
+        "@id": "_:bn43951",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20648",
@@ -49,7 +49,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn43958",
+        "@id": "_:bn43952",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
@@ -68,7 +68,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn43959",
+        "@id": "_:bn43953",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20648",
@@ -79,7 +79,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn43960",
+        "@id": "_:bn43954",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20655",
@@ -88,7 +88,7 @@
         }
       },
       {
-        "@id": "_:bn43961",
+        "@id": "_:bn43955",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
@@ -102,6 +102,96 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q21178",
     "rdfs:label": "cousin",
+    "@type": [
+      "Kinship"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn43956",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20648",
+          "rdfs:label": "kinship",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn43957",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18807",
+          "rdfs:label": "Linking Lost Jazz Shrines",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21219",
+    "rdfs:label": "son",
+    "@type": [
+      "Kinship"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn43958",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20648",
+          "rdfs:label": "kinship",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn43959",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18807",
+          "rdfs:label": "Linking Lost Jazz Shrines",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21221",
+    "rdfs:label": "uncle",
+    "@type": [
+      "Kinship"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn43960",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20648",
+          "rdfs:label": "kinship",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn43961",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q18807",
+          "rdfs:label": "Linking Lost Jazz Shrines",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q21587",
+    "rdfs:label": "nephew",
     "@type": [
       "Kinship"
     ],
@@ -130,8 +220,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21219",
-    "rdfs:label": "son",
+    "@id": "semlab:Q23413",
+    "rdfs:label": "godparent",
     "@type": [
       "Kinship"
     ],
@@ -160,8 +250,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21221",
-    "rdfs:label": "uncle",
+    "@id": "semlab:Q23414",
+    "rdfs:label": "godchild",
     "@type": [
       "Kinship"
     ],
@@ -179,96 +269,6 @@
     "partOfProject": [
       {
         "@id": "_:bn43967",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q18807",
-          "rdfs:label": "Linking Lost Jazz Shrines",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q21587",
-    "rdfs:label": "nephew",
-    "@type": [
-      "Kinship"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn43968",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20648",
-          "rdfs:label": "kinship",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn43969",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q18807",
-          "rdfs:label": "Linking Lost Jazz Shrines",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23413",
-    "rdfs:label": "godparent",
-    "@type": [
-      "Kinship"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn43970",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20648",
-          "rdfs:label": "kinship",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn43971",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q18807",
-          "rdfs:label": "Linking Lost Jazz Shrines",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23414",
-    "rdfs:label": "godchild",
-    "@type": [
-      "Kinship"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn43972",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20648",
-          "rdfs:label": "kinship",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn43973",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",

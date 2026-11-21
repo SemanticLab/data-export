@@ -3,7 +3,7 @@
 
 # Semantic Lab Data Export
 ---
-Generated: 2026-11-20
+Generated: 2026-11-21
 
 - [Linked Jazz Oral History Network](#linked-jazz-oral-history-network)
 - [Linking Lost Jazz Shrines](#linking-lost-jazz-shrines)
@@ -35,7 +35,7 @@ Generated: 2026-11-20
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [linking_lost_jazz_shrines__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__all.jsonld) | 1039  |
+| All    | [linking_lost_jazz_shrines__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__all.jsonld) | 1038  |
 | Person    | [linking_lost_jazz_shrines__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__person.jsonld) | 616  |
 | Institution    | [linking_lost_jazz_shrines__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__institution.jsonld) | 3  |
 | Music Group    | [linking_lost_jazz_shrines__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__music_group.jsonld) | 53  |
@@ -47,7 +47,7 @@ Generated: 2026-11-20
 | Occupation    | [linking_lost_jazz_shrines__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__occupation.jsonld) | 19  |
 | Venue    | [linking_lost_jazz_shrines__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__venue.jsonld) | 2  |
 | Museum    | [linking_lost_jazz_shrines__museum.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__museum.jsonld) | 1  |
-| Interview Transcript    | [linking_lost_jazz_shrines__interview_transcript.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__interview_transcript.jsonld) | 30  |
+| Interview Transcript    | [linking_lost_jazz_shrines__interview_transcript.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__interview_transcript.jsonld) | 29  |
 | School    | [linking_lost_jazz_shrines__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__school.jsonld) | 15  |
 | Kinship    | [linking_lost_jazz_shrines__kinship.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__kinship.jsonld) | 9  |
 | Kinship Nature    | [linking_lost_jazz_shrines__kinship_nature.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/linking_lost_jazz_shrines__kinship_nature.jsonld) | 1  |
@@ -127,30 +127,30 @@ Generated: 2026-11-20
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat_knowledge_graph_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__all.jsonld) | 11445  |
-| Person    | [eat_knowledge_graph_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__person.jsonld) | 3749  |
-| Institution    | [eat_knowledge_graph_project__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__institution.jsonld) | 428  |
-| Music Group    | [eat_knowledge_graph_project__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__music_group.jsonld) | 61  |
+| All    | [eat_knowledge_graph_project__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__all.jsonld) | 11649  |
+| Person    | [eat_knowledge_graph_project__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__person.jsonld) | 3822  |
+| Institution    | [eat_knowledge_graph_project__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__institution.jsonld) | 432  |
+| Music Group    | [eat_knowledge_graph_project__music_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__music_group.jsonld) | 62  |
 | Linking Lost Jazz "Shrine"    | [eat_knowledge_graph_project__linking_lost_jazz_"shrine".jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__linking_lost_jazz_"shrine".jsonld) | 3  |
 | Borough    | [eat_knowledge_graph_project__borough.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__borough.jsonld) | 11  |
-| Group    | [eat_knowledge_graph_project__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__group.jsonld) | 30  |
-| Organization    | [eat_knowledge_graph_project__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__organization.jsonld) | 603  |
-| Record Label    | [eat_knowledge_graph_project__record_label.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__record_label.jsonld) | 5  |
+| Group    | [eat_knowledge_graph_project__group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__group.jsonld) | 32  |
+| Organization    | [eat_knowledge_graph_project__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__organization.jsonld) | 608  |
+| Record Label    | [eat_knowledge_graph_project__record_label.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__record_label.jsonld) | 6  |
 | Place    | [eat_knowledge_graph_project__place.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__place.jsonld) | 92  |
 | Country    | [eat_knowledge_graph_project__country.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__country.jsonld) | 54  |
 | State    | [eat_knowledge_graph_project__state.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__state.jsonld) | 19  |
-| City    | [eat_knowledge_graph_project__city.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__city.jsonld) | 468  |
-| Neighborhood    | [eat_knowledge_graph_project__neighborhood.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__neighborhood.jsonld) | 53  |
+| City    | [eat_knowledge_graph_project__city.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__city.jsonld) | 476  |
+| Neighborhood    | [eat_knowledge_graph_project__neighborhood.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__neighborhood.jsonld) | 54  |
 | Semantic Lab Project    | [eat_knowledge_graph_project__semantic_lab_project.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__semantic_lab_project.jsonld) | 2  |
-| Document    | [eat_knowledge_graph_project__document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__document.jsonld) | 767  |
+| Document    | [eat_knowledge_graph_project__document.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__document.jsonld) | 769  |
 | Occupation    | [eat_knowledge_graph_project__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__occupation.jsonld) | 43  |
-| Event    | [eat_knowledge_graph_project__event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__event.jsonld) | 265  |
-| Venue    | [eat_knowledge_graph_project__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__venue.jsonld) | 226  |
-| Artwork (Concept)    | [eat_knowledge_graph_project__artwork_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artwork_(concept).jsonld) | 172  |
-| Performance    | [eat_knowledge_graph_project__performance.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__performance.jsonld) | 70  |
-| Technology    | [eat_knowledge_graph_project__technology.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__technology.jsonld) | 59  |
-| Publication    | [eat_knowledge_graph_project__publication.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__publication.jsonld) | 356  |
-| Business    | [eat_knowledge_graph_project__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__business.jsonld) | 319  |
+| Event    | [eat_knowledge_graph_project__event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__event.jsonld) | 272  |
+| Venue    | [eat_knowledge_graph_project__venue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__venue.jsonld) | 232  |
+| Artwork (Concept)    | [eat_knowledge_graph_project__artwork_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artwork_(concept).jsonld) | 179  |
+| Performance    | [eat_knowledge_graph_project__performance.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__performance.jsonld) | 71  |
+| Technology    | [eat_knowledge_graph_project__technology.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__technology.jsonld) | 60  |
+| Publication    | [eat_knowledge_graph_project__publication.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__publication.jsonld) | 358  |
+| Business    | [eat_knowledge_graph_project__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__business.jsonld) | 324  |
 | Guest List    | [eat_knowledge_graph_project__guest_list.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__guest_list.jsonld) | 1  |
 | Press Release    | [eat_knowledge_graph_project__press_release.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__press_release.jsonld) | 12  |
 | Memorandum    | [eat_knowledge_graph_project__memorandum.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__memorandum.jsonld) | 5  |
@@ -159,23 +159,23 @@ Generated: 2026-11-20
 | Newsletter    | [eat_knowledge_graph_project__newsletter.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__newsletter.jsonld) | 2  |
 | Booklet    | [eat_knowledge_graph_project__booklet.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__booklet.jsonld) | 4  |
 | Family    | [eat_knowledge_graph_project__family.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__family.jsonld) | 5  |
-| Cinematic Work (Concept)    | [eat_knowledge_graph_project__cinematic_work_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__cinematic_work_(concept).jsonld) | 111  |
-| Museum    | [eat_knowledge_graph_project__museum.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__museum.jsonld) | 197  |
-| Interview Transcript    | [eat_knowledge_graph_project__interview_transcript.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__interview_transcript.jsonld) | 100  |
+| Cinematic Work (Concept)    | [eat_knowledge_graph_project__cinematic_work_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__cinematic_work_(concept).jsonld) | 115  |
+| Museum    | [eat_knowledge_graph_project__museum.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__museum.jsonld) | 198  |
+| Interview Transcript    | [eat_knowledge_graph_project__interview_transcript.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__interview_transcript.jsonld) | 103  |
 | School    | [eat_knowledge_graph_project__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__school.jsonld) | 27  |
 | Musical Instrument    | [eat_knowledge_graph_project__musical_instrument.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__musical_instrument.jsonld) | 3  |
 | Scholarly Article    | [eat_knowledge_graph_project__scholarly_article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__scholarly_article.jsonld) | 3  |
-| Article    | [eat_knowledge_graph_project__article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__article.jsonld) | 661  |
-| Book    | [eat_knowledge_graph_project__book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__book.jsonld) | 59  |
+| Article    | [eat_knowledge_graph_project__article.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__article.jsonld) | 666  |
+| Book    | [eat_knowledge_graph_project__book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__book.jsonld) | 64  |
 | Artist Book    | [eat_knowledge_graph_project__artist_book.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artist_book.jsonld) | 1  |
-| Catalogue    | [eat_knowledge_graph_project__catalogue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__catalogue.jsonld) | 9  |
+| Catalogue    | [eat_knowledge_graph_project__catalogue.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__catalogue.jsonld) | 13  |
 | Publisher    | [eat_knowledge_graph_project__publisher.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__publisher.jsonld) | 55  |
 | Postcard    | [eat_knowledge_graph_project__postcard.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__postcard.jsonld) | 2  |
 | Photograph    | [eat_knowledge_graph_project__photograph.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__photograph.jsonld) | 70  |
 | Schedule    | [eat_knowledge_graph_project__schedule.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__schedule.jsonld) | 2  |
 | Artist Statement    | [eat_knowledge_graph_project__artist_statement.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artist_statement.jsonld) | 19  |
 | Collection    | [eat_knowledge_graph_project__collection.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__collection.jsonld) | 39  |
-| Art Exhibition    | [eat_knowledge_graph_project__art_exhibition.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__art_exhibition.jsonld) | 413  |
+| Art Exhibition    | [eat_knowledge_graph_project__art_exhibition.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__art_exhibition.jsonld) | 420  |
 | Annotation    | [eat_knowledge_graph_project__annotation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__annotation.jsonld) | 8  |
 | Sound Installation Artwork (Concept)    | [eat_knowledge_graph_project__sound_installation_artwork_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__sound_installation_artwork_(concept).jsonld) | 7  |
 | Organizational Chart    | [eat_knowledge_graph_project__organizational_chart.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__organizational_chart.jsonld) | 2  |
@@ -198,11 +198,11 @@ Generated: 2026-11-20
 | Dance Group    | [eat_knowledge_graph_project__dance_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__dance_group.jsonld) | 12  |
 | Sports Stadium    | [eat_knowledge_graph_project__sports_stadium.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__sports_stadium.jsonld) | 2  |
 | Radio Station    | [eat_knowledge_graph_project__radio_station.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__radio_station.jsonld) | 6  |
-| Hotel    | [eat_knowledge_graph_project__hotel.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__hotel.jsonld) | 12  |
+| Hotel    | [eat_knowledge_graph_project__hotel.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__hotel.jsonld) | 13  |
 | Artist'S Studio    | [eat_knowledge_graph_project__artist's_studio.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artist's_studio.jsonld) | 4  |
 | Continent    | [eat_knowledge_graph_project__continent.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__continent.jsonld) | 2  |
-| Unrealized Project    | [eat_knowledge_graph_project__unrealized_project.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__unrealized_project.jsonld) | 10  |
-| Benefit    | [eat_knowledge_graph_project__benefit.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__benefit.jsonld) | 5  |
+| Unrealized Project    | [eat_knowledge_graph_project__unrealized_project.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__unrealized_project.jsonld) | 11  |
+| Benefit    | [eat_knowledge_graph_project__benefit.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__benefit.jsonld) | 6  |
 | Wood Product    | [eat_knowledge_graph_project__wood_product.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__wood_product.jsonld) | 3  |
 | Metal    | [eat_knowledge_graph_project__metal.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__metal.jsonld) | 1  |
 | Brand    | [eat_knowledge_graph_project__brand.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__brand.jsonld) | 13  |
@@ -211,8 +211,8 @@ Generated: 2026-11-20
 | Microphone    | [eat_knowledge_graph_project__microphone.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__microphone.jsonld) | 1  |
 | Color    | [eat_knowledge_graph_project__color.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__color.jsonld) | 1  |
 | Communications Satellite    | [eat_knowledge_graph_project__communications_satellite.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__communications_satellite.jsonld) | 4  |
-| Art Gallery    | [eat_knowledge_graph_project__art_gallery.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__art_gallery.jsonld) | 210  |
-| Sculpture    | [eat_knowledge_graph_project__sculpture.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__sculpture.jsonld) | 145  |
+| Art Gallery    | [eat_knowledge_graph_project__art_gallery.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__art_gallery.jsonld) | 212  |
+| Sculpture    | [eat_knowledge_graph_project__sculpture.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__sculpture.jsonld) | 147  |
 | Ethnic Group    | [eat_knowledge_graph_project__ethnic_group.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__ethnic_group.jsonld) | 4  |
 | Drawing    | [eat_knowledge_graph_project__drawing.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__drawing.jsonld) | 9  |
 | Workshop    | [eat_knowledge_graph_project__workshop.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__workshop.jsonld) | 9  |
@@ -223,11 +223,11 @@ Generated: 2026-11-20
 | Presentation    | [eat_knowledge_graph_project__presentation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__presentation.jsonld) | 4  |
 | Monastery    | [eat_knowledge_graph_project__monastery.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__monastery.jsonld) | 1  |
 | Artist Collective    | [eat_knowledge_graph_project__artist_collective.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artist_collective.jsonld) | 23  |
-| Project    | [eat_knowledge_graph_project__project.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__project.jsonld) | 69  |
+| Project    | [eat_knowledge_graph_project__project.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__project.jsonld) | 72  |
 | Education Event    | [eat_knowledge_graph_project__education_event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__education_event.jsonld) | 2  |
 | Exhibition Event    | [eat_knowledge_graph_project__exhibition_event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__exhibition_event.jsonld) | 1  |
 | Fundraising Event    | [eat_knowledge_graph_project__fundraising_event.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__fundraising_event.jsonld) | 1  |
-| Painting    | [eat_knowledge_graph_project__painting.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__painting.jsonld) | 61  |
+| Painting    | [eat_knowledge_graph_project__painting.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__painting.jsonld) | 63  |
 | Video Recordings (Material)    | [eat_knowledge_graph_project__video_recordings_(material).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__video_recordings_(material).jsonld) | 2  |
 | Local Union    | [eat_knowledge_graph_project__local_union.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__local_union.jsonld) | 2  |
 | Instructions    | [eat_knowledge_graph_project__instructions.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__instructions.jsonld) | 2  |
@@ -242,20 +242,20 @@ Generated: 2026-11-20
 | Bibliographic Reference    | [eat_knowledge_graph_project__bibliographic_reference.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__bibliographic_reference.jsonld) | 95  |
 | Bibliography    | [eat_knowledge_graph_project__bibliography.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__bibliography.jsonld) | 2  |
 | Ship    | [eat_knowledge_graph_project__ship.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__ship.jsonld) | 1  |
-| Series    | [eat_knowledge_graph_project__series.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__series.jsonld) | 45  |
+| Series    | [eat_knowledge_graph_project__series.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__series.jsonld) | 46  |
 | Artwork (Object)    | [eat_knowledge_graph_project__artwork_(object).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__artwork_(object).jsonld) | 25  |
 | Installation Artwork (Concept)    | [eat_knowledge_graph_project__installation_artwork_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__installation_artwork_(concept).jsonld) | 58  |
-| Performance Artwork (Concept)    | [eat_knowledge_graph_project__performance_artwork_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__performance_artwork_(concept).jsonld) | 90  |
-| Dramatic Work (Concept)    | [eat_knowledge_graph_project__dramatic_work_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__dramatic_work_(concept).jsonld) | 18  |
-| Musical Work (Concept)    | [eat_knowledge_graph_project__musical_work_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__musical_work_(concept).jsonld) | 80  |
-| Literary Work (Concept)    | [eat_knowledge_graph_project__literary_work_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__literary_work_(concept).jsonld) | 15  |
-| Print    | [eat_knowledge_graph_project__print.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__print.jsonld) | 43  |
-| Poster    | [eat_knowledge_graph_project__poster.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__poster.jsonld) | 5  |
-| Combine Painting    | [eat_knowledge_graph_project__combine_painting.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__combine_painting.jsonld) | 15  |
+| Performance Artwork (Concept)    | [eat_knowledge_graph_project__performance_artwork_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__performance_artwork_(concept).jsonld) | 107  |
+| Dramatic Work (Concept)    | [eat_knowledge_graph_project__dramatic_work_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__dramatic_work_(concept).jsonld) | 20  |
+| Musical Work (Concept)    | [eat_knowledge_graph_project__musical_work_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__musical_work_(concept).jsonld) | 82  |
+| Literary Work (Concept)    | [eat_knowledge_graph_project__literary_work_(concept).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__literary_work_(concept).jsonld) | 17  |
+| Print    | [eat_knowledge_graph_project__print.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__print.jsonld) | 44  |
+| Poster    | [eat_knowledge_graph_project__poster.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__poster.jsonld) | 7  |
+| Combine Painting    | [eat_knowledge_graph_project__combine_painting.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__combine_painting.jsonld) | 16  |
 | Newspaper    | [eat_knowledge_graph_project__newspaper.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__newspaper.jsonld) | 1  |
 | Notebook    | [eat_knowledge_graph_project__notebook.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__notebook.jsonld) | 1  |
 | Envelope    | [eat_knowledge_graph_project__envelope.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__envelope.jsonld) | 1  |
-| Sound Recording    | [eat_knowledge_graph_project__sound_recording.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__sound_recording.jsonld) | 9  |
+| Sound Recording    | [eat_knowledge_graph_project__sound_recording.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__sound_recording.jsonld) | 10  |
 | Role    | [eat_knowledge_graph_project__role.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__role.jsonld) | 18  |
 | Character    | [eat_knowledge_graph_project__character.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__character.jsonld) | 7  |
 | Dissertation    | [eat_knowledge_graph_project__dissertation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__dissertation.jsonld) | 1  |
@@ -275,21 +275,21 @@ Generated: 2026-11-20
 | Biological Signal Or Activity    | [eat_knowledge_graph_project__biological_signal_or_activity.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__biological_signal_or_activity.jsonld) | 4  |
 | Imaging Device    | [eat_knowledge_graph_project__imaging_device.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__imaging_device.jsonld) | 5  |
 | Estate    | [eat_knowledge_graph_project__estate.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__estate.jsonld) | 1  |
-| Library    | [eat_knowledge_graph_project__library.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__library.jsonld) | 19  |
+| Library    | [eat_knowledge_graph_project__library.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__library.jsonld) | 20  |
 | Church    | [eat_knowledge_graph_project__church.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__church.jsonld) | 6  |
 | Hill    | [eat_knowledge_graph_project__hill.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__hill.jsonld) | 2  |
 | Residence    | [eat_knowledge_graph_project__residence.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__residence.jsonld) | 3  |
 | Garden    | [eat_knowledge_graph_project__garden.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__garden.jsonld) | 2  |
-| Biennale    | [eat_knowledge_graph_project__biennale.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__biennale.jsonld) | 7  |
+| Biennale    | [eat_knowledge_graph_project__biennale.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__biennale.jsonld) | 8  |
 | Technique    | [eat_knowledge_graph_project__technique.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__technique.jsonld) | 4  |
 | Theory    | [eat_knowledge_graph_project__theory.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__theory.jsonld) | 2  |
 | Wood    | [eat_knowledge_graph_project__wood.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__wood.jsonld) | 1  |
-| Award    | [eat_knowledge_graph_project__award.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__award.jsonld) | 32  |
+| Award    | [eat_knowledge_graph_project__award.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__award.jsonld) | 33  |
 | Patent    | [eat_knowledge_graph_project__patent.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__patent.jsonld) | 10  |
 | Puzzle    | [eat_knowledge_graph_project__puzzle.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__puzzle.jsonld) | 1  |
-| Television Program    | [eat_knowledge_graph_project__television_program.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__television_program.jsonld) | 14  |
+| Television Program    | [eat_knowledge_graph_project__television_program.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__television_program.jsonld) | 18  |
 | Radio Program    | [eat_knowledge_graph_project__radio_program.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__radio_program.jsonld) | 4  |
-| Television Station    | [eat_knowledge_graph_project__television_station.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__television_station.jsonld) | 6  |
+| Television Station    | [eat_knowledge_graph_project__television_station.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__television_station.jsonld) | 7  |
 | Newspaper Column    | [eat_knowledge_graph_project__newspaper_column.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__newspaper_column.jsonld) | 9  |
 | Government Agency    | [eat_knowledge_graph_project__government_agency.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__government_agency.jsonld) | 18  |
 | Vehicle    | [eat_knowledge_graph_project__vehicle.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_knowledge_graph_project__vehicle.jsonld) | 11  |
@@ -357,13 +357,13 @@ Generated: 2026-11-20
 
 | Entity | Link                       | Count |
 |--------|----------------------------|-------|
-| All    | [eat_technical_services_program_edge-notched_cards__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__all.jsonld) | 1697  |
-| Person    | [eat_technical_services_program_edge-notched_cards__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__person.jsonld) | 834  |
+| All    | [eat_technical_services_program_edge-notched_cards__all.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__all.jsonld) | 1723  |
+| Person    | [eat_technical_services_program_edge-notched_cards__person.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__person.jsonld) | 846  |
 | Institution    | [eat_technical_services_program_edge-notched_cards__institution.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__institution.jsonld) | 83  |
 | Linking Lost Jazz "Shrine"    | [eat_technical_services_program_edge-notched_cards__linking_lost_jazz_"shrine".jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__linking_lost_jazz_"shrine".jsonld) | 1  |
 | Organization    | [eat_technical_services_program_edge-notched_cards__organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__organization.jsonld) | 11  |
 | Occupation    | [eat_technical_services_program_edge-notched_cards__occupation.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__occupation.jsonld) | 2  |
-| Business    | [eat_technical_services_program_edge-notched_cards__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__business.jsonld) | 195  |
+| Business    | [eat_technical_services_program_edge-notched_cards__business.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__business.jsonld) | 202  |
 | School    | [eat_technical_services_program_edge-notched_cards__school.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__school.jsonld) | 2  |
 | Publisher    | [eat_technical_services_program_edge-notched_cards__publisher.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__publisher.jsonld) | 1  |
 | Nonprofit Organization    | [eat_technical_services_program_edge-notched_cards__nonprofit_organization.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__nonprofit_organization.jsonld) | 1  |
@@ -371,7 +371,7 @@ Generated: 2026-11-20
 | Unrealized Project    | [eat_technical_services_program_edge-notched_cards__unrealized_project.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__unrealized_project.jsonld) | 1  |
 | Video Recordings (Material)    | [eat_technical_services_program_edge-notched_cards__video_recordings_(material).jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__video_recordings_(material).jsonld) | 1  |
 | Field Of Work    | [eat_technical_services_program_edge-notched_cards__field_of_work.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__field_of_work.jsonld) | 68  |
-| Edge-Notched Card    | [eat_technical_services_program_edge-notched_cards__edge-notched_card.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__edge-notched_card.jsonld) | 486  |
+| Edge-Notched Card    | [eat_technical_services_program_edge-notched_cards__edge-notched_card.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__edge-notched_card.jsonld) | 493  |
 | Role    | [eat_technical_services_program_edge-notched_cards__role.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__role.jsonld) | 1  |
 | Signal Processing Component    | [eat_technical_services_program_edge-notched_cards__signal_processing_component.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__signal_processing_component.jsonld) | 2  |
 | Auditory Phenomenon    | [eat_technical_services_program_edge-notched_cards__auditory_phenomenon.jsonld](https://github.com/SemanticLab/data-export/blob/main/data/eat_technical_services_program_edge-notched_cards__auditory_phenomenon.jsonld) | 1  |
