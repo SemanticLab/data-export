@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158082",
+        "@id": "_:bn158086",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158083",
+        "@id": "_:bn158087",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -47,7 +47,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158084",
+        "@id": "_:bn158088",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -80,7 +80,7 @@
     ],
     "partOfCollection": [
       {
-        "@id": "_:bn158085",
+        "@id": "_:bn158089",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q33970",
@@ -101,89 +101,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q19169",
     "rdfs:label": "Barge",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn158086",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158087",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn158088",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19556",
-          "rdfs:label": "Robert Rauschenberg",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41335",
-            "rdfs:label": "Block 3 of Robert Rauschenberg",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40106/3.txt"
-          },
-          {
-            "@id": "semlab:Q43957",
-            "rdfs:label": "Block 16 of The Reminiscences of Julie Martin",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19868/16.txt"
-          }
-        ]
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1963-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn158089",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q42692",
-          "rdfs:label": "Robert Rauschenberg retrospective (Jewish Museum, 1963)",
-          "@type": "ArtExhibition"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q43957",
-            "rdfs:label": "Block 16 of The Reminiscences of Julie Martin",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19868/16.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q19464",
-    "rdfs:label": "Mother of God",
     "@type": [
       "Painting"
     ],
@@ -220,9 +137,14 @@
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q44008",
-            "rdfs:label": "Block 70 of The Reminiscences of Julie Martin",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19868/70.txt"
+            "@id": "semlab:Q41335",
+            "rdfs:label": "Block 3 of Robert Rauschenberg",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40106/3.txt"
+          },
+          {
+            "@id": "semlab:Q43957",
+            "rdfs:label": "Block 16 of The Reminiscences of Julie Martin",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19868/16.txt"
           }
         ]
       }
@@ -230,7 +152,7 @@
     "date": [
       {
         "@value": {
-          "time": "+1951-00-00T00:00:00Z",
+          "time": "+1963-00-00T00:00:00Z",
           "timezone": 0,
           "before": 0,
           "after": 0,
@@ -239,25 +161,20 @@
         }
       }
     ],
-    "describedOrDepictedAtUrl": [
-      {
-        "@value": "https://www.rauschenbergfoundation.org/art/artwork/mother-god"
-      }
-    ],
-    "partOfCollection": [
+    "shownAt": [
       {
         "@id": "_:bn158093",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28165",
-          "rdfs:label": "San Francisco Museum of Modern Art",
-          "@type": "Museum"
+          "@id": "semlab:Q42692",
+          "rdfs:label": "Robert Rauschenberg retrospective (Jewish Museum, 1963)",
+          "@type": "ArtExhibition"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q44008",
-            "rdfs:label": "Block 70 of The Reminiscences of Julie Martin",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19868/70.txt"
+            "@id": "semlab:Q43957",
+            "rdfs:label": "Block 16 of The Reminiscences of Julie Martin",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19868/16.txt"
           }
         ]
       }
@@ -265,8 +182,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q19671",
-    "rdfs:label": "White Painting",
+    "@id": "semlab:Q19464",
+    "rdfs:label": "Mother of God",
     "@type": [
       "Painting"
     ],
@@ -295,6 +212,89 @@
     "creator": [
       {
         "@id": "_:bn158096",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q44008",
+            "rdfs:label": "Block 70 of The Reminiscences of Julie Martin",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19868/70.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1951-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "describedOrDepictedAtUrl": [
+      {
+        "@value": "https://www.rauschenbergfoundation.org/art/artwork/mother-god"
+      }
+    ],
+    "partOfCollection": [
+      {
+        "@id": "_:bn158097",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28165",
+          "rdfs:label": "San Francisco Museum of Modern Art",
+          "@type": "Museum"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q44008",
+            "rdfs:label": "Block 70 of The Reminiscences of Julie Martin",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19868/70.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q19671",
+    "rdfs:label": "White Painting",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158098",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158099",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn158100",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -362,7 +362,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158097",
+        "@id": "_:bn158101",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -380,7 +380,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158098",
+        "@id": "_:bn158102",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19338",
@@ -418,7 +418,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158099",
+        "@id": "_:bn158103",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -429,7 +429,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn158100",
+        "@id": "_:bn158104",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -471,7 +471,7 @@
         ]
       },
       {
-        "@id": "_:bn158101",
+        "@id": "_:bn158105",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19305",
@@ -493,7 +493,7 @@
         ]
       },
       {
-        "@id": "_:bn158102",
+        "@id": "_:bn158106",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19173",
@@ -511,7 +511,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn158103",
+        "@id": "_:bn158107",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24360",
@@ -537,7 +537,7 @@
         ]
       },
       {
-        "@id": "_:bn158104",
+        "@id": "_:bn158108",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24361",
@@ -563,7 +563,7 @@
         ]
       },
       {
-        "@id": "_:bn158105",
+        "@id": "_:bn158109",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24229",
@@ -609,7 +609,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158106",
+        "@id": "_:bn158110",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -620,7 +620,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158107",
+        "@id": "_:bn158111",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -631,7 +631,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158108",
+        "@id": "_:bn158112",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19143",
@@ -669,7 +669,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158109",
+        "@id": "_:bn158113",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -683,7 +683,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158110",
+        "@id": "_:bn158114",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -694,7 +694,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158111",
+        "@id": "_:bn158115",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19402",
@@ -717,7 +717,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn158112",
+        "@id": "_:bn158116",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29920",
@@ -743,7 +743,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158113",
+        "@id": "_:bn158117",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -754,7 +754,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158114",
+        "@id": "_:bn158118",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -765,7 +765,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158115",
+        "@id": "_:bn158119",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -795,7 +795,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn158116",
+        "@id": "_:bn158120",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24467",
@@ -813,7 +813,7 @@
     ],
     "depicts": [
       {
-        "@id": "_:bn158117",
+        "@id": "_:bn158121",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q39119",
@@ -839,7 +839,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158118",
+        "@id": "_:bn158122",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -850,7 +850,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158119",
+        "@id": "_:bn158123",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -861,7 +861,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158120",
+        "@id": "_:bn158124",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -899,75 +899,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158121",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158122",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn158123",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19570",
-          "rdfs:label": "Roy Lichtenstein",
-          "@type": "Person"
-        },
-        "date": [
-          "+1971-00-00T00:00:00Z"
-        ],
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41185",
-            "rdfs:label": "Block 0 of New York Art Finds A Home In Stockholm",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40047/0.txt"
-          }
-        ]
-      }
-    ],
-    "partOfCollection": [
-      {
-        "@id": "_:bn158124",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q23761",
-          "rdfs:label": "The New York Collection for Stockholm",
-          "@type": "Collection"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41185",
-            "rdfs:label": "Block 0 of New York Art Finds A Home In Stockholm",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40047/0.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39066",
-    "rdfs:label": "EOS",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn158125",
         "@type": "RelEvent",
         "agentObj": {
@@ -993,33 +924,36 @@
         "@id": "_:bn158127",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q35999",
-          "rdfs:label": "Lewis Beken",
+          "@id": "semlab:Q19570",
+          "rdfs:label": "Roy Lichtenstein",
           "@type": "Person"
         },
+        "date": [
+          "+1971-00-00T00:00:00Z"
+        ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q41869",
-            "rdfs:label": "Block 0 of California Show Due Soon",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40151/0.txt"
+            "@id": "semlab:Q41185",
+            "rdfs:label": "Block 0 of New York Art Finds A Home In Stockholm",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40047/0.txt"
           }
         ]
       }
     ],
-    "shownAt": [
+    "partOfCollection": [
       {
         "@id": "_:bn158128",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q38615",
-          "rdfs:label": "Laguna Beach exhibition at Cheney Cowles Memorial Museum (1971)",
-          "@type": "ArtExhibition"
+          "@id": "semlab:Q23761",
+          "rdfs:label": "The New York Collection for Stockholm",
+          "@type": "Collection"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41869",
-            "rdfs:label": "Block 0 of California Show Due Soon",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40151/0.txt"
+            "@id": "semlab:Q41185",
+            "rdfs:label": "Block 0 of New York Art Finds A Home In Stockholm",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40047/0.txt"
           }
         ]
       }
@@ -1027,8 +961,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39084",
-    "rdfs:label": "F-111 (painting)",
+    "@id": "semlab:Q39066",
+    "rdfs:label": "EOS",
     "@type": [
       "Painting"
     ],
@@ -1059,20 +993,15 @@
         "@id": "_:bn158131",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24186",
-          "rdfs:label": "James Rosenquist",
+          "@id": "semlab:Q35999",
+          "rdfs:label": "Lewis Beken",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q40688",
-            "rdfs:label": "Block 0 of Remembering the '60s",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40436/0.txt"
-          },
-          {
-            "@id": "semlab:Q41364",
-            "rdfs:label": "Block 0 of Art Notes: May Your New Year Be Arty",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39889/0.txt"
+            "@id": "semlab:Q41869",
+            "rdfs:label": "Block 0 of California Show Due Soon",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40151/0.txt"
           }
         ]
       }
@@ -1082,29 +1011,24 @@
         "@id": "_:bn158132",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q34379",
-          "rdfs:label": "Metropolitan Museum of Art",
-          "@type": "Museum"
+          "@id": "semlab:Q38615",
+          "rdfs:label": "Laguna Beach exhibition at Cheney Cowles Memorial Museum (1971)",
+          "@type": "ArtExhibition"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41364",
-            "rdfs:label": "Block 0 of Art Notes: May Your New Year Be Arty",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39889/0.txt"
+            "@id": "semlab:Q41869",
+            "rdfs:label": "Block 0 of California Show Due Soon",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40151/0.txt"
           }
         ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q19887711"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39100",
-    "rdfs:label": "FE:MALE",
+    "@id": "semlab:Q39084",
+    "rdfs:label": "F-111 (painting)",
     "@type": [
       "Painting"
     ],
@@ -1135,15 +1059,20 @@
         "@id": "_:bn158135",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q28395",
-          "rdfs:label": "Harriet  Casdin-Silver",
+          "@id": "semlab:Q24186",
+          "rdfs:label": "James Rosenquist",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41749",
-            "rdfs:label": "Block 1 of Clark to Show Environmental Art (or a Put-on)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40348/1.txt"
+            "@id": "semlab:Q40688",
+            "rdfs:label": "Block 0 of Remembering the '60s",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40436/0.txt"
+          },
+          {
+            "@id": "semlab:Q41364",
+            "rdfs:label": "Block 0 of Art Notes: May Your New Year Be Arty",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39889/0.txt"
           }
         ]
       }
@@ -1153,24 +1082,29 @@
         "@id": "_:bn158136",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q38558",
-          "rdfs:label": "Harriet Casdin-Silver exhibition, Clark University, 1969",
-          "@type": "ArtExhibition"
+          "@id": "semlab:Q34379",
+          "rdfs:label": "Metropolitan Museum of Art",
+          "@type": "Museum"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41749",
-            "rdfs:label": "Block 1 of Clark to Show Environmental Art (or a Put-on)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40348/1.txt"
+            "@id": "semlab:Q41364",
+            "rdfs:label": "Block 0 of Art Notes: May Your New Year Be Arty",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39889/0.txt"
           }
         ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q19887711"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39153",
-    "rdfs:label": "1.2 Meter",
+    "@id": "semlab:Q39100",
+    "rdfs:label": "FE:MALE",
     "@type": [
       "Painting"
     ],
@@ -1201,15 +1135,15 @@
         "@id": "_:bn158139",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q37906",
-          "rdfs:label": "David S. Porter",
+          "@id": "semlab:Q28395",
+          "rdfs:label": "Harriet  Casdin-Silver",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q40823",
-            "rdfs:label": "Block 2 of The Fine Arts: First Faculty Show At UNF",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40249/2.txt"
+            "@id": "semlab:Q41749",
+            "rdfs:label": "Block 1 of Clark to Show Environmental Art (or a Put-on)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40348/1.txt"
           }
         ]
       }
@@ -1219,15 +1153,15 @@
         "@id": "_:bn158140",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q38498",
-          "rdfs:label": "First Annual Faculty Art Show (University of North Florida, 1974)",
+          "@id": "semlab:Q38558",
+          "rdfs:label": "Harriet Casdin-Silver exhibition, Clark University, 1969",
           "@type": "ArtExhibition"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q40823",
-            "rdfs:label": "Block 2 of The Fine Arts: First Faculty Show At UNF",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40249/2.txt"
+            "@id": "semlab:Q41749",
+            "rdfs:label": "Block 1 of Clark to Show Environmental Art (or a Put-on)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40348/1.txt"
           }
         ]
       }
@@ -1235,8 +1169,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39155",
-    "rdfs:label": "A 19",
+    "@id": "semlab:Q39153",
+    "rdfs:label": "1.2 Meter",
     "@type": [
       "Painting"
     ],
@@ -1265,6 +1199,72 @@
     "creator": [
       {
         "@id": "_:bn158143",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q37906",
+          "rdfs:label": "David S. Porter",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40823",
+            "rdfs:label": "Block 2 of The Fine Arts: First Faculty Show At UNF",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40249/2.txt"
+          }
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn158144",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q38498",
+          "rdfs:label": "First Annual Faculty Art Show (University of North Florida, 1974)",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40823",
+            "rdfs:label": "Block 2 of The Fine Arts: First Faculty Show At UNF",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40249/2.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39155",
+    "rdfs:label": "A 19",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158145",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158146",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn158147",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19395",
@@ -1302,7 +1302,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158144",
+        "@id": "_:bn158148",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -1313,7 +1313,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158145",
+        "@id": "_:bn158149",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1324,7 +1324,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158146",
+        "@id": "_:bn158150",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19143",
@@ -1355,7 +1355,7 @@
     ],
     "partOfCollection": [
       {
-        "@id": "_:bn158147",
+        "@id": "_:bn158151",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23761",
@@ -1390,7 +1390,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn158148",
+        "@id": "_:bn158152",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23761",
@@ -1416,7 +1416,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158149",
+        "@id": "_:bn158153",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -1427,7 +1427,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158150",
+        "@id": "_:bn158154",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1438,7 +1438,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158151",
+        "@id": "_:bn158155",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36122",
@@ -1461,7 +1461,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn158152",
+        "@id": "_:bn158156",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24405",
@@ -1497,72 +1497,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158153",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158154",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn158155",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q35854",
-          "rdfs:label": "Robert Arnold",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q40680",
-            "rdfs:label": "Block 0 of 'Indianawerk' Opens Friday: Anonymity In Painting Is Matrix Artist's Goal",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40210/0.txt"
-          }
-        ]
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn158156",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q38578",
-          "rdfs:label": "Indianawerk",
-          "@type": "ArtExhibition"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q40680",
-            "rdfs:label": "Block 0 of 'Indianawerk' Opens Friday: Anonymity In Painting Is Matrix Artist's Goal",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40210/0.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39241",
-    "rdfs:label": "Portrait of a Member of the Raman Family",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn158157",
         "@type": "RelEvent",
         "agentObj": {
@@ -1588,6 +1522,72 @@
         "@id": "_:bn158159",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q35854",
+          "rdfs:label": "Robert Arnold",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40680",
+            "rdfs:label": "Block 0 of 'Indianawerk' Opens Friday: Anonymity In Painting Is Matrix Artist's Goal",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40210/0.txt"
+          }
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn158160",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q38578",
+          "rdfs:label": "Indianawerk",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40680",
+            "rdfs:label": "Block 0 of 'Indianawerk' Opens Friday: Anonymity In Painting Is Matrix Artist's Goal",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40210/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39241",
+    "rdfs:label": "Portrait of a Member of the Raman Family",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158161",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158162",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn158163",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q29674",
           "rdfs:label": "Rembrandt",
           "@type": "Person"
@@ -1603,7 +1603,7 @@
     ],
     "partOfCollection": [
       {
-        "@id": "_:bn158160",
+        "@id": "_:bn158164",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19414",
@@ -1621,7 +1621,7 @@
     ],
     "sponsoredBy": [
       {
-        "@id": "_:bn158161",
+        "@id": "_:bn158165",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36809",
@@ -1637,7 +1637,7 @@
         ]
       },
       {
-        "@id": "_:bn158162",
+        "@id": "_:bn158166",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36810",
@@ -1663,7 +1663,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158163",
+        "@id": "_:bn158167",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -1674,7 +1674,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158164",
+        "@id": "_:bn158168",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1685,7 +1685,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158165",
+        "@id": "_:bn158169",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q38335",
@@ -1703,7 +1703,7 @@
     ],
     "depicts": [
       {
-        "@id": "_:bn158166",
+        "@id": "_:bn158170",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q511",
@@ -1721,7 +1721,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn158167",
+        "@id": "_:bn158171",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q34333",
@@ -1742,72 +1742,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39253",
     "rdfs:label": "Banquet on the Mount",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn158168",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158169",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn158170",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q35377",
-          "rdfs:label": "Sal J. Bernstein",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41870",
-            "rdfs:label": "Block 1 of California Show Due Soon",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40151/1.txt"
-          }
-        ]
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn158171",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q38615",
-          "rdfs:label": "Laguna Beach exhibition at Cheney Cowles Memorial Museum (1971)",
-          "@type": "ArtExhibition"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41870",
-            "rdfs:label": "Block 1 of California Show Due Soon",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40151/1.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39265",
-    "rdfs:label": "Propellers",
     "@type": [
       "Painting"
     ],
@@ -1838,29 +1772,17 @@
         "@id": "_:bn158174",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q30515",
-          "rdfs:label": "Leger",
+          "@id": "semlab:Q35377",
+          "rdfs:label": "Sal J. Bernstein",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41785",
-            "rdfs:label": "Block 0 of 'The Machine'",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40054/0.txt"
+            "@id": "semlab:Q41870",
+            "rdfs:label": "Block 1 of California Show Due Soon",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40151/1.txt"
           }
         ]
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1918-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
       }
     ],
     "shownAt": [
@@ -1868,29 +1790,24 @@
         "@id": "_:bn158175",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24405",
-          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (exhibition)",
+          "@id": "semlab:Q38615",
+          "rdfs:label": "Laguna Beach exhibition at Cheney Cowles Memorial Museum (1971)",
           "@type": "ArtExhibition"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41785",
-            "rdfs:label": "Block 0 of 'The Machine'",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40054/0.txt"
+            "@id": "semlab:Q41870",
+            "rdfs:label": "Block 1 of California Show Due Soon",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40151/1.txt"
           }
         ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q19883792"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39303",
-    "rdfs:label": "The Blue Boy",
+    "@id": "semlab:Q39265",
+    "rdfs:label": "Propellers",
     "@type": [
       "Painting"
     ],
@@ -1921,6 +1838,89 @@
         "@id": "_:bn158178",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q30515",
+          "rdfs:label": "Leger",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41785",
+            "rdfs:label": "Block 0 of 'The Machine'",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40054/0.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1918-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn158179",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24405",
+          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (exhibition)",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41785",
+            "rdfs:label": "Block 0 of 'The Machine'",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40054/0.txt"
+          }
+        ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q19883792"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39303",
+    "rdfs:label": "The Blue Boy",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158180",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158181",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn158182",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q36542",
           "rdfs:label": "Thomas Gainsborough",
           "@type": "Person"
@@ -1946,7 +1946,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn158179",
+        "@id": "_:bn158183",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q34959",
@@ -1964,7 +1964,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn158180",
+        "@id": "_:bn158184",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q34959",
@@ -1994,7 +1994,7 @@
     ],
     "depicts": [
       {
-        "@id": "_:bn158181",
+        "@id": "_:bn158185",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q35888",
@@ -2025,7 +2025,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158182",
+        "@id": "_:bn158186",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -2036,7 +2036,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158183",
+        "@id": "_:bn158187",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2047,7 +2047,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158184",
+        "@id": "_:bn158188",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q35832",
@@ -2065,7 +2065,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn158185",
+        "@id": "_:bn158189",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q38615",
@@ -2091,7 +2091,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158186",
+        "@id": "_:bn158190",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -2102,7 +2102,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158187",
+        "@id": "_:bn158191",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2113,7 +2113,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158188",
+        "@id": "_:bn158192",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -2143,7 +2143,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn158189",
+        "@id": "_:bn158193",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24467",
@@ -2161,7 +2161,7 @@
     ],
     "depicts": [
       {
-        "@id": "_:bn158190",
+        "@id": "_:bn158194",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q511",
@@ -2182,72 +2182,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39329",
     "rdfs:label": "Breedlove",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn158191",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158192",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn158193",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q37376",
-          "rdfs:label": "Donald Lagerberg",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41584",
-            "rdfs:label": "Block 0 of Art News: Renoir Show Set at UCLA",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39956/0.txt"
-          }
-        ]
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn158194",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q38701",
-          "rdfs:label": "National Automotive Art Show (1st : 1969 : Riverside, Calif.)",
-          "@type": "ArtExhibition"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41586",
-            "rdfs:label": "Block 2 of Art News: Renoir Show Set at UCLA",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39956/2.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39330",
-    "rdfs:label": "The Bride",
     "@type": [
       "Painting"
     ],
@@ -2278,15 +2212,15 @@
         "@id": "_:bn158197",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19429",
-          "rdfs:label": "Marcel Duchamp",
+          "@id": "semlab:Q37376",
+          "rdfs:label": "Donald Lagerberg",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41249",
-            "rdfs:label": "Block 1 of Summer Exhibit of Machine Art Being Readied for View",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40357/1.txt"
+            "@id": "semlab:Q41584",
+            "rdfs:label": "Block 0 of Art News: Renoir Show Set at UCLA",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39956/0.txt"
           }
         ]
       }
@@ -2296,15 +2230,15 @@
         "@id": "_:bn158198",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24405",
-          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (exhibition)",
+          "@id": "semlab:Q38701",
+          "rdfs:label": "National Automotive Art Show (1st : 1969 : Riverside, Calif.)",
           "@type": "ArtExhibition"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41249",
-            "rdfs:label": "Block 1 of Summer Exhibit of Machine Art Being Readied for View",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40357/1.txt"
+            "@id": "semlab:Q41586",
+            "rdfs:label": "Block 2 of Art News: Renoir Show Set at UCLA",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39956/2.txt"
           }
         ]
       }
@@ -2312,8 +2246,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39339",
-    "rdfs:label": "Road Runner",
+    "@id": "semlab:Q39330",
+    "rdfs:label": "The Bride",
     "@type": [
       "Painting"
     ],
@@ -2344,6 +2278,72 @@
         "@id": "_:bn158201",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q19429",
+          "rdfs:label": "Marcel Duchamp",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41249",
+            "rdfs:label": "Block 1 of Summer Exhibit of Machine Art Being Readied for View",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40357/1.txt"
+          }
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn158202",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24405",
+          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (exhibition)",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41249",
+            "rdfs:label": "Block 1 of Summer Exhibit of Machine Art Being Readied for View",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40357/1.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39339",
+    "rdfs:label": "Road Runner",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158203",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158204",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn158205",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q38134",
           "rdfs:label": "Dorothy Wells",
           "@type": "Person"
@@ -2362,72 +2362,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39352",
     "rdfs:label": "Hidden Subject",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn158202",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158203",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn158204",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q37345",
-          "rdfs:label": "Robert Kyle",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q40665",
-            "rdfs:label": "Block 1 of Art Took Months of Work, Self Destructs in Seconds",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39890/1.txt"
-          }
-        ]
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn158205",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q38435",
-          "rdfs:label": "EAT/ATL",
-          "@type": "ArtExhibition"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q40665",
-            "rdfs:label": "Block 1 of Art Took Months of Work, Self Destructs in Seconds",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39890/1.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39379",
-    "rdfs:label": "Child Carburetor",
     "@type": [
       "Painting"
     ],
@@ -2458,15 +2392,15 @@
         "@id": "_:bn158208",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q30508",
-          "rdfs:label": "Francis Picabia",
+          "@id": "semlab:Q37345",
+          "rdfs:label": "Robert Kyle",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41330",
-            "rdfs:label": "Block 1 of Art & Technology Now Interlocked",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40371/1.txt"
+            "@id": "semlab:Q40665",
+            "rdfs:label": "Block 1 of Art Took Months of Work, Self Destructs in Seconds",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39890/1.txt"
           }
         ]
       }
@@ -2476,29 +2410,24 @@
         "@id": "_:bn158209",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24405",
-          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (exhibition)",
+          "@id": "semlab:Q38435",
+          "rdfs:label": "EAT/ATL",
           "@type": "ArtExhibition"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41330",
-            "rdfs:label": "Block 1 of Art & Technology Now Interlocked",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40371/1.txt"
+            "@id": "semlab:Q40665",
+            "rdfs:label": "Block 1 of Art Took Months of Work, Self Destructs in Seconds",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39890/1.txt"
           }
         ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q19882896"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39389",
-    "rdfs:label": "Saturday",
+    "@id": "semlab:Q39379",
+    "rdfs:label": "Child Carburetor",
     "@type": [
       "Painting"
     ],
@@ -2529,6 +2458,77 @@
         "@id": "_:bn158212",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q30508",
+          "rdfs:label": "Francis Picabia",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41330",
+            "rdfs:label": "Block 1 of Art & Technology Now Interlocked",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40371/1.txt"
+          }
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn158213",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24405",
+          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (exhibition)",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41330",
+            "rdfs:label": "Block 1 of Art & Technology Now Interlocked",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40371/1.txt"
+          }
+        ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q19882896"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39389",
+    "rdfs:label": "Saturday",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158214",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158215",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn158216",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q19556",
           "rdfs:label": "Robert Rauschenberg",
           "@type": "Person"
@@ -2544,7 +2544,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn158213",
+        "@id": "_:bn158217",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19561",
@@ -2576,72 +2576,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158214",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158215",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn158216",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q37345",
-          "rdfs:label": "Robert Kyle",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q40665",
-            "rdfs:label": "Block 1 of Art Took Months of Work, Self Destructs in Seconds",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39890/1.txt"
-          }
-        ]
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn158217",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q38435",
-          "rdfs:label": "EAT/ATL",
-          "@type": "ArtExhibition"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q40665",
-            "rdfs:label": "Block 1 of Art Took Months of Work, Self Destructs in Seconds",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39890/1.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39408",
-    "rdfs:label": "Coffee (painting)",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn158218",
         "@type": "RelEvent",
         "agentObj": {
@@ -2667,15 +2601,15 @@
         "@id": "_:bn158220",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q37986",
-          "rdfs:label": "Don De Vivieros",
+          "@id": "semlab:Q37345",
+          "rdfs:label": "Robert Kyle",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41781",
-            "rdfs:label": "Block 1 of Illusionism At the Triangle",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40048/1.txt"
+            "@id": "semlab:Q40665",
+            "rdfs:label": "Block 1 of Art Took Months of Work, Self Destructs in Seconds",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39890/1.txt"
           }
         ]
       }
@@ -2685,18 +2619,15 @@
         "@id": "_:bn158221",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q36090",
-          "rdfs:label": "William Sawyer Gallery",
-          "@type": "ArtGallery"
+          "@id": "semlab:Q38435",
+          "rdfs:label": "EAT/ATL",
+          "@type": "ArtExhibition"
         },
-        "date": [
-          "+1969-06-00T00:00:00Z"
-        ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q41781",
-            "rdfs:label": "Block 1 of Illusionism At the Triangle",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40048/1.txt"
+            "@id": "semlab:Q40665",
+            "rdfs:label": "Block 1 of Art Took Months of Work, Self Destructs in Seconds",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39890/1.txt"
           }
         ]
       }
@@ -2704,8 +2635,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39409",
-    "rdfs:label": "Coffee Grinder",
+    "@id": "semlab:Q39408",
+    "rdfs:label": "Coffee (painting)",
     "@type": [
       "Painting"
     ],
@@ -2736,29 +2667,17 @@
         "@id": "_:bn158224",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19429",
-          "rdfs:label": "Marcel Duchamp",
+          "@id": "semlab:Q37986",
+          "rdfs:label": "Don De Vivieros",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q40770",
-            "rdfs:label": "Block 2 of The Machine Mystique",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40231/2.txt"
+            "@id": "semlab:Q41781",
+            "rdfs:label": "Block 1 of Illusionism At the Triangle",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40048/1.txt"
           }
         ]
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1911-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
       }
     ],
     "shownAt": [
@@ -2766,29 +2685,27 @@
         "@id": "_:bn158225",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q24405",
-          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (exhibition)",
-          "@type": "ArtExhibition"
+          "@id": "semlab:Q36090",
+          "rdfs:label": "William Sawyer Gallery",
+          "@type": "ArtGallery"
         },
+        "date": [
+          "+1969-06-00T00:00:00Z"
+        ],
         "referenceBlock": [
           {
-            "@id": "semlab:Q40770",
-            "rdfs:label": "Block 2 of The Machine Mystique",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40231/2.txt"
+            "@id": "semlab:Q41781",
+            "rdfs:label": "Block 1 of Illusionism At the Triangle",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40048/1.txt"
           }
         ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q28551676"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39432",
-    "rdfs:label": "In Reflection",
+    "@id": "semlab:Q39409",
+    "rdfs:label": "Coffee Grinder",
     "@type": [
       "Painting"
     ],
@@ -2819,42 +2736,59 @@
         "@id": "_:bn158228",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q36797",
-          "rdfs:label": "Sally Haley",
+          "@id": "semlab:Q19429",
+          "rdfs:label": "Marcel Duchamp",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q40816",
-            "rdfs:label": "Block 2 of Summer Events Reviewed",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40457/2.txt"
+            "@id": "semlab:Q40770",
+            "rdfs:label": "Block 2 of The Machine Mystique",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40231/2.txt"
           }
         ]
       }
     ],
-    "location": [
+    "date": [
+      {
+        "@value": {
+          "time": "+1911-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "shownAt": [
       {
         "@id": "_:bn158229",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q23405",
-          "rdfs:label": "Portland Civic Auditorium",
-          "@type": "Venue"
+          "@id": "semlab:Q24405",
+          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (exhibition)",
+          "@type": "ArtExhibition"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q40816",
-            "rdfs:label": "Block 2 of Summer Events Reviewed",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40457/2.txt"
+            "@id": "semlab:Q40770",
+            "rdfs:label": "Block 2 of The Machine Mystique",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40231/2.txt"
           }
         ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q28551676"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39446",
-    "rdfs:label": "Sistine Chapel ceiling",
+    "@id": "semlab:Q39432",
+    "rdfs:label": "In Reflection",
     "@type": [
       "Painting"
     ],
@@ -2880,22 +2814,53 @@
         }
       }
     ],
-    "wikidataQid": [
+    "creator": [
       {
-        "@value": "Q844675"
+        "@id": "_:bn158232",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q36797",
+          "rdfs:label": "Sally Haley",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40816",
+            "rdfs:label": "Block 2 of Summer Events Reviewed",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40457/2.txt"
+          }
+        ]
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn158233",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23405",
+          "rdfs:label": "Portland Civic Auditorium",
+          "@type": "Venue"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40816",
+            "rdfs:label": "Block 2 of Summer Events Reviewed",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40457/2.txt"
+          }
+        ]
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39450",
-    "rdfs:label": "Skel",
+    "@id": "semlab:Q39446",
+    "rdfs:label": "Sistine Chapel ceiling",
     "@type": [
       "Painting"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158232",
+        "@id": "_:bn158234",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -2906,7 +2871,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158233",
+        "@id": "_:bn158235",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2915,47 +2880,16 @@
         }
       }
     ],
-    "creator": [
+    "wikidataQid": [
       {
-        "@id": "_:bn158234",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q36233",
-          "rdfs:label": "Max Cole",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41869",
-            "rdfs:label": "Block 0 of California Show Due Soon",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40151/0.txt"
-          }
-        ]
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn158235",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q38615",
-          "rdfs:label": "Laguna Beach exhibition at Cheney Cowles Memorial Museum (1971)",
-          "@type": "ArtExhibition"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41869",
-            "rdfs:label": "Block 0 of California Show Due Soon",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40151/0.txt"
-          }
-        ]
+        "@value": "Q844675"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39485",
-    "rdfs:label": "Krakow",
+    "@id": "semlab:Q39450",
+    "rdfs:label": "Skel",
     "@type": [
       "Painting"
     ],
@@ -2986,15 +2920,15 @@
         "@id": "_:bn158238",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q35854",
-          "rdfs:label": "Robert Arnold",
+          "@id": "semlab:Q36233",
+          "rdfs:label": "Max Cole",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q40680",
-            "rdfs:label": "Block 0 of 'Indianawerk' Opens Friday: Anonymity In Painting Is Matrix Artist's Goal",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40210/0.txt"
+            "@id": "semlab:Q41869",
+            "rdfs:label": "Block 0 of California Show Due Soon",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40151/0.txt"
           }
         ]
       }
@@ -3004,15 +2938,15 @@
         "@id": "_:bn158239",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q38578",
-          "rdfs:label": "Indianawerk",
+          "@id": "semlab:Q38615",
+          "rdfs:label": "Laguna Beach exhibition at Cheney Cowles Memorial Museum (1971)",
           "@type": "ArtExhibition"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q40680",
-            "rdfs:label": "Block 0 of 'Indianawerk' Opens Friday: Anonymity In Painting Is Matrix Artist's Goal",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40210/0.txt"
+            "@id": "semlab:Q41869",
+            "rdfs:label": "Block 0 of California Show Due Soon",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40151/0.txt"
           }
         ]
       }
@@ -3020,8 +2954,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39490",
-    "rdfs:label": "Sound Waves",
+    "@id": "semlab:Q39485",
+    "rdfs:label": "Krakow",
     "@type": [
       "Painting"
     ],
@@ -3052,6 +2986,72 @@
         "@id": "_:bn158242",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q35854",
+          "rdfs:label": "Robert Arnold",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40680",
+            "rdfs:label": "Block 0 of 'Indianawerk' Opens Friday: Anonymity In Painting Is Matrix Artist's Goal",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40210/0.txt"
+          }
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn158243",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q38578",
+          "rdfs:label": "Indianawerk",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40680",
+            "rdfs:label": "Block 0 of 'Indianawerk' Opens Friday: Anonymity In Painting Is Matrix Artist's Goal",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40210/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39490",
+    "rdfs:label": "Sound Waves",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158244",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158245",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn158246",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q37719",
           "rdfs:label": "Lee Lozano",
           "@type": "Person"
@@ -3070,84 +3070,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39510",
     "rdfs:label": "Speed of an Automobile",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn158243",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158244",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn158245",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q35926",
-          "rdfs:label": "Giacomo Balla",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41330",
-            "rdfs:label": "Block 1 of Art & Technology Now Interlocked",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40371/1.txt"
-          }
-        ]
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1913-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn158246",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24405",
-          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (exhibition)",
-          "@type": "ArtExhibition"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41330",
-            "rdfs:label": "Block 1 of Art & Technology Now Interlocked",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40371/1.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39536",
-    "rdfs:label": "Les Demoiselles d'Avignon",
     "@type": [
       "Painting"
     ],
@@ -3178,6 +3100,84 @@
         "@id": "_:bn158249",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q35926",
+          "rdfs:label": "Giacomo Balla",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41330",
+            "rdfs:label": "Block 1 of Art & Technology Now Interlocked",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40371/1.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1913-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn158250",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24405",
+          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (exhibition)",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41330",
+            "rdfs:label": "Block 1 of Art & Technology Now Interlocked",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40371/1.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39536",
+    "rdfs:label": "Les Demoiselles d'Avignon",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158251",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158252",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn158253",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q19498",
           "rdfs:label": "Pablo Picasso",
           "@type": "Person"
@@ -3201,77 +3201,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39538",
     "rdfs:label": "The Starry Night",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn158250",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158251",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn158252",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q36674",
-          "rdfs:label": "Vincent van Gogh",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41108",
-            "rdfs:label": "Block 1 of Espace, fronti\u00e8re de l'infini cr\u00e9atif",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40321/1.txt"
-          }
-        ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q45585"
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn158253",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19471",
-          "rdfs:label": "Museum of Modern Art",
-          "@type": "Publisher"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q43159",
-            "rdfs:label": "Block 3 of The Interview: A. Michael Noll (Right Click Save)",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q43005/3.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39562",
-    "rdfs:label": "Sue Six of Photographic Folio",
     "@type": [
       "Painting"
     ],
@@ -3302,6 +3231,77 @@
         "@id": "_:bn158256",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q36674",
+          "rdfs:label": "Vincent van Gogh",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41108",
+            "rdfs:label": "Block 1 of Espace, fronti\u00e8re de l'infini cr\u00e9atif",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40321/1.txt"
+          }
+        ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q45585"
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn158257",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19471",
+          "rdfs:label": "Museum of Modern Art",
+          "@type": "Publisher"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q43159",
+            "rdfs:label": "Block 3 of The Interview: A. Michael Noll (Right Click Save)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q43005/3.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39562",
+    "rdfs:label": "Sue Six of Photographic Folio",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158258",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158259",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn158260",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q38238",
           "rdfs:label": "Gerald E. Williamson",
           "@type": "Person"
@@ -3317,7 +3317,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn158257",
+        "@id": "_:bn158261",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q38498",
@@ -3343,7 +3343,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158258",
+        "@id": "_:bn158262",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -3354,7 +3354,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158259",
+        "@id": "_:bn158263",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3373,7 +3373,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158260",
+        "@id": "_:bn158264",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -3384,7 +3384,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158261",
+        "@id": "_:bn158265",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3395,7 +3395,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158262",
+        "@id": "_:bn158266",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28391",
@@ -3421,7 +3421,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158263",
+        "@id": "_:bn158267",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -3432,7 +3432,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158264",
+        "@id": "_:bn158268",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3443,7 +3443,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158265",
+        "@id": "_:bn158269",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q35455",
@@ -3469,7 +3469,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158266",
+        "@id": "_:bn158270",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -3480,7 +3480,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158267",
+        "@id": "_:bn158271",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3491,7 +3491,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158268",
+        "@id": "_:bn158272",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36375",
@@ -3512,72 +3512,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39641",
     "rdfs:label": "Merry Christmas, Flash Gordon",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn158269",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158270",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn158271",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q37906",
-          "rdfs:label": "David S. Porter",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q40822",
-            "rdfs:label": "Block 1 of The Fine Arts: First Faculty Show At UNF",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40249/1.txt"
-          }
-        ]
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn158272",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q38498",
-          "rdfs:label": "First Annual Faculty Art Show (University of North Florida, 1974)",
-          "@type": "ArtExhibition"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q40822",
-            "rdfs:label": "Block 1 of The Fine Arts: First Faculty Show At UNF",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40249/1.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39644",
-    "rdfs:label": "Traffic Impressions",
     "@type": [
       "Painting"
     ],
@@ -3608,15 +3542,15 @@
         "@id": "_:bn158275",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q36910",
-          "rdfs:label": "Gillian Jagger",
+          "@id": "semlab:Q37906",
+          "rdfs:label": "David S. Porter",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41978",
-            "rdfs:label": "Block 1 of Fair exhibit takes a look at today",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40279/1.txt"
+            "@id": "semlab:Q40822",
+            "rdfs:label": "Block 1 of The Fine Arts: First Faculty Show At UNF",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40249/1.txt"
           }
         ]
       }
@@ -3626,15 +3560,15 @@
         "@id": "_:bn158276",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q38298",
-          "rdfs:label": "Art Today, 1967",
+          "@id": "semlab:Q38498",
+          "rdfs:label": "First Annual Faculty Art Show (University of North Florida, 1974)",
           "@type": "ArtExhibition"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41978",
-            "rdfs:label": "Block 1 of Fair exhibit takes a look at today",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40279/1.txt"
+            "@id": "semlab:Q40822",
+            "rdfs:label": "Block 1 of The Fine Arts: First Faculty Show At UNF",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40249/1.txt"
           }
         ]
       }
@@ -3642,8 +3576,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39665",
-    "rdfs:label": "The Turkish Bath",
+    "@id": "semlab:Q39644",
+    "rdfs:label": "Traffic Impressions",
     "@type": [
       "Painting"
     ],
@@ -3674,6 +3608,72 @@
         "@id": "_:bn158279",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q36910",
+          "rdfs:label": "Gillian Jagger",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41978",
+            "rdfs:label": "Block 1 of Fair exhibit takes a look at today",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40279/1.txt"
+          }
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn158280",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q38298",
+          "rdfs:label": "Art Today, 1967",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41978",
+            "rdfs:label": "Block 1 of Fair exhibit takes a look at today",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40279/1.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39665",
+    "rdfs:label": "The Turkish Bath",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158281",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158282",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn158283",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q36868",
           "rdfs:label": "Jean-Auguste-Dominique Ingres",
           "@type": "Person"
@@ -3697,77 +3697,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39674",
     "rdfs:label": "Twittering Machine",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn158280",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158281",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn158282",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30475",
-          "rdfs:label": "Paul Klee",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41249",
-            "rdfs:label": "Block 1 of Summer Exhibit of Machine Art Being Readied for View",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40357/1.txt"
-          }
-        ]
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn158283",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24405",
-          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (exhibition)",
-          "@type": "ArtExhibition"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41249",
-            "rdfs:label": "Block 1 of Summer Exhibit of Machine Art Being Readied for View",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40357/1.txt"
-          }
-        ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3210239"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39727",
-    "rdfs:label": "Nativity",
     "@type": [
       "Painting"
     ],
@@ -3798,6 +3727,77 @@
         "@id": "_:bn158286",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q30475",
+          "rdfs:label": "Paul Klee",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41249",
+            "rdfs:label": "Block 1 of Summer Exhibit of Machine Art Being Readied for View",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40357/1.txt"
+          }
+        ]
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn158287",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24405",
+          "rdfs:label": "The Machine as Seen at the End of the Mechanical Age (exhibition)",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41249",
+            "rdfs:label": "Block 1 of Summer Exhibit of Machine Art Being Readied for View",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40357/1.txt"
+          }
+        ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3210239"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39727",
+    "rdfs:label": "Nativity",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158288",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158289",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn158290",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q36538",
           "rdfs:label": "Taddeo Gaddi",
           "@type": "Person"
@@ -3816,72 +3816,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39730",
     "rdfs:label": "Venus Entrusting Eros to Chronos",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn158287",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158288",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn158289",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q37761",
-          "rdfs:label": "Giovanni Battista Tiepolo",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41482",
-            "rdfs:label": "Block 2 of Art Notes: A Funny Thing Happened . . .",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39918/2.txt"
-          }
-        ]
-      }
-    ],
-    "partOfCollection": [
-      {
-        "@id": "_:bn158290",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q34561",
-          "rdfs:label": "National Gallery (London, England)",
-          "@type": "Museum"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41482",
-            "rdfs:label": "Block 2 of Art Notes: A Funny Thing Happened . . .",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39918/2.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39742",
-    "rdfs:label": "Vincent's Room at Arles",
     "@type": [
       "Painting"
     ],
@@ -3912,6 +3846,72 @@
         "@id": "_:bn158293",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q37761",
+          "rdfs:label": "Giovanni Battista Tiepolo",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41482",
+            "rdfs:label": "Block 2 of Art Notes: A Funny Thing Happened . . .",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39918/2.txt"
+          }
+        ]
+      }
+    ],
+    "partOfCollection": [
+      {
+        "@id": "_:bn158294",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q34561",
+          "rdfs:label": "National Gallery (London, England)",
+          "@type": "Museum"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41482",
+            "rdfs:label": "Block 2 of Art Notes: A Funny Thing Happened . . .",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39918/2.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39742",
+    "rdfs:label": "Vincent's Room at Arles",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158295",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158296",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn158297",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q36674",
           "rdfs:label": "Vincent van Gogh",
           "@type": "Person"
@@ -3935,7 +3935,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158294",
+        "@id": "_:bn158298",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -3946,7 +3946,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158295",
+        "@id": "_:bn158299",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3957,7 +3957,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158296",
+        "@id": "_:bn158300",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19429",
@@ -3980,7 +3980,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn158297",
+        "@id": "_:bn158301",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q38285",
@@ -3996,7 +3996,7 @@
         ]
       },
       {
-        "@id": "_:bn158298",
+        "@id": "_:bn158302",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24405",
@@ -4027,7 +4027,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158299",
+        "@id": "_:bn158303",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -4038,7 +4038,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158300",
+        "@id": "_:bn158304",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4049,7 +4049,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158301",
+        "@id": "_:bn158305",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19498",
@@ -4080,7 +4080,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158302",
+        "@id": "_:bn158306",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -4091,7 +4091,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158303",
+        "@id": "_:bn158307",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4102,7 +4102,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158304",
+        "@id": "_:bn158308",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36869",
@@ -4123,72 +4123,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39787",
     "rdfs:label": "Overland",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn158305",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158306",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn158307",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q36305",
-          "rdfs:label": "Thomas Cooney",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41978",
-            "rdfs:label": "Block 1 of Fair exhibit takes a look at today",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40279/1.txt"
-          }
-        ]
-      }
-    ],
-    "shownAt": [
-      {
-        "@id": "_:bn158308",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q38298",
-          "rdfs:label": "Art Today, 1967",
-          "@type": "ArtExhibition"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41978",
-            "rdfs:label": "Block 1 of Fair exhibit takes a look at today",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40279/1.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39799",
-    "rdfs:label": "Pasiphae",
     "@type": [
       "Painting"
     ],
@@ -4219,29 +4153,17 @@
         "@id": "_:bn158311",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19329",
-          "rdfs:label": "Jackson Pollock",
+          "@id": "semlab:Q36305",
+          "rdfs:label": "Thomas Cooney",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q40818",
-            "rdfs:label": "Block 6 of Major Exhibit At Museum",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39961/6.txt"
+            "@id": "semlab:Q41978",
+            "rdfs:label": "Block 1 of Fair exhibit takes a look at today",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40279/1.txt"
           }
         ]
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1943-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
       }
     ],
     "shownAt": [
@@ -4249,29 +4171,24 @@
         "@id": "_:bn158312",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q38514",
-          "rdfs:label": "From El Greco to Pollock: Early and Late Works by European and American Artists",
+          "@id": "semlab:Q38298",
+          "rdfs:label": "Art Today, 1967",
           "@type": "ArtExhibition"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q40818",
-            "rdfs:label": "Block 6 of Major Exhibit At Museum",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39961/6.txt"
+            "@id": "semlab:Q41978",
+            "rdfs:label": "Block 1 of Fair exhibit takes a look at today",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40279/1.txt"
           }
         ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3896965"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39823",
-    "rdfs:label": "Pinkie",
+    "@id": "semlab:Q39799",
+    "rdfs:label": "Pasiphae",
     "@type": [
       "Painting"
     ],
@@ -4302,6 +4219,89 @@
         "@id": "_:bn158315",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q19329",
+          "rdfs:label": "Jackson Pollock",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40818",
+            "rdfs:label": "Block 6 of Major Exhibit At Museum",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39961/6.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1943-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "shownAt": [
+      {
+        "@id": "_:bn158316",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q38514",
+          "rdfs:label": "From El Greco to Pollock: Early and Late Works by European and American Artists",
+          "@type": "ArtExhibition"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40818",
+            "rdfs:label": "Block 6 of Major Exhibit At Museum",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39961/6.txt"
+          }
+        ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q3896965"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39823",
+    "rdfs:label": "Pinkie",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158317",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158318",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn158319",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q37478",
           "rdfs:label": "Thomas Lawrence",
           "@type": "Person"
@@ -4317,7 +4317,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn158316",
+        "@id": "_:bn158320",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q34959",
@@ -4348,7 +4348,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158317",
+        "@id": "_:bn158321",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -4359,7 +4359,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158318",
+        "@id": "_:bn158322",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4370,7 +4370,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158319",
+        "@id": "_:bn158323",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37083",
@@ -4408,7 +4408,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158320",
+        "@id": "_:bn158324",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -4419,7 +4419,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158321",
+        "@id": "_:bn158325",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4430,7 +4430,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158322",
+        "@id": "_:bn158326",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19338",
@@ -4460,7 +4460,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn158323",
+        "@id": "_:bn158327",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24229",
@@ -4478,7 +4478,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn158324",
+        "@id": "_:bn158328",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -4510,7 +4510,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158325",
+        "@id": "_:bn158329",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26289",
@@ -4521,7 +4521,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158326",
+        "@id": "_:bn158330",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -4532,7 +4532,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn158327",
+        "@id": "_:bn158331",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36441",

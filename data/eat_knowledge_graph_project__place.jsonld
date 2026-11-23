@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn128593",
+        "@id": "_:bn128597",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19053",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn128594",
+        "@id": "_:bn128598",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -30,7 +30,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn128595",
+        "@id": "_:bn128599",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q34771",
@@ -61,66 +61,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn128596",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128597",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q43042",
-    "rdfs:label": "Charles River (Mass.)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn128598",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128599",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q43123",
-    "rdfs:label": "Bleecker Street (New York, N.Y.)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn128600",
         "@type": "RelEvent",
         "agentObj": {
@@ -144,8 +84,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q43124",
-    "rdfs:label": "Divisadero Street (San Francisco, Calif.)",
+    "@id": "semlab:Q43042",
+    "rdfs:label": "Charles River (Mass.)",
     "@type": [
       "Place"
     ],
@@ -174,8 +114,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q19197",
-    "rdfs:label": "Cape Canaveral",
+    "@id": "semlab:Q43123",
+    "rdfs:label": "Bleecker Street (New York, N.Y.)",
     "@type": [
       "Place"
     ],
@@ -200,17 +140,12 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q193401"
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q23776",
-    "rdfs:label": "international",
+    "@id": "semlab:Q43124",
+    "rdfs:label": "Divisadero Street (San Francisco, Calif.)",
     "@type": [
       "Place"
     ],
@@ -239,8 +174,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q24493",
-    "rdfs:label": "DC power station",
+    "@id": "semlab:Q19197",
+    "rdfs:label": "Cape Canaveral",
     "@type": [
       "Place"
     ],
@@ -266,9 +201,74 @@
         }
       }
     ],
-    "location": [
+    "wikidataQid": [
+      {
+        "@value": "Q193401"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q23776",
+    "rdfs:label": "international",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn128610",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128611",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q24493",
+    "rdfs:label": "DC power station",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn128612",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128613",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn128614",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24528",
@@ -304,76 +304,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn128611",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128612",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29683",
-    "rdfs:label": "Astor Place",
-    "wikidataQid": [
-      {
-        "@value": "Q1592990"
-      }
-    ],
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn128613",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128614",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29684",
-    "rdfs:label": "Holmdel Township",
-    "wikidataQid": [
-      {
-        "@value": "Q1474335"
-      }
-    ],
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn128615",
         "@type": "RelEvent",
         "agentObj": {
@@ -397,11 +327,11 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29685",
-    "rdfs:label": "Long Island",
+    "@id": "semlab:Q29683",
+    "rdfs:label": "Astor Place",
     "wikidataQid": [
       {
-        "@value": "Q18438"
+        "@value": "Q1592990"
       }
     ],
     "@type": [
@@ -432,11 +362,11 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29736",
-    "rdfs:label": "Saint Louis Zoo",
+    "@id": "semlab:Q29684",
+    "rdfs:label": "Holmdel Township",
     "wikidataQid": [
       {
-        "@value": "Q3036205"
+        "@value": "Q1474335"
       }
     ],
     "@type": [
@@ -467,8 +397,13 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33185",
-    "rdfs:label": "Arctic Circle",
+    "@id": "semlab:Q29685",
+    "rdfs:label": "Long Island",
+    "wikidataQid": [
+      {
+        "@value": "Q18438"
+      }
+    ],
     "@type": [
       "Place"
     ],
@@ -493,17 +428,17 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q176609"
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33186",
-    "rdfs:label": "Arno River (Italy)",
+    "@id": "semlab:Q29736",
+    "rdfs:label": "Saint Louis Zoo",
+    "wikidataQid": [
+      {
+        "@value": "Q3036205"
+      }
+    ],
     "@type": [
       "Place"
     ],
@@ -528,17 +463,12 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q115457"
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33227",
-    "rdfs:label": "Boston Harbor",
+    "@id": "semlab:Q33185",
+    "rdfs:label": "Arctic Circle",
     "@type": [
       "Place"
     ],
@@ -566,14 +496,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q894564"
+        "@value": "Q176609"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33230",
-    "rdfs:label": "Boulevard du Montparnasse (Paris, France)",
+    "@id": "semlab:Q33186",
+    "rdfs:label": "Arno River (Italy)",
     "@type": [
       "Place"
     ],
@@ -598,12 +528,17 @@
           "@type": "SemanticLabProject"
         }
       }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q115457"
+      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33236",
-    "rdfs:label": "Broadway (New York, N.Y.)",
+    "@id": "semlab:Q33227",
+    "rdfs:label": "Boston Harbor",
     "@type": [
       "Place"
     ],
@@ -631,14 +566,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q11260"
+        "@value": "Q894564"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33238",
-    "rdfs:label": "Bucks County (Pa.)",
+    "@id": "semlab:Q33230",
+    "rdfs:label": "Boulevard du Montparnasse (Paris, France)",
     "@type": [
       "Place"
     ],
@@ -663,17 +598,12 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q494192"
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33243",
-    "rdfs:label": "Burgundy (France)",
+    "@id": "semlab:Q33236",
+    "rdfs:label": "Broadway (New York, N.Y.)",
     "@type": [
       "Place"
     ],
@@ -701,14 +631,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q1173"
+        "@value": "Q11260"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33253",
-    "rdfs:label": "Byrd Field (Richmond, Va.)",
+    "@id": "semlab:Q33238",
+    "rdfs:label": "Bucks County (Pa.)",
     "@type": [
       "Place"
     ],
@@ -736,14 +666,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q1857178"
+        "@value": "Q494192"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33259",
-    "rdfs:label": "Camp Pendleton (Calif.)",
+    "@id": "semlab:Q33243",
+    "rdfs:label": "Burgundy (France)",
     "@type": [
       "Place"
     ],
@@ -771,14 +701,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q195334"
+        "@value": "Q1173"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33262",
-    "rdfs:label": "Cape Florida",
+    "@id": "semlab:Q33253",
+    "rdfs:label": "Byrd Field (Richmond, Va.)",
     "@type": [
       "Place"
     ],
@@ -804,9 +734,79 @@
         }
       }
     ],
-    "location": [
+    "wikidataQid": [
+      {
+        "@value": "Q1857178"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33259",
+    "rdfs:label": "Camp Pendleton (Calif.)",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn128641",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128642",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q195334"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33262",
+    "rdfs:label": "Cape Florida",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn128643",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128644",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn128645",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q33561",
@@ -837,71 +837,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn128642",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128643",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33266",
-    "rdfs:label": "Carnaby Street (London, England)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn128644",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128645",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q38778"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33292",
-    "rdfs:label": "Chester Avenue (Pasadena, Calif.)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn128646",
         "@type": "RelEvent",
         "agentObj": {
@@ -925,8 +860,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33338",
-    "rdfs:label": "Danforth Campus (Washington University in St. Louis)",
+    "@id": "semlab:Q33266",
+    "rdfs:label": "Carnaby Street (London, England)",
     "@type": [
       "Place"
     ],
@@ -954,14 +889,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q5215923"
+        "@value": "Q38778"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33343",
-    "rdfs:label": "Deer Park reservoir (Toronto, Ont.)",
+    "@id": "semlab:Q33292",
+    "rdfs:label": "Chester Avenue (Pasadena, Calif.)",
     "@type": [
       "Place"
     ],
@@ -990,8 +925,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33358",
-    "rdfs:label": "East River (N.Y.)",
+    "@id": "semlab:Q33338",
+    "rdfs:label": "Danforth Campus (Washington University in St. Louis)",
     "@type": [
       "Place"
     ],
@@ -1019,14 +954,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q212862"
+        "@value": "Q5215923"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33360",
-    "rdfs:label": "Eastern Shore (Md. and Va.)",
+    "@id": "semlab:Q33343",
+    "rdfs:label": "Deer Park reservoir (Toronto, Ont.)",
     "@type": [
       "Place"
     ],
@@ -1051,17 +986,12 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q42330135"
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33375",
-    "rdfs:label": "Esplanade des Invalides (Paris, France)",
+    "@id": "semlab:Q33358",
+    "rdfs:label": "East River (N.Y.)",
     "@type": [
       "Place"
     ],
@@ -1086,12 +1016,17 @@
           "@type": "SemanticLabProject"
         }
       }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q212862"
+      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33387",
-    "rdfs:label": "Fifth Avenue (New York, N.Y.)",
+    "@id": "semlab:Q33360",
+    "rdfs:label": "Eastern Shore (Md. and Va.)",
     "@type": [
       "Place"
     ],
@@ -1119,14 +1054,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q109858"
+        "@value": "Q42330135"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33395",
-    "rdfs:label": "Flathead River (Mont.)",
+    "@id": "semlab:Q33375",
+    "rdfs:label": "Esplanade des Invalides (Paris, France)",
     "@type": [
       "Place"
     ],
@@ -1151,17 +1086,12 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q268532"
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33396",
-    "rdfs:label": "Flathead Valley (Mont.)",
+    "@id": "semlab:Q33387",
+    "rdfs:label": "Fifth Avenue (New York, N.Y.)",
     "@type": [
       "Place"
     ],
@@ -1189,14 +1119,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q7734386"
+        "@value": "Q109858"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33399",
-    "rdfs:label": "Forbes Avenue (Pittsburgh, Pa.)",
+    "@id": "semlab:Q33395",
+    "rdfs:label": "Flathead River (Mont.)",
     "@type": [
       "Place"
     ],
@@ -1224,14 +1154,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q5467227"
+        "@value": "Q268532"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33439",
-    "rdfs:label": "Great Salt Lake (Utah)",
+    "@id": "semlab:Q33396",
+    "rdfs:label": "Flathead Valley (Mont.)",
     "@type": [
       "Place"
     ],
@@ -1257,9 +1187,79 @@
         }
       }
     ],
-    "location": [
+    "wikidataQid": [
+      {
+        "@value": "Q7734386"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33399",
+    "rdfs:label": "Forbes Avenue (Pittsburgh, Pa.)",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn128668",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128669",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q5467227"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33439",
+    "rdfs:label": "Great Salt Lake (Utah)",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn128670",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128671",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn128672",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q26007",
@@ -1290,76 +1290,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn128669",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128670",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q12630"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33453",
-    "rdfs:label": "Gustav Adolfs torg (Stockholm, Sweden)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn128671",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128672",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q2854887"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33478",
-    "rdfs:label": "Hill Country (Tex.)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn128673",
         "@type": "RelEvent",
         "agentObj": {
@@ -1382,14 +1312,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q2576201"
+        "@value": "Q12630"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33483",
-    "rdfs:label": "Los Angeles International Airport",
+    "@id": "semlab:Q33453",
+    "rdfs:label": "Gustav Adolfs torg (Stockholm, Sweden)",
     "@type": [
       "Place"
     ],
@@ -1415,9 +1345,79 @@
         }
       }
     ],
-    "location": [
+    "wikidataQid": [
+      {
+        "@value": "Q2854887"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33478",
+    "rdfs:label": "Hill Country (Tex.)",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn128677",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128678",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q2576201"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33483",
+    "rdfs:label": "Los Angeles International Airport",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn128679",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128680",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn128681",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21539",
@@ -1448,76 +1448,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn128678",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128679",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q676203"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33498",
-    "rdfs:label": "Hudson River (N.Y. and N.J.)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn128680",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128681",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3140"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33508",
-    "rdfs:label": "M\u00e4laren (Sweden)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn128682",
         "@type": "RelEvent",
         "agentObj": {
@@ -1540,14 +1470,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q184492"
+        "@value": "Q676203"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33509",
-    "rdfs:label": "Interstate 89",
+    "@id": "semlab:Q33498",
+    "rdfs:label": "Hudson River (N.Y. and N.J.)",
     "@type": [
       "Place"
     ],
@@ -1575,14 +1505,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q94957"
+        "@value": "Q3140"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33540",
-    "rdfs:label": "McAllister Street (San Francisco, Calif.)",
+    "@id": "semlab:Q33508",
+    "rdfs:label": "M\u00e4laren (Sweden)",
     "@type": [
       "Place"
     ],
@@ -1607,12 +1537,17 @@
           "@type": "SemanticLabProject"
         }
       }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q184492"
+      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33548",
-    "rdfs:label": "Meadowlands (N.J.)",
+    "@id": "semlab:Q33509",
+    "rdfs:label": "Interstate 89",
     "@type": [
       "Place"
     ],
@@ -1640,14 +1575,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q3853432"
+        "@value": "Q94957"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33565",
-    "rdfs:label": "King County (Wash.)",
+    "@id": "semlab:Q33540",
+    "rdfs:label": "McAllister Street (San Francisco, Calif.)",
     "@type": [
       "Place"
     ],
@@ -1672,17 +1607,12 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q108861"
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33579",
-    "rdfs:label": "La Brea Tar Pits (Los Angeles, Calif.)",
+    "@id": "semlab:Q33548",
+    "rdfs:label": "Meadowlands (N.J.)",
     "@type": [
       "Place"
     ],
@@ -1710,14 +1640,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q1147168"
+        "@value": "Q3853432"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33580",
-    "rdfs:label": "Miami-Dade County (Fla.)",
+    "@id": "semlab:Q33565",
+    "rdfs:label": "King County (Wash.)",
     "@type": [
       "Place"
     ],
@@ -1745,14 +1675,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q468557"
+        "@value": "Q108861"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33600",
-    "rdfs:label": "Morewood Avenue (Pittsburgh, Pa.)",
+    "@id": "semlab:Q33579",
+    "rdfs:label": "La Brea Tar Pits (Los Angeles, Calif.)",
     "@type": [
       "Place"
     ],
@@ -1777,12 +1707,17 @@
           "@type": "SemanticLabProject"
         }
       }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1147168"
+      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33607",
-    "rdfs:label": "Mount Auburn Cemetery (Cambridge, Mass.)",
+    "@id": "semlab:Q33580",
+    "rdfs:label": "Miami-Dade County (Fla.)",
     "@type": [
       "Place"
     ],
@@ -1808,9 +1743,74 @@
         }
       }
     ],
-    "location": [
+    "wikidataQid": [
+      {
+        "@value": "Q468557"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33600",
+    "rdfs:label": "Morewood Avenue (Pittsburgh, Pa.)",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn128700",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128701",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33607",
+    "rdfs:label": "Mount Auburn Cemetery (Cambridge, Mass.)",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn128702",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128703",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn128704",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27553",
@@ -1841,76 +1841,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn128701",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128702",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q12585"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33611",
-    "rdfs:label": "Fuji, Mount (Japan)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn128703",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128704",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q39231"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33642",
-    "rdfs:label": "New Jersey Turnpike",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn128705",
         "@type": "RelEvent",
         "agentObj": {
@@ -1933,14 +1863,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q811504"
+        "@value": "Q12585"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33671",
-    "rdfs:label": "Northwest Cornell Road (Portland, Or.)",
+    "@id": "semlab:Q33611",
+    "rdfs:label": "Fuji, Mount (Japan)",
     "@type": [
       "Place"
     ],
@@ -1968,14 +1898,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q21153508"
+        "@value": "Q39231"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33688",
-    "rdfs:label": "Olympic Peninsula (Wash.)",
+    "@id": "semlab:Q33642",
+    "rdfs:label": "New Jersey Turnpike",
     "@type": [
       "Place"
     ],
@@ -2003,14 +1933,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q780293"
+        "@value": "Q811504"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33706",
-    "rdfs:label": "Park Avenue (New York, N.Y.)",
+    "@id": "semlab:Q33671",
+    "rdfs:label": "Northwest Cornell Road (Portland, Or.)",
     "@type": [
       "Place"
     ],
@@ -2038,14 +1968,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q109711"
+        "@value": "Q21153508"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33710",
-    "rdfs:label": "Passaic River (N.J.)",
+    "@id": "semlab:Q33688",
+    "rdfs:label": "Olympic Peninsula (Wash.)",
     "@type": [
       "Place"
     ],
@@ -2073,14 +2003,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q2055835"
+        "@value": "Q780293"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33732",
-    "rdfs:label": "Plac Zwyci\u0119stwa (Warsaw, Poland)",
+    "@id": "semlab:Q33706",
+    "rdfs:label": "Park Avenue (New York, N.Y.)",
     "@type": [
       "Place"
     ],
@@ -2106,9 +2036,79 @@
         }
       }
     ],
-    "partOf": [
+    "wikidataQid": [
+      {
+        "@value": "Q109711"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33710",
+    "rdfs:label": "Passaic River (N.J.)",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn128717",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128718",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q2055835"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33732",
+    "rdfs:label": "Plac Zwyci\u0119stwa (Warsaw, Poland)",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn128719",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128720",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "partOf": [
+      {
+        "@id": "_:bn128721",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q33846",
@@ -2139,76 +2139,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn128718",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128719",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q1072391"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33743",
-    "rdfs:label": "Pomerania",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn128720",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128721",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q104520"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33760",
-    "rdfs:label": "Puget Sound Region (Wash.)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn128722",
         "@type": "RelEvent",
         "agentObj": {
@@ -2228,12 +2158,17 @@
           "@type": "SemanticLabProject"
         }
       }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1072391"
+      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33782",
-    "rdfs:label": "Rock Creek Road (Portland, Or.)",
+    "@id": "semlab:Q33743",
+    "rdfs:label": "Pomerania",
     "@type": [
       "Place"
     ],
@@ -2258,12 +2193,17 @@
           "@type": "SemanticLabProject"
         }
       }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q104520"
+      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33784",
-    "rdfs:label": "Rockefeller Plaza (New York, N.Y.)",
+    "@id": "semlab:Q33760",
+    "rdfs:label": "Puget Sound Region (Wash.)",
     "@type": [
       "Place"
     ],
@@ -2292,8 +2232,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33812",
-    "rdfs:label": "San Francisco Bay Area (Calif.)",
+    "@id": "semlab:Q33782",
+    "rdfs:label": "Rock Creek Road (Portland, Or.)",
     "@type": [
       "Place"
     ],
@@ -2318,17 +2258,12 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q213205"
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33825",
-    "rdfs:label": "San Pasqual Street (Pasadena, Calif.)",
+    "@id": "semlab:Q33784",
+    "rdfs:label": "Rockefeller Plaza (New York, N.Y.)",
     "@type": [
       "Place"
     ],
@@ -2357,8 +2292,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33840",
-    "rdfs:label": "Wall Street (New York, N.Y.)",
+    "@id": "semlab:Q33812",
+    "rdfs:label": "San Francisco Bay Area (Calif.)",
     "@type": [
       "Place"
     ],
@@ -2386,14 +2321,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q11690"
+        "@value": "Q213205"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33853",
-    "rdfs:label": "Sea of Tranquility (Moon)",
+    "@id": "semlab:Q33825",
+    "rdfs:label": "San Pasqual Street (Pasadena, Calif.)",
     "@type": [
       "Place"
     ],
@@ -2418,17 +2353,12 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q320936"
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33857",
-    "rdfs:label": "Seagram Building",
+    "@id": "semlab:Q33840",
+    "rdfs:label": "Wall Street (New York, N.Y.)",
     "@type": [
       "Place"
     ],
@@ -2454,9 +2384,79 @@
         }
       }
     ],
-    "creator": [
+    "wikidataQid": [
+      {
+        "@value": "Q11690"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33853",
+    "rdfs:label": "Sea of Tranquility (Moon)",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn128738",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128739",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q320936"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33857",
+    "rdfs:label": "Seagram Building",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn128740",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128741",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn128742",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37133",
@@ -2474,7 +2474,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn128739",
+        "@id": "_:bn128743",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -2505,71 +2505,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn128740",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128741",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33910",
-    "rdfs:label": "World Trade Center (New York, N.Y.)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn128742",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128743",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q11235"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33911",
-    "rdfs:label": "South Audley Street (London, England)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn128744",
         "@type": "RelEvent",
         "agentObj": {
@@ -2589,17 +2524,12 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q28407113"
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33912",
-    "rdfs:label": "Worth Avenue (Palm Beach, Fla.)",
+    "@id": "semlab:Q33910",
+    "rdfs:label": "World Trade Center (New York, N.Y.)",
     "@type": [
       "Place"
     ],
@@ -2627,14 +2557,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q8037156"
+        "@value": "Q11235"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33918",
-    "rdfs:label": "Yorkshire (England)",
+    "@id": "semlab:Q33911",
+    "rdfs:label": "South Audley Street (London, England)",
     "@type": [
       "Place"
     ],
@@ -2662,14 +2592,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q163"
+        "@value": "Q28407113"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33919",
-    "rdfs:label": "South Florida",
+    "@id": "semlab:Q33912",
+    "rdfs:label": "Worth Avenue (Palm Beach, Fla.)",
     "@type": [
       "Place"
     ],
@@ -2697,14 +2627,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q7567226"
+        "@value": "Q8037156"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33931",
-    "rdfs:label": "Southern California",
+    "@id": "semlab:Q33918",
+    "rdfs:label": "Yorkshire (England)",
     "@type": [
       "Place"
     ],
@@ -2732,14 +2662,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q844837"
+        "@value": "Q163"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33933",
-    "rdfs:label": "Southwest Florida",
+    "@id": "semlab:Q33919",
+    "rdfs:label": "South Florida",
     "@type": [
       "Place"
     ],
@@ -2767,14 +2697,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q2902384"
+        "@value": "Q7567226"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33935",
-    "rdfs:label": "Southwestern United States",
+    "@id": "semlab:Q33931",
+    "rdfs:label": "Southern California",
     "@type": [
       "Place"
     ],
@@ -2802,14 +2732,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q858847"
+        "@value": "Q844837"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33945",
-    "rdfs:label": "Sproul Plaza (University of California, Berkeley)",
+    "@id": "semlab:Q33933",
+    "rdfs:label": "Southwest Florida",
     "@type": [
       "Place"
     ],
@@ -2837,6 +2767,76 @@
     ],
     "wikidataQid": [
       {
+        "@value": "Q2902384"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33935",
+    "rdfs:label": "Southwestern United States",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn128760",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128761",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q858847"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33945",
+    "rdfs:label": "Sproul Plaza (University of California, Berkeley)",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn128762",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128763",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
         "@value": "Q7581354"
       }
     ]
@@ -2851,7 +2851,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn128760",
+        "@id": "_:bn128764",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19053",
@@ -2860,76 +2860,11 @@
         }
       },
       {
-        "@id": "_:bn128761",
+        "@id": "_:bn128765",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q33153",
           "rdfs:label": "building",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128762",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33993",
-    "rdfs:label": "Str\u00f6mmen (Stockholm, Sweden)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn128763",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128764",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q3354785"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q34008",
-    "rdfs:label": "Sunset Boulevard (Los Angeles, Calif.)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn128765",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
           "@type": "Class"
         }
       }
@@ -2944,17 +2879,12 @@
           "@type": "SemanticLabProject"
         }
       }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q860442"
-      }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q34029",
-    "rdfs:label": "Tamminen Mine (Greenwood, Me.)",
+    "@id": "semlab:Q33993",
+    "rdfs:label": "Str\u00f6mmen (Stockholm, Sweden)",
     "@type": [
       "Place"
     ],
@@ -2980,9 +2910,79 @@
         }
       }
     ],
-    "location": [
+    "wikidataQid": [
+      {
+        "@value": "Q3354785"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q34008",
+    "rdfs:label": "Sunset Boulevard (Los Angeles, Calif.)",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn128769",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128770",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q860442"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q34029",
+    "rdfs:label": "Tamminen Mine (Greenwood, Me.)",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn128771",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128772",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn128773",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q33444",
@@ -3008,7 +3008,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn128770",
+        "@id": "_:bn128774",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19053",
@@ -3019,7 +3019,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn128771",
+        "@id": "_:bn128775",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3030,7 +3030,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn128772",
+        "@id": "_:bn128776",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27066",
@@ -3061,76 +3061,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn128773",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128774",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q17269"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q34114",
-    "rdfs:label": "Tualatin Valley (Or.)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn128775",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19053",
-          "rdfs:label": "place",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn128776",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q10825387"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q34127",
-    "rdfs:label": "Twin Cities (Minn.)",
-    "@type": [
-      "Place"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn128777",
         "@type": "RelEvent",
         "agentObj": {
@@ -3153,14 +3083,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q1480013"
+        "@value": "Q17269"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q38811",
-    "rdfs:label": "Berlin Wall",
+    "@id": "semlab:Q34114",
+    "rdfs:label": "Tualatin Valley (Or.)",
     "@type": [
       "Place"
     ],
@@ -3188,14 +3118,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q5086"
+        "@value": "Q10825387"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q38818",
-    "rdfs:label": "Brooklyn Bridge (New York, N.Y.)",
+    "@id": "semlab:Q34127",
+    "rdfs:label": "Twin Cities (Minn.)",
     "@type": [
       "Place"
     ],
@@ -3223,14 +3153,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q125006"
+        "@value": "Q1480013"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q38870",
-    "rdfs:label": "Eiffel Tower",
+    "@id": "semlab:Q38811",
+    "rdfs:label": "Berlin Wall",
     "@type": [
       "Place"
     ],
@@ -3258,14 +3188,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q243"
+        "@value": "Q5086"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q38888",
-    "rdfs:label": "Franklin Delano Roosevelt Memorial",
+    "@id": "semlab:Q38818",
+    "rdfs:label": "Brooklyn Bridge (New York, N.Y.)",
     "@type": [
       "Place"
     ],
@@ -3291,9 +3221,79 @@
         }
       }
     ],
-    "location": [
+    "wikidataQid": [
+      {
+        "@value": "Q125006"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38870",
+    "rdfs:label": "Eiffel Tower",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
       {
         "@id": "_:bn128787",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128788",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q243"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38888",
+    "rdfs:label": "Franklin Delano Roosevelt Memorial",
+    "@type": [
+      "Place"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn128789",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19053",
+          "rdfs:label": "place",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn128790",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn128791",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21572",
@@ -3324,7 +3324,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn128788",
+        "@id": "_:bn128792",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19053",
@@ -3335,7 +3335,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn128789",
+        "@id": "_:bn128793",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",

@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158466",
+        "@id": "_:bn158470",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27174",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn158467",
+        "@id": "_:bn158471",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -35,7 +35,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn158468",
+        "@id": "_:bn158472",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24381",
@@ -61,72 +61,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn158469",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27174",
-          "rdfs:label": "island",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn158470",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "partOf": [
-      {
-        "@id": "_:bn158471",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25983",
-          "rdfs:label": "Florida",
-          "@type": "State"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q40619",
-            "rdfs:label": "Block 0 of No place like home",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40196/0.txt"
-          }
-        ]
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn158472",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25983",
-          "rdfs:label": "Florida",
-          "@type": "State"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q40648",
-            "rdfs:label": "Block 5 of Signs of the times",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40197/5.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33205",
-    "rdfs:label": "Bali (Indonesia)",
-    "@type": [
-      "Island"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn158473",
         "@type": "RelEvent",
         "agentObj": {
@@ -147,51 +81,47 @@
         }
       }
     ],
-    "wikidataQid": [
-      {
-        "@value": "Q4648"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33519",
-    "rdfs:label": "Isle of Wight (England)",
-    "@type": [
-      "Island"
-    ],
-    "instanceOf": [
+    "partOf": [
       {
         "@id": "_:bn158475",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q27174",
-          "rdfs:label": "island",
-          "@type": "Class"
-        }
+          "@id": "semlab:Q25983",
+          "rdfs:label": "Florida",
+          "@type": "State"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40619",
+            "rdfs:label": "Block 0 of No place like home",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40196/0.txt"
+          }
+        ]
       }
     ],
-    "partOfProject": [
+    "location": [
       {
         "@id": "_:bn158476",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q9679"
+          "@id": "semlab:Q25983",
+          "rdfs:label": "Florida",
+          "@type": "State"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40648",
+            "rdfs:label": "Block 5 of Signs of the times",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40197/5.txt"
+          }
+        ]
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33819",
-    "rdfs:label": "San Juan Islands (Wash.)",
+    "@id": "semlab:Q33205",
+    "rdfs:label": "Bali (Indonesia)",
     "@type": [
       "Island"
     ],
@@ -219,14 +149,14 @@
     ],
     "wikidataQid": [
       {
-        "@value": "Q1196315"
+        "@value": "Q4648"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q33891",
-    "rdfs:label": "Skeppsholmen (Stockholm, Sweden)",
+    "@id": "semlab:Q33519",
+    "rdfs:label": "Isle of Wight (England)",
     "@type": [
       "Island"
     ],
@@ -244,6 +174,76 @@
     "partOfProject": [
       {
         "@id": "_:bn158480",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q9679"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33819",
+    "rdfs:label": "San Juan Islands (Wash.)",
+    "@type": [
+      "Island"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158481",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27174",
+          "rdfs:label": "island",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158482",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1196315"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q33891",
+    "rdfs:label": "Skeppsholmen (Stockholm, Sweden)",
+    "@type": [
+      "Island"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn158483",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27174",
+          "rdfs:label": "island",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn158484",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",

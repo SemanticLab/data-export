@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn150990",
+        "@id": "_:bn150994",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn150991",
+        "@id": "_:bn150995",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -28,7 +28,7 @@
         }
       },
       {
-        "@id": "_:bn150992",
+        "@id": "_:bn150996",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -39,7 +39,7 @@
     ],
     "depicts": [
       {
-        "@id": "_:bn150993",
+        "@id": "_:bn150997",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q34379",
@@ -57,7 +57,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn150994",
+        "@id": "_:bn150998",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19195",
@@ -78,63 +78,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39659",
     "rdfs:label": "Mind and Body",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn150995",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn150996",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn150997",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn150998",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q35441",
-          "rdfs:label": "Stephen Black",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q40602",
-            "rdfs:label": "Block 2 of Nature Boy",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40186/2.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39724",
-    "rdfs:label": "Nathaniel Hawthorne in His Times",
     "@type": [
       "Book"
     ],
@@ -174,15 +117,15 @@
         "@id": "_:bn151002",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q37069",
-          "rdfs:label": "James R. Mellow",
+          "@id": "semlab:Q35441",
+          "rdfs:label": "Stephen Black",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41174",
-            "rdfs:label": "Block 2 of Dark images of a Pop decade",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40044/2.txt"
+            "@id": "semlab:Q40602",
+            "rdfs:label": "Block 2 of Nature Boy",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40186/2.txt"
           }
         ]
       }
@@ -190,8 +133,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39763",
-    "rdfs:label": "Walden",
+    "@id": "semlab:Q39724",
+    "rdfs:label": "Nathaniel Hawthorne in His Times",
     "@type": [
       "Book"
     ],
@@ -226,6 +169,63 @@
         }
       }
     ],
+    "author": [
+      {
+        "@id": "_:bn151006",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q37069",
+          "rdfs:label": "James R. Mellow",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41174",
+            "rdfs:label": "Block 2 of Dark images of a Pop decade",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40044/2.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39763",
+    "rdfs:label": "Walden",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151007",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151008",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn151009",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
     "wikidataQid": [
       {
         "@value": "Q863534"
@@ -241,7 +241,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151006",
+        "@id": "_:bn151010",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -252,7 +252,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151007",
+        "@id": "_:bn151011",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -261,7 +261,7 @@
         }
       },
       {
-        "@id": "_:bn151008",
+        "@id": "_:bn151012",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -272,7 +272,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn151009",
+        "@id": "_:bn151013",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q34136",
@@ -290,7 +290,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn151010",
+        "@id": "_:bn151014",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -313,7 +313,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151011",
+        "@id": "_:bn151015",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19195",
@@ -344,7 +344,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151012",
+        "@id": "_:bn151016",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -355,7 +355,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151013",
+        "@id": "_:bn151017",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -364,7 +364,7 @@
         }
       },
       {
-        "@id": "_:bn151014",
+        "@id": "_:bn151018",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -375,7 +375,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn151015",
+        "@id": "_:bn151019",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37791",
@@ -397,7 +397,7 @@
         ]
       },
       {
-        "@id": "_:bn151016",
+        "@id": "_:bn151020",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19195",
@@ -418,63 +418,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39785",
     "rdfs:label": "Out in the Country",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn151017",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn151018",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn151019",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn151020",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q37866",
-          "rdfs:label": "Judy Pedersen",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41568",
-            "rdfs:label": "Block 0 of Festival highlights Warwick artists",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40425/0.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39802",
-    "rdfs:label": "When Time Comes Near",
     "@type": [
       "Book"
     ],
@@ -530,8 +473,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q43142",
-    "rdfs:label": "Beyond Modern Sculpture",
+    "@id": "semlab:Q39802",
+    "rdfs:label": "When Time Comes Near",
     "@type": [
       "Book"
     ],
@@ -555,11 +498,68 @@
           "rdfs:label": "E.A.T. Knowledge Graph Project",
           "@type": "SemanticLabProject"
         }
+      },
+      {
+        "@id": "_:bn151027",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn151028",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q37866",
+          "rdfs:label": "Judy Pedersen",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41568",
+            "rdfs:label": "Block 0 of Festival highlights Warwick artists",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40425/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q43142",
+    "rdfs:label": "Beyond Modern Sculpture",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151029",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151030",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
       }
     ],
     "author": [
       {
-        "@id": "_:bn151027",
+        "@id": "_:bn151031",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21316",
@@ -585,7 +585,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151028",
+        "@id": "_:bn151032",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -596,7 +596,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151029",
+        "@id": "_:bn151033",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -607,7 +607,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn151030",
+        "@id": "_:bn151034",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q512",
@@ -633,7 +633,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151031",
+        "@id": "_:bn151035",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -644,7 +644,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151032",
+        "@id": "_:bn151036",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -663,7 +663,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151033",
+        "@id": "_:bn151037",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -674,7 +674,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151034",
+        "@id": "_:bn151038",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -685,7 +685,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151035",
+        "@id": "_:bn151039",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q43872",
@@ -723,7 +723,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151036",
+        "@id": "_:bn151040",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -734,7 +734,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151037",
+        "@id": "_:bn151041",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -745,7 +745,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151038",
+        "@id": "_:bn151042",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19302",
@@ -786,7 +786,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151039",
+        "@id": "_:bn151043",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -797,7 +797,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151040",
+        "@id": "_:bn151044",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -808,7 +808,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151041",
+        "@id": "_:bn151045",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37558",
@@ -846,7 +846,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151042",
+        "@id": "_:bn151046",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -857,7 +857,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151043",
+        "@id": "_:bn151047",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -868,7 +868,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn151044",
+        "@id": "_:bn151048",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19133",
@@ -906,7 +906,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151045",
+        "@id": "_:bn151049",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -917,7 +917,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151046",
+        "@id": "_:bn151050",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -928,7 +928,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151047",
+        "@id": "_:bn151051",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19451",
@@ -960,7 +960,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151048",
+        "@id": "_:bn151052",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -971,7 +971,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151049",
+        "@id": "_:bn151053",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -980,7 +980,7 @@
         }
       },
       {
-        "@id": "_:bn151050",
+        "@id": "_:bn151054",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -991,7 +991,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151051",
+        "@id": "_:bn151055",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19180",
@@ -1036,7 +1036,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn151052",
+        "@id": "_:bn151056",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19498",
@@ -1069,7 +1069,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn151053",
+        "@id": "_:bn151057",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19423",
@@ -1095,7 +1095,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151054",
+        "@id": "_:bn151058",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -1106,7 +1106,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151055",
+        "@id": "_:bn151059",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1115,7 +1115,7 @@
         }
       },
       {
-        "@id": "_:bn151056",
+        "@id": "_:bn151060",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1126,7 +1126,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151057",
+        "@id": "_:bn151061",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37481",
@@ -1144,7 +1144,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn151058",
+        "@id": "_:bn151062",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19395",
@@ -1170,7 +1170,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151059",
+        "@id": "_:bn151063",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -1181,7 +1181,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151060",
+        "@id": "_:bn151064",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1190,7 +1190,7 @@
         }
       },
       {
-        "@id": "_:bn151061",
+        "@id": "_:bn151065",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1209,68 +1209,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q35272",
     "rdfs:label": "The Gutenberg Galaxy",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn151062",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn151063",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn151064",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn151065",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19435",
-          "rdfs:label": "Marshall McLuhan",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q40773",
-            "rdfs:label": "Block 0 of Esperanto",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40234/0.txt"
-          }
-        ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q363806"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q35288",
-    "rdfs:label": "An Illustrated Dictionary of Pop Art",
     "@type": [
       "Book"
     ],
@@ -1310,24 +1248,29 @@
         "@id": "_:bn151069",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q37891",
-          "rdfs:label": "Jos\u00e9 Pierre",
+          "@id": "semlab:Q19435",
+          "rdfs:label": "Marshall McLuhan",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41661",
-            "rdfs:label": "Block 2 of Acquisitions I: 'Extraordinary'",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40303/2.txt"
+            "@id": "semlab:Q40773",
+            "rdfs:label": "Block 0 of Esperanto",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40234/0.txt"
           }
         ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q363806"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q35309",
-    "rdfs:label": "Kiki's Paris: Artists and Lovers, 1900-1930",
+    "@id": "semlab:Q35288",
+    "rdfs:label": "An Illustrated Dictionary of Pop Art",
     "@type": [
       "Book"
     ],
@@ -1367,6 +1310,63 @@
         "@id": "_:bn151073",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q37891",
+          "rdfs:label": "Jos\u00e9 Pierre",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41661",
+            "rdfs:label": "Block 2 of Acquisitions I: 'Extraordinary'",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40303/2.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q35309",
+    "rdfs:label": "Kiki's Paris: Artists and Lovers, 1900-1930",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151074",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151075",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn151076",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn151077",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q19180",
           "rdfs:label": "Billy Kl\u00fcver",
           "@type": "Person"
@@ -1395,7 +1395,7 @@
         ]
       },
       {
-        "@id": "_:bn151074",
+        "@id": "_:bn151078",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19371",
@@ -1440,7 +1440,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn151075",
+        "@id": "_:bn151079",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32547",
@@ -1466,7 +1466,7 @@
         ]
       },
       {
-        "@id": "_:bn151076",
+        "@id": "_:bn151080",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32550",
@@ -1497,7 +1497,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn151077",
+        "@id": "_:bn151081",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q32613",
@@ -1520,7 +1520,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn151078",
+        "@id": "_:bn151082",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q35210",
@@ -1538,7 +1538,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn151079",
+        "@id": "_:bn151083",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q44090",
@@ -1564,7 +1564,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151080",
+        "@id": "_:bn151084",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -1575,7 +1575,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151081",
+        "@id": "_:bn151085",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1584,7 +1584,7 @@
         }
       },
       {
-        "@id": "_:bn151082",
+        "@id": "_:bn151086",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1595,7 +1595,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn151083",
+        "@id": "_:bn151087",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19195",
@@ -1628,7 +1628,7 @@
     ],
     "depicts": [
       {
-        "@id": "_:bn151084",
+        "@id": "_:bn151088",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37454",
@@ -1654,7 +1654,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151085",
+        "@id": "_:bn151089",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -1665,7 +1665,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151086",
+        "@id": "_:bn151090",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1674,7 +1674,7 @@
         }
       },
       {
-        "@id": "_:bn151087",
+        "@id": "_:bn151091",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1685,7 +1685,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151088",
+        "@id": "_:bn151092",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37384",
@@ -1703,7 +1703,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn151089",
+        "@id": "_:bn151093",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q34632",
@@ -1734,7 +1734,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151090",
+        "@id": "_:bn151094",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -1745,7 +1745,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151091",
+        "@id": "_:bn151095",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -1754,7 +1754,7 @@
         }
       },
       {
-        "@id": "_:bn151092",
+        "@id": "_:bn151096",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -1765,7 +1765,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151093",
+        "@id": "_:bn151097",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37258",
@@ -1788,7 +1788,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn151094",
+        "@id": "_:bn151098",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -1814,63 +1814,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q35350",
     "rdfs:label": "McGraw-Hill Dictionary of Art",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn151095",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn151096",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn151097",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "editor": [
-      {
-        "@id": "_:bn151098",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q37469",
-          "rdfs:label": "Bernard S. Myers",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41372",
-            "rdfs:label": "Block 3 of Art Notes: May Your New Year Be Arty",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39889/3.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q35392",
-    "rdfs:label": "The New American Arts",
     "@type": [
       "Book"
     ],
@@ -1910,15 +1853,15 @@
         "@id": "_:bn151102",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q21259",
-          "rdfs:label": "Richard Kostelanetz",
+          "@id": "semlab:Q37469",
+          "rdfs:label": "Bernard S. Myers",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41650",
-            "rdfs:label": "Block 10 of The Artist as Playwright and Engineer",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39966/10.txt"
+            "@id": "semlab:Q41372",
+            "rdfs:label": "Block 3 of Art Notes: May Your New Year Be Arty",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39889/3.txt"
           }
         ]
       }
@@ -1926,8 +1869,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q35402",
-    "rdfs:label": "The New Landscape in Art and Science",
+    "@id": "semlab:Q35392",
+    "rdfs:label": "The New American Arts",
     "@type": [
       "Book"
     ],
@@ -1962,20 +1905,20 @@
         }
       }
     ],
-    "author": [
+    "editor": [
       {
         "@id": "_:bn151106",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19300",
-          "rdfs:label": "Gyorgy Kepes",
+          "@id": "semlab:Q21259",
+          "rdfs:label": "Richard Kostelanetz",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41160",
-            "rdfs:label": "Block 5 of Tech art: scientific, terrific",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40041/5.txt"
+            "@id": "semlab:Q41650",
+            "rdfs:label": "Block 10 of The Artist as Playwright and Engineer",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39966/10.txt"
           }
         ]
       }
@@ -1983,8 +1926,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q35443",
-    "rdfs:label": "Notations",
+    "@id": "semlab:Q35402",
+    "rdfs:label": "The New Landscape in Art and Science",
     "@type": [
       "Book"
     ],
@@ -2024,6 +1967,63 @@
         "@id": "_:bn151110",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q19300",
+          "rdfs:label": "Gyorgy Kepes",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41160",
+            "rdfs:label": "Block 5 of Tech art: scientific, terrific",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40041/5.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q35443",
+    "rdfs:label": "Notations",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151111",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151112",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn151113",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn151114",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q724",
           "rdfs:label": "John Cage",
           "@type": "Person"
@@ -2039,7 +2039,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn151111",
+        "@id": "_:bn151115",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q724",
@@ -2065,63 +2065,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q35452",
     "rdfs:label": "On Contemporary Literature",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn151112",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn151113",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn151114",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "editor": [
-      {
-        "@id": "_:bn151115",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21259",
-          "rdfs:label": "Richard Kostelanetz",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41650",
-            "rdfs:label": "Block 10 of The Artist as Playwright and Engineer",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39966/10.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q35491",
-    "rdfs:label": "POPism",
     "@type": [
       "Book"
     ],
@@ -2156,20 +2099,20 @@
         }
       }
     ],
-    "creator": [
+    "editor": [
       {
         "@id": "_:bn151119",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19143",
-          "rdfs:label": "Andy Warhol",
+          "@id": "semlab:Q21259",
+          "rdfs:label": "Richard Kostelanetz",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41811",
-            "rdfs:label": "Block 2 of Landmark exhibition of artist Rauschenberg to open in Houston",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40085/2.txt"
+            "@id": "semlab:Q41650",
+            "rdfs:label": "Block 10 of The Artist as Playwright and Engineer",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39966/10.txt"
           }
         ]
       }
@@ -2177,8 +2120,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q35532",
-    "rdfs:label": "Robert Rauschenberg Photographs",
+    "@id": "semlab:Q35491",
+    "rdfs:label": "POPism",
     "@type": [
       "Book"
     ],
@@ -2213,32 +2156,20 @@
         }
       }
     ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1981-00-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 9,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ],
-    "mainSubject": [
+    "creator": [
       {
         "@id": "_:bn151123",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19556",
-          "rdfs:label": "Robert Rauschenberg",
+          "@id": "semlab:Q19143",
+          "rdfs:label": "Andy Warhol",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41339",
-            "rdfs:label": "Block 4 of Robert Rauschenberg",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40106/4.txt"
+            "@id": "semlab:Q41811",
+            "rdfs:label": "Block 2 of Landmark exhibition of artist Rauschenberg to open in Houston",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40085/2.txt"
           }
         ]
       }
@@ -2246,8 +2177,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q35633",
-    "rdfs:label": "The Theater of Mixed Means",
+    "@id": "semlab:Q35532",
+    "rdfs:label": "Robert Rauschenberg Photographs",
     "@type": [
       "Book"
     ],
@@ -2282,9 +2213,78 @@
         }
       }
     ],
-    "author": [
+    "date": [
+      {
+        "@value": {
+          "time": "+1981-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "mainSubject": [
       {
         "@id": "_:bn151127",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41339",
+            "rdfs:label": "Block 4 of Robert Rauschenberg",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40106/4.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q35633",
+    "rdfs:label": "The Theater of Mixed Means",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151128",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151129",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn151130",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn151131",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21259",
@@ -2322,7 +2322,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151128",
+        "@id": "_:bn151132",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -2333,7 +2333,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151129",
+        "@id": "_:bn151133",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2342,7 +2342,7 @@
         }
       },
       {
-        "@id": "_:bn151130",
+        "@id": "_:bn151134",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -2353,7 +2353,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn151131",
+        "@id": "_:bn151135",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q34599",
@@ -2371,7 +2371,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn151132",
+        "@id": "_:bn151136",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37940",
@@ -2414,63 +2414,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151133",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn151134",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn151135",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn151136",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q36088",
-          "rdfs:label": "Pierre Chanel",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41271",
-            "rdfs:label": "Block 3 of Picture this: A day in the life of the young Picasso",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39863/3.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q36220",
-    "rdfs:label": "The Anxious Object",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn151137",
         "@type": "RelEvent",
         "agentObj": {
@@ -2505,15 +2448,15 @@
         "@id": "_:bn151140",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q37141",
-          "rdfs:label": "Harold Rosenberg",
+          "@id": "semlab:Q36088",
+          "rdfs:label": "Pierre Chanel",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41623",
-            "rdfs:label": "Block 2 of Art Notes: The Sounds That Mushrooms Make",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39963/2.txt"
+            "@id": "semlab:Q41271",
+            "rdfs:label": "Block 3 of Picture this: A day in the life of the young Picasso",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39863/3.txt"
           }
         ]
       }
@@ -2521,8 +2464,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q36232",
-    "rdfs:label": "Art and Culture",
+    "@id": "semlab:Q36220",
+    "rdfs:label": "The Anxious Object",
     "@type": [
       "Book"
     ],
@@ -2562,15 +2505,15 @@
         "@id": "_:bn151144",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q36736",
-          "rdfs:label": "Clement Greenberg",
+          "@id": "semlab:Q37141",
+          "rdfs:label": "Harold Rosenberg",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41321",
-            "rdfs:label": "Block 1 of John Latham on Robert Rauschenberg's Dirt Painting (for John Cage) circa 1953",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40104/1.txt"
+            "@id": "semlab:Q41623",
+            "rdfs:label": "Block 2 of Art Notes: The Sounds That Mushrooms Make",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39963/2.txt"
           }
         ]
       }
@@ -2578,8 +2521,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q36235",
-    "rdfs:label": "Art and Innovation: The Xerox PARC Artist-in-Residence Program",
+    "@id": "semlab:Q36232",
+    "rdfs:label": "Art and Culture",
     "@type": [
       "Book"
     ],
@@ -2614,9 +2557,66 @@
         }
       }
     ],
-    "publisher": [
+    "author": [
       {
         "@id": "_:bn151148",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q36736",
+          "rdfs:label": "Clement Greenberg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41321",
+            "rdfs:label": "Block 1 of John Latham on Robert Rauschenberg's Dirt Painting (for John Cage) circa 1953",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40104/1.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q36235",
+    "rdfs:label": "Art and Innovation: The Xerox PARC Artist-in-Residence Program",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151149",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151150",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn151151",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "publisher": [
+      {
+        "@id": "_:bn151152",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19423",
@@ -2634,7 +2634,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn151149",
+        "@id": "_:bn151153",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37821",
@@ -2650,7 +2650,7 @@
         ]
       },
       {
-        "@id": "_:bn151150",
+        "@id": "_:bn151154",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36552",
@@ -2666,7 +2666,7 @@
         ]
       },
       {
-        "@id": "_:bn151151",
+        "@id": "_:bn151155",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q38422",
@@ -2682,7 +2682,7 @@
         ]
       },
       {
-        "@id": "_:bn151152",
+        "@id": "_:bn151156",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q38252",
@@ -2698,7 +2698,7 @@
         ]
       },
       {
-        "@id": "_:bn151153",
+        "@id": "_:bn151157",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36676",
@@ -2716,7 +2716,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn151154",
+        "@id": "_:bn151158",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q39073",
@@ -2734,7 +2734,7 @@
     ],
     "editor": [
       {
-        "@id": "_:bn151155",
+        "@id": "_:bn151159",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36843",
@@ -2760,7 +2760,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151156",
+        "@id": "_:bn151160",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -2771,7 +2771,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151157",
+        "@id": "_:bn151161",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2780,7 +2780,7 @@
         }
       },
       {
-        "@id": "_:bn151158",
+        "@id": "_:bn151162",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -2799,75 +2799,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q36286",
     "rdfs:label": "The Block (Herb Goro)",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn151159",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn151160",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn151161",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn151162",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q36698",
-          "rdfs:label": "Herb Goro",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41903",
-            "rdfs:label": "Block 1 of Automated house joins art, science",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40187/1.txt"
-          }
-        ]
-      }
-    ],
-    "date": [
-      {
-        "@value": {
-          "time": "+1970-03-00T00:00:00Z",
-          "timezone": 0,
-          "before": 0,
-          "after": 0,
-          "precision": 10,
-          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q36353",
-    "rdfs:label": "The Computer Artist's Handbook",
     "@type": [
       "Book"
     ],
@@ -2907,6 +2838,75 @@
         "@id": "_:bn151166",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q36698",
+          "rdfs:label": "Herb Goro",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41903",
+            "rdfs:label": "Block 1 of Automated house joins art, science",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40187/1.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1970-03-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 10,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q36353",
+    "rdfs:label": "The Computer Artist's Handbook",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151167",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151168",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn151169",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn151170",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q28391",
           "rdfs:label": "Lillian Schwartz",
           "@type": "Person"
@@ -2920,7 +2920,7 @@
         ]
       },
       {
-        "@id": "_:bn151167",
+        "@id": "_:bn151171",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37328",
@@ -2958,7 +2958,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151168",
+        "@id": "_:bn151172",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -2969,7 +2969,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151169",
+        "@id": "_:bn151173",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -2978,7 +2978,7 @@
         }
       },
       {
-        "@id": "_:bn151170",
+        "@id": "_:bn151174",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -2989,7 +2989,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn151171",
+        "@id": "_:bn151175",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37052",
@@ -3007,7 +3007,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn151172",
+        "@id": "_:bn151176",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q38974",
@@ -3033,68 +3033,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q36383",
     "rdfs:label": "Cybernetics: Or Control and Communication in the Animal and the Machine",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn151173",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn151174",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn151175",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn151176",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q38198",
-          "rdfs:label": "Norbert Wiener",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41152",
-            "rdfs:label": "Block 3 of Tech art: scientific, terrific",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40041/3.txt"
-          }
-        ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q16953441"
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q38931",
-    "rdfs:label": "The Corporation and the Arts",
     "@type": [
       "Book"
     ],
@@ -3134,6 +3072,68 @@
         "@id": "_:bn151180",
         "@type": "RelEvent",
         "agentObj": {
+          "@id": "semlab:Q38198",
+          "rdfs:label": "Norbert Wiener",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41152",
+            "rdfs:label": "Block 3 of Tech art: scientific, terrific",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40041/3.txt"
+          }
+        ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q16953441"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q38931",
+    "rdfs:label": "The Corporation and the Arts",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151181",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151182",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn151183",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn151184",
+        "@type": "RelEvent",
+        "agentObj": {
           "@id": "semlab:Q36292",
           "rdfs:label": "Richard Eells",
           "@type": "Person"
@@ -3149,7 +3149,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn151181",
+        "@id": "_:bn151185",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q34289",
@@ -3187,63 +3187,6 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151182",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn151183",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn151184",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn151185",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q36381",
-          "rdfs:label": "Don Fabun",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41699",
-            "rdfs:label": "Block 1 of Astronauts of Inner Space",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39989/1.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39179",
-    "rdfs:label": "The Age of the Avant-Garde",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
         "@id": "_:bn151186",
         "@type": "RelEvent",
         "agentObj": {
@@ -3273,20 +3216,20 @@
         }
       }
     ],
-    "author": [
+    "creator": [
       {
         "@id": "_:bn151189",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q37263",
-          "rdfs:label": "Hilton Kramer",
+          "@id": "semlab:Q36381",
+          "rdfs:label": "Don Fabun",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q41274",
-            "rdfs:label": "Block 2 of Meet the People Who Make the Art",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40363/2.txt"
+            "@id": "semlab:Q41699",
+            "rdfs:label": "Block 1 of Astronauts of Inner Space",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q39989/1.txt"
           }
         ]
       }
@@ -3294,8 +3237,8 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39186",
-    "rdfs:label": "All Summer's Ahead",
+    "@id": "semlab:Q39179",
+    "rdfs:label": "The Age of the Avant-Garde",
     "@type": [
       "Book"
     ],
@@ -3330,9 +3273,66 @@
         }
       }
     ],
-    "creator": [
+    "author": [
       {
         "@id": "_:bn151193",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q37263",
+          "rdfs:label": "Hilton Kramer",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41274",
+            "rdfs:label": "Block 2 of Meet the People Who Make the Art",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40363/2.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39186",
+    "rdfs:label": "All Summer's Ahead",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151194",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151195",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn151196",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn151197",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37744",
@@ -3370,7 +3370,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151194",
+        "@id": "_:bn151198",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -3381,7 +3381,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151195",
+        "@id": "_:bn151199",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3390,7 +3390,7 @@
         }
       },
       {
-        "@id": "_:bn151196",
+        "@id": "_:bn151200",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -3401,7 +3401,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151197",
+        "@id": "_:bn151201",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19143",
@@ -3417,7 +3417,7 @@
         ]
       },
       {
-        "@id": "_:bn151198",
+        "@id": "_:bn151202",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36785",
@@ -3435,7 +3435,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn151199",
+        "@id": "_:bn151203",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q34816",
@@ -3461,7 +3461,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151200",
+        "@id": "_:bn151204",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -3472,7 +3472,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151201",
+        "@id": "_:bn151205",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3481,7 +3481,7 @@
         }
       },
       {
-        "@id": "_:bn151202",
+        "@id": "_:bn151206",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -3492,7 +3492,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151203",
+        "@id": "_:bn151207",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37680",
@@ -3508,7 +3508,7 @@
         ]
       },
       {
-        "@id": "_:bn151204",
+        "@id": "_:bn151208",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q34083",
@@ -3526,7 +3526,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn151205",
+        "@id": "_:bn151209",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21504",
@@ -3544,7 +3544,7 @@
     ],
     "placeOfPublication": [
       {
-        "@id": "_:bn151206",
+        "@id": "_:bn151210",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -3570,7 +3570,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151207",
+        "@id": "_:bn151211",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -3581,7 +3581,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151208",
+        "@id": "_:bn151212",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3590,7 +3590,7 @@
         }
       },
       {
-        "@id": "_:bn151209",
+        "@id": "_:bn151213",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -3601,7 +3601,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn151210",
+        "@id": "_:bn151214",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q38255",
@@ -3619,7 +3619,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn151211",
+        "@id": "_:bn151215",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19423",
@@ -3637,7 +3637,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn151212",
+        "@id": "_:bn151216",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29703",
@@ -3658,63 +3658,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39284",
     "rdfs:label": "An Introduction to the American Underground Film",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn151213",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn151214",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn151215",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn151216",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q37012",
-          "rdfs:label": "Sheldon Renan",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41942",
-            "rdfs:label": "Block 0 of Experiments In Art Group Bills Meeting",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40237/0.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39333",
-    "rdfs:label": "The Bride and the Bachelors",
     "@type": [
       "Book"
     ],
@@ -3749,6 +3692,63 @@
         }
       }
     ],
+    "author": [
+      {
+        "@id": "_:bn151220",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q37012",
+          "rdfs:label": "Sheldon Renan",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41942",
+            "rdfs:label": "Block 0 of Experiments In Art Group Bills Meeting",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40237/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39333",
+    "rdfs:label": "The Bride and the Bachelors",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151221",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151222",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn151223",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
     "date": [
       {
         "@value": {
@@ -3763,7 +3763,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151220",
+        "@id": "_:bn151224",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19195",
@@ -3781,7 +3781,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn151221",
+        "@id": "_:bn151225",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19195",
@@ -3812,7 +3812,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151222",
+        "@id": "_:bn151226",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -3823,7 +3823,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151223",
+        "@id": "_:bn151227",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3832,7 +3832,7 @@
         }
       },
       {
-        "@id": "_:bn151224",
+        "@id": "_:bn151228",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -3846,63 +3846,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39375",
     "rdfs:label": "Charmed Circle: Gertrude Stein & Company",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn151225",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn151226",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn151227",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "author": [
-      {
-        "@id": "_:bn151228",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q37069",
-          "rdfs:label": "James R. Mellow",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41174",
-            "rdfs:label": "Block 2 of Dark images of a Pop decade",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40044/2.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39381",
-    "rdfs:label": "A Safe House",
     "@type": [
       "Book"
     ],
@@ -3937,9 +3880,66 @@
         }
       }
     ],
-    "creator": [
+    "author": [
       {
         "@id": "_:bn151232",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q37069",
+          "rdfs:label": "James R. Mellow",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41174",
+            "rdfs:label": "Block 2 of Dark images of a Pop decade",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40044/2.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39381",
+    "rdfs:label": "A Safe House",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151233",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151234",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn151235",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn151236",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37744",
@@ -3977,7 +3977,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn151233",
+        "@id": "_:bn151237",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20639",
@@ -3988,7 +3988,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn151234",
+        "@id": "_:bn151238",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -3997,7 +3997,7 @@
         }
       },
       {
-        "@id": "_:bn151235",
+        "@id": "_:bn151239",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20517",
@@ -4008,7 +4008,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151236",
+        "@id": "_:bn151240",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19195",
@@ -4063,7 +4063,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn151237",
+        "@id": "_:bn151241",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q35992",
@@ -4116,7 +4116,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn151238",
+        "@id": "_:bn151242",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19195",
@@ -4144,7 +4144,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn151239",
+        "@id": "_:bn151243",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36584",
@@ -4170,7 +4170,7 @@
         ]
       },
       {
-        "@id": "_:bn151240",
+        "@id": "_:bn151244",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19143",
@@ -4196,7 +4196,7 @@
         ]
       },
       {
-        "@id": "_:bn151241",
+        "@id": "_:bn151245",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19469",
@@ -4217,7 +4217,7 @@
         ]
       },
       {
-        "@id": "_:bn151242",
+        "@id": "_:bn151246",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q38246",
@@ -4238,7 +4238,7 @@
         ]
       },
       {
-        "@id": "_:bn151243",
+        "@id": "_:bn151247",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -4259,7 +4259,7 @@
         ]
       },
       {
-        "@id": "_:bn151244",
+        "@id": "_:bn151248",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -4275,7 +4275,7 @@
         ]
       },
       {
-        "@id": "_:bn151245",
+        "@id": "_:bn151249",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19472",
@@ -4296,7 +4296,7 @@
         ]
       },
       {
-        "@id": "_:bn151246",
+        "@id": "_:bn151250",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37533",
@@ -4312,7 +4312,7 @@
         ]
       },
       {
-        "@id": "_:bn151247",
+        "@id": "_:bn151251",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27772",
@@ -4328,7 +4328,7 @@
         ]
       },
       {
-        "@id": "_:bn151248",
+        "@id": "_:bn151252",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19366",
@@ -4344,7 +4344,7 @@
         ]
       },
       {
-        "@id": "_:bn151249",
+        "@id": "_:bn151253",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36129",
@@ -4362,7 +4362,7 @@
     ],
     "depicts": [
       {
-        "@id": "_:bn151250",
+        "@id": "_:bn151254",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -4380,7 +4380,7 @@
     ],
     "mentions": [
       {
-        "@id": "_:bn151251",
+        "@id": "_:bn151255",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -4396,7 +4396,7 @@
         ]
       },
       {
-        "@id": "_:bn151252",
+        "@id": "_:bn151256",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -4417,63 +4417,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39419",
     "rdfs:label": "Sensitive Chaos",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn151253",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn151254",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn151255",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn151256",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q37338",
-          "rdfs:label": "Theodor Schwenk",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41184",
-            "rdfs:label": "Block 0 of Good Looking for the New Year",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40523/0.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39524",
-    "rdfs:label": "The Lathe of Heaven",
     "@type": [
       "Book"
     ],
@@ -4508,34 +4451,29 @@
         }
       }
     ],
-    "author": [
+    "creator": [
       {
         "@id": "_:bn151260",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q36770",
-          "rdfs:label": "Ursula K. Le Guin",
+          "@id": "semlab:Q37338",
+          "rdfs:label": "Theodor Schwenk",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q40656",
-            "rdfs:label": "Block 2 of Race Machine helps you shed your skin",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40428/2.txt"
+            "@id": "semlab:Q41184",
+            "rdfs:label": "Block 0 of Good Looking for the New Year",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40523/0.txt"
           }
         ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q132062"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39548",
-    "rdfs:label": "The Life of Reason",
+    "@id": "semlab:Q39524",
+    "rdfs:label": "The Lathe of Heaven",
     "@type": [
       "Book"
     ],
@@ -4570,9 +4508,71 @@
         }
       }
     ],
-    "creator": [
+    "author": [
       {
         "@id": "_:bn151264",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q36770",
+          "rdfs:label": "Ursula K. Le Guin",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40656",
+            "rdfs:label": "Block 2 of Race Machine helps you shed your skin",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40428/2.txt"
+          }
+        ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q132062"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39548",
+    "rdfs:label": "The Life of Reason",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151265",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151266",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn151267",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn151268",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27376",
@@ -4590,7 +4590,7 @@
     ],
     "author": [
       {
-        "@id": "_:bn151265",
+        "@id": "_:bn151269",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27376",
@@ -4616,63 +4616,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39554",
     "rdfs:label": "Stoned Moon Book",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn151266",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn151267",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn151268",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn151269",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19556",
-          "rdfs:label": "Robert Rauschenberg",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41827",
-            "rdfs:label": "Block 2 of The 1st mission to the moon: a view by Rauschenberg",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40101/2.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39572",
-    "rdfs:label": "The Long Short Cut",
     "@type": [
       "Book"
     ],
@@ -4707,9 +4650,66 @@
         }
       }
     ],
-    "author": [
+    "creator": [
       {
         "@id": "_:bn151273",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q41827",
+            "rdfs:label": "Block 2 of The 1st mission to the moon: a view by Rauschenberg",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40101/2.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39572",
+    "rdfs:label": "The Long Short Cut",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151274",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151275",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn151276",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn151277",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36557",
@@ -4727,7 +4727,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn151274",
+        "@id": "_:bn151278",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q34824",
@@ -4753,63 +4753,6 @@
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
     "@id": "semlab:Q39593",
     "rdfs:label": "M",
-    "@type": [
-      "Book"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn151275",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20639",
-          "rdfs:label": "book",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn151276",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19104",
-          "rdfs:label": "E.A.T. Knowledge Graph Project",
-          "@type": "SemanticLabProject"
-        }
-      },
-      {
-        "@id": "_:bn151277",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q20517",
-          "rdfs:label": "E.A.T. Bibliography Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "creator": [
-      {
-        "@id": "_:bn151278",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q724",
-          "rdfs:label": "John Cage",
-          "@type": "Person"
-        },
-        "referenceBlock": [
-          {
-            "@id": "semlab:Q41257",
-            "rdfs:label": "Block 0 of Cage Concert Scheduled At Eastfield",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40359/0.txt"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39613",
-    "rdfs:label": "The Making of a Counter Culture",
     "@type": [
       "Book"
     ],
@@ -4844,34 +4787,29 @@
         }
       }
     ],
-    "author": [
+    "creator": [
       {
         "@id": "_:bn151282",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q37171",
-          "rdfs:label": "Theodore Roszak (1933-2011)",
+          "@id": "semlab:Q724",
+          "rdfs:label": "John Cage",
           "@type": "Person"
         },
         "referenceBlock": [
           {
-            "@id": "semlab:Q40599",
-            "rdfs:label": "Block 0 of Nature Boy",
-            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40186/0.txt"
+            "@id": "semlab:Q41257",
+            "rdfs:label": "Block 0 of Cage Concert Scheduled At Eastfield",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40359/0.txt"
           }
         ]
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q7749719"
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q39618",
-    "rdfs:label": "The Tiny Patient",
+    "@id": "semlab:Q39613",
+    "rdfs:label": "The Making of a Counter Culture",
     "@type": [
       "Book"
     ],
@@ -4906,9 +4844,71 @@
         }
       }
     ],
-    "creator": [
+    "author": [
       {
         "@id": "_:bn151286",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q37171",
+          "rdfs:label": "Theodore Roszak (1933-2011)",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q40599",
+            "rdfs:label": "Block 0 of Nature Boy",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40186/0.txt"
+          }
+        ]
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q7749719"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q39618",
+    "rdfs:label": "The Tiny Patient",
+    "@type": [
+      "Book"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn151287",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20639",
+          "rdfs:label": "book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn151288",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      },
+      {
+        "@id": "_:bn151289",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q20517",
+          "rdfs:label": "E.A.T. Bibliography Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn151290",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37866",
