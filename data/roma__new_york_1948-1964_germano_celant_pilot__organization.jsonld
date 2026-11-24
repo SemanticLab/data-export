@@ -1,80 +1,35 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q31387",
-    "rdfs:label": "Academy of Fine Arts Rome",
+    "@id": "semlab:Q30542",
+    "rdfs:label": "House of Italian Handicraft",
     "@type": [
-      "Organization"
+      "Organization",
+      "ArtGallery"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn213218",
+        "@id": "_:bn221162",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19049",
           "rdfs:label": "organization",
           "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn213219",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28901",
-          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q338481"
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn213220",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28971",
-          "rdfs:label": "Rome (Italy)",
-          "@type": "City"
         }
       },
       {
-        "@id": "_:bn213221",
+        "@id": "_:bn221163",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q31410",
-    "rdfs:label": "Casa Italiana, Columbia University",
-    "@type": [
-      "Organization"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn213222",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19049",
-          "rdfs:label": "organization",
+          "@id": "semlab:Q24537",
+          "rdfs:label": "art gallery",
           "@type": "Class"
         }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn213223",
+        "@id": "_:bn221164",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -83,14 +38,9 @@
         }
       }
     ],
-    "wikidataQid": [
-      {
-        "@value": "Q5047836"
-      }
-    ],
     "location": [
       {
-        "@id": "_:bn213224",
+        "@id": "_:bn221165",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -102,50 +52,256 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q31420",
-    "rdfs:label": "Rome-New York Foundation",
+    "@id": "semlab:Q30620",
+    "rdfs:label": "Fondazione Origine",
     "@type": [
-      "Organization"
+      "Organization",
+      "Publisher"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn213225",
+        "@id": "_:bn221166",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19049",
           "rdfs:label": "organization",
           "@type": "Class"
         }
+      },
+      {
+        "@id": "_:bn221167",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21676",
+          "rdfs:label": "publisher",
+          "@type": "Class"
+        }
+      }
+    ],
+    "precededBy": [
+      {
+        "@id": "_:bn221168",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30531",
+          "rdfs:label": "Gruppo Origine",
+          "@type": "ArtistCollective"
+        },
+        "statedIn": [
+          {
+            "@id": "semlab:Q30298",
+            "rdfs:label": "1952 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "73"
+        ]
+      }
+    ],
+    "member": [
+      {
+        "@id": "_:bn221169",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30439",
+          "rdfs:label": "Ettore Colla",
+          "@type": "Person"
+        },
+        "startTime": [
+          "+1952-07-00T00:00:00Z"
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30298",
+            "rdfs:label": "1952 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "73"
+        ]
+      },
+      {
+        "@id": "_:bn221170",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30449",
+          "rdfs:label": "Angelo Canevari",
+          "@type": "Person"
+        },
+        "startTime": [
+          "+1952-07-00T00:00:00Z"
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30298",
+            "rdfs:label": "1952 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "73"
+        ]
+      },
+      {
+        "@id": "_:bn221171",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30288",
+          "rdfs:label": "Piero Dorazio",
+          "@type": "Person"
+        },
+        "startTime": [
+          "+1952-07-00T00:00:00Z"
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30298",
+            "rdfs:label": "1952 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "73"
+        ]
+      },
+      {
+        "@id": "_:bn221172",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30452",
+          "rdfs:label": "Enrico Prampolini",
+          "@type": "Person"
+        },
+        "startTime": [
+          "+1952-07-00T00:00:00Z"
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30298",
+            "rdfs:label": "1952 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "73"
+        ]
+      },
+      {
+        "@id": "_:bn221173",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30454",
+          "rdfs:label": "Vita Pandolfi",
+          "@type": "Person"
+        },
+        "startTime": [
+          "+1952-07-00T00:00:00Z"
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30298",
+            "rdfs:label": "1952 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "73"
+        ]
+      },
+      {
+        "@id": "_:bn221174",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30436",
+          "rdfs:label": "Achille Perilli",
+          "@type": "Person"
+        },
+        "startTime": [
+          "+1952-07-00T00:00:00Z"
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30298",
+            "rdfs:label": "1952 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "73"
+        ]
+      },
+      {
+        "@id": "_:bn221175",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30453",
+          "rdfs:label": "Mario Attilio Levi",
+          "@type": "Person"
+        },
+        "startTime": [
+          "+1952-07-00T00:00:00Z"
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30298",
+            "rdfs:label": "1952 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "73"
+        ]
+      },
+      {
+        "@id": "_:bn221176",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30450",
+          "rdfs:label": "Angelo Maria Ripellino",
+          "@type": "Person"
+        },
+        "startTime": [
+          "+1952-07-00T00:00:00Z"
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30298",
+            "rdfs:label": "1952 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "73"
+        ]
+      }
+    ],
+    "contributedTo": [
+      {
+        "@id": "_:bn221177",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q30599",
+          "rdfs:label": "Arti Visive",
+          "@type": "Publication"
+        },
+        "subjectHasRole": [
+          {
+            "@id": "semlab:Q21676",
+            "rdfs:label": "publisher"
+          }
+        ],
+        "statedIn": [
+          {
+            "@id": "semlab:Q30298",
+            "rdfs:label": "1952 (Roma-New York Chapter)"
+          }
+        ],
+        "pageNumber": [
+          "73"
+        ]
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn213226",
+        "@id": "_:bn221178",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
           "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
           "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn213227",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25745",
-          "rdfs:label": "Italy",
-          "@type": "Country"
-        }
-      },
-      {
-        "@id": "_:bn213228",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q28971",
-          "rdfs:label": "Rome (Italy)",
-          "@type": "City"
         }
       }
     ]
@@ -159,7 +315,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn213229",
+        "@id": "_:bn221179",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19049",
@@ -170,7 +326,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn213230",
+        "@id": "_:bn221180",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -181,7 +337,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn213231",
+        "@id": "_:bn221181",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -192,7 +348,7 @@
     ],
     "collaboratedWith": [
       {
-        "@id": "_:bn213232",
+        "@id": "_:bn221182",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q30280",
@@ -222,35 +378,25 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30542",
-    "rdfs:label": "House of Italian Handicraft",
+    "@id": "semlab:Q31387",
+    "rdfs:label": "Academy of Fine Arts Rome",
     "@type": [
-      "Organization",
-      "ArtGallery"
+      "Organization"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn213233",
+        "@id": "_:bn221183",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19049",
           "rdfs:label": "organization",
           "@type": "Class"
         }
-      },
-      {
-        "@id": "_:bn213234",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24537",
-          "rdfs:label": "art gallery",
-          "@type": "Class"
-        }
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn213235",
+        "@id": "_:bn221184",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
@@ -259,9 +405,69 @@
         }
       }
     ],
+    "wikidataQid": [
+      {
+        "@value": "Q338481"
+      }
+    ],
     "location": [
       {
-        "@id": "_:bn213236",
+        "@id": "_:bn221185",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28971",
+          "rdfs:label": "Rome (Italy)",
+          "@type": "City"
+        }
+      },
+      {
+        "@id": "_:bn221186",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q31410",
+    "rdfs:label": "Casa Italiana, Columbia University",
+    "@type": [
+      "Organization"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn221187",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19049",
+          "rdfs:label": "organization",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn221188",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28901",
+          "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q5047836"
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn221189",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -273,256 +479,50 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30620",
-    "rdfs:label": "Fondazione Origine",
+    "@id": "semlab:Q31420",
+    "rdfs:label": "Rome-New York Foundation",
     "@type": [
-      "Organization",
-      "Publisher"
+      "Organization"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn213237",
+        "@id": "_:bn221190",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19049",
           "rdfs:label": "organization",
           "@type": "Class"
         }
-      },
-      {
-        "@id": "_:bn213238",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q21676",
-          "rdfs:label": "publisher",
-          "@type": "Class"
-        }
-      }
-    ],
-    "precededBy": [
-      {
-        "@id": "_:bn213239",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30531",
-          "rdfs:label": "Gruppo Origine",
-          "@type": "ArtistCollective"
-        },
-        "statedIn": [
-          {
-            "@id": "semlab:Q30298",
-            "rdfs:label": "1952 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "73"
-        ]
-      }
-    ],
-    "member": [
-      {
-        "@id": "_:bn213240",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30439",
-          "rdfs:label": "Ettore Colla",
-          "@type": "Person"
-        },
-        "startTime": [
-          "+1952-07-00T00:00:00Z"
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30298",
-            "rdfs:label": "1952 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "73"
-        ]
-      },
-      {
-        "@id": "_:bn213241",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30449",
-          "rdfs:label": "Angelo Canevari",
-          "@type": "Person"
-        },
-        "startTime": [
-          "+1952-07-00T00:00:00Z"
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30298",
-            "rdfs:label": "1952 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "73"
-        ]
-      },
-      {
-        "@id": "_:bn213242",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30288",
-          "rdfs:label": "Piero Dorazio",
-          "@type": "Person"
-        },
-        "startTime": [
-          "+1952-07-00T00:00:00Z"
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30298",
-            "rdfs:label": "1952 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "73"
-        ]
-      },
-      {
-        "@id": "_:bn213243",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30452",
-          "rdfs:label": "Enrico Prampolini",
-          "@type": "Person"
-        },
-        "startTime": [
-          "+1952-07-00T00:00:00Z"
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30298",
-            "rdfs:label": "1952 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "73"
-        ]
-      },
-      {
-        "@id": "_:bn213244",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30454",
-          "rdfs:label": "Vita Pandolfi",
-          "@type": "Person"
-        },
-        "startTime": [
-          "+1952-07-00T00:00:00Z"
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30298",
-            "rdfs:label": "1952 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "73"
-        ]
-      },
-      {
-        "@id": "_:bn213245",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30436",
-          "rdfs:label": "Achille Perilli",
-          "@type": "Person"
-        },
-        "startTime": [
-          "+1952-07-00T00:00:00Z"
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30298",
-            "rdfs:label": "1952 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "73"
-        ]
-      },
-      {
-        "@id": "_:bn213246",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30453",
-          "rdfs:label": "Mario Attilio Levi",
-          "@type": "Person"
-        },
-        "startTime": [
-          "+1952-07-00T00:00:00Z"
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30298",
-            "rdfs:label": "1952 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "73"
-        ]
-      },
-      {
-        "@id": "_:bn213247",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30450",
-          "rdfs:label": "Angelo Maria Ripellino",
-          "@type": "Person"
-        },
-        "startTime": [
-          "+1952-07-00T00:00:00Z"
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30298",
-            "rdfs:label": "1952 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "73"
-        ]
-      }
-    ],
-    "contributedTo": [
-      {
-        "@id": "_:bn213248",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30599",
-          "rdfs:label": "Arti Visive",
-          "@type": "Publication"
-        },
-        "subjectHasRole": [
-          {
-            "@id": "semlab:Q21676",
-            "rdfs:label": "publisher"
-          }
-        ],
-        "statedIn": [
-          {
-            "@id": "semlab:Q30298",
-            "rdfs:label": "1952 (Roma-New York Chapter)"
-          }
-        ],
-        "pageNumber": [
-          "73"
-        ]
       }
     ],
     "partOfProject": [
       {
-        "@id": "_:bn213249",
+        "@id": "_:bn221191",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28901",
           "rdfs:label": "Roma / New York: 1948-1964 (Germano Celant) Pilot",
           "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn221192",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25745",
+          "rdfs:label": "Italy",
+          "@type": "Country"
+        }
+      },
+      {
+        "@id": "_:bn221193",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28971",
+          "rdfs:label": "Rome (Italy)",
+          "@type": "City"
         }
       }
     ]
