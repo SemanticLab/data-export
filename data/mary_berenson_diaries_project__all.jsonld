@@ -1,25 +1,30 @@
 [
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27587",
-    "rdfs:label": "Lakewood (N.J.)",
+    "@id": "semlab:Q26033",
+    "rdfs:label": "England",
     "@type": [
-      "City"
+      "Country"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221617",
+        "@id": "_:bn222119",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19058",
-          "rdfs:label": "city",
+          "@id": "semlab:Q19056",
+          "rdfs:label": "country",
           "@type": "Class"
         }
       }
     ],
+    "wikidataQid": [
+      {
+        "@value": "Q21"
+      }
+    ],
     "partOfProject": [
       {
-        "@id": "_:bn221618",
+        "@id": "_:bn222120",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -28,73 +33,11 @@
         }
       }
     ],
-    "wikidataQid": [
-      {
-        "@value": "Q1088792"
-      }
-    ],
     "coordinateLocation": [
       {
         "@value": {
-          "latitude": 40.09777777777778,
-          "longitude": -74.21777777777778,
-          "altitude": null,
-          "precision": 0.0002777777777777778,
-          "globe": "http://www.wikidata.org/entity/Q2"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn221619",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q24449",
-          "rdfs:label": "New Jersey",
-          "@type": "State"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27588",
-    "rdfs:label": "Boston Public Library, McKim Building",
-    "@type": [
-      "Library"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn221620",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q29618",
-          "rdfs:label": "library",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn221621",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q4948040"
-      }
-    ],
-    "coordinateLocation": [
-      {
-        "@value": {
-          "latitude": 42.34888888888889,
-          "longitude": -71.07888888888888,
+          "latitude": 53,
+          "longitude": -1,
           "altitude": null,
           "precision": 0.0002777777777777778,
           "globe": "http://www.wikidata.org/entity/Q2"
@@ -104,163 +47,46 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27616",
-    "rdfs:label": "Franklin Park",
+    "@id": "semlab:Q26036",
+    "rdfs:label": "Spain",
     "@type": [
-      "Park"
+      "Country"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221622",
+        "@id": "_:bn222121",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q23077",
-          "rdfs:label": "park",
+          "@id": "semlab:Q19056",
+          "rdfs:label": "country",
           "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn221623",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
         }
       }
     ],
     "wikidataQid": [
       {
-        "@value": "Q1445269"
+        "@value": "Q29"
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn222122",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
       }
     ],
     "coordinateLocation": [
       {
         "@value": {
-          "latitude": 42.30138888888889,
-          "longitude": -71.09438888888889,
+          "latitude": 40.2,
+          "longitude": -3.5,
           "altitude": null,
-          "precision": 2.777777777777778e-05,
+          "precision": 0.0002777777777777778,
           "globe": "http://www.wikidata.org/entity/Q2"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27621",
-    "rdfs:label": "exhibition of Japanese things",
-    "@type": [
-      "ExhibitionEvent"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn221624",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q25970",
-          "rdfs:label": "exhibition event",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn221625",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27628",
-    "rdfs:label": "Beverly Farms",
-    "@type": [
-      "Neighborhood"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn221626",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q19059",
-          "rdfs:label": "neighborhood",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn221627",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "wikidataQid": [
-      {
-        "@value": "Q4899516"
-      }
-    ],
-    "coordinateLocation": [
-      {
-        "@value": {
-          "latitude": 42.5625,
-          "longitude": -70.81438888888889,
-          "altitude": null,
-          "precision": 2.777777777777778e-05,
-          "globe": "http://www.wikidata.org/entity/Q2"
-        }
-      }
-    ],
-    "location": [
-      {
-        "@id": "_:bn221628",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27558",
-          "rdfs:label": "Beverly (Mass.)",
-          "@type": "City"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q27644",
-    "rdfs:label": "nude lady (Bonifazio)",
-    "@type": [
-      "Painting"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn221629",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q26289",
-          "rdfs:label": "painting",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn221630",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
         }
       }
     ]
@@ -274,7 +100,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221631",
+        "@id": "_:bn222123",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29620",
@@ -285,7 +111,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221632",
+        "@id": "_:bn222124",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -320,7 +146,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221633",
+        "@id": "_:bn222125",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19058",
@@ -331,7 +157,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221634",
+        "@id": "_:bn222126",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -366,7 +192,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221635",
+        "@id": "_:bn222127",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29621",
@@ -377,7 +203,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221636",
+        "@id": "_:bn222128",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -388,7 +214,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn221637",
+        "@id": "_:bn222129",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27558",
@@ -415,7 +241,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221638",
+        "@id": "_:bn222130",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19058",
@@ -426,7 +252,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221639",
+        "@id": "_:bn222131",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -461,7 +287,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221640",
+        "@id": "_:bn222132",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19058",
@@ -472,7 +298,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221641",
+        "@id": "_:bn222133",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -507,7 +333,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221642",
+        "@id": "_:bn222134",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29617",
@@ -518,7 +344,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221643",
+        "@id": "_:bn222135",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -545,7 +371,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn221644",
+        "@id": "_:bn222136",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27567",
@@ -564,7 +390,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221645",
+        "@id": "_:bn222137",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -575,7 +401,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221646",
+        "@id": "_:bn222138",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -591,7 +417,7 @@
     ],
     "visitedPlace": [
       {
-        "@id": "_:bn221647",
+        "@id": "_:bn222139",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27451",
@@ -607,7 +433,7 @@
         ]
       },
       {
-        "@id": "_:bn221648",
+        "@id": "_:bn222140",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27526",
@@ -623,7 +449,7 @@
         ]
       },
       {
-        "@id": "_:bn221649",
+        "@id": "_:bn222141",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
@@ -639,7 +465,7 @@
         ]
       },
       {
-        "@id": "_:bn221650",
+        "@id": "_:bn222142",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27510",
@@ -660,7 +486,7 @@
         ]
       },
       {
-        "@id": "_:bn221651",
+        "@id": "_:bn222143",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27545",
@@ -676,7 +502,7 @@
         ]
       },
       {
-        "@id": "_:bn221652",
+        "@id": "_:bn222144",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27549",
@@ -692,7 +518,7 @@
         ]
       },
       {
-        "@id": "_:bn221653",
+        "@id": "_:bn222145",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21518",
@@ -713,7 +539,7 @@
         ]
       },
       {
-        "@id": "_:bn221654",
+        "@id": "_:bn222146",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27552",
@@ -729,7 +555,7 @@
         ]
       },
       {
-        "@id": "_:bn221655",
+        "@id": "_:bn222147",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27553",
@@ -750,7 +576,7 @@
         ]
       },
       {
-        "@id": "_:bn221656",
+        "@id": "_:bn222148",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27557",
@@ -766,7 +592,7 @@
         ]
       },
       {
-        "@id": "_:bn221657",
+        "@id": "_:bn222149",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27568",
@@ -787,7 +613,7 @@
         ]
       },
       {
-        "@id": "_:bn221658",
+        "@id": "_:bn222150",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27581",
@@ -803,7 +629,7 @@
         ]
       },
       {
-        "@id": "_:bn221659",
+        "@id": "_:bn222151",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27665",
@@ -824,7 +650,7 @@
         ]
       },
       {
-        "@id": "_:bn221660",
+        "@id": "_:bn222152",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27588",
@@ -845,7 +671,7 @@
         ]
       },
       {
-        "@id": "_:bn221661",
+        "@id": "_:bn222153",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27602",
@@ -861,7 +687,7 @@
         ]
       },
       {
-        "@id": "_:bn221662",
+        "@id": "_:bn222154",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27616",
@@ -877,7 +703,7 @@
         ]
       },
       {
-        "@id": "_:bn221663",
+        "@id": "_:bn222155",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27628",
@@ -893,7 +719,7 @@
         ]
       },
       {
-        "@id": "_:bn221664",
+        "@id": "_:bn222156",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27658",
@@ -909,7 +735,7 @@
         ]
       },
       {
-        "@id": "_:bn221665",
+        "@id": "_:bn222157",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27664",
@@ -927,7 +753,7 @@
     ],
     "mentions": [
       {
-        "@id": "_:bn221666",
+        "@id": "_:bn222158",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27518",
@@ -943,7 +769,7 @@
         ]
       },
       {
-        "@id": "_:bn221667",
+        "@id": "_:bn222159",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27519",
@@ -959,7 +785,7 @@
         ]
       },
       {
-        "@id": "_:bn221668",
+        "@id": "_:bn222160",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27522",
@@ -975,7 +801,7 @@
         ]
       },
       {
-        "@id": "_:bn221669",
+        "@id": "_:bn222161",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27454",
@@ -991,7 +817,7 @@
         ]
       },
       {
-        "@id": "_:bn221670",
+        "@id": "_:bn222162",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27529",
@@ -1007,7 +833,7 @@
         ]
       },
       {
-        "@id": "_:bn221671",
+        "@id": "_:bn222163",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27539",
@@ -1023,7 +849,7 @@
         ]
       },
       {
-        "@id": "_:bn221672",
+        "@id": "_:bn222164",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27540",
@@ -1039,7 +865,7 @@
         ]
       },
       {
-        "@id": "_:bn221673",
+        "@id": "_:bn222165",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27541",
@@ -1055,7 +881,7 @@
         ]
       },
       {
-        "@id": "_:bn221674",
+        "@id": "_:bn222166",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27542",
@@ -1071,7 +897,7 @@
         ]
       },
       {
-        "@id": "_:bn221675",
+        "@id": "_:bn222167",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27548",
@@ -1087,7 +913,7 @@
         ]
       },
       {
-        "@id": "_:bn221676",
+        "@id": "_:bn222168",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27577",
@@ -1103,7 +929,7 @@
         ]
       },
       {
-        "@id": "_:bn221677",
+        "@id": "_:bn222169",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27586",
@@ -1119,7 +945,7 @@
         ]
       },
       {
-        "@id": "_:bn221678",
+        "@id": "_:bn222170",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27585",
@@ -1135,7 +961,7 @@
         ]
       },
       {
-        "@id": "_:bn221679",
+        "@id": "_:bn222171",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27593",
@@ -1151,7 +977,7 @@
         ]
       },
       {
-        "@id": "_:bn221680",
+        "@id": "_:bn222172",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27601",
@@ -1167,7 +993,7 @@
         ]
       },
       {
-        "@id": "_:bn221681",
+        "@id": "_:bn222173",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27624",
@@ -1183,7 +1009,7 @@
         ]
       },
       {
-        "@id": "_:bn221682",
+        "@id": "_:bn222174",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27625",
@@ -1199,7 +1025,7 @@
         ]
       },
       {
-        "@id": "_:bn221683",
+        "@id": "_:bn222175",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27596",
@@ -1215,7 +1041,7 @@
         ]
       },
       {
-        "@id": "_:bn221684",
+        "@id": "_:bn222176",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27626",
@@ -1231,7 +1057,7 @@
         ]
       },
       {
-        "@id": "_:bn221685",
+        "@id": "_:bn222177",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27627",
@@ -1247,7 +1073,7 @@
         ]
       },
       {
-        "@id": "_:bn221686",
+        "@id": "_:bn222178",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27595",
@@ -1263,7 +1089,7 @@
         ]
       },
       {
-        "@id": "_:bn221687",
+        "@id": "_:bn222179",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27657",
@@ -1281,7 +1107,7 @@
     ],
     "read": [
       {
-        "@id": "_:bn221688",
+        "@id": "_:bn222180",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27452",
@@ -1299,7 +1125,7 @@
     ],
     "dinedWith": [
       {
-        "@id": "_:bn221689",
+        "@id": "_:bn222181",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27454",
@@ -1315,7 +1141,7 @@
         ]
       },
       {
-        "@id": "_:bn221690",
+        "@id": "_:bn222182",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27520",
@@ -1331,7 +1157,7 @@
         ]
       },
       {
-        "@id": "_:bn221691",
+        "@id": "_:bn222183",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27521",
@@ -1347,7 +1173,7 @@
         ]
       },
       {
-        "@id": "_:bn221692",
+        "@id": "_:bn222184",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27524",
@@ -1363,7 +1189,7 @@
         ]
       },
       {
-        "@id": "_:bn221693",
+        "@id": "_:bn222185",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27525",
@@ -1379,7 +1205,7 @@
         ]
       },
       {
-        "@id": "_:bn221694",
+        "@id": "_:bn222186",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27527",
@@ -1395,7 +1221,7 @@
         ]
       },
       {
-        "@id": "_:bn221695",
+        "@id": "_:bn222187",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27532",
@@ -1411,7 +1237,7 @@
         ]
       },
       {
-        "@id": "_:bn221696",
+        "@id": "_:bn222188",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27554",
@@ -1427,7 +1253,7 @@
         ]
       },
       {
-        "@id": "_:bn221697",
+        "@id": "_:bn222189",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27570",
@@ -1448,7 +1274,7 @@
         ]
       },
       {
-        "@id": "_:bn221698",
+        "@id": "_:bn222190",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27376",
@@ -1464,7 +1290,7 @@
         ]
       },
       {
-        "@id": "_:bn221699",
+        "@id": "_:bn222191",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27596",
@@ -1480,7 +1306,7 @@
         ]
       },
       {
-        "@id": "_:bn221700",
+        "@id": "_:bn222192",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27597",
@@ -1496,7 +1322,7 @@
         ]
       },
       {
-        "@id": "_:bn221701",
+        "@id": "_:bn222193",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27598",
@@ -1512,7 +1338,7 @@
         ]
       },
       {
-        "@id": "_:bn221702",
+        "@id": "_:bn222194",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27594",
@@ -1528,7 +1354,7 @@
         ]
       },
       {
-        "@id": "_:bn221703",
+        "@id": "_:bn222195",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27618",
@@ -1544,7 +1370,7 @@
         ]
       },
       {
-        "@id": "_:bn221704",
+        "@id": "_:bn222196",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27625",
@@ -1560,7 +1386,7 @@
         ]
       },
       {
-        "@id": "_:bn221705",
+        "@id": "_:bn222197",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27578",
@@ -1576,7 +1402,7 @@
         ]
       },
       {
-        "@id": "_:bn221706",
+        "@id": "_:bn222198",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27629",
@@ -1592,7 +1418,7 @@
         ]
       },
       {
-        "@id": "_:bn221707",
+        "@id": "_:bn222199",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27630",
@@ -1613,7 +1439,7 @@
         ]
       },
       {
-        "@id": "_:bn221708",
+        "@id": "_:bn222200",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27569",
@@ -1634,7 +1460,7 @@
         ]
       },
       {
-        "@id": "_:bn221709",
+        "@id": "_:bn222201",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27632",
@@ -1650,7 +1476,7 @@
         ]
       },
       {
-        "@id": "_:bn221710",
+        "@id": "_:bn222202",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27646",
@@ -1666,7 +1492,7 @@
         ]
       },
       {
-        "@id": "_:bn221711",
+        "@id": "_:bn222203",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27648",
@@ -1682,7 +1508,7 @@
         ]
       },
       {
-        "@id": "_:bn221712",
+        "@id": "_:bn222204",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27649",
@@ -1698,7 +1524,7 @@
         ]
       },
       {
-        "@id": "_:bn221713",
+        "@id": "_:bn222205",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27650",
@@ -1714,7 +1540,7 @@
         ]
       },
       {
-        "@id": "_:bn221714",
+        "@id": "_:bn222206",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27584",
@@ -1730,7 +1556,7 @@
         ]
       },
       {
-        "@id": "_:bn221715",
+        "@id": "_:bn222207",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27603",
@@ -1748,7 +1574,7 @@
     ],
     "dinedAt": [
       {
-        "@id": "_:bn221716",
+        "@id": "_:bn222208",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27666",
@@ -1764,7 +1590,7 @@
         ]
       },
       {
-        "@id": "_:bn221717",
+        "@id": "_:bn222209",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27582",
@@ -1780,7 +1606,7 @@
         ]
       },
       {
-        "@id": "_:bn221718",
+        "@id": "_:bn222210",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27633",
@@ -1796,7 +1622,7 @@
         ]
       },
       {
-        "@id": "_:bn221719",
+        "@id": "_:bn222211",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27645",
@@ -1814,7 +1640,7 @@
     ],
     "hostedBy": [
       {
-        "@id": "_:bn221720",
+        "@id": "_:bn222212",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27455",
@@ -1830,7 +1656,7 @@
         ]
       },
       {
-        "@id": "_:bn221721",
+        "@id": "_:bn222213",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27569",
@@ -1848,7 +1674,7 @@
     ],
     "viewed": [
       {
-        "@id": "_:bn221722",
+        "@id": "_:bn222214",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27523",
@@ -1864,7 +1690,7 @@
         ]
       },
       {
-        "@id": "_:bn221723",
+        "@id": "_:bn222215",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27604",
@@ -1880,7 +1706,7 @@
         ]
       },
       {
-        "@id": "_:bn221724",
+        "@id": "_:bn222216",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27621",
@@ -1898,7 +1724,7 @@
     ],
     "hasMet": [
       {
-        "@id": "_:bn221725",
+        "@id": "_:bn222217",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27527",
@@ -1914,7 +1740,7 @@
         ]
       },
       {
-        "@id": "_:bn221726",
+        "@id": "_:bn222218",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27531",
@@ -1930,7 +1756,7 @@
         ]
       },
       {
-        "@id": "_:bn221727",
+        "@id": "_:bn222219",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27530",
@@ -1946,7 +1772,7 @@
         ]
       },
       {
-        "@id": "_:bn221728",
+        "@id": "_:bn222220",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27376",
@@ -1962,7 +1788,7 @@
         ]
       },
       {
-        "@id": "_:bn221729",
+        "@id": "_:bn222221",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27555",
@@ -1978,7 +1804,7 @@
         ]
       },
       {
-        "@id": "_:bn221730",
+        "@id": "_:bn222222",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27556",
@@ -1994,7 +1820,7 @@
         ]
       },
       {
-        "@id": "_:bn221731",
+        "@id": "_:bn222223",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27559",
@@ -2010,7 +1836,7 @@
         ]
       },
       {
-        "@id": "_:bn221732",
+        "@id": "_:bn222224",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27560",
@@ -2026,7 +1852,7 @@
         ]
       },
       {
-        "@id": "_:bn221733",
+        "@id": "_:bn222225",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27562",
@@ -2042,7 +1868,7 @@
         ]
       },
       {
-        "@id": "_:bn221734",
+        "@id": "_:bn222226",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27574",
@@ -2058,7 +1884,7 @@
         ]
       },
       {
-        "@id": "_:bn221735",
+        "@id": "_:bn222227",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27575",
@@ -2074,7 +1900,7 @@
         ]
       },
       {
-        "@id": "_:bn221736",
+        "@id": "_:bn222228",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27578",
@@ -2090,7 +1916,7 @@
         ]
       },
       {
-        "@id": "_:bn221737",
+        "@id": "_:bn222229",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27579",
@@ -2106,7 +1932,7 @@
         ]
       },
       {
-        "@id": "_:bn221738",
+        "@id": "_:bn222230",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27580",
@@ -2122,7 +1948,7 @@
         ]
       },
       {
-        "@id": "_:bn221739",
+        "@id": "_:bn222231",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27583",
@@ -2138,7 +1964,7 @@
         ]
       },
       {
-        "@id": "_:bn221740",
+        "@id": "_:bn222232",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27584",
@@ -2154,7 +1980,7 @@
         ]
       },
       {
-        "@id": "_:bn221741",
+        "@id": "_:bn222233",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27570",
@@ -2170,7 +1996,7 @@
         ]
       },
       {
-        "@id": "_:bn221742",
+        "@id": "_:bn222234",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27594",
@@ -2186,7 +2012,7 @@
         ]
       },
       {
-        "@id": "_:bn221743",
+        "@id": "_:bn222235",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27595",
@@ -2202,7 +2028,7 @@
         ]
       },
       {
-        "@id": "_:bn221744",
+        "@id": "_:bn222236",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27599",
@@ -2218,7 +2044,7 @@
         ]
       },
       {
-        "@id": "_:bn221745",
+        "@id": "_:bn222237",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27600",
@@ -2234,7 +2060,7 @@
         ]
       },
       {
-        "@id": "_:bn221746",
+        "@id": "_:bn222238",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27603",
@@ -2250,7 +2076,7 @@
         ]
       },
       {
-        "@id": "_:bn221747",
+        "@id": "_:bn222239",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27614",
@@ -2266,7 +2092,7 @@
         ]
       },
       {
-        "@id": "_:bn221748",
+        "@id": "_:bn222240",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27613",
@@ -2282,7 +2108,7 @@
         ]
       },
       {
-        "@id": "_:bn221749",
+        "@id": "_:bn222241",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27615",
@@ -2298,7 +2124,7 @@
         ]
       },
       {
-        "@id": "_:bn221750",
+        "@id": "_:bn222242",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27622",
@@ -2314,7 +2140,7 @@
         ]
       },
       {
-        "@id": "_:bn221751",
+        "@id": "_:bn222243",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27623",
@@ -2330,7 +2156,7 @@
         ]
       },
       {
-        "@id": "_:bn221752",
+        "@id": "_:bn222244",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27653",
@@ -2346,7 +2172,7 @@
         ]
       },
       {
-        "@id": "_:bn221753",
+        "@id": "_:bn222245",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27654",
@@ -2362,7 +2188,7 @@
         ]
       },
       {
-        "@id": "_:bn221754",
+        "@id": "_:bn222246",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27655",
@@ -2378,7 +2204,7 @@
         ]
       },
       {
-        "@id": "_:bn221755",
+        "@id": "_:bn222247",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27656",
@@ -2396,7 +2222,7 @@
     ],
     "mentionsViaAttribution": [
       {
-        "@id": "_:bn221756",
+        "@id": "_:bn222248",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27536",
@@ -2412,7 +2238,7 @@
         ]
       },
       {
-        "@id": "_:bn221757",
+        "@id": "_:bn222249",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27533",
@@ -2428,7 +2254,7 @@
         ]
       },
       {
-        "@id": "_:bn221758",
+        "@id": "_:bn222250",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27535",
@@ -2444,7 +2270,7 @@
         ]
       },
       {
-        "@id": "_:bn221759",
+        "@id": "_:bn222251",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27590",
@@ -2460,7 +2286,7 @@
         ]
       },
       {
-        "@id": "_:bn221760",
+        "@id": "_:bn222252",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27591",
@@ -2476,7 +2302,7 @@
         ]
       },
       {
-        "@id": "_:bn221761",
+        "@id": "_:bn222253",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27592",
@@ -2492,7 +2318,7 @@
         ]
       },
       {
-        "@id": "_:bn221762",
+        "@id": "_:bn222254",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27631",
@@ -2508,7 +2334,7 @@
         ]
       },
       {
-        "@id": "_:bn221763",
+        "@id": "_:bn222255",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27644",
@@ -2526,7 +2352,7 @@
     ],
     "relativeOf": [
       {
-        "@id": "_:bn221764",
+        "@id": "_:bn222256",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27546",
@@ -2542,7 +2368,7 @@
         ]
       },
       {
-        "@id": "_:bn221765",
+        "@id": "_:bn222257",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27547",
@@ -2558,7 +2384,7 @@
         ]
       },
       {
-        "@id": "_:bn221766",
+        "@id": "_:bn222258",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27550",
@@ -2574,7 +2400,7 @@
         ]
       },
       {
-        "@id": "_:bn221767",
+        "@id": "_:bn222259",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27551",
@@ -2590,7 +2416,7 @@
         ]
       },
       {
-        "@id": "_:bn221768",
+        "@id": "_:bn222260",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27563",
@@ -2606,7 +2432,7 @@
         ]
       },
       {
-        "@id": "_:bn221769",
+        "@id": "_:bn222261",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27565",
@@ -2622,7 +2448,7 @@
         ]
       },
       {
-        "@id": "_:bn221770",
+        "@id": "_:bn222262",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27566",
@@ -2638,7 +2464,7 @@
         ]
       },
       {
-        "@id": "_:bn221771",
+        "@id": "_:bn222263",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27661",
@@ -2654,7 +2480,7 @@
         ]
       },
       {
-        "@id": "_:bn221772",
+        "@id": "_:bn222264",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27662",
@@ -2670,7 +2496,7 @@
         ]
       },
       {
-        "@id": "_:bn221773",
+        "@id": "_:bn222265",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27663",
@@ -2688,7 +2514,7 @@
     ],
     "attendedPerformanceOf": [
       {
-        "@id": "_:bn221774",
+        "@id": "_:bn222266",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19532",
@@ -2704,7 +2530,7 @@
         ]
       },
       {
-        "@id": "_:bn221775",
+        "@id": "_:bn222267",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27572",
@@ -2720,7 +2546,7 @@
         ]
       },
       {
-        "@id": "_:bn221776",
+        "@id": "_:bn222268",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27573",
@@ -2736,7 +2562,7 @@
         ]
       },
       {
-        "@id": "_:bn221777",
+        "@id": "_:bn222269",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1944",
@@ -2752,7 +2578,7 @@
         ]
       },
       {
-        "@id": "_:bn221778",
+        "@id": "_:bn222270",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27643",
@@ -2770,7 +2596,7 @@
     ],
     "attendedPerformanceOfWork": [
       {
-        "@id": "_:bn221779",
+        "@id": "_:bn222271",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27571",
@@ -2786,7 +2612,7 @@
         ]
       },
       {
-        "@id": "_:bn221780",
+        "@id": "_:bn222272",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27606",
@@ -2802,7 +2628,7 @@
         ]
       },
       {
-        "@id": "_:bn221781",
+        "@id": "_:bn222273",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27609",
@@ -2818,7 +2644,7 @@
         ]
       },
       {
-        "@id": "_:bn221782",
+        "@id": "_:bn222274",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27610",
@@ -2834,7 +2660,7 @@
         ]
       },
       {
-        "@id": "_:bn221783",
+        "@id": "_:bn222275",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27611",
@@ -2850,7 +2676,7 @@
         ]
       },
       {
-        "@id": "_:bn221784",
+        "@id": "_:bn222276",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27612",
@@ -2866,7 +2692,7 @@
         ]
       },
       {
-        "@id": "_:bn221785",
+        "@id": "_:bn222277",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27617",
@@ -2882,7 +2708,7 @@
         ]
       },
       {
-        "@id": "_:bn221786",
+        "@id": "_:bn222278",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27634",
@@ -2898,7 +2724,7 @@
         ]
       },
       {
-        "@id": "_:bn221787",
+        "@id": "_:bn222279",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27637",
@@ -2914,7 +2740,7 @@
         ]
       },
       {
-        "@id": "_:bn221788",
+        "@id": "_:bn222280",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27638",
@@ -2930,7 +2756,7 @@
         ]
       },
       {
-        "@id": "_:bn221789",
+        "@id": "_:bn222281",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27639",
@@ -2946,7 +2772,7 @@
         ]
       },
       {
-        "@id": "_:bn221790",
+        "@id": "_:bn222282",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27640",
@@ -2962,7 +2788,7 @@
         ]
       },
       {
-        "@id": "_:bn221791",
+        "@id": "_:bn222283",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27641",
@@ -2978,7 +2804,7 @@
         ]
       },
       {
-        "@id": "_:bn221792",
+        "@id": "_:bn222284",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27642",
@@ -2996,7 +2822,7 @@
     ],
     "attendedPerformanceAt": [
       {
-        "@id": "_:bn221793",
+        "@id": "_:bn222285",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27607",
@@ -3014,7 +2840,7 @@
     ],
     "listenedTo": [
       {
-        "@id": "_:bn221794",
+        "@id": "_:bn222286",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27652",
@@ -3045,7 +2871,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221795",
+        "@id": "_:bn222287",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3056,7 +2882,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221796",
+        "@id": "_:bn222288",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3085,7 +2911,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221797",
+        "@id": "_:bn222289",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29617",
@@ -3096,7 +2922,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221798",
+        "@id": "_:bn222290",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3131,7 +2957,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221799",
+        "@id": "_:bn222291",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19059",
@@ -3142,7 +2968,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221800",
+        "@id": "_:bn222292",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3169,7 +2995,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn221801",
+        "@id": "_:bn222293",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21518",
@@ -3188,7 +3014,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221802",
+        "@id": "_:bn222294",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19059",
@@ -3205,7 +3031,273 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221803",
+        "@id": "_:bn222295",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27587",
+    "rdfs:label": "Lakewood (N.J.)",
+    "@type": [
+      "City"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn222296",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19058",
+          "rdfs:label": "city",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn222297",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1088792"
+      }
+    ],
+    "coordinateLocation": [
+      {
+        "@value": {
+          "latitude": 40.09777777777778,
+          "longitude": -74.21777777777778,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn222298",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24449",
+          "rdfs:label": "New Jersey",
+          "@type": "State"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27588",
+    "rdfs:label": "Boston Public Library, McKim Building",
+    "@type": [
+      "Library"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn222299",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q29618",
+          "rdfs:label": "library",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn222300",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q4948040"
+      }
+    ],
+    "coordinateLocation": [
+      {
+        "@value": {
+          "latitude": 42.34888888888889,
+          "longitude": -71.07888888888888,
+          "altitude": null,
+          "precision": 0.0002777777777777778,
+          "globe": "http://www.wikidata.org/entity/Q2"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27616",
+    "rdfs:label": "Franklin Park",
+    "@type": [
+      "Park"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn222301",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23077",
+          "rdfs:label": "park",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn222302",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q1445269"
+      }
+    ],
+    "coordinateLocation": [
+      {
+        "@value": {
+          "latitude": 42.30138888888889,
+          "longitude": -71.09438888888889,
+          "altitude": null,
+          "precision": 2.777777777777778e-05,
+          "globe": "http://www.wikidata.org/entity/Q2"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27621",
+    "rdfs:label": "exhibition of Japanese things",
+    "@type": [
+      "ExhibitionEvent"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn222303",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25970",
+          "rdfs:label": "exhibition event",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn222304",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27628",
+    "rdfs:label": "Beverly Farms",
+    "@type": [
+      "Neighborhood"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn222305",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19059",
+          "rdfs:label": "neighborhood",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn222306",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "wikidataQid": [
+      {
+        "@value": "Q4899516"
+      }
+    ],
+    "coordinateLocation": [
+      {
+        "@value": {
+          "latitude": 42.5625,
+          "longitude": -70.81438888888889,
+          "altitude": null,
+          "precision": 2.777777777777778e-05,
+          "globe": "http://www.wikidata.org/entity/Q2"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn222307",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27558",
+          "rdfs:label": "Beverly (Mass.)",
+          "@type": "City"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q27644",
+    "rdfs:label": "nude lady (Bonifazio)",
+    "@type": [
+      "Painting"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn222308",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q26289",
+          "rdfs:label": "painting",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn222309",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3224,7 +3316,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221804",
+        "@id": "_:bn222310",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29619",
@@ -3235,7 +3327,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221805",
+        "@id": "_:bn222311",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3257,7 +3349,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn221806",
+        "@id": "_:bn222312",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21518",
@@ -3276,7 +3368,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221807",
+        "@id": "_:bn222313",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29622",
@@ -3287,7 +3379,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221808",
+        "@id": "_:bn222314",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3298,7 +3390,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn221809",
+        "@id": "_:bn222315",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27568",
@@ -3316,76 +3408,55 @@
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26033",
-    "rdfs:label": "England",
+    "@id": "semlab:Q30044",
+    "rdfs:label": "Morellian method",
     "@type": [
-      "Country"
+      "Method"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221810",
+        "@id": "_:bn222316",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19056",
-          "rdfs:label": "country",
+          "@id": "semlab:Q30043",
+          "rdfs:label": "method",
           "@type": "Class"
         }
       }
     ],
-    "wikidataQid": [
-      {
-        "@value": "Q21"
-      }
-    ],
     "partOfProject": [
       {
-        "@id": "_:bn221811",
+        "@id": "_:bn222317",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
           "rdfs:label": "Mary Berenson Diaries Project",
           "@type": "SemanticLabProject"
-        }
-      }
-    ],
-    "coordinateLocation": [
-      {
-        "@value": {
-          "latitude": 53,
-          "longitude": -1,
-          "altitude": null,
-          "precision": 0.0002777777777777778,
-          "globe": "http://www.wikidata.org/entity/Q2"
         }
       }
     ]
   },
   {
     "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q26036",
-    "rdfs:label": "Spain",
+    "@id": "semlab:Q29594",
+    "rdfs:label": "August 7 1891. Antwerp",
     "@type": [
-      "Country"
+      "DiaryEntry"
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221812",
+        "@id": "_:bn222318",
         "@type": "RelEvent",
         "agentObj": {
-          "@id": "semlab:Q19056",
-          "rdfs:label": "country",
+          "@id": "semlab:Q27354",
+          "rdfs:label": "diary entry",
           "@type": "Class"
         }
       }
     ],
-    "wikidataQid": [
-      {
-        "@value": "Q29"
-      }
-    ],
     "partOfProject": [
       {
-        "@id": "_:bn221813",
+        "@id": "_:bn222319",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3393,15 +3464,34 @@
           "@type": "SemanticLabProject"
         }
       }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q29595",
+    "rdfs:label": "Aug. 8 Antwerp The Hague 1891",
+    "@type": [
+      "DiaryEntry"
     ],
-    "coordinateLocation": [
+    "instanceOf": [
       {
-        "@value": {
-          "latitude": 40.2,
-          "longitude": -3.5,
-          "altitude": null,
-          "precision": 0.0002777777777777778,
-          "globe": "http://www.wikidata.org/entity/Q2"
+        "@id": "_:bn222320",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27354",
+          "rdfs:label": "diary entry",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn222321",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27355",
+          "rdfs:label": "Mary Berenson Diaries Project",
+          "@type": "SemanticLabProject"
         }
       }
     ]
@@ -3420,7 +3510,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221814",
+        "@id": "_:bn222322",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28941",
@@ -3431,7 +3521,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221815",
+        "@id": "_:bn222323",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",
@@ -3455,7 +3545,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn221816",
+        "@id": "_:bn222324",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1",
@@ -3466,97 +3556,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn221817",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29594",
-    "rdfs:label": "August 7 1891. Antwerp",
-    "@type": [
-      "DiaryEntry"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn221818",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27354",
-          "rdfs:label": "diary entry",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn221819",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q29595",
-    "rdfs:label": "Aug. 8 Antwerp The Hague 1891",
-    "@type": [
-      "DiaryEntry"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn221820",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27354",
-          "rdfs:label": "diary entry",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn221821",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q27355",
-          "rdfs:label": "Mary Berenson Diaries Project",
-          "@type": "SemanticLabProject"
-        }
-      }
-    ]
-  },
-  {
-    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
-    "@id": "semlab:Q30044",
-    "rdfs:label": "Morellian method",
-    "@type": [
-      "Method"
-    ],
-    "instanceOf": [
-      {
-        "@id": "_:bn221822",
-        "@type": "RelEvent",
-        "agentObj": {
-          "@id": "semlab:Q30043",
-          "rdfs:label": "method",
-          "@type": "Class"
-        }
-      }
-    ],
-    "partOfProject": [
-      {
-        "@id": "_:bn221823",
+        "@id": "_:bn222325",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27355",

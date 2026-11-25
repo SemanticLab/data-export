@@ -5,7 +5,7 @@
     "rdfs:label": "Apollo Theater",
     "partOfProject": [
       {
-        "@id": "_:bn60651",
+        "@id": "_:bn60997",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
@@ -14,7 +14,7 @@
         }
       },
       {
-        "@id": "_:bn60652",
+        "@id": "_:bn60998",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q20613",
@@ -34,7 +34,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn60653",
+        "@id": "_:bn60999",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19072",
@@ -43,7 +43,7 @@
         }
       },
       {
-        "@id": "_:bn60654",
+        "@id": "_:bn61000",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18806",
@@ -54,13 +54,35 @@
     ],
     "location": [
       {
-        "@id": "_:bn60655",
+        "@id": "_:bn61001",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19486",
           "rdfs:label": "New York (N.Y.)",
           "@type": "City"
         }
+      },
+      {
+        "@id": "_:bn61002",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24528",
+          "rdfs:label": "Manhattan (New York, N.Y.)",
+          "@type": "Borough"
+        },
+        "citation": [
+          "Borough determined from the item's coordinates with the Google Geocoding API"
+        ],
+        "retrieved": [
+          {
+            "time": "+2026-11-24T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          }
+        ]
       }
     ],
     "thumbnail": [
@@ -77,6 +99,25 @@
           "after": 0,
           "precision": 9,
           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "streetAddress": [
+      {
+        "@value": {
+          "text": "253 West 125th Street, New York, NY 10027",
+          "language": "en"
+        }
+      }
+    ],
+    "coordinateLocation": [
+      {
+        "@value": {
+          "latitude": 40.809932,
+          "longitude": -73.950113,
+          "altitude": null,
+          "precision": 1e-06,
+          "globe": "http://www.wikidata.org/entity/Q2"
         }
       }
     ]

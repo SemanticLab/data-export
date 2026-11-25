@@ -5,7 +5,7 @@
     "rdfs:label": "Brooklyn College",
     "partOfProject": [
       {
-        "@id": "_:bn214781",
+        "@id": "_:bn215265",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18807",
@@ -14,7 +14,7 @@
         }
       },
       {
-        "@id": "_:bn214782",
+        "@id": "_:bn215266",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28603",
@@ -34,7 +34,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn214783",
+        "@id": "_:bn215267",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q18806",
@@ -43,7 +43,7 @@
         }
       },
       {
-        "@id": "_:bn214784",
+        "@id": "_:bn215268",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q1804",
@@ -54,7 +54,7 @@
     ],
     "collaboratedWith": [
       {
-        "@id": "_:bn214785",
+        "@id": "_:bn215269",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22247",
@@ -83,6 +83,49 @@
           "precision": 9,
           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
         }
+      }
+    ],
+    "streetAddress": [
+      {
+        "@value": {
+          "text": "2900 Bedford Ave, Brooklyn, NY, 11210",
+          "language": "en"
+        }
+      }
+    ],
+    "coordinateLocation": [
+      {
+        "@value": {
+          "latitude": 40.631111,
+          "longitude": -73.9525,
+          "altitude": null,
+          "precision": 1e-06,
+          "globe": "http://www.wikidata.org/entity/Q2"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn215270",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21520",
+          "rdfs:label": "Brooklyn (New York, N.Y.)",
+          "@type": "Borough"
+        },
+        "citation": [
+          "Borough determined from the item's coordinates with the Google Geocoding API"
+        ],
+        "retrieved": [
+          {
+            "time": "+2026-11-24T00:00:00Z",
+            "timezone": 0,
+            "before": 0,
+            "after": 0,
+            "precision": 11,
+            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+          }
+        ]
       }
     ]
   }
