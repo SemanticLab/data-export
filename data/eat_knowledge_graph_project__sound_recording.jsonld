@@ -9,7 +9,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn169968",
+        "@id": "_:bn189727",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28940",
@@ -18,7 +18,7 @@
         }
       },
       {
-        "@id": "_:bn169969",
+        "@id": "_:bn189728",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28955",
@@ -36,7 +36,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn169970",
+        "@id": "_:bn189729",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -47,7 +47,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn169971",
+        "@id": "_:bn189730",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19641",
@@ -60,11 +60,47 @@
             "rdfs:label": "composer"
           }
         ],
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q23105",
+            "rdfs:label": "composer"
+          }
+        ],
         "referenceBlock": [
           {
             "@id": "semlab:Q19780",
             "rdfs:label": "E.A.T. Nine Evenings Program Block 18",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/e729fd60af13c9b5f2941348ac297707/18.txt"
+          },
+          {
+            "@id": "semlab:Q47176",
+            "rdfs:label": "Block 18 of 9 Evenings Reconsidered: Art, Theatre, and Engineering, 1966 (catalogue)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q47156/18.txt"
+          },
+          {
+            "@id": "semlab:Q47253",
+            "rdfs:label": "Block 109 of 9 Evenings Reconsidered: Art, Theatre, and Engineering, 1966 (catalogue)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q47156/109.txt"
+          },
+          {
+            "@id": "semlab:Q49345",
+            "rdfs:label": "Block 33 of Robert Rauschenberg, Robert Whitman and Billy Kl\u00fcver: From '9 Evenings' to 'Experiments in Art and Technology'",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49155/33.txt"
+          },
+          {
+            "@id": "semlab:Q49231",
+            "rdfs:label": "Block 74 of Experiments in Art and Technology: A Descriptive History of the Organization",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49154/74.txt"
+          },
+          {
+            "@id": "semlab:Q50105",
+            "rdfs:label": "Block 25 of Sensing the Future: Experiments in Art and Technology (E.A.T.)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49157/25.txt"
+          },
+          {
+            "@id": "semlab:Q50125",
+            "rdfs:label": "Block 44 of Sensing the Future: Experiments in Art and Technology (E.A.T.)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49157/44.txt"
           }
         ]
       }
@@ -84,13 +120,20 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn169972",
+        "@id": "_:bn189731",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22339",
           "rdfs:label": "Solo",
           "@type": "PerformanceArtwork(Concept)"
-        }
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q50125",
+            "rdfs:label": "Block 44 of Sensing the Future: Experiments in Art and Technology (E.A.T.)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49157/44.txt"
+          }
+        ]
       }
     ],
     "describedOrDepictedAtUrl": [
@@ -101,6 +144,85 @@
     "thumbnail": [
       {
         "@value": "https://semlab.s3.amazonaws.com/images/Q24222.jpg"
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn189732",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24238",
+          "rdfs:label": "Solo (9 Evenings performance on October 13, 1966)",
+          "@type": "Performance"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q47253",
+            "rdfs:label": "Block 109 of 9 Evenings Reconsidered: Art, Theatre, and Engineering, 1966 (catalogue)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q47156/109.txt"
+          }
+        ]
+      }
+    ],
+    "performer": [
+      {
+        "@id": "_:bn189733",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19233",
+          "rdfs:label": "David Tudor",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49345",
+            "rdfs:label": "Block 33 of Robert Rauschenberg, Robert Whitman and Billy Kl\u00fcver: From '9 Evenings' to 'Experiments in Art and Technology'",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49155/33.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1963-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      },
+      {
+        "@value": {
+          "time": "+1965-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "workPerformedAt": [
+      {
+        "@id": "_:bn189734",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q47377",
+          "rdfs:label": "Funakakushi-en",
+          "@type": "Hotel"
+        },
+        "date": [
+          "+1963-00-00T00:00:00Z"
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q50105",
+            "rdfs:label": "Block 25 of Sensing the Future: Experiments in Art and Technology (E.A.T.)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49157/25.txt"
+          }
+        ]
       }
     ]
   },
@@ -114,7 +236,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn169973",
+        "@id": "_:bn189735",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29611",
@@ -123,7 +245,7 @@
         }
       },
       {
-        "@id": "_:bn169974",
+        "@id": "_:bn189736",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28955",
@@ -134,7 +256,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn169975",
+        "@id": "_:bn189737",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -145,7 +267,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn169976",
+        "@id": "_:bn189738",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -177,7 +299,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn169977",
+        "@id": "_:bn189739",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29611",
@@ -186,7 +308,7 @@
         }
       },
       {
-        "@id": "_:bn169978",
+        "@id": "_:bn189740",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28955",
@@ -197,7 +319,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn169979",
+        "@id": "_:bn189741",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -208,7 +330,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn169980",
+        "@id": "_:bn189742",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -240,7 +362,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn169981",
+        "@id": "_:bn189743",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29611",
@@ -249,7 +371,7 @@
         }
       },
       {
-        "@id": "_:bn169982",
+        "@id": "_:bn189744",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28955",
@@ -260,7 +382,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn169983",
+        "@id": "_:bn189745",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -271,7 +393,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn169984",
+        "@id": "_:bn189746",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -303,7 +425,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn169985",
+        "@id": "_:bn189747",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29611",
@@ -312,7 +434,7 @@
         }
       },
       {
-        "@id": "_:bn169986",
+        "@id": "_:bn189748",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28955",
@@ -323,7 +445,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn169987",
+        "@id": "_:bn189749",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -334,7 +456,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn169988",
+        "@id": "_:bn189750",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -366,7 +488,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn169989",
+        "@id": "_:bn189751",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29611",
@@ -375,7 +497,7 @@
         }
       },
       {
-        "@id": "_:bn169990",
+        "@id": "_:bn189752",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28955",
@@ -386,7 +508,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn169991",
+        "@id": "_:bn189753",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -397,7 +519,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn169992",
+        "@id": "_:bn189754",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -429,7 +551,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn169993",
+        "@id": "_:bn189755",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29611",
@@ -438,7 +560,7 @@
         }
       },
       {
-        "@id": "_:bn169994",
+        "@id": "_:bn189756",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28955",
@@ -449,7 +571,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn169995",
+        "@id": "_:bn189757",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -460,7 +582,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn169996",
+        "@id": "_:bn189758",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24408",
@@ -491,7 +613,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn169997",
+        "@id": "_:bn189759",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28955",
@@ -502,7 +624,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn169998",
+        "@id": "_:bn189760",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -513,7 +635,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn169999",
+        "@id": "_:bn189761",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q36334",
@@ -544,7 +666,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn170000",
+        "@id": "_:bn189762",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28955",
@@ -555,7 +677,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn170001",
+        "@id": "_:bn189763",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -579,7 +701,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn170002",
+        "@id": "_:bn189764",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28955",
@@ -590,7 +712,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn170003",
+        "@id": "_:bn189765",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -601,7 +723,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn170004",
+        "@id": "_:bn189766",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19233",
@@ -619,7 +741,7 @@
     ],
     "publisher": [
       {
-        "@id": "_:bn170005",
+        "@id": "_:bn189767",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q44201",
@@ -637,7 +759,7 @@
     ],
     "hasParts": [
       {
-        "@id": "_:bn170006",
+        "@id": "_:bn189768",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q44206",
@@ -655,7 +777,7 @@
     ],
     "recordedAtPlace": [
       {
-        "@id": "_:bn170007",
+        "@id": "_:bn189769",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q44202",
@@ -667,6 +789,372 @@
             "@id": "semlab:Q44219",
             "rdfs:label": "Block 12 of Can we float in the air? An interview with EAT\u2019s Julie Martin",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q44208/12.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q47139",
+    "rdfs:label": "Telephone Interview with John Cage and 9 Evenings Artists",
+    "@type": [
+      "SoundRecording"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn189770",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28955",
+          "rdfs:label": "sound recording",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn189771",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn189772",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19127",
+          "rdfs:label": "Alfons Schilling",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q47250",
+            "rdfs:label": "Block 106 of 9 Evenings Reconsidered: Art, Theatre, and Engineering, 1966 (catalogue)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q47156/106.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1966-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "archivesCollection": [
+      {
+        "@id": "_:bn189773",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q34435",
+          "rdfs:label": "Fondation Daniel Langlois",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q47250",
+            "rdfs:label": "Block 106 of 9 Evenings Reconsidered: Art, Theatre, and Engineering, 1966 (catalogue)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q47156/106.txt"
+          }
+        ]
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn189774",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19118",
+          "rdfs:label": "9 Evenings: Theatre and Engineering",
+          "@type": "Event"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q47250",
+            "rdfs:label": "Block 106 of 9 Evenings Reconsidered: Art, Theatre, and Engineering, 1966 (catalogue)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q47156/106.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q48575",
+    "rdfs:label": "The Popular Image (sound recording, 1963)",
+    "@type": [
+      "SoundRecording"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn189775",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28955",
+          "rdfs:label": "sound recording",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn189776",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn189777",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19180",
+          "rdfs:label": "Billy Kl\u00fcver",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49737",
+            "rdfs:label": "Block 18 of 'To Avoid the Waste of a Cultural Revolution': Experiments in Art and Technology",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28974/18.txt"
+          }
+        ]
+      }
+    ],
+    "designer": [
+      {
+        "@id": "_:bn189778",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19143",
+          "rdfs:label": "Andy Warhol",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49737",
+            "rdfs:label": "Block 18 of 'To Avoid the Waste of a Cultural Revolution': Experiments in Art and Technology",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28974/18.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1963-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn189779",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q47812",
+          "rdfs:label": "The Popular Image (catalogue)",
+          "@type": "Catalogue"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49737",
+            "rdfs:label": "Block 18 of 'To Avoid the Waste of a Cultural Revolution': Experiments in Art and Technology",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28974/18.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q48592",
+    "rdfs:label": "Andy Warhol audio recording of the Silver Clouds prototype launch (October 4, 1965)",
+    "@type": [
+      "SoundRecording"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn189780",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28955",
+          "rdfs:label": "sound recording",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn189781",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn189782",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19143",
+          "rdfs:label": "Andy Warhol",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49741",
+            "rdfs:label": "Block 29 of 'To Avoid the Waste of a Cultural Revolution': Experiments in Art and Technology",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28974/29.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1965-10-04T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "mainSubject": [
+      {
+        "@id": "_:bn189783",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q48587",
+          "rdfs:label": "Launch of the first Silver Clouds prototype (October 4, 1965)",
+          "@type": "Event"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49741",
+            "rdfs:label": "Block 29 of 'To Avoid the Waste of a Cultural Revolution': Experiments in Art and Technology",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28974/29.txt"
+          }
+        ]
+      }
+    ],
+    "uses": [
+      {
+        "@id": "_:bn189784",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24365",
+          "rdfs:label": "tape recorder",
+          "@type": "AudioDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49741",
+            "rdfs:label": "Block 29 of 'To Avoid the Waste of a Cultural Revolution': Experiments in Art and Technology",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28974/29.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q48663",
+    "rdfs:label": "Music from Mathematics",
+    "@type": [
+      "SoundRecording"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn189785",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28955",
+          "rdfs:label": "sound recording",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn189786",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn189787",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19443",
+          "rdfs:label": "Max Mathews",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49864",
+            "rdfs:label": "Block 149 of 'To Avoid the Waste of a Cultural Revolution': Experiments in Art and Technology",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28974/149.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1960-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "uses": [
+      {
+        "@id": "_:bn189788",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q48660",
+          "rdfs:label": "IBM 7090",
+          "@type": "Technology"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49864",
+            "rdfs:label": "Block 149 of 'To Avoid the Waste of a Cultural Revolution': Experiments in Art and Technology",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28974/149.txt"
           }
         ]
       }

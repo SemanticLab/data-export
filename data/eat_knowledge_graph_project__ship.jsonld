@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn167726",
+        "@id": "_:bn186540",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q27516",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn167727",
+        "@id": "_:bn186541",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -31,6 +31,84 @@
     "wikidataQid": [
       {
         "@value": "Q752939"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q48488",
+    "rdfs:label": "M/S Gripsholm",
+    "@type": [
+      "Ship"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn186542",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27516",
+          "rdfs:label": "ship",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn186543",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q48510",
+    "rdfs:label": "Calypso",
+    "@type": [
+      "Ship"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn186544",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27516",
+          "rdfs:label": "ship",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn186545",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "uses": [
+      {
+        "@id": "_:bn186546",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24367",
+          "rdfs:label": "television",
+          "@type": "ImagingDevice"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49474",
+            "rdfs:label": "Block 136 of Robert Rauschenberg, Robert Whitman and Billy Kl\u00fcver: From '9 Evenings' to 'Experiments in Art and Technology'",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49155/136.txt"
+          }
+        ]
       }
     ]
   }

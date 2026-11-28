@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn169948",
+        "@id": "_:bn189703",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28952",
@@ -22,7 +22,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn169949",
+        "@id": "_:bn189704",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -31,7 +31,7 @@
         }
       },
       {
-        "@id": "_:bn169950",
+        "@id": "_:bn189705",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19187",
@@ -75,7 +75,7 @@
     ],
     "mainSubject": [
       {
-        "@id": "_:bn169951",
+        "@id": "_:bn189706",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -84,7 +84,7 @@
         }
       },
       {
-        "@id": "_:bn169952",
+        "@id": "_:bn189707",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22666",
@@ -93,7 +93,7 @@
         }
       },
       {
-        "@id": "_:bn169953",
+        "@id": "_:bn189708",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22683",
@@ -104,7 +104,7 @@
     ],
     "archivesCollection": [
       {
-        "@id": "_:bn169954",
+        "@id": "_:bn189709",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22371",
@@ -122,7 +122,7 @@
     ],
     "copyrightHolder": [
       {
-        "@id": "_:bn169955",
+        "@id": "_:bn189710",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19846",
@@ -140,7 +140,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn169956",
+        "@id": "_:bn189711",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -169,7 +169,7 @@
     ],
     "format": [
       {
-        "@id": "_:bn169957",
+        "@id": "_:bn189712",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q22650",
@@ -178,7 +178,7 @@
         }
       },
       {
-        "@id": "_:bn169958",
+        "@id": "_:bn189713",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28953",
@@ -197,6 +197,72 @@
     "extent": [
       {
         "@value": "spiral-bound red notebook, 22 sheets, 6 x 4 x 1/2 inches closed, 12 x 4 x \u00bd inches open"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q47149",
+    "rdfs:label": "Notebook with Loose Paper Inserts",
+    "@type": [
+      "Notebook"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn189714",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28952",
+          "rdfs:label": "notebook",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn189715",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn189716",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19558",
+          "rdfs:label": "Robert Whitman",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q47251",
+            "rdfs:label": "Block 107 of 9 Evenings Reconsidered: Art, Theatre, and Engineering, 1966 (catalogue)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q47156/107.txt"
+          }
+        ]
+      }
+    ],
+    "archivesCollection": [
+      {
+        "@id": "_:bn189717",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q47251",
+            "rdfs:label": "Block 107 of 9 Evenings Reconsidered: Art, Theatre, and Engineering, 1966 (catalogue)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q47156/107.txt"
+          }
+        ]
       }
     ]
   }

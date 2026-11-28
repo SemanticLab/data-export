@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn166442",
+        "@id": "_:bn185078",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25972",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn166443",
+        "@id": "_:bn185079",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -30,7 +30,7 @@
     ],
     "location": [
       {
-        "@id": "_:bn166444",
+        "@id": "_:bn185080",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23502",
@@ -47,13 +47,23 @@
             "@id": "semlab:Q44017",
             "rdfs:label": "Block 79 of The Reminiscences of Julie Martin",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q19868/79.txt"
+          },
+          {
+            "@id": "semlab:Q49341",
+            "rdfs:label": "Block 352 of Experiments in Art and Technology: A Descriptive History of the Organization",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49154/352.txt"
+          },
+          {
+            "@id": "semlab:Q49326",
+            "rdfs:label": "Block 392 of Experiments in Art and Technology: A Descriptive History of the Organization",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49154/392.txt"
           }
         ]
       }
     ],
     "organizer": [
       {
-        "@id": "_:bn166445",
+        "@id": "_:bn185081",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19263",
@@ -84,11 +94,21 @@
           "precision": 9,
           "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
         }
+      },
+      {
+        "@value": {
+          "time": "+1972-10-27T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
       }
     ],
     "hostedBy": [
       {
-        "@id": "_:bn166446",
+        "@id": "_:bn185082",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19556",
@@ -111,7 +131,7 @@
     ],
     "mentions": [
       {
-        "@id": "_:bn166447",
+        "@id": "_:bn185083",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q23761",
@@ -123,6 +143,339 @@
             "@id": "semlab:Q40787",
             "rdfs:label": "Block 0 of Soho much fun: Raising money for art's sake",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40238/0.txt"
+          },
+          {
+            "@id": "semlab:Q49326",
+            "rdfs:label": "Block 392 of Experiments in Art and Technology: A Descriptive History of the Organization",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49154/392.txt"
+          }
+        ]
+      }
+    ],
+    "sponsorOf": [
+      {
+        "@id": "_:bn185084",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q23761",
+          "rdfs:label": "The New York Collection for Stockholm",
+          "@type": "Collection"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49341",
+            "rdfs:label": "Block 352 of Experiments in Art and Technology: A Descriptive History of the Organization",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49154/352.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q49001",
+    "rdfs:label": "American Artists in India benefit dinner and bazaar (Automation House, 18 December 1970)",
+    "@type": [
+      "FundraisingEvent"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn185085",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25972",
+          "rdfs:label": "fundraising event",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn185086",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn185087",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19163",
+          "rdfs:label": "Automation House",
+          "@type": "Venue"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          },
+          {
+            "@id": "semlab:Q49349",
+            "rdfs:label": "Block 391 of Experiments in Art and Technology: A Descriptive History of the Organization",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49154/391.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1970-12-18T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 11,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "organizer": [
+      {
+        "@id": "_:bn185088",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19263",
+          "rdfs:label": "Experiments in Art and Technology",
+          "@type": "NonprofitOrganization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn185089",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q47726",
+          "rdfs:label": "India Council of the Asia Society",
+          "@type": "Organization"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          }
+        ]
+      }
+    ],
+    "contributor": [
+      {
+        "@id": "_:bn185090",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27919",
+          "rdfs:label": "Mana Sarabhai",
+          "@type": "Person"
+        },
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q22976",
+            "rdfs:label": "chairperson"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn185091",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        },
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q22976",
+            "rdfs:label": "chairperson"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn185092",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q44075",
+          "rdfs:label": "Shunk-Kender",
+          "@type": "Group"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn185093",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q48312",
+          "rdfs:label": "Gary Jacquemin",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn185094",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19180",
+          "rdfs:label": "Billy Kl\u00fcver",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn185095",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q48298",
+          "rdfs:label": "Shama Sarabhai",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn185096",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19515",
+          "rdfs:label": "Peter Poole",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn185097",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19558",
+          "rdfs:label": "Robert Whitman",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn185098",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19233",
+          "rdfs:label": "David Tudor",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn185099",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q27760",
+          "rdfs:label": "Chandralekha",
+          "@type": "Person"
+        },
+        "objectHasRole": [
+          {
+            "@id": "semlab:Q20662",
+            "rdfs:label": "performing artist"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          }
+        ]
+      },
+      {
+        "@id": "_:bn185100",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q47722",
+          "rdfs:label": "Air India",
+          "@type": "Business"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49306",
+            "rdfs:label": "semlab:Q49306"
+          }
+        ]
+      }
+    ],
+    "sponsorOf": [
+      {
+        "@id": "_:bn185101",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q24464",
+          "rdfs:label": "American Artists in India",
+          "@type": "Project"
+        },
+        "monetaryAmount": [
+          {
+            "amount": "+500",
+            "unit": "1"
+          }
+        ],
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q50358",
+            "rdfs:label": "Block 312 of Experiments in Art and Technology: A Descriptive History of the Organization",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49154/312.txt"
+          },
+          {
+            "@id": "semlab:Q49349",
+            "rdfs:label": "Block 391 of Experiments in Art and Technology: A Descriptive History of the Organization",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49154/391.txt"
           }
         ]
       }

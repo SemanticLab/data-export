@@ -5,7 +5,7 @@
     "rdfs:label": "Space Girl",
     "partOfProject": [
       {
-        "@id": "_:bn170063",
+        "@id": "_:bn189870",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -16,7 +16,7 @@
     ],
     "usedIn": [
       {
-        "@id": "_:bn170064",
+        "@id": "_:bn189871",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19382",
@@ -28,6 +28,16 @@
             "@id": "semlab:Q24662",
             "rdfs:label": "Block 28 of The Story of E.A.T. (pp.1-30)",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q24021/28.txt"
+          },
+          {
+            "@id": "semlab:Q47172",
+            "rdfs:label": "Block 14 of 9 Evenings Reconsidered: Art, Theatre, and Engineering, 1966 (catalogue)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q47156/14.txt"
+          },
+          {
+            "@id": "semlab:Q49379",
+            "rdfs:label": "Block 71 of Robert Rauschenberg, Robert Whitman and Billy Kl\u00fcver: From '9 Evenings' to 'Experiments in Art and Technology'",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49155/71.txt"
           }
         ]
       }
@@ -37,7 +47,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn170065",
+        "@id": "_:bn189872",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28963",
@@ -50,6 +60,24 @@
       {
         "@value": "https://semlab.s3.amazonaws.com/images/Q24343.jpg"
       }
+    ],
+    "performer": [
+      {
+        "@id": "_:bn189873",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19647",
+          "rdfs:label": "Ulla Lyttkens",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49379",
+            "rdfs:label": "Block 71 of Robert Rauschenberg, Robert Whitman and Billy Kl\u00fcver: From '9 Evenings' to 'Experiments in Art and Technology'",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49155/71.txt"
+          }
+        ]
+      }
     ]
   },
   {
@@ -61,7 +89,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn170066",
+        "@id": "_:bn189874",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28963",
@@ -72,7 +100,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn170067",
+        "@id": "_:bn189875",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -96,7 +124,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn170068",
+        "@id": "_:bn189876",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28963",
@@ -107,7 +135,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn170069",
+        "@id": "_:bn189877",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -118,7 +146,7 @@
     ],
     "partOf": [
       {
-        "@id": "_:bn170070",
+        "@id": "_:bn189878",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q29700",
@@ -149,7 +177,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn170071",
+        "@id": "_:bn189879",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28963",
@@ -160,7 +188,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn170072",
+        "@id": "_:bn189880",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -184,7 +212,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn170073",
+        "@id": "_:bn189881",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28963",
@@ -195,7 +223,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn170074",
+        "@id": "_:bn189882",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -214,7 +242,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn170075",
+        "@id": "_:bn189883",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28963",
@@ -225,7 +253,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn170076",
+        "@id": "_:bn189884",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -249,7 +277,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn170077",
+        "@id": "_:bn189885",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q28963",
@@ -260,7 +288,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn170078",
+        "@id": "_:bn189886",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -272,6 +300,249 @@
     "wikidataQid": [
       {
         "@value": "Q34201"
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q47012",
+    "rdfs:label": "Jedediah Buxton (character in Kisses Sweeter Than Wine)",
+    "@type": [
+      "Character"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn189887",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28963",
+          "rdfs:label": "character",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn189888",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn189889",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19382",
+          "rdfs:label": "Kisses Sweeter Than Wine",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q47172",
+            "rdfs:label": "Block 14 of 9 Evenings Reconsidered: Art, Theatre, and Engineering, 1966 (catalogue)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q47156/14.txt"
+          },
+          {
+            "@id": "semlab:Q50136",
+            "rdfs:label": "Block 56 of Sensing the Future: Experiments in Art and Technology (E.A.T.)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49157/56.txt"
+          }
+        ]
+      }
+    ],
+    "performer": [
+      {
+        "@id": "_:bn189890",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19556",
+          "rdfs:label": "Robert Rauschenberg",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q47172",
+            "rdfs:label": "Block 14 of 9 Evenings Reconsidered: Art, Theatre, and Engineering, 1966 (catalogue)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q47156/14.txt"
+          },
+          {
+            "@id": "semlab:Q50136",
+            "rdfs:label": "Block 56 of Sensing the Future: Experiments in Art and Technology (E.A.T.)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49157/56.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q47019",
+    "rdfs:label": "Jell-O Girl",
+    "@type": [
+      "Character"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn189891",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28963",
+          "rdfs:label": "character",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn189892",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn189893",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19382",
+          "rdfs:label": "Kisses Sweeter Than Wine",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q47172",
+            "rdfs:label": "Block 14 of 9 Evenings Reconsidered: Art, Theatre, and Engineering, 1966 (catalogue)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q47156/14.txt"
+          },
+          {
+            "@id": "semlab:Q49379",
+            "rdfs:label": "Block 71 of Robert Rauschenberg, Robert Whitman and Billy Kl\u00fcver: From '9 Evenings' to 'Experiments in Art and Technology'",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49155/71.txt"
+          }
+        ]
+      }
+    ],
+    "performer": [
+      {
+        "@id": "_:bn189894",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19648",
+          "rdfs:label": "Ulla Wiggen",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49379",
+            "rdfs:label": "Block 71 of Robert Rauschenberg, Robert Whitman and Billy Kl\u00fcver: From '9 Evenings' to 'Experiments in Art and Technology'",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49155/71.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q48459",
+    "rdfs:label": "Frogman",
+    "@type": [
+      "Character"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn189895",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28963",
+          "rdfs:label": "character",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn189896",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn189897",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19382",
+          "rdfs:label": "Kisses Sweeter Than Wine",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49412",
+            "rdfs:label": "Block 70 of Robert Rauschenberg, Robert Whitman and Billy Kl\u00fcver: From '9 Evenings' to 'Experiments in Art and Technology'",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49155/70.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q49124",
+    "rdfs:label": "Charles and George (twins in Kisses Sweeter Than Wine)",
+    "@type": [
+      "Character"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn189898",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28963",
+          "rdfs:label": "character",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn189899",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "usedIn": [
+      {
+        "@id": "_:bn189900",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19382",
+          "rdfs:label": "Kisses Sweeter Than Wine",
+          "@type": "PerformanceArtwork(Concept)"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q50136",
+            "rdfs:label": "Block 56 of Sensing the Future: Experiments in Art and Technology (E.A.T.)",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49157/56.txt"
+          }
+        ]
       }
     ]
   }

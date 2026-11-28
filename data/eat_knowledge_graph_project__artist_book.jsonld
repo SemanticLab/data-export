@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn159653",
+        "@id": "_:bn176204",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q21588",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn159654",
+        "@id": "_:bn176205",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -30,7 +30,7 @@
     ],
     "creator": [
       {
-        "@id": "_:bn159655",
+        "@id": "_:bn176206",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37233",
@@ -60,7 +60,7 @@
     ],
     "shownAt": [
       {
-        "@id": "_:bn159656",
+        "@id": "_:bn176207",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q38456",
@@ -72,6 +72,89 @@
             "@id": "semlab:Q41657",
             "rdfs:label": "Block 0 of Acquisitions I: 'Extraordinary'",
             "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q40303/0.txt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q48683",
+    "rdfs:label": "The Singer Notes",
+    "@type": [
+      "ArtistBook"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn176208",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q21588",
+          "rdfs:label": "artist book",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn176209",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "creator": [
+      {
+        "@id": "_:bn176210",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28495",
+          "rdfs:label": "Mel Bochner",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49890",
+            "rdfs:label": "Block 180 of 'To Avoid the Waste of a Cultural Revolution': Experiments in Art and Technology",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28974/180.txt"
+          },
+          {
+            "@id": "semlab:Q50072",
+            "rdfs:label": "Block 363 of 'To Avoid the Waste of a Cultural Revolution': Experiments in Art and Technology",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q28974/363.txt"
+          }
+        ]
+      }
+    ],
+    "date": [
+      {
+        "@value": {
+          "time": "+1968-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "author": [
+      {
+        "@id": "_:bn176211",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q28495",
+          "rdfs:label": "Mel Bochner",
+          "@type": "Person"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q50303",
+            "rdfs:label": "Block 230 of Experiments in Art and Technology: A Descriptive History of the Organization",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49154/230.txt"
           }
         ]
       }

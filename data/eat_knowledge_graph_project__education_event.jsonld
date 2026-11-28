@@ -8,7 +8,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn166427",
+        "@id": "_:bn185058",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25969",
@@ -19,7 +19,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn166428",
+        "@id": "_:bn185059",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -30,7 +30,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn166429",
+        "@id": "_:bn185060",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q37281",
@@ -54,7 +54,7 @@
     ],
     "organizer": [
       {
-        "@id": "_:bn166430",
+        "@id": "_:bn185061",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q35592",
@@ -92,7 +92,7 @@
     ],
     "instanceOf": [
       {
-        "@id": "_:bn166431",
+        "@id": "_:bn185062",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q25969",
@@ -103,7 +103,7 @@
     ],
     "partOfProject": [
       {
-        "@id": "_:bn166432",
+        "@id": "_:bn185063",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q19104",
@@ -114,7 +114,7 @@
     ],
     "contributor": [
       {
-        "@id": "_:bn166433",
+        "@id": "_:bn185064",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q43342",
@@ -138,7 +138,7 @@
     ],
     "organizer": [
       {
-        "@id": "_:bn166434",
+        "@id": "_:bn185065",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q43392",
@@ -156,7 +156,7 @@
     ],
     "uses": [
       {
-        "@id": "_:bn166435",
+        "@id": "_:bn185066",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24497",
@@ -172,7 +172,7 @@
         ]
       },
       {
-        "@id": "_:bn166436",
+        "@id": "_:bn185067",
         "@type": "RelEvent",
         "agentObj": {
           "@id": "semlab:Q24483",
@@ -192,6 +192,78 @@
       {
         "@value": {
           "time": "+1969-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://raw.githubusercontent.com/SemanticLab/data-export/main/context/context.jsonld",
+    "@id": "semlab:Q48845",
+    "rdfs:label": "Composition of Experimental Music (course, New School, 1956-1958)",
+    "@type": [
+      "EducationEvent"
+    ],
+    "instanceOf": [
+      {
+        "@id": "_:bn185068",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q25969",
+          "rdfs:label": "education event",
+          "@type": "Class"
+        }
+      }
+    ],
+    "partOfProject": [
+      {
+        "@id": "_:bn185069",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q19104",
+          "rdfs:label": "E.A.T. Knowledge Graph Project",
+          "@type": "SemanticLabProject"
+        }
+      }
+    ],
+    "location": [
+      {
+        "@id": "_:bn185070",
+        "@type": "RelEvent",
+        "agentObj": {
+          "@id": "semlab:Q22480",
+          "rdfs:label": "New School",
+          "@type": "School"
+        },
+        "referenceBlock": [
+          {
+            "@id": "semlab:Q49176",
+            "rdfs:label": "Block 20 of Experiments in Art and Technology: A Descriptive History of the Organization",
+            "blockTextURL": "https://semlab.s3.amazonaws.com/texts/Q49154/20.txt"
+          }
+        ]
+      }
+    ],
+    "startTime": [
+      {
+        "@value": {
+          "time": "+1956-00-00T00:00:00Z",
+          "timezone": 0,
+          "before": 0,
+          "after": 0,
+          "precision": 9,
+          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+        }
+      }
+    ],
+    "endTime": [
+      {
+        "@value": {
+          "time": "+1958-00-00T00:00:00Z",
           "timezone": 0,
           "before": 0,
           "after": 0,
